@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Mandelbrot set</h1>
+        <h3>inspired by: http://progur.com/2017/02/create-mandelbrot-fractal-javascript.html</h3>
+        <script>
+            var colour = false;
+            var maxIterations = 20;
+            var magnify = 300;
+            var panX = 1.6;
+            var panY = 1;
+            var myCanvas = document.createElement("canvas");
+            myCanvas.height = 600;
+            myCanvas.width = 600;
+            document.body.appendChild(myCanvas);
+            var ctx = myCanvas.getContext("2d");
+
+            (function() {
+                drawMandelbrot();
+
+                window.onkeydown = function(event) {
+                    switch(event.keyCode) {
+                        default:
+                            break;
+                        case 38: // up arrow
+                            panY = panY + 0.1;
+                            break;
+                        case 40: // down arrow
+                            panY = panY - 0.1;
+                            break;
+                        case 37: // left arrow
+                            panX = panX + 0.1;
+                            break;
+                        case 39: // right arrow
+                            panX = panX - 0.1;
+                            break;
+                        case 90: // 'z' (zoom in)
+                            magnify = magnify + 100;
+                            break;
+                        case 88: // 'x' (zoom out)
+                            magnify = magnify - 100;
+                            break;
+                        case 65: // 'a' (increase complexity)
+                            maxIterations += 10
+                            break;
+                        case 83: // 's' (decrease complexity)
+                            maxIterations -= 10
+                            break;
+                        case 67: // 'c' (colorise)
+                            colour = !colour;
+                            break;
+                        case 80: // 'p' (print stuff to console
+                            console.log("colour: " + colour);
+                            console.log("magnify: " + magnify);
+                            console.log("panX: " + panX);
+                            console.log("panY: " + panY);
+                            console.log("maxIterations: " + maxIterations);
+                            break;
+                        case 82: // 'r' (reset)
+                            colour = false;
+                            magnify = 300;
+                            maxIterations = 20;
+                            panX = 1.6;
+                            panY = 1;
+                            break;
+                    }
+                    ctx.clearRect(0, 0, myCanvas.width, myCanvas.height);
+                    drawMandelbrot();
+                }
+            })();
+
+            function drawMandelbrot() {
+                for (var x = 0; x < myCanvas.width; x++) {
+                    for (var y = 0; y < myCanvas.height; y++) {
+                        var rst = isMandelbrot(x/magnify - panX, y/magnify - panY);
+                        if (rst == 0) {
+                            // in set
+                            ctx.fillStyle = "black"
+                        } else {
+                            // not in set
+                            ctx.fillStyle = "white";
+                            if (colour) {
+                                ctx.fillStyle = "hsl(0, 100%, "+rst+"%)";
+                            }
+                        }
+                        ctx.fillRect(x, y, 1, 1);
+                    }
+                }
+            }
+
+            // returns 0 if in mandelbrot set, another number if not
+            function isMandelbrot(x, y) {
+                var real = x;
+                var imaginary = y;
+
+                for(var i = 0; i < maxIterations; i++) {
+                    var tmpReal = real * real - imaginary * imaginary + x;
+                    var tmpImaginary = 2 * real * imaginary + y;
+                    real = tmpReal;
+                    imaginary = tmpImaginary;
+
+                    if (real * imaginary >= 5) {
+                        return (i/maxIterations) * 100;
+                    }
+                }
+                return 0;
+            }
+        </script>
+        <h1>Instructions:</>
+            <h2>ARROW KEYS to explore<br>
+                Z - zoom in<br>
+                X - zoom out<br>
+                A - increase rendering complexity<br>
+                S - decrease rendering complexity<br>
+                C - enable <font color="red">colour</font><br>
+                R - reset<br>
+                P - print stuff to console<br>
+    </body>
+</html>

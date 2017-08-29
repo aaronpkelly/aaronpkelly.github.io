@@ -1,3 +1,20 @@
+# use github pages to completely control this site
+jekyll is great, but as soon as you change a theme using github pages, it
+completely fucks up your site. use github pages to control as much as possible
+
+# hacking a theme? don't use the layouts/default.html file!!!
+this is a hidden file used by github pages to apply your theme. if you want
+to hack around with the theme, edit ANYTHING but this file
+
+just reference the `default.html` file instead, using for example, a
+`layouts/home.html` file:
+```
+---
+layout: default
+---
+include {*% blah.html %} ...
+```
+
 # tracking build progress
 build messages will appear in the `settings` section of the github repo.
 

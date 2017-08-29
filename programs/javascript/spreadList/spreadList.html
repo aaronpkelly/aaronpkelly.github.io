@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script type="text/javascript" src="spreadList.js"></script>
+    </head>
+    <body>
+        <h1> Spreadlist</h1>
+        <hr>
+        <h3>Spread your tasks over a period of time!</h3>
+        <form name="myForm">
+            Enter each task on a different line:
+            <br>
+            <textarea rows="10" cols="50" id="myTextArea">
+Task0
+Task1
+Task2</textarea>
+
+            <br>
+            Enter how much time (in minutes) you have to complete them:
+            <br>
+            <input type="text" name="myForm_timeAvailable" value="60">
+        </form>
+
+        <p>
+            <button type="button" onclick="main()">Click me to create alarms!</button>
+        </p>
+
+        <h2> Your alarms </h2>
+        <p id="stdout_time">waiting for input...</p>
+        <p id="tableSection">
+        <table id="myTable">
+        </table>
+        </p>
+
+        <h4>Note: a cinematic guitar will play when there is 5 minutes remaining for a task.</h4>
+        <h4>A  plucked guitar will play when an alarm has expired</h4>
+    </body>
+</html>
