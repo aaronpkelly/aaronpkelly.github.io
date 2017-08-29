@@ -8,7 +8,12 @@ permalink: /projects/
 [generatePlaylist](https://github.com/aaronpkelly/generatePlaylist) - playlist
 generator in `.pls` format
 
+<a href="{{ site.url }}/projects/javascript/mandelbrot/mandelbrot.html">Mandelbrot set generator</a>
+
 # in development
+<a href="{{ site.url }}/projects/python/chaosBox/chaosBox.html">chaosBox</a>
+<a href="{{ site.url }}/projects/javascript/spreadList/spreadList.html">spreadList</a>
+
 algorithm quiz
 <progress value="0" max="100"></progress>
 

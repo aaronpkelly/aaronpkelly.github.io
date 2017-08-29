@@ -1,4 +1,0 @@
-for file in ~/src/spreadList/*
-do
-    ln -sn $file
-done
