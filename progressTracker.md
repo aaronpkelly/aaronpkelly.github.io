@@ -58,6 +58,9 @@ https://www.w3schools.com/sql/
 front end development certification
 <progress value="1" max="13">
 
+AWS Educate
+<progress value="0" max="100"></progress>
+
 # software and technology
 ## automation
 ansible quick start guide
