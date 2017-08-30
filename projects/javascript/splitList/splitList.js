@@ -14,8 +14,8 @@ var ALARM_DELTA = 500; // the amount of difference we can forgive
 var ALARM_DELTA_EARLY = 60000 * 5; // 1 min
 var AUDIO = true;
 var MS_PER_MINUTE = 60000; // 1 min
-var alarm = new Audio('alarm_guitarReverb.flac');
-var alarmEarly = new Audio('alarmWarning_guitarCinematic.flac');
+// var alarm = new Audio('alarm_guitarReverb.flac');
+// var alarmEarly = new Audio('alarmWarning_guitarCinematic.flac');
 var alarms_totalAllocationTime = 60;
 var alarms_deadline = new Date()
 var alarms = [];
@@ -24,7 +24,9 @@ var isRunning = false;
 var playedAlarms = [];
 var table_alarms = document.getElementById("table_alarms");
 var tasks = []
-var tick = new Audio('tick.wav');
+var audio_tick;
+var audio_alarm;
+var audio_alarm_early;
 
 function addTask(){
     task = document.getElementById("myTextarea").value
@@ -44,17 +46,25 @@ function checkAlarms() {
         var alarmVariance = Math.abs(currentTime.getTime() - alarms[i].getTime());
         if (alarmVariance < ALARM_DELTA) {
             if (AUDIO == true) {
-                alarm.play();
+                audio_alarm.play();
             }
         }
         if (alarmVariance < ALARM_DELTA_EARLY) {
             if (playedAlarms.indexOf(i) == -1) {
                 if (AUDIO == true) {
-                    alarmEarly.play();
+                    audio_alarm_warning.play();
                 }
                 playedAlarms.push(i);
             }
         }
+    }
+}
+
+function checkUserInput() {
+    var key = window.event.keyCode;
+
+    if (key == 13) {
+        addTask();
     }
 }
 
@@ -67,14 +77,6 @@ function clearAlarmState() {
         for (var i = table_alarms.rows.length - 1; i >= 0; i--) {
 	  table_alarms.deleteRow(i);
 	}
-    }
-}
-
-function checkUserInput() {
-    var key = window.event.keyCode;
-
-    if (key == 13) {
-        addTask();
     }
 }
 
@@ -107,13 +109,22 @@ function convertDateToString(currentTime) {
     return hours + ":" + minutes + ":" + seconds;
 }
 
+function createAudioElements() {
+    audio_tick = document.createElement("audio");
+    audio_tick.setAttribute("src", "tick.ogg");
+    audio_alarm = document.createElement("audio");
+    audio_alarm.setAttribute("src", "alarm.ogg");
+    audio_alarm_warning = document.createElement("audio");
+    audio_alarm_warning.setAttribute("src", "alarm_warning.ogg");
+}
+
 function redraw() {
     currentTime = new Date();
 
     document.getElementById("stdout_time").innerHTML = "current time: " + convertDateToString(currentTime);
     document.getElementById("stdout_deadline").innerHTML = "deadline: " + convertDateToString(alarms_deadline);
 
-    console.log(convertDateToString(currentTime));
+    // console.log(convertDateToString(currentTime));
 
     regenerateTasks();
     if (isRunning == true) {
@@ -122,8 +133,8 @@ function redraw() {
     checkAlarms();
 
     if (AUDIO == true) {
-        console.log("tick");
-        tick.play();
+        // console.log("tick");
+        audio_tick.play();
     }
 }
 
@@ -210,5 +221,6 @@ function splitTextareaIntoString() {
 */
 
 window.onload = function(){
+   createAudioElements();
    setInterval("redraw()", 1000);
 }
