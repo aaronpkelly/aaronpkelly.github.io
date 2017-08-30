@@ -10,7 +10,7 @@
         <form name="myForm">
             <h2>Step 1: add some tasks</h2>
             <br>
-            <textarea rows="1" cols="20" id="myTextarea"></textarea>
+            <textarea rows="1" cols="20" id="myTextarea" onkeypress="checkUserInput()"></textarea>
             <br>
             <button name="btn-add-task" type="button" value="Add task" onclick="addTask()">Add task</button>
 
@@ -22,7 +22,8 @@
             <input type="text" name="myForm_timeAvailable" value="60">
             <br>
             <h2>Step 3: Create/Update alarms!</h2>
-            <button name="btn-add--alarms" type="button" value="createAlarms" onclick="toggleRunning()">Create/Update alarms</button>
+            <button name="btn-add-alarms" type="button" value="createAlarms" onclick="toggleRunning()">Create/Update alarms</button>
+            <button name="btn-audio-off" type="button" value="Audio toggle" onclick="toggleAudio()">Toggle audio</button>
         </form>
 
         <p id="stdout_time">current time: </p>

@@ -12,7 +12,7 @@ for i, item in enumerate(items):
 
 var ALARM_DELTA = 500; // the amount of difference we can forgive
 var ALARM_DELTA_EARLY = 60000 * 5; // 1 min
-var AUDIO_TICK_PLAY = true;
+var AUDIO = true;
 var MAGIC_NUMBER = 60000; // 1 min
 var isRunning = false;
 var alarm = new Audio('alarm_guitarReverb.flac');
@@ -42,11 +42,15 @@ function checkAlarms() {
     for (i = 0; i < alarms.length; i++) {
         var alarmVariance = Math.abs(currentTime.getTime() - alarms[i].getTime());
         if (alarmVariance < ALARM_DELTA) {
-            alarm.play();
+            if (AUDIO == true) {
+                alarm.play();
+            }
         }
         if (alarmVariance < ALARM_DELTA_EARLY) {
             if (playedAlarms.indexOf(i) == -1) {
-                alarmEarly.play();
+                if (AUDIO == true) {
+                    alarmEarly.play();
+                }
                 playedAlarms.push(i);
             }
         }
@@ -60,8 +64,16 @@ function clearAlarmState() {
 
     if (table_alarms != null) {
         for (var i = table_alarms.rows.length - 1; i >= 0; i--) {
-	  table_alarms.deleteRow(i); 
+	  table_alarms.deleteRow(i);
 	}
+    }
+}
+
+function checkUserInput() {
+    var key = window.event.keyCode;
+
+    if (key == 13) {
+        addTask();
     }
 }
 
@@ -69,7 +81,7 @@ function clearTasksState() {
     var table_tasks = document.getElementById("table_tasks");
     if (table_tasks != null) {
         for (var i = table_tasks.rows.length - 1; i >= 0; i--) {
-	  table_tasks.deleteRow(i); 
+	  table_tasks.deleteRow(i);
 	}
     }
 }
@@ -90,6 +102,12 @@ function redraw() {
     if (isRunning == true) {
         regenerateAlarms();
     }
+    checkAlarms();
+
+    if (AUDIO == true) {
+        console.log("tick");
+        tick.play();
+    }
 }
 
 function regenerateAlarms() {
@@ -106,9 +124,9 @@ function regenerateAlarms() {
 
     for (var i = 0; i < alarms.length; i++) {
         var str = tasks[i] + " must be completed by: "
-            + (alarms[i].getUTCHours() < 10 ? '0':'') + alarms[i].getUTCHours()
+            + (alarms[i].getHours() < 10 ? '0':'') + alarms[i].getHours()
             + ":"
-            + (alarms[i].getUTCMinutes() < 10 ? '0':'') + alarms[i].getMinutes()
+            + (alarms[i].getMinutes() < 10 ? '0':'') + alarms[i].getMinutes()
             + "\r\n";
         var row = table_alarms.insertRow(i);
         var cell = row.insertCell(0);
@@ -129,6 +147,11 @@ function regenerateTasks() {
 function shiftTasksAndAlarms() {
     alarms.shift();
     tasks.shift();
+}
+
+function toggleAudio() {
+    AUDIO = !AUDIO;
+    console.log("audio is: " + AUDIO);
 }
 
 function toggleRunning() {
@@ -156,10 +179,6 @@ function splitTextareaIntoString() {
 */
 
 function updateTime() {
-    if (AUDIO_TICK_PLAY == true) {
-        tick.play();
-    }
-
     currentTime = new Date();
 
     // some fancy trickery to make sure there is always a zero in front of
