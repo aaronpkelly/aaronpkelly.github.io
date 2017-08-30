@@ -21,12 +21,13 @@
             <br>
             <input type="text" name="myForm_timeAvailable" value="60">
             <br>
-            <h2>Step 3: Create/Update alarms!</h2>
-            <button name="btn-add-alarms" type="button" value="createAlarms" onclick="toggleRunning()">Create/Update alarms</button>
+            <h2>Step 3: Set deadline and go!</h2>
+            <button name="btn-add-alarms" type="button" value="setDeadlineAndGo" onclick="setDeadlineAndGo()">Set deadline and go!</button>
             <button name="btn-audio-off" type="button" value="Audio toggle" onclick="toggleAudio()">Toggle audio</button>
         </form>
 
         <p id="stdout_time">current time: </p>
+        <p id="stdout_deadline">deadline: </p>
         <h2> Your alarms </h2>
         <p id="tableSection">
         <table id="table_alarms">

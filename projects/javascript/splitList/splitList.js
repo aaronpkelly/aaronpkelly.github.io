@@ -13,13 +13,14 @@ for i, item in enumerate(items):
 var ALARM_DELTA = 500; // the amount of difference we can forgive
 var ALARM_DELTA_EARLY = 60000 * 5; // 1 min
 var AUDIO = true;
-var MAGIC_NUMBER = 60000; // 1 min
-var isRunning = false;
+var MS_PER_MINUTE = 60000; // 1 min
 var alarm = new Audio('alarm_guitarReverb.flac');
 var alarmEarly = new Audio('alarmWarning_guitarCinematic.flac');
+var alarms_totalAllocationTime = 60;
+var alarms_deadline = new Date()
 var alarms = [];
-var currentTime;
-var alarmTime;
+var currentTime = new Date();
+var isRunning = false;
 var playedAlarms = [];
 var table_alarms = document.getElementById("table_alarms");
 var tasks = []
@@ -96,8 +97,24 @@ function contains(a, obj) {
     return false;
 }
 
+function convertDateToString(currentTime) {
+
+    // some fancy trickery to make sure there is always a zero in front of
+    // single digits
+    var hours = (currentTime.getHours() < 10? '0':'') + currentTime.getHours();
+    var minutes = (currentTime.getMinutes() < 10? '0':'') + currentTime.getMinutes();
+    var seconds = (currentTime.getSeconds() < 10? '0':'') + currentTime.getSeconds();
+    return hours + ":" + minutes + ":" + seconds;
+}
+
 function redraw() {
-    document.getElementById("stdout_time").innerHTML = "current time: " + updateTime();
+    currentTime = new Date();
+
+    document.getElementById("stdout_time").innerHTML = "current time: " + convertDateToString(currentTime);
+    document.getElementById("stdout_deadline").innerHTML = "deadline: " + convertDateToString(alarms_deadline);
+
+    console.log(convertDateToString(currentTime));
+
     regenerateTasks();
     if (isRunning == true) {
         regenerateAlarms();
@@ -112,13 +129,19 @@ function redraw() {
 
 function regenerateAlarms() {
     clearAlarmState();
-    var timeInMinutes = document.forms["myForm"]["myForm_timeAvailable"].value;
-    var timePerTask = timeInMinutes / tasks.length;
+    // var timeAvailableInMinutes = document.forms["myForm"]["myForm_timeAvailable"].value;
+    var timeAvailableInMS = alarms_deadline.getTime() - currentTime.getTime() ;
+    var timePerTask = timeAvailableInMS / tasks.length;
 
     for (var i = 0; i < tasks.length; i++) {
-        var newDateObj = new Date(alarmTime.getTime() + ((timePerTask * (i+1)) * MAGIC_NUMBER));
-	alarms.push(newDateObj);
+        // var newDateObj = new Date(alarms_totalAllocationTime + ((timePerTask * (i+1)) * MS_PER_MINUTE));
+        var nextAlarm = currentTime.getTime() + (timePerTask * (i+1));
+
+        var newDateObj = new Date(nextAlarm);
+        alarms.push(newDateObj);
     }
+
+    // console.log(alarms);
 
     var table_alarms = document.getElementById("table_alarms");
 
@@ -135,13 +158,26 @@ function regenerateAlarms() {
 }
 
 function regenerateTasks() {
-    clearTasksState();
-    var table_tasks = document.getElementById("table_tasks");
-    for (var i = 0; i < tasks.length; i++) {
-        var row = table_tasks.insertRow();
-        var cell = row.insertCell(0);
-        cell.innerHTML = tasks[i];
+    if (isRunning == false) {
+        clearTasksState();
+        var table_tasks = document.getElementById("table_tasks");
+        for (var i = 0; i < tasks.length; i++) {
+            var row = table_tasks.insertRow();
+            var cell = row.insertCell(0);
+            cell.innerHTML = tasks[i];
+        }
     }
+}
+
+function setDeadline() {
+    var timeAllocatedInMins = document.forms["myForm"]["myForm_timeAvailable"].value;
+    alarms_deadline = new Date(currentTime.getTime() + (timeAllocatedInMins * MS_PER_MINUTE));
+}
+
+function setDeadlineAndGo() {
+    clearTasksState();
+    setDeadline();
+    isRunning = true;
 }
 
 function shiftTasksAndAlarms() {
@@ -152,11 +188,6 @@ function shiftTasksAndAlarms() {
 function toggleAudio() {
     AUDIO = !AUDIO;
     console.log("audio is: " + AUDIO);
-}
-
-function toggleRunning() {
-    isRunning = true;
-    alarmTime = new Date();
 }
 
 /*  TODO: dont delete - document code first
@@ -178,17 +209,6 @@ function splitTextareaIntoString() {
 }
 */
 
-function updateTime() {
-    currentTime = new Date();
-
-    // some fancy trickery to make sure there is always a zero in front of
-    // single digits
-    var hours = (currentTime.getHours() < 10? '0':'') + currentTime.getHours();
-    var minutes = (currentTime.getMinutes() < 10? '0':'') + currentTime.getMinutes();
-    var seconds = (currentTime.getSeconds() < 10? '0':'') + currentTime.getSeconds();
-    return hours + ":" + minutes + ":" + seconds;
-}
-
 window.onload = function(){
-        setInterval("redraw()", 1000);
+   setInterval("redraw()", 1000);
 }
