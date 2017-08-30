@@ -11,8 +11,8 @@ generator in `.pls` format
 <a href="{{ site.url }}/projects/javascript/mandelbrot/mandelbrot.html">Mandelbrot set generator</a>
 
 # in development
-<a href="{{ site.url }}/projects/python/chaosBox/">chaosBox</a>
-<a href="{{ site.url }}/projects/javascript/spreadList/spreadList.html">spreadList</a>
+<a href="{{ site.url }}/projects/python/chaosBox/">chaosBox</a><br>
+<a href="{{ site.url }}/projects/javascript/splitList/splitList.html">SplitList</a>
 
 algorithm quiz
 <progress value="0" max="100"></progress>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="spreadList.js"></script>
+    </head>
+    <body>
+        <h1> SplitList - Why do everything at once?</h3>
+        <form name="myForm">
+            <h2>Step 1: add some tasks</h2>
+            <br>
+            <textarea rows="1" cols="20" id="myTextarea"></textarea>
+            <br>
+            <button name="btn-add-task" type="button" value="Add task" onclick="addTask()">Add task</button>
+
+            <table id="table_tasks"></table>
+
+            <br>
+            <h2>Step 2: enter how much time (in minutes) you have to complete them</h2>
+            <br>
+            <input type="text" name="myForm_timeAvailable" value="60">
+            <br>
+            <h2>Step 3: Create/Update alarms!</h2>
+            <button name="btn-add--alarms" type="button" value="createAlarms" onclick="toggleRunning()">Create/update alarms</button>
+        </form>
+
+        <p id="stdout_time">current time: </p>
+        <h2> Your alarms </h2>
+        <p id="tableSection">
+        <table id="table_alarms">
+        </table>
+        </p>
+
+	<button name="btn-task-complete" type="button" onclick="shiftTasksAndAlarms()">Complete task</button>
+
+        <h4>Notes:</h4>
+        <h4>a cinematic guitar will play when there is 5 minutes remaining for a task.</h4>
+        <h4>A  plucked guitar will play when an alarm has expired</h4>
+
+	<h2>todo</h2>
+	<ul>
+		<li>remove steps 2 and 3 when initial tasks are set</li>
+	</ul>
+
+		
+    </body>
+</html>
