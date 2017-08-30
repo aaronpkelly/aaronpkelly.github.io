@@ -12,7 +12,7 @@ generator in `.pls` format
 
 # in development
 <a href="{{ site.url }}/projects/python/chaosBox/">chaosBox</a><br>
-<a href="{{ site.url }}/projects/javascript/splitList/splitList.html">SplitList</a>
+<a href="{{ site.url }}/projects/javascript/timeboxer/timeboxer.html">Timeboxer</a>
 
 algorithm quiz
 <progress value="0" max="100"></progress>
