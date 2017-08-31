@@ -3,50 +3,58 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css">
-        <script type="text/javascript" src="timeboxer.js"></script>
+
+        <!-- it's important to defer the script until after the html loads -->
+        <script type="text/javascript" src="timeboxer.js" defer></script>
     </head>
 
     <body>
-        <h1> Timeboxer - Why do everything at once?</h3>
-        <form name="myForm">
-            <h2>Step 1: add some tasks</h2>
-            <br>
-            <textarea rows="1" cols="20" id="myTextarea" onkeypress="checkUserInput()"></textarea>
-            <br>
-            <button name="btn-add-task" type="button" value="Add task" onclick="addTask()">Add task</button>
+        <div id="div-addTasks" class="header">
+        <h2 style="margin:5px">Timeboxer - "$Random Quote$"</h2>
+        <input type="text" id="input-tasks" placeholder="add some tasks!">
+        <span onclick="newElement()" class="btn-add">Add</span>
+        </div>
 
-            <table id="table_tasks"></table>
+        <ul id="myUL">
+        </ul>
 
-            <br>
-            <h2>Step 2: enter how much time (in minutes) you have to complete them</h2>
-            <br>
-            <input type="text" name="myForm_timeAvailable" value="60">
-            <br>
-            <h2>Step 3: Set deadline and go!</h2>
-            <button name="btn-add-alarms" type="button" value="setDeadlineAndGo" onclick="setDeadlineAndGo()">Set deadline and go!</button>
-            <button name="btn-audio-off" type="button" value="Audio toggle" onclick="toggleAudio()">Toggle audio</button>
-        </form>
+
+        <!--
+        <h2>Step 1: add some tasks</h2>
+        <br>
+        <textarea rows="1" cols="20" id="myTextarea" onkeypress="checkUserInput()"></textarea>
+        <br>
+        <button name="btn-add-task" type="button" value="Add task" onclick="addTask()">Add task</button>
+        <table id="table_tasks"></table>
+        -->
+
+
+        <p>
+        <h2>How long do you have to complete all these tasks?</h2>
+        <input type="text" id="textarea_timeAvailable" value="60">
+        <br><br>
+        </p>
+
+        <p>
+        <button name="btn-add-alarms" type="button" value="setDeadlineAndGo" onclick="setDeadlineAndGo()">timebox me!</button>
+        <button name="btn-audio-off" type="button" value="Audio toggle" onclick="toggleAudio()">toggle audio</button>
+        <button name="btn-cookies" type="button" onclick="checkCookie()">save session</button>
+        <button name="btn-cookies" type="button" onclick="checkCookie()">clear session</button>
+        </p>
 
         <p id="stdout_time">current time: </p>
         <p id="stdout_deadline">deadline: </p>
-        <h2> Your alarms </h2>
+        <h2>Your timebox alarms:</h2>
         <p id="tableSection">
         <table id="table_alarms">
         </table>
         </p>
 
-	<button name="btn-task-complete" type="button" onclick="shiftTasksAndAlarms()">Complete task</button>
+        <h4>Dev notes:</h4>
+        <h3>- after a new redesign, lots of things are broken</h3>
+        <h3>- but take heart! everything can be fixed</h3>
 
-        <h4>Notes:</h4>
-        <h4>a cinematic guitar will play when there is 5 minutes remaining for a task.</h4>
-        <h4>A  plucked guitar will play when an alarm has expired</h4>
-
-	<h2>todo</h2>
-	<ul>
-		<li>remove steps 2 and 3 when initial tasks are set</li>
-	</ul>
-
-    <br>
-    <a href="https://github.com/aaronpkelly/timeboxer">view this project on github</a>
-    </body>
+        <br>
+        <a href="https://github.com/aaronpkelly/timeboxer">view this project on github</a>
+        </body>
 </html>

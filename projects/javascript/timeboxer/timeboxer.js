@@ -23,23 +23,23 @@ var currentTime = new Date();
 var isRunning = false;
 var playedAlarms = [];
 var table_alarms = document.getElementById("table_alarms");
-var tasks = []
+//var tasks = []
 var audio_tick;
 var audio_alarm;
 var audio_alarm_early;
 
+/*
 function addTask(){
     task = document.getElementById("myTextarea").value
-
     if (task == "") {
         return -1;
     }
-
     if (!contains(task)) {
         tasks.push(task)
         document.getElementById("myTextarea").value = "";
     }
 }
+*/
 
 function checkAlarms() {
     for (i = 0; i < alarms.length; i++) {
@@ -126,7 +126,7 @@ function redraw() {
 
     // console.log(convertDateToString(currentTime));
 
-    regenerateTasks();
+    // regenerateTasks();
     if (isRunning == true) {
         regenerateAlarms();
     }
@@ -139,12 +139,12 @@ function redraw() {
 }
 
 function regenerateAlarms() {
+    var myNodeList = document.getElementsByTagName("LI");
     clearAlarmState();
-    // var timeAvailableInMinutes = document.forms["myForm"]["myForm_timeAvailable"].value;
     var timeAvailableInMS = alarms_deadline.getTime() - currentTime.getTime() ;
-    var timePerTask = timeAvailableInMS / tasks.length;
+    var timePerTask = timeAvailableInMS / myNodeList.length;
 
-    for (var i = 0; i < tasks.length; i++) {
+    for (var i = 0; i < myNodeList.length; i++) {
         // var newDateObj = new Date(alarms_totalAllocationTime + ((timePerTask * (i+1)) * MS_PER_MINUTE));
         var nextAlarm = currentTime.getTime() + (timePerTask * (i+1));
 
@@ -157,7 +157,7 @@ function regenerateAlarms() {
     var table_alarms = document.getElementById("table_alarms");
 
     for (var i = 0; i < alarms.length; i++) {
-        var str = tasks[i] + " must be completed by: "
+        var str = "task " + i + " must be completed by: "
             + (alarms[i].getHours() < 10 ? '0':'') + alarms[i].getHours()
             + ":"
             + (alarms[i].getMinutes() < 10 ? '0':'') + alarms[i].getMinutes()
@@ -181,7 +181,8 @@ function regenerateTasks() {
 }
 
 function setDeadline() {
-    var timeAllocatedInMins = document.forms["myForm"]["myForm_timeAvailable"].value;
+    var timeAllocatedInMins = document.getElementById("textarea_timeAvailable").value
+    console.log(timeAllocatedInMins)
     alarms_deadline = new Date(currentTime.getTime() + (timeAllocatedInMins * MS_PER_MINUTE));
 }
 
@@ -201,7 +202,7 @@ function toggleAudio() {
     console.log("audio is: " + AUDIO);
 }
 
-/*  TODO: dont delete - document code first
+/* TODO: dont delete - document code first
 function splitTextareaIntoString() {
     var myTextarea = document.getElementById("myTextarea").value;
     var tasks_split = myTextarea.split("\n");
@@ -220,7 +221,67 @@ function splitTextareaIntoString() {
 }
 */
 
+// -------------------------------------
+// a very nice task manager by W3Schools
+// -------------------------------------
 
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("input-tasks").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    // alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("input-tasks").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+
+// cookies! this feature only works online (will not work for local pages)
 function setCookie(cname,cvalue,exdays) {
     var d = new Date();
     // d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -259,6 +320,5 @@ function checkCookie() {
 
 window.onload = function(){
     createAudioElements();
-    checkCookie();
     setInterval("redraw()", 1000);
 }
