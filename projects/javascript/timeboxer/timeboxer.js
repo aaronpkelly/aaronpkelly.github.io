@@ -143,14 +143,10 @@ function regenerateAlarms() {
     var timeAvailableInMS = alarms_deadline.getTime() - alarms_start.getTime() ;
     var timePerTask = timeAvailableInMS / myNodeList.length;
 
-
-
     for (var i = 0; i < myNodeList.length; i++) {
         // var newDateObj = new Date(alarms_totalAllocationTime + ((timePerTask * (i+1)) * MS_PER_MINUTE));
         var nextAlarm = alarms_start.getTime() + (timePerTask * (i+1));
-        console.log(currentTime.getTime());
         var newDateObj = new Date(nextAlarm);
-        console.log(newDateObj.getTime());
         alarms.push(newDateObj);
     }
 
@@ -193,7 +189,7 @@ function regenerateTasks() {
 }
 
 function session_clear() {
-	alert("please clear cookies manually for now");
+    setCookie("tasks_cookie", "", COOKIE_EXPIRY_IN_DAYS);
 }
 
 function session_save() {
@@ -202,7 +198,6 @@ function session_save() {
 
 function setDeadline() {
     var timeAllocatedInMins = document.getElementById("textarea_timeAvailable").value
-    console.log(timeAllocatedInMins)
     alarms_deadline = new Date(currentTime.getTime() + (timeAllocatedInMins * MS_PER_MINUTE));
     alarms_start = new Date(currentTime.getTime());
 }
@@ -258,7 +253,6 @@ list.addEventListener('click', function(ev) {
 function newElement(element_name) {
 	if (element_name != "newElement") {
 		var inputValue = element_name;
-		console.log("creating" + element_name);
 	} else {
 		var inputValue = document.getElementById("input-tasks").value;
 	}
@@ -276,7 +270,6 @@ function newElement(element_name) {
 	} else {
 	    document.getElementById("myUL").appendChild(li);
 	    tasks.push(inputValue) // for saving in a cookie
-	    console.log(tasks)
 	}
 	document.getElementById("input-tasks").value = "";
 
