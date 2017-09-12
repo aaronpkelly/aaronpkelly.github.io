@@ -140,7 +140,7 @@ function regenerateAlarms() {
     var myNodeList = document.getElementsByTagName("LI");
     var myUL = document.getElementById("myUL");
     clearAlarmState();
-    var timeAvailableInMS = alarms_deadline.getTime() - currentTime.getTime() ;
+    var timeAvailableInMS = alarms_deadline.getTime() - alarms_start.getTime() ;
     var timePerTask = timeAvailableInMS / myNodeList.length;
 
 
