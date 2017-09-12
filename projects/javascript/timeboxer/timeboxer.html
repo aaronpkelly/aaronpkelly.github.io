@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 
-        <!-- it's important to defer the script until after the html loads -->
-        <script type="text/javascript" src="timeboxer.js" defer></script>
-    </head>
+		<!-- it's important to defer the script until after the html loads -->
+		<script type="text/javascript" src="timeboxer.js" defer></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="div-addTasks" class="header">
+			<h2 class="text-primary text-center">Timeboxer - "$Random Quote$"</h2>
+			<input type="text" id="input-tasks" placeholder="add some tasks!" onkeypress="checkUserInput()">
+			<span onclick="newElement('newElement')" class="btn-add">Add</span>
+			</div>
 
-    <body>
-        <div id="div-addTasks" class="header">
-        <h2 style="margin:5px">Timeboxer - "$Random Quote$"</h2>
-        <input type="text" id="input-tasks" placeholder="add some tasks!">
-        <span onclick="newElement()" class="btn-add">Add</span>
-        </div>
-
-        <ul id="myUL">
-        </ul>
-
-
-        <!--
-        <h2>Step 1: add some tasks</h2>
-        <br>
-        <textarea rows="1" cols="20" id="myTextarea" onkeypress="checkUserInput()"></textarea>
-        <br>
-        <button name="btn-add-task" type="button" value="Add task" onclick="addTask()">Add task</button>
-        <table id="table_tasks"></table>
-        -->
+			<ul id="myUL">
+			</ul>
 
 
-        <p>
-        <h2>How long do you have to complete all these tasks?</h2>
-        <input type="text" id="textarea_timeAvailable" value="60">
-        <br><br>
-        </p>
+			<!--
+			<h2>Step 1: add some tasks</h2>
+			<br>
+			<textarea rows="1" cols="20" id="myTextarea" onkeypress="checkUserInput()"></textarea>
+			<br>
+			<button name="btn-add-task" type="button" value="Add task" onclick="addTask()">Add task</button>
+			<table id="table_tasks"></table>
+			-->
 
-        <p>
-        <button name="btn-add-alarms" type="button" value="setDeadlineAndGo" onclick="setDeadlineAndGo()">timebox me!</button>
-        <button name="btn-audio-off" type="button" value="Audio toggle" onclick="toggleAudio()">toggle audio</button>
-        <button name="btn-cookies" type="button" onclick="checkCookie()">save session</button>
-        <button name="btn-cookies" type="button" onclick="checkCookie()">clear session</button>
-        </p>
 
-        <p id="stdout_time">current time: </p>
-        <p id="stdout_deadline">deadline: </p>
-        <h2>Your timebox alarms:</h2>
-        <p id="tableSection">
-        <table id="table_alarms">
-        </table>
-        </p>
+			<p>
+			<h2 class="text-center">How long do you have to complete all these tasks?</h2>
+			<input type="text" id="textarea_timeAvailable" value="60">
+			<br><br>
+			</p>
 
-        <h4>Dev notes:</h4>
-        <h3>- after a new redesign, lots of things are broken</h3>
-        <h3>- but take heart! everything can be fixed</h3>
+			<p>
+			<button class="btn btn-block btn-primary" name="btn-add-alarms" type="button" value="setDeadlineAndGo" onclick="setDeadlineAndGo()">timebox me!</button>
+			<div class="row">
+				<div class="col-xs-3">
+					<button class="btn btn-block btn-info" name="btn-info" type="button">about</button>
+				</div>
+				<div class="col-xs-3">
+					<button class="btn btn-block" name="btn-audio-off" type="button" value="Audio toggle" onclick="toggleAudio()">toggle audio</button>
+				</div>
+				<div class="col-xs-3">
+					<button class="btn btn-block" name="btn-cookies" type="button" onclick="session_save()">save session</button>
+				</div>
+					
+				<div class="col-xs-3">
+					<button class="btn btn-block btn-danger" name="btn-cookies" type="button" onclick="session_clear()">clear session</button>
+				</div>
 
-        <br>
-        <a href="https://github.com/aaronpkelly/timeboxer">view this project on github</a>
+			</div>
+			</p>
+
+			<p id="stdout_deadline">complete all tasks by: </p>
+			<p id="stdout_time">current time: </p>
+			<h2>next task must be completed by:</h2>
+			<p id="tableSection">
+			<table id="table_alarms">
+			</table>
+			</p>
+
+			<hr>
+			<h4>How it works:</h4>
+			<p> Timeboxer puts each of your tasks into time 'boxes', and sets an individual goal
+			</p>
+
+			<br>
+			<a href="https://github.com/aaronpkelly/timeboxer">view this project on github</a>
+		</div>
         </body>
 </html>

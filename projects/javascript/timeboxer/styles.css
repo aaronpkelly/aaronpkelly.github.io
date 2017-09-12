@@ -78,7 +78,7 @@ color: white;
 .header {
 background-color: #f44336;
 padding: 30px 40px;
-color: white;
+color: black;
 text-align: center;
 }
 
@@ -96,6 +96,7 @@ width: 75%;
 padding: 10px;
 float: left;
 font-size: 16px;
+color: #555;
 }
 
 /* Style the "Add" button */
