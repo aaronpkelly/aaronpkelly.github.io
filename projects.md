@@ -9,6 +9,12 @@ permalink: /projects/
 [generatePlaylist](https://github.com/aaronpkelly/playlistGenerator) - playlist generator in `.pls` format
 
 ## games
+Some of these games are inspired by www.udemy.com/code-your-first-game.
+
+Gamemaker Studio (available at https://yoyogames.com/download/studio/free) is
+a popular development environment of mine as it can compile to many different
+target environments (like mobile)
+
 <a href="{{ site.url }}/projects/javascript/games/pong/pong.html">pong</a>
 
 <a href="{{ site.url }}/projects/javascript/games/snake/snake.html">snake</a>
