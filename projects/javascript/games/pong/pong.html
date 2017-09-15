@@ -1,0 +1,137 @@
+<html>
+<canvas id="gameCanvas" height="480" width="640"></canvas>
+
+<script>
+// via https://www.udemy.com/code-your-first-game/learn/v4/t/lecture/2701894?start=0
+const PADDLE_HEIGHT = 100;
+
+var ai_movementAmount = 5;
+var ballCounterClockwise = true;
+var ballEndingAngle = 2*Math.PI;
+var ballRadius = 10;
+var ballSpeedDelta = 0.1;
+var ballSpeedX = 5;
+var ballSpeedY = 5;
+var ballStartingAngle = 0;
+var ballStartX = 100;
+var ballStartY = 100;
+var ballX = ballStartX;
+var ballY = ballStartY;
+var canvas;
+var canvasContext;
+var paddle1Y = 0;
+var paddle2Y = 0;
+var paddleX = 0;
+var paddleY = 0;
+var scorePlayer1 = 0;
+var scorePlayer2 = 0;
+
+window.onload = function() {
+	var framesPerSecond = 30;
+	canvas = document.getElementById("gameCanvas");
+	canvasContext = canvas.getContext('2d');	
+	paddleY = canvas.height / 2;
+	setInterval(function() {
+		move();
+		draw();
+	}, 1000/framesPerSecond);
+
+	canvas.addEventListener('mousemove',
+		function(evt) {
+			var mousePos = calculateMousePos(evt);
+			paddle1Y = mousePos.y - (PADDLE_HEIGHT / 2);
+		});
+}
+
+function ballReset() {
+	ballX = ballStartX;
+	ballY = ballStartY;
+	ballSpeedX = Math.sqrt(Math.pow(ballSpeedX,2));
+	ballSpeedY = Math.sqrt(Math.pow(ballSpeedY,2));
+	
+}
+
+function calculateMousePos(evt) {
+	var rect = canvas.getBoundingClientRect();
+	var root = document.documentElement;
+	var mouseX = evt.clientX - rect.left - root.scrollLeft;
+	var mouseY = evt.clientY - rect.top - root.scrollTop;
+	return {
+		x:mouseX,
+		y:mouseY
+	};
+}
+
+function computeAIMovement() {
+	if (paddle2Y < ballY) {
+		paddle2Y += Math.random() * ai_movementAmount;
+	} else if (paddle2Y > ballY) {
+		paddle2Y -= Math.random() * ai_movementAmount;
+	}
+}
+
+function move() {
+	ballX += ballSpeedX;
+	ballY += ballSpeedY;
+
+	// AI movemnt
+	computeAIMovement();
+
+	if (ballX > canvas.width) {
+		if (ballY > paddle2Y &&
+			ballY < paddle2Y + PADDLE_HEIGHT) {
+				ballSpeedX = -ballSpeedX;
+
+			var deltaY =  ballY - (paddle2Y + (PADDLE_HEIGHT / 2));
+			ballSpeedY = deltaY * ballSpeedDelta;
+		} else {
+			scorePlayer1 += 1;
+			ballReset();
+		}
+	} else if (ballX < 0) {
+		if (ballY > paddle1Y &&
+			ballY < paddle1Y + PADDLE_HEIGHT) {
+				ballSpeedX = -ballSpeedX;
+			var deltaY =  ballY - (paddle1Y + (PADDLE_HEIGHT / 2));
+			ballSpeedY = deltaY * ballSpeedDelta;
+		} else {
+			scorePlayer2 += 1;
+			ballReset();
+		}
+	} else if (ballY >= canvas.height) {
+		ballSpeedY = -ballSpeedY;
+	} else if (ballY < 0) {
+		ballSpeedY = -ballSpeedY;
+	}
+	console.log(ballY);
+}
+
+function draw() {
+	// canvas
+	colourRect(0, 0, canvas.width, canvas.height, 'black');
+
+	// paddles
+	colourRect(0, paddle1Y, 10, PADDLE_HEIGHT, "white");
+	colourRect(canvas.width - 10, paddle2Y, 10, PADDLE_HEIGHT, "white");
+
+	// ball
+	colourCircle(ballX, ballY, ballRadius, ballStartingAngle, ballEndingAngle, ballCounterClockwise, "red");
+
+	// score
+	canvasContext.fillText("player1 score:" + scorePlayer1, canvas.width/4, canvas.height/4);
+	canvasContext.fillText("player2 score:" + scorePlayer2, canvas.width - canvas.width/4, canvas.height/4);
+}
+
+function colourCircle(centerX, centerY, radius, startingAngle, endingAngle, isDrawnClockwise, drawColour) {
+	canvasContext.beginPath();
+	canvasContext.fillStyle = drawColour;
+	canvasContext.arc(centerX, centerY, radius, startingAngle, endingAngle, isDrawnClockwise);
+	canvasContext.fill();
+}
+
+function colourRect(leftX, topY, width, height, drawColour) {
+	canvasContext.fillStyle = drawColour;
+	canvasContext.fillRect(leftX, topY, width, height);
+}
+</script>
+</html>

@@ -1,0 +1,2 @@
+cp ~/src/timeboxer/timeboxer* .
+cp ~/src/timeboxer/styles.css .

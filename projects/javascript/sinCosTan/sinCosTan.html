@@ -1,0 +1,56 @@
+<html>
+<canvas id="gameCanvas" height="480" width="600"></canvas>
+
+<script>
+var canvas;
+var canvasContext;
+var plotHeight = 1;
+var plotStep = 1;
+var plotWidth = 1;
+var x = 0;
+var x_increment = 0.1;
+var x_plot = 0;
+var sin_plot = 0;
+var cos_plot = 0;
+var tan_plot = 0;
+
+window.onload = function() {
+	var framesPerSecond = 1;
+	canvas = document.getElementById("gameCanvas");
+	canvasContext = canvas.getContext('2d');	
+
+	canvasContext.beginPath();
+	canvasContext.moveTo(0, 0);
+
+
+	setInterval(function() {
+		calculate();
+		draw();
+	}, 1000/framesPerSecond);
+}
+
+function calculate() {
+	if ((x == 2) || (x == 0)) {
+		x_increment *= -1;
+	}
+	x += x_increment;
+	sin_plot = (Math.sin(x) + 1) * 100;
+	cos_plot = (Math.cos(x) + 1) * 100;
+	tan_plot = (Math.tan(x) + 1);
+}
+
+function draw() {
+	canvasContext.rect(x_plot, sin_plot, plotHeight, plotWidth);
+	canvasContext.rect(x_plot, cos_plot, plotHeight, plotWidth);
+	canvasContext.rect(x_plot, tan_plot, plotHeight, plotWidth);
+	canvasContext.stroke();
+
+	x_plot += plotStep;
+	
+	// canvasContext.lineTo(x, Y);
+	// canvasContext.stroke();
+	console.log("tan_plot: " + tan_plot);
+}
+
+</script>
+</html>
