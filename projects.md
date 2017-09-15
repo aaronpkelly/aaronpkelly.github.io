@@ -6,7 +6,7 @@ permalink: /projects/
 
 # released
 ## command-line applications
-[generatePlaylist](https://github.com/aaronpkelly/generatePlaylist) - playlist generator in `.pls` format
+[generatePlaylist](https://github.com/aaronpkelly/playlistGenerator) - playlist generator in `.pls` format
 
 ## games
 <a href="{{ site.url }}/projects/javascript/games/pong/pong.html">pong</a>
