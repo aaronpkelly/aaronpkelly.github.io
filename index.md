@@ -2,4 +2,4 @@
 layout: home
 ---
 
-a homepage!
+hello - a homepage!
