@@ -24,6 +24,7 @@ target environments (like mobile)
 
 # in development
 <a href="{{ site.url }}/projects/python/chaosBox/">chaosBox</a><br>
+<a href="{{ site.url }}/projects/python/genreSquib/">genreSquib</a><br>
 <a href="{{ site.url }}/projects/javascript/myHero/myHero.html">myHero</a><br>
 <a href="{{ site.url }}/projects/javascript/timeboxer/timeboxer.html">timeboxer</a>
 

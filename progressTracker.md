@@ -17,7 +17,7 @@ https://learncodethehardway.org/
 
 ## java
 [https://www.hackerrank.com/domains/java]()
-<progress value="2" max="7"></progress>
+<progress value="4" max="7"></progress>
 
 https://learncodethehardway.org/
 <progress value="0" max="100"></progress>
