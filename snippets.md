@@ -1,3 +1,9 @@
+---
+layout: page
+title: snippets
+permalink: /snippets/
+---
+
 # java
 ## functional interfaces
 ### comparator
