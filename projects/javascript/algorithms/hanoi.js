@@ -1,5 +1,14 @@
-func setOutput() {
-	document.getElementById("output").innerHTML = "test";
+function hanoi(int height, String start, String end, String auxiliary) {
+    if (height > 0) {
+        hanoi(height - 1, start, auxiliary, end);
+        setOutput(start + "=>" + end);
+        hanoi(height - 1, auxiliary, end, start);
+    }
 }
 
-setOutput();
+function setOutput(string) {
+	// document.getElementById("output").innerHTML = "test";
+    console.log(string);
+}
+
+hanoi(3, "start", "end", "middle");
