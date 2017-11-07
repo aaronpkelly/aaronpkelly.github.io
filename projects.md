@@ -20,6 +20,11 @@ target environments (like mobile)
 <a href="{{ site.url }}/projects/javascript/games/snake/snake.html">snake</a>
 
 ## web-based applications
+### algorithms
+<a href="{{ site.url }}/projects/javascript/algorithms/hanoi.html">Tower of
+Hanoi</a>
+
+### mathematical
 <a href="{{ site.url }}/projects/javascript/mandelbrot/mandelbrot.html">Mandelbrot set generator</a>
 
 # in development
