@@ -1,4 +1,4 @@
-function hanoi(int height, String start, String end, String auxiliary) {
+function hanoi(height, start, end, auxiliary) {
     if (height > 0) {
         hanoi(height - 1, start, auxiliary, end);
         setOutput(start + "=>" + end);
