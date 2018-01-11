@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Playlist Generator released!
+title: playlistGenerator released!
 date:   2017-06-30 19:54:35 +0000
 categories: website projects
 ---
@@ -17,4 +17,4 @@ in the `.pls` format most commonly used in conjunction with media players such
 as VLC.
 
 The project is available on github:
-[Playlist Generator](https://www.github.com/aaronpkelly/Playlist-Generator)
+[Playlist Generator](https://www.github.com/aaronpkelly/playlistGenerator)
