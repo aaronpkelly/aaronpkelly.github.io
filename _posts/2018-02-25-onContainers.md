@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On containers
-date:   2017-06-30 19:54:35 +0000
+date:   2018-02-25
 categories: containers docker
 ---
 
