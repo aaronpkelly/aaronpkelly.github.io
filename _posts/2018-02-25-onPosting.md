@@ -7,3 +7,4 @@ categories: website posting
 
 Turn each of your public docs into a post.
 There is value in sharing them this way, as a write-up.
+Every post is continually updated, and ideally never goes out of date.
