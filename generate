@@ -3,6 +3,7 @@
 
 echo "# remember: keep this site simple, always" > index.md
 echo "i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content" >> index.md
+echo "" >> index.md
 
 for file in docs/*.md; do
 	echo "[${file}](${file})" >> index.md

@@ -1,5 +1,6 @@
 # remember: keep this site simple, always
 i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content
+
 [docs/2017-06-30-release_playlistGenerator.md](docs/2017-06-30-release_playlistGenerator.md)
 
 [docs/2017-07-01-containersAndJekyll.md](docs/2017-07-01-containersAndJekyll.md)
