@@ -1,0 +1,28 @@
+# this stays at the top - KEEP IT SIMPLE
+use midnight commander, type `select-editor` to select vim, and program as
+much as you can in this environment.
+
+bind a function key to execute your program, e.g. `F9`
+
+# lintcode / leetcode for algorithm examples
+these websites are rich in examples of classical algorithms
+
+# patterns - why read 100 books
+why read 100 books on 100 languages, when you can just learn programming
+patterns and apply them to *any* language you are learning. focus on finding
+the patterns behind everything and learning them
+# report generation - write STDOUT to a markdown compatible file
+don't spend ages pulling out results from your program after its run. write
+all the relevant STDOUT to a file, and make sure what's written is in 
+*markdown format*.
+
+not only do you build great looking reports every time you run your program,
+you can also generate markdown code that builds constructs like html tables
+very easily.
+
+doing all of this also has the happy benefit of making your program generate
+clean and sensible output, as it will appear in a report.
+
+# write pseudocode
+It's amazingly powerful for keeping your mind focussed on whatever algorithm
+or task you are tackling
