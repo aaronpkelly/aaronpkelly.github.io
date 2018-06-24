@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # script for generating an index.md, which github pages automatically publishes
 
-rm index.md
+echo "# remember: keep this site simple, always" > index.md
 
 for file in docs/*.md; do
 	echo "[${file}](${file})" >> index.md
+	echo "" >> index.md
 done
