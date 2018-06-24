@@ -1,16 +1,12 @@
-<html>
-<body>
-	<a href="about.md">about.md</a>
-	<a href="articles.md">articles.md</a>
-	<a href="codex.md">codex.md</a>
-	<a href="dataStructures.md">dataStructures.md</a>
-	<a href="ec2Gaming.md">ec2Gaming.md</a>
-	<a href="interviewQuestions.md">interviewQuestions.md</a>
-	<a href="markdownNotes.md">markdownNotes.md</a>
-	<a href="progressTracker.md">progressTracker.md</a>
-	<a href="projects.md">projects.md</a>
-	<a href="README.md">README.md</a>
-	<a href="snippets.md">snippets.md</a>
-	<a href="talks.md">talks.md</a>
-</body>
-</html>
+[docs/about.md](docs/about.md)
+[docs/articles.md](docs/articles.md)
+[docs/codex.md](docs/codex.md)
+[docs/dataStructures.md](docs/dataStructures.md)
+[docs/ec2Gaming.md](docs/ec2Gaming.md)
+[docs/interviewQuestions.md](docs/interviewQuestions.md)
+[docs/markdownNotes.md](docs/markdownNotes.md)
+[docs/progressTracker.md](docs/progressTracker.md)
+[docs/projects.md](docs/projects.md)
+[docs/README.md](docs/README.md)
+[docs/snippets.md](docs/snippets.md)
+[docs/talks.md](docs/talks.md)
