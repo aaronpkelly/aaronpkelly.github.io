@@ -1,5 +1,6 @@
 # remember: keep this site simple, always
 i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content
+
 any files that you don't want linked on the main page - just remove the .md extension (note: still publically viewable in the repo of course
 
 [docs/00_vision.md](docs/00_vision.md)

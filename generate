@@ -3,6 +3,7 @@
 
 echo "# remember: keep this site simple, always" > index.md
 echo "i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content" >> index.md
+echo "" >> index.md
 echo "any files that you don't want linked on the main page - just remove the .md extension (note: still publically viewable in the repo of course" >> index.md
 echo "" >> index.md
 
