@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# script for generating an index.md, which github pages automatically publishes
+
+echo "<html>" > index.md
+echo "<body>" >> index.md
+
+for file in *.md; do
+	if [[ "$file" != "index.md" ]]; then
+		echo "	<a href=${file}>${file}</a>" >> index.md
+	fi
+done
+
+echo "</body>" >> index.md
+echo "</html>" >> index.md
