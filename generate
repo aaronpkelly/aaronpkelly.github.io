@@ -2,7 +2,7 @@
 # script for generating an index.md, which github pages automatically publishes
 
 echo "# remember: keep this site simple, always" > index.md
-echo "i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content" >> index.html
+echo "i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content" >> index.md
 
 for file in docs/*.md; do
 	echo "[${file}](${file})" >> index.md
