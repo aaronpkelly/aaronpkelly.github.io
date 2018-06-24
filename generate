@@ -12,3 +12,5 @@ done
 
 echo "</body>" >> index.md
 echo "</html>" >> index.md
+
+[about.md](about.md)
