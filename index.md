@@ -1,6 +1,8 @@
 # remember: keep this site simple, always
 i know that github pages has amazing jekyll support, but it's just noise. just use basic markdown for all content
 
+[docs/00_vision.md](docs/00_vision.md)
+
 [docs/2017-06-30-release_playlistGenerator.md](docs/2017-06-30-release_playlistGenerator.md)
 
 [docs/2017-07-01-containersAndJekyll.md](docs/2017-07-01-containersAndJekyll.md)
@@ -37,6 +39,10 @@ i know that github pages has amazing jekyll support, but it's just noise. just u
 
 [docs/ec2Gaming.md](docs/ec2Gaming.md)
 
+[docs/howTo_readme.md](docs/howTo_readme.md)
+
+[docs/howToReadAPaper.md](docs/howToReadAPaper.md)
+
 [docs/interviewQuestions.md](docs/interviewQuestions.md)
 
 [docs/markdownNotes.md](docs/markdownNotes.md)
@@ -50,4 +56,8 @@ i know that github pages has amazing jekyll support, but it's just noise. just u
 [docs/snippets.md](docs/snippets.md)
 
 [docs/talks.md](docs/talks.md)
+
+[docs/utils.md](docs/utils.md)
+
+[docs/writing.md](docs/writing.md)
 
