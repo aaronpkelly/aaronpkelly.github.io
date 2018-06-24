@@ -1,0 +1,369 @@
+My Philosophy
+=============
+Don't just *learn something*.
+Learn the fundamental patterns *below* the something, which can help you to
+learn anything else in that domain.
+
+TODO
+====
+This file has grown too big. just make directories for each topic and
+have a 'learning' file for tracking learning progress
+
+Notes on PDFs vs epubs;
+Prefer epubs. They eschew fancy formatting for a simpler display style and a
+lightweight footprint.
+
+Notes on programming:
+I want to keep different sections for tracking my programming progress - there
+is a book programming section dealing with programming books, and a seperate
+programming section detailing my general interaction and progress with the 
+language
+
+===============================================================================
+# books
+===============================================================================
+
+## algorithms
+MIT Press - Introduction to algorithms
+I've read the preface, next up is 'The Role of Algorithms in Computing'
+
+## college
+### comp30040 Networks and Internet Systems - John Murphy
+http://www.csi.ucd.ie/staff/jmurphy/networks/default.htm
+"Computer Networks", 5th Edition by Andrew S. Tanenbaum and David J. Wetherall
+I've converted a 4th edition from chm->mobi, but I don't know what the quality
+is like on the kindle. Ahh it's ok, images don't display. Grand tho. I love how
+it's written, it flows really nicely! 
+
+## food
+### ratios book
+start scale chapter
+
+## general
+### getting things done
+Started on kindle
+### Pragmatic Thinking And Learning
+http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050
+### Presentation Patterns
+http://www.amazon.com/Presentation-Patterns-Techniques-Crafting-Presentations/dp/0321820800
+### The Design Of The Unix OS
+http://www.amazon.com/gp/product/0132017997?ie=UTF8&tag=diabeticbooks&linkCode=as2&camp=1789&creative=9325&creativeASIN=0132017997
+
+## maths
+### Princeton Companion to Mathematics
+
+## programming
+### general programming
+#### clean code	http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
+I've made it to chapter 10, but I really need to re-read this book.
+
+#### design patterns
+reading O'Reilley's 'Head First Design Patterns'
+Start chapter 2!
+
+theCleanCoder	http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073
+game programming patterns	http://www.amazon.com/Game-Programming-Patterns-Robert-Nystrom/dp/0990582906
+The Pragmatic Programmer
+workingEffectivelyWithLegacyCode	http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052
+Structure and Interpretation of Computer Programs
+refactoring	http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672
+continuous delivery	http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912
+Introduction to Algorithms by Cormen, Leiserson, Rivest & Stein
+xunitTestPatterns	http://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054/
+Design Patterns by the Gang of Four
+Realease it!	http://www.amazon.com/Release-It-Production-Ready-Pragmatic-Programmers/dp/0978739213
+Refactoring: Improving the Design of Existing Code
+pragmatic programmer	http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X
+The Mythical Man Month
+cracking the coding interview	http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X
+Art of Computer Programming by Donald Knuth
+headFirstDesignPatterns http://www.amazon.com/First-Design-Patterns-Elisabeth-Freeman/dp/0596007124
+Compilers: Principles, Techniques and Tools by Alfred V. Aho, Ravi Sethi and Jeffrey D. Ullman
+patternsOfEnterpriseApplicationArchitecture	http://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420
+Goedel, Escher, Bach by Douglas Hofstadter
+thePassionateProgrammer	http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344
+Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin
+landTheTechJobYouLove	http://www.amazon.com/Land-Tech-Love-Pragmatic-Life/dp/1934356263
+Effective C++ 
+apprenticeshipPatterns	http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/
+More Effective C++
+theArtOfAgileDevelopment	http://www.amazon.com/Art-Agile-Development-James-Shore/dp/0596527675
+CODE by Charles Petzold
+effectiveJava	http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683
+Programming Pearls by Jon Bentley
+domainDrivenDesign	http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215
+Working Effectively with Legacy Code by Michael C. Feathers
+DeMarco and Lister - Peopleware 
+Peter Siebel - Coders at work
+Surely You're Joking Mr Feynman!
+Effective Java 2nd Ed
+Patterns of Enterprise Application Architecture by Martin Fowler
+The Inmates Are Running The Asylum: Why High Tech Products
+Test-Driven Development: By Example by Kent Beck
+Practices of an Agile Developer
+
+### language specific
+#### assembly
+Duntemann - Assembly Language Step by Step
+Starting!
+
+#### c 
+C in a nutshell
+The C Programming Language by Kernighan and Ritchie
+Computer Graphics: Principles and Practice in C (2nd Edition)
+
+#### php
+Reading 'headfirst php & mysql' all code samples have been downloaded to /code
+
+#### python
+python cookbook
+#
+#### javascript
+O'Reilley - Javascript - The Good Parts
+Begin chapter 3
+
+#### scheme
+The Little Schemer
+The Seasoned Schemer
+Nutshell?
+
+#### ruby
+O'Reilley - The Ruby Programming Language
+I've started this!
+
+Why's (Poignant) Guide to Ruby
+Ruby In a Nutshell
+
+### Unix
+The Art of Unix Programming
+
+## More resources -unsorted
+http://www.quora.com/How-do-you-keep-your-programming-skills-sharp
+Don't Make Me Think
+Agile Software Development, Principles, Patterns, and
+Practices by Robert C. Martin
+Domain Driven Designs by Eric Evans
+The Design of Everyday Things by Donald Norman
+Modern C++ Design by Andrei Alexandrescu
+Best Software Writing I by Joel Spolsky
+The Practice of Programming by Kernighan and Pike
+Pragmatic Thinking and Learning: Refactor Your Wetware by Andy Hunt
+Software Estimation: Demystifying the Black Art by Steve McConnel
+The Passionate Programmer (My Job Went To India) by Chad Fowler
+Hackers: Heroes of the Computer Revolution
+Algorithms + Data Structures = Programs
+Writing Solid Code
+JavaScript - The Good Parts
+Getting Real by 37 Signals
+Foundations of Programming by Karl Seguin
+Computer Graphics: Principles and Practice in C (2nd Edition)
+Thinking in Java by Bruce Eckel
+The Elements of Computing Systems
+Refactoring to Patterns by Joshua Kerievsky
+Modern Operating Systems by Andrew S. Tanenbaum
+The Annotated Turing
+Things That Make Us Smart by Donald Norman
+The Timeless Way of Building by Christopher Alexander
+The Deadline: A Novel About Project Management by Tom DeMarco
+The C++ Programming Language (3rd edition) by Stroustrup
+Patterns of Enterprise Application Architecture
+Computer Systems - A Programmer's Perspective
+Agile Principles, Patterns, and Practices in C# by Robert C. Martin
+Growing Object-Oriented Software, Guided by Tests
+Framework Design Guidelines by Brad Abrams
+Object Thinking by Dr. David West
+Advanced Programming in the UNIX Environment by W. Richard Stevens
+Hackers and Painters: Big Ideas from the Computer Age
+The Soul of a New Machine by Tracy Kidder
+CLR via C# by Jeffrey Richter
+The Timeless Way of Building by Christopher Alexander
+Design Patterns in C# by Steve Metsker
+Alice in Wonderland by Lewis Carol
+Zen and the Art of Motorcycle Maintenance by Robert M. Pirsig
+About Face - The Essentials of Interaction Design
+Here Comes Everybody: The Power of Organizing Without Organizations by Clay Shirky
+The Tao of Programming
+Computational Beauty of Nature
+Writing Solid Code by Steve Maguire
+Philip and Alex's Guide to Web Publishing
+Object-Oriented Analysis and Design with Applications by Grady Booch
+Effective Java by Joshua Bloch
+Computability by N. J. Cutland
+Masterminds of Programming
+The Tao Te Ching
+The Productive Programmer
+The Art of Deception by Kevin Mitnick
+The Career Programmer: Guerilla Tactics for an Imperfect World by Christopher Duncan
+Paradigms of Artificial Intelligence Programming: Case studies in Common Lisp
+Masters of Doom
+Pragmatic Unit Testing in C# with NUnit by Andy Hunt and Dave Thomas with Matt Hargett
+How To Solve It by George Polya
+The Alchemist by Paulo Coelho
+Smalltalk-80: The Language and its Implementation
+Writing Secure Code (2nd Edition) by Michael Howard
+Introduction to Functional Programming by Philip Wadler and Richard Bird
+No Bugs! by David Thielen
+Rework by Jason Freid and DHH
+JUnit in Action
+
+================================================================================
+# programming
+================================================================================
+
+## adventofcode.com
+i'm about halfway through!
+
+## assembly
+I've started reading one of the books
+
+## c
+I'm reading C in a nutshell
+
+## c++
+
+## java
+Reading
+- Goodrich and Tamassia - Data Structures in Java
+- Evans-Flanagan_ java in a nutshell
+On chapter 2.3, data types
+
+I'm also trying to make it my primary language for coding projects
+
+## lintcode
+
+## php
+
+## php
+See book section
+
+## python
+
+## topcoder
+I'm using the past problems on arena.topcoder.com to practice my algortihm
+skills - working good so far!
+
+## web technologies
+### comp20030
+Finished all Chapter* files
+
+###exercism.io
+
+## html / css / javascript
+- Udemy course, progress is tracked on the website
+- Reading JavaScript: the Good Parts book
+
+================================================================================
+# certs
+================================================================================
+## CISCO CCNA
+Packettracer is a great virtual learning environment for Cisco routers
+http://computernetworkingnotes.com/cisco-devices-administration-and-configuration/packet-tracer.html
+## CompTIA
+### A+
+Have started a CBT nuggets course but I'll probably have to restart
+Tools and ESD - Started (20:26)
+
+## Network+
+Reading Lamle,Todd_Network+DeluxeStudyGuide
+Taking chapter 1 "Review questions" on page 85
+There is also a well reviewed book from Michael Meyers, available as an azw3 file on gen.lib.rus.ec
+Professor Messer - https://www.youtube.com/watch?v=lSK1d8fZyEw&list=PL3DB54B154E6D121D
+
+CBT nuggets - 
+TCP Addressing 1 - Completed
+TCP Addressing 2 - Started
+Security+	
+CASP	
+Server+	
+CTT+	
+CDIA+	
+Linux+	
+Project+	
+CTP+	
+PDI+	
+Storage+	
+Cloud Essentials	
+## ITIL
+I skipped to Service Operation, chapter 5? The bit that concerns me the most. I suppose I have to go back and check the rest
+http://thames.cls.globalknowledge.co.uk/gkcls/clients/client19/courses/course1723/
+
+================================================================================
+# job
+================================================================================
+
+================================================================================
+# languages
+================================================================================
+## german
+### German Grammar Book
+working my way through the oxford german grammar book - I need to write up a 
+page each on the conjugation of a weak verb (sagen), a strong verb (fangen)
+and a mixed verb (fangen).
+After that, I can proceed to page 12, minor irregularities in verbs
+### Pimsleur
+Completed German 1 lessons 30-31, working backwards! Need to read the pdf to become familiar with the words
+
+================================================================================
+# ITIL
+================================================================================
+I skipped to Service Operation, chapter 5? The bit that concerns me the most. I suppose I have to go back and check the rest
+http://thames.cls.globalknowledge.co.uk/gkcls/clients/client19/courses/course1723/
+
+================================================================================
+# linux
+================================================================================
+## gentoo
+## linux from scratch
+A g++ compiler error has stopped me in my tracks.
+
+===============================================================================
+# maths
+===============================================================================
+
+===============================================================================
+# music
+================================================================================
+## irish folk and ballads
+Fiddler's Green
+She Moved Through the Fair
+
+================================================================================
+# online courses
+================================================================================
+## coursera
+### algorithms: design and analysis
+https://www.coursera.org/course/algo
+Haven't started - but got it on a good recommendation
+### Learning How to Learn
+## codeSchool
+### Mastering Github
+## edx
+### Intro to Linux
+currently at chapter 12 - i really like the course
+## MIT open courseware
+## MIT Introduction to Algorithms
+lecture01 - 12m
+Note: Started from lec19
+[NOK] Lecture 19 - Introduction to algorithms (@22min, need to finish)
+###MIT computer science course
+https://www.youtube.com/watch?v=Pij6J0HsYFA
+###MIT linear algebra course
+30:30 - http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/lecture-3-multiplication-and-inverse-matrices/
+## udemy
+### Complete web developers course
+I took a break for a while - this expires 25 June
+https://www.udemy.com/complete-web-developer-course
+I'm using my web hosting space to learn php
+
+================================================================================
+# web
+================================================================================
+## comp20030
+Finished all Chapter* files
+exercism.io
+
+================================================================================
+# youtube
+================================================================================
+## operator37
+Create channel content about command line lifestyle

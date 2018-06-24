@@ -1,0 +1,26 @@
+professional development - no training track, career map, nothing offered to us to improve our skills, no talks on progressing within the company.
+
+there is no effective training plan or "ramp up" in place for new starters, they are not given comprehensive training before sitting at the desk, almost the entire training comes from 24x7 team members while they are working
+
+there seems to be little effort going into improving our desk, there have been entire weekends where we have been left to work in a broken network, there feels like there is little consideration for our team members, and morale is low over pay issues
+
+on the "day to day" level, we feel that our supervisors can be out of touch with current issues and hot topics. 22nd July, Google patching - after the 11am finish the FIAS report server was still broken, the afs FTP + samba share was still unavailable, there were 20 broken BCOS streams and Google+Amazon+Paymentech were still not notified. The last contact we had with our supervisors (as 12:50) we had last spoken to Karen at 8am and only said hello to Jonathan when he came into the office at 12. We spoke to Karen at 12:50 only after Google emailed us to ask what was going on
+
+call volumes - on the same date, 22nd July, I took 30 incoming phonecalls. Between me+keith+christian, that would be 90 calls per day, which is the same as requiring 2 full time call centre agents taking 10 calls an hour with 3 minutes per call and a 60 second wrap up time. the call volume needs to be reduced. 
+ - incident response recordings
+ - reduction of password reset tickets
+
+burnout
+
+we are left out of important IT changes, eg. the web proxy rollout - this went to management but not to us. We are the ones that have to take all the calls from users when things go wrong in the morning, and we have no idea what's going on
+
+2nd level have a weekly IT meeting, we have a bi-monthly meeting if we are lucky.
+there are IT meetings (which 24x7 are not a part of) where valuable information is not passed to 24x7. eg - QWIKI
+
+we are concerned about tasks that are delegated to members of our team that result in them being taken off the desk during working hours, which results in their operational tasks being delayed and an increase of workload on the other members
+
+our knowledgebase isn't reviewed enough, we think especially with all the new starters that these documents should be proofread
+
+call volumes. the number of passwords resets that are required over the phone are very high. we feel all these system should have a "self-service" option built into them. 3 helpdesk agents took 90 calls over an 8 hour period. in a call centre environment, this is equivalent to needing  two full-time agents just to handle calls.
+
+there are so many checks on nagios we don't really understand what they do
