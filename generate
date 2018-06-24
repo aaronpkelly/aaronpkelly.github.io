@@ -6,7 +6,7 @@ echo "<body>" >> index.md
 
 for file in *.md; do
 	if [[ "$file" != "index.md" ]]; then
-		echo "	<a href=${file}>${file}</a>" >> index.md
+		echo "	<a href=\""${file}"\">"${file}"</a>" >> index.md
 	fi
 done
 
