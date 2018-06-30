@@ -1,4 +1,4 @@
 digraph G {
-	git -> jenkinsDSLSeedRepo
-	jenkinsDSLSeedRepo -> createAllJenkinsJobs
+	git -> jenkinsDSLSeedRepo;
+	jenkinsDSLSeedRepo -> createAllJenkinsJobs;
 }

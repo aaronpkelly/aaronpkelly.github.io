@@ -1,0 +1,4 @@
+for file in *.dot; do
+	dot -Tps "$file" -o "$file".ps
+	dot -Tpng "$file" -o "$file".png
+done
