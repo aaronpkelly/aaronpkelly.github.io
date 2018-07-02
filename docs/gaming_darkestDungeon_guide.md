@@ -14,12 +14,12 @@
 # Expedition table
 | category / location	| ruins 			| weald | warrens | cove |
 | -- | -- | -- | -- | -- |
-| enemy type 		| unholy 			| human,eldritch,beast		|
-| primary provisions	| HW SK				| AV B S			|
-| dot weakness		| blight 			| bleed				|
-| important curios 	| decorative urn, holy fountain | troublingEffigy,travellersTent|
-| suggested party/strat	| crusader, unholy/pure dmg	| hellion,marks,extraSupplies	|
-| suggested provisions	| A0B0F8HW2MH0S2SK3T6		| A2B2F12HW1MH1S3SK1T9		|
+| enemy type 		| unholy 			| human,eldritch,beast		| | |
+| primary provisions	| HW SK				| AV B S			| | |
+| dot weakness		| blight 			| bleed				| | |
+| important curios 	| decorative urn, holy fountain | troublingEffigy,travellersTent| | |
+| suggested party/strat	| crusader, unholy/pure dmg	| hellion,marks,extraSupplies	| | |
+| suggested provisions	| A0B0F8HW2MH0S2SK3T6		| A2B2F12HW1MH1S3SK1T9		| | |
 
 ## Key
 A: Antivenom, B: Bandage, F: Food, HW: HolyWater, MH: Medicinal Herbs, S: Shovel, SK: Skeleton Key, T: Torch
