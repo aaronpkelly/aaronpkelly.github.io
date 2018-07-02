@@ -5,8 +5,6 @@ any files that you don't want linked on the main page - just remove the .md exte
 
 [docs/00_vision.md](docs/00_vision.md)
 
-[docs/2017-06-30-release_playlistGenerator.md](docs/2017-06-30-release_playlistGenerator.md)
-
 [docs/2017-07-01-containersAndJekyll.md](docs/2017-07-01-containersAndJekyll.md)
 
 [docs/2017-07-13-gamifyingLearning.md](docs/2017-07-13-gamifyingLearning.md)
@@ -35,19 +33,27 @@ any files that you don't want linked on the main page - just remove the .md exte
 
 [docs/articles.md](docs/articles.md)
 
+[docs/automation.md](docs/automation.md)
+
 [docs/codex.md](docs/codex.md)
 
 [docs/dataStructures.md](docs/dataStructures.md)
 
 [docs/ec2Gaming.md](docs/ec2Gaming.md)
 
-[docs/howTo_readme.md](docs/howTo_readme.md)
+[docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
+
+[docs/gaming_warcraft_guide.md](docs/gaming_warcraft_guide.md)
 
 [docs/howToReadAPaper.md](docs/howToReadAPaper.md)
+
+[docs/howTo_readme.md](docs/howTo_readme.md)
 
 [docs/interviewQuestions.md](docs/interviewQuestions.md)
 
 [docs/markdownNotes.md](docs/markdownNotes.md)
+
+[docs/myProjects.md](docs/myProjects.md)
 
 [docs/progressTracker.md](docs/progressTracker.md)
 
