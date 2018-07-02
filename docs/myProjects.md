@@ -1,5 +1,5 @@
 # accomplice
-[accomplice][https://github.com/aaronpkelly/accomplice]
+[accomplice](https://github.com/aaronpkelly/accomplice)
 
 # audioBookmark
 bookmark a podcast using an audio snipped
