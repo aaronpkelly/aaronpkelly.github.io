@@ -13,7 +13,7 @@
 
 # Expedition table
 | category / location	| ruins 			| weald | warrens | cove |
-| - | - | - | - | - |
+| -- | -- | -- | -- | -- |
 | enemy type 		| unholy 			| human,eldritch,beast		|
 | primary provisions	| HW SK				| AV B S			|
 | dot weakness		| blight 			| bleed				|
