@@ -1,8 +1,8 @@
 - create value from everything
 - why is a doc in a private repo? expose it. move all docs from private repos into my website
-- expose as much as your projects/writing publically as possible
 - try to monetize some good ideas
 - keep the number of repos in your ~environment to a minumum, to eliminate task switching
+- one repo should be directly mapped to one project/idea. everything else should be considered a publically viewable doc
 
 all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
