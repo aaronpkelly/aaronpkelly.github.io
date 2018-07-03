@@ -1,0 +1,1 @@
+- use https://reviewmeta.com/ to check for product reviews
