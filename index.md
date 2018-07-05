@@ -23,8 +23,6 @@ any files that you don't want linked on the main page - just remove the .md exte
 
 [docs/2018-02-25-onContainers.md](docs/2018-02-25-onContainers.md)
 
-[docs/2018-02-25-onInvesting.md](docs/2018-02-25-onInvesting.md)
-
 [docs/2018-02-25-onPosting.md](docs/2018-02-25-onPosting.md)
 
 [docs/2018-02-25-onPurchasing.md](docs/2018-02-25-onPurchasing.md)
@@ -54,6 +52,8 @@ any files that you don't want linked on the main page - just remove the .md exte
 [docs/markdownNotes.md](docs/markdownNotes.md)
 
 [docs/myProjects.md](docs/myProjects.md)
+
+[docs/onFinanceAndInvesting.md](docs/onFinanceAndInvesting.md)
 
 [docs/progressTracker.md](docs/progressTracker.md)
 
