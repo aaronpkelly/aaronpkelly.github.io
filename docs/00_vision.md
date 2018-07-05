@@ -4,6 +4,9 @@
 - keep the number of repos in your ~environment to a minumum, to eliminate task switching
 - one repo should be directly mapped to one project/idea. everything else should be considered a publically viewable doc
 
+Turn each of your public docs into a post.
+There is value in sharing them
+
 all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
 all writing about specific topics should be in their own named markdown file
