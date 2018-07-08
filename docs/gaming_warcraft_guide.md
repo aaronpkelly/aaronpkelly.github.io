@@ -34,9 +34,9 @@ loremaster of legion: complete all major zone quests
 broken isles diplomat: earn rep with the zone faction
 
 | *zone* | | *dungeon* | *factions* | *class responsible* |
-| aszuna | eyeOfAshzarah | courtOfFarondis | demonHunter|
+| aszuna | eyeOfAshzarah | courtOfFarondis | warlock |
 | stormheim | mawOfSouls+hallsOfValour | valarjar | shaman |
-| suramar | none |  nightfallen | ? |
+| suramar(110 zone) | none |  nightfallen | demonHunter |
 | val'sharah | darkheartThicket | dreamweavers | mage |
 | highmountain | neltharionsLair | highmountainTribe | priest |
 
