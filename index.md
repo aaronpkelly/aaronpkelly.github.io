@@ -22,39 +22,7 @@ Specific guides for specific topics.
 Documents beginning with _on.._ will contain collected wisdom and opinion about
 a particular topic.
 Any general writing should be in a file prefixed with _on*_, e.g.
-*onLivingFrugally.md*[docs/2017-07-01-containersAndJekyll.md](docs/2017-07-01-containersAndJekyll.md)
-
-[docs/2017-07-13-gamifyingLearning.md](docs/2017-07-13-gamifyingLearning.md)
-
-[docs/2017-08-04-javascriptAppsAndJekyll.md](docs/2017-08-04-javascriptAppsAndJekyll.md)
-
-[docs/2017-08-10-inDevelopment_chaosBox.md](docs/2017-08-10-inDevelopment_chaosBox.md)
-
-[docs/2017-08-10-inDevelopment_spreadList.md](docs/2017-08-10-inDevelopment_spreadList.md)
-
-[docs/2017-08-10-release_Mandelbrot.md](docs/2017-08-10-release_Mandelbrot.md)
-
-[docs/2017-08-16-onAutomation.md](docs/2017-08-16-onAutomation.md)
-
-[docs/2017-09-24-tinyQuest_developerLog.md](docs/2017-09-24-tinyQuest_developerLog.md)
-
-[docs/2018-02-25-onContainers.md](docs/2018-02-25-onContainers.md)
-
-[docs/2018-02-25-onPosting.md](docs/2018-02-25-onPosting.md)
-
-[docs/2018-02-25-onPurchasing.md](docs/2018-02-25-onPurchasing.md)
-
-[docs/about.md](docs/about.md)
-
-[docs/automation.md](docs/automation.md)
-
-[docs/codex.md](docs/codex.md)
-
-[docs/dataStructures.md](docs/dataStructures.md)
-
-[docs/ec2Gaming.md](docs/ec2Gaming.md)
-
-[docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
+*onLivingFrugally.md*[docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
 
 [docs/gaming_warcraft_guide.md](docs/gaming_warcraft_guide.md)
 
@@ -62,25 +30,7 @@ Any general writing should be in a file prefixed with _on*_, e.g.
 
 [docs/howToReadAPaper.md](docs/howToReadAPaper.md)
 
-[docs/howTo_readme.md](docs/howTo_readme.md)
-
-[docs/interviewQuestions.md](docs/interviewQuestions.md)
-
-[docs/markdownNotes.md](docs/markdownNotes.md)
-
-[docs/myProjects.md](docs/myProjects.md)
-
-[docs/progressTracker.md](docs/progressTracker.md)
-
 [docs/projects.md](docs/projects.md)
 
 [docs/README.md](docs/README.md)
-
-[docs/snippets.md](docs/snippets.md)
-
-[docs/talks.md](docs/talks.md)
-
-[docs/utils.md](docs/utils.md)
-
-[docs/writing.md](docs/writing.md)
 
