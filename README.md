@@ -15,7 +15,11 @@ There is value in sharing them
 all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
 
+# the _howTo.._ series
+Specific guides for specific topics.
+
 ## _on.._ series
-Documents beginning with _on.._ will contain collected wisdom about a particular
-topic.
-any general writing should be in a file prefixed with _on*_, e.g. *onFinance.md*
+Documents beginning with _on.._ will contain collected wisdom and opinion about
+a particular topic.
+Any general writing should be in a file prefixed with _on*_, e.g.
+*onLivingFrugally.md*

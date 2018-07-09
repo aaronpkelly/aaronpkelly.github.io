@@ -1,6 +1,3 @@
-TODO:
-- tidy up doc, i've squished some together here
-
 # Bank accounts
 Get an account that charges no fees. In Ireland there is the EBS MoneyManager
 account.
@@ -10,11 +7,10 @@ Also, if you get a Revolut card, you essentially have a UK bank account.
 
 
 
-
-
-
-
-
+# Savings
+## AER is your friend
+Annual equivalent rate is the interest rate calculated for your investment per
+annum. This is the value you should be looking for.
 
 
 
@@ -28,11 +24,6 @@ Also, if you get a Revolut card, you essentially have a UK bank account.
 
 
 # Investing
-## First up..
-## AER is your friend
-Annual equivalent rate is the interest rate calculated for your investment per
-annum
-
 ## Read the KID/KIID document for your potential investment
 Every ETF or investment product has a KID/KIID document (Key (Investor)
 Information Document).
@@ -278,9 +269,7 @@ To take profit @ $2.90: use Sell; Order Type : Limit Order & enter price $2.90
 
 
 
-# Acronyms
-## RSU
-Restricted stock unit. Restricted stock units (RSUs) are issued to an employee through a vesting plan and distribution schedule after achieving required performance milestones or upon remaining with their employer for a particular length of time. RSUs give an employee interest in company stock but have no tangible value until vesting is complete. The restricted stock units are assigned a fair market value when they vest. Upon vesting, they are considered income, and a portion of the shares are withheld to pay income taxes. The employee receives the remaining shares and can sell them at their discretion.
+
 
 
 
@@ -332,3 +321,7 @@ http://www.valueireland.com/
 investopedia.com
 https://www.askaboutmoney.com/forums/investments.9/
 https://www.irishtimes.com/business/personal-finance
+
+# Acronyms
+## RSU
+Restricted stock unit. Restricted stock units (RSUs) are issued to an employee through a vesting plan and distribution schedule after achieving required performance milestones or upon remaining with their employer for a particular length of time. RSUs give an employee interest in company stock but have no tangible value until vesting is complete. The restricted stock units are assigned a fair market value when they vest. Upon vesting, they are considered income, and a portion of the shares are withheld to pay income taxes. The employee receives the remaining shares and can sell them at their discretion.
