@@ -15,10 +15,14 @@ There is value in sharing them
 all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
 
+# the _howTo.._ series
+Specific guides for specific topics.
+
 ## _on.._ series
-Documents beginning with _on.._ will contain collected wisdom about a particular
-topic.
-any general writing should be in a file prefixed with _on*_, e.g. *onFinance.md*[docs/2017-07-01-containersAndJekyll.md](docs/2017-07-01-containersAndJekyll.md)
+Documents beginning with _on.._ will contain collected wisdom and opinion about
+a particular topic.
+Any general writing should be in a file prefixed with _on*_, e.g.
+*onLivingFrugally.md*[docs/2017-07-01-containersAndJekyll.md](docs/2017-07-01-containersAndJekyll.md)
 
 [docs/2017-07-13-gamifyingLearning.md](docs/2017-07-13-gamifyingLearning.md)
 
@@ -42,8 +46,6 @@ any general writing should be in a file prefixed with _on*_, e.g. *onFinance.md*
 
 [docs/about.md](docs/about.md)
 
-[docs/articles.md](docs/articles.md)
-
 [docs/automation.md](docs/automation.md)
 
 [docs/codex.md](docs/codex.md)
@@ -56,6 +58,8 @@ any general writing should be in a file prefixed with _on*_, e.g. *onFinance.md*
 
 [docs/gaming_warcraft_guide.md](docs/gaming_warcraft_guide.md)
 
+[docs/howToInvest.md](docs/howToInvest.md)
+
 [docs/howToReadAPaper.md](docs/howToReadAPaper.md)
 
 [docs/howTo_readme.md](docs/howTo_readme.md)
@@ -65,8 +69,6 @@ any general writing should be in a file prefixed with _on*_, e.g. *onFinance.md*
 [docs/markdownNotes.md](docs/markdownNotes.md)
 
 [docs/myProjects.md](docs/myProjects.md)
-
-[docs/onFinanceAndInvesting.md](docs/onFinanceAndInvesting.md)
 
 [docs/progressTracker.md](docs/progressTracker.md)
 
