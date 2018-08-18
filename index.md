@@ -18,12 +18,14 @@ incubating idea, be listed in _myProjects.md_.
 Documents beginning with _howTo.._ are specific walkthrough guides that I have
 created to teach and educate about a particular topic.
 
-## the _on.._ series
+# the _on.._ series
 Documents beginning with _on.._ will contain dumps of information and opinion
 about a particular topic. The information will hopefully be well curated.
 
 Any general writing should be in a file prefixed with _on*_, e.g.
-*onLivingFrugally.md*[docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
+*onLivingFrugally.md*
+\n\n
+[docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
 
 [docs/gaming_warcraft_guide.md](docs/gaming_warcraft_guide.md)
 
