@@ -24,7 +24,7 @@ about a particular topic. The information will hopefully be well curated.
 
 Any general writing should be in a file prefixed with _on*_, e.g.
 *onLivingFrugally.md*
-\n\n
+
 [docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
 
 [docs/gaming_warcraft_guide.md](docs/gaming_warcraft_guide.md)
