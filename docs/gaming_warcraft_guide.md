@@ -58,6 +58,8 @@ that can help you level faster.
 # Heirlooms
 Timewarped badges and Darkmoon Faire tickets can be used to purchase heriloom
 gear.
+For each character, the first dungeon completed during the event rewards you
+with a quest tha 
 Look at the calendar and aim to earn as much as this currency as possible during
 the time window.
 

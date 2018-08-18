@@ -8,7 +8,6 @@ extension won't be published here.# What's on my website?
 - try to monetize some good ideas
 - keep the number of repos in your ~environment to a minumum, to eliminate task switching
 
-
 Turn each of your public docs into a post.
 There is value in sharing them
 
@@ -16,10 +15,12 @@ all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
 
 # the _howTo.._ series
-Specific guides for specific topics.
+Documents beginning with _howTo.._ are specific walkthrough guides that I have
+created to teach and educate about a particular topic.
 
-## _on.._ series
-Documents beginning with _on.._ will contain collected wisdom and opinion about
-a particular topic.
+## the _on.._ series
+Documents beginning with _on.._ will contain dumps of information and opinion
+about a particular topic. The information will hopefully be well curated.
+
 Any general writing should be in a file prefixed with _on*_, e.g.
 *onLivingFrugally.md*

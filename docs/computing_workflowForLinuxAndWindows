@@ -1,0 +1,11 @@
+# Amazon Cloud 9
+This is an amazing online IDE that basically turns an Amazon EC2 instance into
+a fully-fledged online workstation. Edit docs, run code, start containers etc.
+all from your browser.
+
+# Git
+Use it as much as possible. git is your source of truth
+
+# Docker
+Run everything inside a container. Don't install anything. Redirect audio
+and video from inside the container to your host devices.
