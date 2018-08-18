@@ -2,6 +2,7 @@
 # script for generating an index.md, which github pages automatically publishes
 
 cat README.md > index.md
+echo "\n\n" >> index.md
 
 for file in docs/*.md; do
 	echo "[${file}](${file})" >> index.md

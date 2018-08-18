@@ -18,7 +18,7 @@ incubating idea, be listed in _myProjects.md_.
 Documents beginning with _howTo.._ are specific walkthrough guides that I have
 created to teach and educate about a particular topic.
 
-## the _on.._ series
+# the _on.._ series
 Documents beginning with _on.._ will contain dumps of information and opinion
 about a particular topic. The information will hopefully be well curated.
 
