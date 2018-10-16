@@ -105,6 +105,8 @@ class, view the slides and turn them into record cards.
 ## For lecturerers who read from the slides
 Skip their classes and go make better use of your time. Seriously.
 
+
+
 # Printing notes
 If you take GOOD notes, which are legible, then go to the Copi-print shop and
 get them professionally bound for EUR2.40. Love that bindiness.
@@ -131,22 +133,17 @@ Set reminders on dates so you get emailed when they are getting near.
 I have reminders set up that email me at the following times before a task is 
 due: 2 weeks/1 weeks/3 days/1 day
 
-# Revision
-Enter the pencil, grab a pad or some scrap paper and start a 
-stream-of-consciousness revision of all the material. Ideally keep a big
-revision logbook, and try to keep a record of your thoughts as you are working 
-through problems. Keep your writing small and neat
 
-Working problems and questions is the best way to test your mastery of the 
-subject. They can be found in textbook exercises, problem sheets, homework 
-sheets etc. Also, you should be able to self-question and self-exam. You should
-also have questions created on your record cards - these questions typically
-should be harder and should represent a test of the hardest of the subject
-area's material.
 
 -------------------------------------------------------------------------------
 # Starting to study
 All of the below are techniques to get you studying and keep you there!
+
+## Getting started / fear of starting
+From https://jamesclear.com/akrasia:
+- Design your future actions
+- Reduce the friction of starting
+- Utilize implementation intentions
 
 ## Unplug, get out of the house, and get into a study area
 If you ever find yourself dawdling, distracted and aimless while using a device,
@@ -163,7 +160,6 @@ minute to enjoy the silence, and the distraction-free environment you've
 created. Soon, as your mind starts to crave stimuli, it will want to wander
 to anything - including work!
 
-## Getting started / fear of starting
 Even if you have no idea where to get started with an assignment and dread 
 having to tackle it, just start it - write anything. After writing a couple of 
 sentence, the mental roadblock is removed from your mind, the fear leaves you 
@@ -363,3 +359,26 @@ revised.
 ## Do a trial exam first
 This will give you a sense of what will be asked in a typical exam, and should
 help to guide you on what to revise.
+
+## Revision
+Enter the pencil, grab a pad or some scrap paper and start a 
+stream-of-consciousness revision of all the material. Ideally keep a big
+revision logbook, and try to keep a record of your thoughts as you are working 
+through problems. Keep your writing small and neat
+
+Working problems and questions is the best way to test your mastery of the 
+subject. They can be found in textbook exercises, problem sheets, homework 
+sheets etc. Also, you should be able to self-question and self-exam. You should
+also have questions created on your record cards - these questions typically
+should be harder and should represent a test of the hardest of the subject
+area's material.
+
+### Spaced repetition
+https://apps.ankiweb.net/
+
+### Create concise summaries of materials
+Read a page and then reduce it to a paragraphs
+
+### Create outlines of a course
+Take a high level view of the course material and summarie it in broad
+strokes/bullet points

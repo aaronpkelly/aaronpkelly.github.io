@@ -1,19 +1,34 @@
-# To start.. read a good book
-There's some reading suggestions in the section below that offers great,
-unbiased financial advice basics. You should read one of them.
+# High-level financial goals
+- Max out your pension contributions
+- Pay rent, invest the rest
+- Your salary earning potential is unlimited. Look for higher salaries
+- Have 6 months of living expenses in liquid cash (savings accounts, rotating CD
+ladder, money-market funds, etc.).
+- Put any money that you'll need in the next 5 years in low-risk, non-volatile
+investments (eg. bonds, T-bills). This usually applies to retirees, but also to
+folks like entrepreneurs or commission salespeople that have unsteady incomes.
+- Put the rest into broad-based stock index funds. Buy-and-hold forever.
+- Only invest in real-estate, individual stocks, crypto, precious metals,
+foreign currencies, collectibles, etc. if you know what you're doing. If it's
+not your full-time job (eg. a venture capitalist or real estate developer), no
+more than 10% of your net worth in these investments
 
 
-# Investopedia is your friend
-This website has a glossary of financial terms, and they are all very well
-explained. You should keep it open as you learn.
-The link to the website is in the website section.
 
-# How i organise my accounts
+
+
+
+
+
+# How i organise my personal accounts
 ## Current account
-EBS MoneyManager account for receiving salary and paying mandatory direct debits
-(rent, utilities)
+EBS MoneyManager account for receiving salary. My Irish employer uses payroll
+software that only supports Irish banks, so unfortunately I have to have this.
+On the plus side, this account is "free-fees".
+I also use this account for some direct debits (broadband, gas+electric).
 
-## Revolut
+## Online-only banks
+### Revolut
 The app is great for budgeting and goal based saving. Any remaining funds from
 my current account goes in here. Every months, money is automatically
 partitioned into "vaults", a reseved spaces where funds can only be spent on
@@ -37,18 +52,10 @@ Here are my current vaults:
 - mojo
 - meal
 
+# N26
+Online-only bank. No charges.
 
 
-# A note on Banks
-Banks started off simply as a service offering to protect our money.
-In return for placing  our money with a bank, they would provide interest to
-the depositor.
-The money that was on deposit would be used to provide loans to businesses,
-ventures etc, making the bank an investor, and generating wealth for themselves.
-For a time, things were good.
-
-Nowadays, in a cruel twist, we are now PAYING banks to provide this service,
-and think that is normal. It is not.
 
 
 
@@ -62,9 +69,20 @@ and think that is normal. It is not.
 
 
 # Bank accounts
-Get an account that charges no fees. In Ireland there is the EBS MoneyManager
-account.
+Get an account that charges no fees. Use a comparison website to find them.
+In Ireland there is the EBS MoneyManager account.
 Also, if you get a Revolut card, you essentially have a UK bank account.
+
+## A note on traditional banks
+Banks started off simply as a service offering to protect our money.
+In return for placing  our money with a bank, they would provide interest to
+the depositor.
+The money that was on deposit would be used to provide loans to businesses,
+ventures etc, making the bank an investor, and generating wealth for themselves.
+For a time, things were good.
+
+Nowadays, in a cruel twist, we are now PAYING banks to provide this service,
+and think that is normal. It is not.
 
 
 
@@ -126,8 +144,15 @@ calculated for your investment over the entire year.
 
 
 # Investing
-Make your money work for you. The market is the most powerful wealth-building
-tool of all time.
+https://xkcd.com/947/
+
+Buy and hold forever. That's it.
+
+The market is the most powerful wealth-building tool of all time, and has never
+failed to rise.
+Compound interest is the 8th wonder of the world.
+Pay yourself first.
+Make your money work for you.
 
 ## tracker bonds
 https://www.askaboutmoney.com/threads/tracker-bonds-summary.20917/
@@ -151,19 +176,25 @@ https://www.degiro.ie/data/pdf/ie/commission-free-etfs-list.pdf
 https://www.degiro.ie/data/pdf/ie/IE_Feeschedule.pdf
 
 ### How to buy and sell
-Market order: will get you the deal done immediately (you may have to suffer a slightly worse price then if you place a limit order)
-Limit order: you set a maximum price you are willing to pay. The order won't be filled until another seller drops to that price.
-Day order: only lasts for the day - if it doesn't get filled it's cancelled.
-GTC: good till cancelled
-Strongly advise not to market order, always set a limit.
+Market order: will get you the deal done immediately (you may have to suffer a
+slightly worse price then if you place a limit order).
+Strongly advise not to market order, always set a limit order.
 
+Limit order: you set a maximum price you are willing to pay. The order won't be
+filled until another seller drops to that price.
+
+Day order: only lasts for the day - if it doesn't get filled it's cancelled.
+
+GTC: good till cancelled. The order lasts forever.
+
+Stop loss: Sell shares if your current position falls decreases and reaches a
+certian value.
 "if I am buying a share @ say $2.70 and want to minimise losses - what type of order do I input. Say if the price is falling and I want to set it to sell @ $2.60"
 To minimise losses: use Sell Option; Order Type : Stop Loss and enter price [$2.60].
 
+Limit order: Sell shares if your current position increases and reaches a value.
 "Also when selling if a share is at $3.00 and I want to take a profit at a minimum of $2.90 - can I set up an order so that the position I hold will be automatically sold once the share price hits $2.90"
 To take profit @ $2.90: use Sell; Order Type : Limit Order & enter price $2.90
-
-
 
 ## Concepts
 ### Opportunity cost
@@ -203,24 +234,7 @@ http://www.statesavings.ie/PrizebondsApp/StateSavings/PurchaseType.aspx
 
 
 
-
-## Shares/stocks, and funds
-Owning a piece of a business.
-
-### Accumulating and distributing funds
-Accumulating: all profits are reinvested back into the fund. Allows compunding
-of profits. Reinvested funds are not taxed by the Irish goverment.
-This should be your preferred type of fund.
-
-Distributing(income): all profits are paid out. Also known as "income".
-
-
-### Which exchange?
-The same product may be traded on multiple exchange.
-Choosing a different exchange exposes you to the strength of their currency (Sterling/EURO..)
-I usually choose Euronext Amsterdam
-
-### Notable investment management funds
+## Investment trusts
 Investment Trusts are slightly different. They are 'closed ended' which means the fund is made up of a finite number of shares whose price isn't directly linked with the fund's overall investment; you can potentially buy overpriced or underpriced shares.
 This also has implications for the question of Income vs. Accumulation. With a limited number of shares available, they may not offer the facility to automatically reinvest your profit. As such you will need to proactively buy back into the fund if you're in it for accumulation.
 Investment Trusts must not retain more than 15% of the total revenue, before expenses, that they generate, meaning that they are required to distribute most, but not all, of their earnings as dividends to their shareholders. The retained earnings can be held in reserve to smooth income distributions in lean years, ensuring a greater cons.
@@ -246,30 +260,67 @@ http://tools.morningstar.co.uk/uk/cefscreener/results.aspx?LanguageId=en-GB&Univ
 select the risk level you can tolerate (e.g. low, -avg, avg) and your minimum acceptable return (e.g. 5% on 5y and 10y). You can also filter out funds with high fees
 http://tools.morningstar.co.uk/uk/cefscreener/default.aspx?LanguageId=en-GB&Universe=CEEXG$XLON&CurrencyId=GBP&Site=UK
 
-#### Foreign and Colonial
-Foreign & Colonial Investment Trust plc holds a globally diversified equity
+## Beware: Higher annual management fees
+While IT's are a great option to consider, they do charge higher fees that ETFs:
+F&C: GB0003466074 - TER 0.54%
+SM: GB00BLDYK618 - TER 0.44%
+
+## Foreign and Colonial (good alternative to ETFs for an Irish investor?)
+Foreign & Colonial Investment Trust plc,  a widely diversified investment trust.
+holds a globally diversified equity
 portfolio, has a reasonable TER and is subject to the normal income tax/CGT
 regime.
 Long term savings.
 
+Don't worry about the fact that their shares are purchased with sterling.
+Your currency exposure relates to the underlying securities - not the currency
+in which the trust's shares are denominated.
+
+http://www.fandc.com/documents/foreign-and-colonial-investment-trust-factsheet/
+FRCL/GB0003466074
+
+## Scottish Mortgage Investment Trust
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Shares/stocks, and funds
+Owning a piece of a business.
+
+### Accumulating and distributing funds
+Accumulating: all profits are reinvested back into the fund. Allows compunding
+of profits. Reinvested funds are not taxed by the Irish goverment.
+This should be your preferred type of fund.
+
+Distributing(income): all profits are paid out. Also known as "income".
+
+### Which exchange?
+The same product may be traded on multiple exchange.
+Choosing a different exchange exposes you to the strength of their currency (Sterling/EURO..)
+I usually choose Euronext Amsterdam
+
+
+
 #### Vanguard
-Not an investment trust?
+Not an investment trust? US-focussed
 Unique kind of investment management company. No shareholders to make a profit
 for. Have almost zero employees. The share holders own Vanguard.
 Rather than paying out profits, it's lowers its fees.
 
-US-focussed
 These guys have been around a while!
 https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=3141&funds_disable_redirect=true
-
-Notable Vanguard indices:
-VTI - Total US Stock Market. UCITs equivalent is VUSD($)/VUSA(EUR), however it
-tracks S&P 500 instead of total stock market, and has slighty higher TER 0.07%
-VOO - Vanguard S&P 500 Index ETF is a compelling option for exposure to U.S. large-cap stocks
-VTI - Vanguard Total Stock Market Index ETF is a compelling option for exposure to U.S. stocks of all sizes.
-VTSAX - Vanguard Total Stock Index Fund. A piece of every publically traded
-company in the US
-
 
 ### Index funds
 An index is a list of companies that all share similar features (industry,
@@ -278,11 +329,6 @@ market capitalisation (large cap, medium, small..))
 An index fund is a fund that tracks this index, buying shares of every company
 in the index.
 https://www.youtube.com/watch?v=buR6Wvq8s38
-
-#### Fidelity annouce 0% expense ratio index funds
-https://news.ycombinator.com/item?id=17680040
-Fidelity ZERO Total Market Index Fund (FZROX) and Fidelity ZERO International
-Index Fund (FZILX)
 
 ### ETFs (Exchange-traded funds) [ETF]
 An ETF is an investment fund traded on stock exchanges, much like stocks.
@@ -302,6 +348,28 @@ the secondary market.
 ETFs are typically passively managed index funds but there are actively managed ETFs - the distinguishing feature of ETFs, as compared to other fund structures, is the manner in which units can be bought and sold - not their investment policy.
 
 https://www.youtube.com/watch?v=UVktl8lXxW8
+
+#### Fidelity annouce 0% expense ratio index funds
+https://news.ycombinator.com/item?id=17680040
+Fidelity ZERO Total Market Index Fund (FZROX) and Fidelity ZERO International
+Index Fund (FZILX)
+
+### Compound Interest Calc - UCITS vs US Domiciled ETFs
+Have a look at this:
+https://drive.google.com/open?id=17RaWZPTqq1_8eBgkfNPhpuS7_t3UcmRA
+
+### UCITS ETFs (Irish investor)
+One of the few options available for Ireland, will suffer Revenue's lunatic
+rules on deemed disposal, if we want access to liquid, diversified international
+equities investments. ridiculously-taxed
+
+A US ETF with an equivalent UCITs ETF (VTI -> VUSD/VUSA) has a slightly higher TER % due to its
+complicance with EU legislation.
+
+### Non-UCITS listed ETFs are for the moment out-of-bounds
+US ETFs are no longer purchasable in Europe due to MIFID.
+Vanguard have confirmed to me they will not be producing KIIDs for US-listed
+ETFs
 
 ## Commission free ETF orders on Degiro
 Degiro offer commission-free trades from the "Free ETF Selection" regardless of
@@ -326,12 +394,163 @@ their commission-free basket. Shame :)
 
 ### Finding a great ETF
 You should check Degiro for ETFs that meet this criteria:
-- irish-domiciled (easier)
+- UCITs-compliant
+- EU domicilied (irish pref!)
 - commission-free (ideally via Degiro's free-ETF list)
 - low TER (~0.05%)
 - use of profit: accumulating (tax advantages for Irish residents)
+- highish volume so there isn't a large spread between bid and ask
+- passively managed
 
-I created a script that finds all accumulating ETFs sorted by TER, go find it.
+General advice: A very broad global index fund with fees below 0.2%; it's what
+95% of the population should invest in if anything.
+
+Don't get completely concentrated on large caps, thus missing out on most of the
+growth that comes from mid caps and small caps.
+With such a high concentration of companies reporting in dollars it might become
+uncomfortable if say the Chinese decide to reduce their position in US bonds. 
+
+### Targeting an index
+Do you want to invest in all indexes? There are many.
+Look at this page on justETF, especially the section "How do I find the best
+ETF for a certain index?":
+https://www.justetf.com/en/how-to/
+
+So here's a summary of all of them:
+
+#### DAX
+https://www.justetf.com/en/how-to/dax-etfs.html
+The DAX® index is the major stock market index for Germany and contains the 30 largest German blue chip companies. The DAX index weights its constituents by free float market capitalisation.
+ETF investors profit from price gains and dividends of the DAX constituents. Currently, the DAX index is tracked by 11 ETFs.
+
+commission free acc:
+Lyxor DAX (DR) UCITS ETF EUR,0.15%,LU0252633754
+iShares Core DAX UCITS ETF (DE),0.16%,DE0005933931
+
+#### MDAX
+The MDAX® index tracks 50 German Mid Cap companies. The MDAX index weights its constituents by free float market capitalisation.
+ETF investors profit from price gains and dividends of the MDAX constituents. Currently, the MDAX index is tracked by 5 ETFs.
+
+#### JPX-Nikkei 400
+The JPX-Nikkei 400 index tracks the return of 400 japanese stocks which are listed on the Tokyo stock exchange. The stocks are selected on the basis of their return on equity and operational result.
+ETF investors profit from price gains and dividends of the JPX-Nikkei 400 constituents. Currently, the JPX-Nikkei 400 index is tracked by 3 ETFs.
+
+#### MSCI Japan
+The MSCI Japan index tracks the return of japanese stocks. With its 321 constituents (as of: 29.12.17), the MSCI Japan index reflects approximately 85% of the total market capitalisation in Japan.
+ETF investors profit from price gains and dividends of the MSCI Japan constituents. Currently, the MSCI Japan index is tracked by 11 ETFs.
+
+#### FTSE 100
+The FTSE 100 is the major UK stock market index. It tracks the 100 largest UK companies. The FTSE 100 index weights its constituents by free float market capitalisation.
+ETF investors profit from price gains and dividends of the FTSE 100 constituents. Currently, the FTSE 100 index is tracked by 8 ETFs.
+
+##### Vanguard
+VHYL - dist
+
+#### MSCI USA
+The MSCI USA index is an equity index which tracks the return of U.S. stocks. With its 633 (As of 29.12.17) constituents, the MSCI USA index reflects approximately 85% of the total market capitalisation in the USA.
+ETF investors profit from price gains and dividends of the MSCI USA constituents. Currently, the MSCI USA index is tracked by 11 ETFs.
+
+#### S&P 500
+The S&P 500® is the major US stock market index. It tracks the 500 largest US companies. The S&P 500 index weights its constituents by free float market capitalisation.
+ETF investors profit from price gains and dividends of the S&P 500 constituents. Currently, the S&P 500 index is tracked by 14 ETFs.
+
+My picks:
+| ISIN | Name | Acc/Dist | TER | Commission free at Degiro? | Comments |
+| LU1681048804 | Amundi S&P 500 UCITS ETF - EUR (C) | Acc | 0.15 | Yes | Found via my script! |
+| DE000A1JM6F5 | Source S&P 500 UCITS ETF A | Acc | 0.05 | No | |
+| IE00B5BMR087 | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | |
+
+##### Vanguard 
+| IE00B3XXRP09 | Vanguard S&P 500 UCITS ETF | Dist | 0.07 | No | |
+
+VUSA is pretty amazing. It's Vanguard. It's 0.7% TER.
+It's not accumulating or commission-free, but it's Vanguard.
+Can't go wrong with VUSA over time, IMO.
+
+A note: in the US, you have VTI - Total US Stock Market. UCITs equivalent is VUSD($)/VUSA(EUR), however it
+tracks S&P 500 instead of total stock market, and has slighty higher TER 0.07%
+
+VOO - Vanguard S&P 500 Index ETF is a compelling option for exposure to U.S. large-cap stocks, but not
+available for ireland
+
+#### EURO STOXX 50
+The EURO STOXX® 50 index tracks the 50 largest Eurozone companies. The EURO STOXX 50 index weights its constituents by free float market capitalisation.
+ETF investors profit from price gains and dividends of the EURO STOXX 50 constituents. Currently, the EURO STOXX 50 index is tracked by 21 ETFs.
+My pick: LU0908501215 / EPA
+
+##### Vanguard
+VX5E - dist
+
+#### EURO STOXX Select Dividend 30
+The EURO STOXX® Select Dividend 30 index contains 30 stocks from the Eurozone with a high dividend yield. The selection is based on historic dividend yield and the weighting is done by estimated dividend yield. The underlyings of the EURO STOXX Select Dividend 30 index are also part of the STOXX Global Select Dividend 100 index, which contains the stocks with the highest dividend yield worldwide.
+ETF investors profit from price gains and dividends of the EURO STOXX Select Dividend 30 constituents. Currently, the EURO STOXX Select Dividend 30 index is tracked by 4 ETFs.
+
+#### MSCI EMU
+The MSCI EMU index is an equity index which tracks the largest companies from the Eurozone. The MSCI EMU index covers with 248 (as of: 30.03.18) constituents approximately 85% of the total market capitalisation of the Eurozone.
+France holds the largest share with 32.80%, followed by Germany (30.19%) and the Netherlands (10.96%). In regards to sector allocation, the MSCI EMU index shows a tilt towards financials services (20.27%), industrials (15.18%) and consumer discretionary (13.85%). (Source: MSCI; As of 29/12/2017).
+ETF investors profit from price gains and dividends of the MSCI EMU constituents. Currently, the MSCI EMU index is tracked by 6 ETFs.
+
+#### STOXX Europe 600
+The STOXX® Europe 600 index tracks the return of the 600 largest stock exchange listed companies out of 18 European countries. Besides countries from the Eurozone, like France, Germany, Spain, the Netherlands and Italy, you also have exposure to Great Britain, Switzerland and Scandinavian countries.
+Due to its broad market exposure, the STOXX Europe 600 index is often quoted as the European equivalent of the U.S. focused S&P 500 index.
+ETF investors profit from price gains and dividends of the STOXX Europe 600 constituents. Currently, the STOXX Europe 600 index is tracked by 8 ETFs.
+
+#### MSCI Europe
+The MSCI Europe index is a European equity index which tracks the return of stocks within 15 European developed markets. With its 446 (As of 30.03.18) constituents, the MSCI Europe index reflects approximately 85% of the total market capitalisation of the European developed markets.
+United Kingdom holds the largest share with 28.02% in the MSCI Europe index. It is followed by France (16.79%) and Germany (15.46%). In regards to sector allocation, the MSCI Europe index shows a tilt towards financial services (20.98%), consumer staples (13.72%) and industrials (13.17%). (Source: MSCI; As of 29/12/2017).
+ETF investors profit from price gains and dividends of the MSCI Europe constituents. Currently, the MSCI Europe index is tracked by 14 ETFs.
+
+| IE00B4K48X80 | iShares MSCI Europe UCITS ETF EUR (Acc) (GBP) | Acc | 0.12 | Yes | |
+
+#### MSCI ACWI
+The MSCI All Country World Index (MSCI ACWI) is an international equity index, which tracks stocks from 23 developed and 24 emerging markets countries. This global index consists of the MSCI World (global index for developed countries) and the MSCI Emerging Markets (global index for emerging markets countries). However, emerging markets stocks are weighted with 11.28%, whereas stocks from developed markets account for 88.72%. With 2,499 constituents (as of 29.12.17), the index covers approximately 85% of the free float-adjusted global market capitalization.
+Top country within the MSCI ACWI is USA with a weight of 52.20%, followed by Japan (7.89%) and the UK (5.84%). Top sectors within the MSCI ACWI are financial services (18.74%), information technology (18.09%) and consumer discretionary (12.01%). (Source: MSCI; As of 29/12/2017).
+ETF investors profit from price gains and dividends of the MSCI ACWI constituents. Currently, the MSCI ACWI index is tracked by 4 ETFs
+
+#### MSCI Emerging Markets
+The MSCI Emerging Markets is an international equity index, which tracks stocks from 24 emerging market countries. With 846 constituents (as of 29.12.17), the index covers approximately 85% of the free float-adjusted market capitalization in each country.
+Top country within the MSCI Emerging Markets index is China with a weight of 29.67%, followed by South Korea (15.39%) and Taiwan (11.27%). Top sectors within the MSCI Emerging Markets index are information technology (27.70%), financial services (23,45%) and consumer discretionary (10.20%). (Source: MSCI; As of 29/12/2017).
+ETF investors profit from price gains and dividends of the MSCI Emerging Markets constituents. Currently, the MSCI Emerging Markets index is tracked by 13 ETFs.
+
+| LU1681045370 | Amundi MSCI Emerging Markets UCITS ETF - EUR (C) | Acc | 0.2 | Yes | |
+
+#### MSCI World
+The MSCI World is an international equity index, which tracks stocks from 23 developed countries. With 1,653 constituents (as of 29.12.17), the index covers approximately 85% of the free float-adjusted market capitalization in each country.
+Top country within the MSCI World index is USA with a weight of 59.21%, followed by Japan (8.95%) and UK (6.63%). Top sectors within the MSCI World index are financial services (18.10%), information technology (16.80%) and consumer discretionary (12.26%). (Source: MSCI; As of 29/12/2017).
+ETF investors profit from price gains and dividends of the MSCI World constituents. Currently, the MSCI World index is tracked by 14 ETFs.
+
+| IE00B4L5Y983 | Shares Core MSCI World UCITS ETF USD (Acc) | Acc | 0.2 | Yes |
+
+#### STOXX Global Select Dividend 100
+The STOXX® Global Select Dividend 100 index contains 100 stocks from developed countries worldwide with high dividend yield. The selection is based on historic dividend yield and the weighting is done by estimated dividend yield. The STOXX Global Select Dividend 100 index contains in general 40 stocks from North America, 30 stocks from Europe and 30 stocks from the Asia-Pacific region.
+ETF investors profit from price gains and dividends of the STOXX Global Select Dividend 100 constituents. Currently, the STOXX Global Select Dividend 100 index is tracked by 2 ETFs
+
+#### Other vanguard
+VWRL / IE00B3RBWM25 (ftse all-world)
+
+These may not be available:
+VTI - Vanguard Total Stock Market Index ETF is a compelling option for exposure to U.S. stocks of all sizes.
+VTSAX - Vanguard Total Stock Index Fund. A piece of every publically traded
+company in the US
+
+#### Other interesting ETFs
+iShares Edge MSCI USA Momentum Factor UCITS ETF
+https://www.justetf.com/uk/etf-profile.html?isin=IE00BD1F4N50&tab=chart
+Really fast growth!
+
+IE00BYZK4552
+iShares Automation & Robotics UCITS ETF USD 
+robots - fast growth - woo
+
+#### Gold
+Gold is seen as a safe haven by many investors. Especially in financial turmoil, it has shown to stabilise equity/bond portfolios.
+An investment in gold is easily done with listed products, like ETFs or ETCs. These investment products track the spot gold price closely, after taking management fees into account. The advantage of exchange-traded Gold products is the minimal bid-ask spread compared to a direct trade in gold bullion. It is mainly due to the large 12.5kg bullion that are held and traded at fund level. Currently, Gold is tracked by 11 ETFs and/or ETCs.
+Besides exchange-traded products on Gold in US dollar, there are also currency hedged products in euro, pounds sterling or Swiss francs available. These products are also considered in our comparison.
+
+### More info
+I created a script that finds all commission-free accumulating ETFs on Degiro, 
+sorted by TER. Caution: these free funds might not be great, make sure to look
+closely at their 5Y performance, TER etc.
 
 There is also a very interesting site that has lots of good stuff (check out
 advanced search and statistics):
@@ -340,12 +559,13 @@ https://www.etfinfo.com/en/statistics/
 Use this advanced search on justETF to easily see what ETFs are distributing
 or accumulating, ordered by TER (also consider adding more filters like
 provider i.e Vanguard!):
-https://www.justetf.com/en/find-etf.html?groupField=none&sortField=ter&distributionPolicy=distributionPolicy-accumulating&sortOrder=asc
+https://www.justetf.com/uk/find-etf.html?groupField=none&sortField=ter&distributionPolicy=distributionPolicy-accumulating&sortOrder=asc
 
 https://www.etfinfo.com/en/statistics/
 
-The below is a list of Degiro's most popular commission-free ETFs (descriptions
-are normally from justetf):
+The below is a list of Degiro's most popular commission-free ETFs. I don't know
+what makes them popular, I haven't done an analysis.
+Descriptions are normally from justETF:
 
 iShares MSCI Emerging Markets UCITS ETF (Dist)
 IEMM / IE00B0M63177	EAM
@@ -425,45 +645,7 @@ on the Prime Standard segment of the Frankfurt Stock Exchange.
 #### Blackrock (iShares)
 stuff about these guys
 
-### Notable ETF, suggessted from the forums..........
-For tracking EU :
-db x-trackers dj euro stoxx 50 (symbol is xesc). It is traded in london.
-ishares dj euro stoxx 50 (symbol is EUE). Also traded in london
-For tracking the SP500:
-Ishares S&p500 (symbol IUSA). Traded in london
-SPDR TRUST (symbol SPY) .Traded in NY
 
-Some other randos (please check these are decent)
-IWDA / IE00B4L5Y983
-CSP1 / IE00B5BMR087
-VWRL / IE00B3RBWM25
-VUSA / IE00B3XXRP09
-IE00B5BMR087 (multiple stock exchanges)
-
-some other guy:
-VUSA as my growth fund with VX5E and VHYL as my dividend funds. Can't go wrong with VUSA over time, IMO.
-response:
-How exactly is VUSA a growth fund? It is simply a large caps index tracker... and with such a high concentration of companies reporting in dollars it might become uncomfortable if say the Chinese decide to reduce their position in US bonds. 
-You seem to be completely concentrated on large caps, thus missing out on most of the growth that comes from mid caps and small caps.
-
-
-#### Which ones to choose?
-General advice: A very broad global index fund with fees below 0.2%; it's what
-95% of the population should invest in if anything.
-
-### Non-UCITS listed ETFs are for the moment out-of-bounds
-US ETFs are no longer purchasable in Europe due to MIFID.
-
-Vanguard have confirmed to me they will not be producing KIIDs for US-listed
-ETFs, which means that
-
-### UCITS ETFs (Irish investor)
-One of the few options available for Ireland, will suffer Revenue's lunatic
-rules on deemed disposal, if we want access to liquid, diversified international
-equities investments. ridiculously-taxed
-
-A US ETF with an equivalent UCITs ETF (VTI -> VUSD/VUSA) has a slightly higher TER % due to its
-complicance with EU legislation.
 
 
 
@@ -524,6 +706,9 @@ MIFID is what stopped us from buying US ETFs.
 
 
 #### More on deemed disposal (https://www.bluewaterfp.ie/investments/which-is-better-gross-roll-up-or-cgt-investments/)
+QUESTION: Can I sell everything before deemed disposal cutoff (8 years) and not
+have to pay it?
+
 If you invest monthly, just sell everything at once, 8 years after your first
 purchase. You don't have to sell every month 8 years after each invidividual
 purchse.
@@ -591,16 +776,6 @@ low
 #### Great link. Full list of Irish-domiciled ETFs, sorted by TER% (total expense ratio)
 Choose an "accumulating" ETF
 https://www.ishares.com/uk/individual/en/products/etf-product-list#!type=emeaIshares&tab=overview&view=list
-
-
-
-
-
-
-## Investment trusts (good alternative to ETFs for an Irish investor?)
-Foreign and Colonial - a widely diversified investment trust
-http://www.fandc.com/documents/foreign-and-colonial-investment-trust-factsheet/
-FRCL/GB0003466074
 
 # Accumulating or distributing?
 If you need a regular income from your investments then an income fund lets you
@@ -671,26 +846,71 @@ Be careful about some forestry websites, ppl haven't gotten payments, and some
 
 
 # Pensions
-The power of investing in pension is tax relief, and lots of it.
+The power of investing in a pension is TAX RELIEF, and lots of it:
+- any contributions to your pension include tax relief
+- withdrawing a EUR200,000 lump sum from your pension is tax-free
+- withdrawing over EUR200,000 and under EUR500,000 is only taxed at 20% (low!)
+
+## Documentation
+Your pension scheme (e.g. Zurich) has great documentation. Read it.
+
+## Goal
+Q: Should EUR500,000 be the target fund size for a pension?
+A: While it's true that lump-sum withdrawls greater than this amount will be
+taxed in the hight 40% bracket, having a smaller fund will mean smaller
+monthly payments.
+
+Priorites:
+- invest as much as you possibly can in your pension. It's an incredible
+investment vehicle
+- if your employer matches your contributions, then max your contributions up to
+the amount that your employer matches
+- additional voluntary contributions: can be made through your employer, but these
+contributions will not be matched by them. They will however be affected by tax
+relief (again, great)
 
 Invest more money in your pension. You may not like to hear it but it make
 sense. All Income and capital gains within a pension fund are completely tax
 free, and the compounding effect of tax-free growth over time is very powerful.
 
-In Addition, if you are a higher-rate taxpayer, you also get 40% tax relief on
-any contributions paid into a pension, subject to certain limits. It’s a
-no-brainer really.
+## Contributions
+- if you pay 20% income tax, you get 20% tax relief on any contributions made
+- if you pay 40% income tax, you get 40% tax relief on any contributions made
+
+See:
+https://www.zurich.ie/pensions-retirement/calculators/tax-relief-calculator/
+
+## Additional Voluntary Contributions (AVCs)
+Depending on age, you can contribute an extra amount equal to a certain
+percentage of your salary.
+
+| Age (attained during tax year) | Total Personal Contribution Limit (as a % of Net Relevant Earnings*) |
+| Under 30 | 15% |
+| 30 – 39 | 20% |
+40 – 49 25%
+50 – 54 30%
+55 – 59 35%
+60 Plus 40%
+
 
 
 ## ARF
 Annualised retirement fund, don't know much about these
 
 ## Tax
+You pay tax in a lump sum on your pension when you receive it, however:
+- up to €200,000 of this is tax-free
+- if the lump sum is over €200,000 and under €500,000 (the maximum allowable),
+the income tax rate is 20%
+
 Entitled to a tax-free lump sum of 25 per cent of your pension on retirement.
 Apparently there is a danger of  paying tax at a rate of 52 per cent on the
 fund, but I don't know what will cause this.
 
 Percentage of allowable tax relief on pension savings: 40 per cent.
+
+
+
 
 ## Strategy
 ### Accumulation phase
@@ -823,6 +1043,20 @@ costs incurred with owning a home, I have chosen to rent and invest the rest.
 
 
 
+# Constructing a portfolio
+http://www.morganstanleyfa.com/public/projectfiles/cf8baa6e-b385-45aa-abd4-74ea5d34ade8.pdf
+https://www.vanguard.co.uk/documents/portal/literature/portfolio-construction-guide.pdf
+https://blogs.cfainstitute.org/investor/2015/10/14/dumb-alpha-the-ignoramuss-guide-to-asset-allocation/
+https://www.cfapubs.org/doi/pdf/10.2469/faj.v51.n1.1869
+
+
+
+
+
+
+
+
+
 # reading material
 To read
 Definitely do the reading yourself rather than paying money for others to teach you. The books I would consider reading are;
@@ -857,11 +1091,18 @@ https://www.askaboutmoney.com/threads/key-post-investment-books-to-read.34876/
 ### investing
 https://www.askaboutmoney.com/ - consumer financial advice ireland
 https://www.moneyguideireland.com/ (an independent site, set up to provide money saving information and tips for Irish consumers)
+https://www.mrmoneymustache.com
 https://www.investopedia.com/
 https://www.boards.ie/vbulletin/forumdisplay.php?f=544
 https://www.bogleheads.org/index.php
 https://www.reddit.com/r/investing
 http://jlcollinsnh.com/stock-series/
+
+### roboadvisors
+https://betterment.com
+https://etfmatic.com/
+
+https://www.irishtimes.com/business/personal-finance/computer-says-invest-the-robo-advisers-are-coming-1.3029009
 
 ### general
 https://www.irishtimes.com/business/personal-finance
