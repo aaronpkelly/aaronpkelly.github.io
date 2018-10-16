@@ -31,6 +31,8 @@ Any general writing should be in a file prefixed with _on*_, e.g.
 
 [docs/gaming_warcraft_keybinds.md](docs/gaming_warcraft_keybinds.md)
 
+[docs/howToFindAJob.md](docs/howToFindAJob.md)
+
 [docs/howToGetAFirst.md](docs/howToGetAFirst.md)
 
 [docs/howToInvest.md](docs/howToInvest.md)
@@ -38,6 +40,10 @@ Any general writing should be in a file prefixed with _on*_, e.g.
 [docs/howToLife.md](docs/howToLife.md)
 
 [docs/howToReadAPaper.md](docs/howToReadAPaper.md)
+
+[docs/howToStudy.md](docs/howToStudy.md)
+
+[docs/howToWeekend.md](docs/howToWeekend.md)
 
 [docs/onAPIs.md](docs/onAPIs.md)
 
