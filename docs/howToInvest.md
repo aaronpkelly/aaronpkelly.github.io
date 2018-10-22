@@ -412,43 +412,13 @@ uncomfortable if say the Chinese decide to reduce their position in US bonds.
 
 ### Targeting an index
 Do you want to invest in all indexes? There are many.
-Look at this page on justETF, especially the section "How do I find the best
-ETF for a certain index?":
-https://www.justetf.com/en/how-to/
 
-So here's a summary of all of them:
+Look at everything under the "ETF Screener dropdown".
+There are a few items.
+Each one of these items will help you target an area.
 
-#### DAX
-https://www.justetf.com/en/how-to/dax-etfs.html
-The DAX® index is the major stock market index for Germany and contains the 30 largest German blue chip companies. The DAX index weights its constituents by free float market capitalisation.
-ETF investors profit from price gains and dividends of the DAX constituents. Currently, the DAX index is tracked by 11 ETFs.
-
-commission free acc:
-Lyxor DAX (DR) UCITS ETF EUR,0.15%,LU0252633754
-iShares Core DAX UCITS ETF (DE),0.16%,DE0005933931
-
-#### MDAX
-The MDAX® index tracks 50 German Mid Cap companies. The MDAX index weights its constituents by free float market capitalisation.
-ETF investors profit from price gains and dividends of the MDAX constituents. Currently, the MDAX index is tracked by 5 ETFs.
-
-#### JPX-Nikkei 400
-The JPX-Nikkei 400 index tracks the return of 400 japanese stocks which are listed on the Tokyo stock exchange. The stocks are selected on the basis of their return on equity and operational result.
-ETF investors profit from price gains and dividends of the JPX-Nikkei 400 constituents. Currently, the JPX-Nikkei 400 index is tracked by 3 ETFs.
-
-#### MSCI Japan
-The MSCI Japan index tracks the return of japanese stocks. With its 321 constituents (as of: 29.12.17), the MSCI Japan index reflects approximately 85% of the total market capitalisation in Japan.
-ETF investors profit from price gains and dividends of the MSCI Japan constituents. Currently, the MSCI Japan index is tracked by 11 ETFs.
-
-#### FTSE 100
-The FTSE 100 is the major UK stock market index. It tracks the 100 largest UK companies. The FTSE 100 index weights its constituents by free float market capitalisation.
-ETF investors profit from price gains and dividends of the FTSE 100 constituents. Currently, the FTSE 100 index is tracked by 8 ETFs.
-
-##### Vanguard
-VHYL - dist
-
-#### MSCI USA
-The MSCI USA index is an equity index which tracks the return of U.S. stocks. With its 633 (As of 29.12.17) constituents, the MSCI USA index reflects approximately 85% of the total market capitalisation in the USA.
-ETF investors profit from price gains and dividends of the MSCI USA constituents. Currently, the MSCI USA index is tracked by 11 ETFs.
+Here is a sample screener search, start choosing regions on the left to sort:
+https://www.justetf.com/en/find-etf.html?groupField=none&sortOrder=asc&sortField=ter&distributionPolicy=distributionPolicy-accumulating&assetClass=class-equity
 
 #### S&P 500
 The S&P 500® is the major US stock market index. It tracks the 500 largest US companies. The S&P 500 index weights its constituents by free float market capitalisation.
@@ -456,9 +426,8 @@ ETF investors profit from price gains and dividends of the S&P 500 constituents.
 
 My picks:
 | ISIN | Name | Acc/Dist | TER | Commission free at Degiro? | Comments |
-| LU1681048804 | Amundi S&P 500 UCITS ETF - EUR (C) | Acc | 0.15 | Yes | Found via my script! |
-| DE000A1JM6F5 | Source S&P 500 UCITS ETF A | Acc | 0.05 | No | |
-| IE00B5BMR087 | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | |
+| DE000A1JM6F5 | Source S&P 500 UCITS ETF A | Acc | 0.05 | No | Pricey share |
+| IE00B5BMR087 | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | Own |
 
 ##### Vanguard 
 | IE00B3XXRP09 | Vanguard S&P 500 UCITS ETF | Dist | 0.07 | No | |
@@ -473,57 +442,6 @@ tracks S&P 500 instead of total stock market, and has slighty higher TER 0.07%
 VOO - Vanguard S&P 500 Index ETF is a compelling option for exposure to U.S. large-cap stocks, but not
 available for ireland
 
-#### EURO STOXX 50
-The EURO STOXX® 50 index tracks the 50 largest Eurozone companies. The EURO STOXX 50 index weights its constituents by free float market capitalisation.
-ETF investors profit from price gains and dividends of the EURO STOXX 50 constituents. Currently, the EURO STOXX 50 index is tracked by 21 ETFs.
-My pick: LU0908501215 / EPA
-
-##### Vanguard
-VX5E - dist
-
-#### EURO STOXX Select Dividend 30
-The EURO STOXX® Select Dividend 30 index contains 30 stocks from the Eurozone with a high dividend yield. The selection is based on historic dividend yield and the weighting is done by estimated dividend yield. The underlyings of the EURO STOXX Select Dividend 30 index are also part of the STOXX Global Select Dividend 100 index, which contains the stocks with the highest dividend yield worldwide.
-ETF investors profit from price gains and dividends of the EURO STOXX Select Dividend 30 constituents. Currently, the EURO STOXX Select Dividend 30 index is tracked by 4 ETFs.
-
-#### MSCI EMU
-The MSCI EMU index is an equity index which tracks the largest companies from the Eurozone. The MSCI EMU index covers with 248 (as of: 30.03.18) constituents approximately 85% of the total market capitalisation of the Eurozone.
-France holds the largest share with 32.80%, followed by Germany (30.19%) and the Netherlands (10.96%). In regards to sector allocation, the MSCI EMU index shows a tilt towards financials services (20.27%), industrials (15.18%) and consumer discretionary (13.85%). (Source: MSCI; As of 29/12/2017).
-ETF investors profit from price gains and dividends of the MSCI EMU constituents. Currently, the MSCI EMU index is tracked by 6 ETFs.
-
-#### STOXX Europe 600
-The STOXX® Europe 600 index tracks the return of the 600 largest stock exchange listed companies out of 18 European countries. Besides countries from the Eurozone, like France, Germany, Spain, the Netherlands and Italy, you also have exposure to Great Britain, Switzerland and Scandinavian countries.
-Due to its broad market exposure, the STOXX Europe 600 index is often quoted as the European equivalent of the U.S. focused S&P 500 index.
-ETF investors profit from price gains and dividends of the STOXX Europe 600 constituents. Currently, the STOXX Europe 600 index is tracked by 8 ETFs.
-
-#### MSCI Europe
-The MSCI Europe index is a European equity index which tracks the return of stocks within 15 European developed markets. With its 446 (As of 30.03.18) constituents, the MSCI Europe index reflects approximately 85% of the total market capitalisation of the European developed markets.
-United Kingdom holds the largest share with 28.02% in the MSCI Europe index. It is followed by France (16.79%) and Germany (15.46%). In regards to sector allocation, the MSCI Europe index shows a tilt towards financial services (20.98%), consumer staples (13.72%) and industrials (13.17%). (Source: MSCI; As of 29/12/2017).
-ETF investors profit from price gains and dividends of the MSCI Europe constituents. Currently, the MSCI Europe index is tracked by 14 ETFs.
-
-| IE00B4K48X80 | iShares MSCI Europe UCITS ETF EUR (Acc) (GBP) | Acc | 0.12 | Yes | |
-
-#### MSCI ACWI
-The MSCI All Country World Index (MSCI ACWI) is an international equity index, which tracks stocks from 23 developed and 24 emerging markets countries. This global index consists of the MSCI World (global index for developed countries) and the MSCI Emerging Markets (global index for emerging markets countries). However, emerging markets stocks are weighted with 11.28%, whereas stocks from developed markets account for 88.72%. With 2,499 constituents (as of 29.12.17), the index covers approximately 85% of the free float-adjusted global market capitalization.
-Top country within the MSCI ACWI is USA with a weight of 52.20%, followed by Japan (7.89%) and the UK (5.84%). Top sectors within the MSCI ACWI are financial services (18.74%), information technology (18.09%) and consumer discretionary (12.01%). (Source: MSCI; As of 29/12/2017).
-ETF investors profit from price gains and dividends of the MSCI ACWI constituents. Currently, the MSCI ACWI index is tracked by 4 ETFs
-
-#### MSCI Emerging Markets
-The MSCI Emerging Markets is an international equity index, which tracks stocks from 24 emerging market countries. With 846 constituents (as of 29.12.17), the index covers approximately 85% of the free float-adjusted market capitalization in each country.
-Top country within the MSCI Emerging Markets index is China with a weight of 29.67%, followed by South Korea (15.39%) and Taiwan (11.27%). Top sectors within the MSCI Emerging Markets index are information technology (27.70%), financial services (23,45%) and consumer discretionary (10.20%). (Source: MSCI; As of 29/12/2017).
-ETF investors profit from price gains and dividends of the MSCI Emerging Markets constituents. Currently, the MSCI Emerging Markets index is tracked by 13 ETFs.
-
-| LU1681045370 | Amundi MSCI Emerging Markets UCITS ETF - EUR (C) | Acc | 0.2 | Yes | |
-
-#### MSCI World
-The MSCI World is an international equity index, which tracks stocks from 23 developed countries. With 1,653 constituents (as of 29.12.17), the index covers approximately 85% of the free float-adjusted market capitalization in each country.
-Top country within the MSCI World index is USA with a weight of 59.21%, followed by Japan (8.95%) and UK (6.63%). Top sectors within the MSCI World index are financial services (18.10%), information technology (16.80%) and consumer discretionary (12.26%). (Source: MSCI; As of 29/12/2017).
-ETF investors profit from price gains and dividends of the MSCI World constituents. Currently, the MSCI World index is tracked by 14 ETFs.
-
-| IE00B4L5Y983 | Shares Core MSCI World UCITS ETF USD (Acc) | Acc | 0.2 | Yes |
-
-#### STOXX Global Select Dividend 100
-The STOXX® Global Select Dividend 100 index contains 100 stocks from developed countries worldwide with high dividend yield. The selection is based on historic dividend yield and the weighting is done by estimated dividend yield. The STOXX Global Select Dividend 100 index contains in general 40 stocks from North America, 30 stocks from Europe and 30 stocks from the Asia-Pacific region.
-ETF investors profit from price gains and dividends of the STOXX Global Select Dividend 100 constituents. Currently, the STOXX Global Select Dividend 100 index is tracked by 2 ETFs
 
 #### Other vanguard
 VWRL / IE00B3RBWM25 (ftse all-world)
@@ -533,15 +451,7 @@ VTI - Vanguard Total Stock Market Index ETF is a compelling option for exposure 
 VTSAX - Vanguard Total Stock Index Fund. A piece of every publically traded
 company in the US
 
-#### Other interesting ETFs
-iShares Edge MSCI USA Momentum Factor UCITS ETF
-https://www.justetf.com/uk/etf-profile.html?isin=IE00BD1F4N50&tab=chart
-Really fast growth!
-
-IE00BYZK4552
-iShares Automation & Robotics UCITS ETF USD 
-robots - fast growth - woo
-
+### Other interesting ETFs
 #### Gold
 Gold is seen as a safe haven by many investors. Especially in financial turmoil, it has shown to stabilise equity/bond portfolios.
 An investment in gold is easily done with listed products, like ETFs or ETCs. These investment products track the spot gold price closely, after taking management fees into account. The advantage of exchange-traded Gold products is the minimal bid-ask spread compared to a direct trade in gold bullion. It is mainly due to the large 12.5kg bullion that are held and traded at fund level. Currently, Gold is tracked by 11 ETFs and/or ETCs.
@@ -567,83 +477,7 @@ The below is a list of Degiro's most popular commission-free ETFs. I don't know
 what makes them popular, I haven't done an analysis.
 Descriptions are normally from justETF:
 
-iShares MSCI Emerging Markets UCITS ETF (Dist)
-IEMM / IE00B0M63177	EAM
 
-Think Global Equity UCITS ETF (Dist)
-TGET / NL0009690221	EAM
-https://www.justetf.com/en/etf-profile.html?isin=NL0009690221
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000TGHX
-
-iShares EuroStoxx 50 UCITS ETF (Dist)
-EUEA / IE0008471009 EAM
-https://www.justetf.com/en/etf-profile.html?isin=IE0008471009
-https://www.ishares.com/uk/individual/en/products/251781/ishares-euro-stoxx-50-ucits-etf-inc-fund?switchLocale=y&siteEntryPassthrough=true
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000HYC2
-The fund is an exchange traded fund (ETF) that aims to track the performance of
-the EURO STOXX 50 Index as closely as possible. The ETF invests in physical
-index securities. The EURO STOXX? 50 Index offers exposure to 50 of the largest
-stocks in the Euro zone. The index is free float market capitalisation weighted.
-iShares ETFs are funds managed by BlackRock. They are transparent,
-cost-efficient, liquid vehicles that trade on stock exchanges like normal
-securities. iShares ETFs offer flexible and easy access to a wide range of
-markets and asset classes.
-
-iShares S&P 500 UCITS ETF (Dist)
-ISSP / IE0031442068	EAM
-TER: 0.07% p.a
-https://www.blackrock.com/kiid/literature/kiid/kiid-ir-ish-ishares-sp-500-ucits-etf-usd-dist-gb-ie0031442068-en.pdf
-https://www.ishares.com/uk/individual/en/products/251900/ishares-sp-500-ucits-etf-inc-fund
-https://www.justetf.com/en/etf-profile.html?isin=IE0031442068
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000UGYE
-Desc: The S&P 500® (total return) index tracks 500 large cap US stocks.
-
-Lyxor ETF Leverage CAC 40 (Acc)
-LVC / FR0010592014	EPA
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000G6K3
-
-Lyxor UCITS ETF CAC 40 (DR) - D-EUR (Dist)
-CAC / FR0007052782	EPA
-https://www.justetf.com/en/etf-profile.html?isin=FR0007052782
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P00000MRP
-
-PowerShares EQQQ Nasdaq-100 UCITS ETF (Dist)
-QQQ / IE0032077012	EPA
-https://www.justetf.com/uk/etf-profile.html?isin=IE0032077012
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000I2AG
-
-Lyxor Euro Stoxx 50 (DR) UCITS ETF - D-EUR (Dist)
-MSE / FR0007054358	EPA
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P00000MRI
-https://www.justetf.com/uk/etf-profile.html?isin=FR0007054358
-
-Lyxor UCITS ETF FTSE MIB dis (Dist)
-MIB / FR0010010827	EPA
-https://www.justetf.com/uk/etf-profile.html?isin=FR0010010827
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000M6DW
-
-XTRACKERS MSCI EMERG.MKTS SWAP (Acc)
-DBX1 / LU0292107645	XET
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000GH2Y
-https://www.justetf.com/en/etf-profile.html?isin=LU0292107645
-
-ISHARES CORE DAX UCITS ETF DE (Acc)
-EXS1 / DE0005933931	XET
-https://www.justetf.com/en/etf-profile.html?isin=DE0005933931
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000M7SF
-The DAX® (price) index tracks the 30 largest and most traded German stocks
-listed on the Prime Standard segment of the Frankfurt Stock Exchange.
-
-XTRACKERS SHORTDAX DAILY SWAP (Acc)
-DXSN / LU0292106241
-https://www.justetf.com/en/etf-profile.html?isin=LU0292106241
-http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P000094C6
-The ShortDAX® index tracks the inverse performance of the DAX® index on a daily
-basis. The DAX® index tracks the 30 largest and most traded German stocks listed
-on the Prime Standard segment of the Frankfurt Stock Exchange.
-
-#### Blackrock (iShares)
-stuff about these guys
 
 
 
@@ -853,6 +687,7 @@ The power of investing in a pension is TAX RELIEF, and lots of it:
 
 ## Documentation
 Your pension scheme (e.g. Zurich) has great documentation. Read it.
+
 
 ## Goal
 Q: Should EUR500,000 be the target fund size for a pension?
