@@ -7,7 +7,9 @@ ladder, money-market funds, etc.).
 - Put any money that you'll need in the next 5 years in low-risk, non-volatile
 investments (eg. bonds, T-bills). This usually applies to retirees, but also to
 folks like entrepreneurs or commission salespeople that have unsteady incomes.
-- Put the rest into broad-based stock index funds. Buy-and-hold forever.
+- Put the rest into broad-based stock index funds. Buy-and-hold forever. Ignore
+the volatility of the market. The market is a glass of beer, and volatility is
+the froth on top. Focus on the beer.
 - Only invest in real-estate, individual stocks, crypto, precious metals,
 foreign currencies, collectibles, etc. if you know what you're doing. If it's
 not your full-time job (eg. a venture capitalist or real estate developer), no
@@ -21,7 +23,7 @@ more than 10% of your net worth in these investments
 
 
 # How i organise my personal accounts
-## Current account
+## EBS MoneyManager account - current account
 EBS MoneyManager account for receiving salary. My Irish employer uses payroll
 software that only supports Irish banks, so unfortunately I have to have this.
 On the plus side, this account is "free-fees".
@@ -145,16 +147,27 @@ calculated for your investment over the entire year.
 
 # Investing
 https://xkcd.com/947/
-
 Buy and hold forever. That's it.
 
-The market is the most powerful wealth-building tool of all time, and has never
-failed to rise.
-Compound interest is the 8th wonder of the world.
-Pay yourself first.
-Make your money work for you.
+Some nice sayings:
+- The market is the most powerful wealth-building tool of all time, and has
+never failed to rise.
+- Compound interest is the 8th wonder of the world
+- Pay yourself first
+- Make your money work for you
 
-## tracker bonds
+## Bonds
+Guaranteed returns after a long period of time. Very low risk. 
+
+Government bonds:
+http://www.ntma.ie/business-areas/funding-and-debt-management/government-bonds/
+
+### statesavings.ie
+Tax-free savings bonds: https://www.statesavings.ie/
+Medium-term savings.
+Buy 5-Year State Savings Certs from your local post office
+http://www.statesavings.ie/PrizebondsApp/StateSavings/PurchaseType.aspx
+### tracker bonds
 https://www.askaboutmoney.com/threads/tracker-bonds-summary.20917/
 https://www.askaboutmoney.com/threads/forget-tracker-bonds-do-one-yourself.152812/
 
@@ -220,17 +233,7 @@ Not enough xp to talk about this yet. Barefoot guy recommends investing directly
 in about 10 good companies though.
 
 
-## Bonds
-Guaranteed returns after a long period of time. Very low risk. 
 
-Government bonds:
-http://www.ntma.ie/business-areas/funding-and-debt-management/government-bonds/
-
-### statesavings.ie
-Tax-free savings bonds: https://www.statesavings.ie/
-Medium-term savings.
-Buy 5-Year State Savings Certs from your local post office
-http://www.statesavings.ie/PrizebondsApp/StateSavings/PurchaseType.aspx
 
 
 
@@ -280,7 +283,7 @@ http://www.fandc.com/documents/foreign-and-colonial-investment-trust-factsheet/
 FRCL/GB0003466074
 
 ## Scottish Mortgage Investment Trust
-
+I like this, but again - management fees!
 
 
 
@@ -299,6 +302,9 @@ FRCL/GB0003466074
 ## Shares/stocks, and funds
 Owning a piece of a business.
 
+As in Irish investor, it only makes sense to invest this way after you are
+already debt-free and are maxing out your pension contributions.
+
 ### Accumulating and distributing funds
 Accumulating: all profits are reinvested back into the fund. Allows compunding
 of profits. Reinvested funds are not taxed by the Irish goverment.
@@ -308,19 +314,10 @@ Distributing(income): all profits are paid out. Also known as "income".
 
 ### Which exchange?
 The same product may be traded on multiple exchange.
-Choosing a different exchange exposes you to the strength of their currency (Sterling/EURO..)
-I usually choose Euronext Amsterdam
-
-
-
-#### Vanguard
-Not an investment trust? US-focussed
-Unique kind of investment management company. No shareholders to make a profit
-for. Have almost zero employees. The share holders own Vanguard.
-Rather than paying out profits, it's lowers its fees.
-
-These guys have been around a while!
-https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=3141&funds_disable_redirect=true
+Choosing a different exchange exposes you to changes in currency exchange rates,
+as a fund may by traded in different currencies on different exchanges,
+strengthening or weakening your investment.
+I usually choose EURO, and trade on Euronext Amsterdam.
 
 ### Index funds
 An index is a list of companies that all share similar features (industry,
@@ -408,7 +405,7 @@ General advice: A very broad global index fund with fees below 0.2%; it's what
 Don't get completely concentrated on large caps, thus missing out on most of the
 growth that comes from mid caps and small caps.
 With such a high concentration of companies reporting in dollars it might become
-uncomfortable if say the Chinese decide to reduce their position in US bonds. 
+uncomfortable if say the Chinese decide to reduce their position in US bonds.
 
 ### Targeting an index
 Do you want to invest in all indexes? There are many.
@@ -420,14 +417,53 @@ Each one of these items will help you target an area.
 Here is a sample screener search, start choosing regions on the left to sort:
 https://www.justetf.com/en/find-etf.html?groupField=none&sortOrder=asc&sortField=ter&distributionPolicy=distributionPolicy-accumulating&assetClass=class-equity
 
+### Diversification
+Spread your investments over a number of different sectors and markets!
+Losses in one market can be offset by gains in another, smoothing out the ride.
+
+A recent example I had personally was the market "correction" of October 2018:
+- a slump in Asian stocks caused US stocks to follow suit, with the Dow Jones
+losing 2.4% and the S&P 500 losing 3.1%. This is the first time the S&P has been
+in negative territory for 2018
+- NASDAQ, a US technology-focussed stock, lost 4.4% - it's worst day since 2011
+- this means in one day, this wiped out all my earnings since I started
+investing, as my biggest investment is in the S&P 500
+- European markets recovered by lunchtime, and the FTSE 100 even gained 0.17%
+- The pan-european STOXX 600 fell by 1% initiall, but recovered slightly to only
+have a 0.7% loss
+
+This event occurring this early on in my investment career taught me a lot:
+- my unshakeable tolerance to risk was truly tested when I saw all my
+investments wiped out in a day
+- holding on is hard to do
+- the average investor is emotional, nervous, speculative, and in moments like
+these it's very tempting to become one yourself
+- hold on and stay strong
+- market volitility is just froth on top of the beer
+- being heavily diversified is the way forward
+
+
+### My investment picks
+In Degiro, I favourite ETFs that I wish to buy in the future.
+Below are ETFs that I already own:
+
 #### S&P 500
 The S&P 500® is the major US stock market index. It tracks the 500 largest US companies. The S&P 500 index weights its constituents by free float market capitalisation.
 ETF investors profit from price gains and dividends of the S&P 500 constituents. Currently, the S&P 500 index is tracked by 14 ETFs.
 
 My picks:
 | ISIN | Name | Acc/Dist | TER | Commission free at Degiro? | Comments |
-| DE000A1JM6F5 | Source S&P 500 UCITS ETF A | Acc | 0.05 | No | Pricey share |
-| IE00B5BMR087 | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | Own |
+| IE00B5BMR087 | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | I own this! |
+
+
+### A special note about Vanguard
+Not an investment trust? US-focussed
+Unique kind of investment management company. No shareholders to make a profit
+for. Have almost zero employees. The share holders own Vanguard.
+Rather than paying out profits, it's lowers its fees.
+
+These guys have been around a while!
+https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=3141&funds_disable_redirect=true
 
 ##### Vanguard 
 | IE00B3XXRP09 | Vanguard S&P 500 UCITS ETF | Dist | 0.07 | No | |
