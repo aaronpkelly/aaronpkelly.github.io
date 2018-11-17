@@ -13,6 +13,14 @@ foreign currencies, collectibles, etc. if you know what you're doing. If it's
 not your full-time job (eg. a venture capitalist or real estate developer), no
 more than 10% of your net worth in these investments
 
+# Quotes
+Warren Buffet:
+- If you don't find a way to make money while you sleep, you will work until you die
+- Stocks have always tended to take an escalator up and an elevator down
+
+# Keep in mind
+- Stock markets deliver superior long-term returns but volatility is the “price
+of admission”; if you don’t pay the price, you don’t get the returns
 
 
 
