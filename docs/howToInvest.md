@@ -417,6 +417,10 @@ Each one of these items will help you target an area.
 Here is a sample screener search, start choosing regions on the left to sort:
 https://www.justetf.com/en/find-etf.html?groupField=none&sortOrder=asc&sortField=ter&distributionPolicy=distributionPolicy-accumulating&assetClass=class-equity
 
+#### Emerging markets
+They are very volatile, but lucrative when the stocks are cheap:
+https://www.irishtimes.com/business/personal-finance/should-you-buy-when-there-s-blood-in-the-streets-1.3684264
+
 ### Diversification
 Spread your investments over a number of different sectors and markets!
 Losses in one market can be offset by gains in another, smoothing out the ride.
