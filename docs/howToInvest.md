@@ -20,6 +20,10 @@ Warren Buffet:
 - If you don't find a way to make money while you sleep, you will work until you die
 - Stocks have always tended to take an escalator up and an elevator down
 
+Aaron Kelly:
+- you will never know your tolerance to risk until you come face-to-face with a bear
+- ignore the froth of the beer, your glass will fill over time
+
 # Keep in mind
 - Stock markets deliver superior long-term returns but volatility is the “price
 of admission”; if you don’t pay the price, you don’t get the returns
@@ -240,6 +244,10 @@ in a standard format, and should show you information like the fund risk etc.###
 Not enough xp to talk about this yet. Barefoot guy recommends investing directly
 in about 10 good companies though.
 
+
+## Cassh
+## Money market funds
+Short-term investment vehicles that provide clients with a liquid alternative to cash
 
 
 
