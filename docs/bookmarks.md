@@ -1,6 +1,5 @@
 HELLO
-CONTINUE FROM COMPUTING -> GAMING -> BROWSER
-
+CONTINUE FROM COMPUTING -> HACKING
 
 # audio
 https://learningmusic.ableton.com/
@@ -61,26 +60,43 @@ https://np.ironhelmet.com/#main_menu
 http://www.decisionproblem.com/paperclips/index2.html
 https://www.kingdomofloathing.com
 
+## dos
+https://www.myabandonware.com/
+http://www.doshaven.eu/
+https://www.dosbox.com/
+
+## emulators
+http://emulator.online/
+
 ## news
 http://kotaku.com/
 http://www.gamasutra.com/
 
-## peoaple
+## people
 http://dukope.com/index.php
+http://persuasivegames.com/games/
 
 ## resources
 http://opengameart.org/
 https://pcgamingwiki.com
+https://forums.tigsource.com
 
-
-
+## rogue-like
+https://sites.google.com/site/broguegame/
+http://www.nethack.org/v360/downloads.html
 
 # computing
+## amazon
+https://amazon.qwiklabs.com
+
 ## automation
 http://www.autohotkey.com/
 
-# ascii
+## ascii
 http://asciiflow.com/
+
+## books
+https://it-ebooks.info/
 
 ## cloudHosting
 https://www.packet.net/
@@ -97,12 +113,23 @@ http://www.defcon.org/
 ## containers
 https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#general-guidelines-and-recommendations
 
+## datasets
+https://data.gov.ie/
+
+## demoscene
+http://www.pouet.net
+https://fabiensanglard.net/
+
 ## documentEditing
 https://hackmd.io/
 https://dougblack.io/words/a-good-vimrc.html
 
 ## dns
 http://freedns.afraid.org
+
+## drawing
+https://ballpoint.io
+https://www.draw.io/
 
 ## freelancing
 https://www.upwork.com
@@ -121,27 +148,15 @@ http://securityreactions.tumblr.com/
 
 ## linux
 https://www.heise.de/
-
-## amazon
-https://amazon.qwiklabs.com
-
-## books
-https://it-ebooks.info/
-
-## datasets
-https://data.gov.ie/
-
-## demoscene
-http://www.pouet.net
-https://fabiensanglard.net/
-
-## linux
 http://www.linux-magazin.de
 https://www.linuxjournal.com/
 
 ## news
 https://www.theregister.co.uk/
 https://lwn.net/
+
+## people
+https://www.fasterthan.life/blog
 
 ## programming
 http://cyber-dojo.org/
@@ -196,7 +211,6 @@ https://www.babepedia.com/
 
 ## reading
 https://www.spritzlet.com/
-
 
 ## shopping
 ### auction
