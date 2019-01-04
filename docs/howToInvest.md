@@ -222,6 +222,13 @@ Limit order: Sell shares if your current position increases and reaches a value.
 To take profit @ $2.90: use Sell; Order Type : Limit Order & enter price $2.90
 
 ## Concepts
+### Dollar-cost averaging
+Dollar-cost averaging” is a popular way to buy stocks over an extended period
+(weeks or months, say). An investor effectively pays the average price over
+that period, rather than the price on any given day – and if they're spending
+the same amount every time, they naturally purchase more stocks when prices
+go down and fewer when prices go up (via finimize)
+
 ### Opportunity cost
 Every time you spend money on a good, and not invest it, the chance to have
 that amount compound over time is lost forever.
@@ -989,13 +996,15 @@ https://www.bogleheads.org/index.php
 https://www.reddit.com/r/investing
 http://jlcollinsnh.com/stock-series/
 
+### newsletters
+finimize
+
 ### roboadvisors
 https://betterment.com
 https://etfmatic.com/
-
 https://www.irishtimes.com/business/personal-finance/computer-says-invest-the-robo-advisers-are-coming-1.3029009
 
-### general
+### general financial
 https://www.irishtimes.com/business/personal-finance
 https://www.ccpc.ie/consumers/
 
