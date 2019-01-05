@@ -127,9 +127,23 @@ https://dougblack.io/words/a-good-vimrc.html
 ## dns
 http://freedns.afraid.org
 
-## drawing
+## drawing / diagramming
 https://ballpoint.io
 https://www.draw.io/
+https://en.wikipedia.org/wiki/YEd
+https://www.planttext.com + http://plantuml.com/
+https://www.simplediagrams.com/
+http://graphviz.org/
+https://www.lucidchart.com/
+
+### ascii
+emacs artist mode
+http://asciiflow.com/
+https://monodraw.helftone.com/
+
+### scientific
+https://github.com/otfried/ipe-wiki/wiki/Showcase
+LaTeX/TikZ.
 
 ## freelancing
 https://www.upwork.com
