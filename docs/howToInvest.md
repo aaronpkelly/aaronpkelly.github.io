@@ -24,11 +24,15 @@ Aaron Kelly:
 - you will never know your tolerance to risk until you come face-to-face with a bear
 - ignore the froth of the beer, your glass will fill over time
 
+Unknown:
+- the cobbler has the worst shoes
+- Mighty oaks from little acorns grow
+
+
 # Keep in mind
 - Stock markets deliver superior long-term returns but volatility is the “price
 of admission”; if you don’t pay the price, you don’t get the returns
-
-
+- Time in the market, not timing the market, is what builds wealth
 
 
 
@@ -121,7 +125,7 @@ a reserve of cash to smooth out any transition periods.
 
 ##  Add to your savings account (also called mojo, reserve tank) regularly
 Set up an account specifically for holding savings.
-This account should do nothing else but provide a safe haven for your savings. 
+This account should do nothing else but provide a safe haven for your savings.
 Make sure the account is free from fees, as these will eat into your savings.
 
 The goal is to save one months expenses, including rent, food, travel etc.
@@ -139,12 +143,12 @@ You may be able to find a savings account that:
 - doesn't penalise you for withdrawing money when you need it (after all, this
 is what your savings account is for)
 - is able to provide you with interest on savings, despite withdrawls
- 
+
 If you find a savings account that meets all that criteria, then why not earn
 interest on it.
 The figure you should be looking for when comparing savings accounts is AER, or
 "Annual equivalent rate". It is "annualised interest" - the interest rate
-calculated for your investment over the entire year. 
+calculated for your investment over the entire year.
 
 
 
@@ -169,7 +173,7 @@ never failed to rise.
 - Make your money work for you
 
 ## Bonds
-Guaranteed returns after a long period of time. Very low risk. 
+Guaranteed returns after a long period of time. Very low risk.
 
 Government bonds:
 http://www.ntma.ie/business-areas/funding-and-debt-management/government-bonds/
@@ -400,7 +404,7 @@ size and direction, as long as:
 The following trades made in that same instrument during the same calendar month
 will also be free as long as:
 - the trade is in the same direction (i.e. buy/sell) as the first trade made
-that month in that instrument 
+that month in that instrument
 - the trade is over EUR1000
 
 Here is the original Degiro PDF that lists the free ETFs:
@@ -492,7 +496,7 @@ Rather than paying out profits, it's lowers its fees.
 These guys have been around a while!
 https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=3141&funds_disable_redirect=true
 
-##### Vanguard 
+##### Vanguard
 | IE00B3XXRP09 | Vanguard S&P 500 UCITS ETF | Dist | 0.07 | No | |
 
 VUSA is pretty amazing. It's Vanguard. It's 0.7% TER.
@@ -521,7 +525,7 @@ An investment in gold is easily done with listed products, like ETFs or ETCs. Th
 Besides exchange-traded products on Gold in US dollar, there are also currency hedged products in euro, pounds sterling or Swiss francs available. These products are also considered in our comparison.
 
 ### More info
-I created a script that finds all commission-free accumulating ETFs on Degiro, 
+I created a script that finds all commission-free accumulating ETFs on Degiro,
 sorted by TER. Caution: these free funds might not be great, make sure to look
 closely at their 5Y performance, TER etc.
 
@@ -623,9 +627,9 @@ liability but have to pay tax every 8 years and pay it at 41% or pay the lower
 rate of CGT at 33% but have to pay tax on dividends? We put it to the test.
 
 #### more stuff about tax
-When you cash your fund, the profits are taxed at 41% 
+When you cash your fund, the profits are taxed at 41%
 Dividends received directly on shares are taxed at your marginal rate of tax which could be as high as 55%
-However Capital Gains are taxed at 33% and the first €1,270 is tax-free every year. 
+However Capital Gains are taxed at 33% and the first €1,270 is tax-free every year.
 When you die, there is no CGT on the gains in your portfolio.
 
 
@@ -642,7 +646,7 @@ https://www.askaboutmoney.com/threads/the-tax-treatment-of-etfs-for-irish-reside
 UK investment trusts, US ETFs or direct equities should all be subject to "standard" tax treatment
 
 #### more!
-accumulating UCITs etf like eg IWDA IWDA is subject to exit tax @41%, with a 
+accumulating UCITs etf like eg IWDA IWDA is subject to exit tax @41%, with a
 deemed disposal every 8 years,
 
 investment trust FRCL is subject to the usual income tax/CGT regime.
@@ -652,7 +656,7 @@ and minimise income from dividends I have looked towards EU domiciled
 accumulating (UCITS) ETFs of which there are hundreds. Many of which are even
 denominated in Euros.
 Unfortunately the exit tax on these at 41% is greater than their EU ETF
-counterparts at 33%. 
+counterparts at 33%.
 Here is some information about the websites that can locate them from my other posts....
 
 - I have found a fantastic source for accumulating EU ETF trackers on the German stock exchange in euros, many of which have extremely low TERs
