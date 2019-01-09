@@ -1,0 +1,32 @@
+# wiki.gentoo.org/wiki/Recommended_applications has some great recommendations
+
+# command-line
+# cvlc - see VLC
+dot - graph drawing
+epub.py - command-line epub reader - github.com/rupa/epub
+mc - midnight commander
+moc/mocp - command-line music player, run `mocp` for the client
+mpg123 - command-line mpeg-audio player
+mpv
+ogg123 - command-line ogg player
+pandoc - universal markdown converter
+parcellite - X clipboard (works in I3, icon bottom-right)
+pdfgrep - search multiple pdfs for text
+powertop - battery monitor
+recordmydesktop - simple tool, records to .ogv. use --windowid
+sox - command line audio
+spacemacs - vim+emacs
+svox pico2wave - great text-to-speech!
+tmux
+xdotool - cmdline mouse automation
+vlc - more powerful than cvlc, type help to see commands. instant support for internet radio (mp3, mp3a, ...)
+
+# gui
+ttrss
+chrome:
+- ublock origin
+- keyboard shortcuts to reorder tabs
+
+windowed environment
+--------------------
+use mouse keys (keypad controls mouse)

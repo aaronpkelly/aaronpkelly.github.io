@@ -1,0 +1,50 @@
+# general WIFI guide (non distro specific)
+# make sure the network device can be detected
+`ifconfig -a` should show the wifi device.
+
+if not, check what device is in the system using `lspci -k` or `lsusb`.
+make sure the kernel is built containng these drivers (as modules is fine)
+
+#install wpa_supplicant
+each distro (gentoo, raspbian, ubuntu) has a diffirent DEFAULT wpa_supplicant
+configuration. if wpa_cli (next section) cannot connect to the AP, you may
+have to edit the `/etc/wpa_supplicant/wpa_supplicant.conf` file directly
+
+# install dhcpcd
+needed to request an IP from the AP
+
+# use wpa_cli to configure, connect and save WIFI configuration
+easiest way to get started.
+
+use wpa_cli to scan and connect to an access point. go read a wpa_cli article on the commands to use.
+don't forget to use "save_config" at the end, this will add the network to your wpa_supplicant.conf file.
+you can then take a look at the file and see what it added.
+
+wpa_cli is verbose about any connection issues it has, so you can use this
+to debug your wifi connection issues too.
+
+## manually testing connecting with wpa_supplicant
+you can test that that the configuration for wpa_supplicant is working by
+running it in the foreground using this command (via the man page):
+
+```
+sudo wpa_supplicant -iwlp58s0 -c/etc/wpa_supplicant/wpa_supplicant.conf -d
+```
+
+if that connects, then run it again in the background:
+
+```
+sudo wpa_supplicant -iwlp58s0 -c/etc/wpa_supplicant/wpa_supplicant.conf -B
+```
+# set wpa_supplicant to run at startup
+look up how to add the wpa_supplicant daemon to start at runtime for your distro
+
+# driver issues
+From the arch linux wpa_supplicant wiki:
+> On some (especially old) hardware, wpa_supplicant may fail with the following error:
+> Successfully initialized wpa_supplicant
+> nl80211: Driver does not support authentication/association or connect commands
+> wlan0: Failed to initialize driver interface
+>
+> This indicates that the standard nl80211 driver does not support the given hardware. The deprecated wext driver might still support the device:
+> $wpa_supplicant -B -i wlan0 -D wext -c /etc/wpa_supplicant/example.conf

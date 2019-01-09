@@ -1,0 +1,52 @@
+probrems?
+========
+add `nomodeset` to the kernel options to run in software rendering mode
+
+proprietary nvida drivers
+=========================
+on distros such as mint, the drivers that are most compatible with all games,
+such as dota2, are in the legacy nvidia-34x download from their
+website. i think it's best to not use the package manager's installer
+try the package nvidia-340 from their website. 
+
+disabling x
+-----------
+mint: 
+	`sudo service mdm stop`
+
+the installer should run now
+
+## blinking cursor on all tty after disabling x
+execute this command:
+	
+	mv /etc/X11/xorg.conf /etc/X11/xorg.conf.bak
+
+then try shutting down the x server from within x itself.
+that will force X to regenerate a new config file, and hopefully resolve
+the blinking cursor issue
+
+disabling noveau
+----------------
+the nvidia installer will offer to add a config file to the
+modprobe.d/ directory in order to disable the kernel's noveau
+driver. let it do this, and then run
+
+	`sudo update-initramfs -u`
+
+then reboot!
+
+libc6-dev
+=========
+the installation may complain that the libc header files are missing. just
+install the *libc6-dev* package
+
+the below is potentially wrong
+==============================
+update: i have run into a problem with this (i think). Systems with nVidia
+adapters using the nouveau driver lock up randomly, so even though its 
+been disabled by the nvidia installer, it looks like its still trying to
+access it. I will try adding the boot option `nouveau.noaccel=1`. Then I'll
+try blacklisting the nouveau driver using a command like:
+`sudo echo nouveau >> /etc/modprobe.d/blacklist.conf`.
+
+I'll report back if it works!

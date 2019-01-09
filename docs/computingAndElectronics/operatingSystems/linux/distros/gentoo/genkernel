@@ -1,0 +1,17 @@
+# specify the .config file!
+specify the `.config` file you wish to use when using genkernel, otherwise it will go off and potentially use it's own config (and move your /usr/src/linux/.config file to a .bak)
+
+DO give a full path for the config file
+DONT have the .config located at `/usr/src/linux/.config`. genkernel doesn't like that.
+have it in a different location, or renamed to a different file (see below):
+
+`genkernel --kernel-config=/usr/src/linux/.config_dellXPS13-9360 all`
+
+# genkernel does it all
+#
+the command `genkernel all`
+- builds kernel + modules + firmware
+- creates ramdisk
+- modifies grub to use ramdisk
+
+it's amazeballs. don't forget to specific the kernel config file!!!! see the other section

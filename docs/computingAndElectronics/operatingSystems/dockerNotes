@@ -1,0 +1,4 @@
+# chrome
+problems with the chrome containers can be due to:
+- `xhost +` not being run before chrome starts
+- the `~/.config/google-chrome` directory not being writable. run `chmod 777 google-chrome`

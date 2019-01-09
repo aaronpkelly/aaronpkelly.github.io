@@ -1,0 +1,6 @@
+partition	mountPoint
+
+/dev/sda4	/boot	5G
+/dev/sda5	/home	408G
+/dev/sda6	/	50G
+/dev/sda7	swap	4G

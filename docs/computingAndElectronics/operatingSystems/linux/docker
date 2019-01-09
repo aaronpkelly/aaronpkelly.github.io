@@ -1,0 +1,17 @@
+# accessing containers that are serving web pages
+even if a container is saying that a webpage is available on 0.0.0.0:4000,
+this doesn't mean that the container is visible at this IP address on the
+host machine.
+
+you need to find the correct IP:PORT to connect to from the host machine.
+
+## from the host machine
+`ip addr show docker0`
+
+will show you the range of ip addresses that docker can potentially serve on.
+
+## within the docker container
+`ip route show` will display the IP address of the container as seen by the
+host machine. the address after the `src` text is the address that should be
+connected to
+

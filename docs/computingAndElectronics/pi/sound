@@ -1,0 +1,17 @@
+ALSA should already be pre-installed, use that - not pulseaudio.
+
+MPlayer will use the default libavcodec to play mp3 files - which is fine. It
+will complain however that it can't find the mpg123 codec files to play.
+Install the packages libmpg123-0 (and maybe mpg123?) and then edit the 
+~/.mplayer/config file to include:
+```
+afm=mp3lib
+```
+
+The pi can either output audio via the hdmi cable or the standard analogue 
+audio jack. Use the below command to switch between hdmi/analogue:
+
+Substituting <n> for the desired mode: 0=auto, 1=headphones, 2=hdmi. For example, to force the Raspberry Pi to use the analog output:
+```
+sudo amixer cset numid=3 1
+```

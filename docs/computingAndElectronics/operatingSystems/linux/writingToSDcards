@@ -1,0 +1,10 @@
+# voltage causing dd problems
+dd'ing an image to a sdcard on one machine my fail (the image doesn't boot up
+successfully), but may succeed when writing it from another device - like a
+laptop.
+
+i saw a post saying this could be due to the higher voltages being used to
+drive the card reader, which can cause corruption in writes
+
+anyway, i verified this by writing to an sdcard on a desktop machine, failed,
+then tried with the same card reader on a laptop... success

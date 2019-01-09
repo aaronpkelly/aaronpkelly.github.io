@@ -1,0 +1,28 @@
+# setting resolution in hard terminal
+# use vbeinfo from grub command line to get supporter resolutions
+vbeinfo gives the resolutions that your videocard can handle.
+
+# edit grub files
+make grub pass on the VGA mode to the kernel at startup, to set the
+terminal resolution.
+
+edit `/etc/default/grub` and change the following line to:
+
+```
+GRUB_CMDLINE_LINUX_DEFAULT="vga=795"
+```
+
+then run:
+
+```
+grub2-mkconfig -o /boot/grub/grub.cfg
+```
+
+# vga modes
+see www.gnu.org/software/grub for a list of vga modes
+
+however here are some quick ones:
+640x480     786
+800x600     789
+1024x768    792
+1280x1024   795

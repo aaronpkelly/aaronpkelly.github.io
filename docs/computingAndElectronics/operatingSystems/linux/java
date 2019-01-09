@@ -1,0 +1,13 @@
+# java 7
+for most linux distros, just install the package `default-jdk`. however - 
+programs like Android Studio will require java 8.
+
+# java se development kit 8 (needed for Android Studio)
+Follow these instructions:
+
+	https://developer.android.com/studio/install.html
+
+you'll now need to reconfigure your system to use java8 instead of java7.
+follow these instructions after you've unzipped java8:
+
+	https://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html#jdk

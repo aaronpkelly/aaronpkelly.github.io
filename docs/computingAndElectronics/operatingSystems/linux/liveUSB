@@ -1,0 +1,22 @@
+# non-persistant distros
+## TAILS
+- use the unsafe browser for faster browsing
+- the 'videos' application can be used to stream audio, like radio stations
+
+# multiboot usbs
+Use multisystem to build a multi-boot live USB - it looks a bit messy but it works!
+
+Try to get distros from:
+	Debian
+		Lubuntu, Kali
+	Slackware
+		OpenSUSE
+	Redhat
+		Fedora
+	Other
+		Gentoo
+		Arch
+		Tinycore
+		Slitaz
+		LFS
+		4M Linux

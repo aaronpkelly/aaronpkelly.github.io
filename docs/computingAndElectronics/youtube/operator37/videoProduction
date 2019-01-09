@@ -1,0 +1,4 @@
+streamer -q -c /dev/video0 -f rgb24 -r 3 -t 00:30:00 -o ~/outfile.avi
+ffmpeg -f oss -i /dev/dsp -f video4linux2 -s 320x240 -i /dev/video0 out.mpg
+
+http://mltframework.org/twiki/bin/view/MLT/MltMelt

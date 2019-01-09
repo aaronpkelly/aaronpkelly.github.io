@@ -1,0 +1,17 @@
+# use a live usb/cd
+use a live non-persistent session to fix your partitions, as your disks need
+to be unmounted
+
+for debian, this guy wrote a great script:
+http://www.matthiaskauer.com/2015/03/install-boot-repair-on-debian-from-ubuntu-ppa/
+
+```
+#!/bin/bash
+apt-get install software-properties-common python-software-properties -y
+add-apt-repository ppa:yannubuntu/boot-repair
+# sed -i 's/wheezy/trusty/g' /etc/apt/sources.list.d/yannubuntu-boot-repair-wheezy.list
+sed -i 's/jessie/trusty/g' /etc/apt/sources.list.d/yannubuntu-boot-repair-jessie.list
+apt-get update;
+apt-get install -y boot-repair;
+boot-repair
+```

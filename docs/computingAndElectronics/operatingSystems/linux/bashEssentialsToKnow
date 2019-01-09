@@ -1,0 +1,65 @@
+Reroute all errors to /dev/null
+find . -name *.xml >2 /dev/null
+List directories only
+ls -d */
+update grub (reconfigure the main menu)
+sudo update-grub
+install missing dependencies
+sudo apt-get install -f
+grep a file for a string containing a dash
+grep -e "-X"
+iptables restrict all traffic except SSH
+http://www.cyberciti.biz/tips/linux-iptables-4-block-all-incoming-traffic-but-allow-ssh.html
+encrypt and decrypt files with openssl
+http://osxdaily.com/2012/01/30/encrypt-and-decrypt-files-with-openssl/
+Joining files in linux
+Do you want to join multiple files?
+You can cat multiple files into a big one: cat * > [filename]
+From there, you can use ffmpeg to convert: ffmpeg -i "[input]" -target svcd [output]
+Some mega linux employer guy's essentials when hiring:
+Here's the essentials I like my team to know:
+Strings
+grep
+awk
+uniq, sort, sort -n
+seq
+cut
+wc
+Files
+rsync
+lsof
+find | xargs
+locate
+df -H
+du -cks * | sort -n
+scp
+strings
+file
+touch
+z* (zgrep, zcat, etc)
+tail -f, head
+Administration
+man
+ps auxf (f only on GNU)
+kill, -HUP, -9
+sudo
+screen
+/etc/init.d/ scripts
+id
+Z, fg, jobs, &
+Networking
+nmap
+dig
+tcpdump
+wget
+curl
+ifconfig
+Operators
+The knowledge that bash is a programming language that provides all your basic constructs (ifs, loops, variables, functions), but instead of having a library of functions, you execute simple programs instead
+|
+<, >, >>
+- as stdin, e.g. "cat somefile.txt | vi -"
+for i in a b c d; do echo $i; something_else $i; done
+alias
+All the goodies at http://samrowe.com/wordpress/advancing-in-the-bash-shell/
+

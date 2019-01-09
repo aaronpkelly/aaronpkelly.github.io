@@ -1,0 +1,62 @@
+# dell xps 13 - dual booting
+## settings
+in the BIOS, turn all features off:
+- disable secureboot
+- disable AHCI
+- disable sata controllers
+
+turn all these features on:
+UEFI
+
+you want to install linux + windows under the simplest conditions possible.
+DO NOT enable legacy boot mode for the moment.
+
+## overview of installation flow:
+- write linux image to usb
+- write windows image to usb using windows media creation tool
+- write windows network driver to usb - go to dell xps 13 9360 website and copy driver for killer 1535 adapter
+- set BIOS settings to simplest possible
+- install linux mint FIRST
+- use linux mint usb to resize linux partition
+- install windows SECOND. windows will install its bootloader after linux
+- check both OS's are booting ok
+- install wifi driver on windows
+
+## usb writing tips
+any problems with linux mint installation is MOST LIKELY due to how it was copied.
+error messages like `Input/Output error when writing to hard disk` is probably a bad
+installation medium (yes, it happened).
+
+success has been found in the following ways:
+- write linux mint image using `dd` under linux or *Rufus* under windows
+- if using Rufus, using DD write mode
+
+# general
+## wifi problems - getting around them
+use the bluetooth connection on a phone to get internet access to download
+whatever files you need. you don't need to mess with usb keys/cables.
+
+# linux
+## installation problems
+### can't find disk drive
+linux can sometimes struggle to see a disk drive if the BIOS instructs the
+SATA disk controller to function in RAID mode. change the SATA mode to ACHI so
+linux can see it
+
+## kernel switches
+if installing a distribution with no graphical interface, use kernel switches
+to tell grub to load no video drivers from the kernel! Eg:
+GRUB_CMDLINE_LINUX_DEFAULT="quiet nomodeset"
+
+don't forget update-grub....
+
+# windows
+usb boot problems
+-----------------
+there is an app called 'Rufus' (rufus.akeo.ie) that seems to do a really good
+job of making bootable usbs for windows - it worked where *dd* did not.
+
+dvd boot problems
+----------------
+burning an .iso on the *slowest speed possible* has been suggested as a
+resolution to non-booting windows DVDs

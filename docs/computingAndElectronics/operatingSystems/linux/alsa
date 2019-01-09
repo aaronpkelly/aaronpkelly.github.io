@@ -1,0 +1,23 @@
+# headphone output problems
+run `alsactl restore`
+
+# other commands
+to display what devices output audio via ALSA:
+aplay -l output
+
+to do a speaker test for card 0 and device 3:
+speaker-test -c 2 -r 48000 -D hw:0,3
+
+create the file ~/.asoundrc, and add the following
+```
+pcm.!default {
+type hw
+card 0
+device 3
+}
+
+ctl.!default {
+type hw
+card 0
+}
+```

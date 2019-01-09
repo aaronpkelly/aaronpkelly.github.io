@@ -1,0 +1,8 @@
+# put something inside .xinitrc
+the x server will quit immediately if it has nothing to do.
+install xterm, and put `exec xterm` inside a `.xinitrc` file
+
+# window manager intercepting keyboard shortcuts
+If you're using a command-line program than requires keyboard combinations, and
+they are not getting through, then turn off 'window decoration' from the menu
+bar and you should be able to use the keyboard shortcuts normally

@@ -1,0 +1,16 @@
+# run in read-only mode first
+when running a command such as:
+
+```
+fsck.ext4 /dev/sda1
+```
+
+the output of the check may state that it is `unable to set superblock flags`
+
+the solution is to run `fsck` in read-only mode first
+
+```
+fsck.ext4 -n /dev/sda1
+```
+
+i think this allows fsck to skip superblock problems and find out that there are bad blocks later on in the file system (which cause the superblock flag problems)

@@ -1,0 +1,48 @@
+# xorg gon' give it to ya
+
+# which package to install
+install the lightweight `xorg` server, not the bigger x11 package
+
+# jessfraz's .x* files kinda fuck things up
+just remove all symbolic links except .xinitrc and .Xprofile.
+shit's whack yo
+
+# drivers drivers drivers - keep it simple, use onboard graphics
+just start getting x working with our onboard graphics before you
+try and get it working with your grpahics card.
+
+install these packages:
+- x11-base/xorg-drivers
+- media-libs/mesa
+- xf86-video-{evdev, vesa} # 2 packages
+# - xf86-video-fbdev # not sure if needed
+# - xf86-video-intel # should be built in to x11-base/xorg-server
+
+# edit /etc/portage/make.conf
+for most basic onboard intel graphics, add `VIDEO_CARDS="intel i915"`
+
+# run this after changing make.conf
+`emerge --ask --changed-use --deep @world`
+
+# you don't need an xorg.conf file
+x is pretty good at autodetecting which drivers to use. dont make one
+for the moment
+
+# create a ~/.xinitrc file to start default programs, or a window manager
+for testing, put this in the config required to start (requires xterm)
+
+```
+!#/bin/sh
+exec /usr/bin/xterm
+```
+
+if that works, then you know your x is working!
+
+# install a window manager and edit ~/.xinitrc
+i3, cinammon..
+
+then change the line in `~/.xinitrc` to:
+`exec i3`
+
+# start!
+`startx` to start xorg

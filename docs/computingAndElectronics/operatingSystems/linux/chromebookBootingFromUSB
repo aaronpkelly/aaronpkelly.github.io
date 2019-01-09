@@ -1,0 +1,41 @@
+The below steps are for Kali linux but I'm sure they can be used for Chrubuntu etc
+http://docs.kali.org/armel-armhf/install-kali-samsung-chromebook
+
+Before starting
+I've had much more success with using SD cards rather than flash drives.
+
+After the dd operation, I am able to see partitions on an SD card, but a flash drive I cannot.
+
+Make sure the USB/flash disk is properly formatted (use fdisk or gparted) and you make a GPT partition table. Also I don't know if you should make a file system. Probably not? ?
+
+Make sure the laptop has developer mode drivers installed
+chronos@localhost $ chronos
+chronos@localhost $ sudo bash
+localhost chronos # chromeos-firmwareupdate --mode=todev
+reboot
+Flash Drive / SD card
+Unmount the flash drive before writing anything to it! Click the unmount button in the file manager
+Copy to flash drive
+dd if=kali-chromebook.img of=/dev/sdb bs=512k
+
+As soon as the dd operation finishes, you should see partitions
+
+Repair flash drive
+$ sudo cgpt repair /dev/sda
+Set priority of boot partitions
+Make sure that you are choosing the correct partiion (-i)
+$ sudo cgpt add -i 1 -T 5 -P 5 -l KERN-A /dev/sda
+$ sudo cgpt add -i 2 -T 5 -P 10 -l KERN-B /dev/sda
+Check priorities were applied flash drive
+$ sudo cgpt show /dev/sda
+Make sure usb boot is enabled
+sudo crossystem dev_boot_usb=1
+SD card
+Rebooting while dd'ing?
+https://forums.kali.org/archive/index.php/t-115.html
+Copy image
+dd if=kali-linux-1.0.4-armhf-chromebook.img iflag=dsync of=/dev/mmcblk1 oflag=dsync bs=512k
+
+http://mihirsingh.com/kali-on-chromebook/#fn:1
+http://docs.kali.org/armel-armhf/install-kali-samsung-chromebook
+https://forums.kali.org/archive/index.php/t-171.html

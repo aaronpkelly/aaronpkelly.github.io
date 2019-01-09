@@ -1,0 +1,35 @@
+# you need to install wpa_supplicant
+if you're connecting to an access point that requires WEP/WPA/WPA2
+authentication, then you need to use wpa_supplicant.
+
+you're also going to need two files configured on your local machine in order
+for it to connect
+
+## /etc/conf.d/net
+replace `wlp0s29u1u4` with the name of your wifi device
+
+```
+modules_wlp0s29u1u4="wpa_supplicant"
+wpa_supplicant_wlp0s29u1u4="-Dnl80211,wext"
+config_wlp0s29u1u4="dhcp"
+```
+
+## /etc/wpa_supplicant/wpa_supplicant.conf
+add the following to this file. the additional options at the top may be needed:
+
+```
+ap_scan=1
+ctrl_interface=/var/run/wpa_supplicant
+ctrl_interface_group=0
+
+network={
+	ssid="UPC195407"
+	psk="[your password]"
+	priority=5
+}
+```
+# wifi services not starting
+use `rc-status` to determine if all services have started after logon.
+`netmount` and your NIC `net.wlp*` may show as disabled if wpa_supplicant
+wasn't able to authenticate. just restart the `netmount` service and they
+should both reinitialise

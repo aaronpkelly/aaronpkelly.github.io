@@ -1,0 +1,49 @@
+# installation and general info
+https://boinc.berkeley.edu/wiki/Installing_BOINC_on_Gentoo
+https://wiki.archlinux.org/index.php/BOINC
+
+# running the boinc daemon
+start the init script `/etc/init.d/boinc start`
+
+# monitoring work with boinccmd
+this command line tool should preferably be the only way to control the boinc
+client. it's very powerful
+
+[](http://boinc.berkeley.edu/wiki/Boinccmd_tool)
+
+# configuration of computing preferences
+if there is no `cc_config.xml` file, default preferences are used.
+
+a handy file to make changes to is `global_prefs_override.xml`.  if you have
+made changes in `global_prefs_override.xml`, you should instruct boinccmd to
+us them:
+
+`boinccmd --read_global_prefs_override`
+
+or if you're using the gui client:
+
+`Advanced -> Read local prefs file`
+
+to go back to normal preferences:
+
+`boinccmd --read_cc_config`
+
+[](https://boinc.berkeley.edu/wiki/Global_prefs_override.xml)
+
+# connecting to boinc with a gui client
+select `ALT->File->Select Computer` and then enter `localhost` in the text
+field. the passord is set in a file `gui_rpc_auth.cfg`. it's easiest to just
+have nothing in this file so you don't need to use a password
+
+# configuration files
+are in `/var/lib/boinc`. they control all aspects of computing
+
+one of the main configuration files that controls the amount of CPU used for
+tasks is global_prefs_override.xml
+
+these lines are of interest:
+
+```
+<cpu_usage_limit>50.000000</cpu_usage_limit>
+<max_ncpus_pct>100.000000</max_ncpus_pct>
+```

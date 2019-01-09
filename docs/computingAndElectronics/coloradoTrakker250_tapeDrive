@@ -1,0 +1,8 @@
+manufacturer: HP
+
+# resources
+##ftape program
+[http://www.tldp.org/HOWTO/Ftape-HOWTO.html]()
+
+## man page
+should be a man page, or the `tar` man page should have some info about working with tape drives

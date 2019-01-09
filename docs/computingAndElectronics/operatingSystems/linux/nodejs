@@ -1,0 +1,10 @@
+on the pi, you have to build from source, howevere there are a number of
+things you need to configure if you are building it on a pi, as theer is
+a problem with detecting the correct processor (it will detect armv7 instead
+of armv6).
+
+see this page http://raspberrypi.stackexchange.com/questions/24059/node-js-v0-11-14-exits-with-illegal-instruction
+
+then run these commands to install packages using the npm package manager:
+npm set registry http://registry.npmjs.org/
+sudo npm install castnow -g

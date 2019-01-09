@@ -1,0 +1,18 @@
+General
+Mount macro
+#showtooltip
+/cast [nomounted, flyable] Swift Green Gryphon; [mounted, flyable] Swift Green Gryphon; [mounted] Dreadsteed; [nomounted] Dreadsteed 
+
+Warlock
+Drains
+#showtooltip
+/cast [nomod] Drain Life; [mod:ctrl] Drain Soul; [mod:shift] Drain Mana
+Curses
+#showtooltip
+/cast [nomod] Curse of Agony; [mod:alt] Curse of the Elements; [mod:ctrl] Curse of Weakness; [mod:shift] Curse of Tongues
+Corruption
+#showtooltip
+/cast [nomod] Corruption; [mod;ctrl] Seed of Corruption
+
+Mage
+http://www.mmo-champion.com/threads/681999-*Mages-Macros*

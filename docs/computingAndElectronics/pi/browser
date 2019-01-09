@@ -1,0 +1,7 @@
+I had to edit /etc/resolv.conf because of slow loading times, I appended the
+following to the file:
+
+```
+# my options
+options timeout:1 attempts:5
+```
