@@ -1,6 +1,9 @@
 # Live USB ISO that runs docker
 Still hunting
 
+# How to get around aufs error
+https://stackoverflow.com/questions/30248794/run-docker-in-ubuntu-live-disk
+
 ## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ## XFCE does not have a wifi manager !
 ## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -20,3 +23,12 @@ xfce - wifi didn't work out of the box
 
 ## Mint
 need to retest, I previously used xfce (no wifi)
+
+## project atomic
+untested
+
+## RancherOS
+untested
+
+## Ubuntu core
+untested
