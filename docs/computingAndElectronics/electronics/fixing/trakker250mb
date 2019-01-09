@@ -1,0 +1,22 @@
+ftape driver
+============
+no longer available from usual sources, i did find one on sourceforge:
+https://sourceforge.net/projects/ftape/
+
+building
+========
+having problems building the ftape driver due to kernel files not being 
+available on mint that it expects to use during the build process.
+
+i've tried downloading a kernel from kernel.org but i don't think that's 
+sufficient, i think the files it needs need to be from an installed system.
+
+this message says that this directory on modern linux systems should hold the
+needed files, but I don't think it works:
+http://osdir.com/ml/linux.tape/2002-06/msg00005.html
+
+	Nowadays, most distributions provide the correctly configured kernels
+	now, there's a symlink /lib/modules/<version>/build. If that is not
+	the case the bestt way is to compile kernel and all modules yourself.
+	There is also a configure option to compile both kernel and modules
+	without the version tags. 

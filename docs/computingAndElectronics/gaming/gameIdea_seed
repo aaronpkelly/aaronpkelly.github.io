@@ -1,0 +1,47 @@
+via - https://hackmd.io/CYVmEMGMDYAZYLQA4CMBTRAWEBmA7AuAEyoI6pp7xVrSZA==?edit 
+
+# Game ideas
+# Title: Seed
+## story
+- the player won't know whats going on until the story develops
+- the game starts with a mysterious probe that has fallen from the sky on some strange planet, and lies in a mangled heap on the ground. It calls out for the player to help it
+- The players initial goal is to gather resources to help heal the broken probe that lies paralysed and silent
+- it is damaged and has no memory of where it came from. It can't move, but it manages to send out tiny nanomachines to explore its surrounding, and it is able to slowly aborb resources from around it
+- once slightly healed, the probe is able to speak, and informs the player that it is a "seedbearer", and it tells the player that they need to continue gather information about the current planet
+- it warns the player however that they are always in danger, and that an enemy in the sky searches for it
+- over time it is able to build more complicated machines that can gather resources better
+- these tiny machines still need to use the husk of the seedbearer for protection, and are still quite vulnerable
+- the seedbearer informs the player that it must begin the constrution of a new seedbearer, one which is adapted to the current planet
+- once the player has saved up enough resources, the seedbearer then informs the player of a bigger picture, and points the player towards the stars. It tells them that they must go back into the sky, and hope to contact other seedbearers
+- a new seedbearer is created, and the old seedbearer dies
+- the new seedbearer begins to rapidly help the player, and it is soon possible to launch more seedpods into space
+- by finding other seedbearers, the fractured ancient knowledge of the civilisation can be pieced back together, and the location of a suitable homeworld may be found
+- the player must guess from their current information where the next best destination may be
+- the main objective is to find a homeworld that is suitable
+
+## possible story twist
+- a potential twist in the story, when the player discovers an ancient and badly corrupted seedbearer in deep space, its mind almost gone from countless years of radiation
+- it reveals to the player that their purpose is not what they thought
+- they discover that they are in fact an enemy of life, an ancient aberration, a malignant cancer in the universe
+- instead of seeding planets with life, their purpose is to extinguish it
+- it is revealed that every planet they have touched from the beginning of the game is now inhospitable, the seedbearers have poisoned the skies and seas of the planets they were created on
+- the "enemy in the sky" are in fact the struggling civilisations of life attempting to fight the seedbearers
+- the player can then decide a path - whether to continue extinguishing all life, trying to destroy themselves (game turns into one rogue seedbearer against the hive mind), or taking their chances in another universe by attempting to enter a singularity (black hole)
+- a focus may be that no path is 'good' or 'bad', and that there may be compelling reasons for all path
+
+## gameplay
+- each seed carries within it a part of the history of the lost civilisation, however a lot of the information is corrupted from travelling in space and burning up on planet entry. Only a few of these seeds manage to fall into a planet
+- trying to develop too fast on a planet will increase the chances of being noticed by the enemy
+- most pods sent into space to make contact with seedbearers are lost and go silent
+- space is big, finding suitable planets is hard
+- even if a planet is found, it could be unstable, ancient and still-forming, or due to cataclysmic events the planet may suddenly be extinguished due to meteors, supernovae, solar flares etc
+- it takes a long time to restart the civilisation, and most civilisations will fail due to war, disease, etc
+- one of the seedbearers has fallen into a black hole, and is particularly difficult to extract. It requires the player to build up a significant amount of effort to rescue. The seedbearer is very corrupted and it's behavior is very strange. Its presence has a signficant affect on the player (strange random events)
+- some seedbearers have forgotten their mission completely, and consider the player a threat  
+
+## Core concepts
+- 2D pixel graphics
+- Resource gathering
+- Progression orientated
+- Randomly generated environments
+- Story orientated

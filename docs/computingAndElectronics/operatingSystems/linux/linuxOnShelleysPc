@@ -1,0 +1,4 @@
+- install wicd
+- install the firmware for the Atheros usb wifi (it's non-free) - https://wiki.debian.org/ar9170usb
+- go to preferences inside wicd (the right dropdown arrow)
+- set wireless interfaces to wlan0

@@ -1,0 +1,2 @@
+git diff HEAD:downloadComp30060 downloadComp30060
+shows what will happen after HEAD is applied to local file

@@ -1,0 +1,2 @@
+# audio/video conversion
+ffmpeg -i INFILE -acodec mp3 -vcodec libx264 OUTFILE

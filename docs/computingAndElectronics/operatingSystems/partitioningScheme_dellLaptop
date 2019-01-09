@@ -1,0 +1,16 @@
+windows boot partition  500MB
+windows partition 175GB
+linux boot partition  500MB
+swap space  10GB (mem + 2GB, via centos instructions)
+/ 20GB
+/home 35GB
+
+## partitioning of disk
+Please include these partitions for sharing amongst all distros:
+/boot: a boot partition, especially used for holding non-persistent .isos
+/home		A separate home partition
+/swap		Swap partition - 8g (or double your RAM)
+
+use a large partition for file storage. pretend that everything will burn
+tomorrow and don't keep anything persistent. sync everything with git.
+

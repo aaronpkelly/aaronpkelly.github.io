@@ -1,0 +1,14 @@
+# get the installer running on linux
+follow this guide *more or less* and it will work easily:
+https://us.battle.net/forums/en/bnet/topic/20753657354
+
+notes:
+- i downloaded the general battle.net client myself, not the one in the article
+- i couldn't log in at the first login screen, so i just 'continued without login'. once inside the app, i could login properly
+
+run in 32-bit mode, it will crash in 64-bit
+if you can't get the game to run in 32-bit mode, rename the 32-bit exec
+file to the 64-bit one. the game will run it!
+
+make sure the WTF/Config.wtf file contains
+SET gxApi "D3D9"

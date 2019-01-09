@@ -1,0 +1,20 @@
+# installation/first time running problems
+first off: run steam from a terminal so you can see the output messages.
+
+## nouveau problems
+if you get the message `libGL error: unable to load driver: nouveau_dri.so`,
+then run this command:
+
+	LD_PRELOAD='/usr/$LIB/libstdc++.so.6' DISPLAY=:0 steam
+
+explanation is [http://askubuntu.com/questions/635851/error-in-installing-steam-on-ubuntu-15-04](here)
+
+## clearing out gunk
+- delete the .steam folder. don't worry, all the main steam resources are in
+the .local/share/Steam folder
+
+# nvida drivers
+- if you must, try installing the nvidia proprietary drivers. steam won't
+usually want to run without good video drivers.
+
+install the proprietary nvidia ones from http://www.nvidia.com/object/unix.html

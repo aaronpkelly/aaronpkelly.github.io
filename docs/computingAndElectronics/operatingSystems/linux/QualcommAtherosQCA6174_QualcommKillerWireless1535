@@ -1,0 +1,51 @@
+Qualcomm Killer Wireless 1535 (windows)
+Qualcomm Atheros QCA6174 (linux)
+
+# windows
+## about
+product page: http://www.killernetworking.com/products/killer-wireless-ac-1535
+
+via https://www.notebookcheck.net/Killer-Wireless-AC-1535-Review.178877.0.html:
+Rivet Networks presents the Killer Wireless-AC 1535: an M.2 2230 adapter, which supports the
+802.11 a/b/g/n/ac standards and Bluetooth 4.1.
+The card is based on a Qualcomm chip, but its software and hardware design and certifications are from Rivet Networks.
+This chip is a dual-band (2.4 and 5 GHz) 2x2 AC WLAN adapter, which supports MU-MIMO and Beamforming.
+Rivet has added features, such as Advanced Stream Detect for Quality of Service and ExtremeRange for extended range.
+Combined with a LAN chip from Killer, this card allows the user to employ WLAN and LAN simultaneously and intelligently for QoS.
+Rivet calls this combo the DoubleShot Pro technology.
+
+# linux
+## about and firmware information
+https://wiki.gentoo.org/wiki/Qualcomm_Atheros_QCA6174
+
+## linux driver information (all commands run on Lubuntu)
+```lspci```:
+3a:00.0 Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+
+```lspci -vv -s 3a:00.0```:
+3a:00.0 Network controller: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter (rev 32)
+	Subsystem: Bigfoot Networks, Inc. QCA6174 802.11ac Wireless Network Adapter
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx+
+	Latency: 0
+	Interrupt: pin A routed to IRQ 285
+	Region 0: Memory at dc000000 (64-bit, non-prefetchable) [size=2M]
+	Capabilities: <access denied>
+	Kernel driver in use: ath10k_pci
+	Kernel modules: ath10k_pci
+
+```sudo lshw -class NETWORK```:
+  *-network                 
+       description: Wireless interface
+       product: QCA6174 802.11ac Wireless Network Adapter
+       vendor: Qualcomm Atheros
+       physical id: 0
+       bus info: pci@0000:3a:00.0
+       logical name: wlp58s0
+       version: 32
+       serial: 9c:b6:d0:13:34:1f
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
+       configuration: broadcast=yes driver=ath10k_pci driverversion=4.8.0-22-generic firmware=WLAN.RM.2.0-00180-QCARMSWPZ-1 ip=192.168.1.10 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+       resources: irq:285 memory:dc000000-dc1fffff

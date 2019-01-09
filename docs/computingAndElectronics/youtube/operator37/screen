@@ -1,0 +1,5 @@
+use screen to keep a live session open all the time, good for when you have a 
+host that has a constant connection to the internet and using apps that can
+benefit from this.
+
+i use this with my pi so that the newsfeeds and chat is constantly up-to-date

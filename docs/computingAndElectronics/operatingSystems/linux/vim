@@ -1,0 +1,10 @@
+i searched for python and vim, and found a website that suggeted a lot of great
+packages for vim, using VUNDLE
+
+there is a bit of a struggle to get YouCompleteMe running on pi, it requires
+that vim and cmake be compiled from source, as the binary packages available from
+the current raspbian repos are outdated, and it also needs to be built with
+python 2.7 support!!! 
+
+use the YouCompleteMe guide to compiling vim with python support, they have one 
+written for you

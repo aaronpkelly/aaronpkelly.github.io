@@ -1,0 +1,2 @@
+# find all installed packages
+``cat /var/lib/portage/world``

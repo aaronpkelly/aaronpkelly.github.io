@@ -1,0 +1,5 @@
+sometimes a windows partition may be unclean:
+ntfsfix /dev/{partition}
+
+sometimes linux won't mount a windows partition because it finds hiberfile.sys:
+sudo mount -t ntfs-3g -o remove_hiberfile /dev/sda4 /media/windows/

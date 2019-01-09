@@ -1,0 +1,4 @@
+The repositories at
+	/etc/apt/sources.list
+are wrong. They need to be changed to precise:
+deb http://ie.archive.ubuntu.com/ubuntu/ precise main restricted universe multiverse

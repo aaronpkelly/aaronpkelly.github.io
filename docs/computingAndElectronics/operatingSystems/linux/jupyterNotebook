@@ -1,0 +1,34 @@
+# installing jupyter notebook
+only install the following packages: 
+- python
+- virtualenv
+
+for the packages you need for each environment, write down the packages you
+need in a requirements.txt file - this is like a config file.
+this should sit in the root folder of the project
+
+# setup the virtualenv
+
+## option 1 - user wide home folder venv
+
+```
+virtualenv -p python[23] ~/my_virtualenv_locationi
+```
+
+## option 2 - project based
+```
+cd $project
+virtualenv -p python[23] ./venv/[23]
+```
+
+# use the virtualenv
+
+```
+source $myvenvfolder/bin/activate
+```
+
+# maintain (update, add etc) packages (remember to be inside a venv environment!)
+1. edit `requirements.txt`
+2. `pip install --upgrade -r $requiremenfile`
+
+

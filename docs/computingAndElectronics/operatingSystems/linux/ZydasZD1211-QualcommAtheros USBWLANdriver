@@ -1,0 +1,85 @@
+﻿# debian
+debian just doesn't come with the necessary drivers built-in. this causes
+problems during the **network** install, and even the full DVD install. it 
+just doesn't include them.
+
+## network install requiring zd1211 drivers
+the file you need is called zd1211-firmware_3.0.0.56.orig.tar.gz.
+
+the above tar file needs to be uncompressed and the files available to the
+installation process. it will then be able to load the driver and connect
+to a wifi point
+
+# Gentoo
+install the linux-firmware package
+
+make sure your wifi firmware drivers are loaded as a module in your kernel
+        make menuconfig
+
+Then build your kernel
+        sudo make && sudo make modules_install && sudo make install
+
+The below command is not recommended by the forum peeps, but I ran it once in desperation and I could see my firmware being loaded in to the kernel (I can’t tell if this is what helped me fix my wifi or not...
+        make && make firmware_install 
+
+install wpa_supplicant
+
+I then used this technique (ty arch linux!) to get my wifi to connect
+https://wiki.archlinux.org/index.php/WPA_supplicant#Connecting_with_wpa_passphrase
+
+dhcpcd
+I've had problems with my router not assigning me an ip address properly. Stop/start the dhcpcd daemon
+        sudo /etc/init.d/dhcpcd {stop, start}
+
+# raspberry pi
+The firmware on the raspbian image for the zd1211rw driver won’t work. A similar problem is show here:
+http://www.backtrack-linux.org/forums/showthread.php?t=41755
+
+Download the new firmware and follow the install instructions:
+http://sourceforge.net/projects/zd1211/files/zd1211-firmware/
+
+You should now be able to follow the wpa_supplicant configuration as per the Gentoo section
+
+# Windows 10
+`athrxusb.sys` is the official file that windows 10 needs in order to 
+recognise the device.
+
+```
+Driver Description: Atheros Wireless LAN USB device driver
+Driver Update Site: Official site (no longer supported!): http://www.qualcomm.com/drivers
+Unofficial site: http://www.driverguide.com/driver/detail.php?driverid=1627725&action=filfo
+```
+
+## old instructions (using the driver for windows 7 - contains useful info about disabling driver signing)
+
+use the same driver as for windows 7 - it's a tp-link one, but it allows you
+to get connected at least. however first - you need to disable device driver
+signing before windows will install the fucking thing.
+
+    Select the “Start” button.
+    Type “startup”.
+    Select “Change advanced startup settings“.
+    Select “Restart now” under the “Advanced startup” area.
+    Select “Troubleshoot“.
+    Select “Advanced Options“.
+    Select “Startup Options“.
+    Select “Restart“.
+    A menu will appear where you can press “7” on your keyboard to choose “Disable driver signing enforcement“.
+
+Now Device Driver Signing should be disabled, allowing you to install any driver you like in Windows 10 until you reboot.
+once connected to wifi, update the driver using windows. it should download an Atheros `athrxusb.sys` file.
+
+# Windows 7
+If windows does not have a native driver, you may need to go here in the interim:
+http://www.driverscape.com/download/zydas-zd1211-802.11-b%2Bg-wireless-lan
+
+click the 2nd or 3rd download button! the first one downloads some trash .exe file
+
+Use device manager to install, you can’t install directly from the .inf
+
+Afterwards, windows update should show that an optional driver is available. Install that:
+Atheros Communications Inc. - Network - Atheros AR5007UG Wireless Network Adapter
+Installation date: ‎03/‎01/‎2015 19:29
+Installation status: Successful
+Update type: Optional
+Atheros Communications Inc. Network software update released in July, 2008

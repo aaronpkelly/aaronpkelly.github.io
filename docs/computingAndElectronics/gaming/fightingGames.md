@@ -1,0 +1,2 @@
+# on zoning (my words)
+Zoning is a playstyle, and it's one that some characters are built around, including Blue Beetle. Pro players don't have a problem with it, why do you? If an opponent is repeating the same actions over again and again - then that's something you should be able to easily exploit. If you can't, that's your weakness. Also, really - honour has no place in fighting games, it's about winning matches. If you're all hung up about playing with honour, prepared to get shit on by players that will use any strategy they can to win

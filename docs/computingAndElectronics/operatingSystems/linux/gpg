@@ -1,0 +1,7 @@
+# gpg + docker + alpine linux
+there's a bug
+
+- use `gpg --import --batch [SECRET_KEY]` to import a secret key
+
+# here's a much more detailed explaination - i hope
+https://www.rzegocki.pl/blog/how-to-make-gnupg2-to-fall-in-love-with-docker/

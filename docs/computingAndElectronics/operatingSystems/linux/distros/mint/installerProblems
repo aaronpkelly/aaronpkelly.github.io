@@ -1,0 +1,14 @@
+# UEFI / non-UEFI
+i install my os's in non-UEFI mode. this means the MBR must be overwritten on the device by grub
+
+# installing bootloader
+install the bootloader to the device file (dev/sda), and not a partition.
+because the system is non-UEFI, the MBR must be overwritten with the location of the grub image.
+if the system *was* UEFI, I believe a 1MB partition at the start of the disk is used to put the
+location of the bootloader.
+
+# create an empty partition for the bootloader image
+create a ~500MB /boot partition to hold the grub image
+
+# process in charge of installation window
+mint     10338  2.2  1.3 2102208 99608 ?       Sl   12:27   0:20 /usr/bin/python3 /usr/lib/ubiquity/bin/ubiquity gtk_ui

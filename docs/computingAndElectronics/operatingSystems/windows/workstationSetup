@@ -1,0 +1,22 @@
+# todo
+create godlike script (or find app) that automates the environment described
+below
+
+# windows ui
+use aquasnap
+dock taskbar to left side
+
+# windows apps notes
+use chocolatey to install apps
+use notepad++ in post-it mode (F12)
+use regedit as much as possible to customise environment, don't use menus
+use WSL (available Win10)
+use git bash
+
+## optional
+use high-contrast mode (optional!)
+use mouse keys (keypad moves mouse)
+
+# chrome
+pin frequently used tabs
+consider using `More tools -> Add to desktop` if you use a webpage frequently

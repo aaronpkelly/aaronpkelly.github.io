@@ -1,0 +1,10 @@
+# video
+## third party proprietary drivers
+if you missed installing these when mint was first being installed, then just
+go to sound & video -> install multimedia codecs
+
+## steam + nvidia
+steam won't run without good video drivers. it doesn't seem to want to accept
+nouveau. 
+
+just install the proprietary nvidia ones
