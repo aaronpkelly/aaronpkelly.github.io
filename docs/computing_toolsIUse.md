@@ -3,6 +3,7 @@ The following are everyday computing tools i use (or really want to believe I do
 # binaries
 jenkins (with the build monitor plugin!)
 musikcube (windows)
+balenaEther
 
 # browser
 firefox
