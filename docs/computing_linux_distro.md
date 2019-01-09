@@ -1,7 +1,8 @@
 # Live USB ISO that runs docker
-Still hunting
+SOLUTION FOUND - use a different storage driver for live isos. see below
 
 # How to get around aufs error
+https://docs.docker.com/storage/storagedriver/device-mapper-driver/
 https://stackoverflow.com/questions/30248794/run-docker-in-ubuntu-live-disk
 
 ## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
