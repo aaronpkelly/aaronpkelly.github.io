@@ -1,16 +1,22 @@
-Bootable ISO that runs docker - still hunting
+# Live USB ISO that runs docker
+Still hunting
 
-# debian
+## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+## XFCE does not have a wifi manager !
+## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+So don't download any distros with it
+
+## debian
 testing now
 
-# gentoo
+## gentoo
 success - was about to build docker from source (jeez), but this took a long time
 
-# Manjaro
+## Manjaro
 awesome - bit strange, maybe good?
 architect - install only, couldn't boot a desktop
 i3 - really liked it, but no docker
 xfce - wifi didn't work out of the box
 
-# Mint
-xfce - was fine
+## Mint
+need to retest, I previously used xfce (no wifi)
