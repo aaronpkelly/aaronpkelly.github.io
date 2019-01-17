@@ -21,6 +21,9 @@ ag(?)
 ack(?)
 entr: http://eradman.com/entrproject/
 rclone
+mpg123
+cmus
+https://github.com/ritiek/spotify-downloader
 
 ## terminal dashboards i WANT to start using
 https://github.com/wtfutil/wtf
