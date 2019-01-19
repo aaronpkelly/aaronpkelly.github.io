@@ -171,6 +171,7 @@ https://lwn.net/
 
 ## people
 https://www.fasterthan.life/blog
+http://www.elopezr.com/
 
 ## programming
 http://cyber-dojo.org/
