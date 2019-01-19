@@ -1,0 +1,1 @@
+curl --silent http://m.met.ie/forecast-regional.aspx?region=Dublin | grep -A 10 h2RegionName

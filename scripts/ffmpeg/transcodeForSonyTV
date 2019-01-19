@@ -1,0 +1,22 @@
+# sony bravia KDL-40EX401
+# all supported file file formats: https://esupport.sony.com/US/p/support-info.pl?info_id=798
+# NOTE: the tv supports *a lot of formats*, the script below just encodes one possibility
+
+# PRESETS=(ultrafast superfast veryfast faster fast medium slow slower veryslow)
+INFILE=$1
+PRESET=ultrafast
+
+# it's absolutely essential to use a supported video resolution,
+# otherwise the TV will complain that "the video resolution is NOTE
+# supported"
+SCALE=576:432
+
+# for preset in "${PRESETS[@]}"
+# ...
+
+    ffmpeg -i "$INFILE" \
+        -acodec aac \
+        -vcodec libx264 \
+        -preset "$PRESET" \
+        -vf scale="$SCALE" \
+        "$INFILE"_"$PRESET".mp4

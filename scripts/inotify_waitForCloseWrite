@@ -1,0 +1,8 @@
+#!/bin/bash
+
+MYFILE=$1
+while true; do
+	while inotifywait -e close_write $MYFILE; do
+		python $MYFILE
+	done
+done

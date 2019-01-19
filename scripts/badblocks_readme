@@ -1,0 +1,2 @@
+title: how to check and fix disk for bad locks
+sudo badblocks -v -s /dev/sda1 > badblocks.log

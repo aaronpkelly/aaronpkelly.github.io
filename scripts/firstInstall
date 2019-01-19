@@ -1,0 +1,251 @@
+#!/bin/bash
+
+environmentVariables=("BROWSER=/usr/bin/lynx" "EDITOR=vim")
+
+# function to read user input
+readUserInput() {
+        read -rep "$1" -n 1 -r
+}
+
+# direct links to software
+pycharm="https://download.jetbrains.com/python/pycharm-community-2017.1.tar.gz"
+intellijIDEA="https://download.jetbrains.com/idea/ideaIC-2017.1.tar.gz"
+
+# not integrated into a menu system yet
+extraPackages=("bsdgames" "caca-utils" "calibre" "cmatrix" "links2" "xlip" "xpdf")
+
+# specify git repos here
+gitRepos_personal=("privateDocs" "programming" "publicDocs" "radio" "vorophobe.github.io")
+gitRepos_starred=("https://github.com/visit1985/mdp" "https://github.com/t3rm1n4l/megacmd" "http://git.zx2c4.com/password-store")
+gitRepos_starred_destination=("megacmd" "password-store")
+gitRepos_ucd=("comp30170" "comp30230" "comp47480" "comp30490" "comp30540" "ucd")
+
+cinnamon_settings_import="false"
+
+# 20 80 3 = height / width / #ofItemsInMenu
+bootstrapPreparations=$(whiptail --title "cafe install v0.1" --checklist \
+"bootstrap preparations" 20 80 3 \
+"apt-get_update" "re-synchronise package index" ON \
+".bashrc" "setup bash environment variables" ON \
+"cinnamon" "cinnamon settings import" ON 3>&1 1>&2 2>&3)
+
+exitstatus=$?
+if [ $exitstatus = 0 ]; then
+	arr=($bootstrapPreparations)
+	for e in "${arr[@]}"
+		do
+			noParen="$(echo $e | sed 's/"//g')"
+			echo $noParen
+			if [ $noParen = "apt-get_update" ]; then
+				sudo apt-get update
+			elif [ $noParen = "cinnamon" ]; then
+				sudo apt install -y dconf-cli
+				dconf load /org/cinnamon/ < ~/src/linuxConfigFiles/windowManagers/cinnamonSettings
+			elif [ $noParen = ".bashrc" ]; then
+				sed -i "/BROWSER=/d" ~/.bashrc
+                                sed -i "/EDITOR=/d" ~/.bashrc
+				for i in "${environmentVariables[@]}"
+					do
+						echo "export $i" >> ~/.bashrc
+					done
+				source .bashrc
+			fi
+		done
+else
+	echo "You chose Cancel."
+fi
+
+packages=$(whiptail --title "cafe install v0.1" --checklist \
+"non-persistent packages (essentials)" 60 60 40 \
+"git" "git" ON \
+"libcurl3" "curl" ON \
+"lynx" "lynx" ON \
+"mc" "midnight commander" ON \
+"moc" "moc (music on command-line)" ON \
+"mutt" "mutt" ON \
+"python3-pip" "python package manager" ON \
+"tmux" "tmux" ON \
+"tree" "tree (needed for password manager)" ON \
+"vim" "vim" ON 3>&1 1>&2 2>&3)
+ 
+exitstatus=$?
+if [ $exitstatus = 0 ]; then
+	arr=($packages)
+	for e in "${arr[@]}"
+		do
+			noParen="$(echo $e | sed 's/"//g')"
+			echo "now installing: " $e
+			sudo apt-get install -y "$noParen"
+		done
+else
+	echo "You chose Cancel."
+fi
+
+persistentPackages=$(whiptail --title "cafe install v0.1" --checklist \
+"persistent packages" 60 60 40 \
+"docker.io" "docker" OFF \
+"golang" "golang" OFF \
+"graphviz" "graph drawing" OFF \
+"irssi" "irssi" OFF \
+"irssi-plugin-xmpp" "irssi-plugin-xmpp" OFF \
+"libncurses5-dev" "libncurses5-dev" OFF \
+"libncursesw5-dev" "libncursesw5-dev" OFF \
+"make" "make" OFF \
+"newsbeuter" "newsbeuter" OFF \
+"octave" "octave" OFF \
+"unoconv" "unoconv" OFF 3>&1 1>&2 2>&3)
+ 
+exitstatus=$?
+if [ $exitstatus = 0 ]; then
+	arr=($persistentPackages)
+	for e in "${arr[@]}"
+		do
+			noParen="$(echo $e | sed 's/"//g')"
+			echo "now installing: " $e
+			sudo apt-get install -y "$noParen"
+		done
+else
+	echo "You chose Cancel."
+fi
+
+
+gitRepos=$(whiptail --title "cafe install v0.1" --checklist \
+"git repo configuration" 60 60 40 \
+"git_config" "configure git global values" ON \
+"dotfiles" "dotfiles" ON \
+"dotfiles_config" "symlink creation etc" ON \
+"passwords" "pass install/configuration" ON \
+"personal" "personal repos (opens prompt)" OFF \
+"starred" "personal repos (opens prompt)" OFF \
+"ucd" "ucd related (opens prompt)" OFF 3>&1 1>&2 2>&3)
+exitstatus=$?
+if [ $exitstatus = 0 ]; then
+	arr=($gitRepos)
+	for e in "${arr[@]}"
+		do
+			noParen="$(echo $e | sed 's/"//g')"
+			if [ $noParen = "dotfiles" ]; then
+				git clone https://vorophobe@github.com/vorophobe/linuxConfigFiles ~/src/linuxConfigFiles
+			elif [ $noParen = "dotfiles_config" ]; then
+				mkdir ~/.config
+				mkdir ~/.config/mc
+				# ln -s ~/src/linuxConfigFiles/alsa/.asoundrc ~/.asoundrc
+				ln -s ~/src/linuxConfigFiles/bash/weatherDublin ~/weatherDublin
+				ln -s ~/src/linuxConfigFiles/irssi/.irssi ~/.irssi
+				ln -s ~/src/linuxConfigFiles/mc/hotlist ~/.config/mc/hotlist
+				ln -s ~/src/linuxConfigFiles/mc/mc.keymap ~/.config/mc/mc.keymap
+				ln -s ~/src/linuxConfigFiles/megacmd/.megacmd.json ~/.megacmd.json
+				ln -s ~/src/linuxConfigFiles/mutt/.mailcap ~/.mailcap
+				ln -s ~/src/linuxConfigFiles/mutt/.mutt ~/.mutt
+				ln -s ~/src/linuxConfigFiles/newsbeuter/ ~/.newsbeuter
+				# ln -s ~/src/linuxConfigFiles/screen/.screenrc ~/.screenrc
+				ln -s ~/src/linuxConfigFiles/vim/ ~/.vim
+				ln -s ~/src/linuxConfigFiles/vim/.vimrc ~/.vimrc
+
+				# ln -s ~/src/ucd/startAllScreens ~/startAllScreens
+				# i am unsure where the default lynx.cfg locations are - need to research that.
+				# also i was sure that all debian lynx dotfiles go in the /etc/lynx-cur directory,
+				# but here i am on my dell laptop and i can see one at /etc/lynx.. jeez
+				sudo rm /etc/lynx-cur/lynx.cfg
+				sudo rm /etc/lynx/lynx.cfg
+				sudo ln -s ~/src/linuxConfigFiles/lynx/lynx.cfg /etc/lynx-cur/lynx.cfg
+				sudo ln -s ~/src/linuxConfigFiles/lynx/lynx.cfg /etc/lynx/lynx.cfg
+
+				if [ "$cinnamon_settings_import" = "true" ]; then
+					dconf reset -f /org/cinnamon/
+				fi
+
+        # vim pathogen
+        mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+        curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+        # vim-fugutive
+        git clone git://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive
+        (cd ~/.vim/bundle; vim -u NONE -c "helptags vim-fugitive/doc" -c q)
+
+			elif [ $noParen = "git_config" ]; then
+				git config --global credential.helper 'cache --timeout=7200'
+			        git config --global push.default simple
+			        git config --global user.email "vorophobe@gmail.com"
+			        git config --global user.name "Aaron Kelly"
+			        mkdir ~/src
+			elif [ $noParen = "passwords" ]; then
+				git clone https://vorophobe@github.com/vorophobe/passwordStore ~/src/passwordStore
+				mv ~/src/passwordStore ~/.password-store
+				sudo apt install -y pass
+				gpg --import ~/src/linuxConfigFiles/keys/publicKey
+				gpg --import ~/src/linuxConfigFiles/keys/secretKey
+        # gpg2 --import ~/src/linuxConfigFiles/keys/oldKeys/secring.gpg
+			elif [ $noParen = "personal" ]; then
+				echo "= personal ="
+				for i in "${gitRepos_personal[@]}"
+					do
+						readUserInput "clone $i? (y/n)"
+						if [ "$REPLY" == "y" ]; then
+              git clone https://vorophobe@github.com/vorophobe/$i ~/src/$i
+						fi
+					done
+			elif [ $noParen = "starred" ]; then
+				echo "= starred ="
+				for i in "${gitRepos_starred[@]}"
+					do
+						readUserInput "clone $i? (y/n)"
+						if [ "$REPLY" == "y" ]; then
+                        				git clone https://vorophobe@github.com/vorophobe/$i ~/src/$i
+						fi
+					done
+			elif [ $noParen = "ucd" ]; then
+				echo "= ucd ="
+				for i in "${gitRepos_ucd[@]}"
+					do
+						echo "= ucd ="
+						readUserInput "clone $i? (y/n)"
+						if [ "$REPLY" == "y" ]; then
+                        				git clone https://vorophobe@github.com/vorophobe/$i ~/src/$i
+						fi
+					done
+				ln -s ~/src/ucd/calendar ~/calendar
+				ln -s ~/src/ucd/modules ~/modules
+			fi
+    done
+else
+	echo "You chose Cancel."
+fi
+
+additionalSoftware=$(whiptail --title "cafe install v0.1" --checklist \
+"additional software" 60 60 40 \
+"chromium-browser" "chromium-browser" ON \
+"intellijIDEA" "general IDE" OFF \
+"mps" "terminal mp3 search" OFF \
+"pycharm" "python IDE" OFF \
+"spotify" "spotify" OFF 3>&1 1>&2 2>&3)
+ 
+exitstatus=$?
+if [ $exitstatus = 0 ]; then
+	arr=($additionalSoftware)
+	for e in "${arr[@]}"
+		do
+			noParen="$(echo $e | sed 's/"//g')"
+			if [ $noParen = "chromium-browser" ]; then
+				sudo apt-get install -y chromium-browser
+			elif [ $noParen = "intellijIDEA" ]; then
+				curl -L -O -J $intellijIDEA
+			elif [ $noParen = "mps" ]; then
+        sudo pip3 install mps
+			elif [ $noParen = "pycharm" ]; then
+        (cd ~/Downloads; curl -L -O -J $pycharm)
+			elif [ $noParen = "spotify" ]; then
+				# 1. Add the Spotify repository signing key to be able to verify downloaded packages
+				sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+				# 2. Add the Spotify repository
+				echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+				# 3. Update list of available packages
+				sudo apt-get update
+
+				# 4. Install Spotify
+				sudo apt-get install spotify-client
+			fi
+		done
+else
+	echo "You chose Cancel."
+fi

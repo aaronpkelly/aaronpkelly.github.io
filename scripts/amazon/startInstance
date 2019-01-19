@@ -1,0 +1,3 @@
+DEV_ENVIRONMENT=i-0fc
+INSTANCE_ID=$(aws ec2 describe-instances | grep $DEV_ENVIRONMENT | cut -d '"' -f4)
+aws ec2 start-instances --instance-ids $INSTANCE_ID

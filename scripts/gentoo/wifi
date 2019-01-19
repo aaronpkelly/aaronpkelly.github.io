@@ -1,0 +1,5 @@
+#!/bin/bash
+wpa_supplicant -B -i wlp1s3 -D wext -c /etc/wpa_supplicant/wpa_supplicant.conf
+
+# Don't forget to run dhcpcd afterwards
+# Be patient! It can take a while

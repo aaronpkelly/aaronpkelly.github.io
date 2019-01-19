@@ -1,0 +1,14 @@
+# PRESETS=(ultrafast superfast veryfast faster fast medium slow slower veryslow)
+INFILE=$1
+PRESET=ultrafast
+SCALE=576:432
+
+# for preset in "${PRESETS[@]}"
+# ...
+
+    ffmpeg -i $INFILE \
+        -acodec aac \
+        -vcodec libx264 \
+        -preset $PRESET \
+        -vf scale=$SCALE \
+        "$INFILE"_"$PRESET".mp4

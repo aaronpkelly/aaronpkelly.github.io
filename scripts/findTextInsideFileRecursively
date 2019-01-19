@@ -1,0 +1,9 @@
+#!/bin/bash
+
+TEXT="$1"
+
+if [ $# -eq 0 ]; then
+    echo "[error] please supply a string to search for"
+else
+    grep -rnw . -e $TEXT
+fi

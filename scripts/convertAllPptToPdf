@@ -1,0 +1,2 @@
+echo "make sure to not have any of the files open, or it won't work"
+libreoffice --headless --invisible --convert-to pdf *.ppt
