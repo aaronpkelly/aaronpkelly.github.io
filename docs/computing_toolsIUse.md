@@ -5,6 +5,7 @@ jenkins (with the build monitor plugin!)
 musikcube (windows)
 balenaEther
 chocolatey (previously I also used Ninite)
+etcher
 
 # browser
 firefox
