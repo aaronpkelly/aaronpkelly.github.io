@@ -4,7 +4,7 @@ The following are everyday computing tools i use (or really want to believe I do
 jenkins (with the build monitor plugin!)
 musikcube (windows)
 balenaEther
-chocolatey
+chocolatey (previously I also used Ninite)
 
 # browser
 firefox
