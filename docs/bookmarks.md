@@ -16,6 +16,9 @@ https://filmstro.com/music
 
 ### synthesisers
 https://teenageengineering.com/products/synthesizers
+https://monome.org/
+https://llllllll.co/
+https://www.muffwiggler.com/forum/
 
 ### machine learning
 https://magenta.tensorflow.org/
@@ -119,6 +122,7 @@ https://data.gov.ie/
 ## demoscene
 http://www.pouet.net
 https://fabiensanglard.net/
+https://www.dwitter.net/
 
 ## documentEditing
 https://hackmd.io/
@@ -173,6 +177,8 @@ https://lwn.net/
 https://www.fasterthan.life/blog
 http://www.elopezr.com/
 http://waneella.tumblr.com/
+https://2f30.org/
+http://superbad.com
 
 ## programming
 http://cyber-dojo.org/
@@ -203,6 +209,9 @@ https://doodle.com/
 
 ## delivery
 https://www.dpdparcelwizard.ie/HomePage#/
+
+## engineering
+https://www.tenfoldengineering.com/#section-what-we-do
 
 ## food
 https://www.reddit.com/r/fasting/wiki/fasting_in_a_nutshell
