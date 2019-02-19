@@ -22,7 +22,6 @@ Warren Buffet:
 
 Aaron Kelly:
 - you will never know your tolerance to risk until you come face-to-face with a bear
-- ignore the froth of the beer, your glass will fill over time
 
 Unknown:
 - the cobbler has the worst shoes
@@ -794,10 +793,23 @@ percentage of your salary.
 55 – 59 35%
 60 Plus 40%
 
+## Annuities
+Can be purchased with their pension fund on retirement and which pay a set
+monthly income for life, but die with the annuity-holder.
 
+Annuities have become a very expensive option in recent years, meaning that
+people’s pensions savings often do not provide the income anticipated in
+retirement. That has led many to opt for an _ARF_ instead.
 
-## ARF
-Annualised retirement fund, don't know much about these
+## Approved Minimum Retirement Fund ("AMRF")
+€63,500 of your pension will be locked with limited access until one of the conditions is met:
+- reached the age of 75, or
+- have a guaranteed income of €12,700 a year, or
+- choose to buy an annuity (and recently, annuities aren't doing well at all)
+
+## Approved Retirement Fund ("ARF")
+A more flexible pension product, which keeps your pension invested and
+available for transfer to family should you die.
 
 ## Tax
 You pay tax in a lump sum on your pension when you receive it, however:
