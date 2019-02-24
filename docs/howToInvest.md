@@ -255,7 +255,7 @@ Not enough xp to talk about this yet. Barefoot guy recommends investing directly
 in about 10 good companies though.
 
 
-## Cassh
+## Cash
 ## Money market funds
 Short-term investment vehicles that provide clients with a liquid alternative to cash
 
@@ -343,7 +343,8 @@ The same product may be traded on multiple exchange.
 Choosing a different exchange exposes you to changes in currency exchange rates,
 as a fund may by traded in different currencies on different exchanges,
 strengthening or weakening your investment.
-I usually choose EURO, and trade on Euronext Amsterdam.
+I usually choose EURO, and trade on Euronext Amsterdam. This exchange also
+has realtime price info on degiro.
 
 ### Index funds
 An index is a list of companies that all share similar features (industry,
@@ -419,11 +420,11 @@ their commission-free basket. Shame :)
 You should check Degiro for ETFs that meet this criteria:
 - UCITs-compliant
 - EU domicilied (irish pref!)
-- commission-free (ideally via Degiro's free-ETF list)
 - low TER (~0.05%)
 - use of profit: accumulating (tax advantages for Irish residents)
 - highish volume so there isn't a large spread between bid and ask
 - passively managed
+- degiro commission-free purchase (ideally via Degiro's free-ETF list)
 
 General advice: A very broad global index fund with fees below 0.2%; it's what
 95% of the population should invest in if anything.
@@ -473,7 +474,7 @@ these it's very tempting to become one yourself
 - being heavily diversified is the way forward
 
 
-### My investment picks
+### My investment picks (TODO: update)
 In Degiro, I favourite ETFs that I wish to buy in the future.
 Below are ETFs that I already own:
 
@@ -487,6 +488,10 @@ My picks:
 
 
 ### A special note about Vanguard
+This investment management company is where I eventually want to end up, I
+think. So many great funds, a great ethos, and super low TER if I someday
+quality for the "Admiral Shares" tier.
+
 Not an investment trust? US-focussed
 Unique kind of investment management company. No shareholders to make a profit
 for. Have almost zero employees. The share holders own Vanguard.
@@ -494,6 +499,9 @@ Rather than paying out profits, it's lowers its fees.
 
 These guys have been around a while!
 https://personal.vanguard.com/us/funds/snapshot?FundIntExt=INT&FundId=3141&funds_disable_redirect=true
+
+A nice article on the 10 best Vanguard funds to own:
+https://www.thebalance.com/best-vanguard-funds-to-hold-long-term-4154689
 
 ##### Vanguard
 | IE00B3XXRP09 | Vanguard S&P 500 UCITS ETF | Dist | 0.07 | No | |
