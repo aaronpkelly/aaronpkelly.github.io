@@ -48,6 +48,7 @@ https://www.focusatwill.com
 https://www.zophar.net/forums/index.php?s=7700ba986f13ae164c7f276a7ebd1ef2
 http://swedishcolumbia.com/album/else-heart-break-original-soundtrack
 https://modarchive.org/index.php
+https://hvsc.c64.org
 
 # gaming
 ## browser
@@ -183,6 +184,10 @@ http://superbad.com
 ## programming
 http://cyber-dojo.org/
 https://perlmonks.org/
+
+### game programming
+https://gamedev.stackexchange.com/questions?sort=votes
+http://gameprogrammingpatterns.com/contents.html
 
 ### java
 http://www.dubjug.org/
