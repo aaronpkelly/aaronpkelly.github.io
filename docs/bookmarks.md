@@ -188,6 +188,7 @@ https://perlmonks.org/
 ### game programming
 https://gamedev.stackexchange.com/questions?sort=votes
 http://gameprogrammingpatterns.com/contents.html
+https://gamedev.stackexchange.com/questions?sort=votes
 
 ### java
 http://www.dubjug.org/

@@ -1,11 +1,15 @@
 The following are everyday computing tools i use (or really want to believe I do)
 
 # binaries
+balenaEther
+chocolatey (made ninite redundant)
+etcher
+hwinfo
 jenkins (with the build monitor plugin!)
 musikcube (windows)
-balenaEther
-chocolatey (previously I also used Ninite)
-etcher
+nirsoft suite
+sysinternals suite
+total commander
 
 # browser
 firefox
