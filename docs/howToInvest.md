@@ -565,7 +565,11 @@ Descriptions are normally from justETF:
 
 
 # Tax
-Revenue should be your first stop. Just search for something:
+A great bullshit-free guide to tax in Ireland:
+https://www.taxback.com/blog/bullsh1t-free-guide-to-paye-taxes-in-ireland
+
+Then you can try your luck with Revenue. Site's not bad, just search for
+something:
 https://www.revenue.ie/en/search.aspx?q=etf
 
 There is a great table made:
