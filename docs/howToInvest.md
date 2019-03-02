@@ -478,13 +478,46 @@ these it's very tempting to become one yourself
 In Degiro, I favourite ETFs that I wish to buy in the future.
 Below are ETFs that I already own:
 
-#### S&P 500
-The S&P 500® is the major US stock market index. It tracks the 500 largest US companies. The S&P 500 index weights its constituents by free float market capitalisation.
-ETF investors profit from price gains and dividends of the S&P 500 constituents. Currently, the S&P 500 index is tracked by 14 ETFs.
+#### MSCI USA
+The MSCI USA index is an equity index which tracks the return of U.S. stocks.
+With its 626 (As of 31/08/18) constituents, the MSCI USA index reflects
+approximately 85% of the total market capitalisation in the USA.
+ETF investors profit from price gains and dividends of the MSCI USA
+constituents. Currently, the MSCI USA index is tracked by 9 ETFs.
 
-My picks:
-| ISIN | Name | Acc/Dist | TER | Commission free at Degiro? | Comments |
-| IE00B5BMR087 | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | I own this! |
+| ISIN | Symbol | Exchange | Product | Acc/Dist | TER | Commission free at Degiro? | Comments |
+| IE00BJ0KDR00 | XD9U | MIL | XTRACKERS MSCI USA UCITS ETF |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+
+
+
+#### S&P 500
+The S&P 500® is the major US stock market index. It tracks the 500 largest US
+companies. The S&P 500 index weights its constituents by free float market
+capitalisation.
+ETF investors profit from price gains and dividends of the S&P 500 constituents.
+Currently, the S&P 500 index is tracked by 14 ETFs.
+
+| ISIN | Symbol | Exchange | Product | Acc/Dist | TER | Commission free at Degiro? | Comments |
+| IE00B5BMR087 | CSSPX | SWX | iShares Core S&P 500 UCITS ETF (Acc) | Acc | 0.07 | No | USD |
+| IE00B3YCGJ38 | SPXS | EAM | Source S&P 500 ETF | | |
+|  |  |  |  |  |  |  |  |
+
+#### STOXX Europe 600
+The STOXX® Europe 600 index tracks the return of the 600 largest stock exchange
+listed companies out of 18 European countries. Besides countries from the
+Eurozone, like France, Germany, Spain, the Netherlands and Italy, you also have
+exposure to Great Britain, Switzerland and Scandinavian countries.
+Due to its broad market exposure, the STOXX Europe 600 index is often quoted as
+the European equivalent of the U.S. focused S&P 500 index.
+ETF investors profit from price gains and dividends of the STOXX Europe 600
+constituents. Currently, the STOXX Europe 600 index is tracked by 3 ETFs.
+
+| ISIN | Symbol | Exchange | Product | Acc/Dist | TER | Commission free at Degiro? | Comments |
+| LU0908500753 | MEUD | EPA | Lyxor Stoxx Europe 600 (DR) - UCITS ETF C-EUR  |  | | |  |
+|  |  |  |  |  |  |  |  |
+
+
 
 
 ### A special note about Vanguard

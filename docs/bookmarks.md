@@ -189,6 +189,8 @@ https://perlmonks.org/
 https://gamedev.stackexchange.com/questions?sort=votes
 http://gameprogrammingpatterns.com/contents.html
 https://gamedev.stackexchange.com/questions?sort=votes
+https://www.indiedb.com/engines?sort=visitstotal-desc
+https://en.wikipedia.org/wiki/List_of_open-source_video_games
 
 ### java
 http://www.dubjug.org/
@@ -268,3 +270,7 @@ http://rozetka.com.ua/
 
 ## time-tracking
 http://www.tomato.es/
+
+## travel
+https://www.kayak.ie/
+https://skiplagged.com
