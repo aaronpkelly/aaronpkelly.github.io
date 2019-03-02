@@ -4,7 +4,12 @@
 # cvlc - see VLC
 dot - graph drawing
 epub.py - command-line epub reader - github.com/rupa/epub
+Exiv2 - image metadata editor
+Feh - image viewer
+exa - a modern replacement for ls
 mc - midnight commander
+GraphicsMagick - displaying, converting, and editing raster image and vector image files (script addons: http://www.fmwconcepts.com/imagemagick/index.php)
+Gifify
 moc/mocp - command-line music player, run `mocp` for the client
 mpg123 - command-line mpeg-audio player
 mpv
@@ -14,6 +19,7 @@ parcellite - X clipboard (works in I3, icon bottom-right)
 pdfgrep - search multiple pdfs for text
 powertop - battery monitor
 recordmydesktop - simple tool, records to .ogv. use --windowid
+Scrot - screen capture tool
 sox - command line audio
 spacemacs - vim+emacs
 svox pico2wave - great text-to-speech!
@@ -23,9 +29,10 @@ vlc - more powerful than cvlc, type help to see commands. instant support for in
 
 # gui
 ttrss
-chrome:
-- ublock origin
+firefox:
+- ublock origin with everything blocked as default
 - keyboard shortcuts to reorder tabs
+https://obsproject.com/
 
 windowed environment
 --------------------

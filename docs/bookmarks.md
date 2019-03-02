@@ -1,5 +1,5 @@
 HELLO
-CONTINUE FROM COMPUTING -> HACKING
+CONTINUE FROM COMPUTING -> NEWS
 
 # audio
 https://learningmusic.ableton.com/
@@ -22,6 +22,18 @@ https://www.muffwiggler.com/forum/
 
 ### machine learning
 https://magenta.tensorflow.org/
+https://arxiv.org/abs/1709.02840
+http://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/?imm_mid=0f1128&cmp=em-data-na-na-newsltr_ai_20170424
+https://cloud.google.com/products/ai/
+https://www.tensorflow.org
+https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&cmp=em-data-na-na-newsltr_20171213&slide=id.g168a3288f7_0_58
+https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463?imm_mid=0f593c&cmp=em-data-na-na-newsltr_ai_20170821
+https://github.com/kailashahirwar/cheatsheets-ai?imm_mid=0f3eba&cmp=em-data-na-na-newsltr_20170628
+https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7?imm_mid=0edc56&cmp=em-data-na-na-newsltr_ai_20170227
+https://iamtrask.github.io/2015/07/12/basic-python-network/?imm_mid=0e7125&cmp=em-data-na-na-newsltr_ai_20160829
+https://medium.com/@Jaconda/a-concise-history-of-neural-networks-2070655d3fec?imm_mid=0e7125&cmp=em-data-na-na-newsltr_ai_20160829#.70shvf3bk
+https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3?imm_mid=0e8927&cmp=em-data-na-na-newsltr_ai_20160926#.j2vqmoecp
+http://www.asimovinstitute.org/neural-network-zoo/?imm_mid=0e8927&cmp=em-data-na-na-newsltr_ai_20160926
 
 ### compilations
 https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-156826/kiss-destroyer-48430/
@@ -125,9 +137,12 @@ http://www.pouet.net
 https://fabiensanglard.net/
 https://www.dwitter.net/
 
-## documentEditing
+## documents
 https://hackmd.io/
 https://dougblack.io/words/a-good-vimrc.html
+https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+http://daringfireball.net/projects/markdown/syntax
+https://help.github.com/en/categories/writing-on-github
 
 ## dns
 http://freedns.afraid.org
@@ -165,14 +180,50 @@ https://www.remoteonly.org/
 ## funny
 http://securityreactions.tumblr.com/
 
+## hacking
+http://www.2600.com/
+http://pastebin.com/raw/cRYvK4jb
+https://www.blackhat.com/
+https://www.exploit-db.com/
+http://www.hackerthreads.org/
+https://www.defcon.org/html/links/links-o-rama.html
+https://www.offensive-security.com/metasploit-unleashed/
+http://www.counterhack.net/Counter_Hack/Welcome.html
+http://www.catb.org/esr/faqs/hacker-howto.html
+
+## hardware
+https://www.opencompute.org/
+https://www.nand2tetris.org/
+
 ## linux
 https://www.heise.de/
 http://www.linux-magazin.de
 https://www.linuxjournal.com/
+https://explainshell.com/
+https://www.shellcheck.net/
+https://www.kernel.org/
+https://lkml.wtf/
+https://lkml.org/
+https://lwn.net/
+https://livecdlist.com/
+http://www.olioapps.com/blog/the-lost-art-of-the-makefile/
+http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/
+https://www.insomnia247.nl/page/chat
+http://www.pathname.com/fhs/pub/fhs-2.3.html
+http://www.makelinux.net/kernel_map/
+https://inconsolation.wordpress.com/
+https://kernelnewbies.org/
+https://www.linuxfoundation.org/
+https://forums.theregister.co.uk/forum/1/2013/02/21/diodesign_Top_tools_for_junior_Linux_admins/
+http://www.yolinux.com/
 
 ## news
 https://www.theregister.co.uk/
 https://lwn.net/
+
+## notebooks
+https://jupyter.org/
+https://nbviewer.jupyter.org/
 
 ## people
 https://www.fasterthan.life/blog
@@ -180,6 +231,10 @@ http://www.elopezr.com/
 http://waneella.tumblr.com/
 https://2f30.org/
 http://superbad.com
+https://bisqwit.iki.fi/
+https://zwischenzugs.com/
+https://drewdevault.com/
+https://jvns.ca/about/
 
 ## programming
 http://cyber-dojo.org/
@@ -194,6 +249,10 @@ https://en.wikipedia.org/wiki/List_of_open-source_video_games
 
 ### java
 http://www.dubjug.org/
+
+### learning
+https://www.codeschool.com/
+https://www.codecademy.com/
 
 # education
 https://en.wikipedia.org/wiki/Schaum%27s_Outlines#Comparison_with_other_series
