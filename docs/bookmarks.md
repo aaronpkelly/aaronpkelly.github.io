@@ -13,6 +13,8 @@ http://www.di.fm/
 https://www.musicforprogramming.net/
 https://somafm.com/
 https://filmstro.com/music
+https://bandcamp.com/
+http://freemusicarchive.org
 
 ### synthesisers
 https://teenageengineering.com/products/synthesizers
