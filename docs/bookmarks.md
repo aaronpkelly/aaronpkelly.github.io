@@ -103,6 +103,9 @@ https://forums.tigsource.com
 https://sites.google.com/site/broguegame/
 http://www.nethack.org/v360/downloads.html
 
+## stores
+https://steamdb.info/
+
 # computing
 ## amazon
 https://amazon.qwiklabs.com

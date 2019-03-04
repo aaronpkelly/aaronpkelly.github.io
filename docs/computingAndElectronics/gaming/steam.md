@@ -1,4 +1,6 @@
-﻿All installed games are stored under the default folder:
+You should use https://steamdb.info/ to find new games
+
+All installed games are stored under the default folder:
 /home/aaron/.steam/steam/SteamApps/
 
 
