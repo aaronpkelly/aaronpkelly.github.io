@@ -1,5 +1,5 @@
 HELLO
-CONTINUE FROM COMPUTING -> NEWS
+CONTINUE FROM COMPUTING -> COMPETITIVE
 
 # audio
 https://learningmusic.ableton.com/
@@ -152,7 +152,7 @@ https://help.github.com/en/categories/writing-on-github
 ## dns
 http://freedns.afraid.org
 
-## drawing / diagramming
+## drawing / diagramming / image editing
 https://ballpoint.io
 https://www.draw.io/
 https://en.wikipedia.org/wiki/YEd
@@ -160,6 +160,7 @@ https://www.planttext.com + http://plantuml.com/
 https://www.simplediagrams.com/
 http://graphviz.org/
 https://www.lucidchart.com/
+http://www168.lunapic.com/editor/
 
 ### ascii
 emacs artist mode
@@ -225,12 +226,24 @@ http://www.yolinux.com/
 ## news
 https://www.theregister.co.uk/
 https://lwn.net/
+https://lobste.rs/
+https://news.ycombinator.com/best
+http://jsomers.net/hn/
+https://www.siliconrepublic.com/
 
 ## notebooks
 https://jupyter.org/
 https://nbviewer.jupyter.org/
 
 ## people
+https://algo.is/
+http://stallman.org/
+http://norvig.com/
+https://www.truevalhalla.com/blog
+http://rachelbythebay.com/
+https://krebsonsecurity.com/
+https://www.joelonsoftware.com/
+https://dcgross.com/
 https://www.fasterthan.life/blog
 http://www.elopezr.com/
 http://waneella.tumblr.com/
@@ -244,6 +257,29 @@ https://jvns.ca/about/
 ## programming
 http://cyber-dojo.org/
 https://perlmonks.org/
+http://tldp.org/
+
+### audio programming
+https://mitpress.mit.edu/books/audio-programming-book
+
+### bash
+https://google.github.io/styleguide/shell.xml
+https://wiki.bash-hackers.org/start
+
+### books
+http://books.goalkicker.com/
+
+### code reviews
+https://mozillascience.github.io/codeReview/intro.html
+https://www.developer.com/tech/article.php/3579756/Effective-Code-Reviews-Without-the-Pain.htm
+
+### collaborative editing
+https://coderpad.io/
+http://collabedit.com/
+https://floobits.com/
+https://atom.io/packages/motepair
+https://screenhero.com/
+https://www.teamviewer.com/en/
 
 ### game programming
 https://gamedev.stackexchange.com/questions?sort=votes
@@ -258,6 +294,10 @@ http://www.dubjug.org/
 ### learning
 https://www.codeschool.com/
 https://www.codecademy.com/
+
+### problems / challenges
+adventofcode.com
+https://www.testdome.com/
 
 # education
 https://en.wikipedia.org/wiki/Schaum%27s_Outlines#Comparison_with_other_series
