@@ -287,6 +287,10 @@ http://gameprogrammingpatterns.com/contents.html
 https://gamedev.stackexchange.com/questions?sort=votes
 https://www.indiedb.com/engines?sort=visitstotal-desc
 https://en.wikipedia.org/wiki/List_of_open-source_video_games
+https://itch.io/
+
+#### competitions
+https://itch.io/jam/7drl-challenge-2019
 
 ### java
 http://www.dubjug.org/
