@@ -1,3 +1,6 @@
+this is taken from Louis Rossman's youtube channel (it may be updated since):
+https://www.youtube.com/channel/UCl2mFZoRqjw_ELax4Yisf6w
+
 flux https://mailin.repair/amtech-nc-559-v2-30-cc-16160.html
 electronics cleaner https://www.amazon.com/gp/product/B00BWESDKW/ref=as_li_tl
 soldering station https://www.amazon.com/gp/product/B0012B8NW8/ref=as_li_tl

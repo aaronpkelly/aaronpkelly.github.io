@@ -179,6 +179,7 @@ https://monodraw.helftone.com/
 ### scientific
 https://github.com/otfried/ipe-wiki/wiki/Showcase
 LaTeX/TikZ.
+sharelatex.com
 
 ## freelancing
 http://www.toptal.com/
@@ -306,6 +307,7 @@ http://ideone.com/
 http://www.onlinecompiler.net/ccplusplus
 http://hackide.herokuapp.com/
 https://jsfiddle.net/
+https://jsbin.com
 https://repl.it/languages
 
 ### game programming

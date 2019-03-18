@@ -1,11 +1,30 @@
-# Amazon Cloud 9
+# Quick-start
+- Manjaro I3 live usb
+- get bootstrap environment - "export USER=aaronpkelly PASS=$GITHUB_PASS && git clone https://$USER:$PASS@github.com/$USER/secrets"
+- ./startup_manjaro.sh
+- develop locally or on gitpod
+- connect to and build on Jenkins that's running on cloud/pi (if necessary, run locally)
+
+# High-level goals
+## Operating system environment
+Destroy after every session.
+Work from a live-USB environment (e.g. Majaro I3) to force yourself to
+constantly improve and iterate on your environment.
+
+## CI/CD
+Have a Jenkins docker instance available and running somewhere, ideally.
+
+## Persistence (Git)
+Git functions as a persistent data store. Work inside git as much as possible.
+Git is your source of truth.
+
+## IDEs
+### Cloud
+#### Amazon Cloud 9
 This is an amazing online IDE that basically turns an Amazon EC2 instance into
 a fully-fledged online workstation. Edit docs, run code, start containers etc.
 all from your browser.
 
-# Git
-Use it as much as possible. git is your source of truth
-
-# Docker
+## Containerisation (docker)
 Run everything inside a container. Don't install anything. Redirect audio
 and video from inside the container to your host devices.
