@@ -1,5 +1,5 @@
 HELLO
-CONTINUE FROM COMPUTING -> COMPETITIVE
+CONTINUE FROM COMPUTING -> LIVECODING -> AUDIO
 
 # audio
 https://learningmusic.ableton.com/
@@ -66,6 +66,10 @@ https://hvsc.c64.org
 
 # gaming
 ## browser
+http://codecombat.com/
+http://box-256.com/
+https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
+https://robocode.sourceforge.io/
 https://jayisgames.com/browser/best-games/
 http://www.xgenstudios.com/game.php?keyword=motherload
 http://adarkroom.doublespeakgames.com/
@@ -85,6 +89,11 @@ https://www.dosbox.com/
 
 ## emulators
 http://emulator.online/
+
+## history
+https://en.wikipedia.org/wiki/Rocky%27s_Boots
+https://en.wikipedia.org/wiki/Robot_Odyssey
+https://en.wikipedia.org/wiki/Core_War
 
 ## news
 http://kotaku.com/
@@ -172,6 +181,7 @@ https://github.com/otfried/ipe-wiki/wiki/Showcase
 LaTeX/TikZ.
 
 ## freelancing
+http://www.toptal.com/
 https://www.upwork.com
 https://medium.com/@skasriel/benefits-for-the-self-employed-lets-talk-about-it-1c21a47fcf30
 https://www.amazon.com/Gig-Economy-Complete-Getting-Financing/dp/0814437338
@@ -238,6 +248,7 @@ https://nbviewer.jupyter.org/
 ## people
 https://algo.is/
 http://stallman.org/
+http://reginaldlong.com/how-i-went-from-failing-every-interview-to-a-job-at-amazon/
 http://norvig.com/
 https://www.truevalhalla.com/blog
 http://rachelbythebay.com/
@@ -258,6 +269,10 @@ https://jvns.ca/about/
 http://cyber-dojo.org/
 https://perlmonks.org/
 http://tldp.org/
+https://www.destroyallsoftware.com/screencasts
+http://golang.org/#
+http://dave.cheney.net/resources-for-new-go-programmers
+https://gobyexample.com/
 
 ### audio programming
 https://mitpress.mit.edu/books/audio-programming-book
@@ -276,10 +291,22 @@ https://www.developer.com/tech/article.php/3579756/Effective-Code-Reviews-Withou
 ### collaborative editing
 https://coderpad.io/
 http://collabedit.com/
+https://codeshare.io/
 https://floobits.com/
 https://atom.io/packages/motepair
 https://screenhero.com/
 https://www.teamviewer.com/en/
+https://www.codebunk.com/
+https://codebunny.io/
+
+### compilers
+http://codepad.org/
+https://www.codechef.com/ide
+http://ideone.com/
+http://www.onlinecompiler.net/ccplusplus
+http://hackide.herokuapp.com/
+https://jsfiddle.net/
+https://repl.it/languages
 
 ### game programming
 https://gamedev.stackexchange.com/questions?sort=votes
@@ -288,9 +315,37 @@ https://gamedev.stackexchange.com/questions?sort=votes
 https://www.indiedb.com/engines?sort=visitstotal-desc
 https://en.wikipedia.org/wiki/List_of_open-source_video_games
 https://itch.io/
+https://www.essentialmath.com/
+https://en.wikipedia.org/wiki/Phaser_(game_framework)
+http://www.kilobolt.com/
+http://www.helixsoft.nl/articles/circle/sincos.htm
+http://lightbot.com/
+http://www.fierz.ch/strategy2.htm
+
+#### fantasy consoles/computers
+https://tic.computer/
+https://www.lexaloffle.com/pico-8.php
 
 #### competitions
 https://itch.io/jam/7drl-challenge-2019
+https://itch.io/jam/lisp-game-jam-2018
+https://www.allegro.cc/
+
+### frontend
+https://frontendmasters.com/books/front-end-handbook/2018/
+
+### graphics
+http://www.openglsuperbible.com/
+
+### IDE
+http://codepen.io/
+https://codenvy.com/
+https://codio.com/
+http://codemirror.net/
+https://aws.amazon.com/cloud9/
+https://shiftedit.net
+https://pypyjs.org/editor.html
+https://docs.gitlab.com/ee/user/project/web_ide/
 
 ### java
 http://www.dubjug.org/
@@ -298,10 +353,40 @@ http://www.dubjug.org/
 ### learning
 https://www.codeschool.com/
 https://www.codecademy.com/
+https://www.freecodecamp.org/
+http://programming-motherfucker.com/become.html
 
-### problems / challenges
-adventofcode.com
+### problems / challenges / competitive
+https://web.stanford.edu/class/cs9/
+https://adventofcode.com/
+https://leetcode.com/
 https://www.testdome.com/
+http://www.lintcode.com/en/problem/
+https://code.google.com/codejam/
+http://www.ioi2012.org/
+http://www.codechef.com/
+http://www.topcoder.com/
+https://www.hackerrank.com/
+http://codility.com/
+http://codeforces.com/
+https://en.wikipedia.org/wiki/ACM_International_Collegiate_Programming_Contest
+https://cses.fi/book/
+https://coderbyte.com/
+https://www.codewars.com/
+https://www.codingame.com/start
+https://www.codeeval.com/
+https://www.codechef.com/
+https://projecteuler.net/
+https://www.interviewbit.com/
+http://www.spoj.com/
+
+## rankings
+https://www.tiobe.com/tiobe-index/
+https://redmonk.com/sogrady/category/programming-languages/
+
+## utilities
+https://www.jsonstore.io/
+
 
 # education
 https://en.wikipedia.org/wiki/Schaum%27s_Outlines#Comparison_with_other_series
