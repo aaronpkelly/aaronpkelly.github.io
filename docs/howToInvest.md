@@ -1100,3 +1100,9 @@ UCITS funds can be registered in Europe and sold to investors worldwide using
 unified regulatory and investor protection requirements. UCITS fund providers
 who meet the standards are exempt from national regulation in individual
 European countries.
+# Art
+One of those "alternative" investments.
+
+Here's a website that claims to help you invest in it:
+https://www.masterworks.io
+

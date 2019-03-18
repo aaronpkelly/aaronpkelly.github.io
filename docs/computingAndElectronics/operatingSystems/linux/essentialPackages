@@ -3,29 +3,43 @@
 # command-line
 Rules: must be small, fast, and scriptable
 
-conky - pipe to dzen for text status bar
+## audio
+moc/mocp - command-line music player, run `mocp` for the client
+mpg123 - command-line mpeg-audio player
+ogg123 - command-line ogg player
+sox - command line audio
+svox pico2wave - great text-to-speech!
+
+### download mp3 cli - the best i have so far...
+https://github.com/ritiek/spotify-downloader
+
+## graphics
 dot - graph drawing
+Feh - image viewer
+Gifify
+GraphicsMagick - displaying, converting, and editing raster image and vector image files (script addons: http://www.fmwconcepts.com/imagemagick/index.php)
+graphviz - draw graphs
+imagemagick
+
+## video
+mpv - media player
+
+conky - pipe to dzen for text status bar
+
 dzen - status bar
 epub.py - command-line epub reader - github.com/rupa/epub
 evince - powerful document viewer
 exa - a modern replacement for ls
 Exiv2 - image metadata editor
-Feh - image viewer
-Gifify
-GraphicsMagick - displaying, converting, and editing raster image and vector image files (script addons: http://www.fmwconcepts.com/imagemagick/index.php)
-graphviz - draw graphs
+
 htop - alternative to top, more powerful
-imagemagick
+
 irssi
 lm_sensors - monitor hardware temperature
 mc - midnight commander
-moc/mocp - command-line music player, run `mocp` for the client
-mpg123 - command-line mpeg-audio player
-mpv - media player
 mutt - email
 ncdu - disk usage
 newsboat - rss
-ogg123 - command-line ogg player
 pandoc - universal markdown converter
 parcellite - X clipboard (works in I3, icon bottom-right)
 pdfgrep - search multiple pdfs for text
@@ -34,13 +48,11 @@ rdictcc - dictionary (https://github.com/tsdh/rdictcc)
 recordmydesktop - simple tool, records to .ogv. use --windowid
 remind - calender (https://www.roaringpenguin.com/products/remind)
 Scrot - screen capture tool
-sox - command line audio
 spacemacs - vim+emacs
-svox pico2wave - great text-to-speech!
 tikz - draw graphs
 tmux
 unison - file synchronisation (https://www.cis.upenn.edu/~bcpierce/unison/)
-vlc - more powerful than cvlc, type help to see commands. instant support for internet radio (mp3, mp3a, ...)
+
 xdotool - cmdline mouse automation
 zathura - simple document viewer
 zsh
@@ -59,6 +71,7 @@ firefox:
 - ublock origin with everything blocked as default
 - keyboard shortcuts to reorder tabs
 https://obsproject.com/
+vlc - more powerful than cvlc, type help to see commands. instant support for internet radio (mp3, mp3a, ...)
 
 windowed environment
 --------------------
