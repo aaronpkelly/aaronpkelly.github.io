@@ -1,6 +1,8 @@
 # ini tweaks
 ## disable intro videos
-Comment out the below, _c:\Users\aaron\Documents\my games\borderlands\WillowGame\Config\WillowEngine.ini_:
+Make the following changes
+
+_%USERPROFILE%\Documents\my games\borderlands\WillowGame\Config\WillowEngine.ini_:
 ```
 [FullScreenMovie]
 ; StartupMovies=2K_logo
