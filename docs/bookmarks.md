@@ -1,26 +1,26 @@
-HELLO
+I don't really keep bookmarks anymore. I usually favourite things I like inside:
+- news.ycombinator.com
+- github.com
+
+The below bookmarks are websites that:
+- are so important to me I want to draw special attention to them
+- do not have a presence on the above sites
+- are too precious to lose
+
 CONTINUE FROM COMPUTING -> LIVECODING -> AUDIO
 
-# audio
-https://learningmusic.ableton.com/
-http://bbcsfx.acropolis.org.uk/
-https://linuxaudio.org/resources.html
-http://vocaroo.com/
-
 ## music
-http://everynoise.com/engenremap.html
-http://www.di.fm/
-https://www.musicforprogramming.net/
-https://somafm.com/
-https://filmstro.com/music
-https://bandcamp.com/
-http://freemusicarchive.org
+https://en.wikipedia.org/wiki/Di.fm
+https://en.wikipedia.org/wiki/Soma.fm (recommended: http://somafm.com/player/#/now-playing/defcon)
+https://en.wikipedia.org/wiki/Bandcamp
 
 ### synthesisers
-https://teenageengineering.com/products/synthesizers
-https://monome.org/
-https://llllllll.co/
 https://www.muffwiggler.com/forum/
+
+
+
+----- EVERYTHING BELOW THIS LINE THAT DOES NOT HAVE [DONE] AT THE END
+NEEDS TO BE SEARCHED ON https://hn.algolia.com AND ADDED AS A BOOKMARK -------------
 
 ### machine learning
 https://magenta.tensorflow.org/
@@ -147,7 +147,7 @@ https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#ge
 https://data.gov.ie/
 
 ## demoscene
-http://www.pouet.net
+https://scenesat.com/ [DONE]
 https://fabiensanglard.net/
 https://www.dwitter.net/
 
@@ -241,6 +241,9 @@ https://lobste.rs/
 https://news.ycombinator.com/best
 http://jsomers.net/hn/
 https://www.siliconrepublic.com/
+https://www.heise.de/ct/ [DONE]
+http://www.heise.de/ix/ [DONE]
+http://slashdot.org/ [DONE]
 
 ## notebooks
 https://jupyter.org/
@@ -265,6 +268,8 @@ https://bisqwit.iki.fi/
 https://zwischenzugs.com/
 https://drewdevault.com/
 https://jvns.ca/about/
+https://en.wikipedia.org/wiki/Slub_(band)
+https://www.hanselminutes.com/
 
 ## programming
 http://cyber-dojo.org/
@@ -357,6 +362,7 @@ https://www.codeschool.com/
 https://www.codecademy.com/
 https://www.freecodecamp.org/
 http://programming-motherfucker.com/become.html
+https://progur.com/ [DONE]
 
 ### problems / challenges / competitive
 https://web.stanford.edu/class/cs9/
@@ -381,6 +387,17 @@ https://www.codechef.com/
 https://projecteuler.net/
 https://www.interviewbit.com/
 http://www.spoj.com/
+
+### wallpapers
+https://portfolio.matiash.com/ [DONE]
+https://chromecastbg.alexmeub.com/ [DONE]
+https://wall.alphacoders.com/by_sub_category.php?id=193061 [DONE]
+
+### web animation
+https://medium.com/@evejweinberg/web-animation-everything-you-need-to-know-in-too-much-detail-91bf5d48f980
+
+### utilities
+https://tools.bartlweb.net/ [DONE]
 
 ## rankings
 https://www.tiobe.com/tiobe-index/
