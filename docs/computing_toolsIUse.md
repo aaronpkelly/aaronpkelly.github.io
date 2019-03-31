@@ -10,6 +10,7 @@ musikcube (windows)
 nirsoft suite
 sysinternals suite
 total commander
+bleachbit
 
 # browser
 firefox

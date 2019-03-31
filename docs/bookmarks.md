@@ -42,7 +42,6 @@ https://github.com/freepats/documentation/wiki/Soundfont-resources
 http://www.rainymood.com/
 http://endlessvideo.com/watch?v=HMnrl0tmd3k
 https://mynoise.net/
-http://musicforprogramming.net/
 http://asoftmurmur.com/
 https://www.tones.fm/tones/calm
 https://www.brain.fm
@@ -359,6 +358,15 @@ https://www.freecodecamp.org/
 http://programming-motherfucker.com/become.html
 https://progur.com/ [DONE]
 
+### music for programming
+http://musicforprogramming.net/
+http://datassette.net/businessfunk/
+http://comtruise.com/kc/
+https://ultimae.bandcamp.com/album/perimeters
+https://carbonbasedlifeforms.bandcamp.com/album/hydroponic-garden
+https://solarfields.bandcamp.com/album/movements-remastered
+https://hos.com/
+
 
 ### problems / challenges / competitive
 https://web.stanford.edu/class/cs9/
@@ -478,6 +486,7 @@ https://en.wikipedia.org/wiki/Di.fm
 https://en.wikipedia.org/wiki/Soma.fm (recommended: http://somafm.com/player/#/now-playing/defcon)
 https://en.wikipedia.org/wiki/Bandcamp
 https://www.muffwiggler.com/forum/
+
 
 ## personal pages
 http://stephnikelly.wixsite.com/stephandlee

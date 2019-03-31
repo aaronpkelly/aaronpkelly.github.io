@@ -171,6 +171,84 @@ never failed to rise.
 - Pay yourself first
 - Make your money work for you
 
+## Research tools
+### Fund research
+https://uk.finance.yahoo.com/ (untested)
+http://morningstar.co.uk/
+
+#### Morningstar-optimised advice
+Let’s start with Morningstar. If you’re not familiar, Morningstar is an
+investment research company that aims to provide normal investors with the
+information that financial professionals have.
+
+One great service it provides is a search function for pretty much any stock,
+fund or ETF.
+The quote that you see isn’t necessarily the most important thing to look at,
+as you should be interested in investing for the long term. One-day price
+fluctuations, then, don’t really matter to you. But as you can see, it also
+breaks down expenses and investment style/category right there on the main page.
+
+The pages you’ll want to pay attention to are Performance, Portfolio, Expense
+and Purchase.
+Performance shows you, well, how the fund has fared historically
+(remember you’re interested in long-term success, though past performance does
+not guarantee future results).
+Portfolio breaks down what the fund is made up of, including companies,
+industries, sectors, the stock/bond mix, etc. If you’re trying to invest in a
+broad market index fund, it should have dozens to hundreds of different
+holdings. (Think about it: The S&P 500, which your fund may be trying to track
+for example, is made up of 500 different companies.)
+Expense details the expense ratio, and indicates how the price compares to other
+funds. You want to look for large cap funds with expense ratios below one
+percent, and small cap/international funds with expense rations under 1.25
+percent. Other types of fees are also included on the page, which you can read
+about here. Passively managed funds will have lower expense ratios than
+actively managed funds, and (likely) perform better as well. “Vanguard 500
+Index (symbol VFINX), which mirrors Standard & Poor’s 500-stock index, has
+outpaced 80 percent of all actively managed large-company, U.S.-oriented
+stock funds over the past three years,” writes Kiplinger. It has an expense
+ratio of 0.14 percent, and you can find other broad or total-market funds
+from the likes of Vanguard and Fidelity with fees lower than that (if your
+employer offers them to you, that is).
+
+Finally, Purchase tells you if there are any qualifications for purchasing
+shares, like minimum investments. You might also consider Morningstar’s
+rating, though I’d look at the other categories first.
+
+All of the pages offer good advice, but those are the four I’d emphasize.
+
+For more analysis of the other portfolio data points:
+https://www.thebalance.com/mutual-fund-analysis-10-things-to-analyze-and-3-to-ignore-2466458
+
+### General knowledge
+https://www.investopedia.com/
+
+#### Forums
+https://www.askaboutmoney.com/ - consumer financial advice ireland
+https://www.moneyguideireland.com/ (an independent site, set up to provide money saving information and tips for Irish consumers)
+https://www.boards.ie/vbulletin/forumdisplay.php?f=544
+https://www.bogleheads.org/index.php
+https://www.reddit.com/r/investing
+
+#### Personal sits
+https://www.mrmoneymustache.com
+http://jlcollinsnh.com/stock-series/
+
+### newsletters
+https://www.finimize.com/
+
+### roboadvisors
+https://betterment.com
+https://etfmatic.com/
+https://www.irishtimes.com/business/personal-finance/computer-says-invest-the-robo-advisers-are-coming-1.3029009
+
+### general financial
+https://www.irishtimes.com/business/personal-finance
+https://www.ccpc.ie/consumers/
+
+### price comparison
+https://www.bonkers.ie/
+
 ## Bonds
 Guaranteed returns after a long period of time. Very low risk.
 
@@ -1045,32 +1123,6 @@ https://en.wikipedia.org/wiki/Barefoot_Investor
 JLCollins - The Simple Path to Wealth
 
 https://www.askaboutmoney.com/threads/key-post-investment-books-to-read.34876/
-
-## websites
-### investing
-https://www.askaboutmoney.com/ - consumer financial advice ireland
-https://www.moneyguideireland.com/ (an independent site, set up to provide money saving information and tips for Irish consumers)
-https://www.mrmoneymustache.com
-https://www.investopedia.com/
-https://www.boards.ie/vbulletin/forumdisplay.php?f=544
-https://www.bogleheads.org/index.php
-https://www.reddit.com/r/investing
-http://jlcollinsnh.com/stock-series/
-
-### newsletters
-finimize
-
-### roboadvisors
-https://betterment.com
-https://etfmatic.com/
-https://www.irishtimes.com/business/personal-finance/computer-says-invest-the-robo-advisers-are-coming-1.3029009
-
-### general financial
-https://www.irishtimes.com/business/personal-finance
-https://www.ccpc.ie/consumers/
-
-### price comparison
-https://www.bonkers.ie/
 
 # Common questions
 https://www.investopedia.com/ask/answers/033015/whats-difference-between-index-fund-and-etf.asp
