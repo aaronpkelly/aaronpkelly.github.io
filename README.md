@@ -1,3 +1,8 @@
+# TODO
+- get as much stuff out of here and into relevant sites. bookmarks should be in
+hackernews/github, computer stuff should be in secrets repo etc
+
+# Overview
 Note: I know that Github pages has amazing jekyll support, but it's just noise.
 Just use basic markdown for all content. Any content that does not have a .md
 extension won't be published here.# What's on my website?

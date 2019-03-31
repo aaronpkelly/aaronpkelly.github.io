@@ -7,17 +7,7 @@ The below bookmarks are websites that:
 - do not have a presence on the above sites
 - are too precious to lose
 
-CONTINUE FROM COMPUTING -> LIVECODING -> AUDIO
-
-## music
-https://en.wikipedia.org/wiki/Di.fm
-https://en.wikipedia.org/wiki/Soma.fm (recommended: http://somafm.com/player/#/now-playing/defcon)
-https://en.wikipedia.org/wiki/Bandcamp
-
-### synthesisers
-https://www.muffwiggler.com/forum/
-
-
+CONTINUE FROM MATHEMATICS
 
 ----- EVERYTHING BELOW THIS LINE THAT DOES NOT HAVE [DONE] AT THE END
 NEEDS TO BE SEARCHED ON https://hn.algolia.com AND ADDED AS A BOOKMARK -------------
@@ -66,8 +56,10 @@ https://hvsc.c64.org
 
 # gaming
 ## browser
+http://jhollands.co.uk/spaceplan/
 http://codecombat.com/
 http://box-256.com/
+http://telehack.com/telehack.html
 https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
 https://robocode.sourceforge.io/
 https://jayisgames.com/browser/best-games/
@@ -133,7 +125,7 @@ https://www.packet.net/
 https://www.vultr.com/
 https://www.hetzner.com/cloud
 
-## components
+## components [DONE]
 https://www.aria.co.uk/
 
 ## conferences
@@ -193,6 +185,9 @@ https://www.starterstory.com/
 https://www.authorityhacker.com/undercover/
 https://failory.com/
 https://www.remoteonly.org/
+https://www.peopleperhour.com/
+https://www.freelancer.com/#
+https://www.fiverr.com/
 
 ## funny
 http://securityreactions.tumblr.com/
@@ -364,6 +359,7 @@ https://www.freecodecamp.org/
 http://programming-motherfucker.com/become.html
 https://progur.com/ [DONE]
 
+
 ### problems / challenges / competitive
 https://web.stanford.edu/class/cs9/
 https://adventofcode.com/
@@ -405,7 +401,7 @@ https://redmonk.com/sogrady/category/programming-languages/
 
 ## utilities
 https://www.jsonstore.io/
-
+https://faxzero.com/
 
 # education
 https://en.wikipedia.org/wiki/Schaum%27s_Outlines#Comparison_with_other_series
@@ -421,6 +417,7 @@ https://www.eliotandme.com/poster
 ## astronomy
 http://www.projectrho.com/public_html/rocket/
 
+
 ## books
 https://www.bookdepository.com/
 
@@ -433,18 +430,54 @@ https://www.dpdparcelwizard.ie/HomePage#/
 ## engineering
 https://www.tenfoldengineering.com/#section-what-we-do
 
+## finance / money
+The rest of my bookmarks are in my finance article
+https://www.bonkers.ie/
+http://www.tradestation.com/
+
 ## food
 https://www.reddit.com/r/fasting/wiki/fasting_in_a_nutshell
+https://en.wikipedia.org/wiki/Glycemic_load
+https://github.com/arielf/weight-loss?imm_mid=0e6db7&cmp=em-data-na-na-newsltr_ai_20160822
+https://www.amazon.co.uk/d/Books/Sam-Sterns-Student-Cookbook-Survive-Style-Budget/1406308188
+https://www.amazon.co.uk/d/Books/Sam-Sterns-Student-Cookbook-Survive-Style-Budget/1406308188
 
 ## funny
 http://dittodance.ytmnd.com/http://dittodance.ytmnd.com/http://dittodance.ytmnd.com/
 
+## gardening
+https://www.quickcrop.ie/
+
 ## health
 https://imgur.com/a/YBQFI - 100 no-equipment workouts
 https://www.uclahealth.org/marc/body.cfm?id=22&iirf_redirect=1
+http://greatist.com/fitness/50-bodyweight-exercises-you-can-do-anywhere
 
 ## human interest
 https://www.gapminder.org/dollar-street
+
+## job
+http://www.careersportal.ie/
+https://www.recruitireland.com/
+http://irishdev.com/
+
+## languages
+https://ucdgermana1.wordpress.com/
+http://babbel.com/
+https://www.duolingo.com/
+http://fsi-languages.yojik.eu/
+http://www.verbatimsolutions.com/freetranslation.php
+http://www.german-grammar.de/
+http://www.pimsleurapproach.com/
+http://www.trymango.com/language_program.php
+http://www.grammarbook.com/
+https://www.clozemaster.com/
+
+## music
+https://en.wikipedia.org/wiki/Di.fm
+https://en.wikipedia.org/wiki/Soma.fm (recommended: http://somafm.com/player/#/now-playing/defcon)
+https://en.wikipedia.org/wiki/Bandcamp
+https://www.muffwiggler.com/forum/
 
 ## personal pages
 http://stephnikelly.wixsite.com/stephandlee
@@ -479,10 +512,27 @@ https://www.mcmaster.com/
 http://www.aliexpress.com/
 https://www.adafruit.com/categories
 http://rozetka.com.ua/
+http://ie.rs-online.com/web/
+http://ie.farnell.com/
+http://www.digikey.ie/
+http://www.mouser.ie/
+https://www.sparkfun.com/
+https://oshpark.com/
+https://electronics.stackexchange.com/questions/616/basic-electronics-book
+http://wired.chillibasket.com/2014/10/my-hobby-toolbox/
 
-## time-tracking
+### maker-scene
+https://www.tog.ie/
+
+## time tracking / timekeeping
 http://www.tomato.es/
+https://www.pomotodo.com/
 
 ## travel
 https://www.kayak.ie/
 https://skiplagged.com
+
+## tv
+http://www.aertv.ie/
+https://ffilms.org/
+http://www.shush.se/
