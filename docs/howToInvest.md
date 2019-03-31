@@ -433,6 +433,10 @@ in the index.
 https://www.youtube.com/watch?v=buR6Wvq8s38
 
 ### ETFs (Exchange-traded funds) [ETF]
+- typically low cost
+- built-in diversification
+- passively managed
+
 An ETF is an investment fund traded on stock exchanges, much like stocks.
 It is a listed low cost passively managed index tracker
 An ETF is traded on a major stock exchange—like the New York Stock Exchange or Nasdaq.

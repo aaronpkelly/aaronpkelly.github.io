@@ -7,7 +7,7 @@ The below bookmarks are websites that:
 - do not have a presence on the above sites
 - are too precious to lose
 
-CONTINUE FROM MATHEMATICS
+CONTINUE FROM MUSIC
 
 ----- EVERYTHING BELOW THIS LINE THAT DOES NOT HAVE [DONE] AT THE END
 NEEDS TO BE SEARCHED ON https://hn.algolia.com AND ADDED AS A BOOKMARK -------------
@@ -359,6 +359,7 @@ http://programming-motherfucker.com/become.html
 https://progur.com/ [DONE]
 
 ### music for programming
+https://generative.fm/
 http://musicforprogramming.net/
 http://datassette.net/businessfunk/
 http://comtruise.com/kc/
@@ -480,6 +481,37 @@ http://www.pimsleurapproach.com/
 http://www.trymango.com/language_program.php
 http://www.grammarbook.com/
 https://www.clozemaster.com/
+
+## maths
+http://www.mathacademy.com/pr/
+http://www.mathcentre.ac.uk/
+http://www.algebrahelp.com/
+https://www.mathsisfun.com/numbers/math-trainer-multiply.html
+http://www.khanacademy.org/#browse
+http://www.purplemath.com/
+http://www.allmathwords.org/en/f/fractionrules.html
+http://www-groups.dcs.st-andrews.ac.uk/~history/
+http://www.tricki.org/tricki/map
+https://math.dartmouth.edu/~pw/solutions.pdf?im
+https://www.math.uh.edu/~dblecher/pf2.html
+https://www.math.ias.edu/files/mathandcomp.pdf#page=1
+
+### algebra
+http://immersivemath.com/ila/index.html
+
+### calculus
+http://www.themathpage.com/
+http://parrt.cs.usfca.edu/doc/matrix-calculus/index.html
+
+### graphing
+https://dl.dropboxusercontent.com/u/4189520/GraphJS/graphjs.html
+http://illuminations.nctm.org/Activity.aspx?id=3550
+
+### graph theory
+https://medium.com/@vardanator/i-dont-understand-graph-theory-1c96572a1401
+
+### linear
+http://immersivemath.com/ila/index.html
 
 ## music
 https://en.wikipedia.org/wiki/Di.fm
