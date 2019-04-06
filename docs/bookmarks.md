@@ -245,6 +245,7 @@ https://nbviewer.jupyter.org/
 
 ## people
 https://algo.is/
+http://landley.net/
 http://stallman.org/
 http://reginaldlong.com/how-i-went-from-failing-every-interview-to-a-job-at-amazon/
 http://norvig.com/
