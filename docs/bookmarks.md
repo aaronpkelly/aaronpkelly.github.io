@@ -457,6 +457,11 @@ http://dittodance.ytmnd.com/http://dittodance.ytmnd.com/http://dittodance.ytmnd.
 
 ## gardening
 https://www.quickcrop.ie/
+http://www.brownenvelopeseeds.com
+http://irishseedsavers.ie/
+https://www.avonbulbs.co.uk/
+https://www.seedaholic.com/
+https://www.mrmiddleton.com/
 
 ## health
 https://imgur.com/a/YBQFI - 100 no-equipment workouts
