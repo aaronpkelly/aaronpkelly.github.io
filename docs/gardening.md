@@ -1,12 +1,26 @@
 # aphids
-## preventing
-- spray plants with hortocultural/essential oils (peppermint)
-- companion planting.
-aphids hate (to repel): catnip, alliums (garlic, chives...)
-aphids love (to trap): mustard, nasturtium, collards
-- introduce beneficial insects - ladybugs, lacewings, parasitic wasps
+## prevention
+### essential oils
+- spray plants with essential oils. These oils are harmless to mammals but can
+be devestating to pests: https://en.wikipedia.org/wiki/Essential_oil#Use_as_pesticide
+Rose, lemon grass, lavender, thyme, peppermint, and eucalyptus
+
+### companion planting
+aphids hate (to repel): catnip, alliums (garlic, onions, chives...)
+aphids love (to trap): mustard, nasturtium, collards,
+    Aster
+    Mum
+    Cosmos
+    Hollyhock
+    Larkspur
+    Tuberous begonia
+    Verbena
+    Dahlia
+    Zinnia
 
 ### beneficial insects
+Introduce beneficial insects - ladybugs, lacewings, parasitic wasps
+
 Attract them with:
     Marigolds
     Caraway
@@ -15,19 +29,19 @@ Attract them with:
     Fennel
     Dill
     Sweet Alyssum
+    mint, yarrow, and dandelions
 
-
-## curing
+## Dealing with infestation
 - squish them with your fingers
 - wipe them off the plant
 - blast them off a plant with strong jet of water
 
 - dehydrate them with a mild solution of water and dish/insecticidal soap
-- repel them with repugnant hortocultural oils
+- repel them with repugnant essential oils
 
 - constipate them by dusting the plant with flour
-- suffocate them with 100% cold-pressed neem oil. This oil is very effective
-- ground them with diotomaceous earth
+- suffocate them with 100% cold-pressed neem oil. This horticultural oil is very effective
+- dehydrate them with diotomaceous earth
 
 ## insecticidal sprays and soaps
 Sprays may leave a residue that may damage other beneficial insects
