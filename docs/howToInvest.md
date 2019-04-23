@@ -795,6 +795,23 @@ And set the "Use of profits" to accumulating.
 If you search for say EURO STOXX 50 for example it will bring up all the ETFS which track this indicie and give ON THE SAME PAGE the, currency, the fund size, the TER, the yearly % up/down and whether it's accumulating or distributing. You can filter for just accumulating ETFs too. Some very usefull info to be all listed on the same page!!!
 https://www.justetf.com/en/find-etf...er&sortOrder=asc&groupField=none&tab=overview
 
+#### W-8BEN form from Degiro
+Logging into Degiro one day, it offered me this:
+```
+W-8BEN form (substitute)
+You can apply for a reduced withholding tax rate on US source income under the double tax treaty between your country of tax residence and the United States of America. Based on the information you provide, DEGIRO will determine your entitlement to treaty benefits.
+Certification
+I certify that I am the individual that is the beneficial owner of the income within the meaning of the income tax treaty between the United States and my country of tax residence as provided.
+The income to which this form relates is not effectively connected with the conduct of a trade or business in the United States, effectively connected but not subject to tax under an applicable income tax treaty, or the partner’s share of a partnership's effectively connected income.
+I acknowledge that the information provided:
+
+    is true, correct, and complete to the best of my knowledge and belief.
+    can be shared with the relevant tax authorities, in accordance with the applicable regulations.
+    will be updated as soon as possible, but at least within 30 days from the moment that I become aware that the information is outdated.
+
+I certify under penalty of forgery, that I am authorised to sign and agree with the above declarations
+```
+
 
 #### Charges - go low
 Look for total expense rations or charges of <=0.1 per cent, which is considered
