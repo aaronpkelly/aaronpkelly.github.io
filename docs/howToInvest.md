@@ -812,6 +812,40 @@ I acknowledge that the information provided:
 I certify under penalty of forgery, that I am authorised to sign and agree with the above declarations
 ```
 
+I also got this email when I wasn't successful filling it out:
+```
+We are writing to you regarding your entitlement to lower withholding tax rates for US source income received in your DEGIRO investment account.
+You have completed a substitute W8-BEN. This form is intended to claim the reduced tax treaty rate on US income, such as dividend and coupon. Until now we have applied the
++claimed lower rate for you. However, we have established that, based on the available account information, you were not entitled to the lower withholding tax rates on US
++source income. DEGIRO can only apply these rates for accounts for which all relevant information is complete, and where country of residence, tax residence, and bank account
++location are identical and within our service area. This is currently not the case for your account.
+
+What should you do?
+First you should make sure that your account information is up to date, and that country of residence, and bank account location are aligned with your tax residence. You can
++update your account information in the WebTrader.
+Furthermore, please note that we have reset the substitute W8-BEN form in your account. We kindly ask that you complete and refile the substitute W8-BEN form by April 30 2019.
++We will then determine your entitlement to lower withholding tax rates on US source income that is received in the future.
+In addition to refiling the substitute W8-BEN form, we request that you to complete, sign and return the attached affidavit of unchanged status to clients@degiro.co.uk. By
++returning a signed and completed affidavit, you enable us to re-evaluate your entitlement to lower withholding tax rates on US source income that was received in the past.
+
+What will happen next?
+What happens next depends on which documents you file with us:
+You file the substitute W8-BEN and the affidavit for unchanged status. We will determine your entitlement to lower withholding tax rates for US source income. If the substitute
++W8-BEN form and your account information confirm entitlement to the lower US treaty rates we will continue to apply these to US income you receive in the future. Moreover,
++lower withholding tax rates on US income applied in the past remain in effect.
+You file the substitute W8-BEN only. We will determine your entitlement to lower withholding tax rates US source income. If the substitute W8-BEN form and your account
++information confirm your entitlement to the lower US treaty rates we will continue to apply these to US income you receive in the future. However, if you do not return the
++affidavit, we cannot re-evaluate your entitlement to lower withholding tax rates on US source income that was received in the past. As a result, we may include this income in
++taxation against the statutory tax rate, which is generally higher. This will result in a corrective and additional tax charge to your account.
+
+You take no action. In the case that no documents are filed, we will cease the application of the lower withholding tax rate on US source income that you receive in the future.
++Moreover, we may tax US source income that was received in the past against the statutory tax rate, which is generally higher. This will result in a corrective and additional
++tax charge to your account.
+For general questions about taxes you can consult our dedicated tax FAQ or contact the DEGIRO Service Desk. For any tax questions related to your personal situation we
++recommend you to consult a tax advisor.
+```
+
+Eventually I successfully completed the form by linking my Irish bank account to Degiro.
 
 #### Charges - go low
 Look for total expense rations or charges of <=0.1 per cent, which is considered
