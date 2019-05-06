@@ -548,6 +548,14 @@ https://www.spritzlet.com/
 http://www.gixen.com/index.php
 https://www.goofbid.com/
 
+### clothes
+#### dunnes
+URL is modified to:
+- sort by lowest price
+- show 400 products per page
+
+http://www.dunnesstores.com/view-all/men/fcp-category/list?addFilter=&keywords=&layout=&performSearch=true&visible=true&sortOrder=asortPrice&productsPerPage=400#
+
 ### discount
 amazon warehouse - https://smile.amazon.co.uk/l/3581866031/ref=smi_www_rco2_go_smi_8682124849?_encoding=UTF8&ie=UTF8&node=3581866031
 
