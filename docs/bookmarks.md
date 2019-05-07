@@ -12,6 +12,9 @@ CONTINUE FROM MUSIC
 ----- EVERYTHING BELOW THIS LINE THAT DOES NOT HAVE [DONE] AT THE END
 NEEDS TO BE SEARCHED ON https://hn.algolia.com AND ADDED AS A BOOKMARK -------------
 
+
+
+
 ### machine learning
 https://magenta.tensorflow.org/
 https://arxiv.org/abs/1709.02840
@@ -34,6 +37,15 @@ https://www.rollingstone.com/music/music-lists/500-greatest-albums-of-all-time-1
 http://tempsdr.suws.org.uk:82/
 http://www.hdsdr.de/
 http://vtuner.com/setupapp/guide/asp/BrowseStations/Searchform.asp
+http://radiofstiveinternational.org/
+
+### scanners
+https://www.qsl.net/oe3mzc/receivers.html#table%20of%20receivers
+http://www.radioreference.com/
+
+### hardware
+https://www.rtl-sdr.com/
+
 
 ## soundfonts
 https://github.com/freepats/documentation/wiki/Soundfont-resources
@@ -52,6 +64,14 @@ https://www.zophar.net/forums/index.php?s=7700ba986f13ae164c7f276a7ebd1ef2
 http://swedishcolumbia.com/album/else-heart-break-original-soundtrack
 https://modarchive.org/index.php
 https://hvsc.c64.org
+http://pressplayontape.com/about/
+
+# audio
+## music
+https://www.music-map.com/
+https://noise.supply/
+http://techno.org/electronic-music-guide/
+http://www.google.com/search?hl=en&q=-inurl%3A(htm%7Chtml%7Cphp)%20intitle%3A%22index%20of%22%20%2B%22last%20modified%22%20%2B%22parent%20directory%22%20%2Bdescription%20%2Bsize%20%2B(wma%7Cmp3)%20%22Madina%22&btnG=Search
 
 # gaming
 ## browser
@@ -188,6 +208,9 @@ https://www.remoteonly.org/
 https://www.peopleperhour.com/
 https://www.freelancer.com/#
 https://www.fiverr.com/
+
+### accounting
+https://www.waveapps.com/
 
 ## funny
 http://securityreactions.tumblr.com/
