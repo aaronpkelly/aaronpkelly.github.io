@@ -65,6 +65,9 @@ Has onboard WIFI, ethernet
 Alpine Linux x86
 Docker!
 
+## chromebook
+works just fine, apart from the screen
+
 ## compaq evo n610c
 Persist. Turning on this laptop can be a bastard.
 Removing the battery and then replacing it makes no difference.
@@ -87,3 +90,14 @@ I think I forgot to install Docker, sorry. Refer to Alpine wiki for docker insta
 ## network
 ethernet only, as far as I can tell
 
+## Dell Latitude D500 (model no: PP05L)
+### Power
+Input: 19.5V, 4.62
+
+I have a dedicated Dell charger for this, works perfectly
+
+### Network
+Ethernet only
+
+### What's installed
+Alpine Linux
