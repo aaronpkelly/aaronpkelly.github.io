@@ -433,6 +433,7 @@ https://tools.bartlweb.net/ [DONE]
 ## rankings
 https://www.tiobe.com/tiobe-index/
 https://redmonk.com/sogrady/category/programming-languages/
+https://redmonk.com/sogrady/2019/03/20/language-rankings-1-19/
 
 ## utilities
 https://www.jsonstore.io/
