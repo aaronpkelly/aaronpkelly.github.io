@@ -480,6 +480,7 @@ https://www.amazon.co.uk/d/Books/Sam-Sterns-Student-Cookbook-Survive-Style-Budge
 
 ## funny
 http://dittodance.ytmnd.com/http://dittodance.ytmnd.com/http://dittodance.ytmnd.com/
+http://hyperboleandahalf.blogspot.com/
 
 ## gardening
 https://www.quickcrop.ie/

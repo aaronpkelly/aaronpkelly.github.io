@@ -960,9 +960,36 @@ See:
 https://www.zurich.ie/pensions-retirement/calculators/tax-relief-calculator/
 
 ## Additional Voluntary Contributions (AVCs)
-Depending on age, you can contribute an extra amount equal to a certain
-percentage of your salary.
+Revenue: https://www.revenue.ie/en/jobs-and-pensions/pensions/tax-relief-for-pension-contributions.aspx
 
+As the name suggests, additional voluntary contributions (AVCs) are additional
+contributions you make to the occupational pension scheme you have with your
+employer to build up an additional retirement fund. So, for example, a typical
+employer scheme works by the employer offering the employee either a fixed
+percentage of their salary as a pension contribution, or agrees to match the
+employee contribution up to a certain level.
+
+- AVC contributions grow free of tax until retirement
+- the employers’ contribution does not count towards individuals’ age-related
+contribution limits
+- you may even be able to access them free of tax in retirement
+
+To start investing in a scheme, you can set up a separate PRSA AVC, or keep
+investing in your defined group scheme if you are employed.
+Charges can have a significant impact on your investment outcome. Many group
+schemes will have annual management charges of less than 0.5 per cent; but a
+PRSA can take up to 5 per cent on each contribution, and up to 1 per cent in
+annual charges. That’s a big difference and the investment performance of you
+personal PRSA would have to be significantly better than the workplace option
+to consider it.
+
+Tax relief for employee pension contributions is subject to two main limits:
+- an age-related earnings percentage limit
+- a total earnings limit.
+
+The limits on pension tax relief are broken down in specific bands which are
+based on your age. So, for example, if you’re aged 33, you can get tax relief
+on anything up to 20 per cent of your income that is put into a pension fund:
 | Age (attained during tax year) | Total Personal Contribution Limit (as a % of Net Relevant Earnings*) |
 | Under 30 | 15% |
 | 30 – 39 | 20% |
@@ -970,6 +997,37 @@ percentage of your salary.
 50 – 54 30%
 55 – 59 35%
 60 Plus 40%
+
+### Retirement
+AVCs have two main advantages; they help you grow your overall pension fund, and they can help ensure that you get the maximum tax-free lump sum at retirement.
+
+According to McEvoy, defined benefit members may not be entitled to the maximum 1.5 times final salary tax-free lump sum at retirement if they don’t have the requisite 40 years service.
+
+If you only have 20 years service for example, you might be entitled to just €60,000 based on a €50,000 final salary. If you have built up AVCs however, you can use these to top up your lump sum to the full 1.5 times salary, or €75,000 in the aforementioned example.
+
+“AVCs can be used to offset that shortfall,” says McEvoy.
+
+If you’re a member of a defined contribution scheme, AVCs can also help boost your tax-free lump-sum. Typically, with a defined contribution fund you’ll be entitled to take up to 25 per cent of the value of the fund tax free, with the residue going into an Approved Retirement Fund/Approved Minimum Retirement Fund or to buy an annuity guaranteeing a set annual income. AVCs will be treated in the same way, which means that you’ll also be able to take 25 per cent of your AVC fund tax free also, with the same residue going into an ARF/AMRF also.
+
+Now, a tax-free limit of €200,000 on lump sums does apply but, as McEvoy notes, given that the average Irish ARF is just €100,000, that upper limit will only impact a small percentage of people.
+
+### Examples
+An employee who is aged 42 and earns €40,000 can get tax relief on annual
+pension contributions up to €10,000.
+
+If you’re 33 and earning €50,000, and currently
+contribute 5 per cent (€2,500) a year into your pension fund, and your
+employer matches this (bringing the total contribution up to €5,000 or 10 per
+cent), you’re still only using a quarter of your available pension relief
+(employers’ contribution does not count)
+
+For example, if you’re our aforementioned 33-year-old earning €50,000, your
+existing 5 per cent contribution (€2,500) is only costing you €1,500 as you
+pay tax at the higher rate (it would cost you €2,000 if you were only entitled
+to standard rate tax relief).
+So, if you wanted to bump this up by an extra 10 per cent of your gross salary,
+or €5,000, this would only cost you €3,000 once tax relief is deducted.
+That’s €250 extra a month.
 
 ## Annuities
 Can be purchased with their pension fund on retirement and which pay a set
