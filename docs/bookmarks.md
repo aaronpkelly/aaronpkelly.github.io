@@ -1,8 +1,9 @@
 I don't really keep bookmarks anymore. I usually favourite things I like inside:
 - news.ycombinator.com
 - github.com
+- or turn it into a blogpost
 
-The below bookmarks are websites that:
+The below bookmarks are websites that do not meet the above criteria, and:
 - are so important to me I want to draw special attention to them
 - do not have a presence on the above sites
 - are too precious to lose
@@ -144,8 +145,9 @@ https://www.packet.net/
 https://www.vultr.com/
 https://www.hetzner.com/cloud
 
-## components [DONE]
+## components
 https://www.aria.co.uk/
+scan.co.uk
 
 ## conferences
 http://www.blackhat.com/
