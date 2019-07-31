@@ -30,6 +30,24 @@ created to share my experiences in a particular topic.
 
 [posts/2017-07-27-audio_learningMusicWithAbleton.md](posts/2017-07-27-audio_learningMusicWithAbleton.md)
 
+[posts/2017-08-04-javascriptAppsAndJekyll.md](posts/2017-08-04-javascriptAppsAndJekyll.md)
+
+[posts/2017-08-10-inDevelopment_chaosBox.md](posts/2017-08-10-inDevelopment_chaosBox.md)
+
+[posts/2017-08-10-inDevelopment_spreadList.md](posts/2017-08-10-inDevelopment_spreadList.md)
+
+[posts/2017-08-10-release_Mandelbrot.md](posts/2017-08-10-release_Mandelbrot.md)
+
+[posts/2017-08-16-onAutomation.md](posts/2017-08-16-onAutomation.md)
+
+[posts/2017-09-24-tinyQuest_developerLog.md](posts/2017-09-24-tinyQuest_developerLog.md)
+
+[posts/2018-02-25-onContainers.md](posts/2018-02-25-onContainers.md)
+
+[posts/2018-02-25-onPosting.md](posts/2018-02-25-onPosting.md)
+
+[posts/2018-02-25-onPurchasing.md](posts/2018-02-25-onPurchasing.md)
+
 [posts/2019-07-31_linux_namedPipes.md](posts/2019-07-31_linux_namedPipes.md)
 
 [posts/template_duplicateMd.md](posts/template_duplicateMd.md)
