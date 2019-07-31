@@ -19,13 +19,11 @@ There is value in sharing them
 all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
 
-# the _howTo.._ series
-Documents beginning with _howTo.._ are specific walkthrough guides that I have
-created to teach and educate about a particular topic.
+# Posts
+One of the major sections of this website.
 
-# the _on.._ series
-Documents beginning with _on.._ will contain dumps of information and opinion
-about a particular topic. The information will hopefully be well curated.
+Information and opinion about a particular topic, hopefully be well curated.
+Posts will be revisted over time and updated.
 
-Any general writing should be in a file prefixed with _on*_, e.g.
-*onLivingFrugally.md*
+Some posts will take the form of larger walkthrough guides that I have
+created to share my experiences in a particular topic.

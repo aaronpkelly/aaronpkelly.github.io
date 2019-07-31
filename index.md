@@ -1,3 +1,8 @@
+# TODO
+- get as much stuff out of here and into relevant sites. bookmarks should be in
+hackernews/github, computer stuff should be in secrets repo etc
+
+# Overview
 Note: I know that Github pages has amazing jekyll support, but it's just noise.
 Just use basic markdown for all content. Any content that does not have a .md
 extension won't be published here.# What's on my website?
@@ -14,42 +19,18 @@ There is value in sharing them
 all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
 
-# the _howTo.._ series
-Documents beginning with _howTo.._ are specific walkthrough guides that I have
-created to teach and educate about a particular topic.
+# Posts
+One of the major sections of this website.
 
-# the _on.._ series
-Documents beginning with _on.._ will contain dumps of information and opinion
-about a particular topic. The information will hopefully be well curated.
+Information and opinion about a particular topic, hopefully be well curated.
+Posts will be revisted over time and updated.
 
-Any general writing should be in a file prefixed with _on*_, e.g.
-*onLivingFrugally.md*
+Some posts will take the form of larger walkthrough guides that I have
+created to share my experiences in a particular topic.
 
-[docs/gaming_darkestDungeon_guide.md](docs/gaming_darkestDungeon_guide.md)
+[posts/2017-07-27-audio_learningMusicWithAbleton.md](posts/2017-07-27-audio_learningMusicWithAbleton.md)
 
-[docs/gaming_warcraft_guide.md](docs/gaming_warcraft_guide.md)
+[posts/2019-07-31_linux_namedPipes.md](posts/2019-07-31_linux_namedPipes.md)
 
-[docs/gaming_warcraft_keybinds.md](docs/gaming_warcraft_keybinds.md)
-
-[docs/howToFindAJob.md](docs/howToFindAJob.md)
-
-[docs/howToGetAFirst.md](docs/howToGetAFirst.md)
-
-[docs/howToInvest.md](docs/howToInvest.md)
-
-[docs/howToLife.md](docs/howToLife.md)
-
-[docs/howToReadAPaper.md](docs/howToReadAPaper.md)
-
-[docs/howToStudy.md](docs/howToStudy.md)
-
-[docs/howToWeekend.md](docs/howToWeekend.md)
-
-[docs/onAPIs.md](docs/onAPIs.md)
-
-[docs/onAutomation.md](docs/onAutomation.md)
-
-[docs/onProgramming.md](docs/onProgramming.md)
-
-[docs/README.md](docs/README.md)
+[posts/template_duplicateMd.md](posts/template_duplicateMd.md)
 
