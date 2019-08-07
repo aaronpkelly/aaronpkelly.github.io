@@ -44,7 +44,11 @@ created to share my experiences in a particular topic.
 
 [posts/2019-07-31_linux_namedPipes.md](posts/2019-07-31_linux_namedPipes.md)
 
+[posts/bookmarks.md](posts/bookmarks.md)
+
 [posts/template_duplicateMd.md](posts/template_duplicateMd.md)
 
 [posts/toolsIUse.md](posts/toolsIUse.md)
+
+[posts/uncleBob.md](posts/uncleBob.md)
 
