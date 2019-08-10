@@ -29,12 +29,13 @@ Plumb - http://palatialsoftware.com/plumb/. Happy with it so far.
 I did try using bug.n but it couldn't capture my VLC window to resize it,
 that was a deal-breaker.
 
-## TODO: write about these
+## binaries
 balenaEtcher - USB/SD image flashing utility
 chocolatey (made ninite redundant) - package manager for windows
 - hwinfo
 - jenkins (with the build monitor plugin!)
 - musikcube (windows)
+ext2fsd - mount linux partitions on windows
 nirsoft suite
 itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
 sysinternals suite
