@@ -1,7 +1,0 @@
-# ultrafast,superfast, veryfast, faster, fast, medium, slow, slower, veryslow
-# NOTE: veryslow+slower did not work on ps3
-PRESET=ultrafast
-
-FILE="$1"
-
-ffmpeg -i $FILE -vcodec libx264 -level 41 -preset $PRESET -crf 24 -threads 0 -acodec aac -ab 128k -ac 2 -ar 48000 "$FILE"_"$PRESET".mp4
