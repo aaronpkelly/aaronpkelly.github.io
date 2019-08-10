@@ -30,8 +30,8 @@ I did try using bug.n but it couldn't capture my VLC window to resize it,
 that was a deal-breaker.
 
 ## TODO: write about these
-balenaEtcher
-chocolatey (made ninite redundant)
+balenaEtcher - USB/SD image flashing utility
+chocolatey (made ninite redundant) - package manager for windows
 - hwinfo
 - jenkins (with the build monitor plugin!)
 - musikcube (windows)
