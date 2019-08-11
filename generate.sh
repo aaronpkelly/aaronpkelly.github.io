@@ -29,7 +29,7 @@ generatePosts() {
 
 generatePostList() {
 	for file in "$DIR_WITHTOCS"/*.md; do
-		echo "[${file}](${file})" >> index.md
+		echo "[${file}]($(basename $file))" >> index.md
 		echo "" >> index.md
 	done
 }
