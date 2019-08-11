@@ -3,8 +3,12 @@
 
 DIR_WITHTOCS="posts/withTOCs"
 
-addReadme() {
-	cat README.md >> index.md
+addFooter() {
+	cat FOOTER.md >> index.md
+}
+
+addHeader() {
+	cat HEADER.md >> index.md
 }
 
 clean() {
@@ -15,10 +19,11 @@ clean() {
 main() {
 	clean
 	zeroOutIndexFile
-	addReadme
+	addHeader
 	generateTOCs
 	generatePosts
 	generatePostList
+	addFooter
 }
 
 generatePosts() {

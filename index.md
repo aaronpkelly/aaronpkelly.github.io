@@ -1,19 +1,4 @@
-# Vision for this site
-- create value from everything
-- why is a doc in a private repo? expose it. move all docs from private repos into my website. everything else should be considered a publically viewable doc
-- try to monetize some good ideas
-- keep the number of repos in your ~environment to a minumum, to eliminate task switching
-- get as much stuff out of here and into relevant sites. bookmarks should be in
-hackernews/github, computer stuff should be in secrets repo etc
-- I know that Github pages has amazing jekyll support, but it's just noise.
-Just use basic markdown for all content. Any content that does not have a .md
-extension won't be published here.# What's on my website?
-- Turn each of your public docs into a post. There is value in sharing them
-- ? all development projects should have their own markdown file, or if they are an
-incubating idea, be listed in _myProjects.md_.
-
-# my bandcamp
-i like making music: aaronkelly.bandcamp.com
+Hi I'm Aaron, I like to break things for a living.
 
 # Posts
 One of the major sections of this website.
@@ -63,3 +48,19 @@ created to share my experiences in a particular topic.
 
 [uncleBob.md](posts/withTOCs/uncleBob.md)
 
+# my bandcamp
+i like making music: aaronkelly.bandcamp.com
+
+# Vision for this site
+- create value from everything
+- why is a doc in a private repo? expose it. move all docs from private repos into my website. everything else should be considered a publically viewable doc
+- try to monetize some good ideas
+- keep the number of repos in your ~environment to a minumum, to eliminate task switching
+- get as much stuff out of here and into relevant sites. bookmarks should be in
+hackernews/github, computer stuff should be in secrets repo etc
+- I know that Github pages has amazing jekyll support, but it's just noise.
+Just use basic markdown for all content. Any content that does not have a .md
+extension won't be published here.# What's on my website?
+- Turn each of your public docs into a post. There is value in sharing them
+- ? all development projects should have their own markdown file, or if they are an
+incubating idea, be listed in _myProjects.md_.
