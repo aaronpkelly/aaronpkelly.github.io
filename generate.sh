@@ -1,11 +1,19 @@
 #!/usr/bin/env bash
 # script for generating an index.md, which github pages automatically publishes
 
+DIR_WITHTOCS="posts/withTOCs"
+
 addReadme() {
 	cat README.md >> index.md
 }
 
+clean() {
+	rm -rf "$DIR_WITHTOCS"
+	mkdir -p "$DIR_WITHTOCS"
+}
+
 main() {
+	clean
 	zeroOutIndexFile
 	addReadme
 	generateTOCs
@@ -15,22 +23,20 @@ main() {
 
 generatePosts() {
 	for file in posts/*.md; do
-		cat "$file" >> posts/withTocs/"${file}"
+		cat "$file" >> "$DIR_WITHTOCS"/"$(basename $file)"
 	done
 }
 
 generatePostList() {
-	for file in posts/withTOCs/*.md; do
+	for file in "$DIR_WITHTOCS"/*.md; do
 		echo "[${file}](${file})" >> index.md
 		echo "" >> index.md
 	done
 }
 
 generateTOCs() {
-	mkdir -p posts/withTOCs
-
 	for file in posts/*.md; do
-		./gh-md-toc "$FILE" > posts/withTOCs/"${file}"
+		./gh-md-toc "$file" > "$DIR_WITHTOCS"/"$(basename $file)"
 	done
 }
 

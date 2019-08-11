@@ -21,46 +21,45 @@ Information and opinion about a particular topic, hopefully be well curated.
 Posts will be revisted over time and updated.
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences in a particular topic.
+[posts/withTOCs/2017-07-27-audio_learningMusicWithAbleton.md](posts/withTOCs/2017-07-27-audio_learningMusicWithAbleton.md)
 
-[posts/2017-07-27-audio_learningMusicWithAbleton.md](posts/2017-07-27-audio_learningMusicWithAbleton.md)
+[posts/withTOCs/2017-08-04-javascriptAppsAndJekyll.md](posts/withTOCs/2017-08-04-javascriptAppsAndJekyll.md)
 
-[posts/2017-08-04-javascriptAppsAndJekyll.md](posts/2017-08-04-javascriptAppsAndJekyll.md)
+[posts/withTOCs/2017-08-10-inDevelopment_chaosBox.md](posts/withTOCs/2017-08-10-inDevelopment_chaosBox.md)
 
-[posts/2017-08-10-inDevelopment_chaosBox.md](posts/2017-08-10-inDevelopment_chaosBox.md)
+[posts/withTOCs/2017-08-10-inDevelopment_spreadList.md](posts/withTOCs/2017-08-10-inDevelopment_spreadList.md)
 
-[posts/2017-08-10-inDevelopment_spreadList.md](posts/2017-08-10-inDevelopment_spreadList.md)
+[posts/withTOCs/2017-08-10-release_Mandelbrot.md](posts/withTOCs/2017-08-10-release_Mandelbrot.md)
 
-[posts/2017-08-10-release_Mandelbrot.md](posts/2017-08-10-release_Mandelbrot.md)
+[posts/withTOCs/2017-08-16-onAutomation.md](posts/withTOCs/2017-08-16-onAutomation.md)
 
-[posts/2017-08-16-onAutomation.md](posts/2017-08-16-onAutomation.md)
+[posts/withTOCs/2017-09-24-tinyQuest_developerLog.md](posts/withTOCs/2017-09-24-tinyQuest_developerLog.md)
 
-[posts/2017-09-24-tinyQuest_developerLog.md](posts/2017-09-24-tinyQuest_developerLog.md)
+[posts/withTOCs/2018-02-25-onContainers.md](posts/withTOCs/2018-02-25-onContainers.md)
 
-[posts/2018-02-25-onContainers.md](posts/2018-02-25-onContainers.md)
+[posts/withTOCs/2018-02-25-onPosting.md](posts/withTOCs/2018-02-25-onPosting.md)
 
-[posts/2018-02-25-onPosting.md](posts/2018-02-25-onPosting.md)
+[posts/withTOCs/2018-02-25-onPurchasing.md](posts/withTOCs/2018-02-25-onPurchasing.md)
 
-[posts/2018-02-25-onPurchasing.md](posts/2018-02-25-onPurchasing.md)
+[posts/withTOCs/2019-07-31_linux_namedPipes.md](posts/withTOCs/2019-07-31_linux_namedPipes.md)
 
-[posts/2019-07-31_linux_namedPipes.md](posts/2019-07-31_linux_namedPipes.md)
+[posts/withTOCs/bookmarks.md](posts/withTOCs/bookmarks.md)
 
-[posts/bookmarks.md](posts/bookmarks.md)
+[posts/withTOCs/favouriteAlbums.md](posts/withTOCs/favouriteAlbums.md)
 
-[posts/favouriteAlbums.md](posts/favouriteAlbums.md)
+[posts/withTOCs/favouriteVideo.md](posts/withTOCs/favouriteVideo.md)
 
-[posts/favouriteVideo.md](posts/favouriteVideo.md)
+[posts/withTOCs/investing.md](posts/withTOCs/investing.md)
 
-[posts/investing.md](posts/investing.md)
+[posts/withTOCs/linux_backgroundingJobs.md](posts/withTOCs/linux_backgroundingJobs.md)
 
-[posts/linux_backgroundingJobs.md](posts/linux_backgroundingJobs.md)
+[posts/withTOCs/steam.md](posts/withTOCs/steam.md)
 
-[posts/steam.md](posts/steam.md)
+[posts/withTOCs/template_duplicateMe.md](posts/withTOCs/template_duplicateMe.md)
 
-[posts/template_duplicateMe.md](posts/template_duplicateMe.md)
+[posts/withTOCs/toolsIUse.md](posts/withTOCs/toolsIUse.md)
 
-[posts/toolsIUse.md](posts/toolsIUse.md)
+[posts/withTOCs/torrents.md](posts/withTOCs/torrents.md)
 
-[posts/torrents.md](posts/torrents.md)
-
-[posts/uncleBob.md](posts/uncleBob.md)
+[posts/withTOCs/uncleBob.md](posts/withTOCs/uncleBob.md)
 
