@@ -44,4 +44,6 @@ zeroOutIndexFile() {
 	:>| index.md
 }
 
+set -x
 main
+set +x
