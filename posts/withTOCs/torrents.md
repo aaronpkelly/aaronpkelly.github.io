@@ -2,9 +2,10 @@
 Table of Contents
 =================
 
-Parsing local markdown file requires access to github API
-Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
-or place github auth token here: /workspace/aaronpkelly.github.io/token.txt
+   * [Seedboxes](#seedboxes)
+      * [Seedr](#seedr)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ---
 layout: post
 title: Title
