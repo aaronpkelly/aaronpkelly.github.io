@@ -23,3 +23,7 @@ exits the shell.
 Benefits:
 - the logfile can be tailed
 - the process can be viewed using a utility such as _top_
+
+Killing a nohup job can sometimes be tricky, using `kill [PID]` won't work.
+Instead, list the jobs that are running by typing `jobs`, then kill the
+job number by typing `kill %[JOB_NUMBER]`

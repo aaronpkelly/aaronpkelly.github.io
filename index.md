@@ -46,9 +46,21 @@ created to share my experiences in a particular topic.
 
 [posts/bookmarks.md](posts/bookmarks.md)
 
-[posts/template_duplicateMd.md](posts/template_duplicateMd.md)
+[posts/favouriteAlbums.md](posts/favouriteAlbums.md)
+
+[posts/favouriteVideo.md](posts/favouriteVideo.md)
+
+[posts/investing.md](posts/investing.md)
+
+[posts/linux_backgroundingJobs.md](posts/linux_backgroundingJobs.md)
+
+[posts/steam.md](posts/steam.md)
+
+[posts/template_duplicateMe.md](posts/template_duplicateMe.md)
 
 [posts/toolsIUse.md](posts/toolsIUse.md)
+
+[posts/torrents.md](posts/torrents.md)
 
 [posts/uncleBob.md](posts/uncleBob.md)
 
