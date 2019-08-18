@@ -2,16 +2,7 @@
 Table of Contents
 =================
 
-   * [linux command-line tools](#linux-command-line-tools)
-      * [terminal dashboards i WANT to start using](#terminal-dashboards-i-want-to-start-using)
-   * [Windows](#windows)
-      * [Window management](#window-management)
-      * [binaries](#binaries)
-   * [browser](#browser)
-      * [browser-based apps](#browser-based-apps)
-      * [extensions](#extensions)
-         * [ublock origin](#ublock-origin)
-            * [Settings](#settings)
+
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ---

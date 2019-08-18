@@ -2,7 +2,7 @@
 Table of Contents
 =================
 
-   * [Spin up a disposable Alpine Linux container whenever you want to do anything](#spin-up-a-disposable-alpine-linux-container-whenever-you-want-to-do-anything)
+
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ---
