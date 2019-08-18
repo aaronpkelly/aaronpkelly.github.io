@@ -24,6 +24,10 @@ created to share my experiences in a particular topic.
 
 [favouriteVideo.md](posts/withTOCs/favouriteVideo.md)
 
+[fileManagers.md](posts/withTOCs/fileManagers.md)
+
+[git-bash.md](posts/withTOCs/git-bash.md)
+
 [investing.md](posts/withTOCs/investing.md)
 
 [jekyll.md](posts/withTOCs/jekyll.md)
@@ -34,6 +38,8 @@ created to share my experiences in a particular topic.
 
 [mandelbrot.md](posts/withTOCs/mandelbrot.md)
 
+[onlineIDEs.md](posts/withTOCs/onlineIDEs.md)
+
 [posting.md](posts/withTOCs/posting.md)
 
 [purchasing.md](posts/withTOCs/purchasing.md)
@@ -42,6 +48,8 @@ created to share my experiences in a particular topic.
 
 [steam.md](posts/withTOCs/steam.md)
 
+[taskTracking.md](posts/withTOCs/taskTracking.md)
+
 [template_duplicateMe.md](posts/withTOCs/template_duplicateMe.md)
 
 [tinyQuest.md](posts/withTOCs/tinyQuest.md)
@@ -49,6 +57,8 @@ created to share my experiences in a particular topic.
 [toolsIUse.md](posts/withTOCs/toolsIUse.md)
 
 [torrents.md](posts/withTOCs/torrents.md)
+
+[triplej.md](posts/withTOCs/triplej.md)
 
 [uncleBob.md](posts/withTOCs/uncleBob.md)
 

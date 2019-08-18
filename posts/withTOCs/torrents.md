@@ -2,8 +2,7 @@
 Table of Contents
 =================
 
-   * [Seedboxes](#seedboxes)
-      * [Seedr](#seedr)
+
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ---
