@@ -12,6 +12,8 @@ created to share my experiences in a particular topic.
 
 [automation.md](posts/withTOCs/automation.md)
 
+[aws.md](posts/withTOCs/aws.md)
+
 [bookmarks.md](posts/withTOCs/bookmarks.md)
 
 [chaosBox.md](posts/withTOCs/chaosBox.md)
