@@ -2,18 +2,9 @@
 Table of Contents
 =================
 
-   * [linux command-line tools](#linux-command-line-tools)
-      * [terminal dashboards i WANT to start using](#terminal-dashboards-i-want-to-start-using)
-   * [Windows](#windows)
-      * [Window management](#window-management)
-      * [binaries](#binaries)
-   * [browser](#browser)
-      * [browser-based apps](#browser-based-apps)
-      * [extensions](#extensions)
-         * [ublock origin](#ublock-origin)
-            * [Settings](#settings)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /c/Users/aaron/src/aaronpkelly.github.io/token.txt
 ---
 layout: post
 title: Tools I Use

@@ -2,11 +2,9 @@
 Table of Contents
 =================
 
-   * [Interacting with containers launched via AWS Fargate](#interacting-with-containers-launched-via-aws-fargate)
-   * [Best practices](#best-practices)
-      * [Spin up a disposable Alpine Linux container whenever you want to do anything](#spin-up-a-disposable-alpine-linux-container-whenever-you-want-to-do-anything)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /c/Users/aaron/src/aaronpkelly.github.io/token.txt
 # Interacting with containers launched via AWS Fargate
 TODO: I am trying to find the easiest way to do this:
 - docker-compose.yml
