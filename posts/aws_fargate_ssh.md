@@ -104,6 +104,8 @@ view it
 - Click the task tab and then click the task that is running
 - In the Network section, a _Public IP_ would have been generated
 
+![https://aaronpkelly.github.io/posts/resources/posts_aws-fargate-ssh.gif](https://aaronpkelly.github.io/posts/resources/posts_aws-fargate-ssh.gif)
+
 ## Connecting to your container using SSH
 Finally, the moment of truth.
 
