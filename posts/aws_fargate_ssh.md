@@ -86,5 +86,31 @@ phases:
 After the image is pushed, you are now ready to launch your AWS Fargate
 cluster, using an image that allows remote SSH logins.
 
-## Launching AWS Fargate with your image
-TODO
+## Launching your image with AWS Fargate
+- Go to https://aws.amazon.com/fargate/ and click _Get started with AWS Fargate_
+- Click Clusters -> Get Started. Using the Get Started button walks you through
+the steps on launching your Docker image on AWS Fargate, and functions as a
+little tutorial
+- In the _Container defintion_ section, choose _custom_, and then click
+_configure_ on the button itself
+- Enter the following, leave the rest with the defaults:
+Container name: `fargate-ssh`
+Image: `YOUR_ECR_IMAGE_URI`
+Port mappings: `80`
+- Click through to the end and create the cluster 
+- The cluster will take a few moments to spin up, and when it's done you can
+view it
+- Click the cluster name, then click on the name of the service that's running
+- Click the task tab and then click the task that is running
+- In the Network section, a _Public IP_ would have been generated
+
+## Connecting to your container using SSH
+Finally, the moment of truth.
+
+If you have built the insecure Docker image, you can connect to your container
+with the `ec2-user` or `root` user by simply running this command:
+```
+ssh ec2-user@YOUR_PUBLIC_IP
+```
+
+If you have built the secure docker image, TODO
