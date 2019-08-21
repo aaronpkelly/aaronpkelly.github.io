@@ -2,9 +2,17 @@
 Table of Contents
 =================
 
-Parsing local markdown file requires access to github API
-Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
-or place github auth token here: /c/Users/aaron/src/aaronpkelly.github.io/token.txt
+   * [The problem](#the-problem)
+   * [The solution](#the-solution)
+   * [How to do it](#how-to-do-it)
+      * [Dockerfile](#dockerfile)
+         * [Insecure Dockerfile](#insecure-dockerfile)
+         * [Secure Dockerfile TODO](#secure-dockerfile-todo)
+      * [Pushing the Docker image to a registry](#pushing-the-docker-image-to-a-registry)
+      * [Launching your image with AWS Fargate](#launching-your-image-with-aws-fargate)
+      * [Connecting to your container using SSH](#connecting-to-your-container-using-ssh)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 # The problem
 AWS Fargate doesn't allow you to SSH into a running container.
 
@@ -111,7 +119,7 @@ view it
 - Click the task tab and then click the task that is running
 - In the Network section, a _Public IP_ would have been generated
 
-![gif](https://aaronpkelly.github.com/posts/resources/posts_aws-fargate-ssh_0.gif)
+![gif](https://aaronpkelly.github.io/posts/resources/posts_aws-fargate-ssh_0.gif)
 
 ## Connecting to your container using SSH
 Finally, the moment of truth.

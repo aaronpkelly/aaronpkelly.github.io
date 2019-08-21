@@ -2,9 +2,14 @@
 Table of Contents
 =================
 
-Parsing local markdown file requires access to github API
-Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
-or place github auth token here: /c/Users/aaron/src/aaronpkelly.github.io/token.txt
+   * [About this post](#about-this-post)
+   * [AWS Fargate](#aws-fargate)
+      * [Interacting with containers launched via AWS Fargate](#interacting-with-containers-launched-via-aws-fargate)
+         * [docker-compose.yml](#docker-composeyml)
+         * [Installing openssh and redirecting ssh port 22 -&gt; 80](#installing-openssh-and-redirecting-ssh-port-22---80)
+         * [nginx](#nginx)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 # About this post
 This deals with interestings thing I've learned and experienced using AWS
 services so far.
