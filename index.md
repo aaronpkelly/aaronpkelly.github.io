@@ -12,9 +12,9 @@ created to share my experiences in a particular topic.
 
 [automation.md](posts/withTOCs/automation.md)
 
-[aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
-
 [aws.md](posts/withTOCs/aws.md)
+
+[aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
 
 [bookmarks.md](posts/withTOCs/bookmarks.md)
 
@@ -66,9 +66,6 @@ created to share my experiences in a particular topic.
 
 [workflows.md](posts/withTOCs/workflows.md)
 
-# my bandcamp
-i like making music: aaronkelly.bandcamp.com
-
 # Vision for this site
 - create value from everything
 - why is a doc in a private repo? expose it. move all docs from private repos into my website. everything else should be considered a publically viewable doc
@@ -82,3 +79,17 @@ extension won't be published here.# What's on my website?
 - Turn each of your public docs into a post. There is value in sharing them
 - ? all development projects should have their own markdown file, or if they are an
 incubating idea, be listed in _myProjects.md_.
+
+# PDFs of all my articles
+PDFs of all my articles will soon be on https://gumroad.com, using
+"pay what you want" pricing.
+
+# Contact
+
+email: aaronkelly@fastmail.com
+
+twitter: https://twitter.com/aaronpaulkelly
+
+bandcamp: aaronkelly.bandcamp.com
+
+donate (coming soon): paypal / bitcoin / stripe / dwolla / flattr / wepay
