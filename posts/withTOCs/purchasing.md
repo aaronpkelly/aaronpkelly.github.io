@@ -2,7 +2,9 @@
 Table of Contents
 =================
 
-
+   * [Cheap goods](#cheap-goods)
+   * [Clothes](#clothes)
+   * [Expensive goods](#expensive-goods)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 ---

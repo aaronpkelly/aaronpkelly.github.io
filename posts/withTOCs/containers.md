@@ -2,17 +2,17 @@
 Table of Contents
 =================
 
-
+   * [Interacting with containers launched via AWS Fargate](#interacting-with-containers-launched-via-aws-fargate)
+   * [Best practices](#best-practices)
+      * [Spin up a disposable Alpine Linux container whenever you want to do anything](#spin-up-a-disposable-alpine-linux-container-whenever-you-want-to-do-anything)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
----
-layout: post
-title: On containers
-date:   2018-02-25
-categories: containers docker
----
+# Interacting with containers launched via AWS Fargate
+TODO: I am trying to find the easiest way to do this:
+- docker-compose.yml
 
-# Spin up a disposable Alpine Linux container whenever you want to do anything
+# Best practices
+## Spin up a disposable Alpine Linux container whenever you want to do anything
 Think disposable.
 Think of a container as a tool that takes input, transforms it, and outputs data.
 

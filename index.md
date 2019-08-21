@@ -12,6 +12,8 @@ created to share my experiences in a particular topic.
 
 [automation.md](posts/withTOCs/automation.md)
 
+[aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
+
 [aws.md](posts/withTOCs/aws.md)
 
 [bookmarks.md](posts/withTOCs/bookmarks.md)
@@ -61,6 +63,8 @@ created to share my experiences in a particular topic.
 [triplej.md](posts/withTOCs/triplej.md)
 
 [uncleBob.md](posts/withTOCs/uncleBob.md)
+
+[workflows.md](posts/withTOCs/workflows.md)
 
 # my bandcamp
 i like making music: aaronkelly.bandcamp.com
