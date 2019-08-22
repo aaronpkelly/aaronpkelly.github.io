@@ -104,7 +104,7 @@ view it
 - Click the task tab and then click the task that is running
 - In the Network section, a _Public IP_ would have been generated
 
-![gif](https://aaronpkelly.github.io/posts/resources/posts_aws-fargate-ssh_0.gif)
+![gif](https://aaronpkelly.github.io/posts/resources/aws-fargate-ssh_0.gif)
 
 ## Connecting to your container using SSH
 Finally, the moment of truth.
@@ -114,5 +114,7 @@ with the `ec2-user` or `root` user by simply running this command:
 ```
 ssh ec2-user@YOUR_PUBLIC_IP
 ```
+
+![gif](https://aaronpkelly.github.io/posts/resources/aws-fargate-ssh_1.gif)
 
 If you have built the secure docker image, TODO
