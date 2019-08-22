@@ -1,13 +1,11 @@
 Hi I'm Aaron, I like to break things for a living.
 
 # Posts
-One of the major sections of this website.
-Information and opinion about a particular topic, hopefully be well curated.
-Posts will be revisted over time and updated.
+Below are my posts! They contain information and opinion about a particular
+topic, and hopefully be well curated, revised, and updated over time.
+
 Some posts will take the form of larger walkthrough guides that I have
-created to share my experiences in a particular topic.
-
-
+created to share my experiences on a particular topic.
 [ableton.md](posts/withTOCs/ableton.md)
 
 [automation.md](posts/withTOCs/automation.md)
@@ -68,21 +66,13 @@ created to share my experiences in a particular topic.
 
 [workflows.md](posts/withTOCs/workflows.md)
 
-# Vision for this site
-- create value from everything
-- why is a doc in a private repo? expose it. move all docs from private repos into my website. everything else should be considered a publically viewable doc
-- try to monetize some good ideas
-- keep the number of repos in your ~environment to a minumum, to eliminate task switching
-- get as much stuff out of here and into relevant sites. bookmarks should be in
-hackernews/github, computer stuff should be in secrets repo etc
-- I know that Github pages has amazing jekyll support, but it's just noise.
-Just use basic markdown for all content. Any content that does not have a .md
-extension won't be published here.# What's on my website?
-- Turn each of your public docs into a post. There is value in sharing them
-- ? all development projects should have their own markdown file, or if they are an
-incubating idea, be listed in _myProjects.md_.
+# My vision for this site
+- try to create value from everything I do. Make it presentable, and share it
+- expose as much of my work as I can into the public domain
+- use basic markdown for all content, keep it simple, don't get fancy
+- use other services to bookmark people and sites I like. For people I admire, link to the people I'm following on twitter. For bookmarks, link to my favourited posts on Hackernews
 
-# PDFs of all my articles
+# Get PDFs of all my articles
 PDFs of all my articles will soon be on https://gumroad.com, using
 "pay what you want" pricing.
 
