@@ -1,21 +1,34 @@
----
-layout: post
-title: Tools I Use
-date: 2019-08-01
-categories: Get categories from wikipedia
----
 The following are everyday computing tools i use (or really want to believe I do)
 
 The "-" character means the tool is no longer being used as much, and is in
 danger of being removed from the list
 
 # linux command-line tools
+## audio
+-ogg123 - quick and dirty ogg player
+-mpg123 - quick and dirty mp3 player
+-cmus
+-mplayer
+-moc
+
+## video
+### mplayer
+Use in conjunction with youtube-dl to play movies in the console:
+```
+$ apk add mplayer youtube-dl libcaca
+$ youtube-dl pec8P5K4s8c -o fireplace.mp4
+$ export CACA_DRIVER=ncurses
+$ mplayer -really-quiet -vo caca fireplace.mp4
+```
+### youtube-dl
+One of the best tools for downloading video from that platform
+
+
+## tools
 -ag
 -ack
 -entr: http://eradman.com/entrproject/
 rclone
--mpg123
-cmus
 -https://github.com/ritiek/spotify-downloader
 xz - lossless compression program based on LZMA/LZMA2 compression algorithms
 
@@ -41,8 +54,11 @@ itunes - regrettably it's the only reliable ipod management program on windows (
 sysinternals suite
 total commander
 bleachbit
-windirstat
 vlc
+
+## disk space analyser
+Spacesniffer - just come across it and I think it takes top spot.
+windirstat - great tool.
 
 
 # browser
@@ -67,6 +83,3 @@ My rules:
 Whitelist:
 
 Shortcuts: Relax blocking mode: _Ctrl+Space_
-
-
-

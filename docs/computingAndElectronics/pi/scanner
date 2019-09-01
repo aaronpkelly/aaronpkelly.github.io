@@ -1,7 +1,0 @@
-problems with sane and detecting a USB scanner
-
-i had to go to /dev/bus and
-```
-chmod -R 777 usb
-```
-after that the scanner was detected by scanimage -L
