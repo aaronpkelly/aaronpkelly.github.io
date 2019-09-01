@@ -1,5 +1,4 @@
 # General macros
-
 ## 00 (sellGrey)
 /run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,"9d9d9d")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))
 
@@ -40,30 +39,63 @@
 /use [@mouseover,help,nodead][help,nodead][@player] Spell Name
 
 ## 99 - Mount macro
+```
 #showtooltip
 /use [noflyable, nomounted] Swift White Hawkstrider
 /use [flyable, nomounted] Infinite Timereaver
 /dismount [mounted]
+```
 
 # Warrior macros
-## armsCharge
+chargeHamstring:
+```
 #showtooltip
-/cast [nomod] Charge
-/cast [nomod] Hamstring
+/cast Charge
+/cast Hamstring
+```
 
-## Stance-specific
+intimidating bandage:
+```
+#showtooltip Intimidating Shout
+/cast Intimidating Shout
+/cast Heavy Runecloth Bandage
+```
+
+stance-specific:
+```
 #showtooltip
 /cast [stance:1] Retaliation
 /cast [stance:2] Shield Wall
 /cast [stance:3] Recklessness
+```
 
-## Interrupt
-#showtooltip
-/cast [nomod] Pummel
-/cast [mod:alt] Disrupting Shout
-
-## Spell reflection
+spell reflection:
+```
 /cast Defensive Stance
-/equipslot 16 Dubious Handaxe
-/equipslot 17 Corrupted Carapace
+/equip MAIN_HAND
+/equip SHIELD
 /cast Spell Reflection
+```
+
+stance dance defensive:
+```
+#showtooltip
+/equip MAIN_HAND
+/equip SHIELD
+/cast Defensive Stance
+```
+
+stance dance offensive:
+```
+/equip MAIN_HAND
+/equip SHIELD
+/cast Battle Stance
+```
+
+startattack:
+```
+#showtooltip
+/cast Rend
+/startattack
+```
+
