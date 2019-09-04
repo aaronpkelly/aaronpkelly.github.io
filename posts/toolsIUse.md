@@ -28,8 +28,8 @@ One of the best tools for downloading video from that platform
 -ag
 -ack
 -entr: http://eradman.com/entrproject/
+jq
 rclone
--https://github.com/ritiek/spotify-downloader
 xz - lossless compression program based on LZMA/LZMA2 compression algorithms
 
 ## terminal dashboards i WANT to start using
@@ -43,18 +43,20 @@ I did try using bug.n but it couldn't capture my VLC window to resize it,
 that was a deal-breaker.
 
 ## binaries
-balenaEtcher - USB/SD image flashing utility
-chocolatey (made ninite redundant) - package manager for windows
 - hwinfo
 - jenkins (with the build monitor plugin!)
 - musikcube (windows)
+balenaEtcher - USB/SD image flashing utility
+bleachbit
+chocolatey (made ninite redundant) - package manager for windows
 ext2fsd - mount linux partitions on windows
-nirsoft suite
+git-bash - linux-like command-line for windows. use chocolatey to install addditional programs here
 itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
+nirsoft suite
 sysinternals suite
 total commander
-bleachbit
 vlc
+xmlstarlet
 
 ## disk space analyser
 Spacesniffer - just come across it and I think it takes top spot.
