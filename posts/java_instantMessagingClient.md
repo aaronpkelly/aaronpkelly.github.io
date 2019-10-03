@@ -3,6 +3,8 @@ I've always wanted to explore Java's client/server packages, and I thought a
 fun way to do this would be to build an instant messaging app for myself and
 my friends!
 
+Source: https://stackoverflow.com/questions/8542565/how-to-make-a-basic-instant-messaging-program-in-pure-java
+
 Here's a basic implementation:
 ```
 import java.io.IOException;
