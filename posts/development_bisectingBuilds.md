@@ -3,6 +3,11 @@
 Found this cool little dev article about bisecting builds:
 https://www.chromium.org/developers/bisect-builds-py
 
+Example run:
+```
+python tools/bisect-builds.py -a win -g 681094 -b 690908 --verify-range --use-local-cache -- --no-first-run --user-data-dir=/temp https://webdbg.com/apps/alwaysoutdated/
+```
+
 Here's the source (python2 only):
 ```
 #!/usr/bin/env python
