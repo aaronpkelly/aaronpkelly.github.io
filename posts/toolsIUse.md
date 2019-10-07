@@ -1,9 +1,3 @@
----
-layout: post
-title: Tools I Use
-date: 2019-08-01
-categories: Get categories from wikipedia
----
 The following are everyday computing tools i use (or really want to believe I do)
 
 The "-" character means the tool is no longer being used as much, and is in
