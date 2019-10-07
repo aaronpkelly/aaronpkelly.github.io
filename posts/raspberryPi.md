@@ -1,3 +1,26 @@
+# browser
+I had to edit /etc/resolv.conf because of slow loading times, I appended the
+following to the file:
+
+```
+# my options
+options timeout:1 attempts:5
+```
+
+# go
+I had to build go from source, as the version of go that comes with the
+raspian distro is not compatible with megacmd
+
+# scanner
+problems with sane and detecting a USB scanner
+
+i had to go to /dev/bus and
+```
+chmod -R 777 usb
+```
+after that the scanner was detected by scanimage -L
+
+# sound
 ALSA should already be pre-installed, use that - not pulseaudio.
 
 MPlayer will use the default libavcodec to play mp3 files - which is fine. It

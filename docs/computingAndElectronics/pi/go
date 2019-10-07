@@ -1,2 +1,0 @@
-I had to build go from source, as the version of go that comes with the
-raspian distro is not compatible with megacmd
