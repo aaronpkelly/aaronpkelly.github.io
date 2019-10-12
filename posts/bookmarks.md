@@ -1,25 +1,23 @@
 I don't really keep bookmarks anymore. I usually favourite things I like inside:
 - news.ycombinator.com
 - github.com
-- or turn it into a blogpost
+- or turn it into a post on my blog
 
 The below bookmarks are websites that do not meet the above criteria, and:
 - are so important to me I want to draw special attention to them
 - do not have a presence on the above sites
 - are too precious to lose
 
-CONTINUE FROM MUSIC
+# weather
+https://en.wikipedia.org/wiki/Yr.no
 
------ EVERYTHING BELOW THIS LINE THAT DOES NOT HAVE [DONE] AT THE END
-NEEDS TO BE SEARCHED ON https://hn.algolia.com AND ADDED AS A BOOKMARK -------------
+CONTINUE FROM MUSIC
+----- EVERYTHING BELOW THIS LINE WILL BE REMOVED ------
 
 
 
 
 ### machine learning
-https://magenta.tensorflow.org/
-https://arxiv.org/abs/1709.02840
-http://blogs.sas.com/content/subconsciousmusings/2017/04/12/machine-learning-algorithm-use/?imm_mid=0f1128&cmp=em-data-na-na-newsltr_ai_20170424
 https://cloud.google.com/products/ai/
 https://www.tensorflow.org
 https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&cmp=em-data-na-na-newsltr_20171213&slide=id.g168a3288f7_0_58

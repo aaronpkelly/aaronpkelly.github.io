@@ -5,11 +5,12 @@ danger of being removed from the list
 
 # linux command-line tools
 ## audio
--ogg123 - quick and dirty ogg player
--mpg123 - quick and dirty mp3 player
+ogg123 - quick and dirty ogg player
+mpg123 - quick and dirty mp3 player
 -cmus
--mplayer
+mplayer
 -moc
+asciicinema
 
 ## video
 ### mplayer
@@ -38,9 +39,8 @@ https://github.com/jaymedavis/hubble
 
 # Windows
 ## Window management
-Plumb - http://palatialsoftware.com/plumb/. Happy with it so far.
-I did try using bug.n but it couldn't capture my VLC window to resize it,
-that was a deal-breaker.
+Plumb, fancyzones, workspaces... jury is still out. See my related post on tiling
+window managers.
 
 ## binaries
 - hwinfo
