@@ -554,13 +554,6 @@ https://medium.com/@vardanator/i-dont-understand-graph-theory-1c96572a1401
 ### linear
 http://immersivemath.com/ila/index.html
 
-## music
-https://en.wikipedia.org/wiki/Di.fm
-https://en.wikipedia.org/wiki/Soma.fm (recommended: http://somafm.com/player/#/now-playing/defcon)
-https://en.wikipedia.org/wiki/Bandcamp
-https://www.muffwiggler.com/forum/
-
-
 ## personal pages
 http://stephnikelly.wixsite.com/stephandlee
 
