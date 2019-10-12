@@ -8,9 +8,13 @@ Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
 [ableton.md](posts/withTOCs/ableton.md)
 
+[audio.md](posts/withTOCs/audio.md)
+
 [automation.md](posts/withTOCs/automation.md)
 
 [aws.md](posts/withTOCs/aws.md)
+
+[aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
 
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
 
@@ -18,7 +22,15 @@ created to share my experiences on a particular topic.
 
 [chaosBox.md](posts/withTOCs/chaosBox.md)
 
+[coliving_coworking.md](posts/withTOCs/coliving_coworking.md)
+
 [containers.md](posts/withTOCs/containers.md)
+
+[debugging.md](posts/withTOCs/debugging.md)
+
+[development_bisectingBuilds.md](posts/withTOCs/development_bisectingBuilds.md)
+
+[docker.md](posts/withTOCs/docker.md)
 
 [favouriteAlbums.md](posts/withTOCs/favouriteAlbums.md)
 
@@ -32,19 +44,27 @@ created to share my experiences on a particular topic.
 
 [investing.md](posts/withTOCs/investing.md)
 
+[java_instantMessagingClient.md](posts/withTOCs/java_instantMessagingClient.md)
+
 [jekyll.md](posts/withTOCs/jekyll.md)
 
 [linux_backgroundingJobs.md](posts/withTOCs/linux_backgroundingJobs.md)
 
+[linux_distros.md](posts/withTOCs/linux_distros.md)
+
 [linux_namedPipes.md](posts/withTOCs/linux_namedPipes.md)
 
 [mandelbrot.md](posts/withTOCs/mandelbrot.md)
+
+[music.md](posts/withTOCs/music.md)
 
 [onlineIDEs.md](posts/withTOCs/onlineIDEs.md)
 
 [posting.md](posts/withTOCs/posting.md)
 
 [purchasing.md](posts/withTOCs/purchasing.md)
+
+[raspberryPi.md](posts/withTOCs/raspberryPi.md)
 
 [spreadList.md](posts/withTOCs/spreadList.md)
 
@@ -53,6 +73,8 @@ created to share my experiences on a particular topic.
 [taskTracking.md](posts/withTOCs/taskTracking.md)
 
 [template_duplicateMe.md](posts/withTOCs/template_duplicateMe.md)
+
+[tilingWindowManagers.md](posts/withTOCs/tilingWindowManagers.md)
 
 [tinyQuest.md](posts/withTOCs/tinyQuest.md)
 
@@ -63,6 +85,14 @@ created to share my experiences on a particular topic.
 [triplej.md](posts/withTOCs/triplej.md)
 
 [uncleBob.md](posts/withTOCs/uncleBob.md)
+
+[warcraft.md](posts/withTOCs/warcraft.md)
+
+[webScraping.md](posts/withTOCs/webScraping.md)
+
+[websiteHosting.md](posts/withTOCs/websiteHosting.md)
+
+[windows_wsl.md](posts/withTOCs/windows_wsl.md)
 
 [workflows.md](posts/withTOCs/workflows.md)
 
