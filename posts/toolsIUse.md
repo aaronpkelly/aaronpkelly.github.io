@@ -51,8 +51,10 @@ bleachbit
 chocolatey (made ninite redundant) - package manager for windows
 ext2fsd - mount linux partitions on windows
 git-bash - linux-like command-line for windows. use chocolatey to install addditional programs here
+greenshot - screenshot program
 itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
 nirsoft suite
+screentogif
 sysinternals suite
 total commander
 vlc
