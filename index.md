@@ -46,6 +46,8 @@ created to share my experiences on a particular topic.
 
 [java_instantMessagingClient.md](posts/withTOCs/java_instantMessagingClient.md)
 
+[java_swing.md](posts/withTOCs/java_swing.md)
+
 [jekyll.md](posts/withTOCs/jekyll.md)
 
 [linux_backgroundingJobs.md](posts/withTOCs/linux_backgroundingJobs.md)
@@ -91,6 +93,8 @@ created to share my experiences on a particular topic.
 [webScraping.md](posts/withTOCs/webScraping.md)
 
 [websiteHosting.md](posts/withTOCs/websiteHosting.md)
+
+[windows_dockerAndXming.md](posts/withTOCs/windows_dockerAndXming.md)
 
 [windows_wsl.md](posts/withTOCs/windows_wsl.md)
 

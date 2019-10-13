@@ -51,6 +51,38 @@ Windows 10 in S Mode is a more limited, locked-down Windows operating system.
 In S Mode, you can only install apps from the Store, and you can only browse
 the web with Microsoft Edge
 ```
-
 Anyway, the store app seemed to install fine:
 ![gif](https://aaronpkelly.github.io/posts/resources/windows_wsl_alpine.gif)
+
+However I wasn't able to sudo or change to the root user account.
+
+After a bit of digging, I found out that you can set the root user's account
+using the wsl.exe tool. From an admin windows CMD shell I ran this:
+```
+C:\WINDOWS\system32>wsl.exe --distribution Alpine --user root
+DESKTOP-R07OBQT:/mnt/c/Windows/System32# passwd
+New password:
+Retype new password:
+passwd: password updated successfully
+```
+
+After I got root, I tried to install Docker and run the hello-world image.
+It didn't work, it complained that the docker daemon wasn't running. I didn't
+think it would work out of the box, but I was kind of hoping.
+
+While reading about WSL a bit more on wikipedia
+(https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux), I found out that
+there's actually WSL2 available for Windows Insider users on the "Fast track"
+ring, and it features a real kernel... oh my! A benefit of WSL2 is that Docker
+can be run - I didn't realise that the first WSL didn't support it.
+
+I'm not on this fast track, so I set it in _Settings -> Windows Insider Program_,
+and set it there. It wanted me to restart, so I did. I checked my build version
+using `ver`, but I still was on an older build. It was only when I went back to
+_Settings -> Windows Insider Program_, that I saw this message:
+```
+Note: It will take some time to receive a build after changing your settings
+```
+
+So, I guess I'll have to wait a while until I can follow this guide:
+https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
