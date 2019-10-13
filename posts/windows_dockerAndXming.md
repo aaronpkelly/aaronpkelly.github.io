@@ -7,26 +7,13 @@ have it display on a Windows X11 display server?
 Using this _Dockerfile_:
 ```
 FROM ubuntu:14.04
-
 RUN apt-get update && apt-get install -y firefox
-
-# Replace 1000 with your user / group id
-RUN export uid=1000 gid=1000 && \
-    mkdir -p /home/developer && \
-    echo "developer:x:${uid}:${gid}:Developer,,,:/home/developer:/bin/bash" >> /etc/passwd && \
-    echo "developer:x:${uid}:" >> /etc/group && \
-    echo "developer ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/developer && \
-    chmod 0440 /etc/sudoers.d/developer && \
-    chown ${uid}:${gid} -R /home/developer
-
-USER developer
-ENV HOME /home/developer
 CMD /usr/bin/firefox
 ```
 
 I ran this command in git-bash to build it:
 ```
-docker build -t baudren/firefox .
+docker build -t firefox .
 ```
 
 Once that was done, I determined what my ip address was:
@@ -53,8 +40,20 @@ Then I started my _Xming_ server inside git-bash:
 
 Then I attempted to run Firefox in a container:
 ```
-winpty docker run --rm -it --net=host -e DISPLAY=192.168.0.17:0 baudren/firefox
+winpty docker run --rm -it --net=host -e DISPLAY=192.168.0.17:0 firefox
 ```
 
 It worked! This was just a proof-of-concept to see if it could be done, but I'm
 very happy I managed to get it to display.
+
+# the future
+
+- try VcXsrv instead of XMing (as it's not updated since 2013?)
+- get eclipse working (why is it so difficult?!)
+
+# sources
+https://rgrunber.wordpress.com/2016/01/26/eclipse-inside-a-docker-container/
+https://github.com/handflucht/guiAppInDockerOnWindows
+https://github.com/baudren/NoteOrganiser/wiki/Docker,-QML,-XServer-on-Windows
+https://robscode.onl/docker-run-gui-app-in-linux-container-on-windows-host/
+
