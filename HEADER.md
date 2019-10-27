@@ -1,4 +1,6 @@
-Hi I'm Aaron, I like to break things for a living.
+Hi I'm Aaron, and I like to break things for a living.
+
+Occassionally I'll then try to put them back together and see how they work!
 
 # Posts
 Below are my posts! They contain information and opinion about a particular
