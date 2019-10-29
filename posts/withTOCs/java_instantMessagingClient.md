@@ -2,9 +2,9 @@
 Table of Contents
 =================
 
-   * [Making an instant messaging client in Java](#making-an-instant-messaging-client-in-java)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
 # Making an instant messaging client in Java
 I've always wanted to explore Java's client/server packages, and I thought a
 fun way to do this would be to build an instant messaging app for myself and

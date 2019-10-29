@@ -1,4 +1,6 @@
-Hi I'm Aaron, I like to break things for a living.
+Hi I'm Aaron, and I like to break things for a living.
+
+Occassionally I'll then try to put them back together and see how they work!
 
 # Posts
 Below are my posts! They contain information and opinion about a particular
@@ -12,11 +14,11 @@ created to share my experiences on a particular topic.
 
 [automation.md](posts/withTOCs/automation.md)
 
-[aws.md](posts/withTOCs/aws.md)
-
 [aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
 
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
+
+[aws.md](posts/withTOCs/aws.md)
 
 [bookmarks.md](posts/withTOCs/bookmarks.md)
 
@@ -67,6 +69,8 @@ created to share my experiences on a particular topic.
 [purchasing.md](posts/withTOCs/purchasing.md)
 
 [raspberryPi.md](posts/withTOCs/raspberryPi.md)
+
+[rss.md](posts/withTOCs/rss.md)
 
 [spreadList.md](posts/withTOCs/spreadList.md)
 

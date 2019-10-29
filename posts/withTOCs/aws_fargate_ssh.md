@@ -2,17 +2,9 @@
 Table of Contents
 =================
 
-   * [The problem](#the-problem)
-   * [The solution](#the-solution)
-   * [How to do it](#how-to-do-it)
-      * [Dockerfile](#dockerfile)
-         * [Insecure Dockerfile](#insecure-dockerfile)
-         * [Secure Dockerfile TODO](#secure-dockerfile-todo)
-      * [Pushing the Docker image to a registry](#pushing-the-docker-image-to-a-registry)
-      * [Launching your image with AWS Fargate](#launching-your-image-with-aws-fargate)
-      * [Connecting to your container using SSH](#connecting-to-your-container-using-ssh)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
 # The problem
 AWS Fargate doesn't allow you to SSH into a running container.
 

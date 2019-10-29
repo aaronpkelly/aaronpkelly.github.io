@@ -2,9 +2,9 @@
 Table of Contents
 =================
 
-   * [Downloading a Linux distro](#downloading-a-linux-distro)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
 I've been a while putting it off, but I decided I'd finally pull the finger out
 and try Windows Subsytem for Linux (WSL).
 
