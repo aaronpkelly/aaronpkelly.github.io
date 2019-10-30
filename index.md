@@ -71,9 +71,9 @@ created to share my experiences on a particular topic.
 
 [raspberryPi.md](posts/withTOCs/raspberryPi.md)
 
-[serverless.md](posts/withTOCs/serverless.md)
-
 [rss.md](posts/withTOCs/rss.md)
+
+[serverless.md](posts/withTOCs/serverless.md)
 
 [spreadList.md](posts/withTOCs/spreadList.md)
 

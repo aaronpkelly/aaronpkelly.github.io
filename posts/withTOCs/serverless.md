@@ -2,10 +2,12 @@
 Table of Contents
 =================
 
-   * [Serverless static website hosting](#serverless-static-website-hosting)
-   * [Advanced serverless static websites hosting](#advanced-serverless-static-websites-hosting)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
 
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
+
 I really like serverless technologies. Like, a lot.
 
 Being able to serve content, or host a useful tool, and letting someone else

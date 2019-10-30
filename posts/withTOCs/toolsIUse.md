@@ -5,6 +5,9 @@ Table of Contents
 Parsing local markdown file requires access to github API
 Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
 or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
+
+
+
 The following are everyday computing tools i use (or really want to believe I do)
 
 The "-" character means the tool is no longer being used as much, and is in

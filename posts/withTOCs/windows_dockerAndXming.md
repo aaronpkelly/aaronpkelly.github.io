@@ -6,6 +6,9 @@ Parsing local markdown file requires access to github API
 Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
 or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
 
+
+
+
 Today I wanted to try an experiment...
 
 On Windows 10, could I run a graphical program inside a docker container, and

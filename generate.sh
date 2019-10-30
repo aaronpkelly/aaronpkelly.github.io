@@ -42,6 +42,10 @@ generatePostList() {
 generateTOCs() {
 	for file in posts/*.md; do
 		./gh-md-toc "$file" > "$DIR_WITHTOCS"/"$(basename $file)"
+		
+		# add a couple of linebreaks after the table of contents.
+		# -e: enable interpretation of backslash escapes 
+		echo -e "\n\n" >> "$DIR_WITHTOCS"/"$(basename $file)"
 	done
 }
 

@@ -5,6 +5,9 @@ Table of Contents
 Parsing local markdown file requires access to github API
 Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
 or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
+
+
+
 I really like RSS. Most sites provide a RSS feed so you can follow along with
 the news/blog items that it produces.
 

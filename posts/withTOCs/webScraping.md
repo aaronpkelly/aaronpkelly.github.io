@@ -5,6 +5,9 @@ Table of Contents
 Parsing local markdown file requires access to github API
 Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
 or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
+
+
+
 04/09/2019
 
 I like to play Warcraft, especially now that Warcraft Classic has dropped - I'm
