@@ -455,9 +455,7 @@ https://www.codechef.com/ide
 http://ideone.com/
 http://www.onlinecompiler.net/ccplusplus
 http://hackide.herokuapp.com/
-https://jsfiddle.net/
 https://jsbin.com
-https://repl.it/languages
 
 ### game programming
 https://gamedev.stackexchange.com/questions?sort=votes

@@ -1,8 +1,11 @@
-Hi I'm Aaron, I like to break things for a living.
+Hi I'm Aaron, and I like to break things for a living.
+
+Occassionally, I'll try to put them back together to see how they work!
 
 # Posts
-Below are my posts! They contain information and opinion about a particular
-topic, and hopefully be well curated, revised, and updated over time.
+Below are my posts! They are the main focus of this website. They contain
+information and opinion about a particular topic, and hopefully be well curated,
+revised, and updated over time.
 
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
@@ -68,6 +71,8 @@ created to share my experiences on a particular topic.
 
 [raspberryPi.md](posts/withTOCs/raspberryPi.md)
 
+[serverless.md](posts/withTOCs/serverless.md)
+
 [spreadList.md](posts/withTOCs/spreadList.md)
 
 [steam.md](posts/withTOCs/steam.md)
@@ -100,15 +105,23 @@ created to share my experiences on a particular topic.
 
 [workflows.md](posts/withTOCs/workflows.md)
 
-# My vision for this site
-- try to create value from everything I do. Make it presentable, and share it
-- expose as much of my work as I can into the public domain
-- use basic markdown for all content, keep it simple, don't get fancy
-- use other services to bookmark people and sites I like. For people I admire, link to the people I'm following on twitter. For bookmarks, link to my favourited posts on Hackernews
-
 # Get PDFs of all my articles
 PDFs of all my articles will soon be on https://gumroad.com, using
 "pay what you want" pricing.
+
+# My vision for this site
+
+- create value from everything I do
+- expose as much of my work as I can into the public domain
+- keep it simple and no fuss 
+- make it presentable and shareable
+- use basic markdown
+
+# Other sites
+
+I have a bunch of other websites that you may find interesting:
+
+- http://bitserve-test.s3-website-eu-west-1.amazonaws.com : test page, my first attempt at serverless web hosting!
 
 # Contact
 
