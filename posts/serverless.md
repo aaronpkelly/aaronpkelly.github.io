@@ -14,11 +14,11 @@ There are already some great AWS docs on setting this up, so I don't think I
 need to repeat them here. They have a great tutorial on the entire process, but
 I only completed this to the end of step 1, as I didn't need to do any advanced
 implementation:
-[](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
+[https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
 And that was it! I was very happy with how easy it was, and how fast the website
 was available:
-[](http://bitserve-test.s3-website-eu-west-1.amazonaws.com/)
+[http://bitserve-test.s3-website-eu-west-1.amazonaws.com/](http://bitserve-test.s3-website-eu-west-1.amazonaws.com/)
 
 I'm going to be experimenting with more HTLM5, CSS and JS on my test website, so
 hopefully it looks better by the time you view it!
