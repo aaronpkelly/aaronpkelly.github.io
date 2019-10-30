@@ -2,7 +2,7 @@
 Table of Contents
 =================
 
-
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+Parsing local markdown file requires access to github API
+Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
+or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
 I super-charge git-bash with scripts that load at startup.
