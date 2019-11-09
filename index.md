@@ -15,11 +15,11 @@ created to share my experiences on a particular topic.
 
 [automation.md](posts/withTOCs/automation.md)
 
+[aws.md](posts/withTOCs/aws.md)
+
 [aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
 
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
-
-[aws.md](posts/withTOCs/aws.md)
 
 [bookmarks.md](posts/withTOCs/bookmarks.md)
 

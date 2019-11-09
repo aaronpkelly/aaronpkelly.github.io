@@ -2,9 +2,24 @@
 Table of Contents
 =================
 
-Parsing local markdown file requires access to github API
-Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
-or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
+   * [Auctionator](#auctionator)
+      * [engineering spells (craftable items)](#engineering-spells-craftable-items)
+      * [engineering reageants](#engineering-reageants)
+   * [General macros](#general-macros)
+      * [00 (sellGrey)](#00-sellgrey)
+      * [01 (faction info)](#01-faction-info)
+      * [02 (money)](#02-money)
+      * [03](#03)
+      * [04 (tank check)](#04-tank-check)
+      * [05 (coords)](#05-coords)
+      * [06 (camera)](#06-camera)
+      * [07 - Camera zoom out](#07---camera-zoom-out)
+      * [20 - Check for Timewalking quest completed](#20---check-for-timewalking-quest-completed)
+      * [97 - Mouseover macro](#97---mouseover-macro)
+      * [99 - Mount macro](#99---mount-macro)
+   * [Warrior macros](#warrior-macros)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 

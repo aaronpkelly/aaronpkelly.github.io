@@ -2,9 +2,14 @@
 Table of Contents
 =================
 
-Parsing local markdown file requires access to github API
-Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
-or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
+   * [The queries](#the-queries)
+   * [CURLing the page](#curling-the-page)
+   * [Getting the JSON with XML](#getting-the-json-with-xml)
+   * [Getting the JSON with grep](#getting-the-json-with-grep)
+   * [Parsing the JSON](#parsing-the-json)
+   * [outputting the results](#outputting-the-results)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 

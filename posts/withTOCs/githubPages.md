@@ -2,9 +2,17 @@
 Table of Contents
 =================
 
-Parsing local markdown file requires access to github API
-Error: You exceeded the hourly limit. See: https://developer.github.com/v3/#rate-limiting
-or place github auth token here: /home/ec2-user/src/aaronpkelly/aaronpkelly.github.io/token.txt
+   * [Github Pages](#github-pages)
+      * [Tracking build progress](#tracking-build-progress)
+      * [Build messages](#build-messages)
+      * [Jekyll integration](#jekyll-integration)
+         * [hacking a theme? don't use the layouts/default.html file!!!](#hacking-a-theme-dont-use-the-layoutsdefaulthtml-file)
+      * [Serving the site from a docker container](#serving-the-site-from-a-docker-container)
+         * [Connecting to the container from a host browser](#connecting-to-the-container-from-a-host-browser)
+         * [Serving on a custom hostname from within the container](#serving-on-a-custom-hostname-from-within-the-container)
+         * [Remap port](#remap-port)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
 
