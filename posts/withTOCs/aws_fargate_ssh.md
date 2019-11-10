@@ -19,6 +19,22 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 # The problem
 AWS Fargate doesn't allow you to SSH into a running container.
 
+And that sucks, because I really like being able to connect to my containers
+interactively after they're deployed.
+
+Initially, I really liked the sound of this Fargate service because there's
+very little to manage, you can just spin up the scaffolding you need to host and
+run your containers and you're golden.
+
+But I had a really tough time trying to SSH to my mutt container instance that
+AWS Fargate managed for me, and as it turns out... Fargate doesn't support a
+SSH connection method. Some light duckduckgo'ing showed me that it was going
+to be difficult/impossible to connect this way.
+
+The only sanctioned way to ssh to a container that's managed by AWS is to make
+sure that it's launched on an EC2 instance. I don't really want the overhead of
+an EC2 instance.
+
 # The solution
 Install OpenSSH on your container, configure it, then change the port number.
 

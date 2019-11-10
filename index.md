@@ -21,6 +21,8 @@ created to share my experiences on a particular topic.
 
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
 
+[aws_s3_serverlessWebsiteHosting.md](posts/withTOCs/aws_s3_serverlessWebsiteHosting.md)
+
 [bookmarks.md](posts/withTOCs/bookmarks.md)
 
 [chaosBox.md](posts/withTOCs/chaosBox.md)
@@ -73,8 +75,6 @@ created to share my experiences on a particular topic.
 
 [rss.md](posts/withTOCs/rss.md)
 
-[serverless.md](posts/withTOCs/serverless.md)
-
 [spreadList.md](posts/withTOCs/spreadList.md)
 
 [steam.md](posts/withTOCs/steam.md)
@@ -103,7 +103,7 @@ created to share my experiences on a particular topic.
 
 [windows_dockerAndXming.md](posts/withTOCs/windows_dockerAndXming.md)
 
-[windows_wsl.md](posts/withTOCs/windows_wsl.md)
+[windows_wsl2.md](posts/withTOCs/windows_wsl2.md)
 
 [workflows.md](posts/withTOCs/workflows.md)
 

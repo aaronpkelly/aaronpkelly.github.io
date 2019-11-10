@@ -1,3 +1,5 @@
+# Windows Subsystem for Linux (WSL/WSL2)
+
 I've been a while putting it off, but I decided I'd finally pull the finger out
 and try Windows Subsytem for Linux (WSL).
 
@@ -446,4 +448,5 @@ For more examples and ideas, visit:
 DESKTOP-R07OBQT:~#
 ```
 
-My journey has finally come to the end! I hope you enjoyed this post
+My journey has finally come to the end! With the WSL2 providing all my docker
+needs, I was finally able to remove Docker Desktop from my machine.

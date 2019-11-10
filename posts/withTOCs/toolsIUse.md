@@ -7,7 +7,7 @@ Table of Contents
       * [video](#video)
          * [mplayer](#mplayer)
          * [youtube-dl](#youtube-dl)
-      * [tools](#tools)
+      * [general tools](#general-tools)
       * [terminal dashboards i WANT to start using](#terminal-dashboards-i-want-to-start-using)
    * [Windows](#windows)
       * [Window management](#window-management)
@@ -25,19 +25,24 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 The following are everyday computing tools i use (or really want to believe I do)
 
-The "-" character means the tool is no longer being used as much, and is in
+The "?" character means the tool is no longer being used as much, and is in
 danger of being removed from the list
 
 # linux command-line tools
+
 ## audio
-ogg123 - quick and dirty ogg player
-mpg123 - quick and dirty mp3 player
--cmus
-mplayer
--moc
-asciicinema
+
+- ? cmus
+- ? moc
+- mpg123 - quick and dirty mp3 player
+- mplayer
+- ogg123 - quick and dirty ogg player
 
 ## video
+
+- ? asciicinema
+- ? mplayer
+
 ### mplayer
 Use in conjunction with youtube-dl to play movies in the console:
 ```
@@ -50,17 +55,19 @@ $ mplayer -really-quiet -vo caca fireplace.mp4
 One of the best tools for downloading video from that platform
 
 
-## tools
--ag
--ack
--entr: http://eradman.com/entrproject/
-jq
-rclone
-xz - lossless compression program based on LZMA/LZMA2 compression algorithms
+## general tools
+
+- ? ag
+- ? ack
+- ? entr: http://eradman.com/entrproject/
+- jq
+- rclone
+- xz - lossless compression program based on LZMA/LZMA2 compression algorithms
 
 ## terminal dashboards i WANT to start using
-https://github.com/wtfutil/wtf
-https://github.com/jaymedavis/hubble
+
+- ? https://github.com/wtfutil/wtf
+- ? https://github.com/jaymedavis/hubble
 
 # Windows
 ## Window management
@@ -68,34 +75,37 @@ Plumb, fancyzones, workspaces... jury is still out. See my related post on tilin
 window managers.
 
 ## binaries
-- hwinfo
-- jenkins (with the build monitor plugin!)
-- musikcube (windows)
-balenaEtcher - USB/SD image flashing utility
-bleachbit
-chocolatey (made ninite redundant) - package manager for windows
-ext2fsd - mount linux partitions on windows
-git-bash - linux-like command-line for windows. use chocolatey to install addditional programs here
-greenshot - screenshot program
-itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
-nirsoft suite
-screentogif
-sysinternals suite
-total commander
-vlc
-xmlstarlet
+
+- ? hwinfo
+- ? jenkins (with the build monitor plugin!)
+- ? musikcube (windows)
+- balenaEtcher - USB/SD image flashing utility
+- bleachbit
+- chocolatey (made ninite redundant) - package manager for windows
+- ext2fsd - mount linux partitions on windows
+- git-bash - linux-like command-line for windows. use chocolatey to install addditional programs here
+- greenshot - screenshot program
+- itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
+- nirsoft suite
+- screentogif
+- sysinternals suite
+- total commander
+- vlc
+- xmlstarlet
 
 ## disk space analyser
-Spacesniffer - just come across it and I think it takes top spot.
-windirstat - great tool.
+
+- Spacesniffer - just come across it and I think it takes top spot.
+- windirstat - great tool that I've used for a long time
 
 
 # browser
-firefox
-firefox-dev browser
+
+- firefox
+- firefox-dev browser
 
 ## browser-based apps
-feedly
+- feedly
 
 ## extensions
 ### ublock origin
