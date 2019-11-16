@@ -46,8 +46,13 @@ One of the best tools for downloading video from that platform
 
 # Windows
 ## Window management
-Plumb, fancyzones, workspaces... jury is still out. See my related post on tiling
-window managers.
+Workspacer - I discovered it here: https://news.ycombinator.com/item?id=20895031
+
+Others I've tried:
+- Fancy Zones: I think i tried it quickly but it didn't do what I needed
+- Plumb: worked just ok but wasn't perfect
+
+
 
 ## binaries
 

@@ -123,7 +123,7 @@ PDFs of all my articles will soon be on https://gumroad.com, using
 
 I have a bunch of other websites that you may find interesting:
 
-- http://bitserve-test.s3-website-eu-west-1.amazonaws.com : test page, my first attempt at serverless web hosting!
+Dublin Bus travel app: http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/
 
 # Contact
 
