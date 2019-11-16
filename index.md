@@ -123,7 +123,7 @@ PDFs of all my articles will soon be on https://gumroad.com, using
 
 I have a bunch of other websites that you may find interesting:
 
-Dublin Bus travel app: http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/
+Dublin Bus travel app: (Link)[http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/]
 
 # Contact
 
