@@ -119,12 +119,17 @@ PDFs of all my articles will soon be on https://gumroad.com, using
 - make it presentable and shareable
 - use basic markdown
 
-# Other sites
+# Apps hosted on s3
 
 I have a bunch of other websites that you may find interesting:
 
+Repl.it repls: [Link](https://repl.it/@aaronpkelly)
+
 Dublin Bike travel app: [Link](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
+
 Dublin Bus travel app: [Link](http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
+
+Weather app: [Link](http://app-bucket-weather-dublin-tinyweather.s3-website-eu-west-1.amazonaws.com/)
 
 # Contact
 
