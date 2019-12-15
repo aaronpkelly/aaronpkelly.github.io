@@ -57,16 +57,15 @@ Others I've tried:
 ## binaries
 
 - ? hwinfo
-- ? jenkins (with the build monitor plugin!)
 - ? musikcube (windows)
-- balenaEtcher - USB/SD image flashing utility
+- balenaEtcher/rufus - USB/SD image flashing
 - bleachbit
-- chocolatey (made ninite redundant) - package manager for windows
+- chocolatey - package manager for windows
 - ext2fsd - mount linux partitions on windows
 - git-bash - linux-like command-line for windows. use chocolatey to install addditional programs here
 - greenshot - screenshot program
 - itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
-- nirsoft suite
+- nirsoft suite (nirlauncher.exe as a GUI )
 - screentogif
 - sysinternals suite
 - total commander
