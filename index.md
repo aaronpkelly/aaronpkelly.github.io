@@ -15,11 +15,13 @@ created to share my experiences on a particular topic.
 
 [automation.md](posts/withTOCs/automation.md)
 
-[aws.md](posts/withTOCs/aws.md)
-
 [aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
 
+[aws_deployingADockerImageToECS.md](posts/withTOCs/aws_deployingADockerImageToECS.md)
+
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
+
+[aws.md](posts/withTOCs/aws.md)
 
 [aws_s3_serverlessWebsiteHosting.md](posts/withTOCs/aws_s3_serverlessWebsiteHosting.md)
 
@@ -47,9 +49,15 @@ created to share my experiences on a particular topic.
 
 [githubPages.md](posts/withTOCs/githubPages.md)
 
+[huginn.md](posts/withTOCs/huginn.md)
+
 [investing.md](posts/withTOCs/investing.md)
 
 [java_instantMessagingClient.md](posts/withTOCs/java_instantMessagingClient.md)
+
+[javascript_nodejs.md](posts/withTOCs/javascript_nodejs.md)
+
+[javascript_tdd.md](posts/withTOCs/javascript_tdd.md)
 
 [java_swing.md](posts/withTOCs/java_swing.md)
 
@@ -103,6 +111,8 @@ created to share my experiences on a particular topic.
 
 [windows_dockerAndXming.md](posts/withTOCs/windows_dockerAndXming.md)
 
+[windows.md](posts/withTOCs/windows.md)
+
 [windows_wsl2.md](posts/withTOCs/windows_wsl2.md)
 
 [workflows.md](posts/withTOCs/workflows.md)
@@ -119,17 +129,11 @@ PDFs of all my articles will soon be on https://gumroad.com, using
 - make it presentable and shareable
 - use basic markdown
 
-# Apps hosted on s3
+# Other sites
 
 I have a bunch of other websites that you may find interesting:
 
-Repl.it repls: [Link](https://repl.it/@aaronpkelly)
-
-Dublin Bike travel app: [Link](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
-
-Dublin Bus travel app: [Link](http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
-
-Weather app: [Link](http://app-bucket-weather-dublin-tinyweather.s3-website-eu-west-1.amazonaws.com/)
+- http://bitserve-test.s3-website-eu-west-1.amazonaws.com : test page, my first attempt at serverless web hosting!
 
 # Contact
 

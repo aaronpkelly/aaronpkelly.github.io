@@ -71,22 +71,26 @@ One of the best tools for downloading video from that platform
 
 # Windows
 ## Window management
-Plumb, fancyzones, workspaces... jury is still out. See my related post on tiling
-window managers.
+Workspacer - I discovered it here: https://news.ycombinator.com/item?id=20895031
+
+Others I've tried:
+- Fancy Zones: I think i tried it quickly but it didn't do what I needed
+- Plumb: worked just ok but wasn't perfect
+
+
 
 ## binaries
 
 - ? hwinfo
-- ? jenkins (with the build monitor plugin!)
 - ? musikcube (windows)
-- balenaEtcher - USB/SD image flashing utility
+- balenaEtcher/rufus - USB/SD image flashing
 - bleachbit
-- chocolatey (made ninite redundant) - package manager for windows
+- chocolatey - package manager for windows
 - ext2fsd - mount linux partitions on windows
 - git-bash - linux-like command-line for windows. use chocolatey to install addditional programs here
 - greenshot - screenshot program
 - itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
-- nirsoft suite
+- nirsoft suite (nirlauncher.exe as a GUI )
 - screentogif
 - sysinternals suite
 - total commander
