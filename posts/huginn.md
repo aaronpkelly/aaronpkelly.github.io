@@ -100,7 +100,202 @@ container, that your data was saved successfully.
 
 
 
+# my pubic exported scenarios
 
+{
+  "schema_version": 1,
+  "name": "aaron_huginn_scenario_forExport",
+  "description": "No description provided",
+  "source_url": false,
+  "guid": "121c823862412b2cbf4a2d32213c1808",
+  "tag_fg_color": "#ffffff",
+  "tag_bg_color": "#39ffa2",
+  "icon": "gear",
+  "exported_at": "2019-12-19T23:33:13Z",
+  "agents": [
+    {
+      "type": "Agents::TriggerAgent",
+      "name": "triggerAgent_regex_rainStorm",
+      "disabled": false,
+      "guid": "361ee2e955d4726b52c8b044d4f75e25",
+      "options": {
+        "expected_receive_period_in_days": "2",
+        "rules": [
+          {
+            "type": "regex",
+            "value": "rain|storm",
+            "path": "conditions"
+          }
+        ],
+        "message": "Just so you know, it looks like '{{conditions}}' tomorrow in {{location}}"
+      },
+      "keep_events_for": 0,
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::WebsiteAgent",
+      "name": "websiteAgent_ballynahinch",
+      "disabled": false,
+      "guid": "41dc9ecc0067ade4ddac46cedd381bec",
+      "options": {
+        "expected_update_period_in_days": "365",
+        "url": "https://www.ballynahinch-castle.com/en/offer-groups",
+        "type": "html",
+        "mode": "on_change",
+        "extract": {
+          "offer": {
+            "css": ".grid_text",
+            "value": "normalize-space(.)"
+          }
+        }
+      },
+      "schedule": "every_12h",
+      "keep_events_for": 0,
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::WebsiteAgent",
+      "name": "websiteAgent_xkcd",
+      "disabled": false,
+      "guid": "505c9bba65507c40e5786afff36f688c",
+      "options": {
+        "url": "https://xkcd.com",
+        "mode": "on_change",
+        "expected_update_period_in_days": 5,
+        "extract": {
+          "url": {
+            "css": "#comic img",
+            "value": "@src"
+          },
+          "title": {
+            "css": "#comic img",
+            "value": "@alt"
+          },
+          "hovertext": {
+            "css": "#comic img",
+            "value": "@title"
+          }
+        }
+      },
+      "schedule": "every_1d",
+      "keep_events_for": 0,
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::EmailDigestAgent",
+      "name": "Afternoon Digest",
+      "disabled": false,
+      "guid": "65e8ae4533881537de3c346b5178b75d",
+      "options": {
+        "subject": "Your Afternoon Digest",
+        "expected_receive_period_in_days": "7"
+      },
+      "schedule": "5pm",
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::EmailAgent",
+      "name": "emailAgent_aoifeAaron",
+      "disabled": false,
+      "guid": "7ea7cb1727f943ef59d284b145b4cbec",
+      "options": {
+        "subject": "{{subject}}",
+        "headline": "Your notification:",
+        "expected_receive_period_in_days": "2",
+        "from": "aaronkelly@fastmail.com",
+        "recipients": [
+          "aaronkelly@fastmail.com",
+          "aoifemcnickle@fastmail.com"
+        ],
+        "body": "https://www.ballynahinch-castle.com/en/offer-groups"
+      },
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::EmailDigestAgent",
+      "name": "Morning Digest",
+      "disabled": false,
+      "guid": "b34eaee75d8dc67843c3bd257c213852",
+      "options": {
+        "subject": "Your Morning Digest",
+        "expected_receive_period_in_days": "30"
+      },
+      "schedule": "6am",
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::WeatherAgent",
+      "name": "weatherAgent_dublin",
+      "disabled": false,
+      "guid": "bdae6dfdf9d01a123ddd513e695fd466",
+      "options": {
+        "location": "53.3497645, -6.2602732",
+        "api_key": "efc61b61f9f4b91f47647304e58fcf66",
+        "which_day": "1"
+      },
+      "schedule": "6am",
+      "keep_events_for": 0
+    },
+    {
+      "type": "Agents::EventFormattingAgent",
+      "name": "eventFormattingAgent_toHugginsBot",
+      "disabled": false,
+      "guid": "d86b069650edadfc61db9df767c8b65c",
+      "options": {
+        "instructions": {
+          "text": "https:{{url}}, {{message}}"
+        },
+        "matchers": [
+
+        ],
+        "mode": "clean"
+      },
+      "keep_events_for": 2592000,
+      "propagate_immediately": false
+    },
+    {
+      "type": "Agents::TelegramAgent",
+      "name": "telegram_HugginsBot",
+      "disabled": false,
+      "guid": "e7c2a43c9f36d48aa523556846c9e71a",
+      "options": {
+        "auth_token": "986927660:AAESLPASBJKOHudxXZZU85YsNjxPWDulyq4",
+        "chat_id": "984315325",
+        "caption": "",
+        "disable_notification": "",
+        "disable_web_page_preview": "",
+        "long_message": "",
+        "parse_mode": ""
+      },
+      "propagate_immediately": false
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "receiver": 7
+    },
+    {
+      "source": 1,
+      "receiver": 4
+    },
+    {
+      "source": 2,
+      "receiver": 7
+    },
+    {
+      "source": 6,
+      "receiver": 0
+    },
+    {
+      "source": 7,
+      "receiver": 8
+    }
+  ],
+  "control_links": [
+
+  ]
+}
 
 
 
