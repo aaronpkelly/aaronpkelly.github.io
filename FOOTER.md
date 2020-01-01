@@ -25,6 +25,9 @@ twitter: https://twitter.com/aaronpaulkelly
 bandcamp: aaronkelly.bandcamp.com
 
 # Donate
+
+[Buy Me a Coffee][https://www.buymeacoffee.com/aaronkelly]
+
 [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url)
 
 other ways: patreon / stripe / dwolla / flattr / wepay / bitcoin (coming soon)
