@@ -39,6 +39,8 @@ created to share my experiences on a particular topic.
 
 [docker.md](posts/withTOCs/docker.md)
 
+[elasticsearch.md](posts/withTOCs/elasticsearch.md)
+
 [favouriteAlbums.md](posts/withTOCs/favouriteAlbums.md)
 
 [favouriteVideo.md](posts/withTOCs/favouriteVideo.md)
@@ -144,6 +146,9 @@ twitter: https://twitter.com/aaronpaulkelly
 bandcamp: aaronkelly.bandcamp.com
 
 # Donate
+
+[Buy Me a Coffee][https://www.buymeacoffee.com/aaronkelly]
+
 [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url)
 
 other ways: patreon / stripe / dwolla / flattr / wepay / bitcoin (coming soon)

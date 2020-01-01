@@ -7,6 +7,7 @@ Table of Contents
    * [Persistent storage for Fargate tasks](#persistent-storage-for-fargate-tasks)
       * [Backup plan!](#backup-plan)
    * [Redeploying the new task definition](#redeploying-the-new-task-definition)
+   * [my pubic exported scenarios](#my-pubic-exported-scenarios)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -114,8 +115,9 @@ container, that your data was saved successfully.
 
 
 
+# my pubic exported scenarios
 
-
+I'm putting these in code commit for the moment, until I'm sure that my public scenarios that don't contain any secrets like API keys etc
 
 
 
