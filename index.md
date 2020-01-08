@@ -17,7 +17,11 @@ created to share my experiences on a particular topic.
 
 [aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
 
+[aws_cloudwatch_notificationsToTelegram.md](posts/withTOCs/aws_cloudwatch_notificationsToTelegram.md)
+
 [aws_deployingADockerImageToECS.md](posts/withTOCs/aws_deployingADockerImageToECS.md)
+
+[aws_fargate.md](posts/withTOCs/aws_fargate.md)
 
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
 
@@ -32,6 +36,8 @@ created to share my experiences on a particular topic.
 [coliving_coworking.md](posts/withTOCs/coliving_coworking.md)
 
 [containers.md](posts/withTOCs/containers.md)
+
+[cv.md](posts/withTOCs/cv.md)
 
 [debugging.md](posts/withTOCs/debugging.md)
 
@@ -50,6 +56,8 @@ created to share my experiences on a particular topic.
 [git-bash.md](posts/withTOCs/git-bash.md)
 
 [githubPages.md](posts/withTOCs/githubPages.md)
+
+[google_takeout.md](posts/withTOCs/google_takeout.md)
 
 [huginn.md](posts/withTOCs/huginn.md)
 

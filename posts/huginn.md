@@ -13,6 +13,7 @@ an environment variable into the container with the same name.
 The following environmental variables all deal with email, and are all essential
 for allowing my container to send email successfully:
 ```
+DEFAULT_SCENARIO_FILE=https://container-huginn.s3-eu-west-1.amazonaws.com/aaron_huginn_scenario_forexport-1.json
 EMAIL_FROM_ADDRESS=aaronkelly@fastmail.com
 SEND_EMAIL_IN_DEVELOPMENT=true
 SMTP_DOMAIN=fastmail.com
@@ -35,15 +36,13 @@ I also experimented with these, but they caused me problems, so I removed them:
 HUGINN_DO_NOT_CREATE_DATABASE
 HUGINN_DO_NOT_SEED
 
-# Persistent storage for Fargate tasks
+# Persistent storage
 
-At the moment, there is none. By using Fargate, AWS manages a lot of the
-container orchestration for you, but also restricts a lot of functionality,
-including persistent storage.
+As AWS Fargate doesn't support persistent storage, I use the
+`DEFAULT_SCENARIO_FILE` environment variable to read my exported scenarios from
+a S3 bucket.
 
-It was a bit of a shock when I was finally able to finally start using the
-application and begin playing around with all the cool features, however I
-realised that as soon I stopped the container, I'd lost everything.
+## My initial attempt at mounting storage (not successful)
 
 I needed to mount a persistent storage volume, and the docs at
 https://registry.hub.docker.com/r/huginn/huginn told me how, but I knew it
@@ -62,20 +61,8 @@ Task definition -> Volumes -> Add volume: huginn_mysql
 Then, Container Definition -> Mount points -> Add volumes -> huginn_mysql
 
 If I was running this container on EC2, with these settings I should have
-persistent storage.
-However, because I'm running it on Fargate, the data is not persisted.
-
-## Backup plan!
-
-If I can't rely on my data to be persisted by Fargate, then there my options for
-exfiltrating my data from a running container could be:
-- examing the application for any way to save my settings to a lightweight file
-- examing the application for any sign of an export db to dump file option
-- ssh'ing to the running container and syncing the contents of the
-`/var/lib/mysql` path to an s3 bucket... interesting. in the task definition,
-along with the Huginn container, i would deploy a lightweight alpine container
-that allows me to ssh to it. I'd setup both these containers to use a shared
-volume mount. I'd then be able to ssh in and upload a backup to S3
+persistent storage. However, because I'm running it on Fargate, the data is not
+persisted.
 
 # Redeploying the new task definition
 
@@ -100,9 +87,6 @@ container, that your data was saved successfully.
 
 
 
-# my pubic exported scenarios
-
-I'm putting these in code commit for the moment, until I'm sure that my public scenarios that don't contain any secrets like API keys etc
 
 
 
@@ -112,8 +96,4 @@ I'm putting these in code commit for the moment, until I'm sure that my public s
 
 
 
-
-
-
-
-tags: huginn, automation, aws, docker, ecs
+tags: huginn, automation, aws, docker, ecs, ecr
