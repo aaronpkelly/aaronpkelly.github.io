@@ -143,7 +143,15 @@ PDFs of all my articles will soon be on https://gumroad.com, using
 
 I have a bunch of other websites that you may find interesting:
 
-- http://bitserve-test.s3-website-eu-west-1.amazonaws.com : test page, my first attempt at serverless web hosting!
+[PetiteSheets](http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
+
+[Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
+
+[TinyTimetable - DublinBikes](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
+
+[TinyTimetable - DublinBus](http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
+
+[TinyWeather](http://app-bucket-weather-dublin-tinyweather.s3-website-eu-west-1.amazonaws.com/)
 
 # Contact
 
