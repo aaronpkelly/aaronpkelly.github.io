@@ -18,3 +18,14 @@ popular stations, because they're more interesting to me.
 
 There is also https://en.wikipedia.org/wiki/Di.fm which is decent, but more
 mainstream
+
+I have an alias which gets all the currently available AAC 32k streams on the
+site, which can be dumpted to a file:
+```
+alias soma_getURLs="curl https://somafm.com/listen/ | grep 32k | cut -c11- | rev | cut -c10- | rev | xargs -L 1 printf 'http://www.somafm.com/%s\n'"
+```
+
+This can then be player with mplayer or cvlc (in curses mode!):
+```
+cvlc -I curses outfile.pls
+```
