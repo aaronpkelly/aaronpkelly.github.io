@@ -27,9 +27,15 @@ I have an alias which gets all the currently available AAC 32k streams on the
 site, which can be dumped to a file:
 ```
 alias soma_getURLs="curl https://somafm.com/listen/ | grep 32k | cut -c11- | rev | cut -c10- | rev | xargs -L 1 printf 'http://www.somafm.com/%s\n'"
+
+This can then be played with... 
+
+cvlc (in ncurses mode!). Great for reading a downloaded .pls file:
+```
+cvlc -I curses [FILE/URI]
 ```
 
-This can then be player with mplayer(note: mplayer doesn't support .pls streams):
+mplayer(note: mplayer doesn't support .pls streams):
 ```
 mplayer [IP_ADDRESS]
 ```
@@ -39,8 +45,7 @@ cmus:
 - type `:add http://www.somafm.com/cliqhop32.pls`
 - press 2 for the library, enter to play
 
-
-cvlc (in ncurses mode!):
+moc:
 ```
-cvlc -I curses [FILE/URI]
+mocp
 ```
