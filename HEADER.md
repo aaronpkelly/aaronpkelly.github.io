@@ -1,6 +1,8 @@
-Hi I'm Aaron, and I like to break things for a living.
+"Programs must be written for people to read and only incidentally for machines
+to execute" - (SICP)
 
-Occassionally, I'll try to put them back together to see how they work!
+Hi, I'm Aaron. I'm good at breaking things for a living, and occasionally I'll
+try and put them back together.
 
 # Posts
 Below are my posts! They are the main focus of this website. They contain

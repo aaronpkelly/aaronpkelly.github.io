@@ -5,6 +5,7 @@ Table of Contents
    * [Windows Subsystem for Linux (WSL/WSL2)](#windows-subsystem-for-linux-wslwsl2)
    * [Downloading a Linux distro](#downloading-a-linux-distro)
    * [After the long wait...](#after-the-long-wait)
+   * [TODO/TRY](#todotry)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
@@ -462,3 +463,8 @@ DESKTOP-R07OBQT:~#
 
 My journey has finally come to the end! With the WSL2 providing all my docker
 needs, I was finally able to remove Docker Desktop from my machine.
+
+# TODO/TRY
+
+There have been some new developments with Docker Desktop WSL 2:
+https://www.docker.com/blog/5-things-docker-desktop-wsl2-tech-preview

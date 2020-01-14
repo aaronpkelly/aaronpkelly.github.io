@@ -1,6 +1,8 @@
-Hi I'm Aaron, and I like to break things for a living.
+"Programs must be written for people to read and only incidentally for machines
+to execute" - (SICP)
 
-Occassionally, I'll try to put them back together to see how they work!
+Hi, I'm Aaron. I'm good at breaking things for a living, and occasionally I'll
+try and put them back together.
 
 # Posts
 Below are my posts! They are the main focus of this website. They contain
@@ -33,6 +35,8 @@ created to share my experiences on a particular topic.
 
 [chaosBox.md](posts/withTOCs/chaosBox.md)
 
+[coding.md](posts/withTOCs/coding.md)
+
 [coliving_coworking.md](posts/withTOCs/coliving_coworking.md)
 
 [containers.md](posts/withTOCs/containers.md)
@@ -60,6 +64,8 @@ created to share my experiences on a particular topic.
 [google_takeout.md](posts/withTOCs/google_takeout.md)
 
 [huginn.md](posts/withTOCs/huginn.md)
+
+[image_classification.md](posts/withTOCs/image_classification.md)
 
 [investing.md](posts/withTOCs/investing.md)
 
@@ -146,6 +152,10 @@ I have a bunch of other websites that you may find interesting:
 [PetiteSheets](http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
 
 [Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
+
+I also created some APIs for websites that I use heavily, but don't offer a
+public API themselves. Below are the websites that act as a front-end to these
+APIs:
 
 [TinyTimetable - DublinBikes](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
 

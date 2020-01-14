@@ -450,3 +450,8 @@ DESKTOP-R07OBQT:~#
 
 My journey has finally come to the end! With the WSL2 providing all my docker
 needs, I was finally able to remove Docker Desktop from my machine.
+
+# TODO/TRY
+
+There have been some new developments with Docker Desktop WSL 2:
+https://www.docker.com/blog/5-things-docker-desktop-wsl2-tech-preview
