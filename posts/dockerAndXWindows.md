@@ -4,6 +4,13 @@ Today I wanted to try an experiment...
 On Windows 10, could I run a graphical program inside a docker container, and
 have it display on a Windows X11 display server?
 
+# A choice of XWindows systems
+- mobaxterm's built-in XWindows
+- Xming
+- https://sourceforge.net/projects/vcxsrv/
+
+# using docker running natively
+
 Using this _Dockerfile_:
 ```
 FROM ubuntu:14.04
@@ -30,7 +37,7 @@ Wireless LAN adapter Wi-Fi:
 
 Exported my display (Xming sets the display number to `0` as default):
 ```
-export DISPLAY=192.168.0.17:0
+export DISPLAY=192.168.160.1:0
 ```
 
 Then I started my _Xming_ server inside git-bash:
@@ -40,11 +47,26 @@ Then I started my _Xming_ server inside git-bash:
 
 Then I attempted to run Firefox in a container:
 ```
-winpty docker run --rm -it --net=host -e DISPLAY=192.168.0.17:0 firefox
+docker run --rm -it --net=host -e DISPLAY=192.168.0.17:0 firefox
 ```
 
 It worked! This was just a proof-of-concept to see if it could be done, but I'm
 very happy I managed to get it to display.
+
+# using docker running inside an Alpine WSL2
+
+After setting up docker inside an alpine Alpine WSL2, I wanted to know if this
+could connect to an XWindows server too! Turns out, it can...
+
+```
+docker run --rm -ti -e DISPLAY=192.168.160.1:0 fr3nd/xeyes
+```
+
+[xeyes!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_xeyes.png)
+[Gimp!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_gimp.png)
+[Eclipse!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_eclipse.gif)
+[Libreoffice!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_libreoffice.png)
+[Firefox!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_firefox.png)
 
 # the future
 
@@ -52,6 +74,8 @@ very happy I managed to get it to display.
 - get eclipse working (why is it so difficult?!)
 
 # sources
+
+https://medium.com/better-programming/running-desktop-apps-in-docker-43a70a5265c4
 https://rgrunber.wordpress.com/2016/01/26/eclipse-inside-a-docker-container/
 https://github.com/handflucht/guiAppInDockerOnWindows
 https://github.com/baudren/NoteOrganiser/wiki/Docker,-QML,-XServer-on-Windows
