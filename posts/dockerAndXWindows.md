@@ -62,11 +62,16 @@ could connect to an XWindows server too! Turns out, it can...
 docker run --rm -ti -e DISPLAY=192.168.160.1:0 fr3nd/xeyes
 ```
 
-[xeyes!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_xeyes.png)
-[Gimp!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_gimp.png)
-[Eclipse!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_eclipse.gif)
-[Libreoffice!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_libreoffice.png)
-[Firefox!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_firefox.png)
+![xeyes!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_xeyes.png)
+
+And something else I've wanted to do run in a container a while... Eclipse!
+
+![Eclipse!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_eclipse.gif)
+
+More images of other programs running:
+- [Gimp!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_gimp.png)
+- [Libreoffice!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_libreOffice.png)
+- [Firefox!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_firefox.png)
 
 # the future
 
