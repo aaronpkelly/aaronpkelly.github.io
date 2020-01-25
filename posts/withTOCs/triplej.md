@@ -27,3 +27,5 @@ I consider one of their best:
 https://open.spotify.com/playlist/7aFh5Fv3fJZNXlokZD4EsI
 
 Actually, there is a Blade Runner track at the end there, ignore that...
+
+Update: I finished listening to everything, and voting is currently on for 2020!

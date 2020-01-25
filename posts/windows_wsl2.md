@@ -330,91 +330,22 @@ Run 'docker COMMAND --help' for more information on a command.
 DESKTOP-R07OBQT:~#
 ```
 
-I then started the docker daemon as a background process:
+Post-installation housekeeping:
 ```
-DESKTOP-R07OBQT:~# dockerd &
-DESKTOP-R07OBQT:~# INFO[2019-11-09T10:39:43.797729800Z] libcontainerd: started new containerd process  pid=159
-INFO[2019-11-09T10:39:43.797822100Z] parsed scheme: "unix"                         module=grpc
-INFO[2019-11-09T10:39:43.797832000Z] scheme "unix" not registered, fallback to default scheme  module=grpc
-INFO[2019-11-09T10:39:43.797868800Z] ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]  module=grpc
-INFO[2019-11-09T10:39:43.797878000Z] ClientConn switching balancer to "pick_first"  module=grpc
-INFO[2019-11-09T10:39:43.797944100Z] pickfirstBalancer: HandleSubConnStateChange: 0xc000774f30, CONNECTING  module=grpc
-INFO[2019-11-09T10:39:43.822021000Z] starting containerd                           revision=d50db0a42053864a270f648048f9a8b4f24eced3 version=v1.2.9
-INFO[2019-11-09T10:39:43.822393000Z] loading plugin "io.containerd.content.v1.content"...  type=io.containerd.content.v1
-INFO[2019-11-09T10:39:43.822441400Z] loading plugin "io.containerd.snapshotter.v1.btrfs"...  type=io.containerd.snapshotter.v1
-WARN[2019-11-09T10:39:43.822630400Z] failed to load plugin io.containerd.snapshotter.v1.btrfs  error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
-INFO[2019-11-09T10:39:43.822674000Z] loading plugin "io.containerd.snapshotter.v1.aufs"...  type=io.containerd.snapshotter.v1
-WARN[2019-11-09T10:39:43.823387100Z] failed to load plugin io.containerd.snapshotter.v1.aufs  error="modprobe aufs failed: "modprobe: can't change directory to '/lib/modules': No such file or directory\n": exit status 1"
-INFO[2019-11-09T10:39:43.823421700Z] loading plugin "io.containerd.snapshotter.v1.native"...  type=io.containerd.snapshotter.v1
-INFO[2019-11-09T10:39:43.823514600Z] loading plugin "io.containerd.snapshotter.v1.overlayfs"...  type=io.containerd.snapshotter.v1
-INFO[2019-11-09T10:39:43.823644900Z] loading plugin "io.containerd.snapshotter.v1.zfs"...  type=io.containerd.snapshotter.v1
-INFO[2019-11-09T10:39:43.823900000Z] skip loading plugin "io.containerd.snapshotter.v1.zfs"...  type=io.containerd.snapshotter.v1
-INFO[2019-11-09T10:39:43.823940700Z] loading plugin "io.containerd.metadata.v1.bolt"...  type=io.containerd.metadata.v1
-WARN[2019-11-09T10:39:43.824019400Z] could not use snapshotter zfs in metadata plugin  error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin"
-WARN[2019-11-09T10:39:43.824068300Z] could not use snapshotter btrfs in metadata plugin  error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
-WARN[2019-11-09T10:39:43.824100100Z] could not use snapshotter aufs in metadata plugin  error="modprobe aufs failed: "modprobe: can't change directory to '/lib/modules': No such file or directory\n": exit status 1"
-INFO[2019-11-09T10:39:43.824255400Z] loading plugin "io.containerd.differ.v1.walking"...  type=io.containerd.differ.v1
-INFO[2019-11-09T10:39:43.824294100Z] loading plugin "io.containerd.gc.v1.scheduler"...  type=io.containerd.gc.v1
-INFO[2019-11-09T10:39:43.824384900Z] loading plugin "io.containerd.service.v1.containers-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824422700Z] loading plugin "io.containerd.service.v1.content-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824458500Z] loading plugin "io.containerd.service.v1.diff-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824498200Z] loading plugin "io.containerd.service.v1.images-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824564000Z] loading plugin "io.containerd.service.v1.leases-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824607300Z] loading plugin "io.containerd.service.v1.namespaces-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824658200Z] loading plugin "io.containerd.service.v1.snapshots-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.824680200Z] loading plugin "io.containerd.runtime.v1.linux"...  type=io.containerd.runtime.v1
-INFO[2019-11-09T10:39:43.824835900Z] loading plugin "io.containerd.runtime.v2.task"...  type=io.containerd.runtime.v2
-INFO[2019-11-09T10:39:43.824909800Z] loading plugin "io.containerd.monitor.v1.cgroups"...  type=io.containerd.monitor.v1
-INFO[2019-11-09T10:39:43.825455700Z] loading plugin "io.containerd.service.v1.tasks-service"...  type=io.containerd.service.v1
-INFO[2019-11-09T10:39:43.826068700Z] loading plugin "io.containerd.internal.v1.restart"...  type=io.containerd.internal.v1
-INFO[2019-11-09T10:39:43.826339300Z] loading plugin "io.containerd.grpc.v1.containers"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.826409900Z] loading plugin "io.containerd.grpc.v1.content"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.826497500Z] loading plugin "io.containerd.grpc.v1.diff"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.826559700Z] loading plugin "io.containerd.grpc.v1.events"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.826851700Z] loading plugin "io.containerd.grpc.v1.healthcheck"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.826929900Z] loading plugin "io.containerd.grpc.v1.images"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.826971900Z] loading plugin "io.containerd.grpc.v1.leases"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.827008000Z] loading plugin "io.containerd.grpc.v1.namespaces"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.827024700Z] loading plugin "io.containerd.internal.v1.opt"...  type=io.containerd.internal.v1
-INFO[2019-11-09T10:39:43.827060100Z] loading plugin "io.containerd.grpc.v1.snapshots"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.827361100Z] loading plugin "io.containerd.grpc.v1.tasks"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.827378400Z] loading plugin "io.containerd.grpc.v1.version"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.827393300Z] loading plugin "io.containerd.grpc.v1.introspection"...  type=io.containerd.grpc.v1
-INFO[2019-11-09T10:39:43.827821500Z] serving...                                    address="/var/run/docker/containerd/containerd-debug.sock"
-INFO[2019-11-09T10:39:43.827927600Z] serving...                                    address="/var/run/docker/containerd/containerd.sock"
-INFO[2019-11-09T10:39:43.827975500Z] containerd successfully booted in 0.006626s
-INFO[2019-11-09T10:39:43.829197400Z] pickfirstBalancer: HandleSubConnStateChange: 0xc000774f30, READY  module=grpc
-INFO[2019-11-09T10:39:43.835481400Z] parsed scheme: "unix"                         module=grpc
-INFO[2019-11-09T10:39:43.835525800Z] scheme "unix" not registered, fallback to default scheme  module=grpc
-INFO[2019-11-09T10:39:43.835584700Z] parsed scheme: "unix"                         module=grpc
-INFO[2019-11-09T10:39:43.835601000Z] scheme "unix" not registered, fallback to default scheme  module=grpc
-INFO[2019-11-09T10:39:43.835730700Z] ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]  module=grpc
-INFO[2019-11-09T10:39:43.835750700Z] ClientConn switching balancer to "pick_first"  module=grpc
-INFO[2019-11-09T10:39:43.835807900Z] pickfirstBalancer: HandleSubConnStateChange: 0xc00089d2d0, CONNECTING  module=grpc
-INFO[2019-11-09T10:39:43.835986000Z] pickfirstBalancer: HandleSubConnStateChange: 0xc00089d2d0, READY  module=grpc
-INFO[2019-11-09T10:39:43.835986000Z] ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]  module=grpc
-INFO[2019-11-09T10:39:43.836058400Z] ClientConn switching balancer to "pick_first"  module=grpc
-INFO[2019-11-09T10:39:43.836204700Z] pickfirstBalancer: HandleSubConnStateChange: 0xc000128650, CONNECTING  module=grpc
-INFO[2019-11-09T10:39:43.836316400Z] pickfirstBalancer: HandleSubConnStateChange: 0xc000128650, READY  module=grpc
-INFO[2019-11-09T10:39:43.838322000Z] [graphdriver] using prior storage driver: overlay2
-INFO[2019-11-09T10:39:43.856529400Z] Graph migration to content-addressability took 0.00 seconds
-WARN[2019-11-09T10:39:43.856805300Z] Your kernel does not support cgroup blkio weight
-WARN[2019-11-09T10:39:43.856847500Z] Your kernel does not support cgroup blkio weight_device
-WARN[2019-11-09T10:39:43.856883000Z] Your kernel does not support cgroup blkio throttle.read_bps_device
-WARN[2019-11-09T10:39:43.856919200Z] Your kernel does not support cgroup blkio throttle.write_bps_device
-WARN[2019-11-09T10:39:43.856958400Z] Your kernel does not support cgroup blkio throttle.read_iops_device
-WARN[2019-11-09T10:39:43.856993300Z] Your kernel does not support cgroup blkio throttle.write_iops_device
-INFO[2019-11-09T10:39:43.857924300Z] Loading containers: start.
-WARN[2019-11-09T10:39:43.858832600Z] Running modprobe nf_nat failed with message: `modprobe: can't change directory to '/lib/modules': No such file or directory`, error: exit status 1
-WARN[2019-11-09T10:39:43.859549000Z] Running modprobe xt_conntrack failed with message: `modprobe: can't change directory to '/lib/modules': No such file or directory`, error: exit status 1
-INFO[2019-11-09T10:39:43.942222200Z] Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address
-INFO[2019-11-09T10:39:43.978396700Z] Loading containers: done.
-INFO[2019-11-09T10:39:43.995284600Z] Docker daemon                                 commit=0dd43dd87fd530113bf44c9bba9ad8b20ce4637f graphdriver(s)=overlay2 version=18.09.8-ce
-INFO[2019-11-09T10:39:43.995374300Z] Daemon has completed initialization
-INFO[2019-11-09T10:39:44.004881700Z] API listen on /var/run/docker.sock
+addgroup docker
+groupadd -G docker aaron
+adduser -G docker docker
+visudo (docker ALL=(ALL) ALL)
 ```
 
-And finally, tried to run the docker _hello-world_ image:
+Does the docker daemon need to be added to startup?
+```
+apk add openrc
+rc-update add docker
+```
+
+And finally, run the docker _hello-world_ image. You may need to restart the
+alpine WSL, as the docker service needs to be running:
 ```
 DESKTOP-R07OBQT:~# docker run hello-world
 Unable to find image 'hello-world:latest' locally

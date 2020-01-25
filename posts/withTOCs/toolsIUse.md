@@ -34,6 +34,7 @@ danger of being removed from the list
 
 - ? cmus
 - ? moc
+- cvlc: command-line version of vlc, the curses view is great: `cvlc -I curses [FILE/URI]`
 - mpg123 - quick and dirty mp3 player
 - mplayer
 - ogg123 - quick and dirty ogg player

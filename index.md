@@ -39,13 +39,13 @@ created to share my experiences on a particular topic.
 
 [coliving_coworking.md](posts/withTOCs/coliving_coworking.md)
 
-[containers.md](posts/withTOCs/containers.md)
-
 [cv.md](posts/withTOCs/cv.md)
 
 [debugging.md](posts/withTOCs/debugging.md)
 
 [development_bisectingBuilds.md](posts/withTOCs/development_bisectingBuilds.md)
+
+[dockerAndXWindows.md](posts/withTOCs/dockerAndXWindows.md)
 
 [docker.md](posts/withTOCs/docker.md)
 
@@ -119,13 +119,13 @@ created to share my experiences on a particular topic.
 
 [uncleBob.md](posts/withTOCs/uncleBob.md)
 
+[videoConversion.md](posts/withTOCs/videoConversion.md)
+
 [warcraft.md](posts/withTOCs/warcraft.md)
 
 [webScraping.md](posts/withTOCs/webScraping.md)
 
 [websiteHosting.md](posts/withTOCs/websiteHosting.md)
-
-[windows_dockerAndXming.md](posts/withTOCs/windows_dockerAndXming.md)
 
 [windows.md](posts/withTOCs/windows.md)
 
