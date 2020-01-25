@@ -56,7 +56,8 @@ very happy I managed to get it to display.
 # using docker running inside an Alpine WSL2
 
 After setting up docker inside an alpine Alpine WSL2, I wanted to know if this
-could connect to an XWindows server too! Turns out, it can...
+could connect to an XWindows server too! Turns out, it can... lets try running
+the _fr3nd/xeyes_ image:
 
 ```
 docker run --rm -ti -e DISPLAY=192.168.160.1:0 fr3nd/xeyes
@@ -65,13 +66,14 @@ docker run --rm -ti -e DISPLAY=192.168.160.1:0 fr3nd/xeyes
 ![xeyes!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_xeyes.png)
 
 And something else I've wanted to do run in a container a while... Eclipse!
+(psharkey/eclipse)
 
 ![Eclipse!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_eclipse.gif)
 
 More images of other programs running:
-- [Gimp!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_gimp.png)
-- [Libreoffice!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_libreOffice.png)
-- [Firefox!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_firefox.png)
+- [Gimp!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_gimp.png) (jamesnetherton/gimp)
+- [Libreoffice!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_libreOffice.png) (woahbase/alpine-libreoffice:x86_64)
+- [Firefox!](https://aaronpkelly.github.io/posts/resources/dockerAndXWindows_firefox.png) (jess/firefox)
 
 # the future
 
