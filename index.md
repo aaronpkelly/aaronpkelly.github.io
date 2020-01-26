@@ -99,6 +99,8 @@ created to share my experiences on a particular topic.
 
 [rss.md](posts/withTOCs/rss.md)
 
+[secureMessaging.md](posts/withTOCs/secureMessaging.md)
+
 [spreadList.md](posts/withTOCs/spreadList.md)
 
 [steam.md](posts/withTOCs/steam.md)
