@@ -15,11 +15,13 @@ created to share my experiences on a particular topic.
 
 [audio.md](posts/withTOCs/audio.md)
 
-[automation.md](posts/withTOCs/automation.md)
-
 [aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
 
+[aws_cloudformation.md](posts/withTOCs/aws_cloudformation.md)
+
 [aws_cloudwatch_notificationsToTelegram.md](posts/withTOCs/aws_cloudwatch_notificationsToTelegram.md)
+
+[aws_codebuild.md](posts/withTOCs/aws_codebuild.md)
 
 [aws_deployingADockerImageToECS.md](posts/withTOCs/aws_deployingADockerImageToECS.md)
 
@@ -34,6 +36,8 @@ created to share my experiences on a particular topic.
 [bookmarks.md](posts/withTOCs/bookmarks.md)
 
 [chaosBox.md](posts/withTOCs/chaosBox.md)
+
+[cicd.md](posts/withTOCs/cicd.md)
 
 [coding.md](posts/withTOCs/coding.md)
 
@@ -57,13 +61,23 @@ created to share my experiences on a particular topic.
 
 [fileManagers.md](posts/withTOCs/fileManagers.md)
 
+[gameEngines.md](posts/withTOCs/gameEngines.md)
+
+[gaming_cloudGamingServices.md](posts/withTOCs/gaming_cloudGamingServices.md)
+
 [git-bash.md](posts/withTOCs/git-bash.md)
 
 [githubPages.md](posts/withTOCs/githubPages.md)
 
+[git.md](posts/withTOCs/git.md)
+
 [google_takeout.md](posts/withTOCs/google_takeout.md)
 
+[howTo_study.md](posts/withTOCs/howTo_study.md)
+
 [huginn.md](posts/withTOCs/huginn.md)
+
+[IDEs.md](posts/withTOCs/IDEs.md)
 
 [image_classification.md](posts/withTOCs/image_classification.md)
 
@@ -87,11 +101,15 @@ created to share my experiences on a particular topic.
 
 [mandelbrot.md](posts/withTOCs/mandelbrot.md)
 
+[microsoft_graph.md](posts/withTOCs/microsoft_graph.md)
+
+[minecraft.md](posts/withTOCs/minecraft.md)
+
 [music.md](posts/withTOCs/music.md)
 
-[onlineIDEs.md](posts/withTOCs/onlineIDEs.md)
-
 [posting.md](posts/withTOCs/posting.md)
+
+[programming_onlineIDEs.md](posts/withTOCs/programming_onlineIDEs.md)
 
 [purchasing.md](posts/withTOCs/purchasing.md)
 

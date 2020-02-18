@@ -1,6 +1,71 @@
-- the second section needs to be cleaned up a little
 
--------------------------------------------------------------------------------
+Table of Contents
+=================
+
+   * [How to study](#how-to-study)
+   * [Stationary](#stationary)
+      * [Pens](#pens)
+      * [Binders and files](#binders-and-files)
+      * [Record cards](#record-cards)
+   * [Accumulating study material](#accumulating-study-material)
+      * [Note taking](#note-taking)
+      * [When to take notes](#when-to-take-notes)
+      * [Doodling](#doodling)
+   * [Electronic note-taking](#electronic-note-taking)
+      * [For lecturers who do lots of board work](#for-lecturers-who-do-lots-of-board-work)
+      * [For lecturers who lecture mainly with slides and have minimal board work](#for-lecturers-who-lecture-mainly-with-slides-and-have-minimal-board-work)
+      * [For lecturerers who read from the slides](#for-lecturerers-who-read-from-the-slides)
+   * [Printing notes](#printing-notes)
+   * [Essential tips for assignments](#essential-tips-for-assignments)
+   * [Learning journals](#learning-journals)
+   * [Keeping track of assignments and due dates](#keeping-track-of-assignments-and-due-dates)
+   * [Starting to study](#starting-to-study)
+      * [Getting started / fear of starting](#getting-started--fear-of-starting)
+      * [Unplug, get out of the house, and get into a study area](#unplug-get-out-of-the-house-and-get-into-a-study-area)
+      * [It's all so quiet](#its-all-so-quiet)
+      * [Breaking up tasks into chunks](#breaking-up-tasks-into-chunks)
+      * [Be specific about what your working on](#be-specific-about-what-your-working-on)
+      * [Plan your study day](#plan-your-study-day)
+      * [Hard copy](#hard-copy)
+      * [Start the e.ggtimer if you are having trouble studying](#start-the-eggtimer-if-you-are-having-trouble-studying)
+      * [Randomise learning order](#randomise-learning-order)
+   * [During study](#during-study)
+      * [How do you learn?](#how-do-you-learn)
+      * [Let's get digital](#lets-get-digital)
+      * [How to use corkboards and whiteboards](#how-to-use-corkboards-and-whiteboards)
+      * [Get in 'the zone'](#get-in-the-zone)
+      * [Walk it off](#walk-it-off)
+      * [You will fall off the wagon, so don't fret!](#you-will-fall-off-the-wagon-so-dont-fret)
+      * [Other](#other)
+   * [Task tracking](#task-tracking)
+      * [The endless cycle](#the-endless-cycle)
+      * [X marks the spot](#x-marks-the-spot)
+      * [Weave in assignments/worksheets](#weave-in-assignmentsworksheets)
+      * [Work it](#work-it)
+      * [Cover up](#cover-up)
+      * [Pad that](#pad-that)
+      * [Textual healing](#textual-healing)
+      * [Todo lists](#todo-lists)
+      * [Get ahead of the class](#get-ahead-of-the-class)
+      * [Start working old midterms/exams straight away](#start-working-old-midtermsexams-straight-away)
+      * [Work it](#work-it-1)
+   * [Preparing for exams](#preparing-for-exams)
+      * [The War Room](#the-war-room)
+      * [Do a trial exam first](#do-a-trial-exam-first)
+      * [Revision](#revision)
+         * [Spaced repetition](#spaced-repetition)
+         * [Create concise summaries of materials](#create-concise-summaries-of-materials)
+         * [Create outlines of a course](#create-outlines-of-a-course)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
+
+
+# How to study
+
+I originally wrote these tips in college for myself while studying for a
+computer science degree. Maybe you'll find them useful!
+
 # Stationary
 ##Paper
 Use a lined foolscap pad with perforations at the top and punched holes in the 
@@ -262,10 +327,10 @@ laptop during lectures and pay more attention!
 - Turn off your phone, disable WIFI
 - Break your study sessions up into blocks of time - use the pomodoro technique
 - Indent your paragraphs!
-- Loci method?
 - Star your Google docs typed assignments so you dont have to hunt through 
 folders to find them, its a one click button to have them all in the same
-place and start working on them.
+place and start working on them
+- Method of loci
 
 -------------------------------------------------------------------------------
 # Task tracking
@@ -382,3 +447,5 @@ Read a page and then reduce it to a paragraphs
 ### Create outlines of a course
 Take a high level view of the course material and summarie it in broad
 strokes/bullet points
+
+tags: how-to, study, college

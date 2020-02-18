@@ -1,4 +1,34 @@
+# Frequently used docker commands
+
+Prune all the things. WARNING! This will remove:
+    - all stopped containers
+    - all networks not used by at least one container
+    - all dangling images
+    - all dangling build cache
+```
+docker system prune
+```
+
+# exploring a docker image's filesystem
+
+pull the image.
+
+you can now use `docker export` or `docker save` (look up docs)
+
+then:
+`docker export <IMAGE> <IMAGE>.tar`
+
+the tar will be in many layers, not great
+
+"Unfortunately, these tarballs are really only useful to Docker. However, there
+is a tool called “undocker” (https://github.com/larsks/undocker/) which can
+extract a useful filesystem from these images. See here for a writeup from the
+author: http://blog.oddbit.com/2015/02/13/unpacking-docker-images/"
+
+https://github.com/larsks/undocker/ works great, I tried it
+
 # Building a Docker image from a Git repository
+
 Handy to know:
 
 https://docs.docker.com/engine/reference/commandline/build/#git-repositories
