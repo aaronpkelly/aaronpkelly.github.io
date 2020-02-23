@@ -49,10 +49,17 @@ generateTOCs() {
 	done
 }
 
+userConfirm() {
+	read -p "This operation is destructive! Are you sure you haven't mistakenly made changes to the 'withTOCS' files? These will be destroyed. [Y/N]" -n 1 -r
+	echo    # (optional) move to a new line
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		main
+	fi
+}
+
+
 zeroOutIndexFile() {
 	:>| index.md
 }
 
-set -x
-main
-set +x
+userConfirm

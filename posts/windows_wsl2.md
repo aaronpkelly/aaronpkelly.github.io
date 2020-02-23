@@ -13,9 +13,10 @@ I didn't need to restart my computer, which was great!
 
 # Downloading a Linux distro
 There's three ways to get a distro:
-Download and install from the Microsoft Store
-Download and install from the Command-Line/Script
-Download and manually unpack and install
+
+- Download and install from the Microsoft Store
+- Download and install from the Command-Line/Script
+- Download and manually unpack and install
 
 Microsoft offer the following distros via their Store app:
 Ubuntu 16.04 LTS
@@ -86,7 +87,7 @@ Note: It will take some time to receive a build after changing your settings
 So, I guess I'll have to wait a while until I can follow this guide:
 https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
 
-# After the long wait...
+# WSL2 - I can finally use it
 
 So it's been a number of weeks and many Windows updates later, and I'm finally
 on a build that supports WSL2 - `19018`! You wouldn't want to be in a hurry...
@@ -154,7 +155,6 @@ Super gross. The WLS2 article does have a troubleshooting section down the
 bottom though, which says:
 ```
 The requested operation could not be completed due to a virtual disk system limitation. Virtual hard disk files must be uncompressed and unencrypted and must not be sparse.
-
 Please check WSL Github thread #4103 where this issue is being tracked for updated information.
 ```
 
@@ -219,168 +219,59 @@ DESKTOP-R07OBQT:/mnt/c/WINDOWS/system32# exit
 PS C:\WINDOWS\system32>
 ```
 
-After launching Alpine again from the store, I was able to change into the root
-account and update and install docker:
+# Installing docker inside Alpine
+
+Run the following commands to get perfectly setup:
+
 ```
-DESKTOP-R07OBQT:~$ su -
-Password:
-DESKTOP-R07OBQT:~# ls
-DESKTOP-R07OBQT:~# apk update
-fetch http://dl-cdn.alpinelinux.org/alpine/v3.10/main/x86_64/APKINDEX.tar.gz
-fetch http://dl-cdn.alpinelinux.org/alpine/v3.10/community/x86_64/APKINDEX.tar.gz
-v3.10.3-19-g7f993019c4 [http://dl-cdn.alpinelinux.org/alpine/v3.10/main]
-v3.10.3-13-g8068beb776 [http://dl-cdn.alpinelinux.org/alpine/v3.10/community]
-OK: 10340 distinct packages available
-DESKTOP-R07OBQT:~# apk add docker
-(1/12) Installing ca-certificates (20190108-r0)
-(2/12) Installing libseccomp (2.4.1-r0)
-(3/12) Installing runc (1.0.0_rc8-r0)
-(4/12) Installing containerd (1.2.9-r0)
-(5/12) Installing libmnl (1.0.4-r0)
-(6/12) Installing libnftnl-libs (1.1.3-r0)
-(7/12) Installing iptables (1.8.3-r0)
-(8/12) Installing tini-static (0.18.0-r0)
-(9/12) Installing device-mapper-libs (2.02.184-r0)
-(10/12) Installing docker-engine (18.09.8-r0)
-(11/12) Installing docker-cli (18.09.8-r0)
-(12/12) Installing docker (18.09.8-r0)
-Executing docker-18.09.8-r0.pre-install
-Executing busybox-1.30.1-r2.trigger
-Executing ca-certificates-20190108-r0.trigger
-OK: 280 MiB in 28 packages
-DESKTOP-R07OBQT:~# docker
+# switch to root user
+$ su
 
-Usage:  docker [OPTIONS] COMMAND
+# update alpine packages
+$ apk update
 
-A self-sufficient runtime for containers
+# add the apline-sdk package to install sudo
+$ apt add alpine-sdk
 
-Options:
-      --config string      Location of client config files (default "/root/.docker")
-  -D, --debug              Enable debug mode
-  -H, --host list          Daemon socket(s) to connect to
-  -l, --log-level string   Set the logging level ("debug"|"info"|"warn"|"error"|"fatal") (default "info")
-      --tls                Use TLS; implied by --tlsverify
-      --tlscacert string   Trust certs signed only by this CA (default "/root/.docker/ca.pem")
-      --tlscert string     Path to TLS certificate file (default "/root/.docker/cert.pem")
-      --tlskey string      Path to TLS key file (default "/root/.docker/key.pem")
-      --tlsverify          Use TLS and verify the remote
-  -v, --version            Print version information and quit
+# add your user to the sudoers file in order to run sudo (e.g. append `aaron ALL=(ALL) ALL`)
+$ visudo
 
-Management Commands:
-  builder     Manage builds
-  config      Manage Docker configs
-  container   Manage containers
-  engine      Manage the docker engine
-  image       Manage images
-  network     Manage networks
-  node        Manage Swarm nodes
-  plugin      Manage plugins
-  secret      Manage Docker secrets
-  service     Manage services
-  stack       Manage Docker stacks
-  swarm       Manage Swarm
-  system      Manage Docker
-  trust       Manage trust on Docker images
-  volume      Manage volumes
+# exit su, return to your user
+$ exit
 
-Commands:
-  attach      Attach local standard input, output, and error streams to a running container
-  build       Build an image from a Dockerfile
-  commit      Create a new image from a container's changes
-  cp          Copy files/folders between a container and the local filesystem
-  create      Create a new container
-  deploy      Deploy a new stack or update an existing stack
-  diff        Inspect changes to files or directories on a container's filesystem
-  events      Get real time events from the server
-  exec        Run a command in a running container
-  export      Export a container's filesystem as a tar archive
-  history     Show the history of an image
-  images      List images
-  import      Import the contents from a tarball to create a filesystem image
-  info        Display system-wide information
-  inspect     Return low-level information on Docker objects
-  kill        Kill one or more running containers
-  load        Load an image from a tar archive or STDIN
-  login       Log in to a Docker registry
-  logout      Log out from a Docker registry
-  logs        Fetch the logs of a container
-  pause       Pause all processes within one or more containers
-  port        List port mappings or a specific mapping for the container
-  ps          List containers
-  pull        Pull an image or a repository from a registry
-  push        Push an image or a repository to a registry
-  rename      Rename a container
-  restart     Restart one or more containers
-  rm          Remove one or more containers
-  rmi         Remove one or more images
-  run         Run a command in a new container
-  save        Save one or more images to a tar archive (streamed to STDOUT by default)
-  search      Search the Docker Hub for images
-  start       Start one or more stopped containers
-  stats       Display a live stream of container(s) resource usage statistics
-  stop        Stop one or more running containers
-  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
-  top         Display the running processes of a container
-  unpause     Unpause all processes within one or more containers
-  update      Update configuration of one or more containers
-  version     Show the Docker version information
-  wait        Block until one or more containers stop, then print their exit codes
+# install docker (and docker-compose!)
+$ sudo apk add docker docker-compose
 
-Run 'docker COMMAND --help' for more information on a command.
-DESKTOP-R07OBQT:~#
-```
+# add the current user to the docker group (so docker can be run without typing
+# sudo all the time)
+$ sudo addgroup aaron docker
 
-Post-installation housekeeping:
-```
-addgroup docker
-groupadd -G docker aaron
-adduser -G docker docker
-visudo (docker ALL=(ALL) ALL)
-```
+# install openrc and start the docker service at boot
+$ sudo apk add openrc
+$ sudo rc-update add docker boot
 
-Does the docker daemon need to be added to startup?
-```
-apk add openrc
-rc-update add docker
-```
+# allow openrc to start the service inside our WSL2 instance
+$ touch /run/openrc/softlevel
 
-And finally, run the docker _hello-world_ image. You may need to restart the
-alpine WSL, as the docker service needs to be running:
-```
-DESKTOP-R07OBQT:~# docker run hello-world
-Unable to find image 'hello-world:latest' locally
-latest: Pulling from library/hello-world
-1b930d010525: Pull complete
-Digest: sha256:c3b4ada4687bbaa170745b3e4dd8ac3f194ca95b2d0518b417fb47e5879d9b5f
-Status: Downloaded newer image for hello-world:latest
-INFO[2019-11-09T10:39:51.875853600Z] shim containerd-shim started                  address="/containerd-shim/moby/b0aea71f983567c98343502b6209cbd60b6b2e62415e163e520e6b7c8631e242/shim.sock" debug=false pid=314
+# start the service manually (you may need to restart your terminal)
+$ sudo service docker start
 
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
+# verify the docker service is running. it will run automatically from now on
+$ sudo rc-status --all
 
-To generate this message, Docker took the following steps:
- 1. The Docker client contacted the Docker daemon.
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
-    (amd64)
- 3. The Docker daemon created a new container from that image which runs the
-    executable that produces the output you are currently reading.
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-    to your terminal.
-
-To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
-
-Share images, automate workflows, and more with a free Docker ID:
- https://hub.docker.com/
-
-For more examples and ideas, visit:
- https://docs.docker.com/get-started/
-
-DESKTOP-R07OBQT:~#
+# verify you can run a docker image
+$ docker run --rm hello-world
 ```
 
 My journey has finally come to the end! With the WSL2 providing all my docker
 needs, I was finally able to remove Docker Desktop from my machine.
+
+# Troubleshooting
+
+## Code: 0x80073D05
+
+This code can appear when attemping a reinstall of Alpine. Delete any leftover
+alpine folders from the previous installation, e.g. _c:\Users\aaron\AppData\Local\Packages\36828agowa338.AlpineWSL_my43bytk1c4nr_
 
 # TODO/TRY
 
