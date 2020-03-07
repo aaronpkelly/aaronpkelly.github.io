@@ -5,7 +5,7 @@ Table of Contents
    * [Overview](#overview)
    * [How my photos are currently stored](#how-my-photos-are-currently-stored)
    * [How I want organise my classified images - by METADATA](#how-i-want-organise-my-classified-images---by-metadata)
-   * [Using image classification software](#using-image-classification-software)
+   * [Trying out mage classification software](#trying-out-mage-classification-software)
       * [Digikam](#digikam)
          * [Scanning for faces and tagging them](#scanning-for-faces-and-tagging-them)
       * [Adding lots more photos](#adding-lots-more-photos)
@@ -30,13 +30,14 @@ recognition, and then maybe I'll proceed to using a deep neural network to
 help me classify entire scenes.
 
 I need the software to have the following features:
+
 - good facial recognition
-- writing metadata to file
+- reading/writing extreme amounts of file metadata XD
 
 # How my photos are currently stored
 
-I am currently actively storing images on the following services whenever I save
-and image to the photo gallery:
+Due to my phone use, I am currently storing images on the following cloud
+services whenever I take or receive a photo:
 - https://photos.google.com/
 - https://www.icloud.com/photos/ 
 
@@ -57,6 +58,9 @@ may as well not exist at all.
 
 # How I want organise my classified images - by METADATA
 
+I don't care really what the filenames are, as I believe the file metadata holds
+a lot more information than a filename can.
+
 Images contain a WEALTH of metadata inside them:
 
 - Exif
@@ -65,13 +69,11 @@ Images contain a WEALTH of metadata inside them:
 - GPS
 - DICOM
 
-For organisationsal purposes, I don't care about the filename or anything like
-that... I want to be able to classify my images using machine learning, and then
-and write to the image metadata fields.
+I want to be able to classify my images using machine learning, and then
+and write to the image metadata fields. This should allow me to have a
+very effective image search strategy.
 
-This will allow me to search images based on their internal metadata.
-
-# Using image classification software
+# Trying out mage classification software
 
 I wanted to see how far I could get doing my own facial recognition.
 

@@ -1,21 +1,3 @@
-
-Table of Contents
-=================
-
-   * [Some commonly used terms](#some-commonly-used-terms)
-   * [Ideal conversion process - container   FFMPEG](#ideal-conversion-process---container--ffmpeg)
-      * [Video parameters](#video-parameters)
-         * [Container settings](#container-settings)
-   * [Coverting on AWS - don't do it](#coverting-on-aws---dont-do-it)
-      * [Single-file conversion via the GUI](#single-file-conversion-via-the-gui)
-      * [Batch conversion via AWS CLI](#batch-conversion-via-aws-cli)
-         * [Attempt 1: Long hacky way](#attempt-1-long-hacky-way)
-         * [Attempt 2: The one-liner? (TODO)](#attempt-2-the-one-liner-todo)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
-
-
 I have a lot of video files that I need to convert.
 
 -I recently tried out https://eu-west-3.console.aws.amazon.com/mediaconvert/ and it worked very well-

@@ -1,14 +1,3 @@
-
-Table of Contents
-=================
-
-   * [repl.it](#replit)
-   * [<a href="https://observablehq.com" rel="nofollow">https://observablehq.com</a>](#httpsobservablehqcom)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
-
-
 # repl.it
 
 One of my favourite online IDEs

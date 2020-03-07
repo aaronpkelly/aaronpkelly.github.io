@@ -1,11 +1,39 @@
 TODO: Any information in this article that is GENERIC to ECS should be moved to
 the deployingADockerImageToECS article
 
-I want to talk about how I installed and configured Huginn on AWS.
+I want to talk about my experience with running Huginn, running a short-lived
+instance on https://labs.play-with-docker.com, and the installing and configuring
+a permanent instance of ECS.
 
-# The container definition
+# Trying it out
 
-## Environment variables
+I went to https://labs.play-with-docker.com/ and issued the following command:
+
+```
+docker run --rm -it -p 3000:3000 huginn/huginn
+```
+
+After a few seconds, the port opened and was clickable - I was able to login
+with the default image user/pass `admin/password`. It worked!
+
+From a previous session, I exported a scenario file into JSON. I put this JSON
+file into a bucket, made it public, then imported inside the Huginn app. Worked
+great. You could equally point to a file on pastebin or gist.
+
+# AWS ECS
+
+## How I use it
+
+The broad strokes:
+
+- The standard container at https://hub.docker.com/r/huginn/huginn is published to AWS ECR
+- All of the configuration values in this file can be overridden by ENV vars: https://github.com/huginn/huginn/blob/master/.env.example
+- ENV vars are stored in AWS SSM and passed into container on startup
+- My exported scenarios live in an S3 bucket which is read at startup
+
+## The container definition
+
+### Environment variables
 
 Any UPPERCASE string in the _.env.example_ file can be overridden by passing in
 an environment variable into the container with the same name.
@@ -36,13 +64,13 @@ I also experimented with these, but they caused me problems, so I removed them:
 HUGINN_DO_NOT_CREATE_DATABASE
 HUGINN_DO_NOT_SEED
 
-# Persistent storage
+## Persistent storage
 
 As AWS Fargate doesn't support persistent storage, I use the
 `DEFAULT_SCENARIO_FILE` environment variable to read my exported scenarios from
 a S3 bucket.
 
-## My initial attempt at mounting storage (not successful)
+### My initial attempt at mounting storage (not successful)
 
 I needed to mount a persistent storage volume, and the docs at
 https://registry.hub.docker.com/r/huginn/huginn told me how, but I knew it
@@ -64,7 +92,7 @@ If I was running this container on EC2, with these settings I should have
 persistent storage. However, because I'm running it on Fargate, the data is not
 persisted.
 
-# Redeploying the new task definition
+## Redeploying the new task definition
 
 It's important to always make sure that your cluster is running with the most
 recent version of your task definition.

@@ -53,8 +53,6 @@ created to share my experiences on a particular topic.
 
 [docker.md](posts/withTOCs/docker.md)
 
-[elasticsearch.md](posts/withTOCs/elasticsearch.md)
-
 [favouriteAlbums.md](posts/withTOCs/favouriteAlbums.md)
 
 [favouriteVideo.md](posts/withTOCs/favouriteVideo.md)
@@ -100,6 +98,8 @@ created to share my experiences on a particular topic.
 [linux_namedPipes.md](posts/withTOCs/linux_namedPipes.md)
 
 [mandelbrot.md](posts/withTOCs/mandelbrot.md)
+
+[mbox.md](posts/withTOCs/mbox.md)
 
 [microsoft_graph.md](posts/withTOCs/microsoft_graph.md)
 

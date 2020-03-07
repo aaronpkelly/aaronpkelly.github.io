@@ -82,3 +82,5 @@ Jenkins.get().allItems().collectMany{ CredentialsProvider.lookupStores(it).toLis
 ## Puppet
 
 Automation for IT administrators
+
+tags: cicd, automation

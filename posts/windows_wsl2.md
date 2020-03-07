@@ -272,8 +272,3 @@ needs, I was finally able to remove Docker Desktop from my machine.
 
 This code can appear when attemping a reinstall of Alpine. Delete any leftover
 alpine folders from the previous installation, e.g. _c:\Users\aaron\AppData\Local\Packages\36828agowa338.AlpineWSL_my43bytk1c4nr_
-
-# TODO/TRY
-
-There have been some new developments with Docker Desktop WSL 2:
-https://www.docker.com/blog/5-things-docker-desktop-wsl2-tech-preview
