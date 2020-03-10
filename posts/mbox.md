@@ -53,6 +53,36 @@ Getting a summary of the exported file types:
 find . -type f | sed 's/.*\.//' | sort | uniq -c
 ```
 
+## Sorting the export
+
+I created a script to go though every attachment, and make a copy of it into
+its own folder:
+
+```
+$ cat ../organiseFileTypes.sh
+#!/usr/bin/env bash
+
+set -x
+
+for extension in $(find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u); do
+        if [ "$extension" != "mbox" ]; then
+                extension_lowercase="$(echo ${extension} | tr '[:upper:]' '[:lower:]')"
+                mkdir "$extension_lowercase"
+
+                find . -name "*.${extension}" -exec cp {} "$extension_lowercase" \;
+        fi
+done
+set +x
+```
+
+## Preparing the export for upload to Bandcamp
+
+Because I'm masochistic:
+
+```
+
+```
+
 # Formatting the exported content
 
 Elasticsearch doesn't solve the problem of automatically sifting throught your
@@ -83,6 +113,37 @@ Then, I could export this database as a _rdb_ file.
 Then, I could give this _rdb_ file to AWS when it is creating my Elasticsearch,
 and boom, my content should hopefully be immediately searchable.
 
+### formatting the text
+
+TODO: update
+I wrote a quick python script to jsonify all my emails:
+
+```
+from pathlib import Path
+import time
+import json
+
+p = Path('.')
+
+def printJsonKeyValue(key, value):
+    rst = (value.split(' ', 1))
+    print('\t' + key + ': ' + json.dumps(rst[1]) + ',')
+
+for file in p.iterdir():
+    with file.open() as f:
+
+        msg_header = f.readline().rstrip()
+
+        if 'Subject' in msg_header:
+
+            print('{')
+            printJsonKeyValue('subject', msg_header)
+            printJsonKeyValue('from', f.readline().rstrip())
+            printJsonKeyValue('to', f.readline().rstrip())
+            printJsonKeyValue('body', f.read())
+            print('}')
+            time.sleep(5)
+```
 
 
 # Searching/indexing
