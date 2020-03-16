@@ -29,6 +29,8 @@ created to share my experiences on a particular topic.
 
 [aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
 
+[aws_lambda_api.md](posts/withTOCs/aws_lambda_api.md)
+
 [aws.md](posts/withTOCs/aws.md)
 
 [aws_s3_serverlessWebsiteHosting.md](posts/withTOCs/aws_s3_serverlessWebsiteHosting.md)
@@ -136,6 +138,8 @@ created to share my experiences on a particular topic.
 [torrents.md](posts/withTOCs/torrents.md)
 
 [triplej.md](posts/withTOCs/triplej.md)
+
+[twitter.md](posts/withTOCs/twitter.md)
 
 [uncleBob.md](posts/withTOCs/uncleBob.md)
 

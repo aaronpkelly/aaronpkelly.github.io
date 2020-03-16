@@ -8,9 +8,14 @@ Table of Contents
          * [Claws Mail](#claws-mail)
          * [Thunderbird](#thunderbird)
       * [Analysis of export](#analysis-of-export)
+      * [Sorting the export](#sorting-the-export)
+         * [One folder per extension](#one-folder-per-extension)
+         * [Renaming images to signature](#renaming-images-to-signature)
+      * [Preparing the export for upload to Bandcamp](#preparing-the-export-for-upload-to-bandcamp)
    * [Formatting the exported content](#formatting-the-exported-content)
       * [Media attachments, a problem for another day](#media-attachments-a-problem-for-another-day)
       * [Plain-text exports, formatting, importing to Redis, exporting to a RDB](#plain-text-exports-formatting-importing-to-redis-exporting-to-a-rdb)
+         * [formatting the text](#formatting-the-text)
    * [Searching/indexing](#searchingindexing)
       * [ElasticSearch - considering the service](#elasticsearch---considering-the-service)
          * [How ElasticSearch indexes](#how-elasticsearch-indexes)
@@ -77,6 +82,56 @@ Getting a summary of the exported file types:
 find . -type f | sed 's/.*\.//' | sort | uniq -c
 ```
 
+## Sorting the export
+
+### One folder per extension
+
+I created a script to go though every attachment, and make a copy of it into
+its own folder:
+
+```
+for extension in $(find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u); do
+        if [ "$extension" != "mbox" ]; then
+                extension_lowercase="$(echo ${extension} | tr '[:upper:]' '[:lower:]')"
+                mkdir "$extension_lowercase"
+
+                find . -name "*.${extension}" -exec cp {} "$extension_lowercase" \;
+        fi
+done
+set +x
+```
+
+### Renaming images to signature
+
+In a controvertial move, I decided to rename the file to be it's file signature
+as calculated by ImageMagick. I store the original filename as EXIF metadata
+in the DocumentName field:
+
+```
+#!/usr/bin/env ash
+
+for file in *; do
+	exiftool \
+		-overwrite_original \
+		-ignoreMinorErrors \
+		-DocumentName="$file" "$file"
+
+	signature="$(identify -verbose "$file" | grep signature | cut -d ' ' -f 6)"
+	extension="$(echo ${file##*.})"
+	extension="$(echo ${extension} | tr '[:upper:]' '[:lower:]')"
+	mv "$file" "$signature"."$extension"
+done	
+```
+
+
+## Preparing the export for upload to Bandcamp
+
+Because I'm masochistic:
+
+```
+
+```
+
 # Formatting the exported content
 
 Elasticsearch doesn't solve the problem of automatically sifting throught your
@@ -107,6 +162,37 @@ Then, I could export this database as a _rdb_ file.
 Then, I could give this _rdb_ file to AWS when it is creating my Elasticsearch,
 and boom, my content should hopefully be immediately searchable.
 
+### formatting the text
+
+TODO: update
+I wrote a quick python script to jsonify all my emails:
+
+```
+from pathlib import Path
+import time
+import json
+
+p = Path('.')
+
+def printJsonKeyValue(key, value):
+    rst = (value.split(' ', 1))
+    print('\t' + key + ': ' + json.dumps(rst[1]) + ',')
+
+for file in p.iterdir():
+    with file.open() as f:
+
+        msg_header = f.readline().rstrip()
+
+        if 'Subject' in msg_header:
+
+            print('{')
+            printJsonKeyValue('subject', msg_header)
+            printJsonKeyValue('from', f.readline().rstrip())
+            printJsonKeyValue('to', f.readline().rstrip())
+            printJsonKeyValue('body', f.read())
+            print('}')
+            time.sleep(5)
+```
 
 
 # Searching/indexing
