@@ -18,10 +18,11 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 It is possible to run Chrome in a container!
 
 My original inspiration comes from Jess's blog here: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
+
 Which uses to a Dockerfile here: https://github.com/jessfraz/dockerfiles/blob/master/chrome/stable/Dockerfile
 
-Here's the command that works for me, it's very much a cut-down docker run
-command when I just want the basic browser:
+Here's the command that I personally run, it's very much a bare-bones command
+when give me just a basic browser:
 
 ```
 docker run \
