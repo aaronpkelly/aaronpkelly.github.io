@@ -1,6 +1,27 @@
-# Frequently used docker commands
+Table of Contents
+=================
 
-Prune all the things. WARNING! This will remove:
+   * [Docker](#docker)
+      * [Useful commands](#useful-commands)
+   * [Exploring a docker image's filesystem](#exploring-a-docker-images-filesystem)
+   * [Building a Docker image from a Git repository](#building-a-docker-image-from-a-git-repository)
+   * [Docker and raspberry pi](#docker-and-raspberry-pi)
+   * [Interacting with containers launched via AWS Fargate](#interacting-with-containers-launched-via-aws-fargate)
+   * [Best practices](#best-practices)
+      * [Spin up a disposable Alpine Linux container whenever you want to do anything](#spin-up-a-disposable-alpine-linux-container-whenever-you-want-to-do-anything)
+   * [dockerhub](#dockerhub)
+      * [autobuilds - use dockerhub's infrastructure to build your dockerfiles](#autobuilds---use-dockerhubs-infrastructure-to-build-your-dockerfiles)
+
+# Docker
+
+Here lies useful info on using Docker.
+
+## Useful commands
+
+Sometimes you just want to chuck everything away. There is a command for that...
+prune.
+
+WARNING! This will remove:
     - all stopped containers
     - all networks not used by at least one container
     - all dangling images
@@ -9,7 +30,7 @@ Prune all the things. WARNING! This will remove:
 docker system prune
 ```
 
-# exploring a docker image's filesystem
+# Exploring a docker image's filesystem
 
 pull the image.
 

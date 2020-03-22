@@ -35,8 +35,16 @@ main() {
 	zeroOutIndexAndPOSTS
 	addHeader
 	generatePostList
-    addPosts
+	addPosts
 	addFooter
+}
+
+userConfirm() {
+	read -p "Did you refresh the TOCs for your updated articles? [Y/N]" -n 1 -r
+	echo    # (optional) move to a new line
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		main
+	fi
 }
 
 zeroOutIndexAndPOSTS() {
@@ -44,4 +52,4 @@ zeroOutIndexAndPOSTS() {
     :>| "$POSTS_FILE"
 }
 
-main
+userConfirm
