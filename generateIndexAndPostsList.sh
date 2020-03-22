@@ -22,10 +22,11 @@ addPosts() {
 
 generatePostList() {
 
-    printf '\n' >> "$POSTS_FILE"
+    printf '\n\n' >> "$POSTS_FILE"
 
-	for file in "$POSTS_DIR"/*.md; do
-		echo "[$(basename $file)](${file})" >> "$POSTS_FILE"
+	for file in $(ls "$POSTS_DIR" -t | grep .md); do
+        LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}"/"${file}" | cut -d '.' -f1)
+		echo "[$(basename ${file}) Updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
 	done
 
     printf '\n' >> "$POSTS_FILE"
