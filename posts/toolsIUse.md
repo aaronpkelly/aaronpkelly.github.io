@@ -15,17 +15,13 @@ danger of being removed from the list
 
 ## audio
 
-- cvlc: command-line version of vlc, the curses view is great: `cvlc -I curses [FILE/URI]`
 - mpg123 - quick and dirty mp3 player
-- mplayer
 - ogg123 - quick and dirty ogg player
+- mplayer (see note below): quick and dirty general player (FLAC support!)
+- cvlc: command-line version of vlc, the curses view is great: `cvlc -I curses [FILE/URI]`
 
 - ? cmus
 - ? moc
-
-## video
-
-- ? asciicinema
 
 ### mplayer
 Use in conjunction with youtube-dl to play movies in the console:
@@ -35,6 +31,13 @@ $ youtube-dl pec8P5K4s8c -o fireplace.mp4
 $ export CACA_DRIVER=ncurses
 $ mplayer -really-quiet -vo caca fireplace.mp4
 ```
+
+## video
+
+- ? asciicinema
+
+
+
 ### youtube-dl
 One of the best tools for downloading video from that platform
 
@@ -45,7 +48,7 @@ One of the best tools for downloading video from that platform
 
 # Windows
 
-- balenaEtcher/rufus - USB/SD image flashing
+- rufus (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image flashing
 - bleachbit - disk space cleaner
 - chocolatey - package manager for windows
 - diskpart - command-line disk partitioning utility (see https://www.repairwin.com/fix-diskpart-has-encountered-an-error-the-parameter-is-incorrect/ for usage)
