@@ -1,6 +1,6 @@
 
 
-[docker.md (Last updated: 2020-03-22 09:53:59)](posts/docker.md)
+[docker.md (Last updated: 2020-03-22 10:57:41)](posts/docker.md)
 
 [triplej.md (Last updated: 2020-03-22 09:11:37)](posts/triplej.md)
 

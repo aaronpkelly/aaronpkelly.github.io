@@ -33,19 +33,37 @@ generatePostList() {
     printf '\n' >> "$POSTS_FILE"
 }
 
+generateTOC() {
+    echo "Generating TOC for $1"
+    
+	cp "${POSTS_DIR}/$1" "${POSTS_DIR}/$1.orig"
+    ./gh-md-toc "${POSTS_DIR}/$1.orig" > "${POSTS_DIR}/$1"
+    
+    # -e: enable interpretation of backslash escapes 
+    echo -e "\n" >> "${POSTS_DIR}/$1"
+    
+    cat "${POSTS_DIR}/$1.orig" >> "${POSTS_DIR}/$1"
+    rm "${POSTS_DIR}/$1.orig"
+}
+
 main() {
 	zeroOutIndexAndPOSTS
 	addHeader
+
+    if [ "$1" != "" ]; then
+        generateTOC $1
+    fi
+
 	generatePostList
 	addPosts
 	addFooter
 }
 
 userConfirm() {
-	read -p "Did you refresh the TOCs for your updated articles? [Y/N]" -n 1 -r
+	read -p "Did you pass in the article names of any posts you want to refresh the TOCS on? [Y/N]" -n 1 -r
 	echo    # (optional) move to a new line
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
-		main
+		main $1
 	fi
 }
 
@@ -54,4 +72,4 @@ zeroOutIndexAndPOSTS() {
     :>| "$POSTS_FILE"
 }
 
-userConfirm
+userConfirm $1

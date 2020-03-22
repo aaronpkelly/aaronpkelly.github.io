@@ -12,7 +12,7 @@ revised, and updated over time.
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
 
-[docker.md (Last updated: 2020-03-22 09:53:59)](posts/docker.md)
+[docker.md (Last updated: 2020-03-22 10:57:41)](posts/docker.md)
 
 [triplej.md (Last updated: 2020-03-22 09:11:37)](posts/triplej.md)
 
