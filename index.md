@@ -11,151 +11,152 @@ revised, and updated over time.
 
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
-[ableton.md](posts/withTOCs/ableton.md)
 
-[audio.md](posts/withTOCs/audio.md)
+[ableton.md](ableton.md)
 
-[aws_api_gateway.md](posts/withTOCs/aws_api_gateway.md)
+[audio.md](audio.md)
 
-[aws_cloudformation.md](posts/withTOCs/aws_cloudformation.md)
+[aws_api_gateway.md](aws_api_gateway.md)
 
-[aws_cloudwatch_notificationsToTelegram.md](posts/withTOCs/aws_cloudwatch_notificationsToTelegram.md)
+[aws_cloudformation.md](aws_cloudformation.md)
 
-[aws_codebuild.md](posts/withTOCs/aws_codebuild.md)
+[aws_cloudwatch_notificationsToTelegram.md](aws_cloudwatch_notificationsToTelegram.md)
 
-[aws_deployingADockerImageToECS.md](posts/withTOCs/aws_deployingADockerImageToECS.md)
+[aws_codebuild.md](aws_codebuild.md)
 
-[aws_fargate.md](posts/withTOCs/aws_fargate.md)
+[aws_deployingADockerImageToECS.md](aws_deployingADockerImageToECS.md)
 
-[aws_fargate_ssh.md](posts/withTOCs/aws_fargate_ssh.md)
+[aws_fargate.md](aws_fargate.md)
 
-[aws_lambda_api.md](posts/withTOCs/aws_lambda_api.md)
+[aws_fargate_ssh.md](aws_fargate_ssh.md)
 
-[aws.md](posts/withTOCs/aws.md)
+[aws_lambda_api.md](aws_lambda_api.md)
 
-[aws_s3_serverlessWebsiteHosting.md](posts/withTOCs/aws_s3_serverlessWebsiteHosting.md)
+[aws.md](aws.md)
 
-[bookmarks.md](posts/withTOCs/bookmarks.md)
+[aws_s3_serverlessWebsiteHosting.md](aws_s3_serverlessWebsiteHosting.md)
 
-[chaosBox.md](posts/withTOCs/chaosBox.md)
+[bookmarks.md](bookmarks.md)
 
-[cicd.md](posts/withTOCs/cicd.md)
+[chaosBox.md](chaosBox.md)
 
-[coding.md](posts/withTOCs/coding.md)
+[cicd.md](cicd.md)
 
-[coliving_coworking.md](posts/withTOCs/coliving_coworking.md)
+[coding.md](coding.md)
 
-[cv.md](posts/withTOCs/cv.md)
+[coliving_coworking.md](coliving_coworking.md)
 
-[debugging.md](posts/withTOCs/debugging.md)
+[cv.md](cv.md)
 
-[development_bisectingBuilds.md](posts/withTOCs/development_bisectingBuilds.md)
+[debugging.md](debugging.md)
 
-[dockerAndXWindows.md](posts/withTOCs/dockerAndXWindows.md)
+[development_bisectingBuilds.md](development_bisectingBuilds.md)
 
-[docker.md](posts/withTOCs/docker.md)
+[dockerAndXWindows.md](dockerAndXWindows.md)
 
-[favouriteAlbums.md](posts/withTOCs/favouriteAlbums.md)
+[docker.md](docker.md)
 
-[favouriteVideo.md](posts/withTOCs/favouriteVideo.md)
+[favouriteAlbums.md](favouriteAlbums.md)
 
-[fileManagers.md](posts/withTOCs/fileManagers.md)
+[favouriteVideo.md](favouriteVideo.md)
 
-[gameEngines.md](posts/withTOCs/gameEngines.md)
+[fileManagers.md](fileManagers.md)
 
-[gaming_cloudGamingServices.md](posts/withTOCs/gaming_cloudGamingServices.md)
+[gameEngines.md](gameEngines.md)
 
-[git-bash.md](posts/withTOCs/git-bash.md)
+[gaming_cloudGamingServices.md](gaming_cloudGamingServices.md)
 
-[githubPages.md](posts/withTOCs/githubPages.md)
+[git-bash.md](git-bash.md)
 
-[git.md](posts/withTOCs/git.md)
+[githubPages.md](githubPages.md)
 
-[google_takeout.md](posts/withTOCs/google_takeout.md)
+[git.md](git.md)
 
-[howTo_study.md](posts/withTOCs/howTo_study.md)
+[google_takeout.md](google_takeout.md)
 
-[huginn.md](posts/withTOCs/huginn.md)
+[howTo_study.md](howTo_study.md)
 
-[IDEs.md](posts/withTOCs/IDEs.md)
+[huginn.md](huginn.md)
 
-[image_classification.md](posts/withTOCs/image_classification.md)
+[IDEs.md](IDEs.md)
 
-[investing.md](posts/withTOCs/investing.md)
+[image_classification.md](image_classification.md)
 
-[java_instantMessagingClient.md](posts/withTOCs/java_instantMessagingClient.md)
+[investing.md](investing.md)
 
-[javascript_nodejs.md](posts/withTOCs/javascript_nodejs.md)
+[java_instantMessagingClient.md](java_instantMessagingClient.md)
 
-[javascript_tdd.md](posts/withTOCs/javascript_tdd.md)
+[javascript_nodejs.md](javascript_nodejs.md)
 
-[java_swing.md](posts/withTOCs/java_swing.md)
+[javascript_tdd.md](javascript_tdd.md)
 
-[jekyll.md](posts/withTOCs/jekyll.md)
+[java_swing.md](java_swing.md)
 
-[linux_backgroundingJobs.md](posts/withTOCs/linux_backgroundingJobs.md)
+[jekyll.md](jekyll.md)
 
-[linux_distros.md](posts/withTOCs/linux_distros.md)
+[linux_backgroundingJobs.md](linux_backgroundingJobs.md)
 
-[linux_namedPipes.md](posts/withTOCs/linux_namedPipes.md)
+[linux_distros.md](linux_distros.md)
 
-[mandelbrot.md](posts/withTOCs/mandelbrot.md)
+[linux_namedPipes.md](linux_namedPipes.md)
 
-[mbox.md](posts/withTOCs/mbox.md)
+[mandelbrot.md](mandelbrot.md)
 
-[microsoft_graph.md](posts/withTOCs/microsoft_graph.md)
+[mbox.md](mbox.md)
 
-[minecraft.md](posts/withTOCs/minecraft.md)
+[microsoft_graph.md](microsoft_graph.md)
 
-[music.md](posts/withTOCs/music.md)
+[minecraft.md](minecraft.md)
 
-[posting.md](posts/withTOCs/posting.md)
+[music.md](music.md)
 
-[programming_onlineIDEs.md](posts/withTOCs/programming_onlineIDEs.md)
+[posting.md](posting.md)
 
-[purchasing.md](posts/withTOCs/purchasing.md)
+[programming_onlineIDEs.md](programming_onlineIDEs.md)
 
-[raspberryPi.md](posts/withTOCs/raspberryPi.md)
+[purchasing.md](purchasing.md)
 
-[rss.md](posts/withTOCs/rss.md)
+[raspberryPi.md](raspberryPi.md)
 
-[secureMessaging.md](posts/withTOCs/secureMessaging.md)
+[rss.md](rss.md)
 
-[spreadList.md](posts/withTOCs/spreadList.md)
+[secureMessaging.md](secureMessaging.md)
 
-[steam.md](posts/withTOCs/steam.md)
+[spreadList.md](spreadList.md)
 
-[taskTracking.md](posts/withTOCs/taskTracking.md)
+[steam.md](steam.md)
 
-[template_duplicateMe.md](posts/withTOCs/template_duplicateMe.md)
+[taskTracking.md](taskTracking.md)
 
-[tilingWindowManagers.md](posts/withTOCs/tilingWindowManagers.md)
+[template_duplicateMe.md](template_duplicateMe.md)
 
-[tinyQuest.md](posts/withTOCs/tinyQuest.md)
+[tilingWindowManagers.md](tilingWindowManagers.md)
 
-[toolsIUse.md](posts/withTOCs/toolsIUse.md)
+[tinyQuest.md](tinyQuest.md)
 
-[torrents.md](posts/withTOCs/torrents.md)
+[toolsIUse.md](toolsIUse.md)
 
-[triplej.md](posts/withTOCs/triplej.md)
+[torrents.md](torrents.md)
 
-[twitter.md](posts/withTOCs/twitter.md)
+[triplej.md](triplej.md)
 
-[uncleBob.md](posts/withTOCs/uncleBob.md)
+[twitter.md](twitter.md)
 
-[videoConversion.md](posts/withTOCs/videoConversion.md)
+[uncleBob.md](uncleBob.md)
 
-[warcraft.md](posts/withTOCs/warcraft.md)
+[videoConversion.md](videoConversion.md)
 
-[webScraping.md](posts/withTOCs/webScraping.md)
+[warcraft.md](warcraft.md)
 
-[websiteHosting.md](posts/withTOCs/websiteHosting.md)
+[webScraping.md](webScraping.md)
 
-[windows.md](posts/withTOCs/windows.md)
+[websiteHosting.md](websiteHosting.md)
 
-[windows_wsl2.md](posts/withTOCs/windows_wsl2.md)
+[windows.md](windows.md)
 
-[workflows.md](posts/withTOCs/workflows.md)
+[windows_wsl2.md](windows_wsl2.md)
+
+[workflows.md](workflows.md)
 
 # Get PDFs of all my articles
 PDFs of all my articles will soon be on https://gumroad.com, using
