@@ -1,46 +1,88 @@
 
 
+[containers_runningGUIApps.md (Last updated: 2020-03-22 13:11:32)](posts/containers_runningGUIApps.md)
+
 [docker.md (Last updated: 2020-03-22 10:57:41)](posts/docker.md)
 
-[triplej.md (Last updated: 2020-03-22 09:11:37)](posts/triplej.md)
+[ableton.md (Last updated: 2020-03-22 09:11:37)](posts/ableton.md)
 
-[twitter.md (Last updated: 2020-03-22 09:11:37)](posts/twitter.md)
+[audio.md (Last updated: 2020-03-22 09:11:37)](posts/audio.md)
 
-[uncleBob.md (Last updated: 2020-03-22 09:11:37)](posts/uncleBob.md)
+[aws_api_gateway.md (Last updated: 2020-03-22 09:11:37)](posts/aws_api_gateway.md)
 
-[videoConversion.md (Last updated: 2020-03-22 09:11:37)](posts/videoConversion.md)
+[aws_cloudformation.md (Last updated: 2020-03-22 09:11:37)](posts/aws_cloudformation.md)
 
-[warcraft.md (Last updated: 2020-03-22 09:11:37)](posts/warcraft.md)
+[aws_cloudwatch_notificationsToTelegram.md (Last updated: 2020-03-22 09:11:37)](posts/aws_cloudwatch_notificationsToTelegram.md)
 
-[webScraping.md (Last updated: 2020-03-22 09:11:37)](posts/webScraping.md)
+[aws_codebuild.md (Last updated: 2020-03-22 09:11:37)](posts/aws_codebuild.md)
 
-[websiteHosting.md (Last updated: 2020-03-22 09:11:37)](posts/websiteHosting.md)
+[aws_deployingADockerImageToECS.md (Last updated: 2020-03-22 09:11:37)](posts/aws_deployingADockerImageToECS.md)
 
-[windows.md (Last updated: 2020-03-22 09:11:37)](posts/windows.md)
+[aws_fargate.md (Last updated: 2020-03-22 09:11:37)](posts/aws_fargate.md)
 
-[windows_wsl2.md (Last updated: 2020-03-22 09:11:37)](posts/windows_wsl2.md)
+[aws_fargate_ssh.md (Last updated: 2020-03-22 09:11:37)](posts/aws_fargate_ssh.md)
 
-[workflows.md (Last updated: 2020-03-22 09:11:37)](posts/workflows.md)
+[aws_lambda_api.md (Last updated: 2020-03-22 09:11:37)](posts/aws_lambda_api.md)
 
-[rss.md (Last updated: 2020-03-22 09:11:37)](posts/rss.md)
+[aws.md (Last updated: 2020-03-22 09:11:37)](posts/aws.md)
 
-[secureMessaging.md (Last updated: 2020-03-22 09:11:37)](posts/secureMessaging.md)
+[aws_s3_serverlessWebsiteHosting.md (Last updated: 2020-03-22 09:11:37)](posts/aws_s3_serverlessWebsiteHosting.md)
 
-[spreadList.md (Last updated: 2020-03-22 09:11:37)](posts/spreadList.md)
+[bookmarks.md (Last updated: 2020-03-22 09:11:37)](posts/bookmarks.md)
 
-[steam.md (Last updated: 2020-03-22 09:11:37)](posts/steam.md)
+[chaosBox.md (Last updated: 2020-03-22 09:11:37)](posts/chaosBox.md)
 
-[taskTracking.md (Last updated: 2020-03-22 09:11:37)](posts/taskTracking.md)
+[cicd.md (Last updated: 2020-03-22 09:11:37)](posts/cicd.md)
 
-[template_duplicateMe.md (Last updated: 2020-03-22 09:11:37)](posts/template_duplicateMe.md)
+[coding.md (Last updated: 2020-03-22 09:11:37)](posts/coding.md)
 
-[tilingWindowManagers.md (Last updated: 2020-03-22 09:11:37)](posts/tilingWindowManagers.md)
+[coliving_coworking.md (Last updated: 2020-03-22 09:11:37)](posts/coliving_coworking.md)
 
-[tinyQuest.md (Last updated: 2020-03-22 09:11:37)](posts/tinyQuest.md)
+[cv.md (Last updated: 2020-03-22 09:11:37)](posts/cv.md)
 
-[toolsIUse.md (Last updated: 2020-03-22 09:11:37)](posts/toolsIUse.md)
+[debugging.md (Last updated: 2020-03-22 09:11:37)](posts/debugging.md)
 
-[torrents.md (Last updated: 2020-03-22 09:11:37)](posts/torrents.md)
+[development_bisectingBuilds.md (Last updated: 2020-03-22 09:11:37)](posts/development_bisectingBuilds.md)
+
+[dockerAndXWindows.md (Last updated: 2020-03-22 09:11:37)](posts/dockerAndXWindows.md)
+
+[favouriteAlbums.md (Last updated: 2020-03-22 09:11:37)](posts/favouriteAlbums.md)
+
+[favouriteVideo.md (Last updated: 2020-03-22 09:11:37)](posts/favouriteVideo.md)
+
+[fileManagers.md (Last updated: 2020-03-22 09:11:37)](posts/fileManagers.md)
+
+[gameEngines.md (Last updated: 2020-03-22 09:11:37)](posts/gameEngines.md)
+
+[gaming_cloudGamingServices.md (Last updated: 2020-03-22 09:11:37)](posts/gaming_cloudGamingServices.md)
+
+[git-bash.md (Last updated: 2020-03-22 09:11:37)](posts/git-bash.md)
+
+[githubPages.md (Last updated: 2020-03-22 09:11:37)](posts/githubPages.md)
+
+[git.md (Last updated: 2020-03-22 09:11:37)](posts/git.md)
+
+[google_takeout.md (Last updated: 2020-03-22 09:11:37)](posts/google_takeout.md)
+
+[howTo_study.md (Last updated: 2020-03-22 09:11:37)](posts/howTo_study.md)
+
+[huginn.md (Last updated: 2020-03-22 09:11:37)](posts/huginn.md)
+
+[IDEs.md (Last updated: 2020-03-22 09:11:37)](posts/IDEs.md)
+
+[image_classification.md (Last updated: 2020-03-22 09:11:37)](posts/image_classification.md)
+
+[investing.md (Last updated: 2020-03-22 09:11:37)](posts/investing.md)
+
+[java_instantMessagingClient.md (Last updated: 2020-03-22 09:11:37)](posts/java_instantMessagingClient.md)
+
+[javascript_nodejs.md (Last updated: 2020-03-22 09:11:37)](posts/javascript_nodejs.md)
+
+[javascript_tdd.md (Last updated: 2020-03-22 09:11:37)](posts/javascript_tdd.md)
+
+[java_swing.md (Last updated: 2020-03-22 09:11:37)](posts/java_swing.md)
+
+[jekyll.md (Last updated: 2020-03-22 09:11:37)](posts/jekyll.md)
 
 [linux_backgroundingJobs.md (Last updated: 2020-03-22 09:11:37)](posts/linux_backgroundingJobs.md)
 
@@ -66,84 +108,44 @@
 
 [raspberryPi.md (Last updated: 2020-03-22 09:11:37)](posts/raspberryPi.md)
 
-[investing.md (Last updated: 2020-03-22 09:11:37)](posts/investing.md)
+[rss.md (Last updated: 2020-03-22 09:11:37)](posts/rss.md)
 
-[java_instantMessagingClient.md (Last updated: 2020-03-22 09:11:37)](posts/java_instantMessagingClient.md)
+[secureMessaging.md (Last updated: 2020-03-22 09:11:37)](posts/secureMessaging.md)
 
-[javascript_nodejs.md (Last updated: 2020-03-22 09:11:37)](posts/javascript_nodejs.md)
+[spreadList.md (Last updated: 2020-03-22 09:11:37)](posts/spreadList.md)
 
-[javascript_tdd.md (Last updated: 2020-03-22 09:11:37)](posts/javascript_tdd.md)
+[steam.md (Last updated: 2020-03-22 09:11:37)](posts/steam.md)
 
-[java_swing.md (Last updated: 2020-03-22 09:11:37)](posts/java_swing.md)
+[taskTracking.md (Last updated: 2020-03-22 09:11:37)](posts/taskTracking.md)
 
-[jekyll.md (Last updated: 2020-03-22 09:11:37)](posts/jekyll.md)
+[template_duplicateMe.md (Last updated: 2020-03-22 09:11:37)](posts/template_duplicateMe.md)
 
-[gameEngines.md (Last updated: 2020-03-22 09:11:37)](posts/gameEngines.md)
+[tilingWindowManagers.md (Last updated: 2020-03-22 09:11:37)](posts/tilingWindowManagers.md)
 
-[gaming_cloudGamingServices.md (Last updated: 2020-03-22 09:11:37)](posts/gaming_cloudGamingServices.md)
+[tinyQuest.md (Last updated: 2020-03-22 09:11:37)](posts/tinyQuest.md)
 
-[git-bash.md (Last updated: 2020-03-22 09:11:37)](posts/git-bash.md)
+[toolsIUse.md (Last updated: 2020-03-22 09:11:37)](posts/toolsIUse.md)
 
-[githubPages.md (Last updated: 2020-03-22 09:11:37)](posts/githubPages.md)
+[torrents.md (Last updated: 2020-03-22 09:11:37)](posts/torrents.md)
 
-[git.md (Last updated: 2020-03-22 09:11:37)](posts/git.md)
+[triplej.md (Last updated: 2020-03-22 09:11:37)](posts/triplej.md)
 
-[google_takeout.md (Last updated: 2020-03-22 09:11:37)](posts/google_takeout.md)
+[twitter.md (Last updated: 2020-03-22 09:11:37)](posts/twitter.md)
 
-[howTo_study.md (Last updated: 2020-03-22 09:11:37)](posts/howTo_study.md)
+[uncleBob.md (Last updated: 2020-03-22 09:11:37)](posts/uncleBob.md)
 
-[huginn.md (Last updated: 2020-03-22 09:11:37)](posts/huginn.md)
+[videoConversion.md (Last updated: 2020-03-22 09:11:37)](posts/videoConversion.md)
 
-[image_classification.md (Last updated: 2020-03-22 09:11:37)](posts/image_classification.md)
+[warcraft.md (Last updated: 2020-03-22 09:11:37)](posts/warcraft.md)
 
-[cicd.md (Last updated: 2020-03-22 09:11:37)](posts/cicd.md)
+[webScraping.md (Last updated: 2020-03-22 09:11:37)](posts/webScraping.md)
 
-[coding.md (Last updated: 2020-03-22 09:11:37)](posts/coding.md)
+[websiteHosting.md (Last updated: 2020-03-22 09:11:37)](posts/websiteHosting.md)
 
-[coliving_coworking.md (Last updated: 2020-03-22 09:11:37)](posts/coliving_coworking.md)
+[windows.md (Last updated: 2020-03-22 09:11:37)](posts/windows.md)
 
-[cv.md (Last updated: 2020-03-22 09:11:37)](posts/cv.md)
+[windows_wsl2.md (Last updated: 2020-03-22 09:11:37)](posts/windows_wsl2.md)
 
-[debugging.md (Last updated: 2020-03-22 09:11:37)](posts/debugging.md)
-
-[development_bisectingBuilds.md (Last updated: 2020-03-22 09:11:37)](posts/development_bisectingBuilds.md)
-
-[dockerAndXWindows.md (Last updated: 2020-03-22 09:11:37)](posts/dockerAndXWindows.md)
-
-[favouriteAlbums.md (Last updated: 2020-03-22 09:11:37)](posts/favouriteAlbums.md)
-
-[favouriteVideo.md (Last updated: 2020-03-22 09:11:37)](posts/favouriteVideo.md)
-
-[fileManagers.md (Last updated: 2020-03-22 09:11:37)](posts/fileManagers.md)
-
-[aws_fargate.md (Last updated: 2020-03-22 09:11:37)](posts/aws_fargate.md)
-
-[aws_fargate_ssh.md (Last updated: 2020-03-22 09:11:37)](posts/aws_fargate_ssh.md)
-
-[aws_lambda_api.md (Last updated: 2020-03-22 09:11:37)](posts/aws_lambda_api.md)
-
-[aws_s3_serverlessWebsiteHosting.md (Last updated: 2020-03-22 09:11:37)](posts/aws_s3_serverlessWebsiteHosting.md)
-
-[bookmarks.md (Last updated: 2020-03-22 09:11:37)](posts/bookmarks.md)
-
-[chaosBox.md (Last updated: 2020-03-22 09:11:37)](posts/chaosBox.md)
-
-[ableton.md (Last updated: 2020-03-22 09:11:37)](posts/ableton.md)
-
-[audio.md (Last updated: 2020-03-22 09:11:37)](posts/audio.md)
-
-[aws_api_gateway.md (Last updated: 2020-03-22 09:11:37)](posts/aws_api_gateway.md)
-
-[aws_cloudformation.md (Last updated: 2020-03-22 09:11:37)](posts/aws_cloudformation.md)
-
-[aws_cloudwatch_notificationsToTelegram.md (Last updated: 2020-03-22 09:11:37)](posts/aws_cloudwatch_notificationsToTelegram.md)
-
-[aws_codebuild.md (Last updated: 2020-03-22 09:11:37)](posts/aws_codebuild.md)
-
-[aws_deployingADockerImageToECS.md (Last updated: 2020-03-22 09:11:37)](posts/aws_deployingADockerImageToECS.md)
-
-[aws.md (Last updated: 2020-03-22 09:11:37)](posts/aws.md)
-
-[IDEs.md (Last updated: 2020-03-22 09:11:37)](posts/IDEs.md)
+[workflows.md (Last updated: 2020-03-22 09:11:37)](posts/workflows.md)
 
 
