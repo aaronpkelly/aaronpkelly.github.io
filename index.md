@@ -12,6 +12,7 @@ revised, and updated over time.
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
 
+
 [ableton.md](posts/ableton.md)
 
 [audio.md](posts/audio.md)
@@ -174,21 +175,21 @@ PDFs of all my articles will soon be on https://gumroad.com, using
 
 I have a bunch of other websites that you may find interesting:
 
-[PetiteSheets](posts/http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
+[PetiteSheets](http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
 
-[Screentime.cc](posts/http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
+[Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
 
-[Timeliner](posts/http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
+[Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
 
 I also created some APIs for websites that I use heavily, but don't offer a
 public API themselves. Below are the websites that act as a front-end to these
 APIs:
 
-[TinyTimetable - DublinBikes](posts/http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
+[TinyTimetable - DublinBikes](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
 
-[TinyTimetable - DublinBus](posts/http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
+[TinyTimetable - DublinBus](http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
 
-[TinyWeather](posts/http://app-bucket-weather-dublin-tinyweather.s3-website-eu-west-1.amazonaws.com/)
+[TinyWeather](http://app-bucket-weather-dublin-tinyweather.s3-website-eu-west-1.amazonaws.com/)
 
 # Contact
 
@@ -200,8 +201,8 @@ bandcamp: aaronkelly.bandcamp.com
 
 # Donate
 
-[Buy Me a Coffee](posts/https://www.buymeacoffee.com/aaronkelly)
+[Buy Me a Coffee](https://www.buymeacoffee.com/aaronkelly)
 
-[Paypal](posts/https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url)
+[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url)
 
 other ways: patreon / stripe / dwolla / flattr / wepay / bitcoin (coming soon)
