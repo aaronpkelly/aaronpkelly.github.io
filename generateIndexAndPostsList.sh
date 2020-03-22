@@ -26,7 +26,7 @@ generatePostList() {
 
 	for file in $(ls "$POSTS_DIR" -t | grep .md); do
         LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}"/"${file}" | cut -d '.' -f1)
-		echo "[$(basename ${file}) - Last updated: ${LAST_MODIFIED}](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
+		echo "[$(basename ${file}) (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
         printf '\n' >> "$POSTS_FILE"
 	done
 
