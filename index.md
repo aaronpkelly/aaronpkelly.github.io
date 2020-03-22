@@ -1,6 +1,8 @@
 "Programs must be written for people to read and only incidentally for machines
 to execute" - (SICP)
 
+![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
+
 Hi, I'm Aaron. I'm good at breaking things for a living, and occasionally I'll
 try and put them back together.
 
@@ -12,7 +14,7 @@ revised, and updated over time.
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
 
-[containers_runningGUIApps.md (Last updated: 2020-03-22 13:11:32)](posts/containers_runningGUIApps.md)
+[containers_runningGUIApps.md (Last updated: 2020-03-22 13:15:40)](posts/containers_runningGUIApps.md)
 
 [docker.md (Last updated: 2020-03-22 10:57:41)](posts/docker.md)
 
