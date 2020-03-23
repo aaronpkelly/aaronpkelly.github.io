@@ -1,6 +1,6 @@
 
 
-[Running GUI apps in a container.md (Last updated: 2020-03-23 06:50:40)](_posts/Running GUI apps in a container.md)
+[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-23 06:50:40)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
 
 [docker.md (Last updated: 2020-03-22 10:57:41)](_posts/docker.md)
 
