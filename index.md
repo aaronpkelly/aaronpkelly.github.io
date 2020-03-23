@@ -14,7 +14,7 @@ revised, and updated over time.
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
 
-[containers_runningGUIApps.md (Last updated: 2020-03-22 13:15:40)](posts/containers_runningGUIApps.md)
+[Running GUI apps in a container.md (Last updated: 2020-03-22 13:15:40)](posts/Running GUI apps in a container.md)
 
 [docker.md (Last updated: 2020-03-22 10:57:41)](posts/docker.md)
 

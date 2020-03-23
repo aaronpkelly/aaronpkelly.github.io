@@ -15,14 +15,13 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 ## Chrome
 
-It is possible to run Chrome in a container!
+Is it possible to run Chrome in a container? Yes it is!
 
-My original inspiration comes from Jess's blog here: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/
+My original inspiration comes from Jess's blog here: (https://blog.jessfraz.com/post/docker-containers-on-the-desktop/)[https://blog.jessfraz.com/post/docker-containers-on-the-desktop/].
+It uses this (Dockerfile)[https://github.com/jessfraz/dockerfiles/blob/master/chrome/stable/Dockerfile].
 
-Which uses to a Dockerfile here: https://github.com/jessfraz/dockerfiles/blob/master/chrome/stable/Dockerfile
-
-Here's the command that I personally run, it's very much a bare-bones command
-when give me just a basic browser:
+Personally, I have slimmed down the suggested docker run command to something
+that just gives me just a basic browser:
 
 ```
 docker run \
@@ -35,14 +34,16 @@ docker run \
     jess/chrome
 ```
 
-Here it is!:
+Here's the result:
 ![chrome](https://aaronpkelly.github.io/posts/resources/containers_chrome.png)
 
 ## Troubleshooting
 
-The run command I give above is very cut-down. You may need to use a more
-verbose run command, you should check out the command that Jess suggests in her
-Dockerfile.
+If you are having trouble getting the container started, it may be due to a lot
+of factors, but the most likely cause is the run command you are using. The
+command I use above works well for me on Linux, but it is a very cut-down
+example. You should try running the command that Jess suggests in her
+Dockerfile, and see if that improves thing for you.
 
 ### No protocol specified
 
