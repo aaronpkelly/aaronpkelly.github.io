@@ -1,0 +1,5 @@
+plugins:
+  - jekyll-feed
+title: Aaron Kelly's Blog
+description: Aaron Kelly's Blog
+author: Aaron Kelly
