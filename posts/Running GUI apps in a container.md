@@ -1,4 +1,9 @@
 
+---
+layout: post
+title: Blogging Like a Hacker
+---
+
 Table of Contents
 =================
 
