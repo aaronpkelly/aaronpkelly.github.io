@@ -3,7 +3,7 @@
 set -e
 
 INDEX='index.md'
-POSTS_DIR='posts'
+POSTS_DIR='_posts'
 POSTS_FILE='POSTS.md'
 HEADER_FILE='HEADER.md'
 FOOTER_FILE='FOOTER.md'
