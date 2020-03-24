@@ -25,7 +25,7 @@ generatePostList() {
     printf '\n\n' >> "$POSTS_FILE"
 
     IFS=$'\n'
-	for file in $(ls "$POSTS_DIR" -t | grep '.md'); do
+	for file in $(ls "$POSTS_DIR" -t | grep -e '^[0-9].*md$'); do
         echo "processing: $file"
 		LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}/${file}" | cut -d '.' -f1)
 		echo "[$(basename ${file}) (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"

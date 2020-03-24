@@ -3,10 +3,11 @@ to execute" - (SICP)
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
-Hi, I'm Aaron. I'm good at breaking things for a living, and occasionally I'll
-try and put them back together.
+Hey, I'm Aaron. I'm good at breaking things for a living. Occasionally, I'll
+even try and put them back together!
 
 # Posts
+
 Below are my posts! They are the main focus of this website. They contain
 information and opinion about a particular topic, and hopefully be well curated,
 revised, and updated over time.
@@ -14,186 +15,57 @@ revised, and updated over time.
 Some posts will take the form of larger walkthrough guides that I have
 created to share my experiences on a particular topic.
 
-[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-23 06:50:40)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
+If you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
 
-[docker.md (Last updated: 2020-03-22 10:57:41)](_posts/docker.md)
+[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-23 07:04:57)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
 
-[ableton.md (Last updated: 2020-03-22 09:11:37)](_posts/ableton.md)
 
-[audio.md (Last updated: 2020-03-22 09:11:37)](_posts/audio.md)
+# Incubating posts
 
-[aws_api_gateway.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_api_gateway.md)
+Some posts just aren't ready for the limelight yet.
 
-[aws_cloudformation.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_cloudformation.md)
+However, if you wish to get a preview of what's coming up, they are available in
+my git repo as they're being written: [link](https://github.com/aaronpkelly/aaronpkelly.github.io/tree/master/_posts).
 
-[aws_cloudwatch_notificationsToTelegram.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_cloudwatch_notificationsToTelegram.md)
+# Turn that post into a sparkly PDF
 
-[aws_codebuild.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_codebuild.md)
+PDFs of all my articles will soon be on https://gumroad.com, using "pay what you
+want" pricing.
 
-[aws_deployingADockerImageToECS.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_deployingADockerImageToECS.md)
+# Why do this
 
-[aws_fargate.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_fargate.md)
-
-[aws_fargate_ssh.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_fargate_ssh.md)
-
-[aws_lambda_api.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_lambda_api.md)
-
-[aws.md (Last updated: 2020-03-22 09:11:37)](_posts/aws.md)
-
-[aws_s3_serverlessWebsiteHosting.md (Last updated: 2020-03-22 09:11:37)](_posts/aws_s3_serverlessWebsiteHosting.md)
-
-[bookmarks.md (Last updated: 2020-03-22 09:11:37)](_posts/bookmarks.md)
-
-[chaosBox.md (Last updated: 2020-03-22 09:11:37)](_posts/chaosBox.md)
-
-[cicd.md (Last updated: 2020-03-22 09:11:37)](_posts/cicd.md)
-
-[coding.md (Last updated: 2020-03-22 09:11:37)](_posts/coding.md)
-
-[coliving_coworking.md (Last updated: 2020-03-22 09:11:37)](_posts/coliving_coworking.md)
-
-[cv.md (Last updated: 2020-03-22 09:11:37)](_posts/cv.md)
-
-[debugging.md (Last updated: 2020-03-22 09:11:37)](_posts/debugging.md)
-
-[development_bisectingBuilds.md (Last updated: 2020-03-22 09:11:37)](_posts/development_bisectingBuilds.md)
-
-[dockerAndXWindows.md (Last updated: 2020-03-22 09:11:37)](_posts/dockerAndXWindows.md)
-
-[favouriteAlbums.md (Last updated: 2020-03-22 09:11:37)](_posts/favouriteAlbums.md)
-
-[favouriteVideo.md (Last updated: 2020-03-22 09:11:37)](_posts/favouriteVideo.md)
-
-[fileManagers.md (Last updated: 2020-03-22 09:11:37)](_posts/fileManagers.md)
-
-[gameEngines.md (Last updated: 2020-03-22 09:11:37)](_posts/gameEngines.md)
-
-[gaming_cloudGamingServices.md (Last updated: 2020-03-22 09:11:37)](_posts/gaming_cloudGamingServices.md)
-
-[git-bash.md (Last updated: 2020-03-22 09:11:37)](_posts/git-bash.md)
-
-[githubPages.md (Last updated: 2020-03-22 09:11:37)](_posts/githubPages.md)
-
-[git.md (Last updated: 2020-03-22 09:11:37)](_posts/git.md)
-
-[google_takeout.md (Last updated: 2020-03-22 09:11:37)](_posts/google_takeout.md)
-
-[howTo_study.md (Last updated: 2020-03-22 09:11:37)](_posts/howTo_study.md)
-
-[huginn.md (Last updated: 2020-03-22 09:11:37)](_posts/huginn.md)
-
-[IDEs.md (Last updated: 2020-03-22 09:11:37)](_posts/IDEs.md)
-
-[image_classification.md (Last updated: 2020-03-22 09:11:37)](_posts/image_classification.md)
-
-[investing.md (Last updated: 2020-03-22 09:11:37)](_posts/investing.md)
-
-[java_instantMessagingClient.md (Last updated: 2020-03-22 09:11:37)](_posts/java_instantMessagingClient.md)
-
-[javascript_nodejs.md (Last updated: 2020-03-22 09:11:37)](_posts/javascript_nodejs.md)
-
-[javascript_tdd.md (Last updated: 2020-03-22 09:11:37)](_posts/javascript_tdd.md)
-
-[java_swing.md (Last updated: 2020-03-22 09:11:37)](_posts/java_swing.md)
-
-[jekyll.md (Last updated: 2020-03-22 09:11:37)](_posts/jekyll.md)
-
-[linux_backgroundingJobs.md (Last updated: 2020-03-22 09:11:37)](_posts/linux_backgroundingJobs.md)
-
-[linux_distros.md (Last updated: 2020-03-22 09:11:37)](_posts/linux_distros.md)
-
-[linux_namedPipes.md (Last updated: 2020-03-22 09:11:37)](_posts/linux_namedPipes.md)
-
-[mandelbrot.md (Last updated: 2020-03-22 09:11:37)](_posts/mandelbrot.md)
-
-[mbox.md (Last updated: 2020-03-22 09:11:37)](_posts/mbox.md)
-
-[microsoft_graph.md (Last updated: 2020-03-22 09:11:37)](_posts/microsoft_graph.md)
-
-[minecraft.md (Last updated: 2020-03-22 09:11:37)](_posts/minecraft.md)
-
-[music.md (Last updated: 2020-03-22 09:11:37)](_posts/music.md)
-
-[posting.md (Last updated: 2020-03-22 09:11:37)](_posts/posting.md)
-
-[programming_onlineIDEs.md (Last updated: 2020-03-22 09:11:37)](_posts/programming_onlineIDEs.md)
-
-[purchasing.md (Last updated: 2020-03-22 09:11:37)](_posts/purchasing.md)
-
-[raspberryPi.md (Last updated: 2020-03-22 09:11:37)](_posts/raspberryPi.md)
-
-[rss.md (Last updated: 2020-03-22 09:11:37)](_posts/rss.md)
-
-[secureMessaging.md (Last updated: 2020-03-22 09:11:37)](_posts/secureMessaging.md)
-
-[spreadList.md (Last updated: 2020-03-22 09:11:37)](_posts/spreadList.md)
-
-[steam.md (Last updated: 2020-03-22 09:11:37)](_posts/steam.md)
-
-[taskTracking.md (Last updated: 2020-03-22 09:11:37)](_posts/taskTracking.md)
-
-[template_duplicateMe.md (Last updated: 2020-03-22 09:11:37)](_posts/template_duplicateMe.md)
-
-[tilingWindowManagers.md (Last updated: 2020-03-22 09:11:37)](_posts/tilingWindowManagers.md)
-
-[tinyQuest.md (Last updated: 2020-03-22 09:11:37)](_posts/tinyQuest.md)
-
-[toolsIUse.md (Last updated: 2020-03-22 09:11:37)](_posts/toolsIUse.md)
-
-[torrents.md (Last updated: 2020-03-22 09:11:37)](_posts/torrents.md)
-
-[triplej.md (Last updated: 2020-03-22 09:11:37)](_posts/triplej.md)
-
-[twitter.md (Last updated: 2020-03-22 09:11:37)](_posts/twitter.md)
-
-[uncleBob.md (Last updated: 2020-03-22 09:11:37)](_posts/uncleBob.md)
-
-[videoConversion.md (Last updated: 2020-03-22 09:11:37)](_posts/videoConversion.md)
-
-[warcraft.md (Last updated: 2020-03-22 09:11:37)](_posts/warcraft.md)
-
-[webScraping.md (Last updated: 2020-03-22 09:11:37)](_posts/webScraping.md)
-
-[websiteHosting.md (Last updated: 2020-03-22 09:11:37)](_posts/websiteHosting.md)
-
-[windows.md (Last updated: 2020-03-22 09:11:37)](_posts/windows.md)
-
-[windows_wsl2.md (Last updated: 2020-03-22 09:11:37)](_posts/windows_wsl2.md)
-
-[workflows.md (Last updated: 2020-03-22 09:11:37)](_posts/workflows.md)
-
-
-# Get PDFs of all my articles
-PDFs of all my articles will soon be on https://gumroad.com, using
-"pay what you want" pricing.
-
-# My vision for this site
+I decided that writing about my interests is a good way for me to:
 
 - create value from everything I do
-- expose as much of my work as I can into the public domain
-- keep it simple and no fuss 
+- keep the content simple and to the point 
 - make it presentable and shareable
-- use basic markdown
+- expose everything I do in the public domain. Hopefully, it will be useful to
+someone somewhere (I like helping people!), and it will encourage me to keep my
+standards up
 
-# Other sites
+# APIs
 
-I have a bunch of other websites that you may find interesting:
+I love APIs. I've created some backend APIs for websites that I use heavily, but
+who don't offer a public API - frustrating!
 
-[PetiteSheets](http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
-
-[Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
-
-[Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
-
-I also created some APIs for websites that I use heavily, but don't offer a
-public API themselves. Below are the websites that act as a front-end to these
-APIs:
+Below are some static frontend websites that use my APIs a the backend:
 
 [TinyTimetable - DublinBikes](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
 
 [TinyTimetable - DublinBus](http://app-bucket-dublin-bus-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
 
 [TinyWeather](http://app-bucket-weather-dublin-tinyweather.s3-website-eu-west-1.amazonaws.com/)
+
+# Other projects that I'd like to monetize someday
+
+I have a bunch of other pet projects that I occasionally work on from time to
+time, with a hope to charging a small monthly membership for.
+
+[PetiteSheets](http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
+
+[Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
+
+[Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
 
 # Contact
 
@@ -204,6 +76,8 @@ twitter: https://twitter.com/aaronpaulkelly
 bandcamp: aaronkelly.bandcamp.com
 
 # Donate
+
+If you've found anything here useful, please consider my caffeine levels
 
 [Buy Me a Coffee](https://www.buymeacoffee.com/aaronkelly)
 
