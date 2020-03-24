@@ -35,7 +35,7 @@ docker run \
 ```
 
 Here's the result:
-![chrome](https://aaronpkelly.github.io/_posts/resources/containers_chrome.png)
+![chrome](https://github.com/aaronpkelly/aaronpkelly.github.io/tree/master/_posts/containers_chrome.png)
 
 ## Troubleshooting
 
