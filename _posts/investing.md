@@ -19,13 +19,14 @@ more than 10% of your net worth in these investments
 Warren Buffet:
 - If you don't find a way to make money while you sleep, you will work until you die
 - Stocks have always tended to take an escalator up and an elevator down
+- Buy fear, sell greed
 
 Aaron Kelly:
 - you will never know your tolerance to risk until you come face-to-face with a bear
 
 Unknown:
 - the cobbler has the worst shoes
-- Mighty oaks from little acorns grow
+- mighty oaks from little acorns grow
 
 
 # Keep in mind
