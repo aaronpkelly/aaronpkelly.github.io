@@ -3,8 +3,7 @@ to execute" - (SICP)
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
-Hey, I'm Aaron. I'm good at breaking things for a living. Occasionally, I'll
-even try and put them back together!
+Hey, I'm Aaron, and I'm really good at breaking things for a living. Sometimes, I'll even try to put them back together!
 
 # Posts
 

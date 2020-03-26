@@ -3,8 +3,7 @@ to execute" - (SICP)
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
-Hey, I'm Aaron. I'm good at breaking things for a living. Occasionally, I'll
-even try and put them back together!
+Hey, I'm Aaron, and I'm really good at breaking things for a living. Sometimes, I'll even try to put them back together!
 
 # Posts
 
@@ -17,7 +16,9 @@ created to share my experiences on a particular topic.
 
 If you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
 
-[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-23 07:04:57)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
+[2020-01-01-creating-a-rss-feed-for-github-pages.md (Last updated: 2020-03-26 22:11:22)](_posts/2020-01-01-creating-a-rss-feed-for-github-pages.md)
+
+[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-24 06:47:40)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
 
 
 # Incubating posts
