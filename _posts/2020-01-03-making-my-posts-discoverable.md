@@ -20,13 +20,13 @@ I was about to commit to installing an extra plugin, but before I committed... I
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Making My Blog Discoverable | Aaron Kelly’s Blog</title>
+<title>Making My Posts Discoverable | Aaron Kelly’s Blog</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Making My Blog Discoverable" />
+<meta property="og:title" content="Making My Posts Discoverable" />
 <meta name="author" content="Aaron Kelly" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Making my blog discoverable" />
-<meta property="og:description" content="Making my blog discoverable" />
+<meta name="description" content="Making my posts discoverable" />
+<meta property="og:description" content="Making my posts discoverable" />
 <link rel="canonical" href="https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html" />
 <meta property="og:url" content="https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html" />
 <meta property="og:site_name" content="Aaron Kelly’s Blog" />
