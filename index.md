@@ -1,7 +1,7 @@
 "Programs must be written for people to read and only incidentally for machines
 to execute" - (SICP)
 
-Howdy, I'm Aaron, and I'm really good at breaking things. I've even made a living out of it. Sometimes, just sometimes... I'll even try to put those things back together, and learn something in the process!
+Howdy, I'm Aaron, and I'm really good at breaking things. So much so, I've even made a living out of it! Someitmes if the mood takes me I'll even try putting those things back together, and if I learn something in the process... I'll write a post about it!
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
@@ -13,11 +13,11 @@ Some posts will have different flavours and focus. Some will exist simply to  sh
 
 Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
 
-[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-24 06:47:40)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
+[2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-03-28 18:54:24)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
 
-[2020-01-03-making-my-posts-discoverable.md (Last updated: 2020-03-28 18:34:14)](_posts/2020-01-03-making-my-posts-discoverable.md)
+[2020-01-03-making-my-posts-discoverable.md (Last updated: 2020-03-28 18:44:37)](_posts/2020-01-03-making-my-posts-discoverable.md)
 
-[2020-01-01-creating-a-rss-feed-for-github-pages.md (Last updated: 2020-03-26 22:37:15)](_posts/2020-01-01-creating-a-rss-feed-for-github-pages.md)
+[2020-01-01-creating-a-rss-feed-for-github-pages.md (Last updated: 2020-03-28 18:46:45)](_posts/2020-01-01-creating-a-rss-feed-for-github-pages.md)
 
 
 # Incubating posts
