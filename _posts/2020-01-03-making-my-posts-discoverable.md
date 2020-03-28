@@ -59,7 +59,7 @@ description: Using the Jekyll SEO Plugin to index my blog posts on Github Pages
 ---
 ```
 
-After committing my changes and waiting for the page to be rebuilt, what was the result in the HTML?:
+After committing my changes and waiting for the page to be rebuilt, what was the result? Here it is:
 
 ```
 <!DOCTYPE html>
