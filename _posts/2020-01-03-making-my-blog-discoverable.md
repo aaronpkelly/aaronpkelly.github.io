@@ -1,3 +1,8 @@
+---
+title: Making my blog discoverable
+description: Using the Jekyll SEO Plugin to index my blog posts
+---
+
 # Making my blog discoverable
 
 I'm not sure how discoverable blogs that are hosted on Github Pages are, but I came across [this article](https://github.blog/2016-05-10-better-discoverability-for-github-pages-sites/) that seems to indicate that search engine optimisation is a valid concern, and that there is help out there in the form of a Jekyll plugin.
@@ -15,24 +20,50 @@ I was about to commit to installing an extra plugin, but before I committed... I
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Aaron Kelly’s Blog | Aaron Kelly’s Blog</title>
+<title>Making My Blog Discoverable | Aaron Kelly’s Blog</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Aaron Kelly’s Blog" />
+<meta property="og:title" content="Making My Blog Discoverable" />
 <meta name="author" content="Aaron Kelly" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Aaron Kelly’s Blog" />
-<meta property="og:description" content="Aaron Kelly’s Blog" />
-<link rel="canonical" href="https://aaronpkelly.github.io/" />
-<meta property="og:url" content="https://aaronpkelly.github.io/" />
+<meta name="description" content="Making my blog discoverable" />
+<meta property="og:description" content="Making my blog discoverable" />
+<link rel="canonical" href="https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html" />
+<meta property="og:url" content="https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html" />
 <meta property="og:site_name" content="Aaron Kelly’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-03T00:00:00+00:00" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"https://aaronpkelly.github.io/","name":"Aaron Kelly’s Blog","author":{"@type":"Person","name":"Aaron Kelly"},"headline":"Aaron Kelly’s Blog","description":"Aaron Kelly’s Blog","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html"},"@type":"BlogPosting","url":"https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html","author":{"@type":"Person","name":"Aaron Kelly"},"headline":"Making My Blog Discoverable","dateModified":"2020-01-03T00:00:00+00:00","datePublished":"2020-01-03T00:00:00+00:00","description":"Making my blog discoverable","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=0d556b608acb40ad37c3e0461094a7fb6acf4be3">
+    <link rel="stylesheet" href="/assets/css/style.css?v=650a48ca270b25ea183cc8f9feb2e4593004c2b2">
   </head>
 ```
 
 Boom. It looks like Jekyll SEO optimisation is done automatically for me, no need to install any additional plugins. Easy win!
+
+However... what's included in the tags doesn't really look useful. Any search engine that index's my post won't really have much idea of the content using these tags. Looks like there's more work to do!
+
+# Proving extra metdata to search engines using Jekyll front-matter
+
+According to [the documentation](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md), the SEO plugin will include extra information if I provide some Jekyll front-matter in my post, such as title and description.
+
+The output in the previous section is what I get when I provide **no** Jekyll front-matter in a post.
+
+So, lets see if providing some extra information at the beginning changes things. Using [these docs](https://jekyllrb.com/docs/front-matter/) as a reference, here's what I'll try adding to the beginning of my post:
+
+```
+---
+title: Making my blog discoverable
+description: Using the Jekyll SEO Plugin to index my blog posts
+---
+```
+
+After committing my changes and waiting for the page to be rebuilt, what was the result in the HTML?:
+
+```
+```
+
+# More information about the Jekyll SEO Tag plugin
 
 Just in-case you're hosting your own Jekyll blog and need to install this plugin yourself, the official [installation instructions](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/installation.md) will have you covered.
