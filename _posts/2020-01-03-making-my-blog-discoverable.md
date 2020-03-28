@@ -1,11 +1,11 @@
 ---
-title: Making my blog discoverable
+title: Making my posts discoverable
 description: Using the Jekyll SEO Plugin to index my blog posts
 ---
 
-# Making my blog discoverable
+# Making my posts discoverable
 
-I'm not sure how discoverable blogs that are hosted on Github Pages are, but I came across [this article](https://github.blog/2016-05-10-better-discoverability-for-github-pages-sites/) that seems to indicate that search engine optimisation is a valid concern, and that there is help out there in the form of a Jekyll plugin.
+I'm not sure how discoverable blog posts that are hosted on Github Pages are, but I came across [this article](https://github.blog/2016-05-10-better-discoverability-for-github-pages-sites/) that seems to indicate that search engine optimisation is a valid concern, and that there is help out there in the form of a Jekyll plugin.
 
 Although I generally  try to avoid installing plugins where possible, I also want to make sure my content reaches an audience!
 
@@ -33,7 +33,7 @@ I was about to commit to installing an extra plugin, but before I committed... I
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-01-03T00:00:00+00:00" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html"},"@type":"BlogPosting","url":"https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html","author":{"@type":"Person","name":"Aaron Kelly"},"headline":"Making My Blog Discoverable","dateModified":"2020-01-03T00:00:00+00:00","datePublished":"2020-01-03T00:00:00+00:00","description":"Making my blog discoverable","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html"},"@type":"BlogPosting","url":"https://aaronpkelly.github.io/2020/01/03/making-my-blog-discoverable.html","author":{"@type":"Person","name":"Aaron Kelly"},"headline":"Making My Posts Discoverable","dateModified":"2020-01-03T00:00:00+00:00","datePublished":"2020-01-03T00:00:00+00:00","description":"Making my posts discoverable","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/assets/css/style.css?v=650a48ca270b25ea183cc8f9feb2e4593004c2b2">
@@ -54,7 +54,7 @@ So, lets see if providing some extra information at the beginning changes things
 
 ```
 ---
-title: Making my blog discoverable
+title: Making my posts discoverable
 description: Using the Jekyll SEO Plugin to index my blog posts
 ---
 ```
