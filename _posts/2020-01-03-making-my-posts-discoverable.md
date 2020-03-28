@@ -62,7 +62,35 @@ description: Using the Jekyll SEO Plugin to index my blog posts on Github Pages
 After committing my changes and waiting for the page to be rebuilt, what was the result in the HTML?:
 
 ```
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Making my posts discoverable | Aaron Kelly’s Blog</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Making my posts discoverable" />
+<meta name="author" content="Aaron Kelly" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Using the Jekyll SEO Plugin to index my blog posts on Github Pages" />
+<meta property="og:description" content="Using the Jekyll SEO Plugin to index my blog posts on Github Pages" />
+<link rel="canonical" href="https://aaronpkelly.github.io/2020/01/03/making-my-posts-discoverable.html" />
+<meta property="og:url" content="https://aaronpkelly.github.io/2020/01/03/making-my-posts-discoverable.html" />
+<meta property="og:site_name" content="Aaron Kelly’s Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-01-03T00:00:00+00:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://aaronpkelly.github.io/2020/01/03/making-my-posts-discoverable.html"},"@type":"BlogPosting","url":"https://aaronpkelly.github.io/2020/01/03/making-my-posts-discoverable.html","author":{"@type":"Person","name":"Aaron Kelly"},"headline":"Making my posts discoverable","dateModified":"2020-01-03T00:00:00+00:00","datePublished":"2020-01-03T00:00:00+00:00","description":"Using the Jekyll SEO Plugin to index my blog posts on Github Pages","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=4d112552ff41cd9575406760a170ad14ab16ac25">
+  </head>
 ```
+
+That looks much better! There's much more metadata available to search engines now, which will hopefully help anyone who's searching for content that I've written about.
 
 # More information about the Jekyll SEO Tag plugin
 
