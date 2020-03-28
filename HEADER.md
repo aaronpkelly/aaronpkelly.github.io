@@ -1,17 +1,14 @@
 "Programs must be written for people to read and only incidentally for machines
 to execute" - (SICP)
 
-![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
+Howdy, I'm Aaron, and I'm really good at breaking things for a living. Sometimes, I'll even try to put those things together, and write about my varying levels of success!
 
-Hey, I'm Aaron, and I'm really good at breaking things for a living. Sometimes, I'll even try to put them back together!
+![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
 # Posts
 
-Below are my posts! They are the main focus of this website. They contain
-information and opinion about a particular topic, and hopefully be well curated,
-revised, and updated over time.
+Posts are the the main focus of my website. My aim for them is to contain insightful, well-curated and to-the-point information about a particular topic. They will also be revised and updated over time.
 
-Some posts will take the form of larger walkthrough guides that I have
-created to share my experiences on a particular topic.
+Some posts will have different flavours and focus. Some will exist simply to  share my narrow experiences on a particular topic, however some may take the form of larger walkthrough guides that I have compiled over a long period of time.
 
-If you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
+Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
