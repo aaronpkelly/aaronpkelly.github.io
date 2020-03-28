@@ -1,3 +1,12 @@
+
+Table of Contents
+=================
+
+
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
+
+
 = 
 
 I'm not sure how discoverable blogs that are hosted on Github Pages are, but I came across [this article](https://github.blog/2016-05-10-better-discoverability-for-github-pages-sites/) that seems to indicate that search engine optimisation is a valid concern, and that there is help out there in the form of a Jekyll plugin.
