@@ -1,6 +1,6 @@
 ---
 title: Making my posts discoverable
-description: Using the Jekyll SEO Plugin to index my blog posts
+description: Using the Jekyll SEO Plugin to index my blog posts on Github Pages
 ---
 
 # Making my posts discoverable
@@ -46,7 +46,7 @@ However... what's included in the tags doesn't really look useful. Any search en
 
 # Proving extra metdata to search engines using Jekyll front-matter
 
-According to [the documentation](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md), the SEO plugin will include extra information if I provide some Jekyll front-matter in my post, such as title and description.
+According to [the documentation](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md), the SEO plugin will include extra information if I provide some Jekyll front-matter in my post, including probably the most importing meta-tags, `title` (self-explanatory), and `description` - which ideally should be a short, punchy ~140 char length that summarises the contents.
 
 The output in the previous section is what I get when I provide **no** Jekyll front-matter in a post.
 
@@ -55,7 +55,7 @@ So, lets see if providing some extra information at the beginning changes things
 ```
 ---
 title: Making my posts discoverable
-description: Using the Jekyll SEO Plugin to index my blog posts
+description: Using the Jekyll SEO Plugin to index my blog posts on Github Pages
 ---
 ```
 
