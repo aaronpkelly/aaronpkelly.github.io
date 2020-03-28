@@ -1,3 +1,8 @@
+---
+title: Containerising GUI apps
+description: How to containerise and run GUI applications, such as Chrome, inside a container
+---
+
 Table of Contents
 =================
 
@@ -10,7 +15,7 @@ Table of Contents
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 
-# Running GUI Apps in a Container
+# Containerising GUI apps
 
 ## Chrome
 

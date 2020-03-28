@@ -1,3 +1,8 @@
+---
+title: Creating a RSS feed for Github Pages
+description: How I added an RSS feed to my blog on Github Pages using jekyll-feed
+---
+
 # Creating a RSS feed for Github Pages
 
 In the beginning, it was good. A large folder of posts, some simple bash scripts to generate an index with links to all of them... all was well. Soon however, I realised I was missing something I really wanted - the ability to offer a good RSS feed to my readers.
