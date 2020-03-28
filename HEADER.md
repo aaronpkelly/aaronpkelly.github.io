@@ -1,7 +1,7 @@
 "Programs must be written for people to read and only incidentally for machines
 to execute" - (SICP)
 
-Howdy, I'm Aaron, and I'm really good at breaking things for a living. Sometimes, I'll even try to put those things together, and write about my varying levels of success!
+Howdy, I'm Aaron, and I'm really good at breaking things. I've even made a living out of it. Sometimes, just sometimes... I'll even try to put those things back together, and learn something in the process!
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
