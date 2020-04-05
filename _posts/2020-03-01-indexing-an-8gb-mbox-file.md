@@ -1,6 +1,6 @@
 ---
 title: Indexing an 8GB MBOX file
-description: How I added an RSS feed to my blog on Github Pages using jekyll-feed
+description: A post series on how I indexed an 8GB MBOX file
 ---
 
 # Indexing an 8GB MBOX file
@@ -19,7 +19,7 @@ Here are the posts in order:
 
 [Preparing text files for indexing]({% _2020-03-05-preparing-text-files-for-indexing.md  %})
 
-[Searching for an Indexing Tool]({% _2020-03-05-searching-for-an-indexing-tool  %})
+[Searching for an Indexing Tool]({% _2020-03-06-searching-for-an-indexing-tool  %})
 ```
 
 tags: search, indexing, meilisearch, elasticsearch, aws, elasticache, google, takeout
