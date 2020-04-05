@@ -71,7 +71,7 @@ def convertFileToDict(filename, theFile):
 		fromLine = theFile.readline()
 		dateLine = theFile.readline()
 		toLine = theFile.readline()
-		payloadLines = theFile.readlines()
+		payloadLines = theFile.read()
 
 		emailDict = {}
 
