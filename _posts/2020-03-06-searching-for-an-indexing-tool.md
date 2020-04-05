@@ -43,14 +43,18 @@ Just when I had given up hope - something amazing happened. I came across [this 
 
 ## Creating an index 
 
+```
 curl -i \
     -X POST 'http://localhost:7700/indexes' \
     --data '{ "name": "Emails", "uid": "emails" }'
+```
 
 ## Sending JSON-ified emails to Mellisearch
 
+```
 curl \
     -i \
     -X POST 'http://localhost:7700/indexes/emails/documents' \
     --header 'content-type: application/json' \
     --data-binary @myEmail.json
+```
