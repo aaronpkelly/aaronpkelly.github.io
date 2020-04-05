@@ -25,7 +25,7 @@ Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed
 
 [2020-03-02-exfiltrating-data-from-cloud-services.md (Last updated: 2020-04-05 07:17:23)](_posts/2020-03-02-exfiltrating-data-from-cloud-services.md)
 
-[2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-05 08:48:30)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
+[2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-05 08:52:38)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
 
 [2020-02-01-tools-i-use-on-linux-and-windows.md (Last updated: 2020-04-05 07:28:20)](_posts/2020-02-01-tools-i-use-on-linux-and-windows.md)
 
