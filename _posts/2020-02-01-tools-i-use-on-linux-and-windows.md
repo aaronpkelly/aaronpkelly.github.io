@@ -40,6 +40,7 @@ Command-line tools:
     - mpg123 - quick and dirty mp3 player
     - mplayer (see note below): quick and dirty general player (FLAC support!)
     - ogg123 - quick and dirty ogg player
+    - https://github.com/Rigellute/spotify-tui: excellent command-line music player for spotify
     ~ cmus
     ~ moc
 - asciicinema

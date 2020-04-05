@@ -61,4 +61,4 @@ If you've found anything here useful, please consider my caffeine levels
 
 [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url)
 
-other ways: patreon / stripe / dwolla / flattr / wepay / bitcoin (coming soon)
+other ways: patreon / github sponsors / donorbox.orgstripe / dwolla / flattr / wepay / bitcoin (coming soon)
