@@ -10,6 +10,7 @@ gigantic mailbox, containing ~15 years worth of email and attachments.
 
 Here are the posts in order:
 
+[Exfiltrating data from Cloud Services]({% post_url 2020-03-02-exfiltrating-data-from-cloud-services %})
 
 
 tags: search, indexing, meilisearch, elasticsearch, aws, elasticache, google, takeout
