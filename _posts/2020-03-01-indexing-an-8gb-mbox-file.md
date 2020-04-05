@@ -10,14 +10,6 @@ gigantic mailbox, containing ~15 years worth of email and attachments.
 
 Here are the posts in order:
 
-[Exfiltrating data from Cloud Services]({% post_url 2020-03-02-exfiltrating-data-from-cloud-services %})
 
-[Journey to the Center of the MBOX]({% post_url 2020-03-02-journey-to-the-center-of-the-mbox %})
-
-[Sorting and Formatting the MBOX output]({% post_url 2020-03-03-sorting-and-formatting-the-mbox-output %})
-
-[Preparing text files for indexing]({% post_url 2020-03-05-preparing-text-files-for-indexing  %})
-
-[Searching for an Indexing Tool]({% post_url 2020-03-06-searching-for-an-indexing-tool %})
 
 tags: search, indexing, meilisearch, elasticsearch, aws, elasticache, google, takeout
