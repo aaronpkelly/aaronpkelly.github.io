@@ -37,7 +37,7 @@ visualise data, but also to enter it. I'll update this section when I know more
 As a test, I decided to see if I could submit their _accounts.json_ sample data
 set to my Elasticsearch instance:
 
-# Mellisearch!
+# MeiliSearch - you are the chosen one
 
 Just when I had given up hope - something amazing happened. I came across [this post](https://news.ycombinator.com/item?id=22685831) on hacker news. It was a tool that performed indexing similar to Elasticsearch, but was much simpler: https://github.com/meilisearch/MeiliSearch
 
