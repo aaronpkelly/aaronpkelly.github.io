@@ -78,6 +78,12 @@ Command-line tools:
 ~ hwinfo
 ~ ? musikcube (windows)
 
+# Stuff I want to try, but haven't
+
+https://directory.fsf.org/wiki/Etherpad
+https://directory.fsf.org/wiki/Nextcloud
+https://github.com/Upload/Up1
+
 # Additional information on specific tools
 
 ## mplayer

@@ -1,6 +1,11 @@
 ---
 title: Creating a RSS feed for Github Pages
 description: How I added an RSS feed to my blog on Github Pages using jekyll-feed
+tags:
+    - jekyll
+    - rss
+    - github
+    - jekyll-feed
 ---
 
 # Creating a RSS feed for Github Pages
