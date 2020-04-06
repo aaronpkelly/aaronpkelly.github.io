@@ -13,4 +13,4 @@ Benefits:
 - a comprehensive, annotated record of tasks and steps performed
 - immediately creating value from my efforts
 
-Funnily enough, a guy on hackernews also suggested this as a good method, I'm glad I'm not the only crazy person: https://news.ycombinator.com/item?id=22778123
+Funnily enough, a guy on hackernews also suggested this as a good method, I'm glad I'm not the only crazy person: [link](https://news.ycombinator.com/item?id=22778123)
