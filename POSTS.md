@@ -20,7 +20,7 @@
 
 [2020-02-01-game-ideas.md (Last updated: 2020-04-07 10:49:12)](_posts/2020-02-01-game-ideas.md)
 
-[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-06 13:06:41)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
+[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-07 16:38:18)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
 [2020-01-06-using-nextdns-without-a-service.md (Last updated: 2020-04-05 18:08:47)](_posts/2020-01-06-using-nextdns-without-a-service.md)
 

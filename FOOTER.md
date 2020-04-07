@@ -5,11 +5,6 @@ Some posts just aren't ready for the limelight yet.
 However, if you wish to get a preview of what's coming up, they are available in
 my git repo as they're being written: [link](https://github.com/aaronpkelly/aaronpkelly.github.io/tree/master/_posts).
 
-# Turn that post into a sparkly PDF
-
-PDFs of all my articles will soon be on https://gumroad.com, using "pay what you
-want" pricing.
-
 # Why do this
 
 I decided that writing about my interests is a good way for me to:
@@ -20,6 +15,11 @@ I decided that writing about my interests is a good way for me to:
 - expose everything I do in the public domain. Hopefully, it will be useful to
 someone somewhere (I like helping people!), and it will encourage me to keep my
 standards up
+
+# Turn that post into a sparkly PDF
+
+PDFs of all my articles will soon be on https://gumroad.com, using "pay what you
+want" pricing.
 
 # APIs
 
@@ -47,9 +47,9 @@ time, with a hope to charging a small monthly membership for.
 
 # Other blogs and peeps I follow
 
-https://github.com/WatkinGoWrong
+[https://github.com/WatkinGoWrong](https://github.com/WatkinGoWrong)
 
-https://blog.fredericrous.com/
+[https://blog.fredericrous.com/](https://blog.fredericrous.com/)
 
 
 # Contact

@@ -13,21 +13,19 @@ A quick asciiflow infinity diagram showing how I want to be able to write and pu
 
 Hopefully this will expand to be a fully automated pipeline, e.g. edit/add a document in mardown, and it will ripple through and update all my services.
 
-          +----> pages.github.com
-          |
-          |
-          |
-          |
-          |
-          |
-markdown  +----> api
-          |
-          |
-          |
-          |
-          |
-          |
-          |
-          +----> json +---------> meilisearch
+```
+                              +--------> pages.github.com                               curl blog posts, bash scripts, cheat sheets, everything!
+                              |
+                              |                                                          +
+                              |                                                          |
+                              +                                                          v
+
+ gitpod.io     +------>  github.com  +----->  CI tool +-------------> S3 bucket +-----> api
+
+(blog posts,                              /github actions?                +
+bash scripts,                                                             |
+...)                                                                      +--->  lambda +---> json +---> meilisearch
+
+```
 
 generated with: http://asciiflow.com/

@@ -33,7 +33,7 @@ Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed
 
 [2020-02-01-game-ideas.md (Last updated: 2020-04-07 10:49:12)](_posts/2020-02-01-game-ideas.md)
 
-[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-06 13:06:41)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
+[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-07 16:38:18)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
 [2020-01-06-using-nextdns-without-a-service.md (Last updated: 2020-04-05 18:08:47)](_posts/2020-01-06-using-nextdns-without-a-service.md)
 
@@ -55,11 +55,6 @@ Some posts just aren't ready for the limelight yet.
 However, if you wish to get a preview of what's coming up, they are available in
 my git repo as they're being written: [link](https://github.com/aaronpkelly/aaronpkelly.github.io/tree/master/_posts).
 
-# Turn that post into a sparkly PDF
-
-PDFs of all my articles will soon be on https://gumroad.com, using "pay what you
-want" pricing.
-
 # Why do this
 
 I decided that writing about my interests is a good way for me to:
@@ -70,6 +65,11 @@ I decided that writing about my interests is a good way for me to:
 - expose everything I do in the public domain. Hopefully, it will be useful to
 someone somewhere (I like helping people!), and it will encourage me to keep my
 standards up
+
+# Turn that post into a sparkly PDF
+
+PDFs of all my articles will soon be on https://gumroad.com, using "pay what you
+want" pricing.
 
 # APIs
 
@@ -97,9 +97,9 @@ time, with a hope to charging a small monthly membership for.
 
 # Other blogs and peeps I follow
 
-https://github.com/WatkinGoWrong
+[https://github.com/WatkinGoWrong](https://github.com/WatkinGoWrong)
 
-https://blog.fredericrous.com/
+[https://blog.fredericrous.com/](https://blog.fredericrous.com/)
 
 
 # Contact
