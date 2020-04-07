@@ -391,7 +391,6 @@ http://programming-motherfucker.com/become.html
 https://progur.com/ [DONE]
 
 ### music for programming
-https://generative.fm/
 http://musicforprogramming.net/
 http://datassette.net/businessfunk/
 http://comtruise.com/kc/

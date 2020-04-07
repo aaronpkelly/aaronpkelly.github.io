@@ -45,6 +45,12 @@ time, with a hope to charging a small monthly membership for.
 
 [Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
 
+# Other blogs and peeps I follow
+
+https://github.com/WatkinGoWrong
+
+https://blog.fredericrous.com/ 
+
 # Contact
 
 email: aaronkelly@fastmail.com
