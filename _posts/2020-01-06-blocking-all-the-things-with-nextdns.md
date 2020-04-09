@@ -32,7 +32,9 @@ Set the IPv4 and IPv6 DNS connections using the values given at https://my.nextd
 
 For both IPv4 and IPv6, change the network configuration method to _Automatic, Addresses Only_, in order to ONLY use the domain name servers that you nominate. If you don't choose this, the DNS values you provide will only be considered _Additional DNS servers_, which is not what you want! You want to exclusively use only the values you specify.
 
-Reconnect to your network.
+NOTE: I use Gnome's NetworkManager to manage my WIFI connections, RedHat have some good documentation on IPv4 and IPv6 configuration [here](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/sec-configuring_ipv4_settings).
+
+Reconnect to your network. You should immediately see that your _/etc/resolv.conf_ is updated with your DNS servers immediately.
 
 Verify that the DNS servers are configured correctly, I use `nmcli`. It will output a bunch of information about your network adapters, but it's whats printed at the bottom that is of most interest:
 
@@ -45,7 +47,13 @@ DNS configuration:
         interface: wlan0
 ```
 
-## So... what am I missing out on?
+You can also go to https://my.nextdns.io/ and it will confirm that you're using their DNS, and that your configuratin is OK:
+
+![nextdns](/assets/nextdns_allgood.png)
+
+# So... I don't have the daemon. What am I missing out on? (INCUBATING)
+
+This section isn't very well explored yet.
 
 I haven't had a chance to explore what the 'NextDNS Open-Source UNIX Client' actually gives me, I haven't been able to install it successfully.
 
@@ -74,6 +82,3 @@ INFO: 18:54:20 Connected 78.141.193.90:443 (con=50ms tls=49ms, TLS13)
 INFO: 18:54:20 Switching endpoint: https://vultr-lon-1.edge.nextdns.io#78.141.193.90,2a05:f480:1000:3ee:5400:2ff:fe99:7256
 ```
 
-Check that the website also confirms that you're using their service:
-
-![nextdns](/assets/nextdns_allgood.png)
