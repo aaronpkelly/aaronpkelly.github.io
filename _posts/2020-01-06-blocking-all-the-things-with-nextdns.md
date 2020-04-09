@@ -8,6 +8,8 @@ tags:
     - pi-hole
 ---
 
+= Blocking all the things with NextDNS
+
 I like blocking things. I'm currently using [UBlock](https://github.com/gorhill/uBlock) and it's fantastic. However, it works at the browser level, and I sometimes feel that I'm interacting with it more than I should be.
 
 There are other options that manage blocking for you. [pi-hole](https://github.com/pi-hole/pi-hole) is another software/hardware DNS sinkhole that filters out network traffic from unwanted domains, and it worked very well also. However it did end up being another device to manage, and I found I always wanted to poach the pi for running another project :)
@@ -18,7 +20,7 @@ Moving further up the chain... there is a cloud solution that I heard good thing
 
 - "Yes. NextDNS is a validating DNSSEC resolver. This means that for domains implemeting DNSSEC, NextDNS will cryptographically ensure that the response provided matches the intended response of the domain operator. If the validation fails, NextDNS will return an empty answer."
 
-# Using NextDNS Without Installing a Service
+# Using NextDNS's DNS service without installing their service/daemon
 
 I'm currently using a linux distro that doesn't use systemd as an init system, so the typical [installation instructions](https://github.com/nextdns/nextdns#install) will fail at the end when it tries to install the service.
 
