@@ -8,7 +8,7 @@ tags:
     - pi-hole
 ---
 
-= Blocking all the things with NextDNS
+# Blocking all the things with NextDNS
 
 I like blocking things. I'm currently using [UBlock](https://github.com/gorhill/uBlock) and it's fantastic. However, it works at the browser level, and I sometimes feel that I'm interacting with it more than I should be.
 
