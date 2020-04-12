@@ -12,7 +12,7 @@
 
 [2020-03-03-journey-to-the-center-of-the-mbox.md (Last updated: 2020-04-05 07:35:00)](_posts/2020-03-03-journey-to-the-center-of-the-mbox.md)
 
-[2020-03-02-exfiltrating-data-from-cloud-services.md (Last updated: 2020-04-12 08:32:04)](_posts/2020-03-02-exfiltrating-data-from-cloud-services.md)
+[2020-03-02-exfiltrating-data-from-cloud-services.md (Last updated: 2020-04-12 08:42:38)](_posts/2020-03-02-exfiltrating-data-from-cloud-services.md)
 
 [2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-12 08:34:22)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
 
@@ -24,13 +24,15 @@
 
 [2020-02-01-game-ideas.md (Last updated: 2020-04-07 21:50:34)](_posts/2020-02-01-game-ideas.md)
 
+[2020-01-08-the-hunt-for-my-digital-life-pre-2004.md (Last updated: 2020-04-12 09:42:33)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
+
 [2020-01-08-glossary.md (Last updated: 2020-04-12 08:18:17)](_posts/2020-01-08-glossary.md)
 
 [2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-12 08:17:22)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
 [2020-01-06-blocking-all-the-things-with-nextdns.md (Last updated: 2020-04-09 07:23:28)](_posts/2020-01-06-blocking-all-the-things-with-nextdns.md)
 
-[2020-01-05-tools-i-use-on-linux-and-windows.md (Last updated: 2020-04-12 08:28:53)](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
+[2020-01-05-tools-i-use-on-linux-and-windows.md (Last updated: 2020-04-12 08:47:18)](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
 
 [2020-01-04-deploying-an-app-to-heroku.md (Last updated: 2020-04-07 11:44:28)](_posts/2020-01-04-deploying-an-app-to-heroku.md)
 
