@@ -49,7 +49,7 @@ Command-line tools:
     - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 - ffmpeg
 - firefox / firefox dev browser:
-    - addons: dark reader, fraidyc.at, ublock origin, tree-style tabs
+    - addons: dark reader, ublock origin, tree-style tabs
 - jq: json processor
 - rclone: great utility, but I mostly use AWS S3 for everything these days
 - xz - lossless compression program based on LZMA/LZMA2 compression algorithms
@@ -61,9 +61,9 @@ Command-line tools:
 
 - rufus (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image flau- bleachbit - disk space cleaner
 - chocolatey - package manager for windows
-- diskpart - command-line disk partitioning utilityfraidyc.at/www.repairwin.com/fix-diskpart-has-encountered-an-error-the-parameterfraidyc.at/
+- diskpart - command-line disk partitioning utility
 - ext2fsd - mount linux partitions on windows
-- git-bash - linux-like command-line for windows. ufraidyc.at/addditional programs here
+- git-bash - linux-like command-line for windows
 - greenshot - screenshot program
 - itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
 - nirsoft suite (nirlauncher.exuue as a GUI )
@@ -76,6 +76,12 @@ Command-line tools:
 - xmlstarlet
 ~ hwinfo
 ~ ? musikcube (windows)
+
+# Browser extensions/addons
+
+## fraidyc.at
+
+Great way to follow things without the feeling that you need to catch-up and read everything. If you are getting the error `NetworkError when attempting to fetch resource` or similar, check that your browser's network settings are set to _Auto-detect proxy settings for this network_.
 
 # Additional information on specific tools
 
