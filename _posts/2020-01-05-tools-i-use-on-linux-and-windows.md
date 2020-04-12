@@ -59,15 +59,14 @@ Command-line tools:
 
 # Windows
 
-- rufus (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image flashing
-- bleachbit - disk space cleaner
+- rufus (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image flau- bleachbit - disk space cleaner
 - chocolatey - package manager for windows
 - diskpart - command-line disk partitioning utilityfraidyc.at/www.repairwin.com/fix-diskpart-has-encountered-an-error-the-parameterfraidyc.at/
 - ext2fsd - mount linux partitions on windows
 - git-bash - linux-like command-line for windows. ufraidyc.at/addditional programs here
 - greenshot - screenshot program
 - itunes - regrettably it's the only reliable ipod management program on windows (Clementine doesn't support devices atm)
-- nirsoft suite (nirlauncher.exe as a GUI )
+- nirsoft suite (nirlauncher.exuue as a GUI )
 - screentogif
 - spacesniffer (successor to windDirStat)
 - sysinternals suite
@@ -77,12 +76,6 @@ Command-line tools:
 - xmlstarlet
 ~ hwinfo
 ~ ? musikcube (windows)
-
-# Stuff I want to try, but haven't
-
-https://directory.fsf.org/wiki/Etherpad
-https://directory.fsf.org/wiki/Nextcloud
-https://github.com/Upload/Up1
 
 # Additional information on specific tools
 
@@ -116,3 +109,11 @@ $ mplayer -really-quiet -vo caca fireplace.mp4
     Whitelist:
 
     Shortcuts: Relax blocking mode: _Ctrl+Space_
+
+
+# Bonus: tools I *want* to try, but haven't
+
+https://directory.fsf.org/wiki/Etherpad
+https://directory.fsf.org/wiki/Nextcloud
+https://github.com/Upload/Up1
+https://mosh.org

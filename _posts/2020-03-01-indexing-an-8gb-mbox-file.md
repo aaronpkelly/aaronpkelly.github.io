@@ -1,6 +1,10 @@
 ---
 title: Indexing an 8GB MBOX file
 description: A post series on how I indexed an 8GB MBOX file
+tags:
+    - mbox
+    - export
+    - indexing
 ---
 
 # Indexing an 8GB MBOX file
@@ -8,7 +12,7 @@ description: A post series on how I indexed an 8GB MBOX file
 This is a post series on how I exported, converted, and made searchable a
 gigantic mailbox, containing ~15 years worth of email and attachments.
 
-Here are the posts in order:
+To do this, I make use of a number of techniques in the following posts. I've placed them in a logical order here, but they can also be read individually:
 
 [Exfiltrating data from Cloud Services]({% post_url 2020-03-02-exfiltrating-data-from-cloud-services %})
 

@@ -1,4 +1,12 @@
-# Twitter API adventures
+---
+title: Exporting Twitter Data
+description: How I exported my Twitter user data into a usable output
+tags:
+    - twitter
+    - export
+---
+
+# Exporting Twitter Data
 
 I recently discovered a really cool app which had twitter integration
 (https://fraidyc.at/), which got me thinking about the best way to compile a
