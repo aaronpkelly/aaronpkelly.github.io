@@ -31,6 +31,10 @@ Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed
 
 [2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-12 08:34:22)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
 
+[2020-02-07-itch.io.md (Last updated: 2020-04-12 13:08:33)](_posts/2020-02-07-itch.io.md)
+
+[2020-02-06-linux-gaming.md (Last updated: 2020-04-12 12:38:00)](_posts/2020-02-06-linux-gaming.md)
+
 [2020-02-05-live-coding.md (Last updated: 2020-04-07 07:31:17)](_posts/2020-02-05-live-coding.md)
 
 [2020-02-04-computer-music.md (Last updated: 2020-04-06 20:28:31)](_posts/2020-02-04-computer-music.md)
@@ -39,7 +43,7 @@ Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed
 
 [2020-02-01-game-ideas.md (Last updated: 2020-04-07 21:50:34)](_posts/2020-02-01-game-ideas.md)
 
-[2020-01-08-the-hunt-for-my-digital-life-pre-2004.md (Last updated: 2020-04-12 09:42:33)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
+[2020-01-08-the-hunt-for-my-digital-life-pre-2004.md (Last updated: 2020-04-12 09:45:28)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
 
 [2020-01-08-glossary.md (Last updated: 2020-04-12 08:18:17)](_posts/2020-01-08-glossary.md)
 
