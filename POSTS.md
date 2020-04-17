@@ -16,7 +16,9 @@
 
 [2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-12 08:34:22)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
 
-[2020-02-07-itch.io.md (Last updated: 2020-04-12 13:08:33)](_posts/2020-02-07-itch.io.md)
+[2020-02-08-bringing-doom-upon-myself-with-cloud-gaming-rigs.md (Last updated: 2020-04-17 07:53:33)](_posts/2020-02-08-bringing-doom-upon-myself-with-cloud-gaming-rigs.md)
+
+[2020-02-07-itch.io.md (Last updated: 2020-04-12 13:10:28)](_posts/2020-02-07-itch.io.md)
 
 [2020-02-06-linux-gaming.md (Last updated: 2020-04-12 12:38:00)](_posts/2020-02-06-linux-gaming.md)
 
@@ -36,7 +38,7 @@
 
 [2020-01-06-blocking-all-the-things-with-nextdns.md (Last updated: 2020-04-09 07:23:28)](_posts/2020-01-06-blocking-all-the-things-with-nextdns.md)
 
-[2020-01-05-tools-i-use-on-linux-and-windows.md (Last updated: 2020-04-12 08:47:18)](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
+[2020-01-05-tools-i-use-on-linux-and-windows.md (Last updated: 2020-04-14 07:42:43)](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
 
 [2020-01-04-deploying-an-app-to-heroku.md (Last updated: 2020-04-07 11:44:28)](_posts/2020-01-04-deploying-an-app-to-heroku.md)
 

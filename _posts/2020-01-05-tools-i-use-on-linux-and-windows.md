@@ -31,7 +31,7 @@ Distros:
 
 - MX Linux: daily OS
 - Alpine Linux: minimal linux OS I have running on many older laptops
-- Fedora ChromeOS: container linux OS I have running on my home server
+- Fedora CoreOS: container linux OS I have running on my home server
 
 Command-line tools:
 
@@ -45,17 +45,19 @@ Command-line tools:
     ~ moc
 - asciicinema
 - aws: the AWS cli
-- chrome
-    - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 - ffmpeg
-- firefox / firefox dev browser:
-    - addons: dark reader, ublock origin, tree-style tabs
+
 - jq: json processor
 - rclone: great utility, but I mostly use AWS S3 for everything these days
 - xz - lossless compression program based on LZMA/LZMA2 compression algorithms
 ~ ack
 ~ ag
 ~ entr: http://eradman.com/entrproject/
+
+- firefox / firefox dev browser:
+    - addons: dark reader, ublock origin, tree-style tabs
+- brave (a fork of the Chrome browser)
+    - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 
 # Windows
 
@@ -120,6 +122,11 @@ $ mplayer -really-quiet -vo caca fireplace.mp4
 # Bonus: tools I *want* to try, but haven't
 
 https://directory.fsf.org/wiki/Etherpad
+
 https://directory.fsf.org/wiki/Nextcloud
+
 https://github.com/Upload/Up1
+
 https://mosh.org
+
+diagram.codes
