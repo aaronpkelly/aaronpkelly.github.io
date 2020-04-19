@@ -6,4 +6,4 @@ sources:
   - git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
 tasks:
   - push-to-github: |
-      git remote -v
+      echo hello
