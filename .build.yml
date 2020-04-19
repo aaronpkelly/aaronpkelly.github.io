@@ -7,6 +7,7 @@ sources:
 tasks:
   - push-to-github: |
       cd aaronpkelly.github.io
+      echo hello
       echo "$GITHUB_PASS"
       cat ~/GITHUB_PASS
       git remote set-url origin https://aaronpkelly:$GITHUB_PASS@github.com/USERNAME/REPOSITORY.git
