@@ -1,13 +1,20 @@
+arch: null
+artifacts: []
+environment: {}
 image: alpine/edge
+packages: []
+repositories: {}
 secrets:
-  - 1b3fe3d9-ee86-4c7e-bd35-d0c87b6e12a9
-  - 03f64564-69d2-4a5c-8cb9-e5c7ad610cfc
+- 1b3fe3d9-ee86-4c7e-bd35-d0c87b6e12a9
+- 03f64564-69d2-4a5c-8cb9-e5c7ad610cfc
+shell: true
 sources:
-  - git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
+- git+ssh://git@git.sr.ht/~aaronkelly/aaronpkelly.github.io#59a0cc761cf23ae43f3a9f47bf338ee8f2ccae97
 tasks:
-  - push-to-github: |
-      GITHUB_PASS=$(cat ~/GITHUB_PASS)
-      cd aaronpkelly.github.io
-      git checkout master
-      git remote set-url origin https://aaronpkelly:$GITHUB_PASS@github.com/aaronpkelly/aaronpkelly.github.io
-      git push
+- push-to-github: |-
+    read -s GITHUB_PASS < ~/GITHUB_PASS
+    cd aaronpkelly.github.io
+    git checkout master
+    set +x && git remote set-url origin https://aaronpkelly:$GITHUB_PASS@github.com/aaronpkelly/aaronpkelly.github.io && set -x
+    git push
+triggers: []
