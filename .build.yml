@@ -6,7 +6,8 @@ sources:
   - git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
 tasks:
   - push-to-github: |
+      GITHUB_PASS=$(cat ~/GITHUB_PASS)
       cd aaronpkelly.github.io
       git checkout master
-      git remote set-url origin https://aaronpkelly:$GITHUB_PASS@github.com/USERNAME/REPOSITORY.git
+      git remote set-url origin https://aaronpkelly:$GITHUB_PASS@github.com/aaronpkelly/aaronpkelly.github.io
       git push
