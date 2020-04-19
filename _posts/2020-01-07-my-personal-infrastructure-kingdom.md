@@ -19,7 +19,7 @@ Hopefully this will expand to be a fully automated pipeline, e.g. edit/add a doc
                               |                                                          +
                               |                                                          |
                               +                                                          v
-
+ git.sr.ht/
  gitpod.io     +------>  github.com  +----->  CI tool +-------------> S3 bucket +-----> api
 
 (blog posts,                              /github actions?                +

@@ -13,10 +13,8 @@ So, what are my options?
 
 # NVIDIA GeForce Now
 
-+ BYO games (steam store etc)
-+ free 1 hour session per day
-+ powerful gaming rig
-- need a _very_ good internet connection
+Difficult to get running under Linux, also currently the game isn't supported: https://www.nvidia.com/en-gb/geforce/geforce-experience/games/
+
 
 # Playstation Now
 
@@ -26,9 +24,15 @@ So, what are my options?
 
 Heard good things about this but it's not available in my country (yet).
 
+# https://workstream.paperspace.com/
+
+It's a bit janky to setup - the website is slightly confusing, and there's an approval process if you want a modern GPU which is a bit annoying (you need to send them a message as to why you want it).
+
+Also, I just assumed their base offering would support Parsec screen sharing, but the GPU wasn't supported. Apparently I should have gone to the _Public Templates_ list and chosen the 'Parsec' template from there.
+
 # https://parsecgaming.com/
 
-Want to try this to play Doom!
+Low latency screen sharing optimised for game streaming. I found this service fantastic! I currently use it conjunction with workstream. 
 
 # Steam Cloud Gaming (TBA)
 

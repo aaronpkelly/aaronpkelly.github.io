@@ -119,7 +119,7 @@ $ mplayer -really-quiet -vo caca fireplace.mp4
     Shortcuts: Relax blocking mode: _Ctrl+Space_
 
 
-# Bonus: tools I *want* to try, but haven't
+# Tools I WANT to try
 
 https://directory.fsf.org/wiki/Etherpad
 
@@ -130,3 +130,6 @@ https://github.com/Upload/Up1
 https://mosh.org
 
 diagram.codes
+
+X410 – X Server for Windows 10 https://news.ycombinator.com/item?id=22905390
+
