@@ -6,4 +6,7 @@ sources:
   - git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
 tasks:
   - push-to-github: |
+      pwd
+      ls -al
+      cd ..
       git status
