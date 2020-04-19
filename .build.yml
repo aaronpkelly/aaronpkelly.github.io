@@ -1,6 +1,4 @@
 image: alpine/edge
-secrets:
-  - cc91d33a-6642-46d7-89d3-fb94afcaecec
 tasks:
   - say-hello: |
     echo hi
