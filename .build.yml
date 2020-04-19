@@ -1,7 +1,7 @@
 image: alpine/edge
 secrets:
+  - 1b3fe3d9-ee86-4c7e-bd35-d0c87b6e12a9
   - 03f64564-69d2-4a5c-8cb9-e5c7ad610cfc
-  - cc91d33a-6642-46d7-89d3-fb94afcaecec
 sources:
   - git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
 tasks:
