@@ -1,6 +1,8 @@
 image: alpine/edge
 secrets:
   - cc91d33a-6642-46d7-89d3-fb94afcaecec
+sources:
+  - git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
 tasks:
   - push-to-github: |
       git remote -v
