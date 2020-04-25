@@ -1,7 +1,11 @@
-This link is pretty fab, gives a breakdown of most used tools, engines, software etc. used by devs that publish to itch.io:
+# Awesome links
+
+These links are pretty fab, gives a breakdown of most used tools, engines, software etc. used by devs that publish to itch.io:
 
 https://itch.io/game-development/engines/most-projects
 https://itch.io/game-development/tools/most-projects
+
+I also really liked [this post](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74) I found on [HN](https://news.ycombinator.com/item?id=22965078) that gives a breakdown of development studio size, and whether they decided to use a game engine or develop their own.
 
 # Some game engines I'd love to try
 
