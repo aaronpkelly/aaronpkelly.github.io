@@ -62,7 +62,7 @@ main() {
 }
 
 userConfirm() {
-	read -p "Did you pass in the article names of any posts you want to refresh the TOCS on? [Y/N]" -n 1 -r
+	read -p "Optional: pass in the name of a post and I'll generate a a TOC. Happy to proceed? [Y/N]" -n 1 -r
 	echo    # (optional) move to a new line
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		main $1
