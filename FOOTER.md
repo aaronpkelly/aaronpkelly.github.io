@@ -23,9 +23,6 @@ want" pricing.
 
 # APIs
 
-I love APIs. I've created some backend APIs for websites that I use heavily, but
-who don't offer a public API - frustrating!
-
 Below are some static frontend websites that use my APIs a the backend:
 
 [TinyTimetable - DublinBikes](http://app-bucket-dublin-bike-tinytimetable.s3-website-eu-west-1.amazonaws.com/)
