@@ -34,7 +34,11 @@
 
 [2020-01-31-glossary.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-31-glossary.md)
 
-[2020-01-10-replacing-linux-firmware.md (Last updated: 2020-04-25 21:09:37)](_posts/2020-01-10-replacing-linux-firmware.md)
+[2020-01-12-replacing-linux-firmware.md (Last updated: 2020-04-25 21:09:37)](_posts/2020-01-12-replacing-linux-firmware.md)
+
+[2020-01-11-using-aws-api-gateway.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-11-using-aws-api-gateway.md)
+
+[2020-01-10-apis.md (Last updated: 2020-04-26 10:57:57)](_posts/2020-01-10-apis.md)
 
 [2020-01-09-docker-and-containers.md (Last updated: 2020-04-25 10:34:44)](_posts/2020-01-09-docker-and-containers.md)
 
