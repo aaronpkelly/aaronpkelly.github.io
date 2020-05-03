@@ -2,6 +2,8 @@
 
 [2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
 
+[2020-03-21-docker-and-containers.md (Last updated: 2020-04-25 10:34:44)](_posts/2020-03-21-docker-and-containers.md)
+
 [2020-03-07-exporting-twitter-data.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-07-exporting-twitter-data.md)
 
 [2020-03-06-searching-for-an-indexing-tool.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-06-searching-for-an-indexing-tool.md)
@@ -15,6 +17,8 @@
 [2020-03-02-exfiltrating-data-from-cloud-services.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-02-exfiltrating-data-from-cloud-services.md)
 
 [2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
+
+[2020-02-10-cheat-sheets-for-printing.md (Last updated: 2020-05-03 12:45:47)](_posts/2020-02-10-cheat-sheets-for-printing.md)
 
 [2020-02-09-running-geforce-now-on-linux.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-02-09-running-geforce-now-on-linux.md)
 
@@ -40,11 +44,11 @@
 
 [2020-01-10-apis.md (Last updated: 2020-04-26 10:57:57)](_posts/2020-01-10-apis.md)
 
-[2020-01-09-docker-and-containers.md (Last updated: 2020-04-25 10:34:44)](_posts/2020-01-09-docker-and-containers.md)
+[2020-01-09-bookmarklets.md (Last updated: 2020-05-03 16:09:31)](_posts/2020-01-09-bookmarklets.md)
 
 [2020-01-08-the-hunt-for-my-digital-life-pre-2004.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
 
-[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
+[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-26 22:08:13)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
 [2020-01-06-blocking-all-the-things-with-nextdns.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-06-blocking-all-the-things-with-nextdns.md)
 

@@ -3,7 +3,7 @@ to execute" - (SICP)
 
  "The computer industry is the only industry that is more fashion-driven than women's fashion." - Larry Ellison
 
-Howdy, I'm Aaron, and I'm really good at breaking things. So much so, I've even made a living out of it! Someitmes if the mood takes me I'll even try putting those things back together, and if I learn something in the process... I'll write a post about it :)
+Howdy, I'm Aaron, and I'm really good at breaking things. So much so, I've made a living out of it! If the mood takes me, I'll even try putting them back together ;)
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
@@ -16,6 +16,8 @@ Some posts will have different flavours and focus. Some will exist simply to  sh
 Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
 
 [2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
+
+[2020-03-21-docker-and-containers.md (Last updated: 2020-04-25 10:34:44)](_posts/2020-03-21-docker-and-containers.md)
 
 [2020-03-07-exporting-twitter-data.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-07-exporting-twitter-data.md)
 
@@ -30,6 +32,8 @@ Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed
 [2020-03-02-exfiltrating-data-from-cloud-services.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-02-exfiltrating-data-from-cloud-services.md)
 
 [2020-03-01-indexing-an-8gb-mbox-file.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-01-indexing-an-8gb-mbox-file.md)
+
+[2020-02-10-cheat-sheets-for-printing.md (Last updated: 2020-05-03 12:45:47)](_posts/2020-02-10-cheat-sheets-for-printing.md)
 
 [2020-02-09-running-geforce-now-on-linux.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-02-09-running-geforce-now-on-linux.md)
 
@@ -55,11 +59,11 @@ Psst... if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed
 
 [2020-01-10-apis.md (Last updated: 2020-04-26 10:57:57)](_posts/2020-01-10-apis.md)
 
-[2020-01-09-docker-and-containers.md (Last updated: 2020-04-25 10:34:44)](_posts/2020-01-09-docker-and-containers.md)
+[2020-01-09-bookmarklets.md (Last updated: 2020-05-03 16:09:31)](_posts/2020-01-09-bookmarklets.md)
 
 [2020-01-08-the-hunt-for-my-digital-life-pre-2004.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
 
-[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
+[2020-01-07-my-personal-infrastructure-kingdom.md (Last updated: 2020-04-26 22:08:13)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
 [2020-01-06-blocking-all-the-things-with-nextdns.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-06-blocking-all-the-things-with-nextdns.md)
 
