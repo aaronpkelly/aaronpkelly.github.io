@@ -25,3 +25,22 @@ docker run --rm -i --rm quay.io/coreos/fcct --pretty --strict < ignition_fedorac
 ```
 
 I then uploaded this file to an S3 bucket and made the file publically available - I figured this would be the handiest place to host the file.
+
+== Connecting
+
+It's as simple as using the SSH key you associated with your ignition config, and the `core` user:
+
+```
+~ eval $(ssh-agent); ssh-add id_rsa
+Agent pid 28604
+Enter passphrase for id_rsa: 
+Identity added: id_rsa (id_rsa)
+
+~ ssh core@192.168.0.242
+Fedora CoreOS 31.20200407.3.0
+Tracker: https://github.com/coreos/fedora-coreos-tracker
+Discuss: https://discussion.fedoraproject.org/c/server/coreos/
+
+Last login: Mon Mar 30 20:26:29 2020 from 192.168.0.200
+[core@localhost ~]$
+```

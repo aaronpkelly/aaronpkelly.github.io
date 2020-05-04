@@ -1,29 +1,34 @@
 ---
-title: Tools I Use on Linux and Windows
+title: Tools I Use
 description: Listing the most common tools I use daily on both Linux and Windows, from browsers to command-line utilities
 ---
 
-Table of Contents
-=================
-
-   * [Tools I use on Linux and Windows](#tools-i-use-on-linux-and-windows)
-   * [Linux](#linux)
-   * [Windows](#windows)
-   * [Additional information on specific tools](#additional-information-on-specific-tools)
-      * [mplayer](#mplayer)
-      * [Terminal dashboards (i WANT to start using one day)](#terminal-dashboards-i-want-to-start-using-one-day)
-      * [ublock origin](#ublock-origin)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
-
-# Tools I use on Linux and Windows
+# Tools I Use (INCUBATING - I'm currently organising tools by category, rather than OS)
 
 The following are everyday computing tools i use (or really want to believe I do) to maximise productivity, and get the most amount of enjoyment I can out of the system I'm using.
 
 This post will be frequently updated as I discover new tools to supplant existing ones, or revert back to a trusted tool after getting far too carried away on the hype train.
 
+A lot of these tools have been found via a combination of searching on hackernews, and using https://alternativeto.net/.
+
 Note: The '~' character means the tool is no longer being used as much, and is in danger of being removed from the list
+
+# Disk usage analysers
+
+Linux: Baobab
+Windows: Spacesniffer
+
+More Linux alternatives can be found here: https://www.how2shout.com/tools/best-disk-usage-analyzer-tools-for-linux-system.html
+
+# System hardware information
+
+Linux: pciutils (lspci), lsusb, hwinfo
+
+
+
+
+
+
 
 # Linux
 
@@ -45,8 +50,8 @@ Command-line tools:
     ~ moc
 - asciicinema
 - aws: the AWS cli
-- ffmpeg
-
+- baobab
+- ffmpeg: audio/video conversion tool
 - jq: json processor
 - rclone: great utility, but I mostly use AWS S3 for everything these days
 - xz - lossless compression program based on LZMA/LZMA2 compression algorithms
