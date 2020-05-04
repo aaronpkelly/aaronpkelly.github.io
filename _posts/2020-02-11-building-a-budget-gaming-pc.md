@@ -1,6 +1,17 @@
 I have an old tower that I'm thinking of repurposing as a gaming machine.
 
-# Hardware
+# What I want
+
+https://www.tomshardware.com/reviews/best-gpus,4380.html
+
+RX 570 4GB Best Budget Gaming Card (Even if It’s Old and Not Efficient)
+
+# Hardware I have already
+
+https://www.asus.com/Motherboards/P8P67/
+https://www.pc-specs.com/mobo/Asus/Asus_P8P67/55
+
+## lspci
 
 ```
 / # lspci
@@ -28,6 +39,8 @@ I have an old tower that I'm thinking of repurposing as a gaming machine.
 07:02.0 FireWire (IEEE 1394): VIA Technologies, Inc. VT6306/7/8 [Fire II(M)] IEEE 1394 OHCI Controller (rev c0)
 08:00.0 SATA controller: Marvell Technology Group Ltd. 88SE9172 SATA 6Gb/s Controller (rev 11)
 ```
+
+## hwinfo --short
 
 ```
 / # hwinfo --short
@@ -107,6 +120,8 @@ unknown:
                        Intel 6 Series/C200 Series Chipset Family SMBus Controller
   /dev/input/event3    OpenMoko Ultimate Hacking Keyboard
 ```
+
+## hwinfo
 
 ```
   ~ cat my_hwinfo
@@ -3559,3 +3574,7 @@ Timeout waiting for PADO packets
   Link detected: yes
   Config Status: cfg=new, avail=yes, need=no, active=unknown
 ```
+
+# Compatibility
+
+https://www.pc-specs.com/gpu/ATI/R-500_Series/Radeon_RX_570_4GB/3875/Compatible_Motherboards
