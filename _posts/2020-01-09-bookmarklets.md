@@ -70,5 +70,5 @@ javascript: var TIMER_WAIT = 1000; var timer = 0; var topComment = []; var list 
 This is the same script as my prototype, but with a timer added:
 
 ```
-var TIMER_WAIT = 1000; var timer = 0; javascript: var list = document.getElementsByClassName('togg'); for (let item of list) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); }
+javascript: var TIMER_WAIT = 1000; var timer = 0; javascript: var list = document.getElementsByClassName('togg'); for (let item of list) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); }
 ```
