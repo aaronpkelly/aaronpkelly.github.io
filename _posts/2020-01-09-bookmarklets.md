@@ -53,14 +53,22 @@ for (let item of topComment) {
 
 Yep, it's definitely slower - but it ensures that every top comment is clicked successfully.
 
-# The final bookmarklet
+# The final bookmarklets
 
-Create a new bookmark on your bookmark bar, and for the URL field - add this minified version of the script:
+Create a new bookmark on your bookmark bar, and for the URL field, add one of the following. They're the same script as above but with no newlines. You can then click the bookmarklet anytime to begin collapsing comments.
+
+Note: Open your console to see the hackernews username of the commenter being collapsed as it happens. If your internet connection is faster than mine, you can even try reducing the value of the `TIMER` variable to collapse comments faster - just make sure your not receving any request timeouts, otherwise the comment won't be collapsed.
+
+## Collapse TOP comment only
 
 ```
 javascript: var TIMER_WAIT = 1000; var timer = 0; var topComment = []; var list = document.getElementsByClassName('togg'); for (let item of list) { if (item.parentElement.parentElement.parentElement.parentElement.getElementsByTagName('img')[0].width == 0) topComment.push(item) }; for (let item of topComment) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); timer = timer + TIMER_WAIT; }
 ```
 
-You can then click the bookmarklet anytime to begin collapsing comments.
+## Collapse ALL comments
 
-Open your console to see the hackernews username of the commenter being collapsed as it happens. If your internet connection is faster than mine, you can even try reducing the value of the `TIMER` variable to collapse comments faster - just make sure your not receving any request timeouts, otherwise the comment won't be collapsed.
+This is the same script as my prototype, but with a timer added:
+
+```
+var TIMER_WAIT = 1000; var timer = 0; javascript: var list = document.getElementsByClassName('togg'); for (let item of list) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); }
+```
