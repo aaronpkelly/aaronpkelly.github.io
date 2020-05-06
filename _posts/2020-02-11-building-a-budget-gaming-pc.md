@@ -8,7 +8,10 @@ RX 570 4GB Best Budget Gaming Card (Even if It’s Old and Not Efficient)
 
 # Hardware I have already
 
+## Motherboard
+
 https://www.asus.com/Motherboards/P8P67/
+
 https://www.pc-specs.com/mobo/Asus/Asus_P8P67/55
 
 ## lspci
