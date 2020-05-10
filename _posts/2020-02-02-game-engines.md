@@ -3,6 +3,7 @@
 These links are pretty fab, gives a breakdown of most used tools, engines, software etc. used by devs that publish to itch.io:
 
 https://itch.io/game-development/engines/most-projects
+
 https://itch.io/game-development/tools/most-projects
 
 I also really liked [this post](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74) I found on [HN](https://news.ycombinator.com/item?id=22965078) that gives a breakdown of development studio size, and whether they decided to use a game engine or develop their own.
@@ -38,17 +39,10 @@ However, in order to start actually _using_ the software, what I found weird is 
 
 ## Others
 
-https://en.wikipedia.org/wiki/Unity_(game_engine)
-
 https://en.wikipedia.org/wiki/RPG_Maker
-
-
-
-
 
 https://en.wikipedia.org/wiki/GameMaker_Studio
 
 https://en.wikipedia.org/wiki/Construct_(game_engine)
 
 https://en.wikipedia.org/wiki/L%C3%B6ve_(game_engine)
-
