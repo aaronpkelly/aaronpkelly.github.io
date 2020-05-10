@@ -19,7 +19,9 @@ applications for the desktop             |         its default IDE starting from
 
 When I need a quick and dirty environment to crank out some code, work on a
 small algorithm or program, or try out a new programming language, I use this.
-It's fantastic
+It's fantastic. 
+
+The one drawback I've found is when embedding a code snippet into a webpage, the output text is completely invisilble. Not good
 
 # Cloud9 (AWS)
 To be totally honest, I don't use the full functionality of this online IDE.
@@ -52,3 +54,10 @@ project code.
 
 GitLab Web IDE
 Microsoft Visual Studio Online
+
+# Notebook interfaces
+
+## https://observablehq.com
+
+Haven't made great use of this yet, but it's a super lightweight notebook
+interface - https://en.wikipedia.org/wiki/Notebook_interface
