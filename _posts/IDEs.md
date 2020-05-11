@@ -17,31 +17,22 @@ applications for the desktop             |         its default IDE starting from
 
 # https://repl.it/
 
-When I need a quick and dirty environment to crank out some code, work on a
-small algorithm or program, or try out a new programming language, I use this.
-It's fantastic. 
+When I need a quick and dirty environment to crank out some code, work on a small algorithm or program, or try out a new programming language, I use this. It's fantastic. 
 
-The one drawback I've found is when embedding a code snippet into a webpage, the output text is completely invisilble. Not good
+I also use this service to embed code snippets on my blog, and it works really well.
 
 # Cloud9 (AWS)
-To be totally honest, I don't use the full functionality of this online IDE.
-I mainly spin up an instance when I need a shell in the cloud, and the fact
-that it has Docker pre-installed is very useful also - as I use that a lot.
+To be totally honest, I don't use the full functionality of this online IDE. I mainly spin up an instance when I need a shell in the cloud, and the fact that it has Docker pre-installed is very useful also - as I use that a lot.
 
-I mainly use the service for quick programming projects, usually ones that
-integrate with AWS services.
+I mainly use the service for quick programming projects, usually ones that integrate with AWS services.
 
 # Gitpod.io
 
 Based on Eclipse Theia.
 
-A short while ago I was on the hunt for a way to edit the code that was
-checked-in to my github repositories easily. Gitlab offer an online IDE, but
-Github don't. That's when I found Gitpod. I'm using it right now to create
-this post.
+A short while ago I was on the hunt for a way to edit the code that was checked-in to my github repositories easily. Gitlab offer an online IDE, but Github don't. That's when I found Gitpod. I'm using it right now to create this post.
 
-Really great service to use if you need a quick, disposable IDE to edit your
-project code.
+Really great service to use if you need a quick, disposable IDE to edit your project code.
 
 # Eclipse Che
 
