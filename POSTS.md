@@ -1,10 +1,18 @@
 
 
+[2020-05-17-quiz-question-generation.md (Last updated: 2020-05-17 16:38:59)](_posts/2020-05-17-quiz-question-generation.md)
+
+[2020-05-16-heroku.md (Last updated: 2020-05-17 17:52:58)](_posts/2020-05-16-heroku.md)
+
+[2020-05-12-mx-linux-tips.md (Last updated: 2020-05-12 19:12:35)](_posts/2020-05-12-mx-linux-tips.md)
+
 [2020-05-11-the-prison-workout.md (Last updated: 2020-05-11 15:12:56)](_posts/2020-05-11-the-prison-workout.md)
+
+[2020-05-11-building-a-web-application.md (Last updated: 2020-05-12 07:58:13)](_posts/2020-05-11-building-a-web-application.md)
 
 [2020-03-22-running-gui-apps-in-a-container.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-22-running-gui-apps-in-a-container.md)
 
-[2020-03-21-docker-and-containers.md (Last updated: 2020-04-25 10:34:44)](_posts/2020-03-21-docker-and-containers.md)
+[2020-03-21-docker-and-containers.md (Last updated: 2020-05-12 11:53:27)](_posts/2020-03-21-docker-and-containers.md)
 
 [2020-03-07-exporting-twitter-data.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-03-07-exporting-twitter-data.md)
 
