@@ -22,17 +22,35 @@ addPosts() {
 
 generatePostList() {
 
+    set -x
+
     printf '\n\n' >> "$POSTS_FILE"
 
     IFS=$'\n'
 	for file in $(ls "$POSTS_DIR" | grep -e '^[0-9].*md$'| sort --reverse); do
         echo "processing: $file"
 		LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}/${file}" | cut -d '.' -f1)
-		echo "[$(basename ${file}) (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
+        POST_TITLE=$(getTitle "${POSTS_DIR}/${file}")
+		echo "[${POST_TITLE} (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
 		printf '\n' >> "$POSTS_FILE"
 	done
 
     printf '\n' >> "$POSTS_FILE"
+}
+
+getTitle() {
+
+    FILE_PATH=$1
+    BASENAME=$(basename ${FILE_PATH})
+    FRONT_MATTER=$(sed -n '2,2p;3q' ${FILE_PATH} | cut -d ' ' -f 2- )
+    size=${#FRONT_MATTER}
+    # echo "The size of FRONT_MATTER is ${size}"
+
+    if [ "$size" -gt 0 ]; then
+        echo "$FRONT_MATTER"
+    else
+        echo "$BASENAME"
+    fi
 }
 
 generateTOC() {
