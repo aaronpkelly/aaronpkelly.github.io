@@ -1,6 +1,8 @@
 ---
 title: Tools I Use
 description: Listing the most common tools I use daily on both Linux and Windows, from browsers to command-line utilities
+tags:
+    - asciinema
 ---
 
 # Tools I Use (INCUBATING - I'm currently organising tools by category, rather than OS)
@@ -48,7 +50,7 @@ Command-line tools:
     - https://github.com/Rigellute/spotify-tui: excellent command-line music player for spotify
     ~ cmus
     ~ moc
-- asciicinema
+- asciinema
 - aws: the AWS cli
 - baobab
 - ffmpeg: audio/video conversion tool

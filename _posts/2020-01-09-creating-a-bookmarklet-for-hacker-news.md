@@ -1,4 +1,10 @@
-
+---
+title: Creating a bookmarklet for hacker news
+description: Creating a bookmarklet for hacker news
+tags:
+    - bookmarklets
+    - hacker news
+---
 
 For a long time I've been annoyed that there was no way to easily collapse all hackernews threads on a single page. I went looking for an extension and didn't find one, so I decided just to bite the bullet and see if I could write some simple Javacript to do it.
 

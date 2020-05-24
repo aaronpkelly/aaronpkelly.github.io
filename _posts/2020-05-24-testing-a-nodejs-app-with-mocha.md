@@ -1,4 +1,10 @@
+---
+title: Testing a NodeJS app with Mocha
+description: Exploring and using the Mocha test framework for a NodeJS app
+---
+
 # Vanilla Javascript TDD (Test-Driven-Development)
+
 I had written a library of small Javascript functions that I wanted to do cover
 with some basic tests. However, I found it really hard to find any information
 about how to do this.

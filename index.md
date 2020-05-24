@@ -21,9 +21,13 @@ I use embedded code examples in some posts, courtesy of https://repl.it!
 
 If for some reason you cannot see the code inside these embeds, you may be using a browser (e.g. Brave) which is blocking style elements needed to display them. If you would like to see the text properly, you should whitelist my site (in Brave's case, choosing 'Shields Down for this site').
 
+[Testing a NodeJS app with Mocha (Last updated: 2020-05-24 09:34:43)](_posts/2020-05-24-testing-a-nodejs-app-with-mocha.md)
+
+[Test-driven-development (TDD) (Last updated: 2020-05-24 09:37:07)](_posts/2020-05-24-tdd.md)
+
 [2020-05-17-quiz-question-generation.md (Last updated: 2020-05-17 16:38:59)](_posts/2020-05-17-quiz-question-generation.md)
 
-[2020-05-16-heroku.md (Last updated: 2020-05-17 17:52:58)](_posts/2020-05-16-heroku.md)
+[2020-05-16-creating-a-webapp-with-database-on-heroku.md (Last updated: 2020-05-24 09:26:15)](_posts/2020-05-16-creating-a-webapp-with-database-on-heroku.md)
 
 [2020-05-12-mx-linux-tips.md (Last updated: 2020-05-12 19:12:35)](_posts/2020-05-12-mx-linux-tips.md)
 
@@ -79,25 +83,23 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [it's not so bad. (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-11-using-aws-api-gateway.md)
 
-[2020-01-10-apis.md (Last updated: 2020-05-10 21:27:24)](_posts/2020-01-10-apis.md)
+[Creating my own API (Last updated: 2020-05-24 12:07:11)](_posts/2020-01-10-apis.md)
 
-[2020-01-09-bookmarklets.md (Last updated: 2020-05-04 08:56:20)](_posts/2020-01-09-bookmarklets.md)
+[Creating a bookmarklet for hacker news (Last updated: 2020-05-24 12:06:32)](_posts/2020-01-09-creating-a-bookmarklet-for-hacker-news.md)
 
-[2020-01-08-the-hunt-for-my-digital-life-pre-2004.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
+[The hunt for my digital life pre-2004 (Last updated: 2020-05-24 12:05:06)](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
 
 [My personal infrastructure kingdom (Last updated: 2020-04-26 22:08:13)](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
 [Blocking all the things with NextDNS (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-06-blocking-all-the-things-with-nextdns.md)
 
-[Tools I Use (Last updated: 2020-05-04 11:20:01)](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
+[Tools I Use (Last updated: 2020-05-24 12:03:56)](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
 
-[2020-01-04-deploying-an-app-to-heroku.md (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-04-deploying-an-app-to-heroku.md)
-
-[Making my posts discoverable (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-03-making-my-posts-discoverable.md)
+[Making my posts discoverable (Last updated: 2020-05-24 12:02:56)](_posts/2020-01-03-making-my-posts-discoverable.md)
 
 [Creating a RSS feed for Github Pages (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-02-creating-a-rss-feed-for-github-pages.md)
 
-[Blog-driven development (BDD) (Last updated: 2020-04-25 08:45:39)](_posts/2020-01-01-blog-driven-development.md)
+[Blog-driven development (BDD) (Last updated: 2020-05-24 12:02:33)](_posts/2020-01-01-blog-driven-development.md)
 
 
 # Incubating posts
