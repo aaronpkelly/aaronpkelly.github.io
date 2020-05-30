@@ -20,18 +20,31 @@ addPosts() {
     cat "$POSTS_FILE" >> "$INDEX"
 }
 
+cleanup() {
+	rm "$POSTS_FILE"
+}
+
 generatePostList() {
 
-    set -x
+	TYPE=$1
 
-    printf '\n\n' >> "$POSTS_FILE"
+	printf '\n\n' >> "$POSTS_FILE"
 
-    IFS=$'\n'
+	IFS=$'\n'
 	for file in $(ls "$POSTS_DIR" | grep -e '^[0-9].*md$'| sort --reverse); do
-        echo "processing: $file"
-		LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}/${file}" | cut -d '.' -f1)
-        POST_TITLE=$(getTitle "${POSTS_DIR}/${file}")
-		echo "[${POST_TITLE} (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
+        	echo "processing: $file"
+
+		if [ "$TYPE" == "markdown" ]; then
+			# LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}/${file}" | cut -d '.' -f1)
+			POST_TITLE=$(getTitle "${POSTS_DIR}/${file}")
+			echo "[${POST_TITLE} (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
+		elif [ "$TYPE" == "mediawiki" ]; then
+			echo "[[${POSTS_DIR}/${file%.*}]]" >> "$POSTS_FILE"
+		else
+			echo "unknown link type provided"
+			exit -1
+		fi
+			
 		printf '\n' >> "$POSTS_FILE"
 	done
 
@@ -53,6 +66,7 @@ getTitle() {
     fi
 }
 
+# i have this cool function to generate TOCs, but I don't use it anymore
 generateTOC() {
     echo "Generating TOC for $1"
     
@@ -69,22 +83,31 @@ generateTOC() {
 main() {
 	zeroOutIndexAndPOSTS
 	addHeader
-
-    if [ "$1" != "" ]; then
-        generateTOC $1
-    fi
-
-	generatePostList
+	generatePostList "$LINK_TYPE"
 	addPosts
 	addFooter
+	cleanup
 }
 
 userConfirm() {
-	read -p "Optional: pass in the name of a post and I'll generate a a TOC. Happy to proceed? [Y/N]" -n 1 -r
-	echo    # (optional) move to a new line
-	if [[ $REPLY =~ ^[Yy]$ ]]; then
-		main $1
+
+	LINK_TYPE="$1"
+
+	if [ ! "$LINK_TYPE" ]; then
+		usage
+		exit -1
 	fi
+
+	read -p "Will generate post lists with "$LINK_TYPE" links. Happy to proceed? [Y/N]" -n 1 -r
+	echo
+	
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		main "$LINK_TYPE"
+	fi
+}
+
+usage() {
+	echo "Usage: ${0} [mediawiki|markdown]"
 }
 
 zeroOutIndexAndPOSTS() {
