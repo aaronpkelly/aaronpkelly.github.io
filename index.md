@@ -21,7 +21,9 @@ I use embedded code examples in some posts, courtesy of https://repl.it!
 
 If for some reason you cannot see the code inside these embeds, you may be using a browser (e.g. Brave) which is blocking style elements needed to display them. If you would like to see the text properly, you should whitelist my site (in Brave's case, choosing 'Shields Down for this site').
 
-[System monitoring using sound (Last updated: 2020-05-25 07:57:42)](_posts/2020-05-25-system-monitoring-with-sound.md)
+[AppImage, Flatpak and Snap (Last updated: 2020-05-28 22:42:49)](_posts/2020-05-28-flatpak-appimage-and-snap.md)
+
+[System monitoring using sound (Last updated: 2020-05-25 07:59:06)](_posts/2020-05-25-system-monitoring-with-sound.md)
 
 [Testing a NodeJS app with Mocha (Last updated: 2020-05-24 09:34:43)](_posts/2020-05-24-testing-a-nodejs-app-with-mocha.md)
 

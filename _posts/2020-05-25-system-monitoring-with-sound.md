@@ -23,8 +23,6 @@ Well... a sine wave can be generated with `speaker-test`. So, I created a bash s
 
 That was fun.
 
-
-
 # The future
 
 Ok so I know FFMPEG can also generate audio...
