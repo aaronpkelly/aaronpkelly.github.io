@@ -21,20 +21,6 @@ I use embedded code examples in some posts, courtesy of https://repl.it!
 
 If for some reason you cannot see the code inside these embeds, you may be using a browser (e.g. Brave) which is blocking style elements needed to display them. If you would like to see the text properly, you should whitelist my site (in Brave's case, choosing 'Shields Down for this site').
 
-[AppImage, Flatpak and Snap](_posts/2020-05-28-appimage-flatpak-and-snap.md)
-[System monitoring using sound](_posts/2020-05-25-system-monitoring-with-sound.md)
-[Testing a NodeJS app with Mocha](_posts/2020-05-24-testing-a-nodejs-app-with-mocha.md)
-[Test-driven-development (TDD)](_posts/2020-05-24-tdd.md)
-[Generating quiz questions](_posts/2020-05-17-quiz-question-generation.md)
-[Creating a webapp with database on Heroku](_posts/2020-05-16-creating-a-webapp-with-database-on-heroku.md)
-[MX Linux](_posts/2020-05-12-mx-linux-tips.md)
-[The prison workout](_posts/2020-05-11-the-prison-workout.md)
-[Running GUI apps in a container](_posts/2020-03-22-running-gui-apps-in-a-container.md)
-[Containers](_posts/2020-03-21-docker.md)
-[Exporting Twitter Data](_posts/2020-03-20-exporting-twitter-data.md)
-[Searching for an indexing tool](_posts/2020-03-06-searching-for-an-indexing-tool.md)
-[Preparing text files for indexing](_posts/2020-03-05-preparing-text-files-for-indexing.md)
-[Sorting and formatting an MBOX export](_posts/2020-03-04-sorting-and-formatting-the-mbox-output.md)
 
 
 
