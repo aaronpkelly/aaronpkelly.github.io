@@ -58,23 +58,20 @@ generatePostList() {
 
 	if [ "$TYPE" == "markdown" ]; then
 		for file in $(ls "$POSTS_DIR" | grep -e '^[0-9].*md$'| sort --reverse); do
-        	echo "[generatePostList] processing: $file"
+        	echo "[generatePostList] adding to ${POSTS_FILE}: $file"
 			# LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}/${file}" | cut -d '.' -f1)
 			POST_TITLE=$(getTitle "${POSTS_DIR}/${file}")
 			# echo "[${POST_TITLE} (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
-			
 			echo "[${POST_TITLE}](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
+			printf '\n' >> "$POSTS_FILE"
 		done
 	elif [ "$TYPE" == "mediawiki" ]; then
 		echo "[[${POSTS_DIR}/${file%.*}]]" >> "$POSTS_FILE"
+		printf '\n' >> "$POSTS_FILE"
 	else
 		echo "unknown link type provided"
 		exit -1
 	fi
-			
-		printf '\n' >> "$POSTS_FILE"
-
-    printf '\n' >> "$POSTS_FILE"
 }
 
 getDateFromFrontMatter() {

@@ -6,6 +6,12 @@ tags:
     - mbox
     - export
     - indexing
+    - search
+    - meilisearch
+    - elasticsearch
+    - aws
+    - elasticache
+    - google
 ---
 
 # Indexing an 8GB MBOX file
@@ -15,10 +21,12 @@ gigantic mailbox, containing ~15 years worth of email and attachments.
 
 To do this, I make use of a number of techniques in the following posts. I've placed them in a logical order here, but they can also be read individually:
 
-[Exfiltrating data from Cloud Services]({% post_url 2020-03-02-exfiltrating-data-from-cloud-services %})
-[[exfiltrating-data-from-cloud-services]]
+[[Exfiltrating data from Cloud Services]]
 
+[[Journey to the Center of the MBOX]]
 
+[[Sorting and Formatting the MBOX output]]
 
+[[Preparing text files for indexing]]
 
-tags: search, indexing, meilisearch, elasticsearch, aws, elasticache, google, takeout
+[[Searching for an Indexing Tool]]
