@@ -1,3 +1,11 @@
+---
+title: Cloud gaming
+description: Trying out the various cloud gaming services
+date: 2020-02-08
+tags:
+    - gaming
+---
+
 I want to play Doom eternal, but I have the following constraints:
 - I've shifted completely over to Linux
 - I play on a moderately powerful laptop, but I don't have a GPU, and the game needs a GPU

@@ -1,6 +1,7 @@
 ---
 title: Blocking all the things with NextDNS
 description: Blocking unwanted internet traffic using NextDNS
+date: 2020-01-06
 tags:
     - nextdns
     - dns

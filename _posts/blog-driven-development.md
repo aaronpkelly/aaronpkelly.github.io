@@ -1,6 +1,7 @@
 ---
 title: Blog-driven development (BDD)
 description: Using blogs to assist with small projects
+date: 2020-01-01
 tags:
     - blog-driven development
     - bdd

@@ -1,3 +1,11 @@
+---
+title: Searching for my Container OS
+description:
+date: 2020-02-01
+tags:
+    - containers
+---
+
 = Immutable infrastructure
 
 When it comes to using programs, systems and environments... I like determinism. I like reproducability. A phrase I've heard is _immutable infrastructure_ and I really liked that.

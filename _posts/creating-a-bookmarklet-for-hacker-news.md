@@ -1,6 +1,7 @@
 ---
 title: Creating a bookmarklet for hacker news
 description: Creating a bookmarklet for hacker news
+date: 2020-01-09
 tags:
     - bookmarklets
     - hacker news

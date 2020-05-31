@@ -1,6 +1,7 @@
 ---
 title: Making my posts discoverable
 description: Using the Jekyll SEO Plugin to index my blog posts on Github Pages
+date: 2020-01-03
 tags:
     - jekyll
     - seo

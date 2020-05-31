@@ -1,6 +1,7 @@
 ---
 title: My personal infrastructure kingdom
 description: How I write and publish my thoughts, and the tools I use to do it
+date: 2020-01-07
 tags:
     - infrastructure
     - markdown

@@ -1,3 +1,11 @@
+---
+title: Using AWS API Gateway
+description:I
+date: 2020-01-11
+tags:
+    - APIs
+---
+
 I wanted to explore how easy it was to create my own API using AWS. As it turns
 out, it's not so bad.
 

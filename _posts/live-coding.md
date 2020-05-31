@@ -1,3 +1,11 @@
+---
+title: Live Coding
+description:
+date: 2020-02-05
+tags:
+    - live coding
+---
+
 "embrace error and uncertainty"
 
 https://en.wikipedia.org/wiki/Live_coding

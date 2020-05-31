@@ -1,3 +1,11 @@
+---
+title: Itch.io
+description:
+date: 2020-02-07
+tags:
+    - gaming
+---
+
 I really like this site so much
 
 There's a guy I follow on it that makes great little programs, including this one: [https://watabou.itch.io/village-generator](https://watabou.itch.io/village-generator)

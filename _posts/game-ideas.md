@@ -1,3 +1,11 @@
+---
+title: Game ideas
+description:
+date: 2020-02-01
+tags:
+    - games
+---
+
 Would be great to create a game and submit it to https://en.wikipedia.org/wiki/Itch.io.
 
 Then maybe enter https://en.wikipedia.org/wiki/Ludum_Dare
