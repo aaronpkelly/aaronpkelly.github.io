@@ -1,6 +1,9 @@
 ---
 title: Testing a NodeJS app with Mocha
 description: Exploring and using the Mocha test framework for a NodeJS app
+date: 2020-05-24
+tags:
+	- tdd
 ---
 
 # Vanilla Javascript TDD (Test-Driven-Development)

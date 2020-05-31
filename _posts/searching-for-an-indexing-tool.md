@@ -1,3 +1,11 @@
+---
+title: Searching for an indexing tool
+description: How I created my own API
+date: 2020-03-06
+tags:
+    - mbox
+---
+
 # Searching for an Indexing Tool
 
 ## ElasticSearch (AWS ElastiCache)

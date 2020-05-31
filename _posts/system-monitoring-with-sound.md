@@ -1,6 +1,7 @@
 ---
 title: System monitoring using sound
 description: Using sound to give feedback about system health
+date: 2020-05-25
 tags:
     - audio
 ---

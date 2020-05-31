@@ -1,3 +1,11 @@
+---
+title: Journey to the center of the MBOX
+description:
+date: 2020-03-03
+tags:
+    - mbox
+---
+
 # Exporting the MBOX contents
 
 The contents of MBOX files are just plain text, which has advantages:

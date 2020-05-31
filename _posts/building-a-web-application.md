@@ -1,3 +1,7 @@
+date: 2020-01-10
+tags:
+    - APIs
+
 finally - guides that don't drive me insane:
 
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks

@@ -1,21 +1,13 @@
 ---
-title: Containerising GUI apps
+title: Running GUI apps in a container
 description: How to containerise and run GUI applications, such as Chrome, inside a container
+date: 2020-03-22
+tags:
+    - containers
+	- docker
 ---
 
-Table of Contents
-=================
-
-   * [Running GUI Apps in a Container](#running-gui-apps-in-a-container)
-      * [Chrome](#chrome)
-      * [Troubleshooting](#troubleshooting)
-         * [No protocol specified](#no-protocol-specified)
-         * [Failed to move to new namespace](#failed-to-move-to-new-namespace)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
-
-# Containerising GUI apps
+# Running GUI apps in a container
 
 ## Chrome
 

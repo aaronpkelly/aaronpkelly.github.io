@@ -1,3 +1,11 @@
+---
+title: Preparing text files for indexing
+description:
+date: 2020-03-05
+tags:
+    - mbox
+---
+
 # Preparing text files for indexing
 
 Indexing tools don't solve the problem of automatically sifting throught your
