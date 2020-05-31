@@ -16,7 +16,7 @@
     "Daily notes": true
   },
   "isSidebarCollapsed": false,
-  "isRightSidedockCollapsed": false,
+  "isRightSidedockCollapsed": true,
   "lastOpenSidebarTab": "File explorer",
   "lastOpenRightSidedockTab": "Backlinks",
   "theme": "obsidian",
@@ -33,11 +33,8 @@
         "active": true,
         "master": "",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "AWS.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ]
