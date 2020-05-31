@@ -21,6 +21,24 @@ I use embedded code examples in some posts, courtesy of https://repl.it!
 
 If for some reason you cannot see the code inside these embeds, you may be using a browser (e.g. Brave) which is blocking style elements needed to display them. If you would like to see the text properly, you should whitelist my site (in Brave's case, choosing 'Shields Down for this site').
 
+[AWS S3 - Hosting a static website with no servers](_posts/2020-05-31-AWS-S3---Static-website-hosting-with-no-servers.md)
+
+[AWS](_posts/2020-05-31-AWS.md)
+
+[AWS Lambda - Contacting an external API](_posts/2020-05-31-AWS-Lambda---Contacting-an-external-API.md)
+
+[AWS Fargate - SSH'ing into a container](_posts/2020-05-31-AWS-Fargate---SSHing-into-a-container.md)
+
+[AWS Fargate](_posts/2020-05-31-AWS-Fargate.md)
+
+[AWS ECS - Deploying a docker image](_posts/2020-05-31-AWS-ECS---Deploying-a-docker-image.md)
+
+[AWS Codebuild](_posts/2020-05-31-AWS-Codebuild.md)
+
+[AWS Cloudwatch - Sending notifications to Telegram](_posts/2020-05-31-AWS-Cloudwatch---Sending-notifications-to-Telegram.md)
+
+[AWS Cloudformation](_posts/2020-05-31-AWS-Cloudformation.md)
+
 [AppImage, Flatpak and Snap](_posts/2020-05-28-appimage-flatpak-and-snap.md)
 
 [System monitoring using sound](_posts/2020-05-25-system-monitoring-with-sound.md)
@@ -37,21 +55,21 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [The prison workout](_posts/2020-05-11-the-prison-workout.md)
 
-[Running GUI apps in a container](_posts/2020-03-22-running-gui-apps-in-a-container.md)
+[Running GUI apps in a container](_posts/2020-03-22-Running-GUI-apps-in-a-container.md)
 
 [Containers](_posts/2020-03-21-docker.md)
 
 [Exporting Twitter Data](_posts/2020-03-20-Exporting-twitter-data.md)
 
-[Searching for an indexing tool](_posts/2020-03-06-searching-for-an-indexing-tool.md)
+[Searching for an indexing tool](_posts/2020-03-06-Searching-for-an-indexing-tool.md)
 
-[Preparing text files for indexing](_posts/2020-03-05-preparing-text-files-for-indexing.md)
+[Preparing text files for indexing](_posts/2020-03-05-Preparing-text-files-for-indexing.md)
 
-[Sorting and formatting an MBOX export](_posts/2020-03-04-sorting-and-formatting-the-mbox-output.md)
+[Sorting and formatting an MBOX export](_posts/2020-03-04-Sorting-and-formatting-MBOX-output.md)
 
-[Journey to the center of the MBOX](_posts/2020-03-03-journey-to-the-center-of-the-mbox.md)
+[Journey to the center of the MBOX](_posts/2020-03-03-Journey-to-the-center-of-the-MBOX.md)
 
-[Exfiltrating data from cloud services](_posts/2020-03-02-exfiltrating-data-from-cloud-services.md)
+[Exfiltrating data from cloud services](_posts/2020-03-02-Exfiltrating-data-from-cloud-services.md)
 
 [Indexing an 8GB MBOX file](_posts/2020-03-01-Indexing-an-8GB-MBOX-file.md)
 
