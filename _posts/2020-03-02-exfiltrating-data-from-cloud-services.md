@@ -12,4 +12,3 @@ I'd also like to extract all the attachments separately.
 
 # Twitter
 
-See my post here: [Exporting Twitter Data]({% post_url 2020-03-07-exporting-twitter-data %})
