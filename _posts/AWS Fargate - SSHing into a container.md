@@ -1,3 +1,11 @@
+---
+title: AWS Fargate - SSH'ing into a container
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 # The problem
 AWS Fargate doesn't allow you to SSH into a running container.
 

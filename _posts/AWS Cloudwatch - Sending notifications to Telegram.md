@@ -1,3 +1,11 @@
+---
+title: AWS Cloudwatch - Sending notifications to Telegram
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 # What am I trying to do?
 
 Every time I create a new container on AWS ECS, I want the `PublicIp` sent as a

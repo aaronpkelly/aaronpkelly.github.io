@@ -1,3 +1,11 @@
+---
+title: AWS Lambda - Contacting an external API
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 # Using node.js to contact an external API
 
 I've already made my own AWS API and used AWS Lambda to contact it and return

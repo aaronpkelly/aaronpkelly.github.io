@@ -1,3 +1,11 @@
+---
+title: AWS Fargate
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 # Persistent storage for Fargate tasks
 
 At the moment, there is none. By using Fargate, AWS manages a lot of the

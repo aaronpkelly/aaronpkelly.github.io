@@ -1,0 +1,56 @@
+{
+  "pluginEnabledStatus": {
+    "File explorer": true,
+    "Search": true,
+    "Quick switcher": true,
+    "Graph view": true,
+    "Backlinks": true,
+    "Command palette": true,
+    "Markdown format importer": true,
+    "Word count": true,
+    "Tag pane": true,
+    "Page preview": true,
+    "Random note": true,
+    "Audio recorder": true,
+    "Slides": true,
+    "Daily notes": true
+  },
+  "isSidebarCollapsed": false,
+  "isRightSidedockCollapsed": false,
+  "lastOpenSidebarTab": "File explorer",
+  "lastOpenRightSidedockTab": "Backlinks",
+  "theme": "obsidian",
+  "workspaceLayout": {
+    "id": "2a055678d2b77a3f",
+    "type": "split",
+    "dimension": null,
+    "direction": "vertical",
+    "children": [
+      {
+        "id": "f62a4de6c778a4d3",
+        "type": "leaf",
+        "dimension": null,
+        "active": true,
+        "master": "",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "AWS.md",
+            "mode": "source"
+          }
+        }
+      }
+    ]
+  },
+  "showLineNumber": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "sideDockWidth": {
+    "left": 554,
+    "right": 300
+  },
+  "lastOpenFiles": [
+    "AWS S3 - Static website hosting with no servers.md",
+    "AWS.md"
+  ]
+}

@@ -1,3 +1,11 @@
+---
+title: AWS ECS - Deploying a docker image
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 # Deploying a Docker Image to Amazon Elastic Container Service (ECS)
 
 I've always wondered how long it would take me to go from picking a Dockerfile,

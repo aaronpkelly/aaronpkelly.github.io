@@ -21,11 +21,11 @@ gigantic mailbox, containing ~15 years worth of email and attachments.
 
 To do this, I make use of a number of techniques in the following posts. I've placed them in a logical order here, but they can also be read individually:
 
-[[Exfiltrating data from Cloud Services]]
+[[Exfiltrating data from cloud services]]
 
 [[Journey to the Center of the MBOX]]
 
-[[Sorting and Formatting the MBOX output]]
+[[Sorting and formatting MBOX output]]
 
 [[Preparing text files for indexing]]
 

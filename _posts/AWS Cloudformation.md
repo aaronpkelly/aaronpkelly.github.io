@@ -1,3 +1,11 @@
+---
+title: AWS Cloudformation
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 # Recreating all my resources using Cloudformation + CloudFormer
 
 I want to define my entire cloud setup by using a Cloudformation template, but

@@ -1,3 +1,11 @@
+---
+title: AWS S3 - Hosting a static website with no servers
+description: AWS
+date: 2020-05-31
+tags:
+    - aws
+---
+
 I really like serverless technologies. Like, a lot.
 
 Being able to serve content, or host a useful tool, and letting someone else
