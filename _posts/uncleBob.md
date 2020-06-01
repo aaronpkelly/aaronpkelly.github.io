@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Robert C. Martin ("Uncle Bob")
+description: One of my favourite programmers
 date:   2019-08-07
-categories: programming american software engineers computer history
+tags:
+	- programming
+	- american software engineers
+	- computer history
 ---
 
 One of my favourite tech speakers is Robert C. Martin ("Uncle Bob"):

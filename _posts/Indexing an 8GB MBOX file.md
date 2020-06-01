@@ -29,4 +29,4 @@ To do this, I make use of a number of techniques in the following posts. I've pl
 
 [[Preparing text files for indexing]]
 
-[[Searching for an Indexing Tool]]
+[[Searching for an email indexing tool]]

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: On purchasing
+description: Buying theings
 date:   2018-02-25 
 categories: purchasing advice
 ---

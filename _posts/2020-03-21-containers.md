@@ -18,7 +18,7 @@ As a sandboxed environment to host an application. This is the most common use c
 
 As a black box for transforming data. Set up an environment, take input, transform it, and output.
 
-As a programming environment. VSCode has some [good support](https://code.visualstudio.com/docs/remote/containers) for this already.
+As a programming environment. VSCode has some [good support](https://code.visualstudio.com/docs/remote/containers) for developing inside a container already.
 
 ### Daily use
 

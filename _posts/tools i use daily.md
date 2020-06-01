@@ -57,7 +57,7 @@ Baobab (Linux) and Spacesniffer (Windows).
 More Linux alternatives can be found here: https://www.how2shout.com/tools/best-disk-usage-analyzer-tools-for-linux-system.html
 
 # Note taking
-[Obsidian](https://obsidian.md/). Mediawiki-style note-taking.
+[Obsidian](https://obsidian.md/) - basically just markdown with wiki links
 
 # Operating systems
 MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windows 10. 
