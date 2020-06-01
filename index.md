@@ -24,6 +24,8 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [Docker](_posts/2020-06-01-docker.md)
 
+[Digital Ocean](_posts/2020-06-01-Digital-Ocean.md)
+
 [AWS S3 - Hosting a static website with no servers](_posts/2020-05-31-AWS-S3---Static-website-hosting-with-no-servers.md)
 
 [AWS](_posts/2020-05-31-AWS.md)
@@ -148,7 +150,7 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [I write blog posts](_posts/2018-02-25-How-I-write-blog-posts.md)
 
-[post](_posts/2017-09-24-tinyQuest.md)
+[TinyQuest](_posts/2017-09-24-TinyQuest.md)
 
 # Why do this
 

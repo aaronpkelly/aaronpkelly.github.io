@@ -1,9 +1,15 @@
 ---
-layout: post
-title: tinyQuest developer log
+title: TinyQuest
+description: A fun game I want to make
 date:   2017-09-24
-categories: game programming
+tags:
+	- game programming
+	- gaming
 ---
+
+I should make it in [[Godot]].
+
+# old notes
 
 - android studio can be run on linux without installing
 - using John Horton's "android game programming by example"

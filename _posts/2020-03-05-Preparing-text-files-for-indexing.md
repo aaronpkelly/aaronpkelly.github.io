@@ -8,52 +8,17 @@ tags:
 
 # Preparing text files for indexing
 
-Indexing tools don't solve the problem of automatically sifting throught your
-source content and somehow creating a sensible structure for it... it
-expects you to solve this, and then provide it with metadata. It's strength is
-providing near-instant data search, but you do the prep.
+Indexing tools don't solve the problem of automatically sifting throught your source content and somehow creating a sensible structure for it... itexpects you to solve this, and then provide it with metadata. It's strength is providing near-instant data search, but you do the prep.
 
-So, if you do find yourself with lots of data in different formats, you have a
-bit of work to do.
+So, if you do find yourself with lots of data in different formats, you have a bit of work to do.
 
 ## Media attachments, a problem for another day
 
-Generally I'm not too concerned with sorting all of this. I created a folder
-for each filetype and then uploaded it to it's own bucket on S3. Organising
-media is a future problem!
+Generally I'm not too concerned with sorting all of this. I created a folder for each filetype and then uploaded it to it's own bucket on S3. Organising media is a future problem!
 
 ## JSONifying Plain-text
 
-I wrote a quick python script to jsonify all my emails:
-
-```
-from pathlib import Path
-import time
-import json
-
-p = Path('.')
-
-def printJsonKeyValue(key, value):
-    rst = (value.split(' ', 1))
-    print('\t' + key + ': ' + json.dumps(rst[1]) + ',')
-
-for file in p.iterdir():
-    with file.open() as f:
-
-        msg_header = f.readline().rstrip()
-
-        if 'Subject' in msg_header:
-
-            print('{')
-            printJsonKeyValue('subject', msg_header)
-            printJsonKeyValue('from', f.readline().rstrip())
-            printJsonKeyValue('to', f.readline().rstrip())
-            printJsonKeyValue('body', f.read())
-            print('}')
-            time.sleep(5)
-```
-
-And here's another one I wrote, after I completely forgot about the above script (because I'm a doofus):
+I wrote a quick [[Python]] script to JSONify all email-format text files in the current directory:
 
 ```
 import json

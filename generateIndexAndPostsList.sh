@@ -25,11 +25,14 @@ cleanup() {
 }
 
 cleanup_pre() {
-	if [ "$(ls ${POSTS_DIR}/20*.md)" -ne 1 ]; then
+	set -x
+	rst=$(ls ${POSTS_DIR}/20*.md | echo $?)
+	if [ "$rst" -eq 0 ]; then
 		cd "${POSTS_DIR}"
 		rm 20*.md
 		cd ..
 	fi
+	set +x
 }
 
 generateJekyllPosts() {
