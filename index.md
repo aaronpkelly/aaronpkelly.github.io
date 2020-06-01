@@ -21,6 +21,8 @@ I use embedded code examples in some posts, courtesy of https://repl.it!
 
 If for some reason you cannot see the code inside these embeds, you may be using a browser (e.g. Brave) which is blocking style elements needed to display them. If you would like to see the text properly, you should whitelist my site (in Brave's case, choosing 'Shields Down for this site').
 
+[Docker](_posts/2020-06-01-docker.md)
+
 [AWS S3 - Hosting a static website with no servers](_posts/2020-05-31-AWS-S3---Static-website-hosting-with-no-servers.md)
 
 [AWS](_posts/2020-05-31-AWS.md)
@@ -57,7 +59,7 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [Running GUI apps in a container](_posts/2020-03-22-Running-GUI-apps-in-a-container.md)
 
-[Containers](_posts/2020-03-21-docker.md)
+[Containers](_posts/2020-03-21-containers.md)
 
 [Exporting Twitter Data](_posts/2020-03-20-Exporting-twitter-data.md)
 
@@ -75,7 +77,9 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [Dungeons and Dragons resources](_posts/2020-02-12-dungeons-and-dragons-resources.md)
 
-[Building a budget gaming pc](_posts/2020-02-11-building-a-budget-gaming-pc.md)
+[Building a web application](_posts/2020-02-11-Building-a-web-application.md)
+
+[Building a budget gaming pc](_posts/2020-02-11-Building-a-budget-gaming-pc.md)
 
 [Cheat sheets for printing](_posts/2020-02-10-cheat-sheets-for-printing.md)
 
@@ -93,7 +97,7 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [Game engines](_posts/2020-02-02-game-engines.md)
 
-[Searching for my Container OS](_posts/2020-02-01-searching-for-my-container-os.md)
+[Searching for a good Container OS](_posts/2020-02-01-searching-for-my-container-os.md)
 
 [Game ideas](_posts/2020-02-01-game-ideas.md)
 
@@ -103,7 +107,7 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [Using AWS API Gateway](_posts/2020-01-11-using-aws-api-gateway.md)
 
-[Creating my own API](_posts/2020-01-10-apis.md)
+[APIs](_posts/2020-01-10-apis.md)
 
 [Creating a bookmarklet for hacker news](_posts/2020-01-09-creating-a-bookmarklet-for-hacker-news.md)
 
@@ -113,13 +117,15 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [Blocking ads and unwanted internet traffic](_posts/2020-01-06-Blocking-ads-and-unwanted-internet-traffic.md)
 
-[Tools I Use](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
+[Tools I use daily](_posts/2020-01-05-tools-i-use-daily.md)
 
 [Making my posts discoverable](_posts/2020-01-03-making-my-posts-discoverable.md)
 
 [Creating a RSS feed for Github Pages](_posts/2020-01-02-creating-a-rss-feed-for-github-pages.md)
 
-[Blog-driven development (BDD)](_posts/2020-01-01-blog-driven-development.md)
+[Bookmarks](_posts/2020-01-01-bookmarks.md)
+
+[Blog-driven development (BDD)](_posts/2020-01-01-Blog-driven-development.md)
 
 [post](_posts/2019-08-10-linux_backgroundingJobs.md)
 

@@ -16,7 +16,7 @@
     "Daily notes": true
   },
   "isSidebarCollapsed": false,
-  "isRightSidedockCollapsed": true,
+  "isRightSidedockCollapsed": false,
   "lastOpenSidebarTab": "File explorer",
   "lastOpenRightSidedockTab": "Backlinks",
   "theme": "obsidian",
@@ -33,8 +33,11 @@
         "active": true,
         "master": "",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "AWS.md",
+            "mode": "source"
+          }
         }
       }
     ]
@@ -47,6 +50,7 @@
     "right": 300
   },
   "lastOpenFiles": [
+    "bookmarks.md",
     "AWS S3 - Static website hosting with no servers.md",
     "AWS.md"
   ]

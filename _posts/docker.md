@@ -1,7 +1,7 @@
 ---
-title: Containers
+title: Docker
 description:
-date: 2020-03-21
+date: 2020-06-01
 tags:
     - containers
 	- docker
@@ -11,7 +11,7 @@ tags:
 
 Here lies a collection of useful tricks and tips I've found from working with Docker and containers in general for the last while.
 
-# Docker compose
+## Docker compose
 
 This is an [incredible tool](https://docs.docker.com/compose/) that greatly simplifies the process of working with containers. No longer do you have to remember som arcane serious of `docker run` commands, you can just define exactly how you want your docker containers to behave, how environment variables are set, how volumes are mapped... and put it all in one file.
 
@@ -19,13 +19,13 @@ Some cool links in this space:
 
 - https://composerize.com/: turn run commands into docker-compose files
 
-# Volumes and bind mounts
+## Volumes and bind mounts
 
 Oh man this can get tricky.
 
 Read the entire _storage_ section here and make sure you're as familiar with it as possible: https://docs.docker.com/storage/
 
-## REMEMBER: binds mounts from HOST->CONTAINER will overlay(but not overwrite) the folder in the container
+### REMEMBER: binds mounts from HOST->CONTAINER will overlay(but not overwrite) the folder in the container
 
 I constantly forget this. When I am inside the container, my folder is empty. It's because of how bind mounts work.
 
@@ -33,7 +33,7 @@ From https://docs.docker.com/storage/:
 
     If you mount a bind mount or non-empty volume into a directory in the container in which some files or directories exist, these files or directories are obscured by the mount, just as if you saved files into /mnt on a Linux host and then mounted a USB drive into /mnt. The contents of /mnt would be obscured by the contents of the USB drive until the USB drive were unmounted. The obscured files are not removed or altered, but are not accessible while the bind mount or volume is mounted.
 
-## Binding a folder from CONTAINER->HOST
+### Binding a folder from CONTAINER->HOST
 
 Here's what I want to do:
 
@@ -75,7 +75,7 @@ volumes:
       o: "bind"
 ```
 
-# Throw everything away
+## Throwing everything away
 
 Sometimes you just want to chuck everything away. There is a command for that...
 prune.
@@ -89,7 +89,7 @@ WARNING! This will remove:
 docker system prune
 ```
 
-# Exploring a docker image's filesystem
+## Exploring a docker image's filesystem
 
 pull the image.
 
@@ -107,13 +107,13 @@ author: http://blog.oddbit.com/2015/02/13/unpacking-docker-images/"
 
 https://github.com/larsks/undocker/ works great, I tried it
 
-# Building a Docker image from a Git repository
+## Building a Docker image from a Git repository
 
 Handy to know:
 
 https://docs.docker.com/engine/reference/commandline/build/#git-repositories
 
-# Docker and raspberry pi
+## Docker and raspberry pi
 
 A recent article from the Docker blog on installing it:
 
@@ -121,29 +121,13 @@ https://www.docker.com/blog/happy-pi-day-docker-raspberry-pi/
 
 tags: docker, raspberry, pi
 
-# Interacting with containers launched via AWS Fargate
+## Interacting with containers launched via AWS Fargate
 TODO: I am trying to find the easiest way to do this:
 - docker-compose.yml
 
-# Best practices
-## Spin up a disposable Alpine Linux container whenever you want to do anything
-Think disposable.
-Think of a container as a tool that takes input, transforms it, and outputs data.
+## dockerhub
 
-You don't have to through all the trouble of writing Dockerfiles when all you want to do
-is use a piece of software once, and then throw it away.
-Spin up a tiny container with a decent package manager (Alpine Linux!), mount a volume
-to write to, install your software, and start working!
-
-`docker run --rm -it -v /home/user:/home/user alpine:edge /bin/ash`
-
-That will drop you into a containerised environment where you're free to run wild, and do
-whatever you want. Change the mount points to be whatever you want.
-When you exit the container, the container is destroyed, but your output lives on your host machine.
-
-# dockerhub
-
-## autobuilds - use dockerhub's infrastructure to build your dockerfiles
+### autobuilds - use dockerhub's infrastructure to build your dockerfiles
 
 After hearing about this feature, I just had to give it a go!
 
@@ -157,5 +141,3 @@ do all the overhead of building images, and let me pull the final image.
 
 Proof: 
 ![Autobuilt image running on EC2](https://aaronpkelly.github.io/posts/resources/docker_dockerhub_autoBuilds.png)
-
-tags: docker, dockerhub

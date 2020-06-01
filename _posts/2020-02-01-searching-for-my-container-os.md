@@ -1,6 +1,6 @@
 ---
-title: Searching for my Container OS
-description:
+title: Searching for a good Container OS
+description: A post where I discuss my journey to find a good container operating system
 date: 2020-02-01
 tags:
     - containers
