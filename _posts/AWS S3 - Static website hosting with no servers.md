@@ -36,3 +36,12 @@ hopefully it looks better by the time you view it!
 In the future, maybe I will try:
 - finishing the tutorial, so I can implement advanced behaviours on my websites, using serverless backend technologies
 - registering a custom domain, and then linking that to my bucket - https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
+
+# Static website projects I've created
+I have a bunch of other pet projects that I occasionally work on from time to time, with a hope to charging a small monthly membership for.
+
+[PetiteSheets](http://app-bucket-petitesheets.s3-website-eu-west-1.amazonaws.com/)
+
+[Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
+
+[Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
