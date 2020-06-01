@@ -111,7 +111,7 @@ If for some reason you cannot see the code inside these embeds, you may be using
 
 [My personal infrastructure kingdom](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
 
-[Blocking all the things with NextDNS](_posts/2020-01-06-blocking-all-the-things-with-nextdns.md)
+[Blocking ads and unwanted internet traffic](_posts/2020-01-06-Blocking-ads-and-unwanted-internet-traffic.md)
 
 [Tools I Use](_posts/2020-01-05-tools-i-use-on-linux-and-windows.md)
 

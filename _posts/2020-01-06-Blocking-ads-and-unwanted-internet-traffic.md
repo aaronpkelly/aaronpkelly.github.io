@@ -1,6 +1,6 @@
 ---
-title: Blocking all the things with NextDNS
-description: Blocking unwanted internet traffic using NextDNS
+title: Blocking ads and unwanted internet traffic
+description: How I block all unwanted internet traffic to every device in my home
 date: 2020-01-06
 tags:
     - nextdns
@@ -9,7 +9,30 @@ tags:
     - pi-hole
 ---
 
-# Blocking all the things with NextDNS
+# Router don't let me DNS
+
+My router doesn't let me set a custom DNS server, which typically is needed in order to point all DNS requests to the pi-hole.
+
+This isn't the end of the world. My router DOES allow me to set a DHCP server... and the pi-hole can use this fact to become a DHCP server, which allows it to then function as a DNS server.
+
+# PiHole
+
+My first line of defence.
+
+I use pi hole with all blocklists enabled.
+
+I tell the Pi-hole to use nextdns.io as a DNS provider. I also use NextDNS's technology and additional blocklists there too. It may be overkill, but I really hate ads.
+
+## Youtube
+
+Some domains serve ads from the same domain, which makes them very difficult to detect and block at the DNS level. Youtube is an example of this.
+
+I have a script running on the pi that attempts to discover and create a blocklist - youtube.update.sh. I got it from this thread: https://discourse.pi-hole.net/t/youtube-script-seems-to-be-working-very-well/31316
+
+
+# NextDNS
+
+
 
 I like blocking things. I'm currently using [UBlock](https://github.com/gorhill/uBlock) and it's fantastic. However, it works at the browser level, and I sometimes feel that I'm interacting with it more than I should be.
 

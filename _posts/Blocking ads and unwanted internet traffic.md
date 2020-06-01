@@ -1,5 +1,5 @@
 ---
-title: Blocking ads on all my devices in my home
+title: Blocking ads and unwanted internet traffic
 description: How I block all unwanted internet traffic to every device in my home
 date: 2020-01-06
 tags:
