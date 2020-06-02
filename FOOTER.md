@@ -1,16 +1,15 @@
-# Why do this
 
-I decided that writing about my interests is a good way for me to:
+# The future
 
-- create value from everything I do
-- keep the content simple and to the point 
-- make it presentable and shareable
-- expose everything I do in the public domain. Hopefully, it will be useful to someone somewhere (I like helping people!), and it will encourage me to keep my standards up
+The above list is pretty unstructured. It might be great in future to:
 
-# Turn that post into a sparkly PDF
+- organise them by tag/category
 
-PDFs of all my articles will soon be on https://gumroad.com, using "pay what you
-want" pricing.
+- organise them by association (graph links)
+
+# Like a post? Grab a hardcopy
+
+If I've done a good enough job with one of my posts, you may feel like it's worthy to have the breath of life breathed into it, and have it printed out somewhere. I've considered putting PDFs of popular articles on https://gumroad.com (using "pay what you want" pricing). Let me know if this interests you!
 
 # Contact
 
@@ -38,7 +37,7 @@ other ways: patreon / github sponsors / donorbox.orgstripe / dwolla / flattr / w
 
 [https://blog.fredericrous.com/](https://blog.fredericrous.com/)
 
-# Them quotes
+# Quotes I like enough to put on the front page
 
 "Programs must be written for people to read and only incidentally for machines
 to execute" - (SICP)
