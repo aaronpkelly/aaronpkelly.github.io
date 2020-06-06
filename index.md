@@ -38,7 +38,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 
 
-[Docker](_posts/2020-06-01-docker.md)
+[Docker](_posts/2020-06-01-Docker.md)
 
 [Digital Ocean](_posts/2020-06-01-Digital-Ocean.md)
 
@@ -74,7 +74,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Creating a webapp with database on Heroku](_posts/2020-05-16-creating-a-webapp-with-database-on-heroku.md)
 
-[MX Linux](_posts/2020-05-12-mx-linux-tips.md)
+[MX Linux](_posts/2020-05-12-MX-Linux.md)
 
 [The prison workout](_posts/2020-05-11-the-prison-workout.md)
 
@@ -100,7 +100,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Dungeons and Dragons resources](_posts/2020-02-12-dungeons-and-dragons-resources.md)
 
-[Building a web application](_posts/2020-02-11-Web-development.md)
+[Web development](_posts/2020-02-11-Web-development.md)
 
 [Building a budget gaming pc](_posts/2020-02-11-Building-a-budget-gaming-pc.md)
 
@@ -140,7 +140,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Blocking ads and unwanted internet traffic](_posts/2020-01-06-Blocking-ads-and-unwanted-internet-traffic.md)
 
-[Tools I use daily](_posts/2020-01-05-tools-i-use-daily.md)
+[Tools I use daily](_posts/2020-01-05-Tools-I-use-daily-on-Linux.md)
 
 [Making my posts discoverable](_posts/2020-01-03-making-my-posts-discoverable.md)
 
@@ -201,7 +201,7 @@ If you've found anything here useful, please consider my caffeine levels:
 
 [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url)
 
-other ways: patreon / github sponsors / donorbox.orgstripe / dwolla / flattr / wepay / bitcoin (coming soon)
+other ways: patreon / subscribestar / github sponsors / donorbox.orgstripe / dwolla / flattr / wepay / bitcoin (coming soon)
 
 # Other blogs and peeps I follow
 

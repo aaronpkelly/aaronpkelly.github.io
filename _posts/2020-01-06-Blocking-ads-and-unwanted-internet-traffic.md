@@ -9,31 +9,7 @@ tags:
     - pi-hole
 ---
 
-# Router don't let me DNS
-
-My router doesn't let me set a custom DNS server, which typically is needed in order to point all DNS requests to the pi-hole.
-
-This isn't the end of the world. My router DOES allow me to set a DHCP server... and the pi-hole can use this fact to become a DHCP server, which allows it to then function as a DNS server.
-
-# PiHole
-
-My first line of defence.
-
-I use pi hole with all blocklists enabled.
-
-I tell the Pi-hole to use nextdns.io as a DNS provider. I also use NextDNS's technology and additional blocklists there too. It may be overkill, but I really hate ads.
-
-## Youtube
-
-Some domains serve ads from the same domain, which makes them very difficult to detect and block at the DNS level. Youtube is an example of this.
-
-I have a script running on the pi that attempts to discover and create a blocklist - youtube.update.sh. I got it from this thread: https://discourse.pi-hole.net/t/youtube-script-seems-to-be-working-very-well/31316
-
-
-# NextDNS
-
-
-
+# Blocking ads and unwanted internet traffic
 I like blocking things. I'm currently using [UBlock](https://github.com/gorhill/uBlock) and it's fantastic. However, it works at the browser level, and I sometimes feel that I'm interacting with it more than I should be.
 
 There are other options that manage blocking for you. [pi-hole](https://github.com/pi-hole/pi-hole) is another software/hardware DNS sinkhole that filters out network traffic from unwanted domains, and it worked very well also. However it did end up being another device to manage, and I found I always wanted to poach the pi for running another project :)
@@ -44,7 +20,30 @@ Moving further up the chain... there is a cloud solution that I heard good thing
 
 - "Yes. NextDNS is a validating DNSSEC resolver. This means that for domains implemeting DNSSEC, NextDNS will cryptographically ensure that the response provided matches the intended response of the domain operator. If the validation fails, NextDNS will return an empty answer."
 
-# Using NextDNS's DNS service without installing their service/daemon
+# Pi-hole
+I mant the Pi-hole to be my first line of defence. It has a powerful admin console, many community blocklists, and the ability to work on any device that connects to my home WIFI router.
+
+However, I have a problem in that I'm not able to set a custom DNS server on my rounter. Thankfully, there is a way around this...
+
+## Router has no custom DNS server option? Using the PI as a DHCP server
+Your router needs to be able to let set a custom DNS server, which is needed in order to point all DNS requests to the pi-hole.
+
+If it can't do that, it's not the end of the world. Their documentation gives a workaround - most rounters WILL allow you to set a custom DHCP server (in charge of handing out IP addresses), and a DHCP server can also function as a DNS server. As my router DOES allow me to set a custom DHCP server, I was able to choose this.
+
+After enabling the DHCP option in the pi-hole, and then giving its IP to my router - I could see requests from all devices in my home start arriving into the pi-hole. Winning!
+
+## Filtering tricky same-domain ads (e.g. Youtube)  
+Some domains serve ads from the same domain, which makes them very difficult to detect and block at the DNS level. Youtube is an example of this.
+
+I have a script running on the pi that attempts to discover and create a blocklist - youtube.update.sh. I got it from this thread: https://discourse.pi-hole.net/t/youtube-script-seems-to-be-working-very-well/31316
+
+# NextDNS
+I tell the Pi-hole to use nextdns.io as a DNS provider. I also use NextDNS's technology and additional blocklists there too. It may be overkill, but I really hate ads.
+
+
+
+
+## Using NextDNS's DNS service without installing their service/daemon
 
 I'm currently using a linux distro that doesn't use systemd as an init system, so the typical [installation instructions](https://github.com/nextdns/nextdns#install) will fail at the end when it tries to install the service.
 
@@ -76,6 +75,62 @@ DNS configuration:
 You can also go to https://my.nextdns.io/ and it will confirm that you're using their DNS, and that your configuratin is OK:
 
 ![nextdns](/assets/nextdns_allgood.png)
+
+## Adding NextDNS records to Pi Hole
+You can get a list of DNS queries via the NextDNS's logs tab, but how do you convert the logs on that webpage to a format that's readable by pi-hole? 
+
+Well, I just selected all the text on the webpage (https://my.nextdns.io/f8aac8/logs) and dumped it into a file. So, here is my input file:
+```
+
+Setup
+Security
+Privacy
+Parental Control
+Blacklist
+Whitelist
+Analytics
+Logs
+Settings
+googlev
+
+Blocked Queries Only
+r3---sn-q0c7rn76.googlevideo.comAAAA
+mx
+Thursday, June 4, 2020 7:46 PM
+r3---sn-q0c7rn76.googlevideo.comA
+mx
+Thursday, June 4, 2020 7:46 PM
+r3-sn-q0c7rn76.googlevideo.comA
+mx
+Thursday, June 4, 2020 7:26 PM
+r1---sn-q0cedn7s.googlevideo.comA
+mx
+Wednesday, June 3, 2020 11:06 PM
+r3---sn-q0c7rn76.googlevideo.comAAAA
+37.228.244.125
+```
+
+I then made a bash command to filter out only the relevant information, and then for each line:
+- do a `nslookup` on each record and print the ip4 address
+- on the same line, print the domain name that was queried
+
+```
+grep -e '.*---.*comA$' input | uniq | sed 's/A//g' | xargs -n 1 sh -c 'for arg do nslookup "$arg" 2>/dev/null | grep "Address 1" | cut -d " " -f 3 | xargs echo -n; echo " $arg"; sleep 5; done' _
+```
+
+Ouput:
+```
+173.194.129.232 r3---sn-q0c7rn76.googlevideo.com
+74.125.168.6 r1---sn-q0cedn7s.googlevideo.com
+173.194.129.232 r3---sn-q0c7rn76.googlevideo.com
+173.194.55.71 r1---sn-vgqsenls.googlevideo.com
+74.125.100.185 r3---sn-5hnedn7z.googlevideo.com
+173.194.129.232 r3---sn-q0c7rn76.googlevideo.com
+173.194.129.234 r5---sn-q0c7rn76.googlevideo.com
+173.194.129.232 r3---sn-q0c7rn76.googlevideo.com
+```
+
+I could then add this output to my 
 
 # So... I don't have the daemon. What am I missing out on? (INCUBATING)
 

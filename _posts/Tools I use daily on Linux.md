@@ -1,6 +1,6 @@
 ---
 title: Tools I use daily
-description: A list of the most common tools I use daily on both Linux and Windows, from browsers to command-line utilities
+description: A list of the most common tools I use daily on both Linux and Windows, from command-line utilities to browser extensions
 date: 2020-01-05
 tags:
     - asciinema
@@ -85,21 +85,5 @@ pciutils (for lspci), lsusb, hwinfo (Linux).
 ~ hwinfo
 ~ ? musikcube (windows)
 
-# Tools I WANT to try
-Full disclosure - I haven't tried them, but I want to.
-
-https://directory.fsf.org/wiki/Etherpad
-
-https://directory.fsf.org/wiki/Nextcloud
-
-https://github.com/Upload/Up1
-
-https://mosh.org
-
-diagram.codes
-
-X410 – X Server for Windows 10 https://news.ycombinator.com/item?id=22905390
-
-## Terminal dashboards
-~ https://github.com/wtfutil/wtf
-~ https://github.com/jaymedavis/hubble
+# See also
+[[Tools i am trialling or want to try]]

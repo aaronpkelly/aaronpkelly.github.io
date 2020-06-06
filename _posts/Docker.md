@@ -141,3 +141,7 @@ do all the overhead of building images, and let me pull the final image.
 
 Proof: 
 ![Autobuilt image running on EC2](https://aaronpkelly.github.io/posts/resources/docker_dockerhub_autoBuilds.png)
+
+# See also
+
+https://labs.play-with-docker.com/ - an excellent free environment for running docker images. 4 hour lifetime

@@ -1,10 +1,13 @@
 ---
-title: Building a web application
+title: Web development
 description:
 date: 2020-02-11
 tags:
     - webdev
 ---
+
+# Web development
+Full stack web development resources
 
 # Building a web application
 Guides that don't drive me insane:
@@ -19,5 +22,12 @@ somebody feels my pain: https://hn.algolia.com/?dateRange=all&page=0&prefix=true
 
 the dark side: https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/
 
+# Courses
+https://www.c0d3.com/curriculum (via HN)
+https://learnjsthehardway.com/ (Zed Shaw)
+
 # Resources
 The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/item?id=3267187)
+
+# See also
+[[Javascript]]
