@@ -1,3 +1,11 @@
+---
+title: Deploying a small ecommerce website
+description:
+date: 2020-06-07
+tags:
+    - stripe
+	- gatsby
+---
 
 # Deploying a small ecommerce website
 I wanted to use this template: https://templates.netlify.com/template/gatsby-starter-ecommerce/

@@ -38,6 +38,8 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 
 
+[Deploying a small ecommerce website](_posts/2020-06-07-Deploying-a-small-ecommerce-website.md)
+
 [Docker](_posts/2020-06-01-Docker.md)
 
 [Digital Ocean](_posts/2020-06-01-Digital-Ocean.md)
