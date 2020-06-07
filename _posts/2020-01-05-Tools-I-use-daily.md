@@ -44,6 +44,7 @@ These tools in this list probably belong in their own sections:
 - aws: the AWS cli
 - baobab
 - ffmpeg: audio/video conversion tool
+- fzf
 - jq: json processor
 - rclone: great utility, but I mostly use AWS S3 for everything these days
 - xz - lossless compression program based on LZMA/LZMA2 compression algorithms

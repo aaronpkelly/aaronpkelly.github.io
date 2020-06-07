@@ -140,7 +140,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Blocking ads and unwanted internet traffic](_posts/2020-01-06-Blocking-ads-and-unwanted-internet-traffic.md)
 
-[Tools I use daily](_posts/2020-01-05-Tools-I-use-daily-on-Linux.md)
+[Tools I use daily](_posts/2020-01-05-Tools-I-use-daily.md)
 
 [Making my posts discoverable](_posts/2020-01-03-making-my-posts-discoverable.md)
 
@@ -167,6 +167,8 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 [I write blog posts](_posts/2018-02-25-How-I-write-blog-posts.md)
 
 [TinyQuest](_posts/2017-09-24-TinyQuest.md)
+
+[A REPL in your shell with FZF](_posts/2017-09-24-A-REPL-for-shell-commands.md)
 
 [](_posts/1mb.co.md)
 

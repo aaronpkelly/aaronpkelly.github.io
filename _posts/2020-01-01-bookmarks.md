@@ -8,7 +8,7 @@ tags:
 
 I don't really keep bookmarks anymore. If I find a website useful, I will either:
 - add my discovery into a blog post
-- follow the site/person on [[Tools I use daily on Linux|https://fraidyc.at/]]
+- follow the site/person on [[Tools I use daily|https://fraidyc.at/]]
 - find and favourite the item on news.ycombinator.com
 - star the project on github.com
 

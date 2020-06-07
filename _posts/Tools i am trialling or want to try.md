@@ -2,7 +2,9 @@
 
 https://en.wikipedia.org/wiki/Remmina - vnc client
 
-https://github.com/junegunn/fzf - because of this: https://paweldu.dev/posts/fzf-live-repl/
+https://github.com/sharkdp/bat - cat with syntax highlighting (and more)
+
+ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
 # want to try
 
