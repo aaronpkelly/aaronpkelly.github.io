@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# This script helps me:
+# - generate a single index.md by
+#  	- scanning which posts are ready for publishing (if they have YAML front-matter)
+# 	- collating the contents of smaller files (HEADER, FOOTER)
+# - convert my mediawkik-style markdown to Github-style markdown ()
+
 set -e
 
 INDEX='index.md'
@@ -24,6 +30,7 @@ cleanup() {
 	rm "$POSTS_FILE"
 }
 
+# I 
 cleanup_pre() {
 	set -x
 	rst=$(ls ${POSTS_DIR}/20*.md | echo $?)

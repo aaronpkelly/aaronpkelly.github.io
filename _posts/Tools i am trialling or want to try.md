@@ -6,6 +6,8 @@ https://github.com/sharkdp/bat - cat with syntax highlighting (and more)
 
 ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
+zipgrep - search inside zip archives!
+
 # want to try
 
 Full disclosure - I haven't tried them, but I want to.
