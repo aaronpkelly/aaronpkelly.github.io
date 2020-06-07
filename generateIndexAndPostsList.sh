@@ -9,7 +9,8 @@
 set -e
 
 INDEX='index.md'
-POSTS_DIR='_posts'
+POSTS_DIR_SOURCE='_posts'
+POSTS_DIR_TARGET="${POSTS_DIR_SOURCE}/jekyll"
 POSTS_FILE='POSTS.md'
 HEADER_FILE='HEADER.md'
 FOOTER_FILE='FOOTER.md'
@@ -33,9 +34,9 @@ cleanup() {
 # I 
 cleanup_pre() {
 	set -x
-	rst=$(ls ${POSTS_DIR}/20*.md | echo $?)
+	rst=$(ls ${POSTS_DIR_TARGET}/20*.md | echo $?)
 	if [ "$rst" -eq 0 ]; then
-		cd "${POSTS_DIR}"
+		cd "${POSTS_DIR_TARGET}"
 		rm 20*.md
 		cd ..
 	fi
@@ -46,15 +47,15 @@ generateJekyllPosts() {
 	set -x
 
 	IFS=$'\n'
-	for file in $(ls "$POSTS_DIR"); do
-		POST_DATE=$(getDateFromFrontMatter "${POSTS_DIR}/${file}")
+	for file in $(ls "$POSTS_DIR_SOURCE"); do
+		POST_DATE=$(getDateFromFrontMatter "${POSTS_DIR_SOURCE}/${file}")
 
 		if [[ "$POST_DATE" =~ ^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$ ]]; then
 
 			# replace filenname spaces with hyphens
 			file_with_hyphen=${file// /-}
 
-			cp "${POSTS_DIR}/${file}" "${POSTS_DIR}/${POST_DATE}-${file_with_hyphen}"
+			cp "${POSTS_DIR_SOURCE}/${file}" "${POSTS_DIR_TARGET}/${POST_DATE}-${file_with_hyphen}"
 		fi
 
 	done
@@ -69,16 +70,16 @@ generatePostList() {
 	IFS=$'\n'
 
 	if [ "$TYPE" == "markdown" ]; then
-		for file in $(ls "$POSTS_DIR" | grep -e '^[0-9].*md$'| sort --reverse); do
+		for file in $(ls "$POSTS_DIR_TARGET" | grep -e '^[0-9].*md$'| sort --reverse); do
         	echo "[generatePostList] adding to ${POSTS_FILE}: $file"
-			# LAST_MODIFIED=$(stat -c %y "${POSTS_DIR}/${file}" | cut -d '.' -f1)
-			POST_TITLE=$(getTitle "${POSTS_DIR}/${file}")
-			# echo "[${POST_TITLE} (Last updated: ${LAST_MODIFIED})](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
-			echo "[${POST_TITLE}](${POSTS_DIR}/${file})" >> "$POSTS_FILE"
+			# LAST_MODIFIED=$(stat -c %y "${POSTS_DIR_SOURCE}/${file}" | cut -d '.' -f1)
+			POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
+			# echo "[${POST_TITLE} (Last updated: ${LAST_MODIFIED})](${POSTS_DIR_SOURCE}/${file})" >> "$POSTS_FILE"
+			echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
 			printf '\n' >> "$POSTS_FILE"
 		done
 	elif [ "$TYPE" == "mediawiki" ]; then
-		echo "[[${POSTS_DIR}/${file%.*}]]" >> "$POSTS_FILE"
+		echo "[[${POSTS_DIR_TARGET}/${file%.*}]]" >> "$POSTS_FILE"
 		printf '\n' >> "$POSTS_FILE"
 	else
 		echo "unknown link type provided"
@@ -117,18 +118,18 @@ getTitle() {
 generateTOC() {
     echo "Generating TOC for $1"
     
-	cp "${POSTS_DIR}/$1" "${POSTS_DIR}/$1.orig"
-    ./gh-md-toc "${POSTS_DIR}/$1.orig" > "${POSTS_DIR}/$1"
+	cp "${POSTS_DIR_SOURCE}/$1" "${POSTS_DIR_SOURCE}/$1.orig"
+    ./gh-md-toc "${POSTS_DIR_SOURCE}/$1.orig" > "${POSTS_DIR_SOURCE}/$1"
     
     # -e: enable interpretation of backslash escapes 
-    echo -e "\n" >> "${POSTS_DIR}/$1"
+    echo -e "\n" >> "${POSTS_DIR_SOURCE}/$1"
     
-    cat "${POSTS_DIR}/$1.orig" >> "${POSTS_DIR}/$1"
-    rm "${POSTS_DIR}/$1.orig"
+    cat "${POSTS_DIR_SOURCE}/$1.orig" >> "${POSTS_DIR_SOURCE}/$1"
+    rm "${POSTS_DIR_SOURCE}/$1.orig"
 }
 
 main() {
-	cleanup_pre
+	# cleanup_pre
 	zeroOutIndexAndPOSTS
 	generateJekyllPosts
 	addHeader

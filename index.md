@@ -38,141 +38,139 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 
 
-[Deploying a small ecommerce website](_posts/2020-06-07-Deploying-a-small-ecommerce-website.md)
+[Deploying a small ecommerce website](_posts/jekyll/2020-06-07-Deploying-a-small-ecommerce-website.md)
 
-[Docker](_posts/2020-06-01-Docker.md)
+[Docker](_posts/jekyll/2020-06-01-Docker.md)
 
-[Digital Ocean](_posts/2020-06-01-Digital-Ocean.md)
+[Digital Ocean](_posts/jekyll/2020-06-01-Digital-Ocean.md)
 
-[AWS S3 - Hosting a static website with no servers](_posts/2020-05-31-AWS-S3---Static-website-hosting-with-no-servers.md)
+[AWS S3 - Hosting a static website with no servers](_posts/jekyll/2020-05-31-AWS-S3---Static-website-hosting-with-no-servers.md)
 
-[AWS](_posts/2020-05-31-AWS.md)
+[AWS](_posts/jekyll/2020-05-31-AWS.md)
 
-[AWS Lambda - Contacting an external API](_posts/2020-05-31-AWS-Lambda---Contacting-an-external-API.md)
+[AWS Lambda - Contacting an external API](_posts/jekyll/2020-05-31-AWS-Lambda---Contacting-an-external-API.md)
 
-[AWS Fargate - SSH'ing into a container](_posts/2020-05-31-AWS-Fargate---SSHing-into-a-container.md)
+[AWS Fargate - SSH'ing into a container](_posts/jekyll/2020-05-31-AWS-Fargate---SSHing-into-a-container.md)
 
-[AWS Fargate](_posts/2020-05-31-AWS-Fargate.md)
+[AWS Fargate](_posts/jekyll/2020-05-31-AWS-Fargate.md)
 
-[AWS ECS - Deploying a docker image](_posts/2020-05-31-AWS-ECS---Deploying-a-docker-image.md)
+[AWS ECS - Deploying a docker image](_posts/jekyll/2020-05-31-AWS-ECS---Deploying-a-docker-image.md)
 
-[AWS Codebuild](_posts/2020-05-31-AWS-Codebuild.md)
+[AWS Codebuild](_posts/jekyll/2020-05-31-AWS-Codebuild.md)
 
-[AWS Cloudwatch - Sending notifications to Telegram](_posts/2020-05-31-AWS-Cloudwatch---Sending-notifications-to-Telegram.md)
+[AWS Cloudwatch - Sending notifications to Telegram](_posts/jekyll/2020-05-31-AWS-Cloudwatch---Sending-notifications-to-Telegram.md)
 
-[AWS Cloudformation](_posts/2020-05-31-AWS-Cloudformation.md)
+[AWS Cloudformation](_posts/jekyll/2020-05-31-AWS-Cloudformation.md)
 
-[AppImage, Flatpak and Snap](_posts/2020-05-28-appimage-flatpak-and-snap.md)
+[AppImage, Flatpak and Snap](_posts/jekyll/2020-05-28-appimage-flatpak-and-snap.md)
 
-[System monitoring using sound](_posts/2020-05-25-system-monitoring-with-sound.md)
+[System monitoring using sound](_posts/jekyll/2020-05-25-system-monitoring-with-sound.md)
 
-[Testing a NodeJS app with Mocha](_posts/2020-05-24-testing-a-nodejs-app-with-mocha.md)
+[Testing a NodeJS app with Mocha](_posts/jekyll/2020-05-24-testing-a-nodejs-app-with-mocha.md)
 
-[Test-driven-development (TDD)](_posts/2020-05-24-tdd.md)
+[Test-driven-development (TDD)](_posts/jekyll/2020-05-24-tdd.md)
 
-[Linux](_posts/2020-05-24-Linux.md)
+[Linux](_posts/jekyll/2020-05-24-Linux.md)
 
-[Generating quiz questions](_posts/2020-05-17-quiz-question-generation.md)
+[Generating quiz questions](_posts/jekyll/2020-05-17-quiz-question-generation.md)
 
-[Creating a webapp with database on Heroku](_posts/2020-05-16-creating-a-webapp-with-database-on-heroku.md)
+[Creating a webapp with database on Heroku](_posts/jekyll/2020-05-16-creating-a-webapp-with-database-on-heroku.md)
 
-[MX Linux](_posts/2020-05-12-MX-Linux.md)
+[MX Linux](_posts/jekyll/2020-05-12-MX-Linux.md)
 
-[The prison workout](_posts/2020-05-11-the-prison-workout.md)
+[The prison workout](_posts/jekyll/2020-05-11-the-prison-workout.md)
 
-[Running GUI apps in a container](_posts/2020-03-22-Running-GUI-apps-in-a-container.md)
+[Running GUI apps in a container](_posts/jekyll/2020-03-22-Running-GUI-apps-in-a-container.md)
 
-[Containers](_posts/2020-03-21-containers.md)
+[Containers](_posts/jekyll/2020-03-21-containers.md)
 
-[Exporting Twitter Data](_posts/2020-03-20-Exporting-twitter-data.md)
+[Exporting Twitter Data](_posts/jekyll/2020-03-20-Exporting-twitter-data.md)
 
-[Searching for an email indexing tool](_posts/2020-03-06-Searching-for-an-email-indexing-tool.md)
+[Searching for an email indexing tool](_posts/jekyll/2020-03-06-Searching-for-an-email-indexing-tool.md)
 
-[Meilisearch](_posts/2020-03-06-MeiliSearch.md)
+[Meilisearch](_posts/jekyll/2020-03-06-MeiliSearch.md)
 
-[Preparing text files for indexing](_posts/2020-03-05-Preparing-text-files-for-indexing.md)
+[Preparing text files for indexing](_posts/jekyll/2020-03-05-Preparing-text-files-for-indexing.md)
 
-[Sorting and formatting an MBOX export](_posts/2020-03-04-Sorting-and-formatting-MBOX-output.md)
+[Sorting and formatting an MBOX export](_posts/jekyll/2020-03-04-Sorting-and-formatting-MBOX-output.md)
 
-[Journey to the center of the MBOX](_posts/2020-03-03-Journey-to-the-center-of-the-MBOX.md)
+[Journey to the center of the MBOX](_posts/jekyll/2020-03-03-Journey-to-the-center-of-the-MBOX.md)
 
-[Exfiltrating data from cloud services](_posts/2020-03-02-Exfiltrating-data-from-cloud-services.md)
+[Exfiltrating data from cloud services](_posts/jekyll/2020-03-02-Exfiltrating-data-from-cloud-services.md)
 
-[Indexing an 8GB MBOX file](_posts/2020-03-01-Indexing-an-8GB-MBOX-file.md)
+[Indexing an 8GB MBOX file](_posts/jekyll/2020-03-01-Indexing-an-8GB-MBOX-file.md)
 
-[Dungeons and Dragons resources](_posts/2020-02-12-dungeons-and-dragons-resources.md)
+[Dungeons and Dragons resources](_posts/jekyll/2020-02-12-dungeons-and-dragons-resources.md)
 
-[Web development](_posts/2020-02-11-Web-development.md)
+[Web development](_posts/jekyll/2020-02-11-Web-development.md)
 
-[Building a budget gaming pc](_posts/2020-02-11-Building-a-budget-gaming-pc.md)
+[Building a budget gaming pc](_posts/jekyll/2020-02-11-Building-a-budget-gaming-pc.md)
 
-[Cheat sheets for printing](_posts/2020-02-10-cheat-sheets-for-printing.md)
+[Cheat sheets for printing](_posts/jekyll/2020-02-10-cheat-sheets-for-printing.md)
 
-[Running GeForce Now on Linux](_posts/2020-02-09-running-geforce-now-on-linux.md)
+[Running GeForce Now on Linux](_posts/jekyll/2020-02-09-running-geforce-now-on-linux.md)
 
-[Cloud gaming](_posts/2020-02-08-cloud-gaming.md)
+[Cloud gaming](_posts/jekyll/2020-02-08-cloud-gaming.md)
 
-[Itch.io](_posts/2020-02-07-itch.io.md)
+[Itch.io](_posts/jekyll/2020-02-07-itch.io.md)
 
-[Linux Gaming](_posts/2020-02-06-linux-gaming.md)
+[Linux Gaming](_posts/jekyll/2020-02-06-linux-gaming.md)
 
-[Live Coding](_posts/2020-02-05-live-coding.md)
+[Live Coding](_posts/jekyll/2020-02-05-live-coding.md)
 
-[Computer Music](_posts/2020-02-04-computer-music.md)
+[Computer Music](_posts/jekyll/2020-02-04-computer-music.md)
 
-[Game engines](_posts/2020-02-02-game-engines.md)
+[Game engines](_posts/jekyll/2020-02-02-game-engines.md)
 
-[Searching for a good Container OS](_posts/2020-02-01-searching-for-my-container-os.md)
+[Searching for a good Container OS](_posts/jekyll/2020-02-01-searching-for-my-container-os.md)
 
-[Game ideas](_posts/2020-02-01-game-ideas.md)
+[Game ideas](_posts/jekyll/2020-02-01-game-ideas.md)
 
-[Glossary](_posts/2020-01-31-glossary.md)
+[Glossary](_posts/jekyll/2020-01-31-glossary.md)
 
-[Replacing Linux Firmware](_posts/2020-01-12-replacing-linux-firmware.md)
+[Replacing Linux Firmware](_posts/jekyll/2020-01-12-replacing-linux-firmware.md)
 
-[Using AWS API Gateway](_posts/2020-01-11-using-aws-api-gateway.md)
+[Using AWS API Gateway](_posts/jekyll/2020-01-11-using-aws-api-gateway.md)
 
-[APIs](_posts/2020-01-10-apis.md)
+[APIs](_posts/jekyll/2020-01-10-apis.md)
 
-[Creating a bookmarklet for hacker news](_posts/2020-01-09-creating-a-bookmarklet-for-hacker-news.md)
+[Creating a bookmarklet for hacker news](_posts/jekyll/2020-01-09-creating-a-bookmarklet-for-hacker-news.md)
 
-[The hunt for my digital life pre-2004](_posts/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
+[The hunt for my digital life pre-2004](_posts/jekyll/2020-01-08-the-hunt-for-my-digital-life-pre-2004.md)
 
-[My personal infrastructure kingdom](_posts/2020-01-07-my-personal-infrastructure-kingdom.md)
+[My personal infrastructure kingdom](_posts/jekyll/2020-01-07-my-personal-infrastructure-kingdom.md)
 
-[Blocking ads and unwanted internet traffic](_posts/2020-01-06-Blocking-ads-and-unwanted-internet-traffic.md)
+[Blocking ads and unwanted internet traffic](_posts/jekyll/2020-01-06-Blocking-ads-and-unwanted-internet-traffic.md)
 
-[Tools I use daily](_posts/2020-01-05-Tools-I-use-daily.md)
+[Tools I use daily](_posts/jekyll/2020-01-05-Tools-I-use-daily.md)
 
-[Making my posts discoverable](_posts/2020-01-03-making-my-posts-discoverable.md)
+[Making my posts discoverable](_posts/jekyll/2020-01-03-making-my-posts-discoverable.md)
 
-[Creating a RSS feed for Github Pages](_posts/2020-01-02-creating-a-rss-feed-for-github-pages.md)
+[Creating a RSS feed for Github Pages](_posts/jekyll/2020-01-02-creating-a-rss-feed-for-github-pages.md)
 
-[Bookmarks](_posts/2020-01-01-bookmarks.md)
+[Bookmarks](_posts/jekyll/2020-01-01-bookmarks.md)
 
-[Blog-driven development (BDD)](_posts/2020-01-01-Blog-driven-development.md)
+[Blog-driven development (BDD)](_posts/jekyll/2020-01-01-Blog-driven-development.md)
 
-[Backgrounding jobs in Linux](_posts/2019-08-10-Backgrounding-jobs-in-Linux.md)
+[Backgrounding jobs in Linux](_posts/jekyll/2019-08-10-Backgrounding-jobs-in-Linux.md)
 
-[Robert C. Martin ("Uncle Bob")](_posts/2019-08-07-uncleBob.md)
+[Robert C. Martin ("Uncle Bob")](_posts/jekyll/2019-08-07-uncleBob.md)
 
-[Steam](_posts/2019-07-27-steam.md)
+[Steam](_posts/jekyll/2019-07-27-steam.md)
 
-[Named pipes in Linux](_posts/2019-07-27-Named-pipes-in-Linux.md)
+[Named pipes in Linux](_posts/jekyll/2019-07-27-Named-pipes-in-Linux.md)
 
-[My favourite albums](_posts/2019-07-27-My-favourite-albums.md)
+[My favourite albums](_posts/jekyll/2019-07-27-My-favourite-albums.md)
 
-[ Learning music with Ableton](_posts/2019-07-27-Learning-music-with-Ableton.md)
+[ Learning music with Ableton](_posts/jekyll/2019-07-27-Learning-music-with-Ableton.md)
 
-[On purchasing](_posts/2018-02-25-purchasing.md)
+[On purchasing](_posts/jekyll/2018-02-25-purchasing.md)
 
-[I write blog posts](_posts/2018-02-25-How-I-write-blog-posts.md)
+[I write blog posts](_posts/jekyll/2018-02-25-How-I-write-blog-posts.md)
 
-[TinyQuest](_posts/2017-09-24-TinyQuest.md)
+[TinyQuest](_posts/jekyll/2017-09-24-TinyQuest.md)
 
-[A REPL in your shell with FZF](_posts/2017-09-24-A-REPL-for-shell-commands.md)
-
-[](_posts/1mb.co.md)
+[A REPL in your shell with FZF](_posts/jekyll/2017-09-24-A-REPL-for-shell-commands.md)
 
 
 # The future
