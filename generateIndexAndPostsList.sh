@@ -130,7 +130,7 @@ generateTOC() {
 }
 
 main() {
-	# cleanup_pre
+	cleanup_pre
 	zeroOutIndexAndPOSTS
 	generateJekyllPosts
 	addHeader
