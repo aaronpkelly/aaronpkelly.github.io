@@ -36,6 +36,8 @@ addPosts() {
 # using the hash table
 convertWikiLinksToMarkdownLinks() {
 
+	set -x
+
 	# if you want to see the contents of the table:
 	# for filename in "${!convertedFileNames[@]}"; do echo "$filename - ${convertedFileNames[$filename]}"; done
 
@@ -44,9 +46,13 @@ convertWikiLinksToMarkdownLinks() {
 		# echo "key is ${key}. value is ${value}"
 
 		# here's the meat
-		sed -i "s,\[\[${key}\]\],\[${key}\]\(\{\% ${value} \%\}\),g" $(grep --files-with-matches --recursive "\[\[${key}\]\]" ${POSTS_DIR_TARGET}/20*.md)
+		matched=$(grep --files-with-matches --recursive "\[\[${key}\]\]" ${POSTS_DIR_TARGET}/20*.md)
+		if [ "$matched" ]; then
+			sed -i "s,\[\[${key}\]\],\[${key}\]\(\{\% ${value} \%\}\),g" $() "$matched"
+		fi
 
 	done
+	set +x
 }
 
 cleanup() {
