@@ -58,4 +58,4 @@ However I have just found https://github.com/sanathp/statusok, and I think this 
 # See also
 [[Using AWS API Gateway]]
 
-[Using AWS API Gateway]({% 2020-01-11-Using-AWS-API-Gateway.md %})
+[Using AWS API Gateway]({% 2020-01-11-Using-AWS-API-Gateway %}
