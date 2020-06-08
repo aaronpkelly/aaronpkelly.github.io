@@ -1,9 +1,10 @@
 ---
-title: AWS Cloudformation
-description: AWS
+title: AWS Cloudformation notes
+description: AWS Cloudformation notes
 date: 2020-05-31
 tags:
     - aws
+	- cloudformation
 ---
 
 # Recreating all my resources using Cloudformation + CloudFormer

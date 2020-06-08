@@ -44,23 +44,23 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Digital Ocean](_posts/2020-06-01-Digital-Ocean.md)
 
-[AWS S3 - Hosting a static website with no servers](_posts/2020-05-31-AWS-S3---Static-website-hosting-with-no-servers.md)
+[ SSHing into an AWS Fargate container](_posts/2020-05-31-SSHing-into-an-AWS-Fargate-container.md)
+
+[Sending notifications to Telegram using AWS Cloudwatch](_posts/2020-05-31-Sending-notifications-to-Telegram-using-AWS-Cloudwatch.md)
+
+[Hosting a serverless static website on AWS S3](_posts/2020-05-31-Hosting-a-serverless-static-website-on-AWS-S3.md)
+
+[Deploying a docker image to AWS ECS ](_posts/2020-05-31-Deploying-a-docker-image-to-AWS-ECS.md)
+
+[Contacting an external API using AWS Lambda](_posts/2020-05-31-Contacting-an-external-API-using-AWS-Lambda.md)
 
 [AWS](_posts/2020-05-31-AWS.md)
 
-[AWS Lambda - Contacting an external API](_posts/2020-05-31-AWS-Lambda---Contacting-an-external-API.md)
-
-[AWS Fargate - SSH'ing into a container](_posts/2020-05-31-AWS-Fargate---SSHing-into-a-container.md)
-
 [AWS Fargate notes](_posts/2020-05-31-AWS-Fargate-notes.md)
 
-[AWS ECS - Deploying a docker image](_posts/2020-05-31-AWS-ECS---Deploying-a-docker-image.md)
+[AWS Codebuild notes](_posts/2020-05-31-AWS-Codebuild-notes.md)
 
-[AWS Codebuild](_posts/2020-05-31-AWS-Codebuild.md)
-
-[AWS Cloudwatch - Sending notifications to Telegram](_posts/2020-05-31-AWS-Cloudwatch---Sending-notifications-to-Telegram.md)
-
-[AWS Cloudformation](_posts/2020-05-31-AWS-Cloudformation.md)
+[AWS Cloudformation notes](_posts/2020-05-31-AWS-Cloudformation-notes.md)
 
 [AppImage, Flatpak and Snap](_posts/2020-05-28-appimage-flatpak-and-snap.md)
 

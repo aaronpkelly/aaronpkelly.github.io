@@ -1,17 +1,19 @@
 ---
-title: AWS S3 - Hosting a static website with no servers
-description: AWS
+title: Hosting a serverless static website on AWS S3
+description: Hosting a serverless static website on AWS S3
 date: 2020-05-31
 tags:
     - aws
+	- s3
+	- static website
+	- serverless
 ---
 
+# Hosting a serverless static website on AWS S3
 I really like serverless technologies. Like, a lot.
 
 Being able to serve content, or host a useful tool, and letting someone else
 worry about managing the servers, is pretty amazing.
-
-# Serverless static website hosting
 
 One morning, I woke up early and started thinking about static website hosting,
 don't ask me why. I remember seeing a tutorial somewhere that used AWS S3

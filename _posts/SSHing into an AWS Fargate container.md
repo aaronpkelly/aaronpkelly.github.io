@@ -1,9 +1,11 @@
 ---
-title: AWS Fargate - SSH'ing into a container
-description: AWS
+title:  SSHing into an AWS Fargate container
+description:  SSHing into an AWS Fargate container
 date: 2020-05-31
 tags:
     - aws
+	- fargate
+	- ssh
 ---
 
 # The problem

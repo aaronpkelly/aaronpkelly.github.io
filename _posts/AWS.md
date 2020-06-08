@@ -24,16 +24,16 @@ up keeping is this one, in order to avail of the free hosted github.io website.
 
 [[AWS Fargate notes]]
 
-[[AWS Codebuild]]
+[[AWS Codebuild notes]]
 
-[[AWS Cloudformation]]
+[[AWS Cloudformation notes]]
 
-[[AWS ECS - Deploying a docker image]]
+[[Deploying a docker image to AWS ECS]]
 
-[[AWS Fargate - SSHing into a container]]
+[[SSHing into an AWS Fargate container]]
 
-[[AWS Lambda - Contacting an external API]]
+[[Contacting an external API using AWS Lambda]]
 
-[[AWS S3 - Static website hosting with no servers]]
+[[Hosting a serverless static website on AWS S3]]
 
-[[AWS Cloudwatch - Sending notifications to Telegram]]
+[[Sending notifications to Telegram using AWS Cloudwatch]]
