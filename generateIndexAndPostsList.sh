@@ -50,7 +50,7 @@ convertWikiLinksToMarkdownLinks() {
 		# here's the meat
 		matched="$(grep --files-with-matches --recursive "\[\[${key%.*}\]\]" ${POSTS_DIR_TARGET}/20*.md)"
 		if [[ "$matched" != "" ]]; then
-			sed -i "s,\[\[${key%.*}\]\],\[${key%.*}\]\(\{\% ${value%.*} \%\}\),g" $() "$matched"
+			sed -i "s,\[\[${key%.*}\]\],\[${key%.*}\]\(\{\% post_url ${value%.*} \%\}\),g" $() "$matched"
 		fi
 
 	done

@@ -26,4 +26,4 @@ Get in the habit of using a disposable container whenever possible. Why go throu
 
 # See also
 
-[Docker]({% 2020-06-01-Docker %})
+[Docker]({% post_url 2020-06-01-Docker %})

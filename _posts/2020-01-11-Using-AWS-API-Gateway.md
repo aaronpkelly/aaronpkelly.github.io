@@ -257,4 +257,4 @@ $ curl -H "Content-Type: application/json" "https://itu2sxh7h1.execute-api.eu-we
 
 # See also
 
-[apis]({% 2020-01-10-apis %})
+[apis]({% post_url 2020-01-10-apis %})
