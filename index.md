@@ -108,7 +108,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Cheat sheets for printing](_posts/2020-02-10-cheat-sheets-for-printing.md)
 
-[Running GeForce Now on Linux](_posts/2020-02-09-running-geforce-now-on-linux.md)
+[Running GeForce Now on Linux](_posts/2020-02-09-Running-GeForce-Now-on-Linux.md)
 
 [Cloud gaming](_posts/2020-02-08-cloud-gaming.md)
 
@@ -130,7 +130,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [Replacing Linux Firmware](_posts/2020-01-12-replacing-linux-firmware.md)
 
-[Using AWS API Gateway](_posts/2020-01-11-using-aws-api-gateway.md)
+[Using AWS API Gateway](_posts/2020-01-11-Using-AWS-API-Gateway.md)
 
 [APIs](_posts/2020-01-10-apis.md)
 

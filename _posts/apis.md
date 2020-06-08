@@ -43,11 +43,6 @@ I've created:
 
 <iframe height="400px" width="100%" src="https://repl.it/@aaronpkelly/UpbeatFairLegacy?lite=true" scrolling="no" frameborder="no" allowtransparency="false" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-
-
-
-
-
 # API Frameworks I've tried
 
 I've used a bunch of different API frameworks; flask, node.js, AWS API Gateway... I have to say I find flask the easiest to use! 
@@ -61,5 +56,6 @@ I'm currently using https://assertible.com/, which for the moment is good as sep
 However I have just found https://github.com/sanathp/statusok, and I think this tool could become part of my CI/CD pipeline - it's open-source and very simple.
 
 # See also
+[[Using AWS API Gateway]]
 
 [Using AWS API Gateway]({% post_url 2020-01-11-using-aws-api-gateway %})

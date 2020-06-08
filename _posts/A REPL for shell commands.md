@@ -36,27 +36,6 @@ Python:
 : | (fzf --multi --preview 'python -c {q}' --preview-window=up:70 )
 ```
 
-## Instant searche (WIKIs, search engines..)
-Very handy when you want to get instant results! This uses `w3m --dump` to format the html page into plain text.
-
-DuckDuckGo:
-
-```
- : | (fzf --multi --preview 'w3m -dump https://duckduckgo.com/\?q\={q}' --preview-window=up:70 )
-```
-
-Wikipedia:
-
-```
-: | (fzf --multi --preview 'w3m -dump https://en.wikipedia.org/wiki/{q}' --preview-window=up:70 )
-```
-
-Dark Souls 3 wiki (I am a fan...):
-
-```
-: | (fzf --multi --preview 'w3m -dump https://darksouls3.wiki.fextralife.com/{q}' --preview-window=up:70 )
-```
-
 ## Bash/Zsh/Fish REPL
 I wanted to take that further... could `fzf` be used to execute shell commands, and output the result?
 

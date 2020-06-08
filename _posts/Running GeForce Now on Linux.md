@@ -6,7 +6,10 @@ tags:
     - gaming
 ---
 
-Current status: UNSUCCESSFUL
+# Running GeForce Now on Linux
+TLDR; **UNSUCCESSFUL** so far
+
+## About GeForce Now
 
 I've tried this service on Windows and it's fantastic:
 
