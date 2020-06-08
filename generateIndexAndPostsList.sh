@@ -16,6 +16,10 @@ POSTS_FILE='POSTS.md'
 HEADER_FILE='HEADER.md'
 FOOTER_FILE='FOOTER.md'
 
+# a bash hashtable (aka associative array) to map what the original
+# markdown filename was before it was converted to a jekyll file
+declare -A convertedFileNames
+
 addFooter() {
 	cat "$FOOTER_FILE" >> "$INDEX"
 }
@@ -26,6 +30,16 @@ addHeader() {
 
 addPosts() {
     cat "$POSTS_FILE" >> "$INDEX"
+}
+
+# convert all mediawiki-style internal links '[[]]' to markdown-style []()
+# using the hash table
+convertWikiLinksToMarkdownLinks() {
+
+	echo "Here's what I have so far:"
+	# for filename in "${!convertedFileNames[@]}"; do echo "$filename - ${convertedFileNames[$filename]}"; done
+
+	
 }
 
 cleanup() {
@@ -44,6 +58,8 @@ cleanup_pre() {
 	set +x
 }
 
+# will only generate a jekyll-compatible post, YYYY-MM-DD-<POST>.md,
+# only if front-matter is detected in the markdown file
 generateJekyllPosts() {
 	set -x
 
@@ -57,6 +73,9 @@ generateJekyllPosts() {
 			file_with_hyphen=${file// /-}
 
 			cp "${POSTS_DIR_SOURCE}/${file}" "${POSTS_DIR_TARGET}/${POST_DATE}-${file_with_hyphen}"
+
+			# keep a record of the file name conversion
+			convertedFileNames["${file}"]="${POST_DATE}-${file_with_hyphen}"
 		fi
 
 	done
@@ -133,6 +152,7 @@ main() {
 	cleanup_pre
 	zeroOutIndexAndPOSTS
 	generateJekyllPosts
+	convertWikiLinksToMarkdownLinks
 	addHeader
 	generatePostList "$LINK_TYPE"
 	addPosts
@@ -165,6 +185,8 @@ userConfirm() {
 		exit 0
 	fi
 }
+
+
 
 usage() {
 	echo "Usage: ${0} [mediawiki|markdown]"
