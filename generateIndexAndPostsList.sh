@@ -6,7 +6,8 @@
 # 	- collating the contents of smaller files (HEADER, FOOTER)
 # - convert my mediawkik-style markdown to Github-style markdown ()
 
-set -e
+# i want this enabled, but if grep fails to match a file, it will return 1 and trip this, ending my script early :(
+# set -e
 
 INDEX='index.md'
 POSTS_DIR_SOURCE='_posts'
@@ -42,13 +43,14 @@ convertWikiLinksToMarkdownLinks() {
 	# for filename in "${!convertedFileNames[@]}"; do echo "$filename - ${convertedFileNames[$filename]}"; done
 
 	for key in "${!convertedFileNames[@]}"; do
+
 		value="${convertedFileNames[$key]}"
-		# echo "key is ${key}. value is ${value}"
+		echo "key is ${key}. value is ${value}"
 
 		# here's the meat
-		matched=$(grep --files-with-matches --recursive "\[\[${key}\]\]" ${POSTS_DIR_TARGET}/20*.md)
-		if [ "$matched" ]; then
-			sed -i "s,\[\[${key}\]\],\[${key}\]\(\{\% ${value} \%\}\),g" $() "$matched"
+		matched="$(grep --files-with-matches --recursive "\[\[${key%.*}\]\]" ${POSTS_DIR_TARGET}/20*.md)"
+		if [[ "$matched" != "" ]]; then
+			sed -i "s,\[\[${key%.*}\]\],\[${key%.*}\]\(\{\% ${value%.*} \%\}\),g" $() "$matched"
 		fi
 
 	done
