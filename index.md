@@ -52,7 +52,7 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
 
 [AWS Fargate - SSH'ing into a container](_posts/2020-05-31-AWS-Fargate---SSHing-into-a-container.md)
 
-[AWS Fargate](_posts/2020-05-31-AWS-Fargate.md)
+[AWS Fargate notes](_posts/2020-05-31-AWS-Fargate-notes.md)
 
 [AWS ECS - Deploying a docker image](_posts/2020-05-31-AWS-ECS---Deploying-a-docker-image.md)
 

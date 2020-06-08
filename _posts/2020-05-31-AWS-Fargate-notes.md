@@ -1,10 +1,13 @@
 ---
-title: AWS Fargate
+title: AWS Fargate notes
 description: AWS
 date: 2020-05-31
 tags:
     - aws
+	- fargate
 ---
+
+# AWS Fargate notes
 
 # Persistent storage for Fargate tasks
 

@@ -20,9 +20,9 @@ EC2.
 Yes - the whole show is on the move, and I think the only repository I will end
 up keeping is this one, in order to avail of the free hosted github.io website.
 
-# Other posts
+# Other AWS posts
 
-[[AWS Fargate]]
+[[AWS Fargate notes]]
 
 [[AWS Codebuild]]
 
