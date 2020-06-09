@@ -1,9 +1,6 @@
 ---
 layout: post
 title: A REPL in your shell with FZF
-tags:
-	- fzf
-	- repl
 ---
 
 # A REPL in your shell with FZF
