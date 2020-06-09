@@ -1,6 +1,7 @@
 ---
-layout: post
 title: A REPL in your shell with FZF
+description: Using fzf as a REPL for every command you type on your shell
+date:   2017-09-24
 ---
 
 # A REPL in your shell with FZF
