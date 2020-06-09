@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A REPL in your shell with FZF
 date:   2017-09-24
 tags:
