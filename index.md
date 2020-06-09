@@ -34,7 +34,7 @@ I think both of the above help with explaining a point, and they're also super f
 
 If for some reason you experience funny issues with the embedded elements, e.g. code output seems to be invisible/styled incorrectly, the style elements needed to display them may be blocked by your browser, an addon, or DNS blocking.
 
-# Posts
+# Categories
 
 <div id="archives">
 {% for category in site.categories %}
@@ -53,6 +53,31 @@ If for some reason you experience funny issues with the embedded elements, e.g. 
   </div>
 {% endfor %}
 </div>
+
+# Tags
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+# Post index
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+# My non-Jekyll generated post index
+
+
 
 [Deploying a small ecommerce website](_posts/2020-06-07-Deploying-a-small-ecommerce-website.md)
 

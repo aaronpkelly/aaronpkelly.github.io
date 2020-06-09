@@ -1,10 +1,11 @@
 ---
 title: A REPL in your shell with FZF
-summary: Using fzf as a REPL for every command you type on your shell
+description: Using fzf as a REPL for every command you type on your shell
 date:   2017-09-24
-categories:
-  - fzf
-  - fun
+layout: post
+tags:
+	- fzf
+	- repl
 ---
 
 # A REPL in your shell with FZF
