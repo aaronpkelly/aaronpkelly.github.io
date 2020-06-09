@@ -1,7 +1,6 @@
 ---
-layout: post
 title: A REPL in your shell with FZF
-summary: Using fzf as a REPL for every command you type on your shell
+date:   2017-09-24
 tags:
 	- fzf
 	- repl
@@ -16,7 +15,7 @@ Below are a few examples where this behaviour can be used in surprising and effe
 
 ## jq - interactive
 
-Use the following to interact with real API responses in realtime, or an a JSON file on disk:
+Use the following to interact with real API responses in realtime, or an a JSON file on disk: 
 
 ```
 : | fzf --preview 'curl https://jsonplaceholder.typicode.com/posts | jq {q}'
