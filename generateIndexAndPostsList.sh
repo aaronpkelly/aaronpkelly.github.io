@@ -1,11 +1,12 @@
 #!/bin/bash
 
-# This script helps me:
-# - generate a single index.md by
-#  	- scanning which posts are ready for publishing (if they have YAML front-matter)
-# 	- collating the contents of smaller files (HEADER, FOOTER)
-# - convert my mediawkik-style markdown to Github-style markdown ()
+# This script helps me do a bunch of stuff:
+# 	- generating my own post list, because some day I might not be using Jekyll:
+# 		- it scans which posts are ready for publishing (currently, it decects if they have YAML front-matter)
+# 	- collate the contents of smaller files HEADER and FOOTER
+# 	- convert my mediawkik-style markdown to Github-style markdown ()
 
+# TODO: fix this
 # i want this enabled, but if grep fails to match a file, it will return 1 and trip this, ending my script early :(
 # set -e
 
