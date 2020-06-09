@@ -12,7 +12,7 @@ Below are a few examples where this behaviour can be used in surprising and effe
 
 ## jq - interactive
 
-Use the following to interact with real API responses in realtime, or an a JSON file on disk: 
+Use the following to interact with real API responses in realtime, or an a JSON file on disk:
 
 ```
 : | fzf --preview 'curl https://jsonplaceholder.typicode.com/posts | jq {q}'
