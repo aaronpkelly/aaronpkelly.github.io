@@ -134,6 +134,8 @@ I like to write about my tech experiences *a lot*, so posts are the the main foc
 
 [Game engines](_posts/2020-02-02-game-engines.md)
 
+[fzf](_posts/2020-02-02-fzf.md)
+
 [Searching for a good Container OS](_posts/2020-02-01-searching-for-my-container-os.md)
 
 [Game ideas](_posts/2020-02-01-game-ideas.md)

@@ -9,7 +9,7 @@ tags:
 ---
 
 # A REPL in your shell with FZF
-I first discovered [[fzf]] via [a post](https://news.ycombinator.com/item?id=20455857) on hacker news, which demonstrated that in addition to all it's fuzzy-searching greatness, the output of the `fzf` could be used as a REPL - instantly running and displaying the output of a command as it's typed.
+I first discovered [fzf]({% post_url 2020-02-02-fzf %}) via [a post](https://news.ycombinator.com/item?id=20455857) on hacker news, which demonstrated that in addition to all it's fuzzy-searching greatness, the output of the `fzf` could be used as a REPL - instantly running and displaying the output of a command as it's typed.
 
 The trick is to pipe an empty search into `fzf`: `: | [YOUR_QUERY]`. This makes `fzf` operate only on the query you give it.
 
