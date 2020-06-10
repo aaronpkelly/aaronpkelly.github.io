@@ -3,9 +3,9 @@ title: Blog-driven development (BDD)
 description: Using blogs to assist with small projects
 date: 2020-01-01
 tags:
-    - blog-driven development
-    - bdd
-    - blogs
+  - blog-driven development
+  - bdd
+  - blogs
 ---
 
 A crazy idea I had recently, was for every idea or small project that I want to attempt... start a blog entry for it. Then, I can use that blog entry to help me with my development.

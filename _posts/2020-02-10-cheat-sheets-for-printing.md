@@ -3,7 +3,7 @@ title: Cheat sheets for printing
 description:
 date: 2020-02-10
 tags:
-    - cheat sheets
+  - cheat sheets
 ---
 
 # Good cheat sheets for printing

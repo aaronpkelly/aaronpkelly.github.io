@@ -3,13 +3,13 @@ title: Backgrounding jobs in Linux
 description: How to background jobs in Linux 
 date: 2019-08-10
 tags::
-	- linux
-	- background
-	- jobs
-	- batch
-	- video
-	- conversion
-	- nohup
+  - linux
+  - background
+  - jobs
+  - batch
+  - video
+  - conversion
+  - nohup
 ---
 
 Yes there is the method of using `CTRL+Z`, `bg`, `fg`, `jobs`...

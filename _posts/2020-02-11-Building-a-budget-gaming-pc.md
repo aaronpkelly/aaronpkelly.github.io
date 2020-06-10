@@ -3,7 +3,7 @@ title: Building a budget gaming pc
 description:
 date: 2020-02-11
 tags:
-    - gaming
+  - gaming
 ---
 
 I have an old tower that I'm thinking of repurposing as a gaming machine.

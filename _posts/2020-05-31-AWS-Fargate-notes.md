@@ -3,8 +3,8 @@ title: AWS Fargate notes
 description: AWS
 date: 2020-05-31
 tags:
-    - aws
-	- fargate
+  - aws
+  - fargate
 ---
 
 # AWS Fargate notes

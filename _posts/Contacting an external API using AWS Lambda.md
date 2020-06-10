@@ -3,9 +3,9 @@ title: Contacting an external API using AWS Lambda
 description: Contacting an external API using AWS Lambda
 date: 2020-05-31
 tags:
-    - aws
-	- lambda
-	- api
+  - aws
+  - lambda
+  - api
 ---
 
 # Using node.js to contact an external API

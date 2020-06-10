@@ -3,7 +3,7 @@ title: Bookmarks
 description: 
 date: 2020-01-01
 tags:
-    - bookmarks
+  - bookmarks
 ---
 
 I don't really keep bookmarks anymore. If I find a website useful, I will either:

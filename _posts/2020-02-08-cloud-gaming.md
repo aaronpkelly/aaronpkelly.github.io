@@ -3,7 +3,7 @@ title: Cloud gaming
 description: Trying out the various cloud gaming services
 date: 2020-02-08
 tags:
-    - gaming
+  - gaming
 ---
 
 I want to play Doom eternal, but I have the following constraints:
