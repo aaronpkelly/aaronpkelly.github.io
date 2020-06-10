@@ -1,11 +1,3 @@
----
-title: Tags
-description:
-date: 2020-06-10
----
-
-# Tags
-
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
@@ -14,5 +6,3 @@ date: 2020-06-10
     {% endfor %}
   </ul>
 {% endfor %}
-
-Source: ?

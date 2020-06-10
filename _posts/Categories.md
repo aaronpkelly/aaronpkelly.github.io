@@ -1,10 +1,3 @@
----
-title: Categories
-description:
-date: 2020-06-10
----
-
-# Categories
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">

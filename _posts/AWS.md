@@ -3,7 +3,7 @@ title: AWS
 description: AWS
 date: 2020-05-31
 tags:
-    - aws
+  - aws
 ---
 
 # AWS

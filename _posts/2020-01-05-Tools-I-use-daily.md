@@ -3,9 +3,8 @@ title: Tools I use daily
 description: A list of the most common tools I use daily on both Linux and Windows, from command-line utilities to browser extensions
 date: 2020-01-05
 tags:
-    - asciinema
-	- tools
-	- developer
+  - tools
+  - developer
 ---
 
 # Tools I use daily
