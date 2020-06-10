@@ -170,8 +170,11 @@ main() {
 	generateJekyllPosts
 	convertWikiLinksToMarkdownLinks
 	addHeader
-	generatePostList "$LINK_TYPE"
-	addPosts
+	
+	# i'm going to use the Jekyll-generated one for now. Just tring it. Don't get md
+	# generatePostList "$LINK_TYPE"
+	# addPosts
+	
 	addFooter
 	cleanup
 }
