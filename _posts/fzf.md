@@ -1,3 +1,13 @@
+---
+title: fzf
+date: 2020-02-02
+categories:
+  - tech
+tags:
+  - search
+  - cli
+---
+
 # FZF
 
 ## keybinds

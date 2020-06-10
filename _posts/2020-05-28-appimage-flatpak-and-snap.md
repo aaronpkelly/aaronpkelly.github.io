@@ -8,16 +8,22 @@ tags:
     - snap
 ---
 
-# AppImage
+# AppImage, Flatpak and Snap
+All dependencies are bundled inside the file.
+
+Alternative to docker, package manager
+
+## AppImage
 https://en.wikipedia.org/wiki/AppImage
 
-+ yay for self-contained runnables
-- weird sandboxing issue requires me to run with `--no-sandbox`
++ download, chmod +x, then run
+- weird sandboxing issues requires me to run with `--no-sandbox` (maybe this just affects obsidian.md)
 
 A good example: https://obsidian.md/
 
-# Flatpak
-+ `chmod +x ./your_app` and your'e off
+## Flatpak
++ flatpak has a cli which can be useful, search for new packages on 'flathub'
+- hard to remember the command to "run" an application, usually have to type `flatpak list` first to get the package name, then type `flatpak run <package-name>`
 
-# Snaps
+## Snaps
 - Require a 'snap store' to be installed on your system
