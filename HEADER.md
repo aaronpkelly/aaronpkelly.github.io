@@ -8,9 +8,9 @@ I like to write about my tech experiences *a lot*, so posts are the the main foc
 
 # Post index
 
-{% link /Categories.html %}
+{% link Categories.html %}
 
-{% link /Tags.html %}
+{% link Tags.html %}
 
 <ul>
   {% for post in site.posts %}
