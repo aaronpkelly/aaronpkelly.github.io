@@ -1,6 +1,6 @@
 ---
 title: Using AWS API Gateway
-description:I
+description:
 date: 2020-01-11
 tags:
   - APIs
