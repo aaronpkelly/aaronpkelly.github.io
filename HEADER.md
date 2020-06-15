@@ -8,9 +8,7 @@ I like to write about my tech experiences *a lot*, so posts are the the main foc
 
 # Post index
 
-<a href="https://aaronpkelly.github.io/Categories.html">Categories</a>
-
-<a href="https://aaronpkelly.github.io/Tags.html">Tags</a>
+You can also view the below articles by <a href="https://aaronpkelly.github.io/Categories.html">category</a> or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>.
 
 <ul>
   {% for post in site.posts %}
