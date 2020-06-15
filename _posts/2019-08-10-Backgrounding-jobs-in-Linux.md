@@ -2,7 +2,7 @@
 title: Backgrounding jobs in Linux
 description: How to background jobs in Linux 
 date: 2019-08-10
-tags::
+tags:
   - linux
   - background
   - jobs
