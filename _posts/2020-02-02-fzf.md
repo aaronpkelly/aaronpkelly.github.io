@@ -39,11 +39,11 @@ Find a file by name and display its contents in the preview pane:
 fzf --preview 'find . -type f -name {q} | head -100 {}'
 ```
 
-## Search for file contents and display (using grep/ripgrep)
-The contents of the file will be dispalyed in the preview pane:
+## Search for file contents (using grep/ripgrep)
+The contents of the file will be dispalyed in the search results:
 
 ```
-fzf --preview 'grep --recursive -l {q} | head -100 {}'
+grep --line-buffered --color=never --ignore-case --recursive "" | fzf
 ```
 
 ## Generate a list, mark rows, perform action

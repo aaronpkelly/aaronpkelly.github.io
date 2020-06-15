@@ -3,7 +3,7 @@ title: Glossary
 description: great explanations for common but confusing terms
 date: 2020-01-31
 tags:
-    - CORS
+  - CORS
 ---
 
 # Glossary

@@ -3,7 +3,7 @@ title: Itch.io
 description:
 date: 2020-02-07
 tags:
-    - gaming
+  - gaming
 ---
 
 I really like this site so much

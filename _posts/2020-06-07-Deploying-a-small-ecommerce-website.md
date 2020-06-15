@@ -3,8 +3,8 @@ title: Deploying a small ecommerce website
 description: Deploying a small ecommerce website using Gatsby and Stripe
 date: 2020-06-07
 tags:
-    - stripe
-	- gatsby
+  - stripe
+  - gatsby
 ---
 
 # Deploying a small ecommerce website

@@ -3,7 +3,7 @@ title: Running GeForce Now on Linux
 description:
 date: 2020-02-09
 tags:
-    - gaming
+  - gaming
 ---
 
 # Running GeForce Now on Linux

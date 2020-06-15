@@ -3,7 +3,7 @@ title: System monitoring using sound
 description: Using sound to give feedback about system health
 date: 2020-05-25
 tags:
-    - audio
+  - audio
 ---
 
 I first got this idea when Han and Chewie scrambled into the cockpit of the Millennium Falcon and started flipping switches to power on the ship. Along with the lights and cool set pieces coming to life, there was a lot of fun audio feedback they were getting as well.

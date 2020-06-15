@@ -3,7 +3,7 @@ title: Steam
 description: Steam cloud gaming
 date:   2019-07-27
 tags:
-	- steam
+  - steam
 ---
 
 # Tools

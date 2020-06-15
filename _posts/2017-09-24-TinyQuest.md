@@ -3,8 +3,8 @@ title: TinyQuest
 description: A fun game I want to make
 date:   2017-09-24
 tags:
-	- game programming
-	- gaming
+  - game programming
+  - gaming
 ---
 
 I should make it in [[Godot]].

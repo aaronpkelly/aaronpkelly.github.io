@@ -3,10 +3,10 @@ title: Hosting a serverless static website on AWS S3
 description: Hosting a serverless static website on AWS S3
 date: 2020-05-31
 tags:
-    - aws
-	- s3
-	- static website
-	- serverless
+  - aws
+  - s3
+  - static website
+  - serverless
 ---
 
 # Hosting a serverless static website on AWS S3

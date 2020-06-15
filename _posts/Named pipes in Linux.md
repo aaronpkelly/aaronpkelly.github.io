@@ -3,9 +3,9 @@ title: Named pipes in Linux
 description: Using named pipes in Linux
 date:   2019-07-27
 tags:
-	- linux
-	- named pipe
-	- inter-process communication
+  - linux
+  - named pipe
+  - inter-process communication
 ---
 
 An interesting article I came across today talked about _named pipes_ in Linux.

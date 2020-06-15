@@ -3,8 +3,8 @@ title: Generating quiz questions
 description: 
 date: 2020-05-17
 tags:
-    - quiz
-	- generation
+  - quiz
+  - generation
 ---
 
 # Generating quiz questions

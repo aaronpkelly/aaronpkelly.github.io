@@ -3,8 +3,8 @@ title: Linux Gaming
 description:
 date: 2020-02-06
 tags:
-    - gaming
-	- linux
+  - gaming
+  - linux
 ---
 # Services
 

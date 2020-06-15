@@ -3,8 +3,8 @@ title: MX Linux
 description:
 date: 2020-05-12
 tags:
-    - linux
-	- mxlinux
+  - linux
+  - mxlinux
 ---
 
 # Set sound output to HDMI 

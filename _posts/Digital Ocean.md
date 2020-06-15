@@ -3,7 +3,7 @@ title: Digital Ocean
 description:
 date: 2020-06-01
 tags:
-	- linux
+  - linux
 ---
 
 # Digital Ocean

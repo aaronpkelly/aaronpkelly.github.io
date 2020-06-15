@@ -3,7 +3,7 @@ title: Live Coding
 description:
 date: 2020-02-05
 tags:
-    - live coding
+  - live coding
 ---
 
 "embrace error and uncertainty"

@@ -3,7 +3,7 @@ title: The hunt for my digital life pre-2004
 description: I had an online presence pre-2004, but it's very difficult to find
 date: 2020-01-08
 tags:
-    - hotmail
+  - hotmail
 ---
 
 I had a digital life pre-2004, but records are flaky that far back in time.

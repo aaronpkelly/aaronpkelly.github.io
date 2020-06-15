@@ -3,7 +3,7 @@ title: Preparing text files for indexing
 description:
 date: 2020-03-05
 tags:
-    - mbox
+  - mbox
 ---
 
 # Preparing text files for indexing

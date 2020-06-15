@@ -3,10 +3,10 @@ title: Searching for an email indexing tool
 description: I try out various tools to help me index old email
 date: 2020-03-06
 tags:
-    - mbox
-	- meilisearch
-	- elasticsearch
-	- elasticache
+  - mbox
+  - meilisearch
+  - elasticsearch
+  - elasticache
 ---
 
 # Searching for an email indexing Tool

@@ -3,7 +3,7 @@ title:	How I write blog posts
 description: How I write blog posts
 date:   2018-02-25
 tags:
-	- blogs
+  - blogs
 ---
 
 Every post is continually updated, and ideally never goes out of date.

@@ -3,9 +3,9 @@ title: Creating a webapp with database on Heroku
 description:
 date: 2020-05-16
 tags:
-    - heroku
-	- webapps
-	- databases
+  - heroku
+  - webapps
+  - databases
 ---
 
 # Heroku (and the PEN stack? PostgreSQL/ExpressJS/NodeJS)

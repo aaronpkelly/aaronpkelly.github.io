@@ -3,9 +3,9 @@ title: Sending notifications to Telegram using AWS Cloudwatch
 description: Sending notifications to Telegram using AWS Cloudwatch
 date: 2020-05-31
 tags:
-    - aws
-	- cloudwatch
-	- telegram
+  - aws
+  - cloudwatch
+  - telegram
 ---
 
 # What am I trying to do?

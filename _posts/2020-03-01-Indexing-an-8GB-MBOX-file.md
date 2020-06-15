@@ -3,15 +3,15 @@ title: Indexing an 8GB MBOX file
 description: A post series on how I indexed an 8GB MBOX file
 date: 2020-03-01
 tags:
-    - mbox
-    - export
-    - indexing
-    - search
-    - meilisearch
-    - elasticsearch
-    - aws
-    - elasticache
-    - google
+  - mbox
+  - export
+  - indexing
+  - search
+  - meilisearch
+  - elasticsearch
+  - aws
+  - elasticache
+  - google
 ---
 
 # Indexing an 8GB MBOX file

@@ -3,7 +3,7 @@ title: Game ideas
 description:
 date: 2020-02-01
 tags:
-    - games
+  - games
 ---
 
 Would be great to create a game and submit it to https://en.wikipedia.org/wiki/Itch.io.

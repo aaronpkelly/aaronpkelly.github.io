@@ -3,8 +3,8 @@ title: Meilisearch
 description: Using Meilisearch to index things
 date: 2020-03-06
 tags:
-    - mbox
-	- meilisearch
+  - mbox
+  - meilisearch
 ---
 
 # Meilisearch

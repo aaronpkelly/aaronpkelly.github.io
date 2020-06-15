@@ -3,7 +3,7 @@ title: Sorting and formatting an MBOX export
 description:
 date: 2020-03-04
 tags:
-    - mbox
+  - mbox
 ---
 
 # Sorting and Formatting the MBOX export

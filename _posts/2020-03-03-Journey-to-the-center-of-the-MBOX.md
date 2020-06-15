@@ -3,7 +3,7 @@ title: Journey to the center of the MBOX
 description:
 date: 2020-03-03
 tags:
-    - mbox
+  - mbox
 ---
 
 # Exporting the MBOX contents

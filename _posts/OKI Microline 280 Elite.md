@@ -8,3 +8,7 @@ DC 9.6VDC <-> 31.2VDC, 4.0 <->1.8A
 
 oki.ie
 Power Cord DC YS4100-1187P001
+
+
+Call this number:
+44 178 42 74 310 - sales department OKI London - get part from here (got a call from Tech SUpport in Poland)

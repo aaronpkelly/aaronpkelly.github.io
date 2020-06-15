@@ -3,7 +3,7 @@ title: Replacing Linux Firmware
 description: How I updated my Linux distribution's network firmware 
 date: 2020-01-12
 tags:
-    - firmware
+  - firmware
 ---
 
 On my Dell XPS 13, I have the following network adapter:

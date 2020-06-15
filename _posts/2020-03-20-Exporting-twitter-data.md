@@ -3,8 +3,8 @@ title: Exporting Twitter Data
 description: How I exported my Twitter user data into a usable output
 date: 2020-03-20
 tags:
-    - twitter
-    - export
+  - twitter
+  - export
 ---
 
 # Exporting Twitter Data

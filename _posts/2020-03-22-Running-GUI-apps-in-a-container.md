@@ -3,8 +3,8 @@ title: Running GUI apps in a container
 description: How to containerise and run GUI applications, such as Chrome, inside a container
 date: 2020-03-22
 tags:
-    - containers
-	- docker
+  - containers
+  - docker
 ---
 
 # Running GUI apps in a container

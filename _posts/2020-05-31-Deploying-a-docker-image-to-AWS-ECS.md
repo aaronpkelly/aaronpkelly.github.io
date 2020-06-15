@@ -3,9 +3,9 @@ title: Deploying a docker image to AWS ECS
 description: Deploying a docker image to AWS ECS 
 date: 2020-05-31
 tags:
-    - aws
-	- ecs
-	- docker
+  - aws
+  - ecs
+  - docker
 ---
 
 # Deploying a docker image to AWS ECS
