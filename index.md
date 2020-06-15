@@ -8,9 +8,9 @@ I like to write about my tech experiences *a lot*, so posts are the the main foc
 
 # Post index
 
-By category: https://aaronpkelly.github.io/Categories.html
+<a href="https://aaronpkelly.github.io/Categories.html">Categories</a>
 
-By tag: https://aaronpkelly.github.io/Tags.html
+<a href="https://aaronpkelly.github.io/Tags.html">Tags</a>
 
 <ul>
   {% for post in site.posts %}
