@@ -18,8 +18,6 @@ You can also view the below articles by <a href="https://aaronpkelly.github.io/C
   {% endfor %}
 </ul>
 
-# My non-Jekyll generated post index
-
 # About
 
 Why choose a blog? I just think it suits how my brain works. Writing about my interests in blog post style is a good way for me to:

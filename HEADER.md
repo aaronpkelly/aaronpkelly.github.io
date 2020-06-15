@@ -17,5 +17,3 @@ You can also view the below articles by <a href="https://aaronpkelly.github.io/C
     </li>
   {% endfor %}
 </ul>
-
-# My non-Jekyll generated post index
