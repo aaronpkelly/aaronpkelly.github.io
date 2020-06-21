@@ -15,14 +15,6 @@ The trick is to pipe an empty search into `fzf`: `: | [YOUR_QUERY]`. This makes 
 
 Below are a few examples where this behaviour can be used in surprising and effective ways.
 
-## jq - interactive
-
-Use the following to interact with real API responses in realtime, or an a JSON file on disk: 
-
-```
-: | fzf --preview 'curl https://jsonplaceholder.typicode.com/posts | jq {q}'
-```
-
 ## Python/Ruby REPL
 Substituting `python` or `ruby` in the below command will give you instant REPL output for that programming language.
 
@@ -37,12 +29,34 @@ Python:
 : | (fzf --multi --preview 'python -c {q}' --preview-window=up:70 )
 ```
 
-## Bash/Zsh/Fish REPL
-I wanted to take that further... could `fzf` be used to execute shell commands, and output the result?
+## jq
 
-Yes it can - but caution needs to be exercised, as on every keystroke the command will be executed immediately. If you want a safer version of this, check out [Ultimate Plumber](https://github.com/akavel/up), which waits until you press Enter to execute.
+Use the following to interact with real API responses in realtime, or an a JSON file on disk: 
 
-Anyway, thanks to a commenter on [this thread](https://news.ycombinator.com/item?id=20455857), the below command will cause your chosen shell to instantly evaluate any command you type. For me, this is extremely handy when constructing complicated `bash` queries using `sed`/`awk` etc, as I can previewing the output as I type:
+```
+: | fzf --preview 'curl https://jsonplaceholder.typicode.com/posts | jq {q}'
+```
+
+## Rust? Rust!
+Yes it's a compiled language, but this can be used for small programs (and it's pretty cool watching all the compiler messages as you type):
+
+```
+:| fzf --preview 'echo {q} > main.rs && rustc -o main main.rs && ./main'
+```
+
+Try giving it a litle something:
+
+```
+fn main() { println!("Hello, world!"); }
+```
+
+## Bash/Zsh/Fish (creating long pipes)
+CAUTION needs to be exercised; on every keystroke the command will be executed immediately.
+If you want a safer version of this, check out [Ultimate Plumber](https://github.com/akavel/up), which waits until you press Enter to execute.
+
+So, can  `fzf` be used to execute shell commands, and output the result? Can it help with constructing long bash commands? Yes it can - but you should read the warning above before starting.
+
+Thanks to a commenter on [this thread](https://news.ycombinator.com/item?id=20455857), the below command will cause your chosen shell to instantly evaluate any command you type. For me, this is extremely handy when constructing complicated `bash` queries using `sed`/`awk` etc, as I can previewing the output as I type:
 
 ```
 : | fzf --multi --preview='bash -c {q}' --preview-window=up:70

@@ -10,11 +10,13 @@ To do this, I use https://blogtrottr.com/
 However, there can be a few issues encountered when trying to follow sites, here
 are my solutions.
 
-# No RSS feed provided? Use http://createfeed.fivefilters.org/ to make one
+# No RSS feed provided?
 
-I find this site is excellent: http://createfeed.fivefilters.org/
+Use http://createfeed.fivefilters.org/ to make one. "Create an RSS feed for a web page which does not offer its own."
 
-"Create an RSS feed for a web page which does not offer its own."
+https://rssproxy.migor.org/ - trialling this!
+
+Also, https://rssbox.herokuapp.com/ (https://news.ycombinator.com/item?id=23583629)
 
 # Dealing with messed-up feeds
 

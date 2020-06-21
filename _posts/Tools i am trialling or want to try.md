@@ -3,7 +3,7 @@ http://diffuse.sourceforge.net/about.html
 
 ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
-zipgrep - search inside zip archives!F
+zipgrep - search inside zip archives!
 
 # want to try
 

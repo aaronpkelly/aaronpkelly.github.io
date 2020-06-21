@@ -58,7 +58,7 @@ A good replacement for bash's history search `CTRL+R` is the _built-in_ history 
 You can also create your own!:
 
 ```
- history | fzf -m | cut -c 8- | bash
+history | fzf -m | cut -c 8- | bash
 ```
 
 ### Searching for installed applications and upgrading them
@@ -94,19 +94,19 @@ Very handy when you want to get instant results! This uses `w3m --dump` to forma
 DuckDuckGo:
 
 ```
- : | (fzf --multi --preview 'w3m -dump https://duckduckgo.com/\?q\={q}' --preview-window=up:70 )
+ : | fzf --multi --preview 'w3m -dump https://duckduckgo.com/\?q\={q}' --preview-window=up:70
 ```
 
 Wikipedia - the exact title must match for the article to be found:
 
 ```
-: | (fzf --multi --preview 'w3m -dump https://en.wikipedia.org/wiki/{q}' --preview-window=up:70 )
+: | fzf --multi --preview 'w3m -dump https://en.wikipedia.org/wiki/{q}' --preview-window=up:70
 ```
 
 Dark Souls 3 wiki - I remove the first n lines because it's all boilerplate HTML:
 
 ```
-: | (fzf --multi --preview 'w3m -dump https://darksouls3.wiki.fextralife.com/{q} | tail -n +344' --preview-window=up:70 )
+: | fzf --multi --preview 'w3m -dump https://darksouls3.wiki.fextralife.com/{q} | tail -n +344' --preview-window=up:70
 ```
 
 # Resources
