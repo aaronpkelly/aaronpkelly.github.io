@@ -380,15 +380,7 @@ https://frontendmasters.com/books/front-end-handbook/2018/
 ### graphics
 http://www.openglsuperbible.com/
 
-### IDE
-http://codepen.io/
-https://codenvy.com/
-https://codio.com/
-http://codemirror.net/
-https://aws.amazon.com/cloud9/
-https://shiftedit.net
-https://pypyjs.org/editor.html
-https://docs.gitlab.com/ee/user/project/web_ide/
+
 
 ### java
 http://www.dubjug.org/

@@ -1,5 +1,12 @@
 I like to optimise my activies by having a workflow for each of my major interests
 
+# development
+- blog everything
+- if you make/create someting make it RUN
+	- host as much as you can on cheap/free-tier sites like
+		- github pages (it can run HTML5+CSS+JS!)
+		- s3 static website hosting (JS also)
+
 # Consuming audio/video
 I have a bash script that loops through a directory of content, launches VLC to
 consume the content, and places it into a `listened` folder.
