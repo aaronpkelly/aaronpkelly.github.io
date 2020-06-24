@@ -17,4 +17,12 @@ Then I run generateIndexAndPostsList.sh to generate:
 Because I have tweaked my Github Pages site a little to take advantage of Jekyll, I also get a few Jekyll plugins, such as:
 
 - RSS feeds
-- SEO optimisation (yuck, but I do want people to find my blog) 
+- SEO optimisation (yuck, but I do want people to find my blog)
+
+# hooks
+
+## post-commit
+
+https://www.git-scm.com/docs/githooks#_post_commit
+
+It will run ./cleanup.sh
