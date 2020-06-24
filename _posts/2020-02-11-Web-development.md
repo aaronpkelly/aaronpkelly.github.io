@@ -2,7 +2,7 @@
 title: Web development
 description:
 date: 2020-02-11
-tags:
+categories:
   - webdev
 ---
 
@@ -27,7 +27,14 @@ https://www.c0d3.com/curriculum (via HN)
 https://learnjsthehardway.com/ (Zed Shaw)
 
 # Resources
+
+## Code playgrounds
+https://jsfiddle.net/
+
+## Manifestos
 The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/item?id=3267187)
+
+
 
 # See also
 [[Javascript]]

@@ -34,6 +34,6 @@ up keeping is this one, in order to avail of the free hosted github.io website.
 
 [[Contacting an external API using AWS Lambda]]
 
-[[Hosting a serverless static website on AWS S3]]
+[[Static website hosting on AWS S3]]
 
 [[Sending notifications to Telegram using AWS Cloudwatch]]
