@@ -1,3 +1,5 @@
 [[1mb.co]]
 
-[[Netlify]]
+[[netlify]]
+
+[[pythonanythere.com]]

@@ -56,6 +56,10 @@ Baobab (Linux) and Spacesniffer (Windows).
 
 More Linux alternatives can be found here: https://www.how2shout.com/tools/best-disk-usage-analyzer-tools-for-linux-system.html
 
+# File managers
+- ranger (linux)
+- total commander (windows)
+
 # Note taking
 [Obsidian](https://obsidian.md/) - basically just markdown with wiki links
 
@@ -63,7 +67,10 @@ More Linux alternatives can be found here: https://www.how2shout.com/tools/best-
 MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windows 10. 
 
 # System hardware information
-pciutils (for lspci), lsusb, hwinfo (Linux).
+- pciutils (in order to get for lspci)
+- lsusb
+- hwinfo
+- powertop: battery power consumption and management tool
 
 # Windows (TODO: organise by category instead of OS)
 
@@ -78,7 +85,6 @@ pciutils (for lspci), lsusb, hwinfo (Linux).
 - screentogif
 - spacesniffer (successor to windDirStat)
 - sysinternals suite
-- total commander
 - vlc (run in ncurses mode for a great command-line experience)
 - workspacer (also tried fancy zones and plumb, but not good for me)
 - xmlstarlet

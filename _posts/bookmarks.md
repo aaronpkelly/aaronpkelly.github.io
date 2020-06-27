@@ -7,11 +7,10 @@ tags:
 ---
 
 I don't really keep bookmarks anymore. If I find a website useful, I will either:
-- add my discovery into a blog post
 - follow the site/person on [[Tools I use daily|https://fraidyc.at/]]
+- add my discovery into a blog post
 - find and favourite the item on news.ycombinator.com
 - star the project on github.com
-
 
 The below bookmarks are websites that do not meet the above criteria, and:
 - are so important to me I want to draw special attention to them
@@ -19,15 +18,7 @@ The below bookmarks are websites that do not meet the above criteria, and:
 - are too precious to lose
 
 # weather
-https://en.wikipedia.org/wiki/Yr.no
-
-CONTINUE FROM MUSIC
------ EVERYTHING BELOW THIS LINE WILL BE REMOVED ------
-
-
-
-
-### machine learning
+3### machine learning
 https://cloud.google.com/products/ai/
 https://www.tensorflow.org
 https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?imm_mid=0f9b7e&cmp=em-data-na-na-newsltr_20171213&slide=id.g168a3288f7_0_58
@@ -271,10 +262,6 @@ https://forums.theregister.co.uk/forum/1/2013/02/21/diodesign_Top_tools_for_juni
 http://www.yolinux.com/
 
 ## news
-https://www.theregister.co.uk/
-https://lwn.net/
-https://lobste.rs/
-https://news.ycombinator.com/best
 http://jsomers.net/hn/
 https://www.siliconrepublic.com/
 https://www.heise.de/ct/ [DONE]

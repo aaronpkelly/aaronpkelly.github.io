@@ -23,6 +23,4 @@ Because I have tweaked my Github Pages site a little to take advantage of Jekyll
 
 ## post-commit
 
-https://www.git-scm.com/docs/githooks#_post_commit
-
-It will run ./cleanup.sh
+there is no post-commit hook. it goes against git. run ./cleanup.sh yourself or find a better way to generate these files
