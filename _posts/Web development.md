@@ -13,9 +13,12 @@ Full stack web development resources
 
 - frameworks come and go - but vanilla javascript is here to stay!
 
-- the best website is a static website hosted for free with a public domain
-  - netlify is free ([[Jamstack]] anyone?)
-  - AWS S3 static:you get a public IP, can still use JS + call APIs etc
+Zero-cost hosting:
+- the best website is a static website 
+- netlify is free ([[Jamstack]] anyone?), public domain address
+- AWS S3 buckets can serve static websites, public domain address
+- all of the above can still use JS + call APIs etc
+- all of the above can use [[Cloudflare]] as a free CDN to sit in front of your site and reduce the cost from pennies to zero
 
 # Building a web application
 Guides that don't drive me insane:
