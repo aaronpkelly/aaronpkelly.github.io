@@ -9,6 +9,14 @@ categories:
 # Web development
 Full stack web development resources
 
+## Keep in mind
+
+- frameworks come and go - but vanilla javascript is here to stay!
+
+- the best website is a static website hosted for free with a public domain
+  - netlify is free ([[Jamstack]] anyone?)
+  - AWS S3 static:you get a public IP, can still use JS + call APIs etc
+
 # Building a web application
 Guides that don't drive me insane:
 
@@ -65,3 +73,5 @@ https://designresourc.es/
 [[CORS]]
 
 [[Javascript]]
+
+[[VPS]] - virtual private servers to deploy to
