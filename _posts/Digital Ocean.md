@@ -7,18 +7,20 @@ tags:
 ---
 
 # Digital Ocean
-## First impressions
+
+First impressions very good!
 + clean UI
 + very smooth deployment of marketplace app
 + helpful documentation
 - no free plan
 
-# Deployments
+Because of the no free plan, I tried out the service for a month, and then destroyed my droplet.
 
-## Meilisearch
-See [[MeiliSearch]] for more info
+# A test deployment
 
-### Connecting
+I decided to try and deploy [[MeiliSearch]], to see how easy it was.
+
+## Connecting
 The docs made it very easy to SSH into my droplet:
 
 ```
@@ -65,7 +67,7 @@ sh /var/opt/meilisearch/scripts/first-login/000-set-meili-env.sh
 root@meilisearch-debian-buster-s-1vcpu-1gb-fra1-01:~#
 ```
 
-### Usage
+## Uploading files
 
 I uploaded a JSON file to my droplet:
 
