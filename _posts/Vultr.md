@@ -1,5 +1,16 @@
+# Vultr
 There's a $2.50 cloud compute instance advertised on the main page: https://www.vultr.com/products/cloud-compute/.
 I couldn't find this price when I was logged in, bizarre.
+
+# Loads of credit - what to do? Run containers?
+Lets use it to run containers on!
+
+# Cloud compute server ahoy
+- deployment of a compute server very easy
+- they have images you can select - I chose docker!
+- ssh'd in, checked docker, running fine!
+
+# The initial offer
 
 They offered me the following:
 

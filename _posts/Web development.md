@@ -29,12 +29,39 @@ https://learnjsthehardway.com/ (Zed Shaw)
 # Resources
 
 ## Code playgrounds
-https://jsfiddle.net/
+https://jsfiddle.net/ - great!
+http://codepen.io/ - want to try!
+
+## Free shells
+https://labs.play-with-docker.com/ - an excellent free environment for running docker images and other shell commands. 4 hour lifetime
+
+## IDEs
+https://gitpod.io/ - incredible
+https://docs.gitlab.com/ee/user/project/web_ide/ - the fact that it's built-in to the website is amaze
+https://aws.amazon.com/cloud9/ - works well
+
+Are these still ok?
+https://codenvy.com/
+https://codio.com/
+http://codemirror.net/
+https://shiftedit.net
+https://pypyjs.org/editor.html
+https://docs.gitlab.com/ee/user/project/web_ide/
 
 ## Manifestos
 The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/item?id=3267187)
 
+## Comments (lightweight)
+https://fastcomments.com/
+
+## Design resources
+https://designresourc.es/
+
 
 
 # See also
+[[Finding the ultimate CSS style]]
+
+[[CORS]]
+
 [[Javascript]]
