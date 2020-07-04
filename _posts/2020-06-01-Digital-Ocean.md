@@ -7,18 +7,20 @@ tags:
 ---
 
 # Digital Ocean
-## First impressions
+
+First impressions very good
+
 + clean UI
 + very smooth deployment of marketplace app
 + helpful documentation
++ ready-to-deploy custom images!
 - no free plan
 
-# Deployments
+# A test deployment
 
-## Meilisearch
-See [[MeiliSearch]] for more info
+I decided to try and deploy [[MeiliSearch]], to see how easy it was.
 
-### Connecting
+## Connecting
 The docs made it very easy to SSH into my droplet:
 
 ```
@@ -65,7 +67,7 @@ sh /var/opt/meilisearch/scripts/first-login/000-set-meili-env.sh
 root@meilisearch-debian-buster-s-1vcpu-1gb-fra1-01:~#
 ```
 
-### Usage
+## Uploading files
 
 I uploaded a JSON file to my droplet:
 
@@ -74,3 +76,13 @@ scp ./Documents/txt/myEmail.json root@***.***.***.***:~
 ```
 
 Then ran the commands from my [[MeiliSearch]] article to create an index, and import my JSON-ified emails. I refreshed the droplet webpage, and my content was immediately searchable. Very pleasant!
+
+# Destroying my droplet
+
+Because of the no free plan, I tried out the service for a month, and then destroyed my droplet.
+
+Digital Ocean do occasionally offer free credits, so I'll keep an eye out for them, but until that time the service is too expensive when I can get US$2.50 VPSs elsewhere.
+
+# See also
+
+[[VPS]]
