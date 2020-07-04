@@ -1,6 +1,0 @@
-for file in *.md
-do
-	sed 's/\^//' "$file" > tmp
-	markdown tmp | wkhtmltopdf - ~/Desktop/"$file".pdf
-done
-rm tmp

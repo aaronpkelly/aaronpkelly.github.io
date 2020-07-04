@@ -1,6 +1,0 @@
-INSTANCE=ec2-52-30-93-121.eu-west-1.compute.amazonaws.com
-PASSWORD="r9OAysGVkZnc8po6=k8D?rO)%HZVkF6l"
-USERNAME=Administrator
-WIDTH_HEIGHT=1024x768
-
-rdesktop -g $WIDTH_HEIGHT -rsound:local -u $USERNAME -p $PASSWORD $INSTANCE
