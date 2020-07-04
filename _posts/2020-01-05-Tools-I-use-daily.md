@@ -33,7 +33,7 @@ The '~' character means the tool is marked as no longer being used, and is in da
     - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 
 ## Extensions/addons
-https://fraidyc.at/: Great way to follow things without the feeling that you need to catch-up and read everything. If you are getting the error `NetworkError when attempting to fetch resource` or similar, check that your browser's network settings are set to _Auto-detect proxy settings for this network_.
+[[fraidyc.at]]
 
 [[uBlock Origin]]
 
@@ -59,6 +59,9 @@ More Linux alternatives can be found here: https://www.how2shout.com/tools/best-
 # File managers
 - ranger (linux)
 - total commander (windows)
+
+# File transfer
+https://github.com/schollz/croc - Easily and securely send things from one computer to another. Fantastic tool that just works
 
 # IDEs
 [[VSCode]]

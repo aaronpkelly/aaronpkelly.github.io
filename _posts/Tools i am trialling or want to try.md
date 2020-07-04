@@ -5,7 +5,7 @@ ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
 zipgrep - search inside zip archives!
 
-https://github.com/schollz/croc - Easily and securely send things from one computer to another crocodile
+ - Easily and securely send things from one computer to another crocodile
 
 # want to try
 ## secure file sending programs
