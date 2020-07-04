@@ -60,16 +60,46 @@ for (let item of topComment) {
 
 Yep, it's definitely slower - but it ensures that every top comment is clicked successfully.
 
+# Browser compatibility? Uh-oh
+So I realised my bookmarklet would work fine on Brave:
+![[bookmarklet_hn_brave.png]]
+
+But on Firefox, the entire page would be replaced by a number:
+![[bookmarklet_hn_firefox.png]]
+
+Oh dear. This number turned out to be the return value of the second `for` loop. In Firefox, the `TIMER` would be yielded to the browser, which it would be displayed.
+
+A way around this I found was to return an `undefined` value at the end of the function:
+
+```
+javascript: var TIMER_WAIT = 1000;
+var timer = 0;
+var topComment = [];
+var list = document.getElementsByClassName('togg');
+for (let item of list) {
+    if (item.parentElement.parentElement.parentElement.parentElement.getElementsByTagName('img')[0].width == 0) topComment.push(item)
+};
+for (let item of topComment) {
+    setTimeout(() => {
+        console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText);
+        item.click();
+    }, timer + TIMER_WAIT);
+    timer = timer + TIMER_WAIT;
+	undefined
+}
+```
+
 # The final bookmarklets
-
-Create a new bookmark on your bookmark bar, and for the URL field, add one of the following. They're the same script as above but with no newlines. You can then click the bookmarklet anytime to begin collapsing comments.
-
-Note: Open your console to see the hackernews username of the commenter being collapsed as it happens. If your internet connection is faster than mine, you can even try reducing the value of the `TIMER` variable to collapse comments faster - just make sure your not receving any request timeouts, otherwise the comment won't be collapsed.
+To use these:
+- create a new bookmark on your bookmark bar
+- for the URL field, copy+paste one of the bookmarklets below (they use the same code as the examples above, but with no newlines).
+ 
+You can then click the bookmarklet anytime to begin collapsing comments.
 
 ## Collapse TOP comment only
 
 ```
-javascript: var TIMER_WAIT = 1000; var timer = 0; var topComment = []; var list = document.getElementsByClassName('togg'); for (let item of list) { if (item.parentElement.parentElement.parentElement.parentElement.getElementsByTagName('img')[0].width == 0) topComment.push(item) }; for (let item of topComment) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); timer = timer + TIMER_WAIT; }
+javascript: var TIMER_WAIT = 1000; var timer = 0; var topComment = []; var list = document.getElementsByClassName('togg'); for (let item of list) { if (item.parentElement.parentElement.parentElement.parentElement.getElementsByTagName('img')[0].width == 0) topComment.push(item) }; for (let item of topComment) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); timer = timer + TIMER_WAIT; undefined; }
 ```
 
 ## Collapse ALL comments
@@ -77,5 +107,7 @@ javascript: var TIMER_WAIT = 1000; var timer = 0; var topComment = []; var list 
 This is the same script as my prototype, but with a timer added:
 
 ```
-javascript: var TIMER_WAIT = 1000; var timer = 0; javascript: var list = document.getElementsByClassName('togg'); for (let item of list) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); }
+javascript: var TIMER_WAIT = 1000; var timer = 0; javascript: var list = document.getElementsByClassName('togg'); for (let item of list) { setTimeout(() => { console.log("toggling comment by " + item.parentNode.getElementsByClassName('hnuser')[0].innerText); item.click(); }, timer + TIMER_WAIT); undefined; }
 ```
+
+Note: Open your console to see the hackernews username of the commenter being collapsed as it happens. If your internet connection is faster than mine, you can even try reducing the value of the `TIMER` variable to collapse comments faster - just make sure your not receving any request timeouts, otherwise the comment won't be collapsed.

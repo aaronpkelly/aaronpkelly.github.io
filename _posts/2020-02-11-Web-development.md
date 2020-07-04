@@ -7,14 +7,16 @@ categories:
 ---
 
 # Web development
-Full stack web development resources
+- learn plain JS
+
+
 
 # Building a web application
-Guides that don't drive me insane:
+## Guides that don't drive me insane
 
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks
 
-https://devcenter.heroku.com/articles/getting-started-with-nodejs
+https://devcenter.heroku.com/articles/getting-started-with-nodejs (see [[Heroku]])
 
 this is old-school cute, should I start here?: https://www.w3schools.com/php/php_mysql_intro.asp
 
@@ -23,8 +25,7 @@ somebody feels my pain: https://hn.algolia.com/?dateRange=all&page=0&prefix=true
 the dark side: https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/
 
 # Courses
-https://www.c0d3.com/curriculum (via HN)
-https://learnjsthehardway.com/ (Zed Shaw)
+https://www.freecodecamp.org/ - yay
 
 # Resources
 
@@ -37,7 +38,6 @@ https://labs.play-with-docker.com/ - an excellent free environment for running d
 
 ## IDEs
 https://gitpod.io/ - incredible
-https://docs.gitlab.com/ee/user/project/web_ide/ - the fact that it's built-in to the website is amaze
 https://aws.amazon.com/cloud9/ - works well
 
 Are these still ok?
