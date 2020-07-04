@@ -6,14 +6,24 @@ Howdy, I'm Aaron - and I'm _really_ good at breaking things. Occasionally... I'l
 
 I like to write about my tech experiences *a lot*, so posts are the the main focus of my website. If you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
 
-# Post index
-
-You can also view the below articles by <a href="https://aaronpkelly.github.io/Categories.html">category</a> or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>.
+# Latest post
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:1 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
+# Previous posts
+
+<ul>
+  {% for post in site.posts limit:5 offset:1 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+You can also view the complete <a href="https://aaronpkelly.github.io/PostIndex.html">post index</a>, posts by <a href="https://aaronpkelly.github.io/Categories.html">category</a>, or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>.
