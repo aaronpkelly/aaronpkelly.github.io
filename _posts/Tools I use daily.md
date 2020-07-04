@@ -60,6 +60,9 @@ More Linux alternatives can be found here: https://www.how2shout.com/tools/best-
 - ranger (linux)
 - total commander (windows)
 
+# IDEs
+[[VSCode]]
+
 # Note taking
 [Obsidian](https://obsidian.md/) - basically just markdown with wiki links
 

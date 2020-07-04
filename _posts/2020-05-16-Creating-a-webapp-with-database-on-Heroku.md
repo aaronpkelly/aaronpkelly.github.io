@@ -2,9 +2,13 @@
 title: Creating a webapp with database on Heroku
 description:
 date: 2020-05-16
+categories:
+  - webdev
 tags:
   - heroku
-  - webapps
+  - node
+  - express
+  - postgresql
   - databases
 ---
 
@@ -14,25 +18,17 @@ I wanted to try Heroku out and see what the platform was like to use.
 
 I also wanted to deploy a webapp with a database, so I was interested to see how hard this would be.
 
-I was following this great guide that Heroku offered: https://devcenter.heroku.com/articles/getting-started-with-nodejs
+# Setting up Heroku's example nodejs app
 
-But I got stuck on the final step - database integration. I really wanted to understand this and get this workin, as it was the whole point of the exercise!
+I started following this great guide that Heroku offered: https://devcenter.heroku.com/articles/getting-started-with-nodejs
+
+But I got stuck on the final step - database integration. I really wanted to understand this and get this working, as it was the whole point of the exercise!
 
 The following sections deal with me trying to get my nodejs app working with both my local and remote PostgreSQL database.
 
-# Running PostgreSQL locally
+I really didn't want to have to document this so much, but there may be a future me who runs into this again.
 
-Ideally I would have like to have run PostgreSQL as a docker container, but an official image doesn't seem to exist. So I just decided to stick with the one that my package manager provides.
-
-This document https://wiki.debian.org/PostgreSql gives Debian-specific advice for installing and managing PostgreSQL on Debian distros, such as how to setup the database uand users. It also shows how the Debian installation differs from the standard PostgreSQL install, most importantly:
-
-- they've created a wrapper around PostgreSQL's `pg_ctl` command called `pg_ctlcluster`
-
-- the `pg_ctlcluster` wrapper also looks like it runs PostgreSQL's `initdb` command for you, whenever you run a dask to do with database creation 
-
-For all other topics, Debian insist you refer to PostgreSQL's documentation, such as https://wiki.postgresql.org/wiki/First_steps.
-
-# Establishing a remote database connection (using the Heroku CLI)
+## Establishing a remote database connection (using the Heroku CLI)
 
 This was actually easier to do than connecting to my local database!
 
@@ -92,7 +88,7 @@ Type "help" for help.
 d2h0d5h2oencq=>
 ```
 
-The Heroku CLI command also worked:
+Also, the super basic Heroku CLI command now worked (and it should have worked at the start!):
 
 ```
 ➜  node-js-getting-started git:(master) ✗ heroku pg:psql                    
@@ -106,7 +102,19 @@ Type "help" for help.
 thawing-savannah-07095::DATABASE=>
 ```
 
-## Establishing a local database connection
+## Running PostgreSQL locally
+
+Ideally I would have like to have run PostgreSQL as a docker container, but an official image doesn't seem to exist. So I just decided to stick with the one that my package manager provides.
+
+This document https://wiki.debian.org/PostgreSql gives Debian-specific advice for installing and managing PostgreSQL on Debian distros, such as how to setup the database uand users. It also shows how the Debian installation differs from the standard PostgreSQL install, most importantly:
+
+- they've created a wrapper around PostgreSQL's `pg_ctl` command called `pg_ctlcluster`
+
+- the `pg_ctlcluster` wrapper also looks like it runs PostgreSQL's `initdb` command for you, whenever you run a dask to do with database creation 
+
+For all other topics, Debian insist you refer to PostgreSQL's documentation, such as https://wiki.postgresql.org/wiki/First_steps.
+
+### Establishing a local database connection
 
 I was able to get a remote connection to my database on Heroku, but I still had problems with my local app connecting to my local database.
 
@@ -303,7 +311,35 @@ Database Results
 1 - hello database
 ```
 
+DONE!
 
-# Additional reading from Postgres wiki
+# I have no idea what I'm doing
+So I've finally got the example app all wired up and working - yay for me! But now I'm faced with trying to understand... what the _fuck_ is going on!? There's a lot of new technologies here and I'm unfamiliar with everything. Apparently this pile of strangeness is called a _software stack_. Here are my initial impressions of each component:
 
-https://wiki.postgresql.org/wiki/First_steps
+- [[Node.js]]: it's some sort of javascript server and everybody loves it for some reason
+- [[Express.js]]: what are you. why do you exist
+- [[Angular]]: who are you? WHO DO YOU WORK FOR!?
+- [[PostgreSQL]]: oh please Mr Database just let me access you from my webpage
+
+At this point in time, my understanding is better, but you should educate yourself too. But in a nutshell:
+
+www.diagram.codes/d/graph/Node.js-%3EExpress.js%5B%22runs%22%5D%0AExpress.js-%3EHTML%5B%22serves%22%5D
+
+![[creating-a-webapp-with-database-on-heroku_0.png]]
+
+## how I need to change the way I think about this webapp
+- my HTML can not directly call server-side node functions
+- my HTML can call api endpoints using AJAX (or something) that have been created by express.js
+
+# hacking the planet
+I was able to use the example app to _eventually_ work out how to call and use the database, but it wasn't clear to me at the start.
+
+## creating more database data
+## passing in multiple objects to the index page
+## actually thinking about a database schema omg
+
+
+# See also
+[[Heroku]]
+
+https://wiki.postgresql.org/wiki/First_steps -Additional reading from Postgres wiki
