@@ -8,9 +8,9 @@ tags:
 ---
 
 # Docker
-Docker is a great tool for working with container technology.
+This post is intended as a jumping-off point to related articles. Docker-specific information will go here, but generic topics like [[Containers]] will have separate posts.
 
-Docker-specific information will go here, but generic topics like [[containers]] will have separate posts.
+I think Docker is a great tool for working with container technology. I like it a LOT.
 
 # Docker images
 
@@ -28,7 +28,7 @@ docker logs --follow <CONTAINER>
 ```
 
 # See also
-[[containers]]
+[[Containers]]
 
 [[Dockerhub]]
 

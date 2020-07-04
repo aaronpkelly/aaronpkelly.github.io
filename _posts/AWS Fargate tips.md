@@ -1,5 +1,5 @@
 ---
-title: AWS Fargate notes
+title: AWS Fargate tips
 description: AWS
 date: 2020-05-31
 tags:

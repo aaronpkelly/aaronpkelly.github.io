@@ -2,6 +2,8 @@
 title: Containers
 description:
 date: 2020-03-21
+categories:
+  - development
 tags:
   - containers
   - docker

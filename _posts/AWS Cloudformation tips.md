@@ -1,6 +1,6 @@
 ---
-title: AWS Cloudformation notes
-description: AWS Cloudformation notes
+title: AWS Cloudformation tips
+description:
 date: 2020-05-31
 tags:
   - aws

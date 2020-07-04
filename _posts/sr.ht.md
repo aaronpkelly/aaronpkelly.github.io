@@ -1,11 +1,3 @@
----
-title: sr.ht
-description:
-date: 2020-06-22
-categories:
-  - development
----
-
 # sr.ht
 A lightweight 'hacker's forge' that I really like.
 

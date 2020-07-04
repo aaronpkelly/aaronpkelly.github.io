@@ -1,5 +1,5 @@
 ---
-title: AWS
+title: AWS - MEGAPOST
 description: AWS
 date: 2020-05-31
 tags:
@@ -7,9 +7,7 @@ tags:
 ---
 
 # AWS
-
-This post will deal with general AWS stuff that I've learned and experienced that don't fit into a specific AWS article.
-It will also link to my other AWS articles.
+This post will deal with general AWS stuff that I've learned and experienced that doesn't fit into a specific AWS article. It will also link to my other AWS articles.
 
 # The Move to AWS
 
@@ -22,11 +20,11 @@ up keeping is this one, in order to avail of the free hosted github.io website.
 
 # Other AWS posts
 
-[[AWS Fargate notes]]
+[[AWS Fargate tips]]
 
-[[AWS Codebuild notes]]
+[[AWS Codebuild tips]]
 
-[[AWS Cloudformation notes]]
+[[AWS Cloudformation tips]]
 
 [[Deploying a docker image to AWS ECS]]
 

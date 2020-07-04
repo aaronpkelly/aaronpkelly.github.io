@@ -1,5 +1,5 @@
 ---
-title: AWS Codebuild notes
+title: AWS Codebuild tips
 description: AWS Codebuild notes
 date: 2020-05-31
 tags:

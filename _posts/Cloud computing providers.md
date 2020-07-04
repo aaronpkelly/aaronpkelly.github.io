@@ -1,8 +1,8 @@
 
 # Using these
-[[AWS]]
+[[AWS - MEGAPOST]]
 
-[[Digital Ocean]]
+[[DigitalOcean - my impressions]]
 
 [[Heroku]]
 

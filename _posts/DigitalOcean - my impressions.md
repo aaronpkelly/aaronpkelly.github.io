@@ -1,5 +1,5 @@
 ---
-title: Digital Ocean
+title: DigitalOcean - my impressions
 description:
 date: 2020-06-01
 tags:
