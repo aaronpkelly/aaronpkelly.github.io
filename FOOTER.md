@@ -1,6 +1,8 @@
 
 # About
 
+What's this all about? Posts. Lots of them. Maybe _too_ much. I like to write about my tech experiences *a lot*, so posts will be the main focus of my website.
+
 Why choose a blog? I just think it suits how my brain works. Writing about my interests in blog post style is a good way for me to:
 
 - force me to make my content presentable, simple and to the point
