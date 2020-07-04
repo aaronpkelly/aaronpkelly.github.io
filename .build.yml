@@ -6,6 +6,9 @@ secrets:
 sources:
 - git+ssh://git@git.sr.ht/~aaronkelly/aaronpkelly.github.io
 tasks:
+- configure-git: |-
+    git config --global user.email "aaronkelly@fastmil.com"
+    git config --global user.name "Aaron Kelly"
 - push-to-github: |-
     echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
     cd aaronpkelly.github.io
