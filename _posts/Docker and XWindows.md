@@ -1,3 +1,13 @@
+---
+title: Docker and XWindows
+description:
+date: 2020-06-01
+tags:
+  - containers
+  - docker
+categories:
+  - development
+---
 
 Today I wanted to try an experiment...
 

@@ -1,6 +1,6 @@
 ---
 title: APIs
-description: How I created my own API
+description:
 date: 2020-01-10
 tags:
   - APIs

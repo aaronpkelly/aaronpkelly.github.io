@@ -32,6 +32,8 @@ docker logs --follow <CONTAINER>
 
 [[Dockerhub]]
 
+[[Docker and XWindows]]
+
 [[Docker compose]]
 
 [[Docker Swarm and Raspberry Pi]]
