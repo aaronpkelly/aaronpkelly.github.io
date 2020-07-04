@@ -22,6 +22,4 @@ Howdy, I'm Aaron - and I'm _really_ good at breaking things. Occasionally... I'l
   {% endfor %}
 </ul>
 
-You can also view the complete <a href="https://aaronpkelly.github.io/PostIndex.html">post index</a>, posts by <a href="https://aaronpkelly.github.io/Categories.html">category</a>, or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>.
-
-If you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
+You can also view the complete <a href="https://aaronpkelly.github.io/PostIndex.html">post index</a>, posts by <a href="https://aaronpkelly.github.io/Categories.html">category</a> or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>, and if you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
