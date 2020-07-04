@@ -1,4 +1,6 @@
-image: alpine/edge
+image: debian/stable
+# the busybox grep doesn't have the --files-with-matches
+# image: alpine/edge
 secrets:
 - 1b3fe3d9-ee86-4c7e-bd35-d0c87b6e12a9
 sources:
