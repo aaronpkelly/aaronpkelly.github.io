@@ -17,4 +17,4 @@ tasks:
     git add .
     git commit -m 'adding generated files'
     git remote set-url origin git@github.com:aaronpkelly/aaronpkelly.github.io
-    git push -u origin master
+    git push -u origin master --force
