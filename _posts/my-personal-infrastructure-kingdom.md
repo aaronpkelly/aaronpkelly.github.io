@@ -10,7 +10,7 @@ tags:
   - pages.github.com
 ---
 
-Below is a link to a diagram showing how all my services are connected.
+Below is a semi up-to-date link to a diagram showing how all my services are connected.
 
 When I write and publish content to my soure-of-truth (usually a git repo) - various post-commit actions spring into life (via build triggers, webhooks, post-commit hooks, external polling) and trigger a cascade of services. These services could be formatting content in some way (such as republishing blog posts), or rebuilding and redeploying production webapps and various API services.
 

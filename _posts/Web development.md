@@ -21,6 +21,7 @@ Zero-cost hosting:
 - AWS S3 buckets can serve static websites, public domain address
 - all of the above can still use JS + call APIs etc
 - all of the above can use [[Cloudflare]] as a free CDN to sit in front of your site and reduce the cost from pennies to zero
+	- a cloudflare worker sits in-front of your site to do caching of common hot queries 
 
 # Building a web application
 ## Guides that don't drive me insane
@@ -48,7 +49,7 @@ http://codepen.io/ - want to try!
 https://labs.play-with-docker.com/ - an excellent free environment for running docker images and other shell commands. 4 hour lifetime
 
 ## IDEs
-https://gitpod.io/ - incredible
+[[Gitpod.io]] - incredible
 https://aws.amazon.com/cloud9/ - works well
 
 Are these still ok?

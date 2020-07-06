@@ -1,6 +1,6 @@
 
 # Using these
-[[AWS - MEGAPOST]]
+[[AWS]]
 
 [[DigitalOcean - my impressions]]
 

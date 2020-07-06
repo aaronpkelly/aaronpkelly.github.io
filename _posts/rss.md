@@ -11,12 +11,11 @@ However, there can be a few issues encountered when trying to follow sites, here
 are my solutions.
 
 # No RSS feed provided?
+https://rssproxy.migor.org/ - HTML -> RSS. Extremely good
 
-Use http://createfeed.fivefilters.org/ to make one. "Create an RSS feed for a web page which does not offer its own."
+http://createfeed.fivefilters.org/ - HTML -> RSS alternative
 
-https://rssproxy.migor.org/ - trialling this!
-
-Also, https://rssbox.herokuapp.com/ (https://news.ycombinator.com/item?id=23583629)
+Also https://news.ycombinator.com/item?id=23583629 > https://rssbox.herokuapp.com - a number of different supported sites (if [[fraidyc.at]] doesn't support them natively)
 
 # Dealing with messed-up feeds
 

@@ -26,13 +26,11 @@ To be totally honest, I don't use the full functionality of this online IDE. I m
 
 I mainly use the service for quick programming projects, usually ones that integrate with AWS services.
 
-# Gitpod.io
+# [[Gitpod.io]]
 
-Based on Eclipse Theia.
 
-A short while ago I was on the hunt for a way to edit the code that was checked-in to my github repositories easily. Gitlab offer an online IDE, but Github don't. That's when I found Gitpod. I'm using it right now to create this post.
 
-Really great service to use if you need a quick, disposable IDE to edit your project code.
+
 
 # Eclipse Che
 

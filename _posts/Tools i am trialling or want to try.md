@@ -1,11 +1,12 @@
 # trialling
+https://newsboat.org/ - RSS reader
+
 http://diffuse.sourceforge.net/about.html
 
 ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
 zipgrep - search inside zip archives!
 
- - Easily and securely send things from one computer to another crocodile
 
 # want to try
 ## secure file sending programs
