@@ -36,8 +36,6 @@ https://directory.fsf.org/wiki/Nextcloud
 
 https://github.com/Upload/Up1
 
-https://mosh.org
-
 diagram.codes
 
 X410 – X Server for Windows 10 https://news.ycombinator.com/item?id=22905390
