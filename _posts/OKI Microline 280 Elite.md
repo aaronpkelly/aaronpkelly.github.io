@@ -1,35 +1,65 @@
-Name: ML280 ELITE
-Part number: 01138610
-Part Description: ML280EL-DC-EURO
+Name: Microline 280 Elite DC (ML280)
+Model: D22300C
 Serial Number: 57EO 4030 713K
 Lot number: AE55051248A0
+Part number: 01138610
+Part Description: ML280EL-DC-EURO
 
+# PS/2 port
+https://en.wikipedia.org/wiki/Mini-DIN_connector
+
+# Power
+## cord
+it's a dc power cord 3 pin female
+the official power Cord part number is: DC YS4100-1187P001
+
+https://www.manualslib.com/manual/557629/Oki-Ml280-Elite.html?page=45
+https://www.oki.com/printing/download/45692102EE1_ML280_EN_31555.pdf?id=45692102EE
+
+![[oki-ml280_dc.png]]
+
+## supply
 12 or 24 volt DC power supply only
-Do not plug into mains
-
+DC 9.6VDC <-> 31.2VDC, 4.0 <->1.8A
 Do not power this printer from AC mains voltage
 
-dc power supply
-DC 9.6VDC <-> 31.2VDC, 4.0 <->1.8A
+## is it XLR?
+https://en.wikipedia.org/wiki/XLR_connector
+no, audio
 
-oki.ie
-Power Cord DC YS4100-1187P001
+## DIN?
+maybe? https://en.wikipedia.org/wiki/DIN_connector
 
+## buy?
 
-Call this number:
-44 178 42 74 310 - sales department OKI London - get part from here (got a call from Tech SUpport in Poland). Rang this number but 
+I sent email to OKI tech support for part
+	got a call from Tech SUpport in Poland
+		Call this number: 44 178 42 74 310 - sales department OKI London - get part from here
+			number rang out?
+			
+Tried to call sales myself using the numbers given on oki.com/uk - offices around  the globe			
+	found OKI EUROPE UK&Ireland Sales number: +44 1 784 274 300
+		told me to call Irish technical support: +353 152 69770
+			Ireland
+				tech support told me to just buy from a dealer
 
-Tried to call sales myself using the numbers given on oki.com/uk - offices around  the globe
-
-- Ireland
-	- OKI EUROPE UK&Ireland Sales number: +44 1 784 274 300
-		- told me to call Irish technical support: +353 152 69770
-			- tech support told me to just buy from a dealer
+I need an authtorised OKI dealer in Ireland
+https://www.oki.com/ie/printing/dealer-locator/index.html
 
 on the main websie there is a DEALER LOCATOR button
 - i did this search: https://www.oki.com/ie/printing/dealer-locator/index.html
 	- got the below results:
 
+
+Serigraf Serigraf
+Unit E1 Crag Avenue, Station Road, Clondalkin
+Dublin 2
+Ireland
+Tel: (01)4670354
+White Toner Printers
+5 Colour Printers
+Graphic Arts Printers
+update: NOCALL - they don't look like they stock what I want
 
 PCI PCI
 Unit A6 Grattan Business Park Clonshaugh
@@ -42,7 +72,7 @@ POS Printers
 Dot Matrix printers
 Managed Print and Document Solutions
 Service and Support
-update: gave her details - she'll call/email me
+update: NOJOY - gave her details - she'll call/email me - never called
 
 Infinite Technology Infinite Technology
 E3 CentrePoint Business Park
@@ -56,6 +86,7 @@ POS Printers
 Dot Matrix printers
 Managed Print and Document Solutions
 Service and Support
+update: NOCALL - they look like they provide dumb services
 
 Alpha CC Alpha CC
 Unit 3-4 Rosebank
@@ -66,6 +97,7 @@ Tel: + 353 1 286 1800
 Consumables
 General Printers and MFPs
 Managed Print and Document Solutions
+update: NOJOY - services
 
 All Office Equipment All Office Equipment
 Unit 2 Buckley House,
@@ -79,6 +111,8 @@ POS Printers
 Dot Matrix printers
 Managed Print and Document Solutions
 Service and Support
+https://www.allofficeequipmentcopiers.com/
+update: EMAILED
 
 Cusken Office Equipment Cusken Office Equipment
 Castletown Road
@@ -89,7 +123,7 @@ Tel: + 353 (0)429 335 440
 Fax: +353 (0)429 334 331
 Consumables
 General Printers and MFPs
-POS Printers
+POS Printers send
 Dot Matrix printers
 Managed Print and Document Solutions
 Service and Support
