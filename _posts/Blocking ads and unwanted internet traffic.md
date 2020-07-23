@@ -35,7 +35,35 @@ After enabling the DHCP option in the pi-hole, and then giving its IP to my rout
 ## Filtering tricky same-domain ads (e.g. Youtube)  
 Some domains serve ads from the same domain, which makes them very difficult to detect and block at the DNS level. Youtube is an example of this.
 
-I have a script running on the pi that attempts to discover and create a blocklist - youtube.update.sh. I got it from this thread: https://discourse.pi-hole.net/t/youtube-script-seems-to-be-working-very-well/31316
+I have a script running on the pi that attempts to discover and create a blocklist - youtube.update.sh. I got it from this thread: https://discourse.pi-hole.net/t/youtube-script-seems-to-be-working-very-well/
+
+Initially, the script wasn't working, but it's because I wasn't running it as root.
+
+/etc/crontab:
+```
+* * * * * root sh /usr/local/bin/youtube.update.sh 2>&1
+```
+
+I then created an empty file at `/etc/hosts.youtube` and made sure the cronjob wrote to it:
+```
+$ tail -F /etc/hosts.youtube
+tail: '/etc/hosts.youtube' has been replaced;  following new file
+74.125.168.6 r1.sn-q0c7rn76.googlevideo.com
+74.125.168.6 r1.sn-q0cedn7s.googlevideo.com
+74.125.168.6 r2.sn-q0cedn7s.googlevideo.com
+74.125.168.6 r3.sn-q0c7rn76.googlevideo.com
+74.125.168.6 r3.sn-q0cedn7s.googlevideo.com
+74.125.168.6 r4.sn-25glenez.googlevideo.com
+74.125.168.6 r4.sn-5hne6nsr.googlevideo.com
+74.125.168.6 r4.sn-q0c7rn76.googlevideo.com
+74.125.168.6 r4.sn-q0cedn7s.googlevideo.com
+74.125.168.6 r5.sn-aigl6nl7.googlevideo.com
+74.125.168.6 r5.sn-q0c7rn76.googlevideo.com
+74.125.168.6 r5.sn-q0cedn7s.googlevideo.com
+74.125.168.6 r6.sn-5hnednlk.googlevideo.com
+74.125.168.6 r6.sn-ab5sznl7.googlevideo.com
+74.125.168.6 r6.sn-q4f7sn7k.googlevideo.com
+```
 
 # NextDNS
 I tell the Pi-hole to use nextdns.io as a DNS provider. I also use NextDNS's technology and additional blocklists there too. It may be overkill, but I really hate ads.

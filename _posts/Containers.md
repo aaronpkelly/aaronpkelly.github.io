@@ -13,22 +13,24 @@ tags:
 This post starts as generic as possible in regards to working with containers, and then has sections for particular container technologies (Docker, Podman...).
 
 # Container management
-I typically just run containers myself on a cheap [[VPS]]
+In the beginning, I typically just started and managed containers myself on a cheap [[VPS]].
 
-Or I use a self-hosted PAAS like Caprover, see [[Self-hosting]]
+But quickly I realised I wasn't able to reason about the *state* of containers on my deployment target.
 
-## Watching for new images
-A tool like [Watchtower](https://github.com/containrrr/watchtower ) that can restart them when image is updated.
+There are some simple tools that be used to manage containers:
+- dokku
+- piku
+- a self-hosted PAAS like Caprover, see [[Self-hosting]]
+- a tool like [Watchtower](https://github.com/containrrr/watchtower ) that can restart them when image is updated
+- a bare git repo with post-receive git hooks:
 
-Even simpler... there was also a post on HN where the same thing was accomplished by just using git hooks and docker:
+		For those who have even simpler needs (like side projects, or 1 dev projects), I found using simply docker and git to be plenty enough.
 
-	For those who have even simpler needs (like side projects, or 1 dev projects), I found using simply docker and git to be plenty enough.
+		Basically, you can create a bare git repository on your server (`git init --bare`), and put a `hooks/post-receive` script within it that will clone sources in a temporary directory, build the docker image and rotate containers. That way, you can `git push` to build and deploy, and it's easy to migrate server.
 
-	Basically, you can create a bare git repository on your server (`git init --bare`), and put a `hooks/post-receive` script within it that will clone sources in a temporary directory, build the docker image and rotate containers. That way, you can `git push` to build and deploy, and it's easy to migrate server.
-
-	The added bonus is that you now have a central git repos that can act as backup, so you don't need github or gitlab.
-
-- [link](https://news.ycombinator.com/item?id=23465087)
+		The added bonus is that you now have a central git repos that can act as backup, so you don't need github or gitlab.
+		
+	[link](https://news.ycombinator.com/item?id=23465087)
 
 # Using containers effectively
 

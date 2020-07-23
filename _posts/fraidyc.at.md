@@ -3,7 +3,7 @@ https://fraidyc.at/
 
 Great way to follow things without the feeling that you need to catch-up and read everything.
 
-# newsboat???
+# engineering blogs -> newsboat??? keep fluff on fraidy?
 fork of the discontinued newsbeuter
 
 It's the mutt of RSS readers

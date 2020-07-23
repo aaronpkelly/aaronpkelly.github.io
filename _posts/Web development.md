@@ -36,6 +36,9 @@ somebody feels my pain: https://hn.algolia.com/?dateRange=all&page=0&prefix=true
 
 the dark side: https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/
 
+## primo - you can also skip the code, and use an all-in-one IDE, CMS, component library, and static site generator
+https://news.ycombinator.com/item?id=23820201
+
 # Courses
 https://www.freecodecamp.org/ - yay
 
@@ -72,9 +75,15 @@ https://designresourc.es/
 
 
 # See also
-[[Finding the ultimate CSS style]]
+[[Scraping websites for their plump JSONs]]
 
 [[CORS]]
+
+[[Development]]
+
+[[Finding the ultimate CSS style]]
+
+[[Software Development]]
 
 [[Javascript]]
 

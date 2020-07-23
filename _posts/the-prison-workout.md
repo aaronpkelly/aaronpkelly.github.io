@@ -2,8 +2,8 @@
 title: The prison workout
 description:
 date: 2020-05-11
-tags:
-  - health
+categories:
+  - lifestyle
 ---
 
 # The Prison Workout
@@ -29,3 +29,6 @@ Method:
 - take 13 cards
 - turn over 4 x 3 x 3 x 3 (13)
 - every time you need to break during a set, add +1
+
+# See also
+[[Health]]
