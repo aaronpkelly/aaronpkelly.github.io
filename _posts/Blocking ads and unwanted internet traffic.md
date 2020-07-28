@@ -10,7 +10,7 @@ tags:
 ---
 
 # Blocking ads and unwanted internet traffic
-I like blocking things. I'm currently using [UBlock](https://github.com/gorhill/uBlock) and it's fantastic. However, it works at the browser level, and I sometimes feel that I'm interacting with it more than I should be.
+I hate advertising. I like blocking things. I previously was using [UBlock](https://github.com/gorhill/uBlock) and it was fantastic. However, it works at the browser level, and I sometimes feel that I'm interacting with it more than I should be.
 
 There are other options that manage blocking for you. [pi-hole](https://github.com/pi-hole/pi-hole) is another software/hardware DNS sinkhole that filters out network traffic from unwanted domains, and it worked very well also. However it did end up being another device to manage, and I found I always wanted to poach the pi for running another project :)
 
@@ -191,3 +191,7 @@ INFO: 18:54:20 Connected 78.141.193.90:443 (con=50ms tls=49ms, TLS13)
 INFO: 18:54:20 Switching endpoint: https://vultr-lon-1.edge.nextdns.io#78.141.193.90,2a05:f480:1000:3ee:5400:2ff:fe99:7256
 ```
 
+# Using alternative sites
+## invidio.us
+### Using HTTPS Anywhere + rulesets to redirect youtube links to invidio.us
+Yes: https://listed.to/p/Uwjy6IDG6x

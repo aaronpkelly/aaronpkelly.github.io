@@ -21,7 +21,7 @@ There are some simple tools that be used to manage containers:
 - dokku
 - piku
 - a self-hosted PAAS like Caprover, see [[Self-hosting]]
-- a tool like [Watchtower](https://github.com/containrrr/watchtower ) that can restart them when image is updated
+- a tool like [[Watchtower]] that can restart them when image is updated
 - a bare git repo with post-receive git hooks:
 
 		For those who have even simpler needs (like side projects, or 1 dev projects), I found using simply docker and git to be plenty enough.

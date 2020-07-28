@@ -27,3 +27,9 @@ cd ..
 rm -rf fonts
 sudo cp -R .local/share/fonts /usr/local/
 ```
+
+# .zshrc
+heavy inspiration from https://forum.manjaro.org/t/zsh-history-file-without-duplicates/123317
+
+https://git.sr.ht/~aaronkelly/dotfiles/tree/master/.zshrc
+

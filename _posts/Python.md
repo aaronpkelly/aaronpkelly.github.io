@@ -29,3 +29,6 @@ for file in p.iterdir():
             print('}')
             time.sleep(5)
 ```
+
+# Resources
+great tutorial guides: https://realpython.com/

@@ -27,7 +27,13 @@ Tailing the STDOUT of a docker container - yes we can!:
 docker logs --follow <CONTAINER>
 ```
 
-# See also
+# Testing docker images
+I don't know what the best methodolgy is. Maybe it's:
+- build the image locally, then run the tests inside the container?
+
+Seems better than getting your CI tool to run them, because you're going to have to define all the packages used inside your image etc.
+
+ # See also
 [[Containers]]
 
 [[Dockerhub]]
