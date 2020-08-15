@@ -1,3 +1,5 @@
+# Software Development
+
 # exception handling
 Raising an exception is a a way for the author of the function to signal to the caller that an exceptional state occurred, which would not be obvious by just returning a value.
 
@@ -7,5 +9,8 @@ That semi-predicate problem is interesting. If we choose to return integer value
 
 	In computer programming, a semipredicate problem occurs when a subroutine intended to return a useful value can fail, but the signalling of failure uses an otherwise valid return value.[1] The problem is that the caller of the subroutine cannot tell what the result means in this case. 
 	
-	The division operation yields a real number, but fails when the divisor is zero. If we were to write a function that performs division, we might choose to return 0 on this invalid input. However, if the dividend is 0, the result is 0 too. This means there is no number we can return to uniquely signal attempted division by zero, since all real numbers are in the range of division. 
+	The division operation yields a real number, but fails when the divisor is zero. If we were to write a function that performs division, we might choose to return 0 on this invalid input. However, if the dividend is 0, the result is 0 too. This means there is no number we can return to uniquely signal attempted division by zero, since all real numbers are in the range of division.
 	
+# See also
+[[Development]]
+[[workflows]]

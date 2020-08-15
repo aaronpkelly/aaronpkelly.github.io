@@ -9,14 +9,11 @@ tags:
 # AWS
 This post will deal with general AWS stuff that I've learned and experienced that doesn't fit into a specific AWS article. It will also link to my other AWS articles.
 
-# The Move to AWS
+# Pros and Cons
++ some very useful and mature services like blob storage (s3) and secret storage (ssm))
+- costs. I've been overcharged grossly for just 'experimenting' and 'trying out' services on their platform. In fairness, they have refunded me, but I don't feel like I always know what I'm going to be charged for at the end of the month
+- UI is slow and frustrating 
 
-I'm moving to AWS with a big backpack... I have about 80 Github repositories,
-and previously my only interaction with AWS was running a Jenkins instance on
-EC2.
-
-Yes - the whole show is on the move, and I think the only repository I will end
-up keeping is this one, in order to avail of the free hosted github.io website.
 
 # Other AWS posts
 

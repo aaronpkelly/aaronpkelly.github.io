@@ -31,6 +31,9 @@ mount -t tmpfs tmpfs /mnt/ram -o size=8192M
 bonus: exit terminal but leave all processes running
 `disown -a && exit`
 
+# Changing terminal colours
+LS_COLORS is terminal variable that influences the colours on the terminal, there's some git repos for changing that
+
 # distros
 ## !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ## XFCE does not have a wifi manager !

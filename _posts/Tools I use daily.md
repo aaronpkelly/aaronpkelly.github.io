@@ -14,15 +14,21 @@ This post will be frequently updated as I discover new tools to supplant existin
 
 A lot of these tools have been found via a combination of searching on hackernews, and using https://alternativeto.net/.
 
+## YET TO TRY '?'
+? means i'm yet to try it
+
 ## FEAR THE ~
 The '~' character means the tool is marked as no longer being used, and is in danger of being removed from the list.
 
 # Audio
 - [[cvlc]]: command-line version of vlc
 - mpg123: quick and dirty mp3 player
+- ? mpd(+ ncmpcpp frontend) - local music+radio
 - [[mplayer]] quick and dirty general player (FLAC support!)
+- ? mps-youtube: youtube cli client
+- ? ncspot - spotify cli client
 - ogg123:  quick and dirty ogg player
-- [spotify-tui](https://github.com/Rigellute/spotify-tui): excellent command-line music player for spotify
+~ [spotify-tui](https://github.com/Rigellute/spotify-tui): another spotify cli
 ~ cmus
 ~ moc
 
@@ -78,6 +84,11 @@ MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windo
 - hwinfo
 - powertop: battery power consumption and management tool
 
+# Video
+- mplayer
+- vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]])
+
+
 # Windows (TODO: organise by category instead of OS)
 
 - rufus (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image flau- bleachbit - disk space cleaner
@@ -91,7 +102,6 @@ MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windo
 - screentogif
 - spacesniffer (successor to windDirStat)
 - sysinternals suite
-- vlc (run in ncurses mode for a great command-line experience)
 - workspacer (also tried fancy zones and plumb, but not good for me)
 - xmlstarlet
 ~ hwinfo

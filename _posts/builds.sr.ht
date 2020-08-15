@@ -1,0 +1,16 @@
+I have this script to download public builds and build manifests:
+
+```
+#! /bin/bash
+set -eux
+
+BUILD_NUM_START='278846'
+BUILD_NUM_END='278946'
+URL='https://builds.sr.ht/~aaronkelly/job'
+MANIFEST='https://builds.sr.ht/api/jobs/'
+
+for i in $(seq $BUILD_NUM_START $BUILD_NUM_END); do
+	curl -L "${URL}/${i}" -o "$i"
+	curl -L "${MANIFEST}/${i}/manifest" -o "${i}_manifest"
+done
+```

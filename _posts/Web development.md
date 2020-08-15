@@ -41,12 +41,16 @@ https://news.ycombinator.com/item?id=23820201
 
 # Courses
 https://www.freecodecamp.org/ - yay
+https://www.executeprogram.com/courses/sql - Gary Bernhardt - new!
 
 # Resources
 
 ## Code playgrounds
 https://jsfiddle.net/ - great!
 http://codepen.io/ - want to try!
+
+# Utilities
+https://curl.trillworks.com/ - Convert curl syntax to Python, Ansible URI, MATLAB, Node.js, R, PHP, Strest, Go, Dart, JSON, Elixir, Rust
 
 ## Free shells
 https://labs.play-with-docker.com/ - an excellent free environment for running docker images and other shell commands. 4 hour lifetime

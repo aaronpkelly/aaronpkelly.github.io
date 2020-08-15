@@ -1,10 +1,5 @@
----
-title: Test-driven-development (TDD)
-description: My thoughts and discoveries on the practice of Test-Driven Development (TDD)
-date: 2020-05-24
-tags:
-  - tdd
----
+# Test-driven development
+One thing I need to get better at when I start work on project that I'm semi-serious about maintaining... is writing tests first. In particular, writing _failing_ tests, then writing the code to make them pass.
 
 # Test Frameworks
 

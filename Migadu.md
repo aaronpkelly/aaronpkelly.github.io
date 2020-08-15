@@ -1,0 +1,1 @@
+An email service provider recommended by Drew: https://drewdevault.com/2020/06/19/Mail-service-provider-recommendations.html

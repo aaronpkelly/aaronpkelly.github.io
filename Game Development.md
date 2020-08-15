@@ -1,5 +1,8 @@
-# 
+# Game development
 http://gameprogrammingpatterns.com/contents.html
+
+Track your progress on https://todo.sr.ht/~aaronkelly/gamedev/14
+
 
 # bookmarks
 https://gamedev.stackexchange.com/questions?sort=votes

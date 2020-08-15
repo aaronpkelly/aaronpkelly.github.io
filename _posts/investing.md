@@ -286,25 +286,21 @@ https://www.degiro.ie/data/pdf/ie/commission-free-etfs-list.pdf
 https://www.degiro.ie/data/pdf/ie/IE_Feeschedule.pdf
 
 ### How to buy and sell
-Market order: will get you the deal done immediately (you may have to suffer a
-slightly worse price then if you place a limit order).
+Market order: will get you the deal done immediately (you may have to suffer a slightly worse price then if you place a limit order).
 Strongly advise not to market order, always set a limit order.
 
-Limit order: you set a maximum price you are willing to pay. The order won't be
-filled until another seller drops to that price.
+Out of Hours Orders - This is a market order placed outside of market hours which is executed by the third party broker once market hours commence
+
+Limit order: you set a maximum price you are willing to pay. The order won't be filled until another seller drops to that price.
 
 Day order: only lasts for the day - if it doesn't get filled it's cancelled.
 
 GTC: good till cancelled. The order lasts forever.
 
-Stop loss: Sell shares if your current position falls decreases and reaches a
-certian value.
-"if I am buying a share @ say $2.70 and want to minimise losses - what type of order do I input. Say if the price is falling and I want to set it to sell @ $2.60"
+Stop loss: An order to buy or sell a stock once the price of the stock reaches a specified price, known as the stop price. When the stop price is reached, a stop order becomes a market order and is executed at best available price (which can be lower or higher than the stop price).
 To minimise losses: use Sell Option; Order Type : Stop Loss and enter price [$2.60].
 
-Limit order: Sell shares if your current position increases and reaches a value.
-"Also when selling if a share is at $3.00 and I want to take a profit at a minimum of $2.90 - can I set up an order so that the position I hold will be automatically sold once the share price hits $2.90"
-To take profit @ $2.90: use Sell; Order Type : Limit Order & enter price $2.90
+Limit order: An order to buy or sell at specified price or better. Buy limit orders will be executed at the specified price or lower. Sell limit orders will be executed at the specified price or higher
 
 ## Concepts
 ### Dollar-cost averaging
