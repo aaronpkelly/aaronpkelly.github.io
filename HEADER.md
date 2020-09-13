@@ -1,4 +1,6 @@
-Howdy, I’m Aaron - and I’m really good at breaking things. Occasionally… I’ll put them back together.
+Howdy, I’m Aaron. I do a bit of coding, a bit of hacking, and I think I know *just* enough to be dangerous (but I only use my powers for good!)
+
+I’m also really good at breaking things and slightly less good at putting them back together.
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 

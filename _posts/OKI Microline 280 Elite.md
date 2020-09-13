@@ -13,7 +13,9 @@ https://en.wikipedia.org/wiki/Mini-DIN_connector
 it's a dc power cord 3 pin female
 the official power Cord part number is: DC YS4100-1187P001
 
+this manual is really comforting, it makes it seem easy to get:
 https://www.manualslib.com/manual/557629/Oki-Ml280-Elite.html?page=45
+
 https://www.oki.com/printing/download/45692102EE1_ML280_EN_31555.pdf?id=45692102EE
 
 ![[oki-ml280_dc.png]]
