@@ -6,42 +6,44 @@ tags:
   - gaming
 ---
 
-I want to play Doom eternal, but I have the following constraints:
-- I've shifted completely over to Linux
-- I play on a moderately powerful laptop, but I don't have a GPU, and the game needs a GPU
-- I've bought Doom already on Steam, so I want to buy it again on some other cloud gaming platform
-
-So, what are my options?
-
 # Stadia
-
-+ technology worked flawlessly for me. I was impressed.
-+ my connection wasn't great but it didn't seem to have any problems streaming.
-- you can't BYO games. You need to buy them on their platform
++ streams through a browser, no downloads
++ technology worked flawlessly for me
+- you can't BYO game store. You need to buy games on Stadia
 
 # NVIDIA GeForce Now
++ streaming client, no downloads
++ BYO game store
++ free 1 hour sessions
+- requires a compatible device
 
-Difficult to get running under Linux, also currently the game isn't supported: https://www.nvidia.com/en-gb/geforce/geforce-experience/games/
+# Paperspace
++ best service I've found running a Windows 10 gaming machine in the cloud
++ good alternative to get access to game subscription services that only provide PC installers (Playstation Now for PC), or the Battle.net client
++ provides the Paperspace App[0] for optimised streaming
+- cannot run XBOX Game Pass for PC because the Parsec public template is Microsoft Windows Server 2016 Datacenter
+- can be unintuitive to setup a gaming rig, and there was previously an approval process if you wanted a modern GPU which is a bit annoying (you need to send them a message as to why you want it)
 
+[0]: which is in fact the Pasec client - https://parsecgaming.com/ - low latency screen sharing optimised for game streaming. Use `./Paperspace.sh` to launch, not `./Paperspace`
 
-# Playstation Now
+# Playstation Now for PC
++ streaming client, no downloads
++ subscription service gives instant access to library
++ don't need to own a PS, just need a DualShock controller and a PS account
+- client is PC only
 
-+ i hear it's good, but you need an Playstation? :)
+https://www.playstation.com/en-us/explore/playstation-now/ps-now-on-pc/
 
-# https://shadow.tech/int/
-
-Heard good things about this but it's not available in my country (yet).
-
-# https://workstream.paperspace.com/
-
-It's a bit janky to setup - the website is slightly confusing, and there's an approval process if you want a modern GPU which is a bit annoying (you need to send them a message as to why you want it).
-
-Also, I just assumed their base offering would support Parsec screen sharing, but the GPU wasn't supported. Apparently I should have gone to the _Public Templates_ list and chosen the 'Parsec' template from there.
-
-# https://parsecgaming.com/
-
-Low latency screen sharing optimised for game streaming. I found this service fantastic! I currently use it conjunction with workstream. 
+# Shadow
++ streaming client
++ heard good things about this service
+- not available in my country (yet)
 
 # Steam Cloud Gaming (TBA)
-
 Valve's cloud gaming service. TBA. Would love to try this
+
+# XBOX Game Pass for PC
++ subscription service gives access to large library
++ has access to games that you can't get anywhere else, like MS Flight Simulator
+- non-streaming client, have to download games
+- client is PC only

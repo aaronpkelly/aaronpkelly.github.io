@@ -1,16 +1,7 @@
----
-title: Docker
-description:
-date: 2020-06-01
-tags:
-  - containers
-  - docker
----
-
 # Docker
 This post is intended as a jumping-off point to related articles. Docker-specific information will go here, but generic topics like [[Containers]] will have separate posts.
 
-I think Docker is a great tool for working with container technology. I like it a LOT.
+I think Docker is a great tool for working with container technology. I like it a lot.
 
 # Docker images
 
@@ -19,6 +10,9 @@ I think Docker is a great tool for working with container technology. I like it 
 Handy to know:
 
 https://docs.docker.com/engine/reference/commandline/build/#git-repositories
+
+# Networking
+Bind webapps inside a container to `0.0.0.0`. Don't bind to `127.0.0.1` or `localhost` - those addresses will  still point inside the container.
 
 # Docker logs
 Tailing the STDOUT of a docker container - yes we can!:
@@ -52,4 +46,4 @@ Seems better than getting your CI tool to run them, because you're going to have
 
 [[SSHing into an AWS Fargate container]]
 
-[[Web development]]
+[[Web development notes]]

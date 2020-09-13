@@ -67,3 +67,4 @@ http://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/ ( Difference betw
 
 *https://gist.github.com/lemiorhan/8912188*
 
+Oh shit, Git!? (reversing common git commit mistakes) - https://news.ycombinator.com/item?id=24173238

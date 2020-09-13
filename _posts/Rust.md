@@ -11,6 +11,11 @@ Rust is a bit different in that you don't use separate files to test other files
 
 By default, only the `main.rs` and `lib.rs` files are compiled for any folder, and any files that they reference as a module, e.g. `mod myUtils`
 
+# docker
+Instead of the official Rust image `rust:latest`, the image `ekidd/rust-musl-builder:stable` is used.
+
+The reason for this is Alpine is built around `musl-libc`, and an executable using the official Rust docker image won’t work.
+
 # my rust projects 
 I have an CLI client called 'crust' that I want to use to interact with my API ('Dorknet').  This is a good place to pour all my learning
 

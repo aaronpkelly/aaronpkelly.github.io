@@ -12,9 +12,7 @@ won't have a presence there. Bandcamp is great for that.
 One of my favourite sites to listen to music online is SomaFM:
 https://en.wikipedia.org/wiki/Soma.fm
 
-I found them when reading about Defcon - SomaFM provide the music for one of
-the chillout rooms at the event. I find myself usually listening to the least
-popular stations, because they're more interesting to me.
+I found them when reading about Defcon - SomaFM provide the music for one of the chillout rooms at the event. I find myself usually listening to the least popular stations, because they're more interesting to me.
 
 There is also https://en.wikipedia.org/wiki/Di.fm which is decent, but more
 mainstream
@@ -23,29 +21,39 @@ mainstream
 
 This post is really good: https://askubuntu.com/questions/193737/how-to-listen-radio-from-terminal/193753
 
-I have an alias which gets all the currently available AAC 32k streams on the
-site, which can be dumped to a file:
+My API has a function which gets all the currently available AAC 32k streams on SOMA FM, which can then be dumped to a file:
 ```
-alias soma_getURLs="curl https://somafm.com/listen/ | grep 32k | cut -c11- | rev | cut -c10- | rev | xargs -L 1 printf 'http://www.somafm.com/%s\n'"
+https://somafm.com/groovesalad32.pls
+https://somafm.com/dronezone32.pls
+https://somafm.com/indiepop32.pls
+```
 
-This can then be played with... 
+## Playing the .pls
 
-cvlc (in ncurses mode!). Great for reading a downloaded .pls file:
+[cvlc] (in ncurses mode!). Great for reading a downloaded .pls file:
 ```
 cvlc -I curses [FILE/URI]
 ```
 
-mplayer(note: mplayer doesn't support .pls streams):
+[[mplayer]] (note: this tool doesn't support .pls streams, you're going to have to `curl` the .pls file and play a URL directly:
 ```
-mplayer [IP_ADDRESS]
+❯ curl https://somafm.com/scanner32.pls
+[playlist]
+numberofentries=6
+File1=http://ice6.somafm.com/scanner-32-aac
+Title1=SomaFM: SF Police Scanner (#1): San Francisco Public Safety Scanner Feed
+
+❯ mplayer http://ice1.somafm.com/scanner-32-aac
+Starting playback...
+A:   0.6 (00.5) of 0.0 (unknown)  0.6% 73%
 ```
 
-cmus:
+[[cmus]]:
 - run `cmus`
 - type `:add http://www.somafm.com/cliqhop32.pls`
 - press 2 for the library, enter to play
 
-moc:
+[[moc]] - instructions are a bit light...:
 ```
 mocp
 ```

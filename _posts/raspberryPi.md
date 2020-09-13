@@ -23,7 +23,7 @@ after that the scanner was detected by scanimage -L
 # sound
 ALSA should already be pre-installed, use that - not pulseaudio.
 
-MPlayer will use the default libavcodec to play mp3 files - which is fine. It
+[[MPlayer]] will use the default libavcodec to play mp3 files - which is fine. It
 will complain however that it can't find the mpg123 codec files to play.
 Install the packages libmpg123-0 (and maybe mpg123?) and then edit the 
 ~/.mplayer/config file to include:

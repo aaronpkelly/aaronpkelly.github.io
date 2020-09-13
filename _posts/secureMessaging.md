@@ -10,5 +10,10 @@ Use these services to share files securely:
 
 - https://send.firefox.com/
 - https://keybase.io/
-- https://www.signal.org/
 - https://telegram.org
+- https://www.signal.org/
+
+# signal or telegram?
+for messaging - go for signal, snowden recommends
+
+telegram is good for APIs (e.g. huginn)

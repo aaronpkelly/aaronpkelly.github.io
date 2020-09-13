@@ -1,40 +1,39 @@
 {
   "pluginEnabledStatus": {
-    "File explorer": true,
-    "Search": true,
-    "Quick switcher": true,
-    "Graph view": true,
-    "Backlinks": true,
-    "Command palette": true,
-    "Markdown format importer": true,
-    "Word count": true
+    "file-explorer": true,
+    "global-search": true,
+    "switcher": true,
+    "graph": true,
+    "backlink": true,
+    "command-palette": true,
+    "markdown-importer": true,
+    "word-count": true,
+    "tag-pane": true,
+    "page-preview": true,
+    "starred": true,
+    "custom-css": true,
+    "daily-notes": true,
+    "zk-prefixer": true,
+    "random-note": true,
+    "outline": true,
+    "slides": true,
+    "audio-recorder": true,
+    "open-with-default-app": true
   },
   "isSidebarCollapsed": false,
   "isRightSidedockCollapsed": false,
   "lastOpenSidebarTab": "File explorer",
   "lastOpenRightSidedockTab": "Backlinks",
-  "theme": "obsidian",
-  "workspaceLayout": {
-    "id": "348cea41f526b976",
-    "type": "split",
-    "dimension": null,
-    "direction": "vertical",
-    "children": [
-      {
-        "id": "7e53a46c1f05db5e",
-        "type": "leaf",
-        "dimension": null,
-        "active": true,
-        "master": "",
-        "state": {
-          "type": "empty",
-          "state": {}
-        }
-      }
-    ]
-  },
+  "theme": "moonstone",
   "sideDockWidth": {
     "left": 479,
     "right": 300
-  }
+  },
+  "spellcheck": true,
+  "strictLineBreaks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }

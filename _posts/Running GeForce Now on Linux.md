@@ -7,7 +7,15 @@ tags:
 ---
 
 # Running GeForce Now on Linux
-TLDR; **UNSUCCESSFUL** so far
+TLDR; they just released GeForce Now for Chromebooks (ChromeOS).
+
+Just change your user agent in Chrome to `Chrome OS` and you can play on any Chrome browser!
+
+You can also set it permanently by starting chrome with the `--user-agent` parameter, and the user agent string for Chrome os, which is `Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36`:
+
+```
+chrome --user-agent='Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
+```
 
 ## About GeForce Now
 

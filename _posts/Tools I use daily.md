@@ -24,7 +24,7 @@ The '~' character means the tool is marked as no longer being used, and is in da
 - [[cvlc]]: command-line version of vlc
 - mpg123: quick and dirty mp3 player
 - ? mpd(+ ncmpcpp frontend) - local music+radio
-- [[mplayer]] quick and dirty general player (FLAC support!)
+- [[mplayer]] fantastic general audio and video player
 - ? mps-youtube: youtube cli client
 - ? ncspot - spotify cli client
 - ogg123:  quick and dirty ogg player
@@ -32,13 +32,19 @@ The '~' character means the tool is marked as no longer being used, and is in da
 ~ cmus
 ~ moc
 
+# Audio and video
+- mplayer
+- vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]]) 
+
 # Browsers
 - firefox / firefox dev browser:
     - addons: dark reader, ublock origin, tree-style tabs
 - brave (a fork of the Chrome browser)
     - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 
-## Extensions/addons
+## Extensions/addons# Audio and video
+- mplayer
+- vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]]) p
 [[fraidyc.at]]
 
 [[uBlock Origin]]
@@ -84,9 +90,6 @@ MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windo
 - hwinfo
 - powertop: battery power consumption and management tool
 
-# Video
-- mplayer
-- vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]])
 
 
 # Windows (TODO: organise by category instead of OS)

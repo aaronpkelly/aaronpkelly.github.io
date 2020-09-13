@@ -2,7 +2,7 @@
 This article Encompasses all parts of development:
 
 - [[Software Development]]
-- [[Web development]]
+- [[Web development notes]]
 
 The sections below apply to all aspects of development work
 

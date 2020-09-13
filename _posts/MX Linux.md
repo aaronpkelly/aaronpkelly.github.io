@@ -7,6 +7,12 @@ tags:
   - mxlinux
 ---
 
+# MX Linux
+
+Various solutions I've found for various problems specific to MX Linux.
+
+For general [[Linux]] solutions see that file.
+
 # Set sound output to HDMI 
 
 This worked immediately:
@@ -40,6 +46,15 @@ use `man console-setup`
 console fonts go in `/usr/share/consolefonts`
 
 console-setup config file is `/etc/default/console-setup`, where you can specify a default `FONT` but I haven't been able to get it working with a font other that the defaults
+
+# changing background wallpaper
+this is needed if using i3:
+
+```
+feh --bg-scale <PATH_TO_IMAGE>
+```
+
+there's some good ones on artstation.com (e.g. 'hacker bedroom')
 
 # turning off x
 ```

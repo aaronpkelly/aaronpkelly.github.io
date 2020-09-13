@@ -6,9 +6,9 @@ tags:
   - bookmarks
 ---
 
-I don't really keep bookmarks anymore. If I find a website useful, I will either:
-- follow the site/person on [[Tools I use daily|https://fraidyc.at/]]
-- add my discovery into a blog post
+I don't really keep bookmarks anymore. If I find a website useful, I will either (in order of preference):
+- add my discovery to a blog post
+- follow the site/person using RSS + newsbeuter
 - find and favourite the item on news.ycombinator.com
 - star the project on github.com
 

@@ -25,10 +25,11 @@ Do not power this printer from AC mains voltage
 
 ## is it XLR?
 https://en.wikipedia.org/wiki/XLR_connector
-no, audio
+no, that's audio
 
 ## DIN?
 maybe? https://en.wikipedia.org/wiki/DIN_connector
+Johnny thinks so
 
 ## buy?
 
@@ -48,141 +49,5 @@ https://www.oki.com/ie/printing/dealer-locator/index.html
 
 on the main websie there is a DEALER LOCATOR button
 - i did this search: https://www.oki.com/ie/printing/dealer-locator/index.html
-	- got the below results:
 
-
-Serigraf Serigraf
-Unit E1 Crag Avenue, Station Road, Clondalkin
-Dublin 2
-Ireland
-Tel: (01)4670354
-White Toner Printers
-5 Colour Printers
-Graphic Arts Printers
-update: NOCALL - they don't look like they stock what I want
-
-PCI PCI
-Unit A6 Grattan Business Park Clonshaugh
-Dublin
-Ireland
-Tel: (01) 8482 900
-Consumables
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
-update: NOJOY - gave her details - she'll call/email me - never called
-
-Infinite Technology Infinite Technology
-E3 CentrePoint Business Park
-Oak Road
-Dublin 12
-Ireland
-Tel: +353 1 2939000
-Consumables
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
-update: NOCALL - they look like they provide dumb services
-
-Alpha CC Alpha CC
-Unit 3-4 Rosebank
-Herbert Road, Bray
-Co Wicklow, A98 F5N4
-Ireland
-Tel: + 353 1 286 1800
-Consumables
-General Printers and MFPs
-Managed Print and Document Solutions
-update: NOJOY - services
-
-All Office Equipment All Office Equipment
-Unit 2 Buckley House,
-Maynooth
-Kildare, W23 R1X6
-Ireland
-Tel: +353 1 6290453
-Consumables
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
-https://www.allofficeequipmentcopiers.com/
-update: EMAILED
-
-Cusken Office Equipment Cusken Office Equipment
-Castletown Road
-Dundalk
-County Louth
-Ireland
-Tel: + 353 (0)429 335 440
-Fax: +353 (0)429 334 331
-Consumables
-General Printers and MFPs
-POS Printers send
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
-
-Rice Office Supplies Rice Office Supplies
-Unit 8 Greenbank Ind. Estate
-Rampart Road
-Newry
-Down, BT34 2QU
-Northern Ireland
-Tel: +44 2830 263488
-Consumables
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
-
-BITS - Business IT Solutions BITS - Business IT Solutions
-16 Hebron Business Park Hebron Road
-Kilkenny
-Ireland
-Tel: +353 (0)56 7786882
-Consumables
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-
-Mc Ardle Computer & Office Supplies Mc Ardle Computer & Office Supplies
-Old Railway Station North Road
-Monaghan
-Ireland
-Tel: +353 (0)47 71808
-Consumables
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
-
-Office Repair Centre Office Repair Centre
-Main Street, Maguiresbridge
-BT94 4RY
-Maguiresbridge
-Ireland
-Tel: 028 6772 2797
-Consumables
-General Printers and MFPs
-Dot Matrix printers
-Service and Support
-
-Global Ink Global Ink
-45 Barrack Street Waterford City
-Waterford
-Ireland
-Tel: +353 (0)51 371801
-General Printers and MFPs
-POS Printers
-Dot Matrix printers
-Managed Print and Document Solutions
-Service and Support
+Tracking my progress here: https://todo.sr.ht/~aaronkelly/life/47
