@@ -1,12 +1,12 @@
+Tracking my progress in obtaining a cord here: https://todo.sr.ht/~aaronkelly/life/47
+
+# printer details
 Name: Microline 280 Elite DC (ML280)
 Model: D22300C
 Serial Number: 57EO 4030 713K
 Lot number: AE55051248A0
 Part number: 01138610
 Part Description: ML280EL-DC-EURO
-
-# PS/2 port
-https://en.wikipedia.org/wiki/Mini-DIN_connector
 
 # Power
 ## cord
@@ -33,23 +33,11 @@ no, that's audio
 maybe? https://en.wikipedia.org/wiki/DIN_connector
 Johnny thinks so
 
+## PS/2 port?
+https://en.wikipedia.org/wiki/Mini-DIN_connector
+
 ## buy?
+there is a german website that DOES sell one but it's super expensive: https://shop2.ribbex.de/product/Kabel-f.-OKI-Microline-280-Elite-YS4100-1187P001-Gleichstrom-Netzkabel/13051
 
-I sent email to OKI tech support for part
-	got a call from Tech SUpport in Poland
-		Call this number: 44 178 42 74 310 - sales department OKI London - get part from here
-			number rang out?
-			
-Tried to call sales myself using the numbers given on oki.com/uk - offices around  the globe			
-	found OKI EUROPE UK&Ireland Sales number: +44 1 784 274 300
-		told me to call Irish technical support: +353 152 69770
-			Ireland
-				tech support told me to just buy from a dealer
-
-I need an authtorised OKI dealer in Ireland
-https://www.oki.com/ie/printing/dealer-locator/index.html
-
-on the main websie there is a DEALER LOCATOR button
-- i did this search: https://www.oki.com/ie/printing/dealer-locator/index.html
-
-Tracking my progress here: https://todo.sr.ht/~aaronkelly/life/47
+# reddit
+i created a post on reddit to help: https://www.reddit.com/r/printers/comments/ikv9bd/having_a_super_hard_time_finding_a_dc_power_cable/

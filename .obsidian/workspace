@@ -1,0 +1,125 @@
+{
+  "main": {
+    "id": "348cea41f526b976",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3c0334db5f96465",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "coronavirus.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "76a35e50d3fea2f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "48ee53a057fbeaef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d123b533b5341da",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e63dd3cefd6a66a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "xcloud"
+              }
+            }
+          },
+          {
+            "id": "a5ae0e29862f7c13",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 162
+  },
+  "right": {
+    "id": "e9c6ede50e5e1c81",
+    "type": "split",
+    "children": [
+      {
+        "id": "e062b9869b19bcca",
+        "type": "tabs",
+        "dimension": 23.612750885478157,
+        "children": [
+          {
+            "id": "ddbb74d583ecfe6a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "coronavirus.md"
+              }
+            }
+          },
+          {
+            "id": "2dd6652ed0881154",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "9110d029c994a753",
+        "type": "tabs",
+        "dimension": 76.38724911452184,
+        "children": [
+          {
+            "id": "74975c646e90acbc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "coronavirus.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.6666259765625,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "coronavirus.md",
+    "_posts/git.md",
+    "_posts/Cloud gaming.md",
+    "using qunit to test javascript apps.md",
+    "_posts/cloud-gaming.md",
+    "dualshock 3 controller, mx linux, parsec, and paperspace.md",
+    "dualshock 3 controller and mx linux.md",
+    "docs_toTurnIntoPosts/computing_playstation.md",
+    "_posts/Building a budget gaming pc.md",
+    "docs_toTurnIntoPosts/howToWeekend.md"
+  ]
+}

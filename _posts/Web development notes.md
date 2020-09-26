@@ -76,7 +76,7 @@ https://designresourc.es/
 
 # See also
 
-[[CORS]]
+[[CORS - what is it]]
 
 [[Development]]
 

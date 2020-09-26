@@ -9,7 +9,7 @@ For some reason, as a GENERAL AUDIO PLAYER - I prefer running this over CVLC! Wh
 One con I've found - this tool doesn't support `pls` files :(
 
 # Tricks
-Use in conjunction with youtube-dl to play movies in the console:
+Use in conjunction with [[youtube-dl]] to play movies in the console:
 
 ```
 $ apk add mplayer youtube-dl libcaca

@@ -73,14 +73,66 @@ exit
 For some reason I had control characters `^M` appended to my output. Use `dos2unix -f <FILE>` to clear them
 
 # remapping keys (e.g. CAPS->ESC)
-## with x
+
+## in X
+
+## remember: resetting
+at any time type this to reset the keymapping in x:
+
+```
+setxkbmap ie
+# or 
+setxkbmap dvorak -option caps:escape
+```
+
+## using setxkbmap
+`setxkbmap`  is known as the "modern" tool for the job
+
 If you're in X, you can just do this:
 ```
 setxkbmap dvorak -option caps:escape
 ```
 
+i'm sure there's a lot more readins that can be done with this tool
+
+## using xev and xmodmap
+
+type `xev` to get a live window where you can see keypresses, e.g to remap the right `CTRL` key to be the left `CTRL` key, get the key codes:
+
+```
+KeyRelease event, serial 34, synthetic NO, window 0xb800001,
+    root 0x18c, subw 0x0, time 131816574, (81,509), root:(1365,529),
+    state 0x4, keycode 37 (keysym 0xffe3, Control_L), same_screen YES,
+    XLookupString gives 0 bytes: 
+    XFilterEvent returns: False
+
+KeyPress event, serial 34, synthetic NO, window 0xb800001,
+    root 0x18c, subw 0x0, time 131850486, (175,620), root:(1619,640),
+    state 0x0, keycode 105 (keysym 0xffe4, Control_R), same_screen YES,
+    XLookupString gives 0 bytes: 
+    XmbLookupString gives 0 bytes: 
+    XFilterEvent returns: False
+```
+
+Then just:
+
+```
+xmodmap -e "keycode 105 = keycode 37"
+```
+
+or:
+
+```
+xmodmap -e "keycode 105 = Control_L"
+```
+
+
 ## without x
-This seems a little harder!
+Many ways to skin a cat
+
+This seems a little harder... 
+
+### using evtest and hwdb
 
 Here's me trying to remap `KEY_CAPSLOCK` to `KEY_ESC` using `hwdb`.
 

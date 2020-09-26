@@ -59,6 +59,8 @@ user]
 
 # Other good links
 
+https://git-rebase.io/ - Drew DeVault's tutorial
+
 https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks#using-git-hooks-to-deploy-to-a-separate-production-server
 
 https://news.ycombinator.com/item?id=23465087 (Caprover)

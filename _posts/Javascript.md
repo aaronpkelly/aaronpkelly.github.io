@@ -1,7 +1,10 @@
 # Javascript notes
 
+# concepts
+asynchronous programming - "dealing with events that take time"
+
 # Books
- https://eloquentjavascript.net/  this book is recommended a lot on HN
+ https://eloquentjavascript.net/ - https://todo.sr.ht/~aaronkelly/programming/6
 # Courses
 
 https://www.c0d3.com/curriculum (via HN)

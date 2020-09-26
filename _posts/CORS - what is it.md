@@ -1,12 +1,12 @@
 ---
-title: Glossary
-description: great explanations for common but confusing terms
+title: CORS - what is it?
+description: An explanation on CORS
 date: 2020-01-31
 categories:
   - webdev
 ---
 
-# CORS
+# CORS - what is it?
 This policy frustrates me so much whenever I try and build a web project, I decided to dedicate a post to it.
 
 It's a policy that restricts YOUR javascript code from making requests and using resources from other domains (origins). Which is a bummer, cos there's so much good JSON out there ready to be used.
