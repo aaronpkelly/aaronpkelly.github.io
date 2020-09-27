@@ -1,1 +1,0 @@
-the curses view is great: `cvlc -I curses [FILE/URI]`

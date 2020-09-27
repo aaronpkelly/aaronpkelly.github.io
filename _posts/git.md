@@ -56,6 +56,32 @@ user]
 ```
 
 
+# Helpful git commands when working with submodules (thank you Fred)
+
+fetch changes from submodules
+
+```
+git submodule foreach git checkout master
+git submodule foreach git pull
+```
+
+Make your changes, then submit a merge request.
+
+While working, you can make extensive use of foreach command:
+
+```
+git submodule foreach git status
+git submodule foreach git checkout -b myBranch
+git submodule foreach git commit -am"update doc"
+git submodule foreach git push origin myBranch
+```
+
+Update submodules references
+
+```
+git submodule update --recursive --remote
+git submodule foreach git checkout maste
+
 
 # Other good links
 

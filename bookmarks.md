@@ -1,11 +1,3 @@
----
-title: Bookmarks
-description: 
-date: 2020-01-01
-tags:
-  - bookmarks
----
-
 I don't really keep bookmarks anymore. If I find a website useful, I will either (in order of preference):
 - add my discovery to a blog post
 - follow the site/person using RSS + newsbeuter

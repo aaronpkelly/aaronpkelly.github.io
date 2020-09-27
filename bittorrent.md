@@ -1,3 +1,4 @@
+# btfs
 Mount any .torrent or .magnet as a filesystem directory!
 
 I discovered it here

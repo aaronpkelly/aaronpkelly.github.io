@@ -1,14 +1,3 @@
----
-title: Containers
-description:
-date: 2020-03-21
-categories:
-  - development
-tags:
-  - containers
-  - docker
----
-
 # Containers
 This post starts as generic as possible in regards to working with containers, and then has sections for particular container technologies (Docker, Podman...).
 

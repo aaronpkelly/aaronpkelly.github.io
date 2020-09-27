@@ -1,11 +1,3 @@
----
-title: Dungeons and Dragons resources
-description:
-date: 2020-02-12
-tags:
-  - APIs
----
-
 Random generators:
 
 - https://www.dndbeyond.com/monsters/flying-snake

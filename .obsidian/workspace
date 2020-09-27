@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "coronavirus.md",
-            "mode": "preview"
+            "file": "_posts/creating-a-bookmarklet-for-hacker-news.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xcloud"
+                "query": "vlc"
               }
             }
           },
@@ -52,12 +52,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 162
+    "width": 436
   },
   "right": {
     "id": "e9c6ede50e5e1c81",
@@ -74,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "coronavirus.md"
+                "file": "_posts/creating-a-bookmarklet-for-hacker-news.md"
               }
             }
           },
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coronavirus.md"
+                "file": "_posts/creating-a-bookmarklet-for-hacker-news.md"
               }
             }
           }
@@ -111,15 +110,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "coronavirus.md",
-    "_posts/git.md",
-    "_posts/Cloud gaming.md",
-    "using qunit to test javascript apps.md",
-    "_posts/cloud-gaming.md",
-    "dualshock 3 controller, mx linux, parsec, and paperspace.md",
-    "dualshock 3 controller and mx linux.md",
-    "docs_toTurnIntoPosts/computing_playstation.md",
-    "_posts/Building a budget gaming pc.md",
-    "docs_toTurnIntoPosts/howToWeekend.md"
+    "_posts/creating-a-bookmarklet-for-hacker-news.md",
+    "_posts/creating-a-rss-feed-for-github-pages.md",
+    "_posts/Deploying a docker image to AWS ECS.md",
+    "_posts/Deploying a small ecommerce website.md",
+    "_posts/DigitalOcean - my impressions.md",
+    "_posts/Docker and XWindows.md",
+    "_posts/Docker volumes and bind mounts.md",
+    "_posts/ElasticSearch.md",
+    "_posts/dungeons-and-dragons-resources.md",
+    "_posts/dockerhub.md"
   ]
 }

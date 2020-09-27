@@ -21,7 +21,7 @@ A lot of these tools have been found via a combination of searching on hackernew
 The '~' character means the tool is marked as no longer being used, and is in danger of being removed from the list.
 
 # Audio
-- [[cvlc]]: command-line version of vlc
+- [[cvlc]]: command-line version of vlc. the curses view is great: `cvlc -I curses [FILE/URI]`
 - mpg123: quick and dirty mp3 player
 - ? mpd(+ ncmpcpp frontend) - local music+radio
 - [[mplayer]] fantastic general audio and video player

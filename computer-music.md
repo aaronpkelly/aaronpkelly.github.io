@@ -1,11 +1,3 @@
----
-title: Computer Music
-description: How I created my own API
-date: 2020-02-04
-tags:
-  - music
----
-
 https://en.wikipedia.org/wiki/Computer_music
 https://en.wikipedia.org/wiki/Algorithmic_composition (based on rules)
 
