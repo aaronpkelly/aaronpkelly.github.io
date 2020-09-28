@@ -13,6 +13,18 @@ https://github.com/DanielThomas/ec2gaming
 
 and a good (recentish?) guide: https://lg.io/2015/07/05/revised-and-much-faster-run-your-own-highend-cloud-gaming-service-on-ec2.html
 
+# luna
+https://news.ycombinator.com/item?id=24581799
+
+https://www.amazon.com/luna/landing-page
+
+amazon's own cloud gaming service - similar to ec2gaming
+
+- us only for now
++ steaming
+
+
+
 # Stadia
 + streams through a browser, no downloads
 + technology worked flawlessly for me

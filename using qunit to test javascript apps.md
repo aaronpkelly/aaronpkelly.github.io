@@ -1,4 +1,16 @@
+---
+title: Using QUnit to test Javascript apps
+description: AWS
+date: 2020-05-31
+categories: 
+  - software development
+  - testing
+tags:
+  - qunit
+  - javascript
+---
 # intro
+
 My experience with Javascript is minimal, and my experience with _testing_ that Javascript is even... minimaler.
 
 The testing need came very quickly after the complexity of a [webapp I was writing](https://sr.ht/~aaronkelly/commentgrower/) started to grow. 
@@ -52,4 +64,38 @@ QUnit.module('nodes and trees', function () {
 # testing asynchronous requests and responses
 Once I was able to test test that the basic elements of my webpage were in-place, it was on to testing the *functionality*.
 
-I found this article: https://www.sitepoint.com/test-asynchronous-code-qunit/
+The QUnit [docs](https://api.qunitjs.com/assert/async/) do give examples of testing asynchronous functions, but they did not give me what I wanted - testing the values RETURNED from those functions.
+
+My [[Javascript notes]] article says that there are three ways to retrieve the return value of an asynchronous function - so I spent a couple of days ruminating about it, and and trying different methods. Eventually, I decided to go with using a _callback_, as it was the simplest.
+
+I ended up with a test like this:
+
+```
+QUnit.test('should get a XMLHttpRequest response', function ( assert ) {
+	var done1 = assert.async();
+
+	sendXMLHttpRequest(STORY_URL_BASE + STORY_ID + '.json', function(myCallback) {
+		assert.equal(myCallback, 'tmatthe', 'correct callback received')
+		done1();
+	});
+})
+```
+
+To test this code:
+
+```
+function sendXMLHttpRequest(url, callback) {
+    let request = new XMLHttpRequest();
+
+    request.open("GET", url);
+    request.responseType = "json";
+    request.send();
+
+    request.onreadystatechange = function () {
+        if (request.readyState == 4) {
+            callback(request.response['by']);
+        }
+    };
+}
+```
+

@@ -82,7 +82,7 @@ https://designresourc.es/
 
 [[Finding the ultimate CSS style]]
 
-[[Javascript]]
+[[Javascript notes]]
 
 [[regex notes]]
 

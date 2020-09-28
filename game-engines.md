@@ -1,11 +1,3 @@
----
-title: Game engines
-description:
-date: 2020-02-02
-tags:
-  - APIs
----
-
 # Awesome links
 
 These links are pretty fab, gives a breakdown of most used tools, engines, software etc. used by devs that publish to itch.io:

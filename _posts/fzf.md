@@ -10,6 +10,7 @@ tags:
 ---
 
 # FZF
+I discovered this program recently, and it's so good I had to write a post about it
 
 ## keybinds
 The install script adds:

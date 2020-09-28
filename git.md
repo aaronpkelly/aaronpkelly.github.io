@@ -82,10 +82,13 @@ Update submodules references
 git submodule update --recursive --remote
 git submodule foreach git checkout maste
 
+```
 
 # Other good links
 
 https://git-rebase.io/ - Drew DeVault's tutorial
+
+https://news.ycombinator.com/item?id=24586436 -> https://learngitbranching.js.org/ Learn git branching
 
 https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks#using-git-hooks-to-deploy-to-a-separate-production-server
 
