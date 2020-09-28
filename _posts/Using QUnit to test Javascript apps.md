@@ -1,7 +1,7 @@
 ---
 title: Using QUnit to test Javascript apps
 description: AWS
-date: 2020-05-31
+date: 2020-09-28
 categories: 
   - software development
   - testing

@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "using qunit to test javascript apps.md",
+            "file": "_posts/Using QUnit to test Javascript apps.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "async"
+                "query": "quotes"
               }
             }
           },
@@ -52,8 +52,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "using qunit to test javascript apps.md"
+                "file": "_posts/Using QUnit to test Javascript apps.md"
               }
             }
           },
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "using qunit to test javascript apps.md"
+                "file": "_posts/Using QUnit to test Javascript apps.md"
               }
             }
           }
@@ -110,15 +109,15 @@
     "width": 213.6666259765625
   },
   "lastOpenFiles": [
+    "_posts/using qunit to test javascript apps.md",
     "using qunit to test javascript apps.md",
+    "Software Development.md",
+    "FOOTER.md",
+    "_posts/index.md",
     "_posts/AWS.md",
     "Javascript notes.md",
     "Javascript.md",
     "opus.md",
-    "_posts/Kubernetes.md",
-    "_posts/javascript_nodejs.md",
-    "_posts/Javascript.md",
-    "_posts/java_instantMessagingClient.md",
-    "_posts/java_swing.md"
+    "_posts/Kubernetes.md"
   ]
 }
