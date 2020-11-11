@@ -152,3 +152,35 @@ xrandr --addmode $DISP $MODERES
 _EOF
 set +x
 ```
+
+# get last 100 builds
+```
+#! /bin/bash
+set -eux
+
+BUILD_NUM_START="$1"
+BUILD_NUM_END="$2"
+URL='https://builds.sr.ht/~aaronkelly/job'
+MANIFEST='https://builds.sr.ht/api/jobs/'
+
+for i in $(seq $BUILD_NUM_START $BUILD_NUM_END); do
+	curl -L "${URL}/${i}" -o "$i"
+	curl -L "${MANIFEST}/${i}/manifest" -o "${i}_manifest"
+done
+```
+
+from api:
+```
+#! /bin/bash
+set -eux
+
+BUILD_NUM_START="$1"
+BUILD_NUM_END="$2"
+URL='https://builds.sr.ht/~aaronkelly/job'
+MANIFEST='https://builds.sr.ht/api/jobs/'
+
+for i in $(seq $BUILD_NUM_START $BUILD_NUM_END); do
+	curl -L "${URL}/${i}" -o "$i"
+	curl -L "${MANIFEST}/${i}/manifest" -o "${i}_manifest"
+done
+```
