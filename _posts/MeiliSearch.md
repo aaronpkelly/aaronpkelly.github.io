@@ -14,7 +14,7 @@ Just when I had given up hope in finding an easy-to-use indexing tool... somethi
 # How i use it
 I've used it locally and it worked fantastically.
 
-[[DigitalOcean - my impressions]] have a Meilisearch droplet on their marketplace that spins up mostly pre-configured. I'm currently trying it out!
+[[DigitalOcean notes]] have a Meilisearch droplet on their marketplace that spins up mostly pre-configured. I'm currently trying it out!
 
 # Usage notes
 ## Creating an index 

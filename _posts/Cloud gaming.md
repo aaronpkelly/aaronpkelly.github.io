@@ -32,10 +32,13 @@ amazon's own cloud gaming service - similar to ec2gaming
 - you can't BYO game store. You need to buy games on Stadia. If Stadia dies, your games die
 
 # NVIDIA GeForce Now
+I've tried this service on Windows and it's fantastic:
 + streaming client, no downloads
-+ BYO game store
-+ free 1 hour sessions
++ BYO games (steam store etc)
++ free 1 hour session per day
++ powerful gaming rig
 - supported games only
+- need a _very_ good internet connection
 
 # Paperspace
 + best service I've found CURRENTLY for running a Windows 10 gaming machine in the cloud. Will be replaced by SHADOW soon

@@ -25,3 +25,10 @@ ffmpeg -video_size 1024x768 -framerate 25 -f x11grab -i :0.0+100,200 output.mp4
 ```
 
 `-i :0.0+100,200`: this will grab the image from desktop, starting with the upper-left corner at x=100, y=200 with a width and height of 1024x768. 
+
+# front-end
+https://handbrake.fr/ - uses FFMPEG, very nice tool (https://news.ycombinator.com/item?id=18949007)
+
+# see also
+
+[[Tools I use daily]]

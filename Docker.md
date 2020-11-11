@@ -21,11 +21,12 @@ Tailing the STDOUT of a docker container - yes we can!:
 docker logs --follow <CONTAINER>
 ```
 
-# Testing docker images
-I don't know what the best methodolgy is. Maybe it's:
-- build the image locally, then run the tests inside the container?
+# Testing
+## Testing Dockerfile best practices
+Conftest is a neat little tool which analyses configuration files for policy violations: https://www.conftest.dev/install/ (via [hn](https://news.ycombinator.com/item?id=24776771))
 
-Seems better than getting your CI tool to run them, because you're going to have to define all the packages used inside your image etc.
+## Running unit tests before/after image built?
+Build the image, then have an entrypoint that can either run your tests, or run your main program.
 
  # See also
 [[Containers]]

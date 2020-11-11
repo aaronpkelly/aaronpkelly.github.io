@@ -1,9 +1,13 @@
 ---
-title: DigitalOcean - my impressions
+title: DigitalOcean notes
 description:
 date: 2020-06-01
+categories:
+  - webdev
 tags:
-  - linux
+  - digitalocean
+  - static website hosting
+  - dynamic website hosting
 ---
 
 # Digital Ocean
@@ -83,6 +87,13 @@ Because of the no free plan, I tried out the service for a month, and then destr
 
 Digital Ocean do occasionally offer free credits, so I'll keep an eye out for them, but until that time the service is too expensive when I can get US$2.50 VPSs elsewhere.
 
+# App platform
+Builds and hosts any Dockerfile that's pushed to Gitlab
+
+First seen here: https://news.ycombinator.com/item?id=24698334
+Link to product: https://www.digitalocean.com/products/app-platform/
+
 # See also
+[[Heroku]]
 
 [[VPS]]

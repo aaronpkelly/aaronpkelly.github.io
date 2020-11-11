@@ -41,3 +41,6 @@ https://play.rust-lang.org/ - code playground - great place to experiment
 A wild REPL appears! These are very handy for embedding into blog posts. Here's one:
 
 <iframe height="400px" width="100%" src="https://repl.it/@aaronpkelly/DramaticHighPatch?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+# resources
+https://wiki.alopex.li/RustStarterKit2020

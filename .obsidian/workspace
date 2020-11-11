@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f3c0334db5f96465",
+        "id": "f598e12a1cb7eac4",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_posts/Using QUnit to test Javascript apps.md",
+            "file": "scripts.md",
             "mode": "source"
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "quotes"
+                "query": ""
               }
             }
           },
@@ -73,7 +73,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/Using QUnit to test Javascript apps.md"
+                "file": "scripts.md"
               }
             }
           },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/Using QUnit to test Javascript apps.md"
+                "file": "scripts.md"
               }
             }
           }
@@ -106,18 +106,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.6666259765625
+    "width": 4008.3645629882812,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "_posts/using qunit to test javascript apps.md",
-    "using qunit to test javascript apps.md",
-    "Software Development.md",
-    "FOOTER.md",
-    "_posts/index.md",
-    "_posts/AWS.md",
-    "Javascript notes.md",
-    "Javascript.md",
-    "opus.md",
-    "_posts/Kubernetes.md"
+    "scripts.md",
+    "202011081621 My first zettel.md",
+    "202011081621.md",
+    "_posts/Building a budget gaming pc.md",
+    "_posts/purchasing.md",
+    "_posts/Tools I use daily.md",
+    "ffmpeg.md",
+    "_posts/Tools i am trialling or want to try.md",
+    "gaming.md",
+    "_posts/Web development notes.md"
   ]
 }

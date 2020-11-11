@@ -3,7 +3,7 @@
 ## asynchronous programming
 "dealing with events that take time"
 
-Fantastic [stack overflow answer](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call?noredirect=1&lq=1) explaining async: 
+Most of this content is taken from this fantastic [stack overflow answer](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call?noredirect=1&lq=1). Here's the intro:
 
 	JavaScript runs in the UI thread of the browser and any long-running process will lock the UI, making it unresponsive. Additionally, there is an upper limit on the execution time for JavaScript and the browser will ask the user whether to continue the execution or not.
 
@@ -14,8 +14,13 @@ Fantastic [stack overflow answer](https://stackoverflow.com/questions/14220321/h
     - Promises with async/await (ES2017+, available in older browsers if you use a transpiler or regenerator)
     - Callbacks (popular in node)
     - Promises with then() (ES2015+, available in older browsers if you use one of the many promise libraries)
+	
+### promises with async/await
 
+### callbacks
+https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
 
+### promises with then
 
 # Books
  https://eloquentjavascript.net/ - https://todo.sr.ht/~aaronkelly/programming/6

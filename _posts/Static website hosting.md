@@ -1,5 +1,5 @@
 ---
-title: Static website hosting on AWS S3
+title: Static website hosting
 description: Hosting a serverless static website on AWS S3
 date: 2020-05-31
 categories:
@@ -10,6 +10,9 @@ tags:
   - static
   - serverless
 ---
+
+# Static website hosting
+You should basically be able to do it for free, or for pennies
 
 # Static website hosting on AWS S3
 I like static webpages. I also like not haing to manage the server it runs on.
@@ -29,7 +32,7 @@ Soon you you have a bucket available to receive files, and serve them to the pub
 
 I would recommend to setup a build pipeline that puts your files into the bucket with every new commit. 
 
-# Advanced serverless static website hosting
+## Advanced serverless static website hosting
 There are already some great AWS docs on setting this up, so I don't think I
 need to repeat them here. They have a great tutorial on the entire process, but I only completed this to the end of step 1, as I didn't need to do any advanced implementation:
 [https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/](https://aws.amazon.com/getting-started/projects/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
@@ -38,7 +41,7 @@ In the future, maybe I will try:
 - finishing the tutorial, so I can implement advanced behaviours on my websites, using serverless backend technologies
 - registering a custom domain, and then linking that to my bucket - https://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
 
-# Static website projects I've created
+## Static website projects I've created on AWS
 I have a bunch of other pet projects that I occasionally work on from time to time:
 
 [NVIDIA GeForce Now Supported Games List](http://nvidia-geforce-now.s3-website-eu-west-1.amazonaws.com/)
@@ -48,3 +51,6 @@ I have a bunch of other pet projects that I occasionally work on from time to ti
 [Screentime.cc](http://screentime.cc.s3-website-eu-west-1.amazonaws.com/)
 
 [Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
+
+# Digital Ocean
+[[DigitalOcean notes]] - they offer 'App Platform' for automated static and dynamic webapp hosting

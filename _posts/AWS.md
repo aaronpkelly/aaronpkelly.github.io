@@ -33,6 +33,6 @@ Blob storage mainly:
 
 [[Contacting an external API using AWS Lambda]]
 
-[[Static website hosting on AWS S3]]
+[[Static website hosting]]
 
 [[Sending notifications to Telegram using AWS Cloudwatch]]

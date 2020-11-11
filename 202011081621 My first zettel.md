@@ -1,0 +1,1 @@
+I don't really know what Zettelkasten is but I'm trying it for the first time today, using this link https://zettelkasten.de/introduction/. 

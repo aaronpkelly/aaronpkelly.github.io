@@ -1,3 +1,7 @@
+# rpgs
+
+https://roll20.net/ - virtual tabletop
+https://www.wonderdraft.net/ - fantasy map creation tool
 
 # Text-only
 NetHack

@@ -17,7 +17,7 @@ The testing need came very quickly after the complexity of a [webapp I was writi
 
 I've previously tried testing using [[Mocha]] in [[testing-a-nodejs-app-with-mocha]], but that really felt like a gigantic hammer to hit a small nail.
 
-I wanted something smaller and simpler - [[QUnit]] seemed to fit the bill very nicely!
+I wanted something smaller and simpler - QUnit seemed to fit the bill very nicely!
 
 # getting started
 Where possible I wanted to use the [QUnit website](https://qunitjs.com/) as my primary source of usage and test examples. If I felt that I wasn't getting enough info, I'd start searching elsewhere.

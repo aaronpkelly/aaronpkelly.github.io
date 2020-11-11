@@ -33,6 +33,7 @@ The '~' character means the tool is marked as no longer being used, and is in da
 ~ moc
 
 # Audio and video
+- kodi: excellent media server, connect it to a remote seedbox and you have a movie library on the cloud
 - mplayer
 - vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]]) 
 

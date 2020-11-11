@@ -2,7 +2,7 @@
 # Using these
 [[AWS]]
 
-[[DigitalOcean - my impressions]]
+[[DigitalOcean notes]]
 
 [[Heroku]]
 

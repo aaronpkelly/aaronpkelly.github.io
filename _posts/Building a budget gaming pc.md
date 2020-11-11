@@ -3589,3 +3589,6 @@ Timeout waiting for PADO packets
 # Compatibility
 
 https://www.pc-specs.com/gpu/ATI/R-500_Series/Radeon_RX_570_4GB/3875/Compatible_Motherboards
+
+# vendors
+https://www.pcspecialist.ie/

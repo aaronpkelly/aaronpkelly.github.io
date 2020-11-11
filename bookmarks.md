@@ -62,7 +62,6 @@ http://pressplayontape.com/about/
 ## music
 https://musicmap.info/
 http://techno.org/electronic-music-guide/
-http://everynoise.com/engenremap.html
 https://familyofrock.net/
 http://techno.org/electronic-music-guide/
 http://mapofmetal.com/#/home

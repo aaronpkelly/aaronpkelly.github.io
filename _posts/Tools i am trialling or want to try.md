@@ -1,12 +1,9 @@
 # trialling
-https://newsboat.org/ - RSS reader
-
 http://diffuse.sourceforge.net/about.html
 
 ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
 zipgrep - search inside zip archives!
-
 
 # want to try
 ## secure file sending programs
@@ -21,6 +18,13 @@ https://webwormhole.io/ (magic wormhole over WebRTC!)
 ## insecure file transfer utilities
 
 https://wetransfer.com/ (not E2E)
+
+## p2p file transfer
+https://file.pizza
+
+https://instant.io
+
+https://www.sharedrop.io 
 
 # others
 

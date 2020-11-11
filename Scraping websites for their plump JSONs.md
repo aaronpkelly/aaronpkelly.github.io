@@ -45,4 +45,4 @@ curl 'https://static.nvidiagrid.net/supported-public-game-list/gfnpc.json?JSON' 
 curl https://steamdb.info/app/301640/info -L | grep ratingValue
 
 # See also
-[[Static website hosting on AWS S3]]
+[[Static website hosting]]

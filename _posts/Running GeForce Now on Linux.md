@@ -7,7 +7,8 @@ tags:
 ---
 
 # Running GeForce Now on Linux
-TLDR; they just released GeForce Now for Chromebooks (ChromeOS).
+## ChromeOS - the best option
+They just released GeForce Now for Chromebooks (ChromeOS).
 
 Just change your user agent in Chrome to `Chrome OS` and you can play on any Chrome browser!
 
@@ -17,20 +18,10 @@ You can also set it permanently by starting chrome with the `--user-agent` param
 chrome --user-agent='Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
 ```
 
-## About GeForce Now
 
-I've tried this service on Windows and it's fantastic:
-
-+ BYO games (steam store etc)
-+ free 1 hour session per day
-+ powerful gaming rig
-- need a _very_ good internet connection
-
-However it's very difficult to get this application running in Linux.
 
 # Emulation
-
-I've made some efforts on this (qemu?) but I didn't track them
+See [[running android apps on Linux]]
 
 # Hardware (Android Phone)
 
