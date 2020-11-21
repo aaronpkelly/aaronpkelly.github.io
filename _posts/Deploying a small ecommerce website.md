@@ -287,3 +287,7 @@ Response with status 200 in 224 ms.
 ```
 
 The webstore will be available at `http://localhost:8888/`
+
+# see also
+
+A guy did something similar: https://tinyprojects.dev/projects/one_item_store
