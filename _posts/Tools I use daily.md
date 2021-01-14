@@ -7,37 +7,32 @@ tags:
   - developer
 ---
 
-# Tools I use daily
+# Tools I use
 The following are everyday computing tools i use (or really want to believe I do) to maximise productivity, and get the most amount of enjoyment I can out of the system I'm using.
 
 This post will be frequently updated as I discover new tools to supplant existing ones, or revert back to a trusted tool after getting far too carried away on the hype train.
 
-A lot of these tools have been found via a combination of searching on hackernews, and using https://alternativeto.net/.
+A lot of these tools have been found via a combination of searching on https://news.ycombinator.com/, and using https://alternativeto.net/.
 
-## YET TO TRY '?'
-? means i'm yet to try it
+# legend
+~ : in danger of being removed due to non-use
 
-## FEAR THE ~
-The '~' character means the tool is marked as no longer being used, and is in danger of being removed from the list.
-
-# Audio
+# audio
 - [[cvlc]]: command-line version of vlc. the curses view is great: `cvlc -I curses [FILE/URI]`
 - mpg123: quick and dirty mp3 player
-- ? mpd(+ ncmpcpp frontend) - local music+radio
-- [[mplayer]] fantastic general audio and video player
-- ? mps-youtube: youtube cli client
-- ? ncspot - spotify cli client
 - ogg123:  quick and dirty ogg player
 ~ [spotify-tui](https://github.com/Rigellute/spotify-tui): another spotify cli
 ~ cmus
 ~ moc
 
-# Audio and video
+# audio + video
 - kodi: excellent media server, connect it to a remote seedbox and you have a movie library on the cloud
+- [[mplayer]] fantastic general audio and video player
 - mplayer
+- mpv (drew [uses](https://drewdevault.com/2020/12/12/Shell-literacy.html) it
 - vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]]) 
 
-# Browsers
+# browsers
 - firefox / firefox dev browser:
     - addons: dark reader, ublock origin, tree-style tabs
 - brave (a fork of the Chrome browser)
@@ -58,6 +53,7 @@ These tools in this list probably belong in their own sections:
 - ffmpeg: audio/video conversion tool
 - fzf
 - jq: json processor
+- lftp
 - rclone: great utility, but I mostly use AWS S3 for everything these days
 - xz - lossless compression program based on LZMA/LZMA2 compression algorithms
 ~ ack
@@ -65,9 +61,10 @@ These tools in this list probably belong in their own sections:
 ~ entr: http://eradman.com/entrproject/
 
 # Disk usage analysers
-Baobab (Linux) and Spacesniffer (Windows).
+- baobab (Linux)
+- spacesniffer (Windows).
 
-More Linux alternatives can be found here: https://www.how2shout.com/tools/best-disk-usage-analyzer-tools-for-linux-system.html
+more Linux alternatives can be found here: https://www.how2shout.com/tools/best-disk-usage-analyzer-tools-for-linux-system.html
 
 # File managers
 - ranger (linux)
@@ -109,7 +106,6 @@ MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windo
 - workspacer (also tried fancy zones and plumb, but not good for me)
 - xmlstarlet
 ~ hwinfo
-~ ? musikcube (windows)
 
 # See also
 [[Tools i am trialling or want to try]]

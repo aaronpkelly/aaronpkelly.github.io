@@ -14,7 +14,7 @@ https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=windows-dev-box-
 
 https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=shutup10&sort=byPopularity&type=all -> https://www.oo-software.com/en/shutup10
 
-# killer wifi drivers (dell xps13)
+# killer wifi drivers (dell xps 13 9360)
 windows 10 doesn't come with these drivers. download the following files onto a usb stick, and get the "driver only" installation - http://www.killernetworking.com/driver-downloads/item/killer-drivers-64bit
 
 # software
