@@ -60,6 +60,8 @@ to execute" - (SICP)
 
 "“An expert is a person who has made all the mistakes that can be made in a very narrow field." - Niels Bohr
 
+"You wanna feel better, take a pill. You wanna get right - face the truth" - William Bradford, Numbers (played by Wendell Pierce)
+
 "I saw the trailer. It's very well done. We can see that it is industrial cinema, that there is a lot of money, and that it was very expensive. But if it was very expensive, it must pay in proportion. And that is the problem: There are no surprises. The form is identical to what is done everywhere. The lighting, the acting, everything is predictable." - A completely non-technical quote by Jodorowsky talking about watching the Dune trailer
 
 # Donate

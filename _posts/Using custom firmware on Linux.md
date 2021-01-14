@@ -1,12 +1,14 @@
 ---
-title: Replacing Linux Firmware
+title: Using custom firmware on Linux
 description: How I updated my Linux distribution's network firmware 
 date: 2020-01-12
 tags:
   - firmware
+categories:
+  - linux
 ---
 
-On my Dell XPS 13, I have the following network adapter:
+On my Dell XPS 13 9360, I have the following network adapter:
 
 ```
 $ lspci | grep Network
@@ -15,7 +17,7 @@ $ lspci | grep Network
 
 I noticed though that if it was connected to a 5GHz wireless access point, it would download at a very fast rate, and then completely die.
 
-I think there is a known issue with earlier versions of the firmare for this adapter for both Windows _and_ Linux. Newer versions of the firmware has since become available, but it would take a while to make it into the `linux-firmware` package for my distro (MX Linux).
+I think there is a known issue with earlier versions of the firmware for this adapter for both Windows _and_ Linux. Newer versions of the firmware has since become available, but it would take a while to make it into the `linux-firmware` package for my distro (MX Linux).
 
 I found this article:
 https://askubuntu.com/questions/929027/qualcomm-atheros-qca6174-802-11ac-wireless-network-adapter-168c003e-rev-32

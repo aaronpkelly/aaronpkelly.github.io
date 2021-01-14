@@ -1,2 +1,0 @@
-# Clearing local dns cache
-

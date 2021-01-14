@@ -1,12 +1,10 @@
-# trialling
-http://diffuse.sourceforge.net/about.html
+# audio
+- mpd(+ ncmpcpp frontend) - local music+radio
+- mps-youtube: youtube cli client
+- ncspot - spotify cli client
+- musikcube (windows)
 
-ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
-
-zipgrep - search inside zip archives!
-
-# want to try
-## secure file sending programs
+# secure file sending programs
 https://send.firefox.com/
 
 https://www.sendsafely.com/
@@ -15,16 +13,27 @@ https://github.com/warner/magic-wormhole
 
 https://webwormhole.io/ (magic wormhole over WebRTC!)
 
-## insecure file transfer utilities
+# insecure file transfer utilities
 
 https://wetransfer.com/ (not E2E)
 
-## p2p file transfer
+# p2p file transfer
 https://file.pizza
 
 https://instant.io
 
 https://www.sharedrop.io 
+
+# utilities
+diffuse - http://diffuse.sourceforge.net/about.html
+
+bat - https://github.com/sharkdp/bat/
+
+ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
+
+rga - it's ripgrep - but also search in PDFs, E-Books, Office documents, zip, tar.gz: https://news.ycombinator.com/item?id=25277280
+
+zipgrep - search inside zip archives!
 
 # others
 

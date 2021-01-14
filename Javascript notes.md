@@ -25,6 +25,7 @@ https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
 # Books
  https://eloquentjavascript.net/ - https://todo.sr.ht/~aaronkelly/programming/6
 # Courses
+The Modern JavaScript Tutorial https://javascript.info/ (via https://news.ycombinator.com/item?id=25333350 )
 
 https://www.c0d3.com/curriculum (via HN)
 
