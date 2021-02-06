@@ -1,6 +1,11 @@
 # Vultr
+
 There's a $2.50 cloud compute instance advertised on the main page: https://www.vultr.com/products/cloud-compute/.
-I couldn't find this price when I was logged in, bizarre.
+
+(IPv6 only, New York and Atlanta DC only)
+
+
+It doesn't work with docker out of the box because hub.docker.com cannot be reached using IPv6 - very frustrating! *UPDATE*: I probably should have read their networking guide first: https://my.vultr.com/subs/netconfig/?SUBID=43776295
 
 # Loads of credit - what to do? Run containers?
 Lets use it to run containers on!

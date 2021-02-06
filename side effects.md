@@ -1,0 +1,22 @@
+\- side effect: a change the state of a system  
+  - if you call a function and the function causes the system to change state, it had a side effect  
+      - the function "open" has a side-effect, as it leaves a file descriptor open  
+      - the function "new" has a side-effect, as it leaves a block of memory allocated  
+  - side effect functions come in pairs (they're like the sith, always two there are )  
+      - alloc/free  
+      - open/close  
+      - new/delete  
+      - sieze/release (semaphores)  
+  - how good are we at managing pairs of functions? we're terrible!  
+  - in modern languages, we've developed a horrible hack to get around this called garbage collection  
+      - it's a crutch, we depend on it to free up resources  
+  - so what do we do about this problem of closing pairs of functions?  
+  - these pairs must be called in the right order - you cannot close a file before you open it  
+      - common source of bugs - calling some function before another one works or doesn't work for some reason  
+          - usually, this is because of side-effects in one function  
+  - a common way to get around side effects is to create a function with a special lambda/command argument  
+      - e.g. a function which opens a file, performs operation, closes file  
+      - the argument is a commend object/lambda passed taht in has one function, \`execute\`, that does an operation  
+      - after that's executed, the function takes care of the side effect of opening/closing the file within the function
+
+- coding a better world together (with uncle bob)

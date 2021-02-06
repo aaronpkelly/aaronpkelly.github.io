@@ -1,0 +1,1 @@
+code reviews can be measured by WTFs/min: https://i.redd.it/btd5aebzr5h01.jpg

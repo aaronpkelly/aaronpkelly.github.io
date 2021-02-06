@@ -28,6 +28,38 @@ Conftest is a neat little tool which analyses configuration files for policy vio
 ## Running unit tests before/after image built?
 Build the image, then have an entrypoint that can either run your tests, or run your main program.
 
+# connecting to a remote docker daemon
+
+I have docker running on some remote systems.
+
+It's possible to connect to it remotely.
+
+on Vultr i ran this:
+
+```
+sudo service docker stop
+root@box:~/src/box_composer# sudo dockerd -H unix:///var/run/docker.sock -H tcp://0.0.0.0:2375 &
+INFO[2021-01-16T14:42:12.287717301Z] Starting up                                  
+WARN[2021-01-16T14:42:12.289177589Z] Binding to IP address without --tlsverify is insecure and gives root access on this machine to everyone who has access to your network.  host="tcp://0.0.0.0:2375"
+WARN[2021-01-16T14:42:12.289341617Z] Binding to an IP address, even on localhost, can also give access to scripts run in a browser. Be safe out there!  host="tcp://0.0.0.0:2375"
+WARN[2021-01-16T14:42:13.293294114Z] Binding to an IP address without --tlsverify is deprecated. Startup is intentionally being slowed down to show this message  host="tcp://0.0.0.0:2375"
+WARN[2021-01-16T14:42:13.293803866Z] Please consider generating tls certificates with client validation to prevent exposing unauthenticated root access to your network  host="tcp://0.0.0.0:2375"
+WARN[2021-01-16T14:42:13.293969089Z] You can override this by explicitly specifying '--tls=false' or '--tlsverify=false'  host="tcp://0.0.0.0:2375"
+WARN[2021-01-16T14:42:13.294074583Z] Support for listening on TCP without authentication or explicit intent to run without authentication will be removed in the next release  host="tcp://0.0.0.0:2375"
+```
+
+I was then able to connect to it via IntelliJ by creating a new docker configuration, and connecting to the tcp socket `tcp://95.179.158.61:2375`. See here:
+
+![](Pasted%20image%2020210116154410.png)
+
+You should be able to run commands against the remote host using:
+
+```
+docker -H tcp://0.0.0.0:2375 ps
+```
+
+see https://docs.docker.com/engine/reference/commandline/dockerd/
+
  # See also
 [[Containers]]
 

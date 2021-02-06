@@ -3,15 +3,15 @@ Downloading and attempting to run a binary on NixOS will almost never work.
 
 https://nixos.wiki/wiki/Packaging/Binaries
 
-# intellij + java
+# intellij + java jdk
 
-you will need to install a jdk package (e.g. `jdk14`) and then add the JDK manually in intellij. It mastu point to the location in the nix store
+you will need to install a jdk package (e.g. `jdk11`, which is the [recommended](https://nixos.wiki/wiki/Java) LTS jdk) and then add the JDK manually in intellij. It must point to the location in the nix store
 
 to find it:
 
 ```
-aaron@nixos  /run/current-system/sw/bin  ls -al java
-lrwxrwxrwx 1 root root 70 Jan  1  1970 java -> /nix/store/ws8wlx376m3g8wa9h6x7qxjpixhqxzc3-openjdk-14.0.2-ga/bin/java
+readlink -f $(which java)
+/nix/store/48ddc74sdlinbg5q5655i4z8kp6xasb0-openjdk-11.0.9+11/lib/openjdk/bin/java
 ```
 
 In that location there will be a `lib/openjdk` folder somewher. So in IntelliJ, give the location `/nix/store/ws8wlx376m3g8wa9h6x7qxjpixhqxzc3-openjdk-14.0.2-ga/lib/openjdk`
@@ -126,11 +126,30 @@ From here on, I'll version my zsh-specific NixOS configuration file in my privat
 # printing
 it does work: https://nixos.wiki/wiki/Printing
 
-use jetdirect socket to connect: socket://hp7fe558.lan
+## detecting network printers
+### using bonjour
+
+using these docs: http://localhost:631/help/network.html
+
+I can find the network printer:
+
+```
+ aaron@nixos  ~  lpinfo --include-schemes dnssd -v
+network dnssd://HP%20ENVY%204520%20series%20%5B7FE558%5D%20(5)._ipp._tcp.local/?uuid=1c852a4d-b800-1f08-abcd-c8d3ff7fe558
+```
+
+### jetdirect???
+
+in the past I was also able to use the _jetdirect socket_ to connect: socket://hp7fe558.lan
+
+## interface - CUPS!
 
 cups is pretty cool! i like the html interface - http://localhost:631/
 
 # scanning
+
+note: it's still janky, the below SOMETIMES works
+
 after setting up the printer, I did try following the tips in https://nixos.wiki/wiki/Scanners but I was unsuccessful.
 
 However, after adding the printer in the CUPS - http://localhost:631/printers/HP_ENVY_4520_series_7FE558_

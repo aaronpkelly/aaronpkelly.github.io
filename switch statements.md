@@ -1,0 +1,30 @@
+\- avoid switch statements  
+  - why? they break  
+  - they do more than one thing  
+  - e.g., if you have a switch statement that deals with shapes... and their operations...  
+      - you have a switch for every operation (draw, drag, rotate)  
+      - but what happens when you add a new shape? you need to find all switch statements and update them  
+          - and what do you do with some operations like rotate and shapes like circle... ?  
+      - what's the solution? polymorphism - a base clase, and derivatives  
+      - what changes when we add a new shape? nothing else in the system changes. there are no swtich statements  
+      - what's the LARGER solution - avoiding having to UPDATE code any time you introduce something new?  
+          - the Open Closed Principle: a "System/Module should be open for extension, but closed for modification "  
+          - we can ADD, but we don't need to modify  
+  - also, putting logic in switch statements causes a system to need to be recompiled + redelpoyed with every change  
+      - act as a 'dependency magnet'  
+      - causes a system to be very difficult to independently modules because of these dependencies  
+      - why not use JAR files to partition your system?  
+          - a JAR file intended to be a "run-time linking loader"  
+              - everything gets loaded at run-time  
+              - a JAR file is there so you can independently deploy parts of your system  
+                  - which parts? which parts change for stupid reasons?  
+                      - the \_business requirements\_  
+ - the UI  
+                      - dumb marketing decisions  
+                  - changing the GUI should not break the rest of the system  
+      - we can do ALL this if we do not use switch statements  
+          - back in the 80's, statically compiled binaries would have things compile \`.c\` files into \`.o\` files, collect them, link them into a \`.exe\`  
+ - the longest runnnig effort was the link (disks were slow, not a lot of memory)  
+              - in modern days, this is where the idea to use dynamic linking (JAR files, DLL files)
+
+- uncle bob
