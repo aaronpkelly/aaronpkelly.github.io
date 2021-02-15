@@ -42,14 +42,7 @@ https://www.rtl-sdr.com/
 ## soundfonts
 https://github.com/freepats/documentation/wiki/Soundfont-resources
 
-## relaxation
-http://www.rainymood.com/
-http://endlessvideo.com/watch?v=HMnrl0tmd3k
-https://mynoise.net/
-http://asoftmurmur.com/
-https://www.tones.fm/tones/calm
-https://www.brain.fm
-https://www.focusatwill.com
+
 
 ## videogame music
 https://www.zophar.net/forums/index.php?s=7700ba986f13ae164c7f276a7ebd1ef2
