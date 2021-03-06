@@ -321,3 +321,47 @@ then you can try running the `patchelf` command:
 ```
 $ patchelf --set-interpreter /nix/store/9df65igwjmf2wbw0gbrrgair6piqjgmi-glibc-2.31/lib/ld-linux-x86-64.so.2 <YOUR_FILE>
 ```
+
+# channels
+## moving to the unstable channel
+
+there are channels for both:
+- nixos: 
+- nixpkgs: 
+
+list current channels:
+
+```
+$ sudo nix-channel --list                                           
+nixos https://nixos.org/channels/nixos-20.09
+nixpkgs https://nixos.org/channels/nixpkgs-unstable
+```
+
+remove existing `20.09` channel:
+
+```
+nix-channel --remove nixos
+```
+
+add new one:
+
+```
+$ nix-channel --add https://nixos.org/channels/nixos-unstable nixos
+$ nix-channel --list                                               
+nixos https://nixos.org/channels/nixos-unstable
+nixpkgs https://nixos.org/channels/nixpkgs-unstable
+```
+
+update your channels:
+
+```
+nixos-channel --update
+```
+
+upgrade:
+
+```
+nixos-rebuild switch --upgrade
+```
+
+see https://nixos.org/manual/nixos/stable/index.html#sec-upgrading
