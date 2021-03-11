@@ -1,3 +1,9 @@
+# origin
+
+- Java started life as a language called Oak, invented by James Gosling, because of his hate for C++. He was working at Sun Microsystems, and they got a contract to write software for a set-top box. He invented a language for the purpose of the contract, then threw it in the bin
+  - an accident of history resurrected his language, Sun wanted a language to appeal and sell hardware to programmers
+  - C# is Java (pretty much!)
+
 # uis
 ## swing
 It's used by IntelliJ to build their IDE - probably the only success story of swing :P
