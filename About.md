@@ -48,6 +48,18 @@ If I've done a good enough job with one of my posts, you may feel like it's wort
 
 [https://blog.fredericrous.com/](https://blog.fredericrous.com/)
 
+# More quotes I like
+
+"Good programmers write good code; great programmers "borrow" good code; best programmers remove good code." – Mike Gancarz, "The UNIX Philosophy"
+
+"The computer industry is the only industry that is more fashion-driven than women's fashion." - Larry Ellison
+
+"An expert is a person who has made all the mistakes that can be made in a very narrow field." - Niels Bohr
+
+"You wanna feel better, take a pill. You wanna get right - face the truth" - William Bradford, Numbers (played by Wendell Pierce)
+
+"I saw the trailer. It's very well done. We can see that it is industrial cinema, that there is a lot of money, and that it was very expensive. But if it was very expensive, it must pay in proportion. And that is the problem: There are no surprises. The form is identical to what is done everywhere. The lighting, the acting, everything is predictable." - A completely non-technical quote by Jodorowsky talking about watching the Dune trailer
+
 # Other ways to donate
 
 fosspay, [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url) / patreon / subscribestar / github sponsors / donorbox.orgstripe / dwolla / flattr / wepay / bitcoin (coming soon)
