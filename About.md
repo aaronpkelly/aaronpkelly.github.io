@@ -1,26 +1,6 @@
-Howdy, I'm Aaron - and I'm really good at breaking things.
-
-Occasionally... I'll learn something in the process!
-
-![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
-
-# What's here? Posts. Lots of them
-
-I like to write about my tech experiences *a lot*, so posts are the the main focus of my website. If you want the RSS feed, it's [here](https://aaronpkelly.github.io/feed.xml).
-
-# Post index
-
-You can also view the below articles by <a href="https://aaronpkelly.github.io/Categories.html">category</a> or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>.
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
 # About
+
+What's this all about? Posts. Lots of them. Maybe _too_ much. I like to write about my tech experiences *a lot*, so posts will be the main focus of my website.
 
 Why choose a blog? I just think it suits how my brain works. Writing about my interests in blog post style is a good way for me to:
 
@@ -68,27 +48,6 @@ If I've done a good enough job with one of my posts, you may feel like it's wort
 
 [https://blog.fredericrous.com/](https://blog.fredericrous.com/)
 
-# Quotes
+# Other ways to donate
 
-"Programs must be written for people to read and only incidentally for machines
-to execute" - (SICP)
-
-"The computer industry is the only industry that is more fashion-driven than women's fashion." - Larry Ellison
-
-# Donate
-
-If you've found anything here useful, please consider my caffeine levels:
-
-[Buy Me a Coffee](https://www.buymeacoffee.com/aaronkelly)
-
-other ways: [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url) / patreon / subscribestar / github sponsors / donorbox.orgstripe / dwolla / flattr / wepay / bitcoin (coming soon)
-
-# Contact
-
-email: aaronkelly@fastmail.com
-
-twitter: https://twitter.com/aaronpaulkelly
-
-bandcamp: aaronkelly.bandcamp.com
-
-steam: https://steamcommunity.com/id/Vorophobe/
+fosspay, [Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=DTJST2MAMPYQ8&currency_code=EUR&source=url) / patreon / subscribestar / github sponsors / donorbox.orgstripe / dwolla / flattr / wepay / bitcoin (coming soon)
