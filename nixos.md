@@ -3,6 +3,12 @@ Downloading and attempting to run a binary on NixOS will almost never work.
 
 https://nixos.wiki/wiki/Packaging/Binaries
 
+# cleaning and garbage collecting
+
+## full /boot partition
+
+see here: https://discourse.nixos.org/t/what-to-do-with-a-full-boot-partition/2049/11
+
 # intellij + java jdk
 
 you will need to install a jdk package (e.g. `jdk11`, which is the [recommended](https://nixos.wiki/wiki/Java) LTS jdk) and then add the JDK manually in intellij. It must point to the location in the nix store
@@ -202,15 +208,132 @@ Done
 # bluetooth
 follow https://nixos.wiki/wiki/Bluetooth for enabling the hardware
 
-## connecting to a bluetooth speaker
-NOTE: i've spent HOURS on this shit below and I can't get it to work
+## connecting to a bluetooth speaker/headphones using ALSA only
+
+so this is concerning, via https://wiki.archlinux.org/index.php/Bluetooth#ALSA :
+	
+	**Note:** Bluez5 has dropped direct integration for [ALSA](https://wiki.archlinux.org/index.php/ALSA "ALSA") and supports [PulseAudio](https://wiki.archlinux.org/index.php/PulseAudio "PulseAudio") only. Follow the instructions below if you cannot or do not want to use PulseAudio.
+	
+now - I do install the `bluez-alsa` package - this SHOULD be the solution, here's the [readme](https://github.com/Arkq/bluez-alsa):
+
+	This project is a rebirth of a direct integration between [BlueZ](http://www.bluez.org/) and [ALSA](https://www.alsa-project.org/). Since BlueZ >= 5, the build-in integration has been removed in favor of 3rd party audio applications. From now on, BlueZ acts as a middleware between an audio application, which implements Bluetooth audio profile, and a Bluetooth audio device.
+	
+	The current status quo is, that in order to stream audio from/to a Bluetooth device, one has to install [PulseAudio](https://www.freedesktop.org/wiki/Software/PulseAudio), or use BlueZ < 5. However, BlueZ version 4 is considered to be deprecated, so the only reasonable way to achieve this goal is to install PulseAudio.
+	
+	With this application (later named as BlueALSA), one can achieve the same goal as with PulseAudio, but with less dependencies and more bare-metal-like. BlueALSA registers all known Bluetooth audio profiles in BlueZ, so in theory every Bluetooth device (with audio capabilities) can be connected. In order to access the audio stream, one has to connect to the ALSA PCM device called `bluealsa`. Please note that this PCM device is based on the [ALSA software PCM I/O plugin](https://www.alsa-project.org/alsa-doc/alsa-lib/pcm_external_plugins.html) - it will not be available in the [ALSA Kernel proc interface](https://www.kernel.org/doc/html/latest/sound/designs/procfile.html).
+
+that same readme gives some great tips about the `bluealsa` program:
+
+	The main component of BlueALSA is a program called `bluealsa`. By default, this program shall be run as a root during system startup. It will register `org.bluealsa` service in the D-Bus system bus, which can be used for accessing configured audio devices. In general, BlueALSA acts as a proxy between BlueZ and ALSA.
+	
+that same readme links to the `bluealsa` [man page](https://github.com/Arkq/bluez-alsa/blob/master/doc/bluealsa.8.rst#example) which gives you examples how to start it, e.g.:
+
+```
+bluealsa -p a2dp-sink -p hsp-hs
+```
+
+once that program has started, `bluetoothctl` can be used to connect the device:
+
+```
+[bluetooth]# connect F4:4E:FD:EC:28:63
+Attempting to connect to F4:4E:FD:EC:28:63
+[CHG] Device F4:4E:FD:EC:28:63 Connected: yes
+Connection successful
+[CHG] Device F4:4E:FD:EC:28:63 ServicesResolved: yes
+```
+
+you should hear a connection sound in your device, and you should be able to start the `blueman-applet` and see the device is connected
+
+`bluealsa-aplay` is a convenient wrapper:
+
+```
+$ bluealsa-aplay --help
+Usage:
+  bluealsa-aplay [OPTION]... [BT-ADDR]...
+
+Options:
+  -h, --help            print this help and exit
+  -V, --version         print version and exit
+  -v, --verbose         make output more verbose
+  -l, --list-devices    list available BT audio devices
+  -L, --list-pcms       list available BT audio PCMs
+  -B, --dbus=NAME       BlueALSA service name suffix
+  -D, --pcm=NAME        playback PCM device to use
+  --pcm-buffer-time=INT playback PCM buffer time
+  --pcm-period-time=INT playback PCM period time
+  --profile-a2dp        use A2DP profile (default)
+  --profile-sco         use SCO profile
+  --single-audio        single audio mode
+
+Note:
+If one wants to receive audio from more than one Bluetooth device, it is
+possible to specify more than one MAC address. By specifying any/empty MAC
+address (00:00:00:00:00:00), one will allow connections from any Bluetooth
+device. Without given explicit MAC address any/empty MAC is assumed.
+```
+
+See the next section for example commonds.
+
+Also, the bluealsa [man page](https://github.com/Arkq/bluez-alsa/blob/master/doc/bluealsa.8.rst) can be read more to understand the options.
+
+NOTE: beware of any examples with the `-B` option. It registers the DBUS name under a different name instead of `org.bluealsa`, which means that `bluealsa-aplay` won't be able to find it by default
+
+## setting a playback device
+
+Setting your profile is important. Via [man](https://github.com/Arkq/bluez-alsa/blob/master/doc/bluealsa.8.rst):
+
+```
+The list of profile _NAME_\-s accepted by the `--profile=NAME` option:
+
+-   **a2dp-source** - Advanced Audio Source (streaming audio to connected device)
+-   **a2dp-sink** - Advanced Audio Sink (receiving audio from connected device)
+-   **hfp-ofono** - Hands-Free handled by oFono
+-   **hfp-hf** - Hands-Free
+-   **hfp-ag** - Hands-Free Audio Gateway
+-   **hsp-hs** - Headset
+-   **hsp-ag** Headset Audio Gateway
+```
+
+so run:
+
+```
+sudo bluealsa -p a2dp-source
+```
+
+Now you can check what BT audio PCMs (`-L`) and BT audio devices (`-l`)  are available:
+
+```
+$ bluealsa-aplay -L
+bluealsa:SRV=org.bluealsa,DEV=F4:4E:FD:EC:28:63,PROFILE=a2dp
+    Jam Live Loud, trusted audio-card, playback
+    A2DP (SBC): S16_LE 2 channels 44100 Hz
+$ bluealsa-aplay -l
+**** List of PLAYBACK Bluetooth Devices ****
+hci0: F4:4E:FD:EC:28:63 [Jam Live Loud], trusted audio-card
+  A2DP (SBC): S16_LE 2 channels 44100 Hz
+**** List of CAPTURE Bluetooth Devices ****
+```
+
+So it should be possible to play stuff:
+
+```
+aplay -D org.bluealsa:DEV=F4:4E:FD:EC:28:63,PROFILE=a2dp ~/Music/test.wav
+```
+
+Currently I can't tho :)
+
+### NOTE: this section is kind of outdated - but good for harvesting notes
+
+current progress
+
+i've spent HOURS on this shit below and I can't get it to work
 
 THe commands I believe are correct, but I think the fact that the service:
 - does not start at startup
 
 is a bad sign
 
-### start bluealsa service
+#### start bluealsa service
 
 According to the docs, this [SHOULD](https://github.com/Arkq/bluez-alsa#configuration--usage) be started as a system service after the installation of the `bluez-alsa` derivation - but it's not:
 
@@ -228,7 +351,9 @@ So, suggestions are to start bluealsa manually ([man page](https://github.com/Ar
 sudo bluealsa --dbus=org.bluealsa --device=hci0 --profile=a2dp-source &
 ```
 
-### connect to the device
+
+
+#### connect to the device
 follow the same guide to use the cli to connect:
 
 ```
@@ -270,6 +395,19 @@ Failed to connect: org.bluez.Error.Failed
         65786365-6c70-6f69-6e74-2e636f6d0002
         Vendor specific
 [CHG] Device B8:69:C2:61:6B:91 ServicesResolved: yes
+```
+
+even though the above seems to fail - you can see that by running those commands manually, the named device now shows up in the GUI application`blueman-assistant`, but it still has a problem connecting
+
+I have noticed that if I keep `bluetoothctl` running, and turn off my bluetooth device, and turn it on again, it does connect... but disconnects a few moments later:
+
+```
+[nix-shell:~]$ sudo bluetoothctl 
+[sudo] password for aaron: 
+Agent registered
+[CHG] Device F4:4E:FD:EC:28:63 Connected: yes
+[CHG] Device F4:4E:FD:EC:28:63 Connected: no
+[bluetooth]#
 ```
 
 ### playing music

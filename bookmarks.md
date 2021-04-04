@@ -1,4 +1,4 @@
-I don't really keep bookmarks anymore. If I find a website useful, I will either (in order of preference):
+- [ ] I don't really keep bookmarks anymore. If I find a website useful, I will either (in order of preference):
 - add my discovery to a blog post
 - follow the site/person using RSS + newsbeuter
 - find and favourite the item on news.ycombinator.com
@@ -52,18 +52,7 @@ https://hvsc.c64.org
 http://pressplayontape.com/about/
 
 # audio
-## music
-https://musicmap.info/
-http://techno.org/electronic-music-guide/
-https://familyofrock.net/
-http://techno.org/electronic-music-guide/
-http://mapofmetal.com/#/home
 
-
-https://www.music-map.com/
-https://noise.supply/
-http://techno.org/electronic-music-guide/
-http://www.google.com/search?hl=en&q=-inurl%3A(htm%7Chtml%7Cphp)%20intitle%3A%22index%20of%22%20%2B%22last%20modified%22%20%2B%22parent%20directory%22%20%2Bdescription%20%2Bsize%20%2B(wma%7Cmp3)%20%22Madina%22&btnG=Search
 
 # gaming
 ## browser
