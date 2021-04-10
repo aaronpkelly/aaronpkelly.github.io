@@ -13,7 +13,9 @@ Here's their description of themselves:
 
 > We’re Fly.io. We take container images and run them on our hardware around the world. It’s pretty neat, and you [should check it out](https://fly.io/docs/speedrun/); with an already-working Docker container, you can be up and running on Fly in well under 10 minutes.
 
-Imagine deploying a _Dockerfile_ in your terminal (or a public docker image) to the cloud and have it running in seconds. Too frickin' cool.
+Imagine deploying a _Dockerfile_ from your terminal to the cloud and have it running in seconds. Too frickin' cool!
+
+Even if you don't have an app to deploy yet, you can deploy a pre-built docker image from a docker registry e.g. [hub.docker.com](https://hub.docker.com/].
 
 # trying it out
 
