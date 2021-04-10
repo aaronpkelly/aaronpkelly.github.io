@@ -1,6 +1,6 @@
 ---
-title: fly.io
-description:
+title: fly.io - deploying a Dockerfile to the cloud in seconds
+description: fly.io takes container images and runs them on their hardware around the world
 date: 2021-04-10
 tags:
   - containers
