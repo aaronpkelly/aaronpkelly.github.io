@@ -7,9 +7,13 @@ tags:
   - deployment
 ---
 
-I discovered a fantastic service on news.ycombinator.com today - https://fly.io/.
+While reading [a post](https://news.ycombinator.com/item?id=26746280) on hacker news I discovered a fantastic new service  - [fly.io](https://fly.io/)!
 
-It makes deploying an app from a _Dockerfile_ (or a public docker image) extremely easy!
+Here's their description of themselves:
+
+> We’re Fly.io. We take container images and run them on our hardware around the world. It’s pretty neat, and you [should check it out](https://fly.io/docs/speedrun/); with an already-working Docker container, you can be up and running on Fly in well under 10 minutes.
+
+Imagine deploying a _Dockerfile_ (or a public docker image) instantly to the cloud, and have it running in seconds. Too frickin' cool
 
 # trying it out
 
@@ -150,3 +154,7 @@ I was able to reach my app immediately:
 	endpoints:
 	/cloud      cloud functions
 	/dotfiles:  public dotfiles function
+
+My API doesn't have a nice web frontend, but you could try deploying your own webapp or one of the popular images from [https://hub.docker.com/](https://hub.docker.com/). 
+
+Once its deployed, all you need to do then is run `flyctl open`, and the app will open in your browser.
