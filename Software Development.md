@@ -44,3 +44,4 @@ That semi-predicate problem is interesting. If we choose to return integer value
 # See also
 [[Development]]
 [[workflows]]
+[[Software Craftmanship Movement]]

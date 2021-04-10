@@ -1,0 +1,3 @@
+> The 'London Software Craftsmanship Community' (LSCC) was founded in 2010 and is today the largest and most active Software Craftsmanship community in the world, with more than 5000 craftspeople. In 2014, [Sandro Mancuso](https://en.wikipedia.org/w/index.php?title=Sandro_Mancuso&action=edit&redlink=1 "Sandro Mancuso (page does not exist)"), one of its co-founders, published a book _The Software Craftsman: Professionalism, Pragmatism, Pride_. It brought the software craftsmanship movement additional visibility, reinforcing the efforts to achieve higher technical excellence and customer satisfaction.
+
+https://en.wikipedia.org/wiki/Software_craftsmanship
