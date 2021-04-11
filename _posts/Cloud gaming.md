@@ -56,8 +56,11 @@ I've tried this service on Windows and it's fantastic:
 + don't need to own a PS, just need a DualShock controller and a PS account
 - need a DualShock controller connected, Parsec needs to be able to detect it
 - client is PC only
+- starting trial is confusing
 
 https://www.playstation.com/en-us/explore/playstation-now/ps-now-on-pc/
+
+If starting the 7 day trail, it needs to be activated via the PS Store, you also need to be in the correct region (e.g. IE). Restart the client and you should see the 'Getting Started' text under a game change to 'Start'
 
 # Shadow
 https://shadow.tech/int/
