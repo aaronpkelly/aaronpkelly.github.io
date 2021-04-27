@@ -20,3 +20,24 @@ Using the `.import` command with a SQLite import table:
 then you can copy the column contents of this import table to the target column:
 
 	instructions go here!
+	
+# backups and restore
+
+	If you ever need to, you can archive an entire SQLite database by converting it into [ASCII](https://en.wikipedia.org/wiki/ASCII) text and then pipe that into something like [Gzip](https://en.wikipedia.org/wiki/Gzip).
+
+		$ sqlite3 my\_database .dump | gzip -c > my\_database.dump.gz
+
+	That will contain everything you need to reconstruct the database at a later time. To reconstruct the database, you just type:
+
+		$ zcat my\_database.dump.gz | sqlite3 my\_database
+
+via https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html
+
+# see also
+
+A great article on SQLIte
+https://news.ycombinator.com/item?id=26816954 -> https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html
+
+https://litestream.io/
+
+https://git.sr.ht/~aaronkelly/litestream

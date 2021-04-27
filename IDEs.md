@@ -15,12 +15,6 @@ applications for the desktop             |         its default IDE starting from
                                          +---------+Gitpod|
                                                    +------+
 
-# https://repl.it/
-
-When I need a quick and dirty environment to crank out some code, work on a small algorithm or program, or try out a new programming language, I use this. It's fantastic. 
-
-I also use this service to embed code snippets on my blog, and it works really well.
-
 # Cloud9 (AWS)
 To be totally honest, I don't use the full functionality of this online IDE. I mainly spin up an instance when I need a shell in the cloud, and the fact that it has Docker pre-installed is very useful also - as I use that a lot.
 
@@ -52,3 +46,12 @@ https://tio.run/ - try it online
 
 Haven't made great use of this yet, but it's a super lightweight notebook
 interface - https://en.wikipedia.org/wiki/Notebook_interface
+
+# see also
+Are these still ok?
+https://codenvy.com/
+https://codio.com/
+http://codemirror.net/
+https://shiftedit.net
+https://pypyjs.org/editor.html
+https://docs.gitlab.com/ee/user/project/web_ide/
