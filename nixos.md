@@ -5,7 +5,12 @@ https://nixos.wiki/wiki/Packaging/Binaries
 
 # running packages
 
-## the comma
+## comma
+
+https://github.com/Shopify/comma
+
+install with `nix-env -i -f .`
+
 
 using a comma before a command will run a nix package without installing it:
 
