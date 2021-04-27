@@ -43,9 +43,43 @@ https://frontendmasters.com/books/front-end-handbook/2019
 
 # Resources
 
-## Code playgrounds
+## Source code playgrounds
+
+Great starting point for comparison: https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds
+
+### html/css/js
+
 https://jsfiddle.net/ - great!
 http://codepen.io/ - want to try!
+
+### embeddable + runnable code
+
+https://replit.com/ - pretty fantastic:
+	- embeddable + runnable code
+	- currently using this for blog code snippets
+	- can also check-out a github repo and run code, although limited to a single "run" command. would be great if you could select-and-run github file
+
+
+https://www.onlinegdb.com/ - nice looking, works!
+
+https://paiza.io - a bit fugly but works!
+
+### embeddable, but non-runnable
+
+https://ideone.com - nice
+https://tio.run - very swank
+
+### not embeddable, not runnable
+
+https://rextester.com - nice
+
+### untested
+
+some of these share buttons aren't working (crypto-miners?)
+
+https://glot.io - nice, but the share snippet buttons broken
+https://code.labstack.com - very fancy, but again, share button disabled/broken
+
 
 ## Wireframes / mockups
 
@@ -58,17 +92,7 @@ https://curl.trillworks.com/ - Convert curl syntax to Python, Ansible URI, MATLA
 https://labs.play-with-docker.com/ - an excellent free environment for running docker images and other shell commands. 4 hour lifetime
 
 ## IDEs
-[[Gitpod.io]] - incredible
-
-https://aws.amazon.com/cloud9/ - works well
-
-Are these still ok?
-https://codenvy.com/
-https://codio.com/
-http://codemirror.net/
-https://shiftedit.net
-https://pypyjs.org/editor.html
-https://docs.gitlab.com/ee/user/project/web_ide/
+See [IDEs](IDEs.md)
 
 ## Manifestos
 The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/item?id=3267187)

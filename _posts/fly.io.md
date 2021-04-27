@@ -32,7 +32,13 @@ I have my own [api](https://git.sr.ht/~aaronkelly/api), and it has a Dockerfile 
 	ENTRYPOINT \[ "flask" \]
 	CMD \[ "run", "--host", "0.0.0.0" \]
 
-After [installing flyctl](https://fly.io/docs/getting-started/installing-flyctl/), I ran this command inside my git repo:
+After [installing flyctl](https://fly.io/docs/getting-started/installing-flyctl/), I authenticated it (it waits for you to then sign-in via your web browser):
+
+	$ flyctl auth login
+	Waiting for session...Done
+	Successfully logged in as **aaronkelly@fastmail.com**
+
+I then ran this command inside my git repo:
 
 	$ flyctl init
 	Update available 0.0.163 -> 0.0.207

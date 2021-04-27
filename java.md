@@ -4,6 +4,10 @@
   - an accident of history resurrected his language, Sun wanted a language to appeal and sell hardware to programmers
   - C# is Java (pretty much!)
 
+# history of features
+
+great article (probably from hn): https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-16/
+
 # uis
 ## swing
 It's used by IntelliJ to build their IDE - probably the only success story of swing :P
