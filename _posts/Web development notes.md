@@ -7,6 +7,7 @@ categories:
 ---
 
 # Web development notes
+
 ## Keep in mind
 - frameworks come and go - but vanilla javascript is here to stay!
 
@@ -49,6 +50,10 @@ Great starting point for comparison: https://en.wikipedia.org/wiki/Comparison_of
 
 i did a comparison fiddle here: https://jsfiddle.net/aaronkelly/Lemb5gfs/1/
 
+from a HN post:
+
+	If you want to just write code in a box and have it run, maybe you should use http://sketchpad.cc/ or https://jsfiddle.net/. Or code.labstack.com, intervue.io, codepad, codiva.io, paiza.io, compilr, ideone, onlinegdb, repl.it, rextester, mycompiler, jsbin, sequential, or the other couple dozen alternatives in https://en.wikipedia.org/wiki/Comparison_of_online_source_co.... Or ObservableHQ, which is fucking amazing. Or try.jupyter.org. Or just your browser's JavaScript console. Or ShaderToy, where you can program in GLSL. Or Philip Guo's http://PythonTutor.com/ which can step you through the execution of simple code step by step while visualizing the stack.
+
 ### html/css/js
 
 https://jsfiddle.net/ - great!
@@ -57,10 +62,10 @@ http://codepen.io/ - want to try!
 ### embeddable + runnable code
 
 https://replit.com/ - pretty fantastic:
+
 	- embeddable + runnable code
 	- currently using this for blog code snippets
 	- can also check-out a github repo and run code, although limited to a single "run" command. would be great if you could select-and-run github file
-
 
 https://www.onlinegdb.com/ - nice looking, works!
 

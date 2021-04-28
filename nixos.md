@@ -3,6 +3,23 @@ Downloading and attempting to run a binary on NixOS will almost never work.
 
 https://nixos.wiki/wiki/Packaging/Binaries
 
+# running packages
+
+## comma
+
+https://github.com/Shopify/comma
+
+install with `nix-env -i -f .`
+
+
+using a comma before a command will run a nix package without installing it:
+
+```
+, ruby --version
+```
+
+this is an even easier solution that running `nix-shell -p <package>`
+
 # cleaning and garbage collecting
 
 ## full /boot partition
@@ -55,6 +72,7 @@ imports = [
 
 
 # terminal
+
 ## theme (.Xresources)
 with i3, xterm is ok, but the theme is a bit garish
 
@@ -503,3 +521,7 @@ nixos-rebuild switch --upgrade
 ```
 
 see https://nixos.org/manual/nixos/stable/index.html#sec-upgrading
+
+# see also
+
+a gred nixos playlist on youtube (thank you Fred): https://www.youtube.com/playlist?list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs
