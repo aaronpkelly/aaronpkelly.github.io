@@ -47,6 +47,8 @@ https://frontendmasters.com/books/front-end-handbook/2019
 
 Great starting point for comparison: https://en.wikipedia.org/wiki/Comparison_of_online_source_code_playgrounds
 
+i did a comparison fiddle here: https://jsfiddle.net/aaronkelly/Lemb5gfs/1/
+
 ### html/css/js
 
 https://jsfiddle.net/ - great!
