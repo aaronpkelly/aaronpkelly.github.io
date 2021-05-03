@@ -1,6 +1,6 @@
 ---
 title: Static website hosting
-description: Hosting a serverless static website on AWS S3
+description: Hosting a serverless static website on various services
 date: 2020-05-31
 categories:
   - development
@@ -14,7 +14,7 @@ tags:
 # Static website hosting
 You should basically be able to do it for free, or for pennies
 
-# Static website hosting on AWS S3
+# AWS S3
 I like static webpages. I also like not haing to manage the server it runs on.
 
 Being able to serve content, or host a useful tool, and letting someone else
@@ -54,3 +54,10 @@ I have a bunch of other pet projects that I occasionally work on from time to ti
 
 # Digital Ocean
 [[DigitalOcean notes]] - they offer 'App Platform' for automated static and dynamic webapp hosting
+
+# Github pages
+
+# Gitlab pages
+
+# Netlify
+

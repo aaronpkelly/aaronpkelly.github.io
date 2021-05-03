@@ -339,3 +339,11 @@ BUILD SUCCESSFUL in 7s
 ./gradlew
 ./.gitignore
 ```
+
+# junit
+
+You can either run tests using Gradle, or by using Intellij
+
+Configure this in the gradle settings
+
+If you have problems running JUnit via Gradle, make sure the JDK is set correctly in your Gradle settings

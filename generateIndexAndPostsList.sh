@@ -2,7 +2,7 @@
 
 # This script helps me do a bunch of stuff:
 # 	- generating my own post list, because some day I might not be using Jekyll:
-# 		- it scans which posts are ready for publishing (currently, it decects if they have YAML front-matter)
+# 		- it scans which posts are ready for publishing (currently, it detects if they have YAML front-matter)
 # 	- collate the contents of smaller files HEADER and FOOTER
 # 	- convert my mediawkik-style markdown to Github-style markdown ()
 

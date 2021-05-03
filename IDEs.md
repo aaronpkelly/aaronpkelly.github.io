@@ -38,15 +38,6 @@ I mainly use the service for quick programming projects, usually ones that integ
 GitLab Web IDE
 Microsoft Visual Studio Online
 
-https://tio.run/ - try it online
-
-# Notebook interfaces
-
-## https://observablehq.com
-
-Haven't made great use of this yet, but it's a super lightweight notebook
-interface - https://en.wikipedia.org/wiki/Notebook_interface
-
 # see also
 Are these still ok?
 https://codenvy.com/

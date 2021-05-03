@@ -57,19 +57,26 @@ from a HN post:
 ### html/css/js
 
 https://jsfiddle.net/ - great!
-http://codepen.io/ - want to try!
+http://codepen.io/ - also great!
+https://codepad.co - looks nice but crashing when I click new snippet hehe
+https://jsbin.com - slightly fugly
 
 ### embeddable + runnable code
 
 https://replit.com/ - pretty fantastic:
 
-	- embeddable + runnable code
-	- currently using this for blog code snippets
-	- can also check-out a github repo and run code, although limited to a single "run" command. would be great if you could select-and-run github file
+	+ embeddable + runnable code
+	+ currently using this for blog code snippets
+	~ can also check-out a github repo and run code, although limited to a single "run" command. would be great if you could select-and-run github file
+	- share button is missing (May 01 2021), need to copy previous embed codes and paste my repl link inside
 
 https://www.onlinegdb.com/ - nice looking, works!
 
 https://paiza.io - a bit fugly but works!
+
+https://codesandbox.io - javascript frameworks only, but very nice
+
+https://stackblitz.com - javascript frameworks only, but very nice
 
 ### embeddable, but non-runnable
 
@@ -79,6 +86,7 @@ https://tio.run - very swank
 ### not embeddable, not runnable
 
 https://rextester.com - nice
+http://sketchpad.cc - a good website for running processing (P5.js) snippets in the browser
 
 ### untested
 
@@ -86,7 +94,22 @@ some of these share buttons aren't working (crypto-miners?)
 
 https://glot.io - nice, but the share snippet buttons broken
 https://code.labstack.com - very fancy, but again, share button disabled/broken
+https://www.codiva.io - fugly way to create java classes 
 
+### defunct
+https://www.compilr.com/ - security warning
+https://www.mycompiler.io/ - didn't load
+
+## notebooks
+
+https://en.wikipedia.org/wiki/Notebook_interface
+
+https://observablehq.com - they use their own notebook language that's similar to javascript - haven't made great use of this yet 
+
+
+## WebGL
+
+https://www.shadertoy.com/ - tool for creating and sharing shaders through WebGL, used for both learning and teaching 3D computer graphics in a web browser.  Program in OpenGL Shading Language (GLSL)
 
 ## Wireframes / mockups
 

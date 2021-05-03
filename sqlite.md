@@ -38,6 +38,8 @@ via https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-
 A great article on SQLIte
 https://news.ycombinator.com/item?id=26816954 -> https://unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html
 
+https://news.ycombinator.com/item?id=27016630 Hosting SQLite databases on GitHub Pages or any static file hoster (phiresky.github.io)
+
 https://litestream.io/
 
 https://git.sr.ht/~aaronkelly/litestream
