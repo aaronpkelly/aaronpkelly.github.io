@@ -56,9 +56,9 @@ The integer value `1` looks like this in bits: `00000000000000000000000001`.
 
 The `1 << val`  operation will have the effect of moving that `1` value left, and filling in the space it left with a zero. Here are some examples of how it looks:
 
-	a: 00000000000000000000000001
-	b: 00000000000000000000000010
-	z: 10000000000000000000000000
+	a: 00000000000000000000000000000001
+	b: 00000000000000000000000000000010
+	z: 00000010000000000000000000000000
 
 So, this is a pretty nifty way to represent a letter as a `1` in a sea of `0`s. And because you are storing these bits inside an `int`, which is `32` bits, you have more that enough slots to store every letter of the alphabet as a bit.
 
@@ -68,25 +68,29 @@ But what happens if the letter is uppercase? Well lets see what values they get 
 	B = -31
 	Z = -7
 	
-Negative values! What happens when you try to left-shifting by negative values? It causes the `1`s to appear from the other side of the integer! And because the difference between `a` and `A` in the ASCII table is `32`... this is the exact width of an `int`, and the numbers end up wrapping perfectly, and appearing in the same spot:
+Negative values! What happens when you try to left-shifting by negative values? It causes the `1`s to move from left-to-right! And because the difference between `a` and `A` in the ASCII table is `32`... this is the exact width of an `int`, uppercase and lowercase letters end up in the exact same spot:
 
-	A: 00000000000000000000000001
-	B: 00000000000000000000000010
-	Z: 10000000000000000000000000
+	A: 00000000000000000000000000000001
+	B: 00000000000000000000000000000010
+	Z: 00000010000000000000000000000000
 		
 So now we can finally look at the wider statement:
 
-	(checker & (1 << val)) > 0)
+	if ((checker & (1 << val)) > 0) {
+    	return false;
+	}
 
+This uses a _bitwise AND_ to compare the existing bits in the  `checker` variable with the incoming new bit position that the value in `val` wants to take. If the slot is already filled, it will return false.
 
+Otherwise, the position has not yet been filled, so the new bit position will be computed, and the checker will record the new bit position inside the `checker` using a _bitwise OR_ operation:
+
+	checker |= (1 << val);
+	
+If all the chars in the string are converted into bits, and all their bits can fit into their own slots inside a 32-bit integer, then the string is unique, and the function returns true. 
+	
 # supplementary info
 
 # boolean algebra in java
-
-	
-Then there's this:
-
-	|=
 
 ## bitshifting
 	
@@ -146,5 +150,3 @@ Here's the ASCII table (via `man ascii`) for the most common printed english cha
        D: - = M ] m }
        E: . > N ^ n ~
        F: / ? O _ o DEL
-	   
-When this 
