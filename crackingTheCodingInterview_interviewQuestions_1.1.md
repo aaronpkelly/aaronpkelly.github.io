@@ -1,3 +1,11 @@
+---
+title: Cracking the Coding Interview - 1.1: Is Unique
+description:
+date: 2021-05-11
+tags:
+  - programming
+---
+
 My first attempt focussed on *not using a data structure* at all, because when I read additional data structures, I was curious if I needed any.
 
 So I decided on just reading a char at a time, and building up a String as I did it. If the char I was trying to add was in the string I was building, I'd return `false`.
