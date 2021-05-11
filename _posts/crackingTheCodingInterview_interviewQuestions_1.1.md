@@ -1,6 +1,6 @@
 ---
 title: Cracking the Coding Interview - 1.1: Is Unique
-description:
+description: Cracking the Coding Interview - 1.1: Is Unique
 date: 2021-05-11
 tags:
   - programming
