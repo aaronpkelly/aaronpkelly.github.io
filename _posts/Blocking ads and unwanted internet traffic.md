@@ -23,9 +23,37 @@ Moving further up the chain... there is a cloud solution that I heard good thing
 # Pi-hole
 I mant the Pi-hole to be my first line of defence. It has a powerful admin console, many community blocklists, and the ability to work on any device that connects to my home WIFI router.
 
-However, I have a problem in that I'm not able to set a custom DNS server on my rounter. Thankfully, there is a way around this...
+## Blocklists
+
+Steven Black, this guy is sound: https://github.com/StevenBlack/hosts
+Developer Dan, top bloke: https://www.github.developerdan.com/hosts/
+
+And here's all the blocklists I use, they are just taken from the above two sites:
+
+https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
+https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
+https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
+https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
+
+This is agressive, I may/may not be using it:
+https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
+
+## whilelist
+
+`(\.|^)whatsapp\.com$`
+
+`(\.|^)instagram\.com$`
+
+`(\.|^)cdninstagram\.com$`
+
+## blacklist
+`(\.|^)enthusiast\.gg$`
 
 ## Router has no custom DNS server option? Using the PI as a DHCP server
+
+I have a problem in that I'm not able to set a custom DNS server on my rounter. Thankfully, there is a way around this...
+
 Your router needs to be able to let set a custom DNS server, which is needed in order to point all DNS requests to the pi-hole.
 
 If it can't do that, it's not the end of the world. Their documentation gives a workaround - most rounters WILL allow you to set a custom DHCP server (in charge of handing out IP addresses), and a DHCP server can also function as a DNS server. As my router DOES allow me to set a custom DHCP server, I was able to choose this.
@@ -66,10 +94,7 @@ tail: '/etc/hosts.youtube' has been replaced;  following new file
 ```
 
 # NextDNS
-I tell the Pi-hole to use nextdns.io as a DNS provider. I also use NextDNS's technology and additional blocklists there too. It may be overkill, but I really hate ads.
-
-
-
+I tell the Pi-hole to use nextdns.io as a DNS provider. I also use NextDNS's technology and additional blocklists there too. It may be overkill, but, as I said - I really hate ads :)
 
 ## Using NextDNS's DNS service without installing their service/daemon
 
@@ -160,19 +185,6 @@ Ouput:
 
 I could then add this output to my 
 
-# So... I don't have the daemon. What am I missing out on? (INCUBATING)
-
-This section isn't very well explored yet.
-
-I haven't had a chance to explore what the 'NextDNS Open-Source UNIX Client' actually gives me, I haven't been able to install it successfully.
-
-I did try to get as much of NextDNS installed and configured as possible. However the installation bombs out at the end:
-
-```
-$ sh -c 'sh -c "$(curl -sL https://nextdns.io/install)"'
-<die>
-```
-
 ## Starting the NextDNS daemon manually
 
 During the initial installation, NextDNS would have asked you to configure some values, and then it would have saved that config to a file. The NextDNS service would normally have used when starting the daemon, but I discovered you can do it yourself: 
@@ -191,7 +203,22 @@ INFO: 18:54:20 Connected 78.141.193.90:443 (con=50ms tls=49ms, TLS13)
 INFO: 18:54:20 Switching endpoint: https://vultr-lon-1.edge.nextdns.io#78.141.193.90,2a05:f480:1000:3ee:5400:2ff:fe99:7256
 ```
 
+## So... I don't have the daemon. What am I missing out on? (INCUBATING)
+
+This section isn't very well explored yet.
+
+I haven't had a chance to explore what the 'NextDNS Open-Source UNIX Client' actually gives me, I haven't been able to install it successfully.
+
+I did try to get as much of NextDNS installed and configured as possible. However the installation bombs out at the end:
+
+```
+$ sh -c 'sh -c "$(curl -sL https://nextdns.io/install)"'
+<die>
+```
+
 # Using alternative sites
 ## invidio.us
 ### Using HTTPS Anywhere + rulesets to redirect youtube links to invidio.us
 Yes: https://listed.to/p/Uwjy6IDG6x
+
+## bibliogram.art (instagram alternative)

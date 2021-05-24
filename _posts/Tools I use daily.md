@@ -92,7 +92,8 @@ MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windo
 
 # Windows (TODO: organise by category instead of OS)
 
-- rufus (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image flau- bleachbit - disk space cleaner
+- ventoy (replaces rufus!) (balenaEtcher is also good but does not support burning MX Linux bootloaders) - USB/SD image burner
+- bleachbit - disk space cleaner
 - chocolatey - package manager for windows
 - diskpart - command-line disk partitioning utility
 - ext2fsd - mount linux partitions on windows

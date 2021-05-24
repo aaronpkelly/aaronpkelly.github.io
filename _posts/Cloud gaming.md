@@ -40,21 +40,12 @@ I've tried this service on Windows and it's fantastic:
 - supported games only
 - need a _very_ good internet connection
 
-# Paperspace
-+ best service I've found CURRENTLY for running a Windows 10 gaming machine in the cloud. Will be replaced by SHADOW soon
-+ good alternative to get access to game subscription services that only provide PC installers (Playstation Now for PC), or the Battle.net client
-+ provides the Paperspace App[0] for optimised streaming
-- cannot run XBOX Game Pass for PC because the Parsec public template is Microsoft Windows Server 2016 Datacenter
-- can be unintuitive to setup a gaming rig, and there was previously an approval process if you wanted a modern GPU which is a bit annoying (you need to send them a message as to why you want it)
-
-[0]: which is in fact the Pasec client - https://parsecgaming.com/ - low latency screen sharing optimised for game streaming. Use `./Paperspace.sh` to launch, not `./Paperspace`
-
 # Playstation Now for PC
 + streaming client, no downloads
 + subscription service gives instant access to library
-+ works on paperspace
++ works on shadow.tech / paperspace
 + don't need to own a PS, just need a DualShock controller and a PS account
-- need a DualShock controller connected, Parsec needs to be able to detect it
+- need a DualShock controller connected
 - client is PC only
 - starting trial is confusing
 
@@ -62,19 +53,7 @@ https://www.playstation.com/en-us/explore/playstation-now/ps-now-on-pc/
 
 If starting the 7 day trail, it needs to be activated via the PS Store, you also need to be in the correct region (e.g. IE). Restart the client and you should see the 'Getting Started' text under a game change to 'Start'
 
-# Shadow
-https://shadow.tech/int/
-
-Company name: Blade. From France
-
-+ streaming client
-+ beefy Windows 10 rig
-+ heard very good things about this service
-- not available in my country until March 2021 (have pre-ordered... shit, didn't meat to do that)
-- ubuntu support only
-
-# Steam Cloud Gaming (TBA)
-Valve's cloud gaming service. TBA. Would love to try this
+List of all PS Now games: https://www.playstation.com/en-us/ps-now/ps-now-games/#all-ps-now-games
 
 # XBOX
 ## XBOX Game Pass for PC
@@ -99,3 +78,27 @@ It's a streaming client
 https://en.wikipedia.org/wiki/XCloud
 
 full list of supported games: https://www.trueachievements.com/xcloud/games
+
+# Cloud PCs for gaming
+## Shadow
+https://shadow.tech/int/
+
+Company name: Blade. From France
+
++ streaming client
++ beefy Windows 10 rig
++ heard very good things about this service
+- not available in my country until March 2021 (have pre-ordered... shit, didn't meat to do that)
+- ubuntu support only
+
+## Paperspace
++ run a Windows 10 gaming machine in the cloud. Use this if you don't have access to Shadow
++ good alternative to get access to game subscription services that only provide PC installers (Playstation Now for PC), or the Battle.net client
++ provides the Paperspace App[0] for optimised streaming
+- cannot run XBOX Game Pass for PC because the Parsec public template is Microsoft Windows Server 2016 Datacenter
+- can be unintuitive to setup a gaming rig, and there was previously an approval process if you wanted a modern GPU which is a bit annoying (you need to send them a message as to why you want it)
+
+[0]: which is in fact the Pasec client - https://parsecgaming.com/ - low latency screen sharing optimised for game streaming. Use `./Paperspace.sh` to launch, not `./Paperspace`
+
+# Steam Cloud Gaming (TBA)
+Valve's cloud gaming service. TBA. Would love to try this

@@ -1,3 +1,17 @@
+# plugins I use
+
+	$ ls ~/.local/share/JetBrains/IntelliJIdea2021.1/
+	'Atom File Icons IDEA'     GitToolBox                          intellij-music               Kotlin                    sonarlint-intellij
+	 aws-toolkit-jetbrains     go                                  intellij-pdf-viewer          MarioProgressBar.jar      StringManipulation
+	 bashsupport-pro           GrepConsole                         intellij-rainbow-brackets    meta                      tab-shifter
+	 brokenPlugins.json        gruvbox-theme                       intellij-randomness          pluginsXMLIds.json        TeXiFy-IDEA
+	 brokenPlugins.json.etag   idea-conventional-commit            intellij-toml                pluginsXMLIds.json.etag   twitter-plugin-1.0.2.jar
+	 CheckStyle-IDEA           idea-php-dotenv-plugin-2021.1.jar   jr-ide-idea                  PowerModeII               ZeroLengthRadar.jar
+	 CodeGlance                idea-plugin-linessorter.jar         js-graphql-intellij-plugin   python
+	'CSV Plugin'               IdeaVim                             json1.4.2.jar                realigner.jar
+	 extensions.xml            ideolog                             JsonHelper                  'Shell Script'
+	'Extra Icons'             'Indent Rainbow'                     Key-Promoter-X               Shifter.jar
+
 # gui designer
 ## build and run using IntelliJ IDEA pls
 when compiling forms made using the GUI designer, I haven't found a way for Gradle to generate the needed code into the source files.
