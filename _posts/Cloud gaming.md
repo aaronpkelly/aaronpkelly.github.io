@@ -87,9 +87,8 @@ Company name: Blade. From France
 
 + streaming client
 + beefy Windows 10 rig
-+ heard very good things about this service
-- not available in my country until March 2021 (have pre-ordered... shit, didn't meat to do that)
-- ubuntu support only
+- +100% price hikes after bankruptcy, for the same service
+- you need to "pre-order" the service, which takes forever to activate
 
 ## Paperspace
 + run a Windows 10 gaming machine in the cloud. Use this if you don't have access to Shadow

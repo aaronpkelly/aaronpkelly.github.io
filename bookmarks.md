@@ -257,7 +257,6 @@ https://www.hanselminutes.com/
 http://cyber-dojo.org/
 https://perlmonks.org/
 http://tldp.org/
-https://www.destroyallsoftware.com/screencasts
 http://golang.org/#
 http://dave.cheney.net/resources-for-new-go-programmers
 https://gobyexample.com/
