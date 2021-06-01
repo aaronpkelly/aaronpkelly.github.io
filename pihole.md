@@ -37,8 +37,14 @@ Previously I had been using nextdns, but that was a bit overkill (twice the amou
 
 
 # updating
+to update the system:
+
 	$ pihole -up
-	
+
+to update gravity:
+
+	$ pihole -g
+
 # filesystem corruption
 
 ## reinstall new raspbian image
