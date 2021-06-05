@@ -20,6 +20,9 @@ using a comma before a command will run a nix package without installing it:
 
 this is an even easier solution that running `nix-shell -p <package>`
 
+# home manager
+I heard this is good, but haven't tried it! I don't feel the need (atm)
+
 # cleaning and garbage collecting
 
 ## full /boot partition
