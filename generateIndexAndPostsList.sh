@@ -58,8 +58,9 @@ convertWikiLinksToMarkdownLinks() {
 	set +x
 }
 
-# by default, all the internal links inside a blog post will link to MD files instead of a HTML files...
-# change that. uses similar code to convertWikiLinksToMarkdownLinks()
+# by default, all the internal links inside a blog post will link to MD files instead of a HTML files... change that.
+# re-uses similar code to the now defunct convertWikiLinksToMarkdownLinks()
+# thank you to https://stackoverflow.com/questions/1583219/how-to-do-a-recursive-find-replace-of-a-string-with-awk-or-sed
 changeMarkdownLinksTargetFromMdToHtml() {
 	find ${POSTS_DIR_TARGET} \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i "s/.md/.html/g"
 }
