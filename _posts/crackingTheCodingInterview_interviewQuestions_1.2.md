@@ -1,4 +1,12 @@
-# Cracking the Coding Interview - 1.2 Check Permutation
+---
+title: Cracking the Coding Interview - 1.2 Check Permutation
+description:
+date: 2021-05-19
+categories:
+  - programming
+tags:
+  - cracking the coding interview
+---
 
 My test class:
 
@@ -57,3 +65,6 @@ I only read Gayle's hints after I completed the question, and they got me thinki
 	- what is the complexity of my solution?
 	- O(N log N): what could this solution be?
 	- O(N): what could this solution be!?
+
+# see also
+[Cracking the Coding Interview](Cracking%20the%20Coding%20Interview.md)

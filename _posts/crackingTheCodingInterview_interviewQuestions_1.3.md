@@ -1,3 +1,13 @@
+---
+title: Cracking the Coding Interview - 1.3 URLify
+description:
+date: 2021-06-04
+categories:
+  - programming
+tags:
+  - cracking the coding interview
+---
+
 # urlify
 
 tags:

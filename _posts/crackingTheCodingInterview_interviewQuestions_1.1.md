@@ -2,8 +2,10 @@
 title: Cracking the Coding Interview - 1.1 Is Unique
 description:
 date: 2021-05-19
-tags:
+categories:
   - programming
+tags:
+  - cracking the coding interview
 ---
 
 # Cracking the Coding Interview - 1.1 Is Unique
@@ -160,3 +162,6 @@ Here's the ASCII table (via `man ascii`) for the most common printed english cha
        D: - = M ] m }
        E: . > N ^ n ~
        F: / ? O _ o DEL
+	   
+# see also
+[Cracking the Coding Interview](Cracking%20the%20Coding%20Interview.md)
