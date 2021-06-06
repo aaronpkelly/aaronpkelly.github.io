@@ -3,7 +3,7 @@ title: Cracking the Coding Interview
 description:
 date: 2021-05-19
 tags:
-  - programming
+  - cracking the coding interview
 ---
 
 # source
