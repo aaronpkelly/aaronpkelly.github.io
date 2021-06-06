@@ -178,6 +178,8 @@ main() {
 	# obsidian does this for me automatically now, but thank you for making the function
 	# convertWikiLinksToMarkdownLinks
 
+	changeMarkdownLinksTargetFromMdToHtml
+
 	addHeader
 	
 	# i'm going to use the Jekyll-generated one for now. Just trying it. Don't get md
