@@ -340,6 +340,6 @@ I was able to use the example app to _eventually_ work out how to call and use t
 
 
 # See also
-[[Heroku]]
+[Heroku](Heroku.md)
 
 https://wiki.postgresql.org/wiki/First_steps -Additional reading from Postgres wiki
