@@ -168,10 +168,13 @@ main() {
 	cleanup_pre
 	zeroOutIndexAndPOSTS
 	generateJekyllPosts
-	convertWikiLinksToMarkdownLinks
+
+	# obsidian does this for me automatically now, but thank you for making the function
+	# convertWikiLinksToMarkdownLinks
+
 	addHeader
 	
-	# i'm going to use the Jekyll-generated one for now. Just tring it. Don't get md
+	# i'm going to use the Jekyll-generated one for now. Just trying it. Don't get md
 	# generatePostList "$LINK_TYPE"
 	# addPosts
 	
