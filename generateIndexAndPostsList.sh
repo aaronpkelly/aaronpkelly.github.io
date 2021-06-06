@@ -58,6 +58,25 @@ convertWikiLinksToMarkdownLinks() {
 	set +x
 }
 
+# by default, all the internal links inside a blog post will link to MD files instead of a HTML files...
+# change that. uses similar code to convertWikiLinksToMarkdownLinks()
+changeMarkdownLinksTargetFromMdToHtml() {
+	set -x
+
+	for key in "${!convertedFileNames[@]}"; do
+
+		value="${convertedFileNames[$key]}"
+
+		matched="$(grep --files-with-matches --recursive "\[\[${key%.*}\]\]" ${POSTS_DIR_TARGET}/20*.md)"
+		if [[ "$matched" != "" ]]; then
+			sed -i "s,.md,.html,g" $() "$matched"
+		fi
+
+	done
+	set +x
+
+}
+
 cleanup() {
 	rm "$POSTS_FILE"
 }
