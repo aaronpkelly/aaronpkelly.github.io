@@ -1,5 +1,9 @@
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
 title: Aaron Kelly's Blog
 description: Aaron Kelly's Blog
 author: Aaron Kelly
+relative_links:
+  enabled:     true
+  collections: false
