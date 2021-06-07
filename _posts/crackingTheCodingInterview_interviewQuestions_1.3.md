@@ -6,7 +6,7 @@ tags:
   - cracking the coding interview
 ---
 
-# urlify
+# 1.3 URLify
 
 Here's the description:
 

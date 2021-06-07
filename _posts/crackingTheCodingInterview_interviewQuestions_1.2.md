@@ -6,6 +6,8 @@ tags:
   - cracking the coding interview
 ---
 
+# 1.2 Check Permutation
+
 My test class:
 
     @Test
