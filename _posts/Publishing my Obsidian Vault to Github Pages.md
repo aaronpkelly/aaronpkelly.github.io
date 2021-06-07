@@ -1,7 +1,7 @@
 ---
 title: Publishing my Obsidian Vault to Github Pages
 description:
-date: 2021-05-19
+date: 2021-06-07
 tags:
   - obsidian
   - github
