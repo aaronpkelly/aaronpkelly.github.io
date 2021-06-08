@@ -4,7 +4,7 @@
 # 	- generating my own post list, because some day I might not be using Jekyll:
 # 		- it scans which posts are ready for publishing (currently, it detects if they have YAML front-matter)
 # 	- collate the contents of smaller files HEADER and FOOTER
-# 	- convert my mediawkik-style markdown to Github-style markdown ()
+# 	- DISABLED: convert my mediawkik-style markdown to Github-style markdown ()
 
 # TODO: fix this
 # i want this enabled, but if grep fails to match a file, it will return 1 and trip this, ending my script early :(
@@ -174,12 +174,12 @@ generateTOC() {
 main() {
 	cleanup_pre
 	zeroOutIndexAndPOSTS
-	generateJekyllPosts
+	# generateJekyllPosts
 
 	# obsidian does this for me automatically now, but thank you for making the function
 	# convertWikiLinksToMarkdownLinks
 
-	changeMarkdownLinksTargetFromMdToHtml
+	# changeMarkdownLinksTargetFromMdToHtml
 
 	addHeader
 	
