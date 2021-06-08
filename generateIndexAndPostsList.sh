@@ -81,7 +81,7 @@ cleanup_pre() {
 	set +x
 }
 
-# will only generate a jekyll-compatible post, YYYY-MM-DD-<POST>.md,
+# will generate a jekyll-compatible post, YYYY-MM-DD-<POST>.md,
 # only if front-matter is detected in the markdown file
 generateJekyllPosts() {
 	set -x
@@ -174,7 +174,7 @@ generateTOC() {
 main() {
 	cleanup_pre
 	zeroOutIndexAndPOSTS
-	# generateJekyllPosts
+	generateJekyllPosts
 
 	# obsidian does this for me automatically now, but thank you for making the function
 	# convertWikiLinksToMarkdownLinks
