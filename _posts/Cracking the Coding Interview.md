@@ -22,7 +22,7 @@ Links to all solutions on github.io via [tags](https://aaronpkelly.github.io/Tag
 
 [crackingTheCodingInterview_interviewQuestions_1.1](crackingTheCodingInterview_interviewQuestions_1.1.md)
 
-{% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %} 
+[sup]({% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %})
 
 [crackingTheCodingInterview_interviewQuestions_1.2](crackingTheCodingInterview_interviewQuestions_1.2.md)
 
