@@ -81,8 +81,11 @@ cleanup_pre() {
 	set +x
 }
 
-# will generate a jekyll-compatible post, YYYY-MM-DD-<POST>.md,
-# only if front-matter is detected in the markdown file
+# this function will:
+# - look inside the _posts directory
+# - check if front-matter is detected in the markdown file
+# - check if a DATE is provided in the front matter
+# - rename the file to a jekyll-compatible post, YYYY-MM-DD-<POST>.md,
 generateJekyllPosts() {
 	set -x
 

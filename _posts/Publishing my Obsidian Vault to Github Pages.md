@@ -11,7 +11,7 @@ tags:
 
 I use Obsidian to not only take notes, but to also write blog posts.
 
-I currently use a custom bash script to make some modifications to my posts at build time to a format that works for Github pages. Github will then build a static HTML site for me.
+I currently use a custom bash script to make some modifications to my posts at build time to a format that works for Github pages. Github will then build a static HTML site for me, with its native support for Jekyll.
 
 So, it kind of works.
 

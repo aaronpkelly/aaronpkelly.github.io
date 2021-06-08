@@ -21,5 +21,10 @@ https://git.sr.ht/~aaronkelly/crackingTheCodingInterview
 Links to all solutions on github.io via [tags](https://aaronpkelly.github.io/Tags.html#cracking-the-coding-interview)
 
 [crackingTheCodingInterview_interviewQuestions_1.1](crackingTheCodingInterview_interviewQuestions_1.1.md)
+
+{% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %} 
+
 [crackingTheCodingInterview_interviewQuestions_1.2](crackingTheCodingInterview_interviewQuestions_1.2.md)
+
+
 [crackingTheCodingInterview_interviewQuestions_1.3](crackingTheCodingInterview_interviewQuestions_1.3.md)
