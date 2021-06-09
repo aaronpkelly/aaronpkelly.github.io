@@ -200,6 +200,7 @@ main() {
 	# convertWikiLinksToMarkdownLinks
 
 	# changeMarkdownLinksTargetFromMdToHtml
+	changeMarkdownLinksToLiquidTagFormat
 
 	addHeader
 	
