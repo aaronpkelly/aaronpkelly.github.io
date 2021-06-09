@@ -80,8 +80,11 @@ changeMarkdownLinksToLiquidTagFormat() {
 
 	for key in "${!convertedFileNames[@]}"; do
 	  original_filename=$key
-	  converted_file_basename="$(basename ${convertedFileNames[${original_filename}]} .md)"
-	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" *
+	  converted_file=${convertedFileNames[${key}]}
+	  # if you know the extension, you can use basename to strip the file extension away
+	  converted_file_basename="$(basename ${converted_file} .md)"
+
+	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" "$converted_file"
 	done
 	set +x
 }
