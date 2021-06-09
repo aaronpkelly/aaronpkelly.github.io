@@ -14,7 +14,7 @@ tasks:
     echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
     cd aaronpkelly.github.io
     git checkout master
-    ./generateIndexAndPostsList.sh markdown go
+    ./jekyll-plugin_generateIndexAndPostsList.sh markdown go
     git add .
     git commit -m 'adding generated files'
     git remote set-url origin git@github.com:aaronpkelly/aaronpkelly.github.io

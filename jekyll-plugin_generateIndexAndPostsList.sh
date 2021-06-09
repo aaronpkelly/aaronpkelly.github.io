@@ -65,17 +65,15 @@ changeMarkdownLinksTargetFromMdToHtml() {
 	find ${POSTS_DIR_TARGET} \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i "s/.md/.html/g"
 }
 
-
-# searches inside posts, and converts markdown links to Jekyll "liquid tag" post_url links
-# this allows linking between blog posts on github pages
-# e.g. will change:
-# [crackingTheCodingInterview_interviewQuestions_1.1](crackingTheCodingInterview_interviewQuestions_1.1.md)
-# to
-# [crackingTheCodingInterview_interviewQuestions_1.1]({% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %})
+# for all posts which were renamed to Jekyll-style names, e.g.:
+#   from: crackingTheCodingInterview_interviewQuestions_1.1.md
+#   to:   2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1
+# it searches inside1 them and converts normal markdown links to Jekyll's "liquid tags" format. e.g.:
+#   from: [crackingTheCodingInterview_interviewQuestions_1.1](crackingTheCodingInterview_interviewQuestions_1.1.md)
+#   to:   [crackingTheCodingInterview_interviewQuestions_1.1]({% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %})
+# this allows me to use internal obsidian links normally, but "fixes" these
+# links so that at publish-time, my Jekyll blog posts link to each other
 changeMarkdownLinksToLiquidTagFormat() {
-  set -eux
-  echo "hello"
-
 	for key in "${!convertedFileNames[@]}"; do
 	  original_filename=$key
 	  converted_file=${convertedFileNames[${key}]}
@@ -84,7 +82,6 @@ changeMarkdownLinksToLiquidTagFormat() {
 
 	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" "$POSTS_DIR_TARGET"/*.md
 	done
-	set +x
 }
 
 cleanup() {
