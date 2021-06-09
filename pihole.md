@@ -33,7 +33,7 @@ Previously I had been using nextdns, but that was a bit overkill (twice the amou
 	View the web interface at http://pi.hole/admin or
 	  http://192.168.0.59/admin  
 
-	  Your Admin Webpage login password is QAs6_a1d
+	  Your Admin Webpage login password is ****
 
 
 # updating

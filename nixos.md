@@ -482,6 +482,13 @@ $ patchelf --set-interpreter /nix/store/9df65igwjmf2wbw0gbrrgair6piqjgmi-glibc-2
 ```
 
 # channels
+## add the hardware channel
+
+	$ sudo nix-channel --add https://github.com/NixOS/nixos-hardware/archive/master.tar.gz nixos-hardware
+	$ sudo nix-channel --update
+
+see [here](https://github.com/NixOS/nixos-hardware)
+
 ## moving to the unstable channel
 
 there are channels for both:

@@ -65,6 +65,23 @@ changeMarkdownLinksTargetFromMdToHtml() {
 	find ${POSTS_DIR_TARGET} \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i "s/.md/.html/g"
 }
 
+
+# searches inside posts, and converts markdown links to Jekyll "liquid tag" post_url links
+# this allows linking between blog posts on github pages
+# e.g. will change:
+# [crackingTheCodingInterview_interviewQuestions_1.1](crackingTheCodingInterview_interviewQuestions_1.1.md)
+# to
+# [crackingTheCodingInterview_interviewQuestions_1.1]({% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %})
+changeMarkdownLinksToLiquidTagFormat() {
+  set -x
+  echo "hello"
+	for file in "${convertedFileNames[@]}"; do
+	  file_basename=$(basenme "$file")
+	  grep "$file" | xargs sed -i "s/$file/{% post_url $file_basename %}/g"
+	done
+	set +x
+}
+
 cleanup() {
 	rm "$POSTS_FILE"
 }

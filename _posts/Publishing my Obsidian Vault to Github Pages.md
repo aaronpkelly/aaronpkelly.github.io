@@ -19,15 +19,22 @@ What's really broken are the links between articles, the soul of what my makes a
 
 I decided to either try and fix it myself, or try using a tool written by someone else.
 
-# Should I let Github pages continue to generate my HTML
+# Plugins for publishing to different blog hosts
 
-I think I'd prefer to do it myself... but there is one thing I'd like to try first
+I think I should continue to write my blog in obsidian, but have different plugins (scripts) for converting them to the target platform
 
-https://github.com/benbalter/jekyll-relative-links
+## github pages
+
+To solve the broken links problem, I did try this, but it doesn't work: https://github.com/benbalter/jekyll-relative-links
+
+Instead I'm going to have to try modifying my github pages script to generate my own `page_url` "liquid tags": https://stackoverflow.com/questions/31480030/jekyll-link-to-posts-from-pages#31483469
+
+E.g.:
+
+	[crackingTheCodingInterview_interviewQuestions_1.1]({% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %})
 
 
-
-# What FREE static html publishing tools are out there?
+# Apart from writing my own plugins - what FREE static html publishing tools are out there?
 
 https://github.com/kmaasrud/oboe
 
