@@ -73,10 +73,10 @@ changeMarkdownLinksTargetFromMdToHtml() {
 # to
 # [crackingTheCodingInterview_interviewQuestions_1.1]({% post_url 2021-05-19-crackingTheCodingInterview_interviewQuestions_1.1 %})
 changeMarkdownLinksToLiquidTagFormat() {
-  set -x
+  set -eux
   echo "hello"
 	for file in "${convertedFileNames[@]}"; do
-	  file_basename=$(basenme "$file")
+	  file_basename=$(basename "$file")
 	  grep "$file" | xargs sed -i "s/$file/{% post_url $file_basename %}/g"
 	done
 	set +x
