@@ -74,6 +74,7 @@ changeMarkdownLinksTargetFromMdToHtml() {
 # this allows me to use internal obsidian links normally, but "fixes" these
 # links so that at publish-time, my Jekyll blog posts link to each other
 changeMarkdownLinksToLiquidTagFormat() {
+  set -eux
 	for key in "${!convertedFileNames[@]}"; do
 	  original_filename=$key
 	  converted_file=${convertedFileNames[${key}]}
@@ -82,6 +83,7 @@ changeMarkdownLinksToLiquidTagFormat() {
 
 	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" "$POSTS_DIR_TARGET"/*.md
 	done
+	set +x
 }
 
 cleanup() {
