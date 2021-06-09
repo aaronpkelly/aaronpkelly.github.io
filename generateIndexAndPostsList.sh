@@ -82,7 +82,7 @@ changeMarkdownLinksToLiquidTagFormat() {
 	  # if you know the extension, you can use basename to strip the file extension away
 	  converted_file_basename="$(basename ${converted_file} .md)"
 
-	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" "${POSTS_DIR_TARGET}/*.md"
+	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" "$POSTS_DIR_TARGET"/*.md
 	done
 	set +x
 }
