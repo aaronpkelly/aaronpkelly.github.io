@@ -75,9 +75,11 @@ changeMarkdownLinksTargetFromMdToHtml() {
 changeMarkdownLinksToLiquidTagFormat() {
   set -eux
   echo "hello"
-	for file in "${convertedFileNames[@]}"; do
-	  file_basename=$(basename "$file")
-	  grep "$file" | xargs sed -i "s/$file/{% post_url $file_basename %}/g"
+
+	for key in "${!convertedFileNames[@]}"; do
+	  original_filename=$key
+	  converted_file_basename="$(basename ${convertedFileNames[${original_filename}]} .md)"
+	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g"
 	done
 	set +x
 }
