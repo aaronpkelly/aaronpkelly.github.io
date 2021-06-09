@@ -82,7 +82,7 @@ changeMarkdownLinksToLiquidTagFormat() {
 	  converted_file_basename="$(basename ${converted_file} .md)"
 
     # markdown links with spaces will be url encoded inside obsidian
-    original_filename_urlencoded=urlencode "$original_filename"
+    original_filename_urlencoded=$(urlencode ${original_filename})
 
 	  sed -i "s/$original_filename_urlencoded/{% post_url $converted_file_basename %}/g" "$POSTS_DIR_TARGET"/*.md
 	done
