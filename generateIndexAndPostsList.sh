@@ -76,10 +76,12 @@ changeMarkdownLinksToLiquidTagFormat() {
   set -eux
   echo "hello"
 
+  cd "$POSTS_DIR_TARGET"
+
 	for key in "${!convertedFileNames[@]}"; do
 	  original_filename=$key
 	  converted_file_basename="$(basename ${convertedFileNames[${original_filename}]} .md)"
-	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g"
+	  sed -i "s/$original_filename/{% post_url $converted_file_basename %}/g" *
 	done
 	set +x
 }
