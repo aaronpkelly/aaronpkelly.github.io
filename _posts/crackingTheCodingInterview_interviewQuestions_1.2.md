@@ -1,11 +1,8 @@
-
-	---
-	title: Cracking the Coding Interview - 1.2 Check Permutation
-	description:
-	date: 2021-05-19
-	tags:
-	  - cracking the coding interview
-	---
+title: Cracking the Coding Interview - 1.2 Check Permutation
+description:
+date: 2021-05-19
+tags:
+  - cracking the coding interview
 
 # 1.2 Check Permutation
 
