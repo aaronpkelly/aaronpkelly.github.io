@@ -1,10 +1,12 @@
 ---
 title: Cracking the Coding Interview - 1.2 Check Permutation
 description:
-date: 2021-05-19
+date: <redacted to disable publishing on Jekyll>
 tags:
   - cracking the coding interview
 ---
+
+original date: 2021-05-19
 
 # 1.2 Check Permutation
 

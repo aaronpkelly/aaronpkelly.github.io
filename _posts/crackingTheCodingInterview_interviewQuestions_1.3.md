@@ -1,10 +1,12 @@
 ---
 title: Cracking the Coding Interview - 1.3 URLify
 description:
-date: 2021-06-04
+date: <redacted to disable publishing on Jekyll>
 tags:
   - cracking the coding interview
 ---
+
+original date: 2021-06-04
 
 # 1.3 URLify
 
