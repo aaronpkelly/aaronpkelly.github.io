@@ -1,6 +1,3 @@
-
-# 1.1 Is Unique
-
 ---
 title: Cracking the Coding Interview - 1.1 Is Unique
 description:
@@ -8,6 +5,10 @@ date: 2021-05-19
 tags:
   - cracking the coding interview
 ---
+
+# 1.1 Is Unique
+
+
 
 My first attempt focussed on *not using a data structure* at all, because when I read additional data structures, I was curious if I needed any.
 
