@@ -13,19 +13,18 @@ https://github.com/DanielThomas/ec2gaming
 
 and a good (recentish?) guide: https://lg.io/2015/07/05/revised-and-much-faster-run-your-own-highend-cloud-gaming-service-on-ec2.html
 
-# luna
+# Amazon Luna
 https://news.ycombinator.com/item?id=24581799
 
 https://www.amazon.com/luna/landing-page
 
 amazon's own cloud gaming service - similar to ec2gaming
 
++ streaming
 - us only for now
-+ steaming
 
 
-
-# Stadia
+# Google Stadia
 + streams through a browser, no downloads
 + technology worked flawlessly for me
 - few games, developers have no incentive to add their games here
@@ -69,11 +68,14 @@ It's an app, you download the games and play on a PC:
 
 full list of games: https://www.trueachievements.com/Xbox-Game-Pass/Games
 
-## XCloud
+## XBox Cloud Gaming (formerly project XCloud)
+
 It's a streaming client
 
 + streaming!
-- android phones/tablets only, iOS devices not yet supported
++ Windows 10 client via browser app in "early 2021".
++ Invite-only beta for Windows 10 + iOs devices started April 2021
+- currently android phones/tablets only
 
 https://en.wikipedia.org/wiki/XCloud
 
