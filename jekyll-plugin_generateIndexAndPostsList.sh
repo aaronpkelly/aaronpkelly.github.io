@@ -141,14 +141,14 @@ generatePostList() {
 	if [ "$TYPE" == "markdown" ]; then
 		for file in $(ls "$POSTS_DIR_TARGET" | grep -e '^[0-9].*md$'| sort --reverse); do
 
-		  # check inside the post - if it contains a string to disable it from appearing
-		  # on the post list, don't add it
-		 # if [ $(grep 'DISABLE_FROM_FRONT_PAGE_POST' "$file") == 1 ]; then
-		    echo "[generatePostList] adding to ${POSTS_FILE}: $file"
-			  POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
-        echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
-        printf '\n' >> "$POSTS_FILE"
-    #  fi
+      # check inside the post - if it contains a string to disable it from appearing
+      # on the post list, don't add it
+      if [ ! $(grep 'DISABLE_FROM_FRONT_PAGE_POST' "$file") ]; then
+          echo "[generatePostList] adding to ${POSTS_FILE}: $file"
+          POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
+          echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
+          printf '\n' >> "$POSTS_FILE"
+      fi
 		done
 	elif [ "$TYPE" == "mediawiki" ]; then
 		echo "[[${POSTS_DIR_TARGET}/${file%.*}]]" >> "$POSTS_FILE"
