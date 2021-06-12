@@ -113,7 +113,7 @@ generateJekyllPosts() {
 	set -x
 
 	IFS=$'\n'
-	for file in "$POSTS_DIR_SOURCE"/*; do
+	for file in $(ls "$POSTS_DIR_SOURCE"); do
 		POST_DATE=$(getDateFromFrontMatter "${POSTS_DIR_SOURCE}/${file}")
 
 		if [[ "$POST_DATE" =~ ^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[1-2][0-9]|3[0-1])$ ]]; then
