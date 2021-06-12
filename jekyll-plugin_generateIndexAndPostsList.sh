@@ -143,12 +143,12 @@ generatePostList() {
 
 		  # check inside the post - if it contains a string to disable it from appearing
 		  # on the post list, don't add it
-		  if [ $(grep 'DISABLE_FROM_FRONT_PAGE_POST' "$file") ]; then
+		 # if [ $(grep 'DISABLE_FROM_FRONT_PAGE_POST' "$file") == 1 ]; then
 		    echo "[generatePostList] adding to ${POSTS_FILE}: $file"
 			  POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
         echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
         printf '\n' >> "$POSTS_FILE"
-      fi
+    #  fi
 		done
 	elif [ "$TYPE" == "mediawiki" ]; then
 		echo "[[${POSTS_DIR_TARGET}/${file%.*}]]" >> "$POSTS_FILE"
