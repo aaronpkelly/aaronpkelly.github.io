@@ -16,12 +16,15 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
             <li>
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
-            </ul>
+        {% endif %}
+        
+        </ul>
 
-            # Recent posts
+        # Recent posts
 
-            <ul>
-        {% elsif numPostsFound > 1 %}
+        <ul>
+
+        {% if numPostsFound > 1 %}
             <li>
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
