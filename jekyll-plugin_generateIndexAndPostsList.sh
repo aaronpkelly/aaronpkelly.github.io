@@ -132,6 +132,8 @@ generateJekyllPosts() {
 	set +x
 }
 
+# deprecated - now using Liquid to generate posts (https://jekyllrb.com/docs/posts/#post-excerpts)
+# see HEADER.md
 generatePostList() {
 
 	TYPE=$1
@@ -221,8 +223,9 @@ main() {
 
 	addHeader
 	
-	# i'm going to use the Jekyll-generated one for now. Just trying it. Don't get md
+	# I'm using a Jekyll-generated post list, see HEADER.md
 	# generatePostList "$LINK_TYPE"
+
 	# addPosts
 	
 	addFooter
