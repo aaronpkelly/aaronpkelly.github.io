@@ -18,7 +18,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
             </ul>
             <h1>Recent posts</h1>
             <ul>
-        {% elseif numPostsFound > 1 %}
+        {% elsif numPostsFound > 1 %}
             <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
