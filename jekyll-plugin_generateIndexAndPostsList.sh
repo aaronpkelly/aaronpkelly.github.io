@@ -143,13 +143,19 @@ generatePostList() {
 
       # check inside the post - if it contains a string to disable it from appearing
       # on the post list, don't add it
+      #
+      # GREP:
+      # EXIT STATUS
+      #       Normally the exit status is 0 if a line is selected, 1 if no lines were selected, and 2 if an error occurred.  However, if the  -q  or  --quiet  or
+      #       --silent is used and a line is selected, the exit status is 0 even if an error occurred.
       grep 'DISABLE_FROM_FRONT_PAGE_POST' "$file"
       return_code=$?
-      if [ $return_code -eq 0 ]; then
-          echo "[generatePostList] adding to ${POSTS_FILE}: $file"
-          POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
-          echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
-          printf '\n' >> "$POSTS_FILE"
+      if [ $return_code -neq 0 ]; then
+        echo "DISABLE return code: ${return_code}"
+        echo "[generatePostList] adding to ${POSTS_FILE}: $file"
+        POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
+        echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
+        printf '\n' >> "$POSTS_FILE"
       fi
 		done
 	elif [ "$TYPE" == "mediawiki" ]; then
