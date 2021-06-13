@@ -5,7 +5,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
 {% assign numPostsFound = 0 %}
-{% assign maxRecentPosts = 5 %}
+{% assign maxPosts = 6 %}
 
 # Latest post
 
@@ -28,7 +28,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
     </li>
         {% endif %}
     {% endunless %}
-    {% if numPostsFound == maxRecentPosts %}
+    {% if numPostsFound == maxPosts %}
         {% break %}
     {% endif %}
 {% endfor %}
