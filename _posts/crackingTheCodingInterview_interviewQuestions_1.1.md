@@ -6,9 +6,9 @@ tags:
   - cracking the coding interview
 ---
 
+DISABLE_FROM_FRONT_PAGE_POST
+
 # 1.1 Is Unique
-
-
 
 My first attempt focussed on *not using a data structure* at all, because when I read additional data structures, I was curious if I needed any.
 

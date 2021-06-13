@@ -7,7 +7,7 @@ tags:
 ---
 
 # 1.2 Check Permutation
-
+DISABLE_FROM_FRONT_PAGE_POST
 
 My test class:
 

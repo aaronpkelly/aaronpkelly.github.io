@@ -6,6 +6,8 @@ tags:
   - cracking the coding interview
 ---
 
+DISABLE_FROM_FRONT_PAGE_POST
+
 # 1.3 URLify
 
 Here's the description:
