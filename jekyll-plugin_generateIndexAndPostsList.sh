@@ -150,8 +150,8 @@ generatePostList() {
       #       --silent is used and a line is selected, the exit status is 0 even if an error occurred.
       grep 'DISABLE_FROM_FRONT_PAGE_POST' "$file"
       return_code=$?
+      echo "DISABLE return code: ${return_code}"
       if [ $return_code -neq 0 ]; then
-        echo "DISABLE return code: ${return_code}"
         echo "[generatePostList] adding to ${POSTS_FILE}: $file"
         POST_TITLE=$(getTitle "${POSTS_DIR_TARGET}/${file}")
         echo "[${POST_TITLE}](${POSTS_DIR_TARGET}/${file})" >> "$POSTS_FILE"
