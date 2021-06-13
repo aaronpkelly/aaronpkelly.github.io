@@ -4,28 +4,26 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
 
 ![avatar](https://avatars1.githubusercontent.com/u/29888436?s=460&u=03df457371669048031a735802c33b93d07a1f10&v=4)
 
-# Latest post
+{% assign numPostsFound = 0 %}
 
-<ul>
-  {% for post in site.posts limit:1 %}
-    {% unless post.content contains 'DISABLE_FROM_FRONT_PAGE_POST' %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+{% for post in site.posts %}
+    {% unless post.content contains 'DISABLE_FROM_FRONT_PAGE_POST' %} 
+        {% assign numPostsFound = numPostsFound | plus: 1 %}
+        {% if numPostsFound == 1 %}
+            <h1> Latest post </h1>
+            <ul>
+                <li>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            </ul>
+            <h1>Recent posts</h1>
+            <ul>
+        {% elseif numPostsFound > 1 %}
+            <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endelse %}
     {% endunless %}
-  {% endfor %}
-</ul>
-
-# Previous posts
-
-<ul>
-  {% for post in site.posts limit:5 offset:1 %}
-    {% unless post.content contains 'DISABLE_FROM_FRONT_PAGE_POST' %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-    {% endunless %}
-  {% endfor %}
-</ul>
+{% endfor %}
 
 You can also view the complete <a href="https://aaronpkelly.github.io/PostIndex.html">post index</a>, posts by <a href="https://aaronpkelly.github.io/Categories.html">category</a> or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>. If you want the RSS feed - it's [here](https://aaronpkelly.github.io/feed.xml).
