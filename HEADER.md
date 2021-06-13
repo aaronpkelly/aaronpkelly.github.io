@@ -8,7 +8,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
 
 <ul>
   {% for post in site.posts limit:1 %}
-    {% if post.contains 'DISABLE_FROM_FRONT_PAGE_POST' == false %}
+    {% if post.content.contains 'DISABLE_FROM_FRONT_PAGE_POST' == false %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
@@ -20,7 +20,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
 
 <ul>
   {% for post in site.posts limit:5 offset:1 %}
-    {% if post.contains 'DISABLE_FROM_FRONT_PAGE_POST' == false %}
+    {% if post.content.contains 'DISABLE_FROM_FRONT_PAGE_POST' == false %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
