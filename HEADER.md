@@ -22,7 +22,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
             <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
-        {% endelse %}
+        {% endif %}
     {% endunless %}
     </ul>
 {% endfor %}
