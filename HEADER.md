@@ -13,21 +13,18 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
     {% unless post.content contains 'DISABLE_FROM_FRONT_PAGE_POST' %} 
         {% assign numPostsFound = numPostsFound | plus: 1 %}
         {% if numPostsFound == 1 %}
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-        {% endif %}
-        
-        </ul>
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+</ul>
 
-        # Recent posts
+# Recent posts
 
-        <ul>
-
-        {% if numPostsFound > 1 %}
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
+<ul>
+    {% elsif numPostsFound > 1 %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
         {% endif %}
     {% endunless %}
 </ul>
