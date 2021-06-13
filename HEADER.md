@@ -17,11 +17,13 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
                 <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
             </ul>
+
             # Recent posts
+
             <ul>
         {% elsif numPostsFound > 1 %}
             <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
             </li>
         {% endif %}
     {% endunless %}
