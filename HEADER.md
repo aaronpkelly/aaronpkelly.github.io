@@ -6,17 +6,18 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
 
 {% assign numPostsFound = 0 %}
 
+# Latest post
+
+<ul>
 {% for post in site.posts %}
-    <h1> Latest post </h1>
-    <ul>
     {% unless post.content contains 'DISABLE_FROM_FRONT_PAGE_POST' %} 
         {% assign numPostsFound = numPostsFound | plus: 1 %}
         {% if numPostsFound == 1 %}
-                <li>
-                  <a href="{{ post.url }}">{{ post.title }}</a>
-                </li>
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
             </ul>
-            <h1>Recent posts</h1>
+            # Recent posts
             <ul>
         {% elsif numPostsFound > 1 %}
             <li>
@@ -24,7 +25,7 @@ Howdy, I’m Aaron. I do a bit of coding... a bit of hacking... and a bit of the
             </li>
         {% endif %}
     {% endunless %}
-    </ul>
+</ul>
 {% endfor %}
 
 You can also view the complete <a href="https://aaronpkelly.github.io/PostIndex.html">post index</a>, posts by <a href="https://aaronpkelly.github.io/Categories.html">category</a> or <a href="https://aaronpkelly.github.io/Tags.html">tag</a>. If you want the RSS feed - it's [here](https://aaronpkelly.github.io/feed.xml).
