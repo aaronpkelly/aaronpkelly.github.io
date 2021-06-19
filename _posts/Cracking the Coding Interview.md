@@ -25,3 +25,5 @@ Links to all solutions on github.io via [tags](https://aaronpkelly.github.io/Tag
 [crackingTheCodingInterview_interviewQuestions_1.2](crackingTheCodingInterview_interviewQuestions_1.2.md)
 
 [crackingTheCodingInterview_interviewQuestions_1.3](crackingTheCodingInterview_interviewQuestions_1.3.md)
+
+[crackingTheCodingInterview_interviewQuestions_1.4](crackingTheCodingInterview_interviewQuestions_1.4.md)
