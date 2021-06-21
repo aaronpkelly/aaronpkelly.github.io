@@ -98,3 +98,6 @@ https://github.com/handflucht/guiAppInDockerOnWindows
 https://github.com/baudren/NoteOrganiser/wiki/Docker,-QML,-XServer-on-Windows
 https://robscode.onl/docker-run-gui-app-in-linux-container-on-windows-host/
 
+# see also
+
+[Running GUI apps in a container](Running%20GUI%20apps%20in%20a%20container.md)

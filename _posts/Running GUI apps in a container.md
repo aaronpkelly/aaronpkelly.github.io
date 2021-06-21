@@ -64,3 +64,6 @@ Failed to move to new namespace: PID namespaces supported, Network namespace sup
 ```
 
 Make sure you are passing in the `--privileged` option
+
+# see also
+[Docker and XWindows](Docker%20and%20XWindows.md)

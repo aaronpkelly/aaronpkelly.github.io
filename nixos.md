@@ -23,11 +23,64 @@ this is an even easier solution that running `nix-shell -p <package>`
 # home manager
 I heard this is good, but haven't tried it! I don't feel the need (atm)
 
-# cleaning and garbage collecting
+# Garbage collection
 
-## full /boot partition
+See garbage collection in the [manual](https://nixos.org/manual/nix/stable/#sec-garbage-collection). Deleting generations should be done first:
 
-see here: https://discourse.nixos.org/t/what-to-do-with-a-full-boot-partition/2049/11
+	# To delete all generations older than a specified number of days (except the current generation), use the `d` suffix
+	$ nix-env --delete-generations 30d
+	
+	# To delete all old (non-current) generations of your current profile. Slighly more drastic!
+	$ nix-env --delete-generations old
+	
+	# see the help file too
+	$ nix-env --delete-generations --help
+	
+Then the garbge collection can be ran:
+
+	nix-store --gc
+
+## Automating generation delete and garbage collection
+Generation deletion and garbage collection can also be automated, via https://nixos.wiki/wiki/Storage_optimization:
+
+	nix.gc = {
+	  automatic = true;
+	  dates = "weekly";
+	  options = "--delete-older-than 30d";
+	};
+	
+For more options, see https://search.nixos.org/options?channel=21.05&from=0&size=50&sort=relevance&query=nix.gc
+
+## forum post recommendations
+
+And a quick recommendation from a [great forum post](https://discourse.nixos.org/t/what-to-do-with-a-full-boot-partition/2049/11):
+
+> 1.  Do a `sudo nixos-rebuild build` so that you’re sure that the build of your current configuration can be carried out
+> 2.  Do a garbage collection to remove old system generations with `sudo nix-collect-garbage -d`
+> 3.  Manually make some space in boot. Find your kernels and `rm` them.
+> 4.  Run `sudo nixos-rebuild switch` or `sudo nixos-rebuild boot`. This time your bootloader will be installed correctly along with the new kernel and initrd
+> 5.  Make sure point 4 was executed correctly by looking at the output and reboot
+> 6.  \[optional\] remove the `result` directory created by point 1
+
+## clearing the /boot partition
+
+The above post deals with a full _/boot_ partition too, but this is how to keep it clean in your _configuration.nix_:
+
+	boot.loader.systemd-boot.configurationLimit = 5;
+
+See [`boot.loader.systemd-boot.configurationLimit`](https://nixos.org/manual/nixos/stable/options.html#opt-boot.loader.systemd-boot.configurationLimit):
+
+	boot.loader.systemd-boot.configurationLimit
+
+    Maximum number of latest generations in the boot menu. Useful to prevent boot partition running out of disk space.
+
+    null means no limit i.e. all generations that were not garbage collected yet.
+
+    Type: null or signed integer
+
+    Default: null
+
+    Example: 120 
 
 # intellij + java jdk
 
