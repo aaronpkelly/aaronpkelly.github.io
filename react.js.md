@@ -1,5 +1,16 @@
 I've never tried react (I don't really try javascript libraries), but when I saw [this hn article](https://news.ycombinator.com/item?id=27016630), I couldn't wait any longer! It was really expanding on what [Static website hosting](Static%20website%20hosting.md) websites could do (querying a SQL database from a browser *remotely* and only downloading the minimum amount of data needed), and it also had a cool code snippet runner XD
 
+# JavaScript fundamentals before learning React
+this guy's entire site is incredibly good:
+https://news.ycombinator.com/item?id=17569848
+
+use POCKET and highlight the bits you're working on
+
+# # Learn React App
+https://news.ycombinator.com/item?id=19050509
+
+gitpod link is borked
+
 # create-react-app
 following the instructions here: https://reactjs.org/docs/create-a-new-react-app.html
 

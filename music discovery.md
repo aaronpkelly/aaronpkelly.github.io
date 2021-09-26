@@ -10,3 +10,5 @@ mainstream
 http://everynoise.com/ - every music genre, and a playlist to boot. is a programmatically generated collection of spotify genre playlists, not just electronic
 
 http://forgotify.com : Forgotify – Be the First Person to Hear a Song!
+
+https://www.locserendipity.com/PushPlay.html - infinite 78RPM records, digitised by the Library of Congress

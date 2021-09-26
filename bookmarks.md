@@ -324,14 +324,7 @@ https://www.freecodecamp.org/
 http://programming-motherfucker.com/become.html
 https://progur.com/ [DONE]
 
-### music for programming
-http://musicforprogramming.net/
-http://datassette.net/businessfunk/
-http://comtruise.com/kc/
-https://ultimae.bandcamp.com/album/perimeters
-https://carbonbasedlifeforms.bandcamp.com/album/hydroponic-garden
-https://solarfields.bandcamp.com/album/movements-remastered
-https://hos.com/
+
 
 
 ### problems / challenges / competitive
@@ -442,17 +435,7 @@ http://www.careersportal.ie/
 https://www.recruitireland.com/
 http://irishdev.com/
 
-## languages
-https://ucdgermana1.wordpress.com/
-http://babbel.com/
-https://www.duolingo.com/
-http://fsi-languages.yojik.eu/
-http://www.verbatimsolutions.com/freetranslation.php
-http://www.german-grammar.de/
-http://www.pimsleurapproach.com/
-http://www.trymango.com/language_program.php
-http://www.grammarbook.com/
-https://www.clozemaster.com/
+
 
 ## maths
 http://www.mathacademy.com/pr/

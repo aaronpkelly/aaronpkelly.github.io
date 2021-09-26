@@ -1,3 +1,10 @@
+# why i like NixOS
+
+I think I finally worked out why I like this operating system so much:
+- your entire operating system can act like a docker container with `nix-shell -p <package>`
+	- as soon as you exit the shell, there are no left-over side-effects from using the package (apart from areas Nix doesn't manage such as user data)
+	- you can have multiple versions of a package installed easily
+
 # binaries
 Downloading and attempting to run a binary on NixOS will almost never work.
 
@@ -21,7 +28,16 @@ using a comma before a command will run a nix package without installing it:
 this is an even easier solution that running `nix-shell -p <package>`
 
 # home manager
-I heard this is good, but haven't tried it! I don't feel the need (atm)
+
+allows you to split your general system configuration file from packages configured for your user (your ~)
+
+home manager manual: https://nix-community.github.io/home-manager/
+
+Home manager manual - configuration options: https://rycee.gitlab.io/home-manager/options.html#opt-programs.firefox.enable
+
+
+
+
 
 # Garbage collection
 
@@ -207,6 +223,10 @@ From here on, I'll version my zsh-specific NixOS configuration file in my privat
 it does work: https://nixos.wiki/wiki/Printing
 
 ## detecting network printers
+### adding a printer in CUPS
+
+Just remove all existing printers, then detect+add the network printer at http://localhost:631/admin
+
 ### using bonjour
 
 using these docs: http://localhost:631/help/network.html
@@ -214,13 +234,15 @@ using these docs: http://localhost:631/help/network.html
 I can find the network printer:
 
 ```
- aaron@nixos  ~  lpinfo --include-schemes dnssd -v
+$ lpinfo --include-schemes dnssd -v
 network dnssd://HP%20ENVY%204520%20series%20%5B7FE558%5D%20(5)._ipp._tcp.local/?uuid=1c852a4d-b800-1f08-abcd-c8d3ff7fe558
 ```
 
 ### jetdirect???
 
-in the past I was also able to use the _jetdirect socket_ to connect: socket://hp7fe558.lan
+in the past I was also able to use the _jetdirect socket_ to connect: 
+
+	socket://hp7fe558.lan
 
 ## interface - CUPS!
 

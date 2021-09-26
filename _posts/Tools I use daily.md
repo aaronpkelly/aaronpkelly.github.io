@@ -21,7 +21,6 @@ A lot of these tools have been found via a combination of searching on https://n
 - [[cvlc]]: command-line version of vlc. the curses view is great: `cvlc -I curses [FILE/URI]`
 - mpg123: quick and dirty mp3 player
 - ogg123:  quick and dirty ogg player
-~ [spotify-tui](https://github.com/Rigellute/spotify-tui): another spotify cli
 ~ cmus
 ~ moc
 
@@ -34,7 +33,7 @@ A lot of these tools have been found via a combination of searching on https://n
 
 # browsers
 - firefox / firefox dev browser:
-    - addons: dark reader, ublock origin, tree-style tabs
+    - addons: dark reader, ublock origin, ~tree-style tabs
 - brave (a fork of the Chrome browser)
     - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 

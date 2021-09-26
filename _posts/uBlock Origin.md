@@ -1,12 +1,28 @@
-    Settings: Everything set to nightmare mode
+# why use it
 
-    Filter lists:
-    https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+pi-hole works using DNS blocking, which doesn't block content served by the content domain. this is where uBlock comes in
 
-    My filters:
+# articles
 
-    My rules:
+https://news.ycombinator.com/item?id=28410807 > https://addons.mozilla.org/blog/ublock-origin-everything-you-need-to-know-about-the-ad-blocker/
 
-    Whitelist:
+# usage
 
-    Shortcuts: Relax blocking mode: _Ctrl+Space_
+the wiki is phenomenal: https://github.com/gorhill/uBlock/wiki
+
+# settings
+
+set everything set to nightmare mode
+
+# filter lists
+https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+
+My filters:
+
+My rules:
+
+Whitelist:
+
+# shortcuts
+
+Relax blocking mode: _Ctrl+Space_

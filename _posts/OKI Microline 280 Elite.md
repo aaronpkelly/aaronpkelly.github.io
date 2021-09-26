@@ -11,14 +11,22 @@ Part Description: ML280EL-DC-EURO
 # Power
 ## cord
 it's a dc power cord 3 pin female
-the official power Cord part number is: DC YS4100-1187P001
 
-this manual is really comforting, it makes it seem easy to get:
-https://www.manualslib.com/manual/557629/Oki-Ml280-Elite.html?page=45
+the official **DC** power Cord *part number* is:
+
+	YS4100-1187P001
+
+wiring your DC power cord: https://www.libble.eu/oki-ml-280-elite/online-manual-820466/?page=16
+
+ordering replacements - makes it seem easy to get: https://www.libble.eu/oki-ml-280-elite/online-manual-820466/?page=45
 
 https://www.oki.com/printing/download/45692102EE1_ML280_EN_31555.pdf?id=45692102EE
 
 ![[oki-ml280_dc.png]]
+
+## connection
+Here's a picture of the back of the printer:
+https://share.icloud.com/photos/04g6mhkj7wKh4CAMULJsJT0MQ
 
 ## supply
 12 or 24 volt DC power supply only
@@ -41,3 +49,11 @@ there is a german website that DOES sell one but it's super expensive: https://s
 
 # reddit
 i created a post on reddit to help: https://www.reddit.com/r/printers/comments/ikv9bd/having_a_super_hard_time_finding_a_dc_power_cable/
+
+# good searches
+
+"3 pin female 12v"
+"3 pin female 24v"
+
+results:
+- https://www.alibaba.com/product-detail/3-pin-12v-connectors-waterproof-plug_60780195982.html

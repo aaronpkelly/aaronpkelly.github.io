@@ -2,6 +2,8 @@
 - mpd(+ ncmpcpp frontend) - local music+radio
 - mps-youtube: youtube cli client
 - ncspot - spotify cli client
+- [spotify-tui](https://github.com/Rigellute/spotify-tui): another spotify cli
+- https://github.com/jpochyla/psst - Fast and multi-platform Spotify client with native GUI
 - musikcube (windows)
 
 # secure file sending programs
@@ -52,6 +54,10 @@ https://github.com/Upload/Up1
 diagram.codes
 
 X410 – X Server for Windows 10 https://news.ycombinator.com/item?id=22905390
+
+https://imba.io/ - Imba is a Web programming language that's fast in two ways: Imba's time-saving syntax with built-in tags and styles results in less typing and switching files so you can build things fast. Imba's groundbreaking memoized DOM is an order of magnitude faster than virtual DOM libraries, so you can build fast things.
+
+https://www.testcontainers.org/ - Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. (found via Intellij webinar)
 
 ## Terminal dashboards
 ~ https://github.com/wtfutil/wtf

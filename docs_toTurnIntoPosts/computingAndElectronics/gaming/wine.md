@@ -1,5 +1,9 @@
-battle.net games on linux
-=========================
+# installing msi installers
+
+use wine's `msiexec`
+
+
+# battle.net games on linux
 
 don't drink old wine
 --------------------

@@ -16,3 +16,6 @@ Meetups per day are here:
 - https://www.meetup.com/Utrecht-Java-User-Group/events/257794904/
 
 Slides are here: https://github.com/utrechtjug
+
+# see also
+[uncleBob](uncleBob.md)

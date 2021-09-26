@@ -1,3 +1,11 @@
+# update - use youtube-dlp
+
+https://github.com/yt-dlp
+
+> yt-dlp is a [youtube-dl](https://github.com/ytdl-org/youtube-dl) fork based on the now inactive [youtube-dlc](https://github.com/blackjack4494/yt-dlc). The main focus of this project is adding new features and patches while also keeping up to date with the original project
+
+https://news.ycombinator.com/item?id=28319624
+
 # stream from youtube-dl to vlc
 
 ```

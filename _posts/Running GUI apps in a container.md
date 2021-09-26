@@ -9,6 +9,8 @@ tags:
 
 # Running GUI apps in a container
 
+SEE THE TROUBLESHOOTING SECTION IF YOU'RE HAVING PROBLEMS
+
 ## Chrome
 
 Is it possible to run Chrome in a container? Yes it is!
@@ -49,6 +51,12 @@ The error:
 No protocol specified
 [1:1:0322/125427.199734:ERROR:browser_main_loop.cc(1512)] Unable to open X display.
 ```
+
+Or:
+
+	Unable to init server: Could not connect: Connection refused
+	(psst-gui:1): Gtk-WARNING **: 20:19:36.389: cannot open display: 0:0
+
 
 To fix this, run the following command in your shell:
 
