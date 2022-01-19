@@ -10,7 +10,7 @@ https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=Windows10Debloate
 
 https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=windows-dev-box-setup-scripts&sort=byPopularity&type=all -> https://github.com/microsoft/windows-dev-box-setup-scripts haven't tried 
 
-# tweaking
+I found this myself, and it's not bad: https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10
 
 https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=shutup10&sort=byPopularity&type=all -> https://www.oo-software.com/en/shutup10
 

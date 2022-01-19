@@ -1,3 +1,14 @@
+# quickemu
+
+> Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.
+
+https://news.ycombinator.com/item?id=28797129
+
+It's fantastic
+
+Shift+F11 for fullscreen
+Shift+F12 to un-fullscreen
+
 #  Live CDs / Boot CDs (installation)
 
 ## Reactos

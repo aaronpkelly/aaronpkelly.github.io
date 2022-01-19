@@ -1,9 +1,17 @@
-TODO: Any information in this article that is GENERIC to ECS should be moved to
-the deployingADockerImageToECS article
+# about
+
+https://github.com/huginn/huginn
+
+> Huginn is a system for building agents that perform automated tasks for you online. They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server. You always know who has your data. You do.
 
 I want to talk about my experience with running Huginn, running a short-lived
 instance on https://labs.play-with-docker.com, and the installing and configuring
 a permanent instance of ECS.
+
+TODO: Any information in this article that is GENERIC to ECS should be moved to
+the deployingADockerImageToECS article
+
+
 
 # Trying it out
 
@@ -112,16 +120,8 @@ Due to your service having set the desired count of containers to `1`, a new
 task will be started soon. If all goes well, you should see that upon logging back in to the
 container, that your data was saved successfully.
 
-
-
-
-
-
-
-
-
-
-
-
-
 tags: huginn, automation, aws, docker, ecs, ecr
+
+# see also
+
+[[cron]]

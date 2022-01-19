@@ -13,3 +13,16 @@ https://github.com/vishnubob/wait-for-it
 # aws ecs
 
 docker-compose has _integrated_ support for deploying to AWS ECS: https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available/
+
+# interactive shells (-it, docker-compose run)
+
+	The canonical way to get an interactive shell with docker-compose is to use:
+
+	```bash
+	docker-compose run --rm myapp
+	```
+
+	You can set `stdin_open: true, tty: true`, however that won't actually give you a proper shell with `up`, because logs are being streamed from all the containers.
+
+https://stackoverflow.com/questions/36249744/interactive-shell-using-docker-compose
+

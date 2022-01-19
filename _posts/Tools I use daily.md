@@ -18,18 +18,35 @@ A lot of these tools have been found via a combination of searching on https://n
 ~ : in danger of being removed due to non-use
 
 # audio
-- [[cvlc]]: command-line version of vlc. the curses view is great: `cvlc -I curses [FILE/URI]`
-- mpg123: quick and dirty mp3 player
-- ogg123:  quick and dirty ogg player
+
 ~ cmus
 ~ moc
 
+- https://sr.ht/~tenacity/tenacity/ : Our project initially started as a fork of [Audacity](https://audacityteam.org) as a result of multiple controversies and public relation crises
+
 # audio + video
 - kodi: excellent media server, connect it to a remote seedbox and you have a movie library on the cloud
+- gnome-sound-recorder: when you need to record some audio quickly - it's great!
 - [[mplayer]] fantastic general audio and video player
-- mplayer
+- opusTools: the ultimate lossy encoding format - Opus replaces both Vorbis and Speex
 - mpv (drew [uses](https://drewdevault.com/2020/12/12/Shell-literacy.html) it
-- vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]]) 
+- vlc
+	- cvlc: command-line version of vlc. the curses view is great: `cvlc -I curses [FILE/URI]`
+
+I also have a love affair for these programs:
+- mpg123 - Fast console MPEG Audio Player and decoder library
+- ogg123 (nix: vorbis-tools): Extra tools for Ogg-Vorbis audio codec
+	- NOTE: OPUS has replaced ogg vorbis and speex
+
+~ cmus
+~ moc
+
+## DAWs
+
+- ableton (windows only)
+- bitwig-studio (linux)
+	- on linux, there's also https://www.tracktion.com/
+	- and https://ardour.org/
 
 # browsers
 - firefox / firefox dev browser:

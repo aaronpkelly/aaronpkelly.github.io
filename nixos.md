@@ -1,9 +1,54 @@
 # why i like NixOS
 
 I think I finally worked out why I like this operating system so much:
-- your entire operating system can act like a docker container with `nix-shell -p <package>`
+- your entire operating system is reproducible from config files
+- you you easily setup sandboxed developer environments using  `nix-shell -p <package>`
+	- this is even easier and faster than using docker containers
 	- as soon as you exit the shell, there are no left-over side-effects from using the package (apart from areas Nix doesn't manage such as user data)
-	- you can have multiple versions of a package installed easily
+- nix can build *reproducible* docker images, with all dependencies already defined
+	- when building a docker image, you don't have that guarantee:
+		-  "Docker is a tool that lets you package a Linux distribution and roll it out on any random server cleanly and safely. But the stuff inside that distribution is still very much bespoke and unmaintainable."
+- you can have multiple versions of a package installed easily, no need for messy python virtualenvs etc
+- 
+
+# why i don't like NixOs
+
+these are all separate but sound semantically similar:
+
+- nix the OS (nixOs)
+- nix the package manager
+- nix the language
+
+- dependencies that are not already built + cached on hydra will be built by from source on your local machine
+	- if you don't have enough memory, you can't built these dependencies
+	- you have to wait until the dependency is built on hydra, which depending on the queue wait times could be a couple of days!
+- the nix language is very difficult to learn
+
+# packages not being updated?
+
+this command:
+
+	sudo nixos-rebuild switch --upgrade
+	
+only runs against the `nixos` channel.
+
+Even then, it seems to STILL not run properly.
+
+If you want to update all the channels you are subscribed to, you need to:
+	
+	'nix-channel --update'
+	
+
+
+# searching for older packages
+
+searching for older packages: https://lazamar.co.uk/nix-versions/?package=libdrm&version=2.4.106&fullName=libdrm-2.4.106&keyName=libdrm&revision=860b56be91fb874d48e23a950815969a7b832fbc&channel=nixpkgs-unstable#instructions
+
+# support + searching Matrix for keywords
+
+for comms they use an app called "matrix", you can search all the rooms for keywords
+
+https://nixos.wiki/wiki/Support -> https://matrix.to/#/#nix:nixos.org
 
 # binaries
 Downloading and attempting to run a binary on NixOS will almost never work.
@@ -104,12 +149,12 @@ you will need to install a jdk package (e.g. `jdk11`, which is the [recommended]
 
 to find it:
 
-```
-readlink -f $(which java)
-/nix/store/48ddc74sdlinbg5q5655i4z8kp6xasb0-openjdk-11.0.9+11/lib/openjdk/bin/java
-```
+	readlink -f $(which java)
+	/nix/store/48ddc74sdlinbg5q5655i4z8kp6xasb0-openjdk-11.0.9+11/lib/openjdk/bin/java
 
-In that location there will be a `lib/openjdk` folder somewher. So in IntelliJ, give the location `/nix/store/ws8wlx376m3g8wa9h6x7qxjpixhqxzc3-openjdk-14.0.2-ga/lib/openjdk`
+In that location there should be a `./lib/openjdk` folder. So, give Intellij that location:
+
+	/nix/store/ws8wlx376m3g8wa9h6x7qxjpixhqxzc3-openjdk-14.0.2-ga/lib/openjdk
 
 # brightness and backlight
 for brightness i have [[scripts]] for xrandr
@@ -159,7 +204,8 @@ $ xrdb ~/.Xresources
 
 more info about X resources is [here](https://wiki.archlinux.org/index.php/x_resources)
 
-# wifi
+# networking
+## wifi
 
 i had to use networkmanager to use my wifi on my dell
 
@@ -188,6 +234,60 @@ networking.hostName = "nixos"; # Define your hostname.
 ```
 
 then i used `nmtui` from the command-line
+
+## forcing a connection to a 5Ghz band
+
+check what wifi endpoints are available, look at the frequencies:
+
+	❯ wpa_cli
+	wpa_cli v2.9
+	Copyright (c) 2004-2019, Jouni Malinen <j@w1.fi> and contributors
+
+	This software may be distributed under the terms of the BSD license.
+	See README for more details.
+
+
+	Selected interface 'p2p-dev-wlp58s0'
+
+	Interactive mode
+
+	> scan
+	OK
+	> scan_results
+	bssid / frequency / signal level / flags / ssid
+	5c:b1:3e:5b:f5:75	5260	-80	[WPA2-PSK-CCMP][WPS][ESS]	eir53425846
+	5e:b1:3e:5b:f6:76	5260	-80	[WPA2-PSK-CCMP][ESS]	\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+	fa:8f:ca:3c:7c:33	5260	-61	[ESS]	
+	5c:b1:3e:5b:f5:74	2462	-81	[WPA2-PSK-CCMP][WPS][ESS]	eir53425846
+	5e:b1:3e:5b:f7:75	2462	-81	[WPA2-EAP-CCMP-preauth][ESS]	eir_WiFi
+	b0:39:56:d5:dd:b4	2462	-81	[WPA2-PSK-CCMP][WPS][ESS]	ARLO_VMB_1591612056
+
+The `eir53425846` is bssid offers both 2.4 and 5.2 Ghz networks, but it uses the same bssid for both. In order to force the connection to the 5.2Ghz network, use `extraConfig` to insert a wpa_supplicant specific option - `freq_list`:
+
+	networking.wireless = {
+		...
+
+		# only connect to 5Ghz connectin points
+		extraConfig = ''
+		  freq_list=5260
+		'';
+	  };
+
+You can check you're on the 5Ghz network by checking the frequency of your wifi interface:
+
+	> iwconfig
+	lo        no wireless extensions.
+
+	wlp58s0   IEEE 802.11  ESSID:"eir53425846"
+			  Mode:Managed  Frequency:5.26 GHz  Access Point: 5C:B1:3E:5B:F5:75
+			  Bit Rate=117 Mb/s   Tx-Power=20 dBm
+			  Retry short limit:7   RTS thr:off   Fragment thr:off
+			  Power Management:off
+			  Link Quality=28/70  Signal level=-82 dBm
+			  Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+			  Tx excessive retries:0  Invalid misc:22   Missed beacon:0
+
+	docker0   no wireless extensions.
 
 # erasing my darlings
 
@@ -610,3 +710,36 @@ see https://nixos.org/manual/nixos/stable/index.html#sec-upgrading
 # see also
 
 a gred nixos playlist on youtube (thank you Fred): https://www.youtube.com/playlist?list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs
+
+## resources
+
+https://nixos.wiki/wiki/Cheatsheet - nix cheat sheet
+
+https://nixos.org/nix/manual/ - nix manual
+
+https://nixos.org/nixos/manual/ - nixos manual
+
+https://nixos.org/manual/nixos/stable/options.html - nixos manual - appendix a - options
+
+https://nixos.org/nixpkgs/manual/ - nixpkgs manual
+
+https://nixos.wiki/ - nixos wiki
+
+https://search.nixos.org/ - nixos package search
+	
+https://search.nixos.org/options nixos options search
+
+https://rycee.gitlab.io/home-manager/options.html home manager options
+
+https://search.nixos.org/flakes nixos flakes search
+
+## learning
+
+This guy has a great series of blog posts on Nix+NixOS: https://myme.no/posts.html, such as:
+
+- https://myme.no/posts/2020-01-26-nixos-for-development.html - nixos for development, great intro guide
+
+There's also these, which are slightly more intermediate:
+
+- https://github.com/justinwoo/nix-shorts - 6 easy introductory nix articles
+- https://nixos.org/guides/nix-pills - These articles are not a tutorial on using Nix. Instead, we're going to walk through the Nix system to understand the fundamentals.

@@ -6,7 +6,15 @@
 
 # history of features
 
-great article (probably from hn): https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-16/
+https://advancedweb.hu/new-language-features-since-java-8-to-17/
+
+## whats new
+
+these oracle-provided "whats new" pages are great, but they don't seem to provide them for all JDKs: https://www.oracle.com/java/technologies/javase/8-whats-new.html
+
+# learning
+
+the oracle-written The Java™ Tutorials are very sufficient. They are written for JDK8: https://docs.oracle.com/javase/tutorial/java/index.html
 
 # repl
 

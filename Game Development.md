@@ -3,6 +3,12 @@ http://gameprogrammingpatterns.com/contents.html
 
 Track your progress on https://todo.sr.ht/~aaronkelly/gamedev/14
 
+## graphics
+https://www.gabrielgambetta.com/computer-graphics-from-scratch/index.html
+
+## networking
+
+https://www.gabrielgambetta.com/client-server-game-architecture.html
 
 # bookmarks
 https://gamedev.stackexchange.com/questions?sort=votes

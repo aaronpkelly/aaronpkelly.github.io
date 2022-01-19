@@ -8,6 +8,10 @@ you have monthly, weekly and daily, and hourly snapshots
 
 	zfs destroy <SNAPSHOT>
 	
+## delete all snapshots
+
+	zfs list -H -o name -t snapshot | sudo xargs -n1 zfs destroy
+	
 ## or just configure the number of snapshots to keep
 
 	zfs-auto-snapshot monthly 1

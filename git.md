@@ -1,3 +1,9 @@
+# magit
+
+it makes every git operation easy: https://news.ycombinator.com/item?id=28954058
+
+you need emacs for using native magit, but VSCODE has an extension called edamagit
+
 # git hooks
 
 Symlink your git hooks folder so that you commit them as part of your project as

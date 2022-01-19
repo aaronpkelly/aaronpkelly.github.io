@@ -30,7 +30,9 @@
 - on the other hand if you give me code that does not work, but I can understand it, I can make it work.
 - it is much more important that your *peers* are able to understand the code you wrote, than the computer
 
+## talk I like
 
+[# You Suck at Excel with Joel Spolsky](https://www.youtube.com/watch?v=0nbkaYsR94c)
 	
 # See also
 [[Development]]

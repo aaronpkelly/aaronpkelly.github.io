@@ -32,7 +32,14 @@ Allows you to select multiple results with `TAB`. Pressing `ENTER` will echo the
 # Useful fzf queries
 Note: most of the below queries will by default have the `--multi` (`-m`) option enabled.
 
-# find in file (put this in API if it looks useful):
+
+## find and run progrem (e.g. midi player)
+
+Here you go, a midi player which can easily search through 1000's of files
+
+	fzf --multi --preview 'timidity {}'
+
+## find in file (put this in API if it looks useful):
 
 ```
 #!/bin/bash

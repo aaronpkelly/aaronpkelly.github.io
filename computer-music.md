@@ -9,6 +9,8 @@ I've always like the thought of generating my own music using code
 
 Stuff like this is really relaxing: https://generative.fm/, kind of reminds me of the Minecraft soundtracks.
 
+very fun: https://experiments.withgoogle.com/ai/drum-machine/view/
+
 # Machine learning
 
 I've never tried this, but it's available:

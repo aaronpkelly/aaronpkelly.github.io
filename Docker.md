@@ -11,6 +11,10 @@ Handy to know:
 
 https://docs.docker.com/engine/reference/commandline/build/#git-repositories
 
+## exploring each layer of a docker image 
+
+https://github.com/wagoodman/dive
+
 # Networking
 Bind webapps inside a container to `0.0.0.0`. Don't bind to `127.0.0.1` or `localhost` - those addresses will  still point inside the container.
 
