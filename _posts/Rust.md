@@ -1,4 +1,15 @@
-# rust
+# pros and cons
+
+## pros
+
+- amazingly fast, performance is unparalleled
+- amazingly safe
+
+## cons
+
+- can be amazingly complicated
+
+# projects
 Keep track of your todo's: https://todo.sr.ht/~aaronkelly/programming/1
 
 The official docs are great. And funny! Whoever writes them has a great sense of humour****.

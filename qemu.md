@@ -4,10 +4,17 @@
 
 https://news.ycombinator.com/item?id=28797129
 
-It's fantastic
+usage:
 
-Shift+F11 for fullscreen
-Shift+F12 to un-fullscreen
+	# get a vm	
+	quickget ubuntu-mate impish
+	# start
+	quickemu --vm ubuntu-mate-impish.conf
+
+shortcuts:
+
+- Shift+F11 for fullscreen
+- Shift+F12 to un-fullscreen
 
 #  Live CDs / Boot CDs (installation)
 

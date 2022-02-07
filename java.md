@@ -16,14 +16,6 @@ these oracle-provided "whats new" pages are great, but they don't seem to provid
 
 the oracle-written The Java™ Tutorials are very sufficient. They are written for JDK8: https://docs.oracle.com/javase/tutorial/java/index.html
 
-# repl
-
-this is the easiest way I've found to run a REPL of a java program. Run this in one window:
-
-	watch javac 'IsUnique.java && java IsUnique'
-
-Then edit your file in another. You'll get output every 2s by default
-
 # uis
 ## swing
 It's used by IntelliJ to build their IDE - probably the only success story of swing :P

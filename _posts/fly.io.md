@@ -166,3 +166,11 @@ I was able to reach my app immediately:
 My API doesn't have a nice web frontend, but you could try deploying your own webapp or one of the popular images from [https://hub.docker.com/](https://hub.docker.com/). 
 
 Once its deployed, all you need to do then is run `flyctl open`, and the app will open in your browser.
+
+# running pre-built images on fly.io (e.g. from hub.docker.com)
+
+should be as easy as this:
+
+	flyctl launch --image $NAME
+
+	

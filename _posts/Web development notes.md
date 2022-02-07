@@ -100,6 +100,12 @@ https://www.codiva.io - fugly way to create java classes
 https://www.compilr.com/ - security warning
 https://www.mycompiler.io/ - didn't load
 
+## HTTPRequest testing
+
+https://httpbin.org/ - UNREAL - does everything?
+http://ptsv2.com/ - POST and GET test server
+
+
 ## notebooks
 
 https://en.wikipedia.org/wiki/Notebook_interface
