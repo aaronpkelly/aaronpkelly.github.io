@@ -1,10 +1,8 @@
-I am just really happy with this tool.
-
-I know it's meant primarily as a "video player", but it has amazing support for many audio formats, and best of all it's FAST.
+My favourite media player at the moment, even better than VLC
 
 It's command-line only, the GUI front-ends are separate.
 
-For some reason, as a GENERAL AUDIO PLAYER - I prefer running this over CVLC! Why is that? ...
+I know it's meant primarily as a "video player", but it has amazing support for many audio formats, and best of all it's FAST. This means its a great GENERAL AUDIO PLAYER.
 
 One con I've found - this tool doesn't support `pls` files :(
 

@@ -1,3 +1,4 @@
+
 # High-level financial goals
 - Max out your pension contributions
 - Pay rent, invest the rest
@@ -171,6 +172,10 @@ never failed to rise.
 - Compound interest is the 8th wonder of the world
 - Pay yourself first
 - Make your money work for you
+
+## how the stock market works
+a nice article (via https://news.ycombinator.com/item?id=30329148): https://betterexplained.com/articles/what-you-should-know-about-the-stock-market/
+
 
 ## Research tools
 ### Fund research

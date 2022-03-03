@@ -173,4 +173,6 @@ should be as easy as this:
 
 	flyctl launch --image $NAME
 
-	
+# phoenix liveview
+
+there is some love affair between fly.io and [[Phoenix Liveview]]

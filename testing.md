@@ -2,7 +2,7 @@
 
 I really like this visualisation:
 
-![Automated Testing Pyramid](https://www.aripd.com/assets/img/common/posts/automated-testing-pyramid.jpg "https://www.aripd.com/posts/testing/")
+![Automated Testing Pyramid](https://www.aripd.com/assets/img/common/posts/automated-testing-pyramid.webp)
 
 In regards to definitions, this coderanch article is neat: https://coderanch.com/wiki/718795/Unit-Testing
 
@@ -87,3 +87,7 @@ Where do the next ones come in?
 # See also
 
 [behaviour driven development (BDD)](behaviour%20driven%20development%20(BDD).md)
+
+[tdd (test-driven development)](tdd%20(test-driven%20development).md)
+
+[refactoring legacy code](refactoring%20legacy%20code.md)

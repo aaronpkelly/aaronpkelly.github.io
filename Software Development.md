@@ -33,8 +33,16 @@
 ## talk I like
 
 [# You Suck at Excel with Joel Spolsky](https://www.youtube.com/watch?v=0nbkaYsR94c)
-	
+
+# manifestos
+
+The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/item?id=3267187)
+
 # See also
+
 [[Development]]
 [[workflows]]
+[testing](testing.md)
 [[Software Craftmanship Movement]]
+[[Code books to read]]
+[AWS well architected framework](AWS%20well%20architected%20framework.md)

@@ -131,7 +131,6 @@ https://labs.play-with-docker.com/ - an excellent free environment for running d
 See [IDEs](IDEs.md)
 
 ## Manifestos
-The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/item?id=3267187)
 
 ## Comments (lightweight)
 https://fastcomments.com/

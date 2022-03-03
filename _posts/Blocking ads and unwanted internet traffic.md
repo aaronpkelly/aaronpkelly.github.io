@@ -97,6 +97,17 @@ tail: '/etc/hosts.youtube' has been replaced;  following new file
 
 I don't use this script anymore, because I find the blocklists I use above do a good enough job already, but you may want to check it out
 
+# ublock filters
+
+## dev-filter (remove copycat sites)
+
+https://news.ycombinator.com/item?id=30374905 -> https://github.com/quenhus/uBlock-Origin-dev-filter
+
+## web annoyances ultralist
+
+https://github.com/yourduskquibbles/webannoyances -> https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
+
+
 # Using alternative sites
 There's no need for ad-blocking if your site doesn't serve ads at all!
 

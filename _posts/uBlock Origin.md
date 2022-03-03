@@ -15,13 +15,8 @@ the wiki is phenomenal: https://github.com/gorhill/uBlock/wiki
 set everything set to nightmare mode
 
 # filter lists
-https://raw.githubusercontent.com/yourduskquibbles/webannoyances/master/ultralist.txt
 
-My filters:
-
-My rules:
-
-Whitelist:
+see [Blocking ads and unwanted internet traffic](Blocking%20ads%20and%20unwanted%20internet%20traffic.md)
 
 # shortcuts
 

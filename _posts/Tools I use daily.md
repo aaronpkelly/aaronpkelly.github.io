@@ -55,7 +55,7 @@ I also have a love affair for these programs:
     - addons: same as firefox, but replace tree-style tabs with Tabs Outliner
 
 ## Extensions/addons# Audio and video
-- mplayer
+- [[mplayer]]
 - vlc (run in ncurses mode for a great command-line experience) (see [[cvlc]]) p
 [[fraidyc.at]]
 

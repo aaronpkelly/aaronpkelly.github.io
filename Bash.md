@@ -10,7 +10,7 @@ But i dont have time right now
 
 ## Passing a single argument to multiple programs
 Given one input string, I wanted to:
-- pass the input to two seperate programs
+- pass the input to two separate programs
 - format my output, putting the result of the two commands on the same line
 
 ```

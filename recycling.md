@@ -1,19 +1,13 @@
 # bnm
 https://www.bnmrecycling.ie/home/what-goes-in-my-bin/
 
-# other
+# repak - much better resource (with posters!)
 https://repak.ie/recycling/what-can-i-recycle/
 https://repak.ie/recycling/what-does-not-go-in-recycling-bin/
 https://repak.ie/recycling/how-to-recycle-tips-faq/
 
+# other
 https://www.cleanireland.ie/recycling-list/
-
-
-
-# recycling symbols
-
-https://repak.ie/recycling/recycling-symbols/
-https://www.mywaste.ie/what-do-all-of-these-different-symbols-mean/
 
 # soft plastics accepted as of 6th Sep 2021!
 https://www.irishtimes.com/news/environment/household-recycling-upgrade-accepts-soft-plastics-1.4665622
@@ -38,3 +32,9 @@ https://www.mywaste.ie/great-news/
 > 
 > **These simple change to our recycling habits can therefore have an impact on our recycling rates. It will now be much easier for householders to sort waste – remembering, that all clean, dry and loose plastic packaging, both soft and rigid, can go into our recycling bins.**
 
+# recycling symbols
+
+in ireland, you don't really need to worry about these so much because of the change to soft plastics (see section). but anyway, here they are:
+
+https://repak.ie/recycling/recycling-symbols/
+https://www.mywaste.ie/what-do-all-of-these-different-symbols-mean/

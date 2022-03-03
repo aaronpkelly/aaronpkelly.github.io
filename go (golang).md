@@ -24,6 +24,9 @@
 
 # unofficial resources
 
+bitfield consulting: this guy is just super friendly and the blogs are great
+https://bitfieldconsulting.com/
+
 effective go
 https://golang.org/doc/effective_go
 

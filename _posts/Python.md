@@ -1,3 +1,7 @@
+# quotes
+
+> I remember that when I worked at Google about a decade ago, there was this common saying:
+> "If the first version of your shell script is more than five lines long, you should have written it in Python."
 
 # Path
 I wrote this script that uses `Path` to get the current directory, and I don't want to lose it.

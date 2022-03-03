@@ -7,6 +7,10 @@ Alternatively use a binary to do it:
 - rtorrent (linux)
 - qbittorrent (windows)
 
+## magazines
+
+https://downmagaz.net/ seems to be the most comprehensive for magazines, but the free download links are awful - they make you wait 10 mins
+
 # Seedboxes
 ## Seedr
 The only decent free service I've found so far.

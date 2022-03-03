@@ -10,7 +10,7 @@ The sections below apply to all aspects of development work
 - every project should be version controlled - in [[git]] preferably
 - every project should describe what it is and how it's built. Include a `README.md`, `Dockerfile` or a `.build.yml` for everything. Don't assume you or your readers will "remember" or "just understand" the point of the project. Time passes and you forget
 	- using containerisation meansyou can SWITCH cloud providers easily, all you need is cloud compute + docker
-- ideally, use [[tdd]] to drive all development. If you're just having fun/hacking/making a proof-of-concept, don't worry - just have fun. But if it gets serious... write them tests
+- ideally, use [[tdd (test-driven development)]] to drive all development. If you're just having fun/hacking/making a proof-of-concept, don't worry - just have fun. But if it gets serious... write them tests
 - every commit should trigger a test, build, and deploy loop -this is [[cicd]] baby! If you're working on a project this loop is essential to keep you interested. DEPLOY IT. MAKE IT RUN. MAKE IT REAL
 - use LISTS and ISSUE TRACKERS for tracking your progress on each of your projects. I use the tools on [[sr.ht]] 
 - use markdown to keep track of your thought on every topic. These notes will be like a second brain. Use a tool to help you organise these thoughts - I like Obsidian

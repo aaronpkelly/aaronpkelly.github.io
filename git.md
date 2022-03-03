@@ -1,6 +1,25 @@
-# magit
+# repo browsers
+
+## tig
+
+https://en.wikipedia.org/wiki/Tig_(software)
+
+> **Tig** is an [ncurses](https://en.wikipedia.org/wiki/Ncurses "Ncurses")-based [text-mode interface](https://en.wikipedia.org/wiki/Text-based_user_interface "Text-based user interface") for [git](https://en.wikipedia.org/wiki/Git "Git").[[1]](https://en.wikipedia.org/wiki/Tig_(software)#cite_note-Alders2019-1)[[2]](https://en.wikipedia.org/wiki/Tig_(software)#cite_note-Kili2018-2) It functions mainly as a Git repository browser, but can also assist in staging changes for commit at chunk level and act as a [pager](https://en.wikipedia.org/wiki/Terminal_pager "Terminal pager") for output from various Git commands
+
+## lazygit
+
+## magit
 
 it makes every git operation easy: https://news.ycombinator.com/item?id=28954058
+
+## gitk (GUI)
+
+> gitk - The Git repository browser
+
+## see also
+
+https://en.wikipedia.org/wiki/Comparison_of_Git_GUIs
+
 
 you need emacs for using native magit, but VSCODE has an extension called edamagit
 
