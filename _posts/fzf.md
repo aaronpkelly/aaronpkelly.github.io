@@ -23,17 +23,21 @@ In my `zsh` shell these weren't enabled by default, maybe one day I'll figure ou
 ## Killer features
 These options are what make `fzf` great for me
 
-### --preview
-Opens a preview pane to view the output of the command. The preview pane also supports ANSI colours, so you can use any program that takes full advantage of this (syntax highlighting...)
-
-### --multi (-m)
-Allows you to select multiple results with `TAB`. Pressing `ENTER` will echo the results back you to your terminal, or optionally, can be passed to a program.
+	--preview
+	Opens a preview pane to view the output of the command. The preview pane also supports ANSI colours, so you can use any program that takes full advantage of this (syntax highlighting...)
+	
+	--multi (-m)
+	Allows you to select multiple results with `TAB`. Pressing `ENTER` will echo the results back you to your terminal, or optionally, can be passed to a program.
 
 # Useful fzf queries
+
+NOTE: more programming-specific queries are in [A REPL for shell commands](A%20REPL%20for%20shell%20commands.md)
+
+
 Note: most of the below queries will by default have the `--multi` (`-m`) option enabled.
 
 
-## find and run progrem (e.g. midi player)
+## find and run program (e.g. midi player)
 
 Here you go, a midi player which can easily search through 1000's of files
 
@@ -146,4 +150,8 @@ man fzf
 
 # see also
 
+[[rga (ripgrep-all)]]
+
 [A REPL for shell commands](A%20REPL%20for%20shell%20commands.md)
+
+[Tools I use daily](Tools%20I%20use%20daily.md)

@@ -743,3 +743,7 @@ There's also these, which are slightly more intermediate:
 
 - https://github.com/justinwoo/nix-shorts - 6 easy introductory nix articles
 - https://nixos.org/guides/nix-pills - These articles are not a tutorial on using Nix. Instead, we're going to walk through the Nix system to understand the fundamentals.
+
+# see also
+
+[My First Nix Overlay](My%20First%20Nix%20Overlay.md)

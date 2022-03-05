@@ -25,12 +25,13 @@ I mant the Pi-hole to be my first line of defence. It has a powerful admin conso
 
 ## Blocklists
 
-Steven Black, this guy is sound: https://github.com/StevenBlack/hosts
+Steven Black, this guy is sound: 5
 Developer Dan, top bloke: https://www.github.developerdan.com/hosts/
 
 And here's all the blocklists I use, they are just taken from the above two sites:
 
-https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
+- https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
+- https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
 https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
 https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
 https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt

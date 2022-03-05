@@ -1,4 +1,88 @@
-# choosing an upstream DNS
+# setup
+
+TODO: maybe move this section to [raspberryPi](raspberryPi.md)
+
+## install Raspberry Pi OS
+
+Use the `Raspberry Pi Imager` tool if you can:
+- it give you a lot of different types of OS's to install
+- it can configure your SSH and WIFI credentials during the install
+- before selecting an OS, check which OSs are compatible with the various Pis: https://www.raspberrypi.com/software/operating-systems/
+	- be careful if you're using a Pi Zero W, as the 64-bit **_Raspberry Pi OS (64-bit)_** is not compatible with it!
+
+plug in your sd card reader, you should see empty mount points appear:
+
+	$ lsblk
+	sda                   8:0    1     0B  0 disk
+	sdb                   8:16   1     0B  0 disk
+	sdc                   8:32   1     0B  0 disk
+	sdd                   8:48   1     0B  0 disk
+
+As soon as you insert your SD card, you should immediately see the storage appear under one of these mount points:
+
+	$ lsblk
+	...
+	sda                 8:0    1  29.7G  0 disk
+	├─sda1              8:1    1  42.9M  0 part
+	└─sda2              8:2    1  29.7G  0 part
+
+You should now be able to run the `Raspberry Pi Imager`
+
+NixOS has the `rpi-imager` tool available, so you don't have to download anything:
+
+	nix-shell -p rpi-imager
+
+But currently I'm having a hard time using this tool on NixOS because that tool needs super access, and as soon as it's run with `sudo`, it crashes
+
+## configure 
+
+Login to your home router, e.g. http://192.168.1.254/2.0/gui/#/
+
+You should see the raspberry pi device connect and appear.
+
+Make sure you RESERVE the ip that was assigned to your raspberry pi, as pi-hole needs this
+
+ssh to it (try both):
+
+	ssh pi@192.168.1.91
+	ssh pi@raspberrypi
+
+you don't need to configure it, but you can if you want (https://www.raspberrypi.com/documentation/computers/configuration.html#raspi-config)
+
+	raspi-config
+
+
+# installing pi-hole
+
+The site is https://pi-hole.net/
+
+It's as easy as running the script on that site:
+
+	curl -sSL https://install.pi-hole.net | bash
+
+## configure devices to use pi-hole
+
+Once the script finished, it gives you everything you need to connect to the pi hole web admin page, and to setup your router to use the pihole's DNS:
+
+> Configure your devices to use the Pi-hole as their DNS server      │
+          │ using:                                                             │
+          │                                                                    │
+          │ IPv4:        192.168.1.91                                          │
+          │ IPv6:        2001:bb6:8f05:fb00:11a8:8ae:218f:68fc                 │
+          │                                                                    │
+          │ If you have not done so already, the above IP should be set to     │
+          │ static.                                                            │
+          │                                                                    │
+          │ View the web interface at http://pi.hole/admin or                  │
+          │ http://192.168.1.91/admin                                          │
+          │                                                                    │
+          │ Your Admin Webpage login password is VcqhY2Ty  
+
+## choosing an upstream DNS
+
+which one should you choose? I like OpenDNS, but you can test this
+
+
 a great tool: https://github.com/cleanbrowsing/dnsperftest 
 
 output:
@@ -22,21 +106,11 @@ cloudflare wins!
 
 Previously I had been using nextdns, but that was a bit overkill (twice the amount of overhead with respect to whitelists+blacklists+unblocking things)
 
-# installation end messages
+## blocklists!
 
-	Configure your devices to use the Pi-hole as their DNS server
+see [Blocking ads and unwanted internet traffic](Blocking%20ads%20and%20unwanted%20internet%20traffic.md)
 
-	IPv4:        192.168.0.59
-	IPv6:        2a02:8084:20c2:c180:c520:4c71:2efa:a80f
-	If you set a new IP address, you should restart the Pi.
-
-	View the web interface at http://pi.hole/admin or
-	  http://192.168.0.59/admin  
-
-	  Your Admin Webpage login password is ****
-
-
-# updating
+## updating
 to update the system:
 
 	$ pihole -up
@@ -45,7 +119,10 @@ to update gravity:
 
 	$ pihole -g
 
-# filesystem corruption
+
+# troubleshooting
+
+## filesystem corruption
 
 ## reinstall new raspbian image
 
@@ -109,8 +186,8 @@ normally, you could just do this on non-systemd systems (but not in this case):
 
 	touch /forcefsck
 	
-# sqlite database (gravity)
-## fixing corruption
+## sqlite database (gravity)
+### fixing corruption
 if you database is corrupted, just delete it, re-add your blocklists, and update your database again:
 
 	$ sudo rm /etc/pihole/gravity.db
@@ -169,3 +246,8 @@ if you database is corrupted, just delete it, re-add your blocklists, and update
 	  [✓] Pi-hole blocking is enabled
 	pi@raspberrypi:~ $ 
 	
+# see also
+
+[uBlock Origin](uBlock%20Origin.md)
+
+[Blocking ads and unwanted internet traffic](Blocking%20ads%20and%20unwanted%20internet%20traffic.md)
