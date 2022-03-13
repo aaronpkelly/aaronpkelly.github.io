@@ -24,7 +24,15 @@ these are all separate but sound semantically similar:
 	- you have to wait until the dependency is built on hydra, which depending on the queue wait times could be a couple of days!
 - the nix language is very difficult to learn
 
-# packages not being updated?
+# channels
+
+## searching for older packages
+
+searching for older packages: https://lazamar.co.uk/nix-versions/?package=libdrm&version=2.4.106&fullName=libdrm-2.4.106&keyName=libdrm&revision=860b56be91fb874d48e23a950815969a7b832fbc&channel=nixpkgs-unstable#instructions
+
+## troubleshooting
+
+### packages not being updated?
 
 this command:
 
@@ -37,12 +45,8 @@ Even then, it seems to STILL not run properly.
 If you want to update all the channels you are subscribed to, you need to:
 	
 	'nix-channel --update'
-	
 
 
-# searching for older packages
-
-searching for older packages: https://lazamar.co.uk/nix-versions/?package=libdrm&version=2.4.106&fullName=libdrm-2.4.106&keyName=libdrm&revision=860b56be91fb874d48e23a950815969a7b832fbc&channel=nixpkgs-unstable#instructions
 
 # support + searching Matrix for keywords
 

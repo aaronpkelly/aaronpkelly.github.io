@@ -7,9 +7,11 @@ https://blogtrottr.com/ will turn your get my RSS feeds turned into emails
 
 # No RSS feed provided?
 
-https://rssproxy.migor.org/ - HTML -> RSS. Extremely good
-
 http://createfeed.fivefilters.org/ - HTML -> RSS alternative
+
+https://rssproxy-v1.migor.org/ - HTML -> RSS. Extremely good
+
+
 
 Also https://news.ycombinator.com/item?id=23583629 > https://rssbox.herokuapp.com - a number of different supported sites 
 

@@ -87,7 +87,11 @@ more Linux alternatives can be found here: https://www.how2shout.com/tools/best-
 - total commander (windows)
 
 # File transfer
-https://github.com/schollz/croc - Easily and securely send things from one computer to another. Fantastic tool that just works
+
+- [CURL](CURL.md)
+- https://github.com/schollz/croc - Easily and securely send things from one computer to another. Fantastic tool that just works
+
+
 
 # IDEs
 [[VSCode]]

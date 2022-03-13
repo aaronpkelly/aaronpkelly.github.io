@@ -82,4 +82,4 @@ Anyway, it worked.
 
 # See also
 
-[nixos](nixos.md)]
+[nixos](nixos.md)

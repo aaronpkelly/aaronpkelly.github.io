@@ -6,6 +6,10 @@
 - https://github.com/jpochyla/psst - Fast and multi-platform Spotify client with native GUI
 - musikcube (windows)
 
+# images
+
+https://imagemagick.org/
+
 # secure file sending programs
 https://send.firefox.com/
 
@@ -19,23 +23,22 @@ https://webwormhole.io/ (magic wormhole over WebRTC!)
 
 https://wetransfer.com/ (not E2E)
 
-# p2p file transfer
-https://file.pizza
 
-https://instant.io
-
-https://www.sharedrop.io 
 
 # utilities
 diffuse - http://diffuse.sourceforge.net/about.html
 
 bat - https://github.com/sharkdp/bat/
 
+everything (windows) - https://www.voidtools.com/
+
 ripgrep - it's grep, but written in Rust, wants to be the fastest grep of all
 
 rga - it's ripgrep - but also search in PDFs, E-Books, Office documents, zip, tar.gz: https://news.ycombinator.com/item?id=25277280
 
 zipgrep - search inside zip archives!
+
+
 
 # others
 

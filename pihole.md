@@ -1,42 +1,10 @@
-# setup
+# setup and configuration of Pi-Hole
 
-TODO: maybe move this section to [raspberryPi](raspberryPi.md)
+## router IP reservation
 
-## install Raspberry Pi OS
+Install an operating system on your pi - see [raspberryPi](raspberryPi.md). Make sure to configure it with SSH enabled and WIFI passwords set.
 
-Use the `Raspberry Pi Imager` tool if you can:
-- it give you a lot of different types of OS's to install
-- it can configure your SSH and WIFI credentials during the install
-- before selecting an OS, check which OSs are compatible with the various Pis: https://www.raspberrypi.com/software/operating-systems/
-	- be careful if you're using a Pi Zero W, as the 64-bit **_Raspberry Pi OS (64-bit)_** is not compatible with it!
-
-plug in your sd card reader, you should see empty mount points appear:
-
-	$ lsblk
-	sda                   8:0    1     0B  0 disk
-	sdb                   8:16   1     0B  0 disk
-	sdc                   8:32   1     0B  0 disk
-	sdd                   8:48   1     0B  0 disk
-
-As soon as you insert your SD card, you should immediately see the storage appear under one of these mount points:
-
-	$ lsblk
-	...
-	sda                 8:0    1  29.7G  0 disk
-	├─sda1              8:1    1  42.9M  0 part
-	└─sda2              8:2    1  29.7G  0 part
-
-You should now be able to run the `Raspberry Pi Imager`
-
-NixOS has the `rpi-imager` tool available, so you don't have to download anything:
-
-	nix-shell -p rpi-imager
-
-But currently I'm having a hard time using this tool on NixOS because that tool needs super access, and as soon as it's run with `sudo`, it crashes
-
-## configure 
-
-Login to your home router, e.g. http://192.168.1.254/2.0/gui/#/
+Once that's done, login to your home router, e.g. http://192.168.1.254/2.0/gui/#/
 
 You should see the raspberry pi device connect and appear.
 
@@ -51,16 +19,13 @@ you don't need to configure it, but you can if you want (https://www.raspberrypi
 
 	raspi-config
 
-
-# installing pi-hole
-
 The site is https://pi-hole.net/
 
 It's as easy as running the script on that site:
 
 	curl -sSL https://install.pi-hole.net | bash
 
-## configure devices to use pi-hole
+## configure router to use pi-hole
 
 Once the script finished, it gives you everything you need to connect to the pi hole web admin page, and to setup your router to use the pihole's DNS:
 
@@ -77,6 +42,16 @@ Once the script finished, it gives you everything you need to connect to the pi 
           │ http://192.168.1.91/admin                                          │
           │                                                                    │
           │ Your Admin Webpage login password is VcqhY2Ty  
+
+### Router has no custom DNS server option? Using the PI as a DHCP server
+
+I have a problem in that I'm not able to set a custom DNS server on my rounter. Thankfully, there is a way around this...
+
+Your router needs to be able to let set a custom DNS server, which is needed in order to point all DNS requests to the [pihole](pihole.md).
+
+If it can't do that, it's not the end of the world. Their documentation gives a workaround - most rounters WILL allow you to set a custom DHCP server (in charge of handing out IP addresses), and a DHCP server can also function as a DNS server. As my router DOES allow me to set a custom DHCP server, I was able to choose this.
+
+After enabling the DHCP option in the pi-hole, and then giving its IP to my router - I could see requests from all devices in my home start arriving into the pi-hole. Winning!
 
 ## choosing an upstream DNS
 
@@ -106,7 +81,7 @@ cloudflare wins!
 
 Previously I had been using nextdns, but that was a bit overkill (twice the amount of overhead with respect to whitelists+blacklists+unblocking things)
 
-## blocklists!
+## blocklists
 
 see [Blocking ads and unwanted internet traffic](Blocking%20ads%20and%20unwanted%20internet%20traffic.md)
 
@@ -118,7 +93,6 @@ to update the system:
 to update gravity:
 
 	$ pihole -g
-
 
 # troubleshooting
 

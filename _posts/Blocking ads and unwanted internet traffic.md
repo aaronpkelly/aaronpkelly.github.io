@@ -25,23 +25,21 @@ I mant the Pi-hole to be my first line of defence. It has a powerful admin conso
 
 ## Blocklists
 
-Steven Black, this guy is sound: 5
+### Steven Black
+
+Steven Black, this guy is sound: https://github.com/StevenBlack/hosts
+
+i use his biggest blocklist: - https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
+
+you may find you have to WHITELIST many sites on Pi-Hole after applying that blocklist, but I don't mind doing that
+
+### Developer Dan
+
 Developer Dan, top bloke: https://www.github.developerdan.com/hosts/
 
-And here's all the blocklists I use, they are just taken from the above two sites:
+He doesn't have a combined list, so I use all his lists. I even use his most aggressive list, and I have no problems with it
 
-- https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
-- https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts
-https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
-https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
-https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
-https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
-
-Although this blocklist is marked as being very agressive in what it blocks, I am currently using it and I have no problems:
-
-https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
-
-## whilelist
+## my current whitelist
 
 `(\.|^)whatsapp\.com$`
 
@@ -49,18 +47,10 @@ https://www.github.developerdan.com/hosts/lists/tracking-aggressive-extended.txt
 
 `(\.|^)cdninstagram\.com$`
 
-## blacklist
+## my current blacklist
 `(\.|^)enthusiast\.gg$`
 
-## Router has no custom DNS server option? Using the PI as a DHCP server
 
-I have a problem in that I'm not able to set a custom DNS server on my rounter. Thankfully, there is a way around this...
-
-Your router needs to be able to let set a custom DNS server, which is needed in order to point all DNS requests to the pi-hole.
-
-If it can't do that, it's not the end of the world. Their documentation gives a workaround - most rounters WILL allow you to set a custom DHCP server (in charge of handing out IP addresses), and a DHCP server can also function as a DNS server. As my router DOES allow me to set a custom DHCP server, I was able to choose this.
-
-After enabling the DHCP option in the pi-hole, and then giving its IP to my router - I could see requests from all devices in my home start arriving into the pi-hole. Winning!
 
 ## Filtering tricky same-domain ads (e.g. Youtube)
 

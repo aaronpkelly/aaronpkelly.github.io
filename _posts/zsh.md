@@ -29,3 +29,9 @@ sudo cp -R .local/share/fonts /usr/local/
 heavy inspiration from https://forum.manjaro.org/t/zsh-history-file-without-duplicates/123317
 
 https://git.sr.ht/~aaronkelly/dotfiles/tree/master/.zshrc
+
+# plugins!
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins
+
+once I try them all I'll put a list here

@@ -46,3 +46,4 @@ The Twelve-Factor App: https://www.12factor.net/ (https://news.ycombinator.com/i
 [[Software Craftmanship Movement]]
 [[Code books to read]]
 [AWS well architected framework](AWS%20well%20architected%20framework.md)
+[My software projects](My%20software%20projects.md)

@@ -1,3 +1,43 @@
+# why pi
+
+I currently use Pis for:
+- [pihole](pihole.md)
+
+# install Raspberry Pi OS
+
+
+## Raspberry Pi Imager
+
+Use the `Raspberry Pi Imager` tool if you can:
+- it give you a lot of different types of OS's to install
+- it can configure your SSH and WIFI credentials during the install
+- before selecting an OS, check which OSs are compatible with the various Pis: https://www.raspberrypi.com/software/operating-systems/
+	- be careful if you're using a Pi Zero W, as the 64-bit **_Raspberry Pi OS (64-bit)_** is not compatible with it!
+
+plug in your sd card reader, you should see empty mount points appear:
+
+	$ lsblk
+	sda                   8:0    1     0B  0 disk
+	sdb                   8:16   1     0B  0 disk
+	sdc                   8:32   1     0B  0 disk
+	sdd                   8:48   1     0B  0 disk
+
+As soon as you insert your SD card, you should immediately see the storage appear under one of these mount points:
+
+	$ lsblk
+	...
+	sda                 8:0    1  29.7G  0 disk
+	├─sda1              8:1    1  42.9M  0 part
+	└─sda2              8:2    1  29.7G  0 part
+
+You should now be able to run the `Raspberry Pi Imager`
+
+NixOS has the `rpi-imager` tool available, so you don't have to download anything:
+
+	nix-shell -p rpi-imager
+
+But currently I'm having a hard time using this tool on NixOS because that tool needs super access, and as soon as it's run with `sudo`, it crashes
+
 # browser
 I had to edit /etc/resolv.conf because of slow loading times, I appended the
 following to the file:
@@ -52,7 +92,5 @@ e.g. if the local 192.168.1.100, the port number used for forwarding will be:
 100^2 = 10000
 
 # see also
-
-[pihole](pihole.md)
 
 [computers](computers)
