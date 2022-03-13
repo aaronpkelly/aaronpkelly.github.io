@@ -1,7 +1,7 @@
 ---
 title: Sending email with CURL
 description: How to send email easily with CURL
-date: 2020-01-06
+date: 2022-03-13
 tags:
   - cron
   - curl
