@@ -19,7 +19,7 @@ However, even though my git scraping project would detect the changes and commit
 
 So, the easiest alert I thought of would be... to send myself an email. But could I do this inside the github workflow?
 
-Yes, I could.
+Yes, I could. I found [this article](https://everything.curl.dev/usingcurl/smtp) which helped give me the solution.
 
 First, inside the workflow, a `mail.txt` needs to be assembled:
 
@@ -39,6 +39,8 @@ And then the `mail.txt` could be sent to my email address using some specific CU
         --upload-file mail.txt
 
 In my case, I'm using values that are particular to Fastmail, and also a _Third-party apps_ password which I generated on Fastmail.
+
+
 
 # See also
 
