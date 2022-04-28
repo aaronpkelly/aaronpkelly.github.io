@@ -27,6 +27,13 @@ A good example: https://obsidian.md/
 - hard to remember the command to "run" an application, usually have to type `flatpak list` first to get the package name, then type `flatpak run <package-name>`
 - got some negative press over its sandbox security
 
+### nixos setup
+
+https://flatpak.org/setup/NixOS
+
+	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 ## Snaps
+
 - Require a 'snap store' to be installed on your system
 - unpopular due to Canonical's dark pattern of silently redirecting `apt-get install <package>` to install snaps from their snap store

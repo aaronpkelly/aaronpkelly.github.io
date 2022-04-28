@@ -161,7 +161,7 @@ In that location there should be a `./lib/openjdk` folder. So, give Intellij tha
 	/nix/store/ws8wlx376m3g8wa9h6x7qxjpixhqxzc3-openjdk-14.0.2-ga/lib/openjdk
 
 # brightness and backlight
-for brightness i have [[scripts]] for xrandr
+for brightness i have [[Misc scripts, tampermonkey scripts,  and bookmarklets]] for xrandr
 
 but i don't have a good solution for the backlight yet, i'm doing reading https://nixos.wiki/wiki/Backlight and doing this:
 

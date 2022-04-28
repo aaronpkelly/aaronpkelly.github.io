@@ -127,4 +127,10 @@ Oh shit, Git!? (reversing common git commit mistakes) - https://news.ycombinator
 
 # git articles
 
+## branching models
+
 https://nvie.com/posts/a-successful-git-branching-model/
+
+## rebase vs merge
+
+https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing

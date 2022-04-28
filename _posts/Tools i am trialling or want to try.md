@@ -5,6 +5,7 @@
 - [spotify-tui](https://github.com/Rigellute/spotify-tui): another spotify cli
 - https://github.com/jpochyla/psst - Fast and multi-platform Spotify client with native GUI
 - musikcube (windows)
+- https://www.navidrome.org/ (self-hosted music streaming)
 
 # images
 
@@ -29,6 +30,8 @@ https://wetransfer.com/ (not E2E)
 diffuse - http://diffuse.sourceforge.net/about.html
 
 bat - https://github.com/sharkdp/bat/
+
+entr: http://eradman.com/entrproject/
 
 everything (windows) - https://www.voidtools.com/
 

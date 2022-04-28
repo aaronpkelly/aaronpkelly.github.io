@@ -54,7 +54,9 @@ this is needed if using i3:
 feh --bg-scale <PATH_TO_IMAGE>
 ```
 
-there's some good ones on artstation.com (e.g. 'hacker bedroom')
+there's some good ones on:
+- artstation.com (e.g. 'hacker bedroom')
+- or [Surface of the Planets](https://bogoljubov.artstation.com/projects/RXaYX)
 
 # turning off x
 ```

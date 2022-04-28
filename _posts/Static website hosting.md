@@ -61,3 +61,6 @@ I have a bunch of other pet projects that I occasionally work on from time to ti
 
 # Netlify
 
+# See also
+
+[[Static website generators]]

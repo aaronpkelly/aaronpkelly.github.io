@@ -33,3 +33,9 @@ https://wormhole.app/
 
 # See also
 [[BTFS]] - downloads torrents only as you need them
+
+https://unblockit.day/ - access blocked sites
+
+https://pirates-forum.org/Forum-Site-Issues - pirate bay forum
+
+http://torrentfreak.com/

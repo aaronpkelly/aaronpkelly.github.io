@@ -74,11 +74,14 @@ These tools in this list probably belong in their own sections:
 - xz - lossless compression program based on LZMA/LZMA2 compression algorithms
 ~ ack
 ~ ag
-~ entr: http://eradman.com/entrproject/
+
 
 # Disk usage analysers
-- baobab (Linux)
-- spacesniffer (Windows).
+- Linux
+	- baobab
+	- [dust](https://github.com/bootandy/dust) / ncdu
+- windows
+	- spacesniffer (Windows).
 
 more Linux alternatives can be found here: https://www.how2shout.com/tools/best-disk-usage-analyzer-tools-for-linux-system.html
 

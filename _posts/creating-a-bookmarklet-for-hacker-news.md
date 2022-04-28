@@ -111,3 +111,9 @@ javascript: var TIMER_WAIT = 1000; var timer = 0; javascript: var list = documen
 ```
 
 Note: Open your console to see the hackernews username of the commenter being collapsed as it happens. If your internet connection is faster than mine, you can even try reducing the value of the `TIMER` variable to collapse comments faster - just make sure your not receving any request timeouts, otherwise the comment won't be collapsed.
+
+# see also
+
+[[Misc scripts, tampermonkey scripts,  and bookmarklets]]
+
+https://haxplore.com/ - a website which allows you to browse comments similarly to what i'm trying to achieve here

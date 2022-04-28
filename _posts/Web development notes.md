@@ -102,8 +102,9 @@ https://www.mycompiler.io/ - didn't load
 
 ## HTTPRequest testing
 
-https://httpbin.org/ - UNREAL - does everything?
-http://ptsv2.com/ - POST and GET test server
+- https://httpbin.org/ - UNREAL - does everything?
+- http://ptsv2.com/ - # **Hen**ry's **Po**st **Te**st **Se**rver **V**2
+	- here's my dumps: https://ptsv2.com/t/agx5a-1643674954
 
 
 ## notebooks

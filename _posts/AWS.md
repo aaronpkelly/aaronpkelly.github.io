@@ -36,3 +36,5 @@ Blob storage mainly:
 [Static website hosting](Static%20website%20hosting.md)
 
 [Sending notifications to Telegram using AWS Cloudwatch](Sending%20notifications%20to%20Telegram%20using%20AWS%20Cloudwatch.md)
+
+[AWS well architected framework](AWS%20well%20architected%20framework.md)

@@ -7,18 +7,30 @@ tags:
 ---
 
 # Running GeForce Now on Linux
-## ChromeOS - the best option
+
+##  use the electron app for linux
+
+- https://github.com/hmlendea/gfn-electron
+- https://flathub.org/apps/details/io.github.hmlendea.geforcenow-electron
+
+Then:
+
+	flatpak install flathub io.github.hmlendea.geforcenow-electroncontent_copy
+	flatpak run io.github.hmlendea.geforcenow-electron
+
+## chromium (deprecated) - it was the best option (user-agent method dead as of April 2022)
+
 They just released GeForce Now for Chromebooks (ChromeOS).
 
-Just change your user agent in Chrome to `Chrome OS` and you can play on any Chrome browser!
+Just change your user agent in Chrome to `Chrome OS` and you can play on any Chrome browser! _Menu > More tools > Developer tools > Menu > More tools > Network conditions > Untick Use browser default > Select `Chrome - Chrome OS`_.
 
-You can also set it permanently by starting chrome with the `--user-agent` parameter, and the user agent string for Chrome os, which is `Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36`:
+It should have a value equal to this:
 
-```
-chrome --user-agent='Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36'
-```
+	Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
 
-
+You can also set it permanently by starting chrome with the `--user-agent` parameter:	
+	
+	chrome --user-agent='Mozilla/5.0 (X11; CrOS x86_64 10066.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36'
 
 # Emulation
 See [[running android apps on Linux]]

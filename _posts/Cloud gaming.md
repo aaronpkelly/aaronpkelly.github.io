@@ -55,6 +55,19 @@ If starting the 7 day trail, it needs to be activated via the PS Store, you also
 List of all PS Now games: https://www.playstation.com/en-us/ps-now/ps-now-games/#all-ps-now-games
 
 # XBOX
+
+## XBOX Cloud Gaming (NEED CONTROLLER CONNECTED)
+
+XBOX Game Pass for PC Ultimate subscription:
+- €12.99 / month
+- you can play through your browser: https://www.xbox.com/en-ie/play
+
+PC Game Pass
+- €9.99 / month
+- I'm not sure if you can play in your chrome browser
+
+NOTE: MAKE SURE you have a controller connected before you launch the site
+
 ## XBOX Game Pass for PC
 It's an app, you download the games and play on a PC:
 - https://en.wikipedia.org/wiki/Xbox_Game_Pass

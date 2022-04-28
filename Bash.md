@@ -1,3 +1,28 @@
+# golden rules
+
+[https://lobste.rs/s/iofste/please_stop_writing_shell_scripts](https://lobste.rs/s/iofste/please_stop_writing_shell_scripts)  
+
+  
+
+    Always use #!/usr/bin/env bash at the beginning of your scripts (change if you need something else, don’t rely on a particular path to bash though).  
+
+    Always add set -eou pipefail after that.  
+
+    Always run shellcheck.  
+
+    Always run shfmt.  
+
+    Always pay attention to what version of bash you need to support, and don’t go crazy with “new” features unless you can get teammates to upgrade (this is particularly annoying because Apple ships an older version of bash without things like associative arrays).  
+
+    Always use the local storage qualifier when declaring variables in a function.  
+
+    As much as possible, declare things in functions and then at the end of your script kick them all off.  
+
+    Don’t use bash for heavy-duty hierarchical data munging…at that point consider switching languages.  
+
+    Don’t assume that a bashism is more-broadly acceptable. If you need to support vanilla sh, then do the work.
+
+
 # Use shellcheck!
 
 Paste your script in here: https://www.shellcheck.net/

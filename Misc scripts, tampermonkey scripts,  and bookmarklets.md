@@ -1,3 +1,8 @@
+TODO:
+- Should some of these fancier scripts not be separate blog posts?
+- should these scripts not be added to your personal nix configs?
+- should bookmarklets become tampermonkey scripts and uploaded to gist? yes
+
 # Migrating all my git repos to git.sr.ht
 
 For a long time I've wanted to move all of my operatins to https://sourcehut.org/, I just really like the site.
@@ -166,3 +171,20 @@ for i in $(seq $BUILD_NUM_START $BUILD_NUM_END); do
 	curl -L "${MANIFEST}/${i}/manifest" -o "${i}_manifest"
 done
 ```
+
+# tampermonkey scripts and bookmarklets
+
+you should just turn all bookmarklets into tampermonkey scripts and upload them to github gist, there are many benefits like if the script is updated on github you can get the update
+
+
+## BIONIFY_PAGE
+
+https://gist.github.com/aaronpkelly/44c5c94d0c44d66fe67fec11f8ab46be
+
+inspired by https://news.ycombinator.com/item?id=30787290
+
+## HN_AVATAR
+
+https://gist.github.com/aaronpkelly/9f5687f14cec93123d6cf4bf4378b3b9
+
+inspired by https://news.ycombinator.com/item?id=30668137

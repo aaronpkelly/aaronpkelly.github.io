@@ -64,6 +64,30 @@ docker -H tcp://0.0.0.0:2375 ps
 
 see https://docs.docker.com/engine/reference/commandline/dockerd/
 
+# best practices for building images
+
+## the quest for building minimal docker images
+
+great tips for writing docker files
+
+and using nix to finally build images seems to be the winner
+
+- https://jpetazzo.github.io/2020/02/01/quest-minimal-docker-images-part-1/
+- https://jpetazzo.github.io/2020/03/01/quest-minimal-docker-images-part-2/
+- https://jpetazzo.github.io/2020/04/01/quest-minimal-docker-images-part-3/
+
+### docker dive
+
+https://github.com/wagoodman/dive
+
+### docker slim
+
+https://dockersl.im/
+
+docker slim is a minifyer, and is very good, but how it works is a bit magic... and sometimes (rarely?) the resulting image is broken
+
+I think using nixos to build the image is still the winner
+
  # See also
 [[Containers]]
 
