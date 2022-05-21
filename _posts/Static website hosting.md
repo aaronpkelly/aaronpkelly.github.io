@@ -53,7 +53,8 @@ I have a bunch of other pet projects that I occasionally work on from time to ti
 [Timeliner](http://app-timeliner.s3-website-eu-west-1.amazonaws.com/)
 
 # Digital Ocean
-[[DigitalOcean notes]] - they offer 'App Platform' for automated static and dynamic webapp hosting
+
+They offer 'App Platform' for automated static and dynamic webapp hosting. See [DigitalOcean notes](DigitalOcean%20notes.md)
 
 # Github pages
 

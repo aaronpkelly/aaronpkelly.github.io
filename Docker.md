@@ -68,9 +68,13 @@ see https://docs.docker.com/engine/reference/commandline/dockerd/
 
 ## the quest for building minimal docker images
 
-great tips for writing docker files
+### Optimising Dockerfile instructions (using scratch)
 
-and using nix to finally build images seems to be the winner
+This guy builds a tiny web server: https://lipanski.com/posts/smallest-docker-image-static-website
+
+### Using nix to build images
+
+ This method seems to be the winner
 
 - https://jpetazzo.github.io/2020/02/01/quest-minimal-docker-images-part-1/
 - https://jpetazzo.github.io/2020/03/01/quest-minimal-docker-images-part-2/

@@ -1,12 +1,17 @@
 # Torrenting basics
 
-Start at https://pirateproxy.ch/ and choose a mirror
+- go to https://yts.mx/ or http://proxybay.github.io/ (choose a mirror)
+- search for something you want
+- copy the magnet link of the torrent
+- use an online seedbox service to stream/download your torrent
 
-Use an online seedbox service to stream/download your torrent
-
-Alternatively use a binary to do it:
+Alternatively, if you don't want to use a seedbox, you can use a program on your machine to do it, but your ISP may be able to detect what you're doing: 
 - rtorrent (linux)
 - qbittorrent (windows)
+
+# any other good torrent sites?
+
+https://torrentfreak.com/top-torrent-sites/
 
 ## magazines
 
@@ -21,17 +26,8 @@ A seedbox service which accepts a magnet/torrent link, downloads the media you
 requested, then lets you watch/stream it through the browser. No need to
 download anything.
 
-# p2p file transfer services
-
-https://file.pizza
-
-https://instant.io
-
-https://www.sharedrop.io 
-
-https://wormhole.app/
-
 # See also
+
 [[BTFS]] - downloads torrents only as you need them
 
 https://unblockit.day/ - access blocked sites

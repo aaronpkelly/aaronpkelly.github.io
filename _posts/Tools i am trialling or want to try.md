@@ -11,20 +11,6 @@
 
 https://imagemagick.org/
 
-# secure file sending programs
-https://send.firefox.com/
-
-https://www.sendsafely.com/
-
-https://github.com/warner/magic-wormhole
-
-https://webwormhole.io/ (magic wormhole over WebRTC!)
-
-# insecure file transfer utilities
-
-https://wetransfer.com/ (not E2E)
-
-
 
 # utilities
 diffuse - http://diffuse.sourceforge.net/about.html

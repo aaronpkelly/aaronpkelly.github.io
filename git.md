@@ -134,3 +134,9 @@ https://nvie.com/posts/a-successful-git-branching-model/
 ## rebase vs merge
 
 https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing
+
+## how to write a git commit message
+
+- https://news.ycombinator.com/item?id=31173484
+	- https://www.conventionalcommits.org/en/v1.0.0/
+	- https://github.com/semantic-release/semantic-release

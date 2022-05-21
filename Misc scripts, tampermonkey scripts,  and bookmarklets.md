@@ -1,6 +1,6 @@
 TODO:
-- Should some of these fancier scripts not be separate blog posts?
-- should these scripts not be added to your personal nix configs?
+- all these scripts should be in your .nix files
+- fancier scripts not be separate blog posts
 - should bookmarklets become tampermonkey scripts and uploaded to gist? yes
 
 # Migrating all my git repos to git.sr.ht
@@ -188,3 +188,8 @@ inspired by https://news.ycombinator.com/item?id=30787290
 https://gist.github.com/aaronpkelly/9f5687f14cec93123d6cf4bf4378b3b9
 
 inspired by https://news.ycombinator.com/item?id=30668137
+
+# See also
+
+https://git.sr.ht/~aaronkelly/hn-favourites-manager
+- inspired by getHNFavorites.js in [Show HN: Export HN Favorites to a CSV File](https://news.ycombinator.com/item?id=22788236)

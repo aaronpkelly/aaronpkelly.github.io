@@ -7,3 +7,7 @@ https://legiblenews.com/
 https://en.wikipedia.org/wiki/Portal:Current_events
 
 https://en.wikipedia.org/wiki/2021_in_science
+
+# see also
+
+[Slow movement](Slow%20movement.md)

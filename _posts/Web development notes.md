@@ -10,6 +10,7 @@ categories:
 
 ## Keep in mind
 - frameworks come and go - but vanilla javascript is here to stay!
+	- http://youmightnotneedjs.com/
 
 ## Zero-cost hosting
 - the best website is a static website 

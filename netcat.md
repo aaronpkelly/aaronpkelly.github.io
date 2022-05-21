@@ -20,10 +20,4 @@ for multiple files
 	
 # see also
 
-https://en.wikipedia.org/wiki/Netcat
-
-https://github.com/yggdrasil-network/yggdrasil-go
-
-https://github.com/schollz/croc
-
-https://github.com/magic-wormhole/magic-wormhole
+[[File sending services]]

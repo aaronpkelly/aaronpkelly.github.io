@@ -19,6 +19,7 @@ First impressions very good
 + helpful documentation
 + ready-to-deploy custom images!
 - no free plan
+	- although in May 2022 they introduced a $4 droplet - not bad
 
 # A test deployment
 
