@@ -23,3 +23,7 @@ _content type_ which messes up blogtrottr.
 For this, I use a feed cleaner: http://feedcleaner.nick.pro/
 
 You can then subscribe to the new URL that the site generates
+
+# best practices
+
+https://news.ycombinator.com/item?id=31293488&utm_term=comment

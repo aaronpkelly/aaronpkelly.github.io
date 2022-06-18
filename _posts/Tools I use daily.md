@@ -12,7 +12,10 @@ The following are everyday computing tools i use (or really want to believe I do
 
 This post will be frequently updated as I discover new tools to supplant existing ones, or revert back to a trusted tool after getting far too carried away on the hype train.
 
-A lot of these tools have been found via a combination of searching on https://news.ycombinator.com/, and using https://alternativeto.net/.
+A lot of these tools have been found via a combination of:
+- reading articles on  https://news.ycombinator.com/
+- searching on https://alternativeto.net/
+- looking at https://github.com/ibraheemdev/modern-unix
 
 # legend
 ~ : in danger of being removed due to non-use
@@ -79,7 +82,7 @@ These tools in this list probably belong in their own sections:
 # Disk usage analysers
 - Linux
 	- baobab
-	- [dust](https://github.com/bootandy/dust) / ncdu
+	- [dust](https://github.com/bootandy/dust) (ncdu is also great)
 - windows
 	- spacesniffer (Windows).
 

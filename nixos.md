@@ -711,6 +711,10 @@ nixos-rebuild switch --upgrade
 
 see https://nixos.org/manual/nixos/stable/index.html#sec-upgrading
 
+# frame.work laptop
+
+http://kvark.github.io/linux/framework/2021/10/17/framework-nixos.html
+
 # see also
 
 a gred nixos playlist on youtube (thank you Fred): https://www.youtube.com/playlist?list=PLRGI9KQ3_HP_OFRG6R-p4iFgMSK1t5BHs
@@ -742,6 +746,8 @@ https://search.nixos.org/flakes nixos flakes search
 This guy has a great series of blog posts on Nix+NixOS: https://myme.no/posts.html, such as:
 
 - https://myme.no/posts/2020-01-26-nixos-for-development.html - nixos for development, great intro guide
+
+There's also this OTHER guy that has a great website on learning nix: https://ianthehenry.com/posts/how-to-learn-nix/
 
 There's also these, which are slightly more intermediate:
 

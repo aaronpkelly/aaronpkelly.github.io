@@ -17,7 +17,7 @@ diffuse - http://diffuse.sourceforge.net/about.html
 
 bat - https://github.com/sharkdp/bat/
 
-entr: http://eradman.com/entrproject/
+entr - run a command when a file changes: http://eradman.com/entrproject/
 
 everything (windows) - https://www.voidtools.com/
 
