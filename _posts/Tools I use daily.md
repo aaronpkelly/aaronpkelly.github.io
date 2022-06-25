@@ -7,18 +7,20 @@ tags:
   - developer
 ---
 
-# Tools I use
+# Tools I use daily
+
 The following are everyday computing tools i use (or really want to believe I do) to maximise productivity, and get the most amount of enjoyment I can out of the system I'm using.
 
-This post will be frequently updated as I discover new tools to supplant existing ones, or revert back to a trusted tool after getting far too carried away on the hype train.
+If you want the most accurate picture of what I'm using today - the easiest way to do that is to look at what packages I have installed in my Nix home-manager configuration: https://git.sr.ht/~aaronkelly/configfiles/tree/master/item/nixos/nixpkgs/home.nix
+
+However, I created this post to talk about these tools in general, and hopefully it will be updated as I discover new tools to supplant existing ones, or revert back to a trusted tool after getting far too carried away on the hype train.
 
 A lot of these tools have been found via a combination of:
 - reading articles on  https://news.ycombinator.com/
 - searching on https://alternativeto.net/
 - looking at https://github.com/ibraheemdev/modern-unix
 
-# legend
-~ : in danger of being removed due to non-use
+Note: anything marked with `~` is in danger of being removed, as it's not being used daily
 
 # audio
 
@@ -114,7 +116,10 @@ MX Linux, [[searching-for-my-container-os|FedoraCoreOS]], Alpine Linux and Windo
 - hwinfo
 - powertop: battery power consumption and management tool
 
+# web browsers
 
+- firefox
+- links
 
 # Windows (TODO: organise by category instead of OS)
 

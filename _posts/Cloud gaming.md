@@ -25,6 +25,7 @@ amazon's own cloud gaming service - similar to ec2gaming
 
 
 # Google Stadia
+
 + streams through a browser, no downloads
 + technology worked flawlessly for me
 - few games, developers have no incentive to add their games here
@@ -42,8 +43,11 @@ I've tried this service on Windows and it's fantastic:
 # Playstation Now for PC
 + streaming client, no downloads
 + subscription service gives instant access to library
-+ works on shadow.tech / paperspace
++ works on Lutris for linux (see instructions below)
+	+ but of course you can play it on a VM (shadow.tech / paperspace)
 + don't need to own a PS, just need a DualShock controller and a PS account
+
+Cons:
 - need a DualShock controller connected
 - client is PC only
 - starting trial is confusing
@@ -54,45 +58,71 @@ If starting the 7 day trail, it needs to be activated via the PS Store, you also
 
 List of all PS Now games: https://www.playstation.com/en-us/ps-now/ps-now-games/#all-ps-now-games
 
+## Lutris installation instructions - NOTE: June 18 2022 cannot run :(
+
+Currently you DO need to install the Wine Runner manually.
+
+Do follow the instructions at https://lutris.net/games/playstation-now/ because they may be updated, but here's a script:
+
+E.g.:
+
+	curl -LO https://github.com/GloriousEggroll/proton-ge-custom/releases/download/6.21-GE-2/Proton-6.21-GE-2.tar.gz && \
+	tar xvf Proton-6.21-GE-2.tar.gz -C ~/.local/share/lutris/runners/wine/ && \
+	mv ~/.local/share/lutris/runners/wine/Proton-6.21-GE-2/files/* ~/.local/share/lutris/runners/wine/Proton-6.21-GE-2
+
+
+
+
 # XBOX
 
-## XBOX Cloud Gaming (NEED CONTROLLER CONNECTED)
+## "XBox Game Pass" subscription model
 
-XBOX Game Pass for PC Ultimate subscription:
-- €12.99 / month
-- you can play through your browser: https://www.xbox.com/en-ie/play
+There's 3 tiers/services:
+- Console (need XBox console-only, gives you access to free games)
+- PC (PC app, need to download)
+- Ultimate (cloud gaming - stream games!)
 
-PC Game Pass
-- €9.99 / month
-- I'm not sure if you can play in your chrome browser
+List of games (PC Games via PC Games Pass, Console games via ULTIMATE pass: https://www.trueachievements.com/Xbox-Game-Pass/Games)
 
-NOTE: MAKE SURE you have a controller connected before you launch the site
+### Console
 
-## XBOX Game Pass for PC
-It's an app, you download the games and play on a PC:
-- https://en.wikipedia.org/wiki/Xbox_Game_Pass
-- https://www.xbox.com/en-US/xbox-game-pass/pc-games
+Who cares
 
+### PC
+
+It's called the "PC Game Pass"
+
+Uses the "Xbox app" (XboxInstaller.exe) to access the service
+
+List of games: https://www.xbox.com/en-US/xbox-game-pass/games (lists both console (via XBOX Cloud Gaming) and PC games)
+
+Pros:
+- first 3 months €1, then €9.99/month 
 + PC subscription service gives access to large library
++ free access to the EA Play service (and all their games)
 + has access to games that you can't get anywhere else, like MS Flight Simulator
++ the Xbox app can also be used to stream console games from the XBOX Cloud Gaming service
+
+Cons:
 - non-streaming client, have to download games
 - client is PC only
 - doesn't work on fucking PAPERSPACE, because my desktop is running Microsoft Windows Server 2016 Datacenter version `10.0.14393 Build 14393`, and the app detects that its build `1607`, but the XBOX installer knows that build `1909` is available
 
-full list of games: https://www.trueachievements.com/Xbox-Game-Pass/Games
+Cons:
+- It's not a browser app
 
-## XBox Cloud Gaming (formerly project XCloud)
+### ULTIMATE
 
-It's a streaming client
+NOW WE'RE TALKING
 
-+ streaming!
-+ Windows 10 client via browser app in "early 2021".
-+ Invite-only beta for Windows 10 + iOs devices started April 2021
-- currently android phones/tablets only
+- gets you access to XBOX Cloud Gaming (Beta) service (play console games in browser)
+	- NEED CONTROLLER CONNECTED before you launch the site for the damn thing to work
+- Xbox Game Pass Ultimate membership
+	- XBOX Game Pass for PC Ultimate subscription:
+	- €12.99 / month
+	- you can play through your browser: https://www.xbox.com/en-ie/play
 
-https://en.wikipedia.org/wiki/XCloud
 
-full list of supported games: https://www.trueachievements.com/xcloud/games
 
 # Cloud PCs for gaming
 ## Shadow

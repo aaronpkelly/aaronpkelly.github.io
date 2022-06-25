@@ -27,7 +27,9 @@ rga - it's ripgrep - but also search in PDFs, E-Books, Office documents, zip, ta
 
 zipgrep - search inside zip archives!
 
+# web browsers
 
+- w3m
 
 # others
 

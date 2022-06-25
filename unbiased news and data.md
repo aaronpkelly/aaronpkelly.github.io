@@ -13,3 +13,7 @@ who have a great filter for center/mixed news sources: https://www.allsides.com/
 https://ourworldindata.org/
 
 https://www.who.int/data/gho/data/indicators/indicator-details/GHO/alcohol-recorded-per-capita-(15-)-consumption-(in-litres-of-pure-alcohol)
+
+# see also
+
+[news (lite sources)](news%20(lite%20sources).md)

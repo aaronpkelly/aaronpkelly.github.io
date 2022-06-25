@@ -1,3 +1,9 @@
+# floating windows
+
+it works the same as i3: `mod + shift + space`
+
+# taking screenshots
+
 screenshots (https://jolyonbrown.com/post/sway-screenshots/):
 
 	#!/bin/bash
