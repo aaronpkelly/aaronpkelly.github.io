@@ -16,4 +16,4 @@ although this is Cork County Council, the map alerts work for Kildare!: http://m
 
 not Kildare but you can search planning applications: https://www.pleanala.ie/
 
-[maps](maps.md)
+[202207061520 maps](202207061520%20maps.md)

@@ -1,3 +1,5 @@
+Tags: #softwaredev #sre
+
 # Software development at google
 
 First I saw this: https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/
@@ -8,6 +10,6 @@ I then found this: https://github.com/jhuangtw/xg2xg
 
 There's also a paper - maybe it's where it all started?: https://arxiv.org/ftp/arxiv/papers/1702/1702.01715.pdf
 
-# site reliability engineering at google
+# site reliability engineering
 
-https://github.com/captn3m0/google-sre-ebook
+3 SRE books are free to read online on this webpage: https://sre.google/books/

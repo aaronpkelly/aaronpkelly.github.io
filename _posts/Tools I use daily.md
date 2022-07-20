@@ -83,8 +83,9 @@ These tools in this list probably belong in their own sections:
 
 # Disk usage analysers
 - Linux
+	- [dust](https://github.com/bootandy/dust) - du + rust = dust. Like du but more intuitive
+	- [ncdu](https://dev.yorhel.nl/ncdu) - Disk usage analyzer with an ncurses interface
 	- baobab
-	- [dust](https://github.com/bootandy/dust) (ncdu is also great)
 - windows
 	- spacesniffer (Windows).
 
