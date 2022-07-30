@@ -17,18 +17,18 @@ Blob storage mainly:
 
 [AWS Fargate tips](AWS%20Fargate%20tips.md)
 
-[AWS Codebuild tips](AWS%20Codebuild%20tips.md)
+[AWS Codebuild tips]({% post_url 2020-05-31-AWS-Codebuild-tips %})
 
-[AWS Cloudformation tips](AWS%20Cloudformation%20tips.md)
+[AWS Cloudformation tips]({% post_url 2020-05-31-AWS-Cloudformation-tips %})
 
-[Deploying a docker image to AWS ECS](Deploying%20a%20docker%20image%20to%20AWS%20ECS.md)
+[Deploying a docker image to AWS ECS]({% post_url 2020-05-31-Deploying-a-docker-image-to-AWS-ECS %})
 
-[SSHing into an AWS Fargate container](SSHing%20into%20an%20AWS%20Fargate%20container.md)
+[SSHing into an AWS Fargate container]({% post_url 2020-05-31-SSHing-into-an-AWS-Fargate-container %})
 
-[Contacting an external API using AWS Lambda](Contacting%20an%20external%20API%20using%20AWS%20Lambda.md)
+[Contacting an external API using AWS Lambda]({% post_url 2020-05-31-Contacting-an-external-API-using-AWS-Lambda %})
 
-[Static website hosting](Static%20website%20hosting.md)
+[Static website hosting]({% post_url 2020-05-31-Static-website-hosting %})
 
-[Sending notifications to Telegram using AWS Cloudwatch](Sending%20notifications%20to%20Telegram%20using%20AWS%20Cloudwatch.md)
+[Sending notifications to Telegram using AWS Cloudwatch]({% post_url 2020-05-31-Sending-notifications-to-Telegram-using-AWS-Cloudwatch %})
 
 [202207080045 AWS well architected framework](202207080045%20AWS%20well%20architected%20framework.md)

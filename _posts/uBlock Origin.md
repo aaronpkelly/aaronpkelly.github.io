@@ -16,7 +16,7 @@ set everything set to nightmare mode
 
 # filter lists
 
-see [Blocking ads and unwanted internet traffic](Blocking%20ads%20and%20unwanted%20internet%20traffic.md)
+see [Blocking ads and unwanted internet traffic]({% post_url 2020-01-06-Blocking-ads-and-unwanted-internet-traffic %})
 
 # shortcuts
 
