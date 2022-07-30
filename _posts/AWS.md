@@ -1,10 +1,4 @@
----
-title: AWS
-description: AWS
-date: 2020-05-31
-tags:
-  - aws
----
+tags: #publish #aws
 
 # AWS
 This post will deal with general AWS stuff that I've learned and experienced that doesn't fit into a specific AWS article. It will also link to my other AWS articles.

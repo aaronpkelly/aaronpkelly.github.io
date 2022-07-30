@@ -1,4 +1,9 @@
-blog: https://aaronpkelly.github.io/
+blogs:
+
+- https://aaronpkelly.github.io/
+	- publishes using Dockerfile
+- https://aaron.prose.sh
+	- publishes using publish.go
 
 mailing list: https://lists.sr.ht/~aaronkelly/aaronpkelly.github.io-discuss
 
